@@ -805,33 +805,62 @@ window.renderAchievementsScreen = function() {
     console.log(`  - Unlocked: ${isUnlocked}, Progress: ${progress.current}/${progress.target}`);
 
     const card = document.createElement('div');
-    card.className = `achievement-card p-4 rounded-lg border-2 ${
+    card.className = `achievement-card relative p-4 rounded-xl border-2 transition-all duration-300 hover:scale-105 hover:shadow-xl ${
       isUnlocked
-        ? 'bg-gradient-to-br from-green-500 to-green-600 border-green-400'
-        : 'bg-gray-700 border-gray-600'
-    } ${isRecent ? 'recent' : ''}`;
+        ? 'bg-gradient-to-br from-yellow-400 via-orange-500 to-red-500 border-yellow-300 text-white shadow-lg'
+        : 'bg-gradient-to-br from-gray-800 to-gray-900 border-gray-700 text-gray-300 opacity-75'
+    } ${isRecent ? 'animate-pulse' : ''}`;
 
     const name = achievement.name[lang] || achievement.name.en;
     const description = achievement.description[lang] || achievement.description.en;
 
     card.innerHTML = `
+      ${isUnlocked ? `
+        <div class="absolute top-0 right-0 -mt-2 -mr-2">
+          <div class="bg-green-500 text-white rounded-full p-1 shadow-lg">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+        </div>
+      ` : ''}
+
       <div class="text-center">
-        <div class="text-4xl mb-2">${achievement.emoji}</div>
-        <h3 class="font-bold text-lg mb-1">${name}</h3>
-        <p class="text-sm mb-3 opacity-90">${description}</p>
-        ${!isUnlocked ? `
-          <div class="mb-2">
-            <div class="w-full h-2 bg-gray-800 rounded-full overflow-hidden">
-              <div class="h-full bg-blue-500 rounded-full transition-all duration-300"
-                   style="width: ${(progress.current / progress.target) * 100}%"></div>
+        <div class="relative inline-block mb-3">
+          <div class="text-5xl ${isUnlocked ? 'animate-bounce' : ''}">${achievement.emoji}</div>
+          ${isUnlocked ? `
+            <div class="absolute -bottom-1 -right-1">
+              <div class="bg-yellow-400 rounded-full p-1">
+                <span class="text-xs font-bold text-gray-900">⭐</span>
+              </div>
             </div>
-            <p class="text-xs mt-1">${progress.current}/${progress.target}</p>
+          ` : ''}
+        </div>
+
+        <h3 class="font-bold text-lg mb-2 ${isUnlocked ? 'text-white' : 'text-gray-100'}">${name}</h3>
+        <p class="text-sm mb-3 ${isUnlocked ? 'text-yellow-100' : 'text-gray-400'} px-2">${description}</p>
+
+        ${!isUnlocked ? `
+          <div class="mb-3 px-3">
+            <div class="relative w-full h-3 bg-gray-700 rounded-full overflow-hidden">
+              <div class="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full transition-all duration-500 ease-out"
+                   style="width: ${(progress.current / progress.target) * 100}%"></div>
+              <div class="absolute inset-0 flex items-center justify-center">
+                <span class="text-xs font-bold text-white drop-shadow">${Math.floor((progress.current / progress.target) * 100)}%</span>
+              </div>
+            </div>
+            <p class="text-xs mt-1 text-gray-400">${progress.current}/${progress.target}</p>
           </div>
         ` : ''}
-        <p class="font-semibold text-sm">
-          ${isUnlocked ? '✓ UNLOCKED' : '🔒 Locked'}
-          <span class="ml-2">+${achievement.reward}💎</span>
-        </p>
+
+        <div class="flex items-center justify-center gap-3 mt-2">
+          <span class="font-bold text-sm ${isUnlocked ? 'text-yellow-200' : 'text-gray-500'}">
+            ${isUnlocked ? '🏆 UNLOCKED' : '🔒 Locked'}
+          </span>
+          <span class="bg-purple-600 text-white px-2 py-1 rounded-full text-xs font-bold shadow">
+            +${achievement.reward}💎
+          </span>
+        </div>
       </div>
     `;
 
@@ -848,11 +877,29 @@ window.filterAchievements = function(filter) {
   const unlocked = getUnlockedAchievements();
   const cards = document.querySelectorAll('.achievement-card');
 
-  // Update active filter button
+  // Update active filter button styling
   document.querySelectorAll('.achievement-filter').forEach(btn => {
-    btn.classList.remove('active');
-    if (btn.dataset.filter === filter) {
+    const isActive = btn.dataset.filter === filter;
+    if (isActive) {
       btn.classList.add('active');
+      btn.classList.remove('from-gray-600', 'to-gray-700');
+      btn.classList.add('from-blue-600', 'to-purple-600');
+    } else {
+      btn.classList.remove('active');
+      btn.classList.remove('from-blue-600', 'to-purple-600');
+      btn.classList.add('from-gray-600', 'to-gray-700');
+    }
+
+    // Update inner gradient as well
+    const innerGradient = btn.querySelector('div.absolute');
+    if (innerGradient) {
+      if (isActive) {
+        innerGradient.classList.remove('from-gray-600', 'to-gray-700');
+        innerGradient.classList.add('from-blue-600', 'to-purple-600');
+      } else {
+        innerGradient.classList.remove('from-blue-600', 'to-purple-600');
+        innerGradient.classList.add('from-gray-600', 'to-gray-700');
+      }
     }
   });
 
