@@ -1,859 +1,1657 @@
-// Dinosaur Fossils Quiz - Level 9: Expert Level Concepts
+// Dinosaur Fossils Quiz - Level 9
 (function() {
   const level9 = {
     name: {
-      en: "Dinosaur Fossils Level 9",
-      es: "Fosiles de Dinosaurios Nivel 9",
-      de: "Dinosaurier Fossilien Stufe 9",
-      nl: "Dino Fossielen Level 9"
+          "en": "Dinosaur Fossils Level 9",
+          "es": "Fosiles de Dinosaurios Nivel 9",
+          "de": "Dinosaurier Fossilien Stufe 9",
+          "nl": "Dino Fossielen Level 9"
     },
     questions: [
       {
         question: {
-          en: "What evidence supports the hypothesis that some theropod dinosaurs were endothermic?",
-          es: "¿Qué evidencia apoya la hipótesis de que algunos dinosaurios terópodos eran endotérmicos?",
-          de: "Welche Belege unterstützen die Hypothese, dass einige Theropoden-Dinosaurier endotherm waren?",
-          nl: "Welk bewijs ondersteunt de hypothese dat sommige theropode dinosaurussen endotherm waren?"
+                  "en": "What evidence supports the hypothesis that some theropod dinosaurs were endothermic?",
+                  "es": "¿Qué evidencia apoya la hipótesis de que algunos dinosaurios terópodos eran endotérmicos?",
+                  "de": "Welche Belege unterstützen die Hypothese, dass einige Theropoden-Dinosaurier endotherm waren?",
+                  "nl": "Welk bewijs ondersteunt de hypothese dat sommige theropode dinosaurussen endotherm waren?"
         },
         options: [
-          { en: "Bone histology showing rapid growth rates and dense vascularization", es: "Histología ósea mostrando tasas de crecimiento rápido y vascularización densa", de: "Knochenhistologie mit schnellen Wachstumsraten und dichter Vaskularisierung", nl: "Bothistologie die snelle groeisnelheden en dichte vascularisatie toont" },
-          { en: "Presence of scales in all theropod fossils", es: "Presencia de escamas en todos los fósiles terópodos", de: "Vorhandensein von Schuppen in allen Theropoden-Fossilien", nl: "Aanwezigheid van schubben in alle theropode fossielen" },
-          { en: "Cold climate fossil distributions only", es: "Solo distribuciones de fósiles en clima frío", de: "Nur Fossilverteilungen in kaltem Klima", nl: "Alleen fossielverspreiding in koude klimaten" },
-          { en: "Large body size correlations exclusively", es: "Correlaciones de tamaño corporal grande exclusivamente", de: "Ausschließlich große Körpergrößen-Korrelationen", nl: "Uitsluitend grote lichaamsgrootte correlaties" }
+        {
+                  "en": "Bone histology showing rapid growth rates and dense vascularization",
+                  "es": "Histología ósea mostrando tasas de crecimiento rápido y vascularización densa",
+                  "de": "Knochenhistologie mit schnellen Wachstumsraten und dichter Vaskularisierung",
+                  "nl": "Bothistologie die snelle groeisnelheden en dichte vascularisatie toont"
+        },
+        {
+                  "en": "Presence of scales in all theropod fossils",
+                  "es": "Presencia de escamas en todos los fósiles terópodos",
+                  "de": "Vorhandensein von Schuppen in allen Theropoden-Fossilien",
+                  "nl": "Aanwezigheid van schubben in alle theropode fossielen"
+        },
+        {
+                  "en": "Cold climate fossil distributions only",
+                  "es": "Solo distribuciones de fósiles en clima frío",
+                  "de": "Nur Fossilverteilungen in kaltem Klima",
+                  "nl": "Alleen fossielverspreiding in koude klimaten"
+        },
+        {
+                  "en": "Large body size correlations exclusively",
+                  "es": "Correlaciones de tamaño corporal grande exclusivamente",
+                  "de": "Ausschließlich große Körpergrößen-Korrelationen",
+                  "nl": "Uitsluitend grote lichaamsgrootte correlaties"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Fibrolamellar bone tissue with extensive vascular canals indicates rapid, sustained growth typical of endothermic metabolism, supported by isotope analysis and predator-prey ratios suggesting high metabolic rates.",
-          es: "El tejido óseo fibrolaminar con canales vasculares extensos indica crecimiento rápido y sostenido típico del metabolismo endotérmico, apoyado por análisis de isótopos y proporciones depredador-presa que sugieren tasas metabólicas altas.",
-          de: "Fibrolamellares Knochengewebe mit extensiven Gefäßkanälen zeigt schnelles, anhaltendes Wachstum an, das typisch für endothermen Stoffwechsel ist, unterstützt durch Isotopenanalyse und Räuber-Beute-Verhältnisse, die hohe Stoffwechselraten nahelegen.",
-          nl: "Fibrolamellaire botweefsel met uitgebreide vasculaire kanalen duidt op snelle, aanhoudende groei typisch voor endotherme stofwisseling, ondersteund door isotopenanalyse en roofvier-prooi verhoudingen die hoge stofwisselingssnelheden suggereren."
+                  "en": "Fibrolamellar bone tissue with extensive vascular canals indicates rapid, sustained growth typical of endothermic metabolism, supported by isotope analysis and predator-prey ratios suggesting high metabolic rates.",
+                  "es": "El tejido óseo fibrolaminar con canales vasculares extensos indica crecimiento rápido y sostenido típico del metabolismo endotérmico, apoyado por análisis de isótopos y proporciones depredador-presa que sugieren tasas metabólicas altas.",
+                  "de": "Fibrolamellares Knochengewebe mit extensiven Gefäßkanälen zeigt schnelles, anhaltendes Wachstum an, das typisch für endothermen Stoffwechsel ist, unterstützt durch Isotopenanalyse und Räuber-Beute-Verhältnisse, die hohe Stoffwechselraten nahelegen.",
+                  "nl": "Fibrolamellaire botweefsel met uitgebreide vasculaire kanalen duidt op snelle, aanhoudende groei typisch voor endotherme stofwisseling, ondersteund door isotopenanalyse en roofvier-prooi verhoudingen die hoge stofwisselingssnelheden suggereren."
         }
       },
       {
         question: {
-          en: "What is the current controversy surrounding the Deccan Trap volcanism hypothesis for dinosaur extinction?",
-          es: "¿Cuál es la controversia actual en torno a la hipótesis del vulcanismo de las Traps del Deccan para la extinción de dinosaurios?",
-          de: "Was ist die aktuelle Kontroverse um die Deccan-Trap-Vulkanismus-Hypothese für das Dinosaurier-Aussterben?",
-          nl: "Wat is de huidige controverse rond de Deccan Trap vulkanisme hypothese voor dinosaurusuitsterven?"
+                  "en": "What is the current controversy surrounding the Deccan Trap volcanism hypothesis for dinosaur extinction?",
+                  "es": "¿Cuál es la controversia actual en torno a la hipótesis del vulcanismo de las Traps del Deccan para la extinción de dinosaurios?",
+                  "de": "Was ist die aktuelle Kontroverse um die Deccan-Trap-Vulkanismus-Hypothese für das Dinosaurier-Aussterben?",
+                  "nl": "Wat is de huidige controverse rond de Deccan Trap vulkanisme hypothese voor dinosaurusuitsterven?"
         },
         options: [
-          { en: "Timing of peak volcanism relative to the K-Pg boundary and cumulative environmental effects", es: "Cronología del pico volcánico relativo al límite K-Pg y efectos ambientales acumulativos", de: "Zeitpunkt des Vulkanismus-Höhepunkts relativ zur K-Pg-Grenze und kumulative Umwelteffekte", nl: "Timing van piek vulkanisme relatief aan de K-Pg grens en cumulatieve milieueffecten" },
-          { en: "Complete replacement of impact hypothesis", es: "Reemplazo completo de la hipótesis de impacto", de: "Vollständiger Ersatz der Einschlagshypothese", nl: "Volledige vervanging van impacthypothese" },
-          { en: "Evidence for single catastrophic eruption", es: "Evidencia de erupción catastrófica única", de: "Beweise für einen einzigen katastrophalen Ausbruch", nl: "Bewijs voor enkele catastrofale uitbarsting" },
-          { en: "Location of volcanic activity in Antarctica", es: "Ubicación de actividad volcánica en la Antártida", de: "Standort vulkanischer Aktivität in der Antarktis", nl: "Locatie van vulkanische activiteit in Antarctica" }
+        {
+                  "en": "Timing of peak volcanism relative to the K-Pg boundary and cumulative environmental effects",
+                  "es": "Cronología del pico volcánico relativo al límite K-Pg y efectos ambientales acumulativos",
+                  "de": "Zeitpunkt des Vulkanismus-Höhepunkts relativ zur K-Pg-Grenze und kumulative Umwelteffekte",
+                  "nl": "Timing van piek vulkanisme relatief aan de K-Pg grens en cumulatieve milieueffecten"
+        },
+        {
+                  "en": "Location of volcanic activity in Antarctica",
+                  "es": "Ubicación de actividad volcánica en la Antártida",
+                  "de": "Standort vulkanischer Aktivität in der Antarktis",
+                  "nl": "Locatie van vulkanische activiteit in Antarctica"
+        },
+        {
+                  "en": "Complete replacement of impact hypothesis",
+                  "es": "Reemplazo completo de la hipótesis de impacto",
+                  "de": "Vollständiger Ersatz der Einschlagshypothese",
+                  "nl": "Volledige vervanging van impacthypothese"
+        },
+        {
+                  "en": "Evidence for single catastrophic eruption",
+                  "es": "Evidencia de erupción catastrófica única",
+                  "de": "Beweise für einen einzigen katastrophalen Ausbruch",
+                  "nl": "Bewijs voor enkele catastrofale uitbarsting"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Current research examines whether Deccan Trap volcanism peaked before, during, or after the K-Pg boundary, with debate over whether gradual environmental degradation from volcanism predisposed ecosystems to collapse from the asteroid impact.",
-          es: "La investigación actual examina si el vulcanismo de las Traps del Deccan alcanzó su pico antes, durante o después del límite K-Pg, con debate sobre si la degradación ambiental gradual del vulcanismo predispuso a los ecosistemas al colapso del impacto de asteroide.",
-          de: "Aktuelle Forschung untersucht, ob der Deccan-Trap-Vulkanismus vor, während oder nach der K-Pg-Grenze seinen Höhepunkt erreichte, mit Debatte darüber, ob graduelle Umweltverschlechterung durch Vulkanismus Ökosysteme für den Kollaps durch Asteroideneinschlag prädisponierte.",
-          nl: "Huidig onderzoek onderzoekt of Deccan Trap vulkanisme piekte vóór, tijdens of na de K-Pg grens, met debat over of geleidelijke milieudegradatie door vulkanisme ecosystemen predisponeerde voor ineenstorting door asteroïde-impact."
+                  "en": "Current research examines whether Deccan Trap volcanism peaked before, during, or after the K-Pg boundary, with debate over whether gradual environmental degradation from volcanism predisposed ecosystems to collapse from the asteroid impact.",
+                  "es": "La investigación actual examina si el vulcanismo de las Traps del Deccan alcanzó su pico antes, durante o después del límite K-Pg, con debate sobre si la degradación ambiental gradual del vulcanismo predispuso a los ecosistemas al colapso del impacto de asteroide.",
+                  "de": "Aktuelle Forschung untersucht, ob der Deccan-Trap-Vulkanismus vor, während oder nach der K-Pg-Grenze seinen Höhepunkt erreichte, mit Debatte darüber, ob graduelle Umweltverschlechterung durch Vulkanismus Ökosysteme für den Kollaps durch Asteroideneinschlag prädisponierte.",
+                  "nl": "Huidig onderzoek onderzoekt of Deccan Trap vulkanisme piekte vóór, tijdens of na de K-Pg grens, met debat over of geleidelijke milieudegradatie door vulkanisme ecosystemen predisponeerde voor ineenstorting door asteroïde-impact."
         }
       },
       {
         question: {
-          en: "What does recent research on dinosaur protein sequences reveal about molecular preservation limits?",
-          es: "¿Qué revela la investigación reciente sobre secuencias de proteínas de dinosaurios sobre los límites de preservación molecular?",
-          de: "Was enthüllt neueste Forschung zu Dinosaurier-Proteinsequenzen über molekulare Erhaltungsgrenzen?",
-          nl: "Wat onthult recent onderzoek naar dinosaurusproteïnesequenties over moleculaire bewaringslimieten?"
+                  "en": "What does recent research on dinosaur protein sequences reveal about molecular preservation limits?",
+                  "es": "¿Qué revela la investigación reciente sobre secuencias de proteínas de dinosaurios sobre los límites de preservación molecular?",
+                  "de": "Was enthüllt neueste Forschung zu Dinosaurier-Proteinsequenzen über molekulare Erhaltungsgrenzen?",
+                  "nl": "Wat onthult recent onderzoek naar dinosaurusproteïnesequenties over moleculaire bewaringslimieten?"
         },
         options: [
-          { en: "Theoretical maximum preservation around 6.8 million years under optimal conditions", es: "Máximo teórico de preservación alrededor de 6.8 millones de años bajo condiciones óptimas", de: "Theoretisches Maximum der Erhaltung um 6,8 Millionen Jahre unter optimalen Bedingungen", nl: "Theoretisch maximum van bewaring rond 6,8 miljoen jaar onder optimale omstandigheden" },
-          { en: "Unlimited molecular preservation in all fossil types", es: "Preservación molecular ilimitada en todos los tipos de fósiles", de: "Unbegrenzte molekulare Erhaltung in allen Fossiltypen", nl: "Onbeperkte moleculaire bewaring in alle fossieltypes" },
-          { en: "Complete DNA sequences regularly recovered", es: "Secuencias de ADN completas recuperadas regularmente", de: "Vollständige DNA-Sequenzen regelmäßig wiederhergestellt", nl: "Complete DNA-sequenties regelmatig teruggewonnen" },
-          { en: "Only lipid molecules survive fossilization", es: "Solo moléculas lipídicas sobreviven la fosilización", de: "Nur Lipidmoleküle überleben die Fossilisation", nl: "Alleen lipidmoleculen overleven fossilisatie" }
+        {
+                  "en": "Theoretical maximum preservation around 6.8 million years under optimal conditions",
+                  "es": "Máximo teórico de preservación alrededor de 6.8 millones de años bajo condiciones óptimas",
+                  "de": "Theoretisches Maximum der Erhaltung um 6,8 Millionen Jahre unter optimalen Bedingungen",
+                  "nl": "Theoretisch maximum van bewaring rond 6,8 miljoen jaar onder optimale omstandigheden"
+        },
+        {
+                  "en": "Complete DNA sequences regularly recovered",
+                  "es": "Secuencias de ADN completas recuperadas regularmente",
+                  "de": "Vollständige DNA-Sequenzen regelmäßig wiederhergestellt",
+                  "nl": "Complete DNA-sequenties regelmatig teruggewonnen"
+        },
+        {
+                  "en": "Only lipid molecules survive fossilization",
+                  "es": "Solo moléculas lipídicas sobreviven la fosilización",
+                  "de": "Nur Lipidmoleküle überleben die Fossilisation",
+                  "nl": "Alleen lipidmoleculen overleven fossilisatie"
+        },
+        {
+                  "en": "Unlimited molecular preservation in all fossil types",
+                  "es": "Preservación molecular ilimitada en todos los tipos de fósiles",
+                  "de": "Unbegrenzte molekulare Erhaltung in allen Fossiltypen",
+                  "nl": "Onbeperkte moleculaire bewaring in alle fossieltypes"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Research on amino acid racemization and protein degradation kinetics suggests protein sequences can theoretically survive a maximum of ~6.8 million years under ideal preservation conditions, making 65+ million year old dinosaur proteins highly controversial.",
-          es: "La investigación sobre racemización de aminoácidos y cinética de degradación de proteínas sugiere que las secuencias de proteínas pueden teóricamente sobrevivir un máximo de ~6.8 millones de años bajo condiciones ideales de preservación, haciendo altamente controvertidas las proteínas de dinosaurios de 65+ millones de años.",
-          de: "Forschung zur Aminosäure-Racemisierung und Protein-Degradations-Kinetik legt nahe, dass Proteinsequenzen theoretisch maximal ~6,8 Millionen Jahre unter idealen Erhaltungsbedingungen überleben können, was 65+ Millionen Jahre alte Dinosaurier-Proteine höchst kontrovers macht.",
-          nl: "Onderzoek naar aminozuur-racemisatie en proteïne-afbraakkinetiek suggereert dat proteïnesequenties theoretisch maximaal ~6,8 miljoen jaar kunnen overleven onder ideale bewaringsomstandigheden, waardoor 65+ miljoen jaar oude dinosaurusproteïnes zeer controversieel zijn."
+                  "en": "Research on amino acid racemization and protein degradation kinetics suggests protein sequences can theoretically survive a maximum of ~6.8 million years under ideal preservation conditions, making 65+ million year old dinosaur proteins highly controversial.",
+                  "es": "La investigación sobre racemización de aminoácidos y cinética de degradación de proteínas sugiere que las secuencias de proteínas pueden teóricamente sobrevivir un máximo de ~6.8 millones de años bajo condiciones ideales de preservación, haciendo altamente controvertidas las proteínas de dinosaurios de 65+ millones de años.",
+                  "de": "Forschung zur Aminosäure-Racemisierung und Protein-Degradations-Kinetik legt nahe, dass Proteinsequenzen theoretisch maximal ~6,8 Millionen Jahre unter idealen Erhaltungsbedingungen überleben können, was 65+ Millionen Jahre alte Dinosaurier-Proteine höchst kontrovers macht.",
+                  "nl": "Onderzoek naar aminozuur-racemisatie en proteïne-afbraakkinetiek suggereert dat proteïnesequenties theoretisch maximaal ~6,8 miljoen jaar kunnen overleven onder ideale bewaringsomstandigheden, waardoor 65+ miljoen jaar oude dinosaurusproteïnes zeer controversieel zijn."
         }
       },
       {
         question: {
-          en: "What is the significance of the recent discovery of medullary bone in non-avian dinosaurs?",
-          es: "¿Cuál es la importancia del descubrimiento reciente de hueso medular en dinosaurios no aviares?",
-          de: "Was ist die Bedeutung der jüngsten Entdeckung von Markknochen in Nicht-Vogel-Dinosauriern?",
-          nl: "Wat is de betekenis van de recente ontdekking van medullaire botten in niet-vogel dinosaurussen?"
+                  "en": "What is the significance of the recent discovery of medullary bone in non-avian dinosaurs?",
+                  "es": "¿Cuál es la importancia del descubrimiento reciente de hueso medular en dinosaurios no aviares?",
+                  "de": "Was ist die Bedeutung der jüngsten Entdeckung von Markknochen in Nicht-Vogel-Dinosauriern?",
+                  "nl": "Wat is de betekenis van de recente ontdekking van medullaire botten in niet-vogel dinosaurussen?"
         },
         options: [
-          { en: "Direct evidence of reproductive physiology and gender identification in fossil dinosaurs", es: "Evidencia directa de fisiología reproductiva e identificación de género en dinosaurios fósiles", de: "Direkter Nachweis reproduktiver Physiologie und Geschlechtsidentifikation bei fossilen Dinosauriern", nl: "Direct bewijs van reproductieve fysiologie en geslachtsidentificatie in fossiele dinosaurussen" },
-          { en: "Proof of carnivorous diet in all theropods", es: "Prueba de dieta carnívora en todos los terópodos", de: "Beweis für fleischfressende Ernährung bei allen Theropoden", nl: "Bewijs van carnivoor dieet in alle theropoden" },
-          { en: "Evidence for cold-bloodedness in dinosaurs", es: "Evidencia de sangre fría en dinosaurios", de: "Beweise für Kaltblütigkeit bei Dinosauriern", nl: "Bewijs voor koudbloedigheid in dinosaurussen" },
-          { en: "Indication of seasonal migration patterns", es: "Indicación de patrones de migración estacional", de: "Hinweis auf saisonale Wanderungsmuster", nl: "Indicatie van seizoensgebonden migratiepatronen" }
+        {
+                  "en": "Evidence for cold-bloodedness in dinosaurs",
+                  "es": "Evidencia de sangre fría en dinosaurios",
+                  "de": "Beweise für Kaltblütigkeit bei Dinosauriern",
+                  "nl": "Bewijs voor koudbloedigheid in dinosaurussen"
+        },
+        {
+                  "en": "Proof of carnivorous diet in all theropods",
+                  "es": "Prueba de dieta carnívora en todos los terópodos",
+                  "de": "Beweis für fleischfressende Ernährung bei allen Theropoden",
+                  "nl": "Bewijs van carnivoor dieet in alle theropoden"
+        },
+        {
+                  "en": "Direct evidence of reproductive physiology and gender identification in fossil dinosaurs",
+                  "es": "Evidencia directa de fisiología reproductiva e identificación de género en dinosaurios fósiles",
+                  "de": "Direkter Nachweis reproduktiver Physiologie und Geschlechtsidentifikation bei fossilen Dinosauriern",
+                  "nl": "Direct bewijs van reproductieve fysiologie en geslachtsidentificatie in fossiele dinosaurussen"
+        },
+        {
+                  "en": "Indication of seasonal migration patterns",
+                  "es": "Indicación de patrones de migración estacional",
+                  "de": "Hinweis auf saisonale Wanderungsmuster",
+                  "nl": "Indicatie van seizoensgebonden migratiepatronen"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Medullary bone is calcium-rich tissue found only in reproductively active female birds. Its discovery in dinosaur fossils provides direct evidence of active egg production and allows sex determination in individual specimens.",
-          es: "El hueso medular es tejido rico en calcio encontrado solo en hembras de aves reproductivamente activas. Su descubrimiento en fósiles de dinosaurios proporciona evidencia directa de producción activa de huevos y permite determinación del sexo en especímenes individuales.",
-          de: "Markknochen ist calciumreiches Gewebe, das nur bei reproduktiv aktiven weiblichen Vögeln gefunden wird. Seine Entdeckung in Dinosaurier-Fossilien liefert direkten Nachweis aktiver Eiproduktion und ermöglicht Geschlechtsbestimmung bei einzelnen Exemplaren.",
-          nl: "Medullaire botten zijn calciumrijk weefsel dat alleen wordt gevonden bij reproductief actieve vrouwelijke vogels. De ontdekking ervan in dinosaurusfossielen biedt direct bewijs van actieve eiproductie en maakt geslachtsbepaling mogelijk in individuele specimens."
+                  "en": "Medullary bone is calcium-rich tissue found only in reproductively active female birds. Its discovery in dinosaur fossils provides direct evidence of active egg production and allows sex determination in individual specimens.",
+                  "es": "El hueso medular es tejido rico en calcio encontrado solo en hembras de aves reproductivamente activas. Su descubrimiento en fósiles de dinosaurios proporciona evidencia directa de producción activa de huevos y permite determinación del sexo en especímenes individuales.",
+                  "de": "Markknochen ist calciumreiches Gewebe, das nur bei reproduktiv aktiven weiblichen Vögeln gefunden wird. Seine Entdeckung in Dinosaurier-Fossilien liefert direkten Nachweis aktiver Eiproduktion und ermöglicht Geschlechtsbestimmung bei einzelnen Exemplaren.",
+                  "nl": "Medullaire botten zijn calciumrijk weefsel dat alleen wordt gevonden bij reproductief actieve vrouwelijke vogels. De ontdekking ervan in dinosaurusfossielen biedt direct bewijs van actieve eiproductie en maakt geslachtsbepaling mogelijk in individuele specimens."
         }
       },
       {
         question: {
-          en: "What challenges does the 'paleo-proteomics revolution' face in dinosaur research?",
-          es: "¿Qué desafíos enfrenta la 'revolución paleo-proteómica' en la investigación de dinosaurios?",
-          de: "Welchen Herausforderungen steht die 'Paläo-Proteomik-Revolution' in der Dinosaurier-Forschung gegenüber?",
-          nl: "Welke uitdagingen ondervindt de 'paleo-proteomics revolutie' in dinosaurusonderzoek?"
+                  "en": "What challenges does the 'paleo-proteomics revolution' face in dinosaur research?",
+                  "es": "¿Qué desafíos enfrenta la 'revolución paleo-proteómica' en la investigación de dinosaurios?",
+                  "de": "Welchen Herausforderungen steht die 'Paläo-Proteomik-Revolution' in der Dinosaurier-Forschung gegenüber?",
+                  "nl": "Welke uitdagingen ondervindt de 'paleo-proteomics revolutie' in dinosaurusonderzoek?"
         },
         options: [
-          { en: "Contamination concerns, degradation limits, and reproducibility issues", es: "Preocupaciones de contaminación, límites de degradación y problemas de reproducibilidad", de: "Kontaminationsbedenken, Degradationsgrenzen und Reproduzierbarkeitsprobleme", nl: "Contaminatiezorgen, degradatielimieten en reproduceerbaarheidsproblemen" },
-          { en: "Excessive preservation of all protein types", es: "Preservación excesiva de todos los tipos de proteínas", de: "Übermäßige Erhaltung aller Proteintypen", nl: "Overmatige bewaring van alle proteïnetypes" },
-          { en: "Too many competing research teams", es: "Demasiados equipos de investigación compitiendo", de: "Zu viele konkurrierende Forschungsteams", nl: "Te veel concurrerende onderzoeksteams" },
-          { en: "Lack of advanced analytical equipment", es: "Falta de equipo analítico avanzado", de: "Mangel an fortgeschrittener Analyseausrüstung", nl: "Gebrek aan geavanceerde analytische apparatuur" }
+        {
+                  "en": "Excessive preservation of all protein types",
+                  "es": "Preservación excesiva de todos los tipos de proteínas",
+                  "de": "Übermäßige Erhaltung aller Proteintypen",
+                  "nl": "Overmatige bewaring van alle proteïnetypes"
+        },
+        {
+                  "en": "Too many competing research teams",
+                  "es": "Demasiados equipos de investigación compitiendo",
+                  "de": "Zu viele konkurrierende Forschungsteams",
+                  "nl": "Te veel concurrerende onderzoeksteams"
+        },
+        {
+                  "en": "Contamination concerns, degradation limits, and reproducibility issues",
+                  "es": "Preocupaciones de contaminación, límites de degradación y problemas de reproducibilidad",
+                  "de": "Kontaminationsbedenken, Degradationsgrenzen und Reproduzierbarkeitsprobleme",
+                  "nl": "Contaminatiezorgen, degradatielimieten en reproduceerbaarheidsproblemen"
+        },
+        {
+                  "en": "Lack of advanced analytical equipment",
+                  "es": "Falta de equipo analítico avanzado",
+                  "de": "Mangel an fortgeschrittener Analyseausrüstung",
+                  "nl": "Gebrek aan geavanceerde analytische apparatuur"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Paleo-proteomics faces significant challenges including modern contamination during excavation/preparation, theoretical limits on protein survival over geological time, and difficulties reproducing results across different laboratories and specimens.",
-          es: "La paleo-proteómica enfrenta desafíos significativos incluyendo contaminación moderna durante excavación/preparación, límites teóricos sobre supervivencia de proteínas durante tiempo geológico y dificultades reproduciendo resultados entre diferentes laboratorios y especímenes.",
-          de: "Die Paläo-Proteomik steht vor erheblichen Herausforderungen einschließlich moderner Kontamination während Ausgrabung/Präparation, theoretischer Grenzen des Proteinüberlebens über geologische Zeit und Schwierigkeiten bei der Reproduktion von Ergebnissen zwischen verschiedenen Laboren und Exemplaren.",
-          nl: "Paleo-proteomics ondervindt significante uitdagingen waaronder moderne contaminatie tijdens opgraving/preparatie, theoretische limieten van proteïne-overleving over geologische tijd, en moeilijkheden bij het reproduceren van resultaten tussen verschillende laboratoria en specimens."
+                  "en": "Paleo-proteomics faces significant challenges including modern contamination during excavation/preparation, theoretical limits on protein survival over geological time, and difficulties reproducing results across different laboratories and specimens.",
+                  "es": "La paleo-proteómica enfrenta desafíos significativos incluyendo contaminación moderna durante excavación/preparación, límites teóricos sobre supervivencia de proteínas durante tiempo geológico y dificultades reproduciendo resultados entre diferentes laboratorios y especímenes.",
+                  "de": "Die Paläo-Proteomik steht vor erheblichen Herausforderungen einschließlich moderner Kontamination während Ausgrabung/Präparation, theoretischer Grenzen des Proteinüberlebens über geologische Zeit und Schwierigkeiten bei der Reproduktion von Ergebnissen zwischen verschiedenen Laboren und Exemplaren.",
+                  "nl": "Paleo-proteomics ondervindt significante uitdagingen waaronder moderne contaminatie tijdens opgraving/preparatie, theoretische limieten van proteïne-overleving over geologische tijd, en moeilijkheden bij het reproduceren van resultaten tussen verschillende laboratoria en specimens."
         }
       },
       {
         question: {
-          en: "How has advances in phylogenetic comparative methods changed our understanding of dinosaur evolution?",
-          es: "¿Cómo han cambiado los avances en métodos comparativos filogenéticos nuestra comprensión de la evolución de dinosaurios?",
-          de: "Wie haben Fortschritte in phylogenetischen Vergleichsmethoden unser Verständnis der Dinosaurier-Evolution verändert?",
-          nl: "Hoe hebben vooruitgang in fylogenetische vergelijkende methoden ons begrip van dinosaurusevolutie veranderd?"
+                  "en": "How has advances in phylogenetic comparative methods changed our understanding of dinosaur evolution?",
+                  "es": "¿Cómo han cambiado los avances en métodos comparativos filogenéticos nuestra comprensión de la evolución de dinosaurios?",
+                  "de": "Wie haben Fortschritte in phylogenetischen Vergleichsmethoden unser Verständnis der Dinosaurier-Evolution verändert?",
+                  "nl": "Hoe hebben vooruitgang in fylogenetische vergelijkende methoden ons begrip van dinosaurusevolutie veranderd?"
         },
         options: [
-          { en: "Integration of continuous traits, fossil dating uncertainty, and model-based inference", es: "Integración de rasgos continuos, incertidumbre de datación fósil e inferencia basada en modelos", de: "Integration kontinuierlicher Merkmale, Fossildatierungsunsicherheit und modellbasierte Inferenz", nl: "Integratie van continue eigenschappen, fossieldateringsoncertainty en modelgebaseerde inferentie" },
-          { en: "Replacement of all morphological data with molecular data", es: "Reemplazo de todos los datos morfológicos con datos moleculares", de: "Ersetzung aller morphologischen Daten durch molekulare Daten", nl: "Vervanging van alle morfologische gegevens met moleculaire gegevens" },
-          { en: "Elimination of statistical uncertainty in phylogenies", es: "Eliminación de incertidumbre estadística en filogenias", de: "Beseitigung statistischer Unsicherheit in Phylogenien", nl: "Eliminatie van statistische onzekerheid in fylogenieën" },
-          { en: "Focus solely on extinct taxa relationships", es: "Enfoque únicamente en relaciones de taxones extintos", de: "Fokus ausschließlich auf Beziehungen ausgestorbener Taxa", nl: "Focus uitsluitend op relaties van uitgestorven taxa" }
+        {
+                  "en": "Integration of continuous traits, fossil dating uncertainty, and model-based inference",
+                  "es": "Integración de rasgos continuos, incertidumbre de datación fósil e inferencia basada en modelos",
+                  "de": "Integration kontinuierlicher Merkmale, Fossildatierungsunsicherheit und modellbasierte Inferenz",
+                  "nl": "Integratie van continue eigenschappen, fossieldateringsoncertainty en modelgebaseerde inferentie"
+        },
+        {
+                  "en": "Focus solely on extinct taxa relationships",
+                  "es": "Enfoque únicamente en relaciones de taxones extintos",
+                  "de": "Fokus ausschließlich auf Beziehungen ausgestorbener Taxa",
+                  "nl": "Focus uitsluitend op relaties van uitgestorven taxa"
+        },
+        {
+                  "en": "Elimination of statistical uncertainty in phylogenies",
+                  "es": "Eliminación de incertidumbre estadística en filogenias",
+                  "de": "Beseitigung statistischer Unsicherheit in Phylogenien",
+                  "nl": "Eliminatie van statistische onzekerheid in fylogenieën"
+        },
+        {
+                  "en": "Replacement of all morphological data with molecular data",
+                  "es": "Reemplazo de todos los datos morfológicos con datos moleculares",
+                  "de": "Ersetzung aller morphologischen Daten durch molekulare Daten",
+                  "nl": "Vervanging van alle morfologische gegevens met moleculaire gegevens"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Modern phylogenetic methods incorporate continuous morphological traits, account for stratigraphic age uncertainty using tip-dating approaches, and employ sophisticated models of trait evolution to better understand patterns and rates of dinosaur diversification.",
-          es: "Los métodos filogenéticos modernos incorporan rasgos morfológicos continuos, consideran incertidumbre de edad estratigráfica usando enfoques de datación de puntas y emplean modelos sofisticados de evolución de rasgos para mejor entender patrones y tasas de diversificación de dinosaurios.",
-          de: "Moderne phylogenetische Methoden integrieren kontinuierliche morphologische Merkmale, berücksichtigen stratigraphische Altersungewissheit mit Tip-Dating-Ansätzen und verwenden ausgeklügelte Modelle der Merkmalsentwicklung, um Muster und Raten der Dinosaurier-Diversifizierung besser zu verstehen.",
-          nl: "Moderne fylogenetische methoden incorporeren continue morfologische eigenschappen, houden rekening met stratigrafische leeftijdsoncertainty met behulp van tip-dating benaderingen, en gebruiken geavanceerde modellen van eigenschapevolutie om patronen en snelheden van dinosaurusdiversificatie beter te begrijpen."
+                  "en": "Modern phylogenetic methods incorporate continuous morphological traits, account for stratigraphic age uncertainty using tip-dating approaches, and employ sophisticated models of trait evolution to better understand patterns and rates of dinosaur diversification.",
+                  "es": "Los métodos filogenéticos modernos incorporan rasgos morfológicos continuos, consideran incertidumbre de edad estratigráfica usando enfoques de datación de puntas y emplean modelos sofisticados de evolución de rasgos para mejor entender patrones y tasas de diversificación de dinosaurios.",
+                  "de": "Moderne phylogenetische Methoden integrieren kontinuierliche morphologische Merkmale, berücksichtigen stratigraphische Altersungewissheit mit Tip-Dating-Ansätzen und verwenden ausgeklügelte Modelle der Merkmalsentwicklung, um Muster und Raten der Dinosaurier-Diversifizierung besser zu verstehen.",
+                  "nl": "Moderne fylogenetische methoden incorporeren continue morfologische eigenschappen, houden rekening met stratigrafische leeftijdsoncertainty met behulp van tip-dating benaderingen, en gebruiken geavanceerde modellen van eigenschapevolutie om patronen en snelheden van dinosaurusdiversificatie beter te begrijpen."
         }
       },
       {
         question: {
-          en: "What is the current debate surrounding the interpretation of dinosaur neural spine height variation?",
-          es: "¿Cuál es el debate actual en torno a la interpretación de la variación en altura de espinas neurales de dinosaurios?",
-          de: "Was ist die aktuelle Debatte um die Interpretation der Variation der Neuralstachelhöhe bei Dinosauriern?",
-          nl: "Wat is het huidige debat rond de interpretatie van dinosaurusneurale stekel hoogtevariatie?"
+                  "en": "What is the current debate surrounding the interpretation of dinosaur neural spine height variation?",
+                  "es": "¿Cuál es el debate actual en torno a la interpretación de la variación en altura de espinas neurales de dinosaurios?",
+                  "de": "Was ist die aktuelle Debatte um die Interpretation der Variation der Neuralstachelhöhe bei Dinosauriern?",
+                  "nl": "Wat is het huidige debat rond de interpretatie van dinosaurusneurale stekel hoogtevariatie?"
         },
         options: [
-          { en: "Taxonomic significance versus intraspecific variation and sexual dimorphism", es: "Significado taxonómico versus variación intraespecífica y dimorfismo sexual", de: "Taxonomische Bedeutung versus intraspezifische Variation und Geschlechtsdimorphismus", nl: "Taxonomische betekenis versus intraspecifieke variatie en seksueel dimorfisme" },
-          { en: "Only dietary adaptations are considered", es: "Solo se consideran adaptaciones dietéticas", de: "Nur diätetische Anpassungen werden betrachtet", nl: "Alleen dieetaanpassingen worden overwogen" },
-          { en: "Universal correlation with body size", es: "Correlación universal con tamaño corporal", de: "Universelle Korrelation mit Körpergröße", nl: "Universele correlatie met lichaamsgrootte" },
-          { en: "Simple age-related growth patterns", es: "Patrones simples de crecimiento relacionados con la edad", de: "Einfache altersbedingte Wachstumsmuster", nl: "Eenvoudige leeftijdsgerelateerde groeipatronen" }
+        {
+                  "en": "Universal correlation with body size",
+                  "es": "Correlación universal con tamaño corporal",
+                  "de": "Universelle Korrelation mit Körpergröße",
+                  "nl": "Universele correlatie met lichaamsgrootte"
+        },
+        {
+                  "en": "Taxonomic significance versus intraspecific variation and sexual dimorphism",
+                  "es": "Significado taxonómico versus variación intraespecífica y dimorfismo sexual",
+                  "de": "Taxonomische Bedeutung versus intraspezifische Variation und Geschlechtsdimorphismus",
+                  "nl": "Taxonomische betekenis versus intraspecifieke variatie en seksueel dimorfisme"
+        },
+        {
+                  "en": "Simple age-related growth patterns",
+                  "es": "Patrones simples de crecimiento relacionados con la edad",
+                  "de": "Einfache altersbedingte Wachstumsmuster",
+                  "nl": "Eenvoudige leeftijdsgerelateerde groeipatronen"
+        },
+        {
+                  "en": "Only dietary adaptations are considered",
+                  "es": "Solo se consideran adaptaciones dietéticas",
+                  "de": "Nur diätetische Anpassungen werden betrachtet",
+                  "nl": "Alleen dieetaanpassingen worden overwogen"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Recent research questions whether neural spine height variations represent distinct species or reflect individual variation, sexual dimorphism, ontogenetic changes, or pathological conditions, challenging traditional taxonomic interpretations.",
-          es: "La investigación reciente cuestiona si las variaciones de altura de espinas neurales representan especies distintas o reflejan variación individual, dimorfismo sexual, cambios ontogenéticos o condiciones patológicas, desafiando interpretaciones taxonómicas tradicionales.",
-          de: "Jüngste Forschung hinterfragt, ob Variationen der Neuralstachelhöhe verschiedene Arten darstellen oder individuelle Variation, Geschlechtsdimorphismus, ontogenetische Veränderungen oder pathologische Zustände widerspiegeln, was traditionelle taxonomische Interpretationen herausfordert.",
-          nl: "Recent onderzoek stelt de vraag of neurale stekel hoogtevariaties verschillende soorten vertegenwoordigen of individuele variatie, seksueel dimorfisme, ontogenetische veranderingen of pathologische condities weerspiegelen, wat traditionele taxonomische interpretaties uitdaagt."
+                  "en": "Recent research questions whether neural spine height variations represent distinct species or reflect individual variation, sexual dimorphism, ontogenetic changes, or pathological conditions, challenging traditional taxonomic interpretations.",
+                  "es": "La investigación reciente cuestiona si las variaciones de altura de espinas neurales representan especies distintas o reflejan variación individual, dimorfismo sexual, cambios ontogenéticos o condiciones patológicas, desafiando interpretaciones taxonómicas tradicionales.",
+                  "de": "Jüngste Forschung hinterfragt, ob Variationen der Neuralstachelhöhe verschiedene Arten darstellen oder individuelle Variation, Geschlechtsdimorphismus, ontogenetische Veränderungen oder pathologische Zustände widerspiegeln, was traditionelle taxonomische Interpretationen herausfordert.",
+                  "nl": "Recent onderzoek stelt de vraag of neurale stekel hoogtevariaties verschillende soorten vertegenwoordigen of individuele variatie, seksueel dimorfisme, ontogenetische veranderingen of pathologische condities weerspiegelen, wat traditionele taxonomische interpretaties uitdaagt."
         }
       },
       {
         question: {
-          en: "What insights has ichnological research provided about dinosaur social behavior complexity?",
-          es: "¿Qué conocimientos ha proporcionado la investigación icnológica sobre la complejidad del comportamiento social de los dinosaurios?",
-          de: "Welche Einblicke hat die ichnologische Forschung zur Komplexität des sozialen Verhaltens von Dinosauriern geliefert?",
-          nl: "Welke inzichten heeft ichnologisch onderzoek opgeleverd over de complexiteit van dinosaurussociaal gedrag?"
+                  "en": "What insights has ichnological research provided about dinosaur social behavior complexity?",
+                  "es": "¿Qué conocimientos ha proporcionado la investigación icnológica sobre la complejidad del comportamiento social de los dinosaurios?",
+                  "de": "Welche Einblicke hat die ichnologische Forschung zur Komplexität des sozialen Verhaltens von Dinosauriern geliefert?",
+                  "nl": "Welke inzichten heeft ichnologisch onderzoek opgeleverd over de complexiteit van dinosaurussociaal gedrag?"
         },
         options: [
-          { en: "Evidence for age-segregated herding, coordinated group movement, and parental care behaviors", es: "Evidencia de agrupación segregada por edad, movimiento grupal coordinado y comportamientos de cuidado parental", de: "Belege für altersgetrennte Herdenbildung, koordinierte Gruppenbewegung und Elternfürsorge-Verhalten", nl: "Bewijs voor leeftijds-gescheiden kuddevorming, gecoördineerde groepsbeweging en ouderlijke zorggedragingen" },
-          { en: "Proof that all dinosaurs were solitary", es: "Prueba de que todos los dinosaurios eran solitarios", de: "Beweis, dass alle Dinosaurier Einzelgänger waren", nl: "Bewijs dat alle dinosaurussen solitair waren" },
-          { en: "Evidence only for predatory pack behavior", es: "Evidencia solo para comportamiento de caza en manada", de: "Beweise nur für Raubtier-Rudel-Verhalten", nl: "Bewijs alleen voor roofzuchtig roedelgedrag" },
-          { en: "Simple territorial markings exclusively", es: "Marcas territoriales simples exclusivamente", de: "Ausschließlich einfache territoriale Markierungen", nl: "Uitsluitend eenvoudige territoriale markingen" }
+        {
+                  "en": "Evidence only for predatory pack behavior",
+                  "es": "Evidencia solo para comportamiento de caza en manada",
+                  "de": "Beweise nur für Raubtier-Rudel-Verhalten",
+                  "nl": "Bewijs alleen voor roofzuchtig roedelgedrag"
+        },
+        {
+                  "en": "Simple territorial markings exclusively",
+                  "es": "Marcas territoriales simples exclusivamente",
+                  "de": "Ausschließlich einfache territoriale Markierungen",
+                  "nl": "Uitsluitend eenvoudige territoriale markingen"
+        },
+        {
+                  "en": "Evidence for age-segregated herding, coordinated group movement, and parental care behaviors",
+                  "es": "Evidencia de agrupación segregada por edad, movimiento grupal coordinado y comportamientos de cuidado parental",
+                  "de": "Belege für altersgetrennte Herdenbildung, koordinierte Gruppenbewegung und Elternfürsorge-Verhalten",
+                  "nl": "Bewijs voor leeftijds-gescheiden kuddevorming, gecoördineerde groepsbeweging en ouderlijke zorggedragingen"
+        },
+        {
+                  "en": "Proof that all dinosaurs were solitary",
+                  "es": "Prueba de que todos los dinosaurios eran solitarios",
+                  "de": "Beweis, dass alle Dinosaurier Einzelgänger waren",
+                  "nl": "Bewijs dat alle dinosaurussen solitair waren"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Trackway analysis reveals sophisticated social behaviors including size-segregated groups, coordinated parallel movement, nursery herds with size-graded arrangements, and evidence of adults accompanying juveniles across various dinosaur taxa.",
-          es: "El análisis de pistas revela comportamientos sociales sofisticados incluyendo grupos segregados por tamaño, movimiento paralelo coordinado, rebaños de crianza con arreglos graduados por tamaño y evidencia de adultos acompañando juveniles a través de varios taxa de dinosaurios.",
-          de: "Die Spurenanalyse enthüllt ausgeklügelte soziale Verhaltensweisen einschließlich größensegregierter Gruppen, koordinierter paralleler Bewegung, Aufzuchtherden mit größengestuften Anordnungen und Belege für Erwachsene, die Jungtiere über verschiedene Dinosaurier-Taxa hinweg begleiten.",
-          nl: "Sporenanalyse onthult geavanceerde sociale gedragingen inclusief grootte-gescheiden groepen, gecoördineerde parallelle beweging, kwekerij kuddes met grootte-gegradueerde arrangementen, en bewijs van volwassenen die juvenielen begeleiden over verschillende dinosaurustaxa."
+                  "en": "Trackway analysis reveals sophisticated social behaviors including size-segregated groups, coordinated parallel movement, nursery herds with size-graded arrangements, and evidence of adults accompanying juveniles across various dinosaur taxa.",
+                  "es": "El análisis de pistas revela comportamientos sociales sofisticados incluyendo grupos segregados por tamaño, movimiento paralelo coordinado, rebaños de crianza con arreglos graduados por tamaño y evidencia de adultos acompañando juveniles a través de varios taxa de dinosaurios.",
+                  "de": "Die Spurenanalyse enthüllt ausgeklügelte soziale Verhaltensweisen einschließlich größensegregierter Gruppen, koordinierter paralleler Bewegung, Aufzuchtherden mit größengestuften Anordnungen und Belege für Erwachsene, die Jungtiere über verschiedene Dinosaurier-Taxa hinweg begleiten.",
+                  "nl": "Sporenanalyse onthult geavanceerde sociale gedragingen inclusief grootte-gescheiden groepen, gecoördineerde parallelle beweging, kwekerij kuddes met grootte-gegradueerde arrangementen, en bewijs van volwassenen die juvenielen begeleiden over verschillende dinosaurustaxa."
         }
       },
       {
         question: {
-          en: "How has computational fluid dynamics revolutionized our understanding of pterosaur flight capabilities?",
-          es: "¿Cómo ha revolucionado la dinámica de fluidos computacional nuestra comprensión de las capacidades de vuelo de pterosaurios?",
-          de: "Wie hat die numerische Strömungsmechanik unser Verständnis der Flugfähigkeiten von Pterosauriern revolutioniert?",
-          nl: "Hoe heeft computationele vloeistofdynamica ons begrip van pterosaurusvliegmogelijkheden gerevolutioneerd?"
+                  "en": "How has computational fluid dynamics revolutionized our understanding of pterosaur flight capabilities?",
+                  "es": "¿Cómo ha revolucionado la dinámica de fluidos computacional nuestra comprensión de las capacidades de vuelo de pterosaurios?",
+                  "de": "Wie hat die numerische Strömungsmechanik unser Verständnis der Flugfähigkeiten von Pterosauriern revolutioniert?",
+                  "nl": "Hoe heeft computationele vloeistofdynamica ons begrip van pterosaurusvliegmogelijkheden gerevolutioneerd?"
         },
         options: [
-          { en: "Modeling of wing membrane aerodynamics and size-dependent flight performance", es: "Modelado de aerodinámica de membrana alar y rendimiento de vuelo dependiente del tamaño", de: "Modellierung der Flügelmembran-Aerodynamik und größenabhängiger Flugleistung", nl: "Modellering van vleugelmembraan aerodynamica en grootte-afhankelijke vliegprestaties" },
-          { en: "Proof that no pterosaurs could actually fly", es: "Prueba de que ningún pterosaurio podía realmente volar", de: "Beweis, dass keine Pterosaurier tatsächlich fliegen konnten", nl: "Bewijs dat geen pterosaurussen daadwerkelijk konden vliegen" },
-          { en: "Evidence for underwater locomotion only", es: "Evidencia solo para locomoción subacuática", de: "Beweise nur für Unterwasser-Fortbewegung", nl: "Bewijs alleen voor onderwatervoortbeweging" },
-          { en: "Simple gliding capabilities without powered flight", es: "Capacidades simples de planeo sin vuelo propulsado", de: "Einfache Gleitfähigkeiten ohne angetriebenen Flug", nl: "Eenvoudige glijmogelijkheden zonder aangedreven vlucht" }
+        {
+                  "en": "Evidence for underwater locomotion only",
+                  "es": "Evidencia solo para locomoción subacuática",
+                  "de": "Beweise nur für Unterwasser-Fortbewegung",
+                  "nl": "Bewijs alleen voor onderwatervoortbeweging"
+        },
+        {
+                  "en": "Modeling of wing membrane aerodynamics and size-dependent flight performance",
+                  "es": "Modelado de aerodinámica de membrana alar y rendimiento de vuelo dependiente del tamaño",
+                  "de": "Modellierung der Flügelmembran-Aerodynamik und größenabhängiger Flugleistung",
+                  "nl": "Modellering van vleugelmembraan aerodynamica en grootte-afhankelijke vliegprestaties"
+        },
+        {
+                  "en": "Simple gliding capabilities without powered flight",
+                  "es": "Capacidades simples de planeo sin vuelo propulsado",
+                  "de": "Einfache Gleitfähigkeiten ohne angetriebenen Flug",
+                  "nl": "Eenvoudige glijmogelijkheden zonder aangedreven vlucht"
+        },
+        {
+                  "en": "Proof that no pterosaurs could actually fly",
+                  "es": "Prueba de que ningún pterosaurio podía realmente volar",
+                  "de": "Beweis, dass keine Pterosaurier tatsächlich fliegen konnten",
+                  "nl": "Bewijs dat geen pterosaurussen daadwerkelijk konden vliegen"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "CFD analysis has revealed how pterosaur wing membranes generated lift and drag, identified optimal flight speeds, demonstrated feasibility of powered flight in giant pterosaurs, and explained trade-offs between size and maneuverability.",
-          es: "El análisis CFD ha revelado cómo las membranas alares de pterosaurios generaron sustentación y arrastre, identificó velocidades de vuelo óptimas, demostró viabilidad de vuelo propulsado en pterosaurios gigantes y explicó compromisos entre tamaño y maniobrabilidad.",
-          de: "CFD-Analyse hat enthüllt, wie Pterosaurier-Flügelmembranen Auftrieb und Luftwiderstand erzeugten, optimale Fluggeschwindigkeiten identifiziert, Machbarkeit des angetriebenen Flugs bei Riesen-Pterosauriern demonstriert und Kompromisse zwischen Größe und Manövrierfähigkeit erklärt.",
-          nl: "CFD-analyse heeft onthuld hoe pterosaurusvleugelmembranen lift en weerstand genereerden, optimale vliegsnelheden geïdentificeerd, haalbaarheid van aangedreven vlucht bij reuze-pterosaurussen aangetoond, en afwegingen tussen grootte en manoeuvreerbaarheid uitgelegd."
+                  "en": "CFD analysis has revealed how pterosaur wing membranes generated lift and drag, identified optimal flight speeds, demonstrated feasibility of powered flight in giant pterosaurs, and explained trade-offs between size and maneuverability.",
+                  "es": "El análisis CFD ha revelado cómo las membranas alares de pterosaurios generaron sustentación y arrastre, identificó velocidades de vuelo óptimas, demostró viabilidad de vuelo propulsado en pterosaurios gigantes y explicó compromisos entre tamaño y maniobrabilidad.",
+                  "de": "CFD-Analyse hat enthüllt, wie Pterosaurier-Flügelmembranen Auftrieb und Luftwiderstand erzeugten, optimale Fluggeschwindigkeiten identifiziert, Machbarkeit des angetriebenen Flugs bei Riesen-Pterosauriern demonstriert und Kompromisse zwischen Größe und Manövrierfähigkeit erklärt.",
+                  "nl": "CFD-analyse heeft onthuld hoe pterosaurusvleugelmembranen lift en weerstand genereerden, optimale vliegsnelheden geïdentificeerd, haalbaarheid van aangedreven vlucht bij reuze-pterosaurussen aangetoond, en afwegingen tussen grootte en manoeuvreerbaarheid uitgelegd."
         }
       },
       {
         question: {
-          en: "What controversies surround the application of machine learning in dinosaur paleontology?",
-          es: "¿Qué controversias rodean la aplicación del aprendizaje automático en paleontología de dinosaurios?",
-          de: "Welche Kontroversen umgeben die Anwendung des maschinellen Lernens in der Dinosaurier-Paläontologie?",
-          nl: "Welke controverses omringen de toepassing van machine learning in dinosauruspaleontologie?"
+                  "en": "What controversies surround the application of machine learning in dinosaur paleontology?",
+                  "es": "¿Qué controversias rodean la aplicación del aprendizaje automático en paleontología de dinosaurios?",
+                  "de": "Welche Kontroversen umgeben die Anwendung des maschinellen Lernens in der Dinosaurier-Paläontologie?",
+                  "nl": "Welke controverses omringen de toepassing van machine learning in dinosauruspaleontologie?"
         },
         options: [
-          { en: "Training data bias, model interpretability, and replacement of expert knowledge", es: "Sesgo de datos de entrenamiento, interpretabilidad del modelo y reemplazo del conocimiento experto", de: "Trainingsdaten-Bias, Modellinterpretierbarkeit und Ersatz von Expertenwissen", nl: "Trainingsdata bias, modelinterpreteerlijkheid en vervanging van expertkennis" },
-          { en: "Universal acceptance by all researchers", es: "Aceptación universal por todos los investigadores", de: "Universelle Akzeptanz durch alle Forscher", nl: "Universele acceptatie door alle onderzoekers" },
-          { en: "Perfect accuracy in all applications", es: "Precisión perfecta en todas las aplicaciones", de: "Perfekte Genauigkeit in allen Anwendungen", nl: "Perfecte nauwkeurigheid in alle toepassingen" },
-          { en: "Only useful for modern biological datasets", es: "Solo útil para conjuntos de datos biológicos modernos", de: "Nur nützlich für moderne biologische Datensätze", nl: "Alleen nuttig voor moderne biologische datasets" }
+        {
+                  "en": "Perfect accuracy in all applications",
+                  "es": "Precisión perfecta en todas las aplicaciones",
+                  "de": "Perfekte Genauigkeit in allen Anwendungen",
+                  "nl": "Perfecte nauwkeurigheid in alle toepassingen"
+        },
+        {
+                  "en": "Universal acceptance by all researchers",
+                  "es": "Aceptación universal por todos los investigadores",
+                  "de": "Universelle Akzeptanz durch alle Forscher",
+                  "nl": "Universele acceptatie door alle onderzoekers"
+        },
+        {
+                  "en": "Only useful for modern biological datasets",
+                  "es": "Solo útil para conjuntos de datos biológicos modernos",
+                  "de": "Nur nützlich für moderne biologische Datensätze",
+                  "nl": "Alleen nuttig voor moderne biologische datasets"
+        },
+        {
+                  "en": "Training data bias, model interpretability, and replacement of expert knowledge",
+                  "es": "Sesgo de datos de entrenamiento, interpretabilidad del modelo y reemplazo del conocimiento experto",
+                  "de": "Trainingsdaten-Bias, Modellinterpretierbarkeit und Ersatz von Expertenwissen",
+                  "nl": "Trainingsdata bias, modelinterpreteerlijkheid en vervanging van expertkennis"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Machine learning applications in paleontology face challenges including biased training datasets favoring certain fossil types, difficulty interpreting 'black box' models, concerns about replacing morphological expertise, and validation with limited fossil data.",
-          es: "Las aplicaciones de aprendizaje automático en paleontología enfrentan desafíos incluyendo conjuntos de datos de entrenamiento sesgados que favorecen ciertos tipos de fósiles, dificultad interpretando modelos de 'caja negra', preocupaciones sobre reemplazar experiencia morfológica y validación con datos fósiles limitados.",
-          de: "Maschinelle Lernanwendungen in der Paläontologie stehen vor Herausforderungen einschließlich verzerrter Trainingsdatensätze, die bestimmte Fossiltypen bevorzugen, Schwierigkeiten bei der Interpretation von 'Black Box'-Modellen, Sorgen über den Ersatz morphologischer Expertise und Validierung mit begrenzten Fossildaten.",
-          nl: "Machine learning toepassingen in paleontologie ondervinden uitdagingen inclusief bevooroordeelde trainingsdatasets die bepaalde fossieltypen begunstigen, moeilijkheid bij het interpreteren van 'black box' modellen, zorgen over vervanging van morfologische expertise, en validatie met beperkte fossielgegevens."
+                  "en": "Machine learning applications in paleontology face challenges including biased training datasets favoring certain fossil types, difficulty interpreting 'black box' models, concerns about replacing morphological expertise, and validation with limited fossil data.",
+                  "es": "Las aplicaciones de aprendizaje automático en paleontología enfrentan desafíos incluyendo conjuntos de datos de entrenamiento sesgados que favorecen ciertos tipos de fósiles, dificultad interpretando modelos de 'caja negra', preocupaciones sobre reemplazar experiencia morfológica y validación con datos fósiles limitados.",
+                  "de": "Maschinelle Lernanwendungen in der Paläontologie stehen vor Herausforderungen einschließlich verzerrter Trainingsdatensätze, die bestimmte Fossiltypen bevorzugen, Schwierigkeiten bei der Interpretation von 'Black Box'-Modellen, Sorgen über den Ersatz morphologischer Expertise und Validierung mit begrenzten Fossildaten.",
+                  "nl": "Machine learning toepassingen in paleontologie ondervinden uitdagingen inclusief bevooroordeelde trainingsdatasets die bepaalde fossieltypen begunstigen, moeilijkheid bij het interpreteren van 'black box' modellen, zorgen over vervanging van morfologische expertise, en validatie met beperkte fossielgegevens."
         }
       },
       {
         question: {
-          en: "What implications does the discovery of dinosaur cololites (fossilized intestinal contents) have for understanding ancient ecosystems?",
-          es: "¿Qué implicaciones tiene el descubrimiento de cololitos de dinosaurios (contenidos intestinales fosilizados) para entender ecosistemas antiguos?",
-          de: "Welche Implikationen hat die Entdeckung von Dinosaurier-Kololiten (fossilien Darminhalten) für das Verständnis alter Ökosysteme?",
-          nl: "Welke implicaties heeft de ontdekking van dinosauruscololitten (gefossiliseerde darminhoud) voor het begrijpen van oude ecosystemen?"
+                  "en": "What implications does the discovery of dinosaur cololites (fossilized intestinal contents) have for understanding ancient ecosystems?",
+                  "es": "¿Qué implicaciones tiene el descubrimiento de cololitos de dinosaurios (contenidos intestinales fosilizados) para entender ecosistemas antiguos?",
+                  "de": "Welche Implikationen hat die Entdeckung von Dinosaurier-Kololiten (fossilien Darminhalten) für das Verständnis alter Ökosysteme?",
+                  "nl": "Welke implicaties heeft de ontdekking van dinosauruscololitten (gefossiliseerde darminhoud) voor het begrijpen van oude ecosystemen?"
         },
         options: [
-          { en: "Direct evidence of food webs, plant-animal interactions, and parasite relationships", es: "Evidencia directa de redes alimentarias, interacciones planta-animal y relaciones de parásitos", de: "Direkter Nachweis von Nahrungsnetzen, Pflanzen-Tier-Interaktionen und Parasiten-Beziehungen", nl: "Direct bewijs van voedselketens, plant-dier interacties en parasietverhoudingen" },
-          { en: "Only information about water consumption", es: "Solo información sobre consumo de agua", de: "Nur Informationen über Wasserverbrauch", nl: "Alleen informatie over waterconsumptie" },
-          { en: "Evidence for strictly carnivorous diets", es: "Evidencia de dietas estrictamente carnívoras", de: "Beweise für streng fleischfressende Ernährung", nl: "Bewijs voor strikt carnivore diëten" },
-          { en: "Simple mineral content analysis", es: "Análisis simple de contenido mineral", de: "Einfache Mineralgehaltanalyse", nl: "Eenvoudige mineraalgehalteanalyse" }
+        {
+                  "en": "Evidence for strictly carnivorous diets",
+                  "es": "Evidencia de dietas estrictamente carnívoras",
+                  "de": "Beweise für streng fleischfressende Ernährung",
+                  "nl": "Bewijs voor strikt carnivore diëten"
+        },
+        {
+                  "en": "Simple mineral content analysis",
+                  "es": "Análisis simple de contenido mineral",
+                  "de": "Einfache Mineralgehaltanalyse",
+                  "nl": "Eenvoudige mineraalgehalteanalyse"
+        },
+        {
+                  "en": "Only information about water consumption",
+                  "es": "Solo información sobre consumo de agua",
+                  "de": "Nur Informationen über Wasserverbrauch",
+                  "nl": "Alleen informatie over waterconsumptie"
+        },
+        {
+                  "en": "Direct evidence of food webs, plant-animal interactions, and parasite relationships",
+                  "es": "Evidencia directa de redes alimentarias, interacciones planta-animal y relaciones de parásitos",
+                  "de": "Direkter Nachweis von Nahrungsnetzen, Pflanzen-Tier-Interaktionen und Parasiten-Beziehungen",
+                  "nl": "Direct bewijs van voedselketens, plant-dier interacties en parasietverhoudingen"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Cololites preserve direct evidence of consumed plant material, seeds, small vertebrates, and even parasites, providing unprecedented insights into dinosaur dietary diversity, seasonal feeding patterns, and their ecological impacts on Mesozoic ecosystems.",
-          es: "Los cololitos preservan evidencia directa de material vegetal consumido, semillas, pequeños vertebrados e incluso parásitos, proporcionando conocimientos sin precedentes sobre diversidad dietética de dinosaurios, patrones de alimentación estacional y sus impactos ecológicos en ecosistemas mesozoicos.",
-          de: "Kololite bewahren direkten Nachweis von konsumiertem Pflanzenmaterial, Samen, kleinen Wirbeltieren und sogar Parasiten und bieten beispiellose Einblicke in die diätetische Vielfalt der Dinosaurier, saisonale Fütterungsmuster und ihre ökologischen Auswirkungen auf mesozoische Ökosysteme.",
-          nl: "Cololitten bewaren direct bewijs van geconsumeerd plantmateriaal, zaden, kleine gewervelden en zelfs parasieten, wat ongekende inzichten biedt in dinosaurusdieetdiversiteit, seizoensgebonden voedingspatronen en hun ecologische impact op Mesozoïsche ecosystemen."
+                  "en": "Cololites preserve direct evidence of consumed plant material, seeds, small vertebrates, and even parasites, providing unprecedented insights into dinosaur dietary diversity, seasonal feeding patterns, and their ecological impacts on Mesozoic ecosystems.",
+                  "es": "Los cololitos preservan evidencia directa de material vegetal consumido, semillas, pequeños vertebrados e incluso parásitos, proporcionando conocimientos sin precedentes sobre diversidad dietética de dinosaurios, patrones de alimentación estacional y sus impactos ecológicos en ecosistemas mesozoicos.",
+                  "de": "Kololite bewahren direkten Nachweis von konsumiertem Pflanzenmaterial, Samen, kleinen Wirbeltieren und sogar Parasiten und bieten beispiellose Einblicke in die diätetische Vielfalt der Dinosaurier, saisonale Fütterungsmuster und ihre ökologischen Auswirkungen auf mesozoische Ökosysteme.",
+                  "nl": "Cololitten bewaren direct bewijs van geconsumeerd plantmateriaal, zaden, kleine gewervelden en zelfs parasieten, wat ongekende inzichten biedt in dinosaurusdieetdiversiteit, seizoensgebonden voedingspatronen en hun ecologische impact op Mesozoïsche ecosystemen."
         }
       },
       {
         question: {
-          en: "How has high-resolution x-ray tomography changed our understanding of dinosaur brain evolution?",
-          es: "¿Cómo ha cambiado la tomografía de rayos X de alta resolución nuestra comprensión de la evolución del cerebro de dinosaurios?",
-          de: "Wie hat hochauflösende Röntgentomographie unser Verständnis der Dinosaurier-Gehirnevolution verändert?",
-          nl: "Hoe heeft hoge-resolutie röntgentomografie ons begrip van dinosaurushersenevolutie veranderd?"
+                  "en": "How has high-resolution x-ray tomography changed our understanding of dinosaur brain evolution?",
+                  "es": "¿Cómo ha cambiado la tomografía de rayos X de alta resolución nuestra comprensión de la evolución del cerebro de dinosaurios?",
+                  "de": "Wie hat hochauflösende Röntgentomographie unser Verständnis der Dinosaurier-Gehirnevolution verändert?",
+                  "nl": "Hoe heeft hoge-resolutie röntgentomografie ons begrip van dinosaurushersenevolutie veranderd?"
         },
         options: [
-          { en: "Detailed endocast analysis revealing cognitive complexity and sensory specializations", es: "Análisis detallado de endocasts revelando complejidad cognitiva y especializaciones sensoriales", de: "Detaillierte Endocast-Analyse enthüllt kognitive Komplexität und sensorische Spezialisierungen", nl: "Gedetailleerde endocast-analyse die cognitieve complexiteit en sensorische specialisaties onthult" },
-          { en: "Proof that dinosaur brains never evolved", es: "Prueba de que los cerebros de dinosaurios nunca evolucionaron", de: "Beweis, dass Dinosaurier-Gehirne nie evolvierten", nl: "Bewijs dat dinosaurushersenen nooit evolueerden" },
-          { en: "Evidence for uniform brain structure across all dinosaurs", es: "Evidencia de estructura cerebral uniforme en todos los dinosaurios", de: "Beweise für einheitliche Gehirnstruktur bei allen Dinosauriern", nl: "Bewijs voor uniforme hersenstructuur in alle dinosaurussen" },
-          { en: "Only size measurements without functional analysis", es: "Solo mediciones de tamaño sin análisis funcional", de: "Nur Größenmessungen ohne funktionale Analyse", nl: "Alleen groottemetingen zonder functionele analyse" }
+        {
+                  "en": "Only size measurements without functional analysis",
+                  "es": "Solo mediciones de tamaño sin análisis funcional",
+                  "de": "Nur Größenmessungen ohne funktionale Analyse",
+                  "nl": "Alleen groottemetingen zonder functionele analyse"
+        },
+        {
+                  "en": "Evidence for uniform brain structure across all dinosaurs",
+                  "es": "Evidencia de estructura cerebral uniforme en todos los dinosaurios",
+                  "de": "Beweise für einheitliche Gehirnstruktur bei allen Dinosauriern",
+                  "nl": "Bewijs voor uniforme hersenstructuur in alle dinosaurussen"
+        },
+        {
+                  "en": "Proof that dinosaur brains never evolved",
+                  "es": "Prueba de que los cerebros de dinosaurios nunca evolucionaron",
+                  "de": "Beweis, dass Dinosaurier-Gehirne nie evolvierten",
+                  "nl": "Bewijs dat dinosaurushersenen nooit evolueerden"
+        },
+        {
+                  "en": "Detailed endocast analysis revealing cognitive complexity and sensory specializations",
+                  "es": "Análisis detallado de endocasts revelando complejidad cognitiva y especializaciones sensoriales",
+                  "de": "Detaillierte Endocast-Analyse enthüllt kognitive Komplexität und sensorische Spezialisierungen",
+                  "nl": "Gedetailleerde endocast-analyse die cognitieve complexiteit en sensorische specialisaties onthult"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "High-resolution CT scanning of dinosaur skulls reveals detailed brain endocasts showing enlarged regions for vision, hearing, balance, and olfaction, suggesting sophisticated sensory processing and potentially complex behaviors in various dinosaur lineages.",
-          es: "El escaneo CT de alta resolución de cráneos de dinosaurios revela endocasts cerebrales detallados mostrando regiones agrandadas para visión, audición, equilibrio y olfato, sugiriendo procesamiento sensorial sofisticado y comportamientos potencialmente complejos en varios linajes de dinosaurios.",
-          de: "Hochauflösende CT-Scans von Dinosaurier-Schädeln enthüllen detaillierte Gehirn-Endocasts, die vergrößerte Bereiche für Sehen, Hören, Gleichgewicht und Riechen zeigen und auf ausgeklügelte sensorische Verarbeitung und potenziell komplexe Verhaltensweisen in verschiedenen Dinosaurier-Linien hindeuten.",
-          nl: "Hoge-resolutie CT-scanning van dinosaurusschedels onthult gedetailleerde hersenendocasts die vergrote regio's voor zicht, gehoor, evenwicht en reuk tonen, wat geavanceerde sensorische verwerking en potentieel complexe gedragingen in verschillende dinosauruslijnen suggereert."
+                  "en": "High-resolution CT scanning of dinosaur skulls reveals detailed brain endocasts showing enlarged regions for vision, hearing, balance, and olfaction, suggesting sophisticated sensory processing and potentially complex behaviors in various dinosaur lineages.",
+                  "es": "El escaneo CT de alta resolución de cráneos de dinosaurios revela endocasts cerebrales detallados mostrando regiones agrandadas para visión, audición, equilibrio y olfato, sugiriendo procesamiento sensorial sofisticado y comportamientos potencialmente complejos en varios linajes de dinosaurios.",
+                  "de": "Hochauflösende CT-Scans von Dinosaurier-Schädeln enthüllen detaillierte Gehirn-Endocasts, die vergrößerte Bereiche für Sehen, Hören, Gleichgewicht und Riechen zeigen und auf ausgeklügelte sensorische Verarbeitung und potenziell komplexe Verhaltensweisen in verschiedenen Dinosaurier-Linien hindeuten.",
+                  "nl": "Hoge-resolutie CT-scanning van dinosaurusschedels onthult gedetailleerde hersenendocasts die vergrote regio's voor zicht, gehoor, evenwicht en reuk tonen, wat geavanceerde sensorische verwerking en potentieel complexe gedragingen in verschillende dinosauruslijnen suggereert."
         }
       },
       {
         question: {
-          en: "What challenges does the 'multiple origins' hypothesis for theropod flight present to traditional evolutionary models?",
-          es: "¿Qué desafíos presenta la hipótesis de 'múltiples orígenes' para el vuelo de terópodos a los modelos evolutivos tradicionales?",
-          de: "Welche Herausforderungen stellt die 'Mehrfach-Ursprungs'-Hypothese für den Theropoden-Flug an traditionelle Evolutionsmodelle?",
-          nl: "Welke uitdagingen biedt de 'meerdere oorsprong' hypothese voor theropodenvlucht aan traditionele evolutionaire modellen?"
+                  "en": "What challenges does the 'multiple origins' hypothesis for theropod flight present to traditional evolutionary models?",
+                  "es": "¿Qué desafíos presenta la hipótesis de 'múltiples orígenes' para el vuelo de terópodos a los modelos evolutivos tradicionales?",
+                  "de": "Welche Herausforderungen stellt die 'Mehrfach-Ursprungs'-Hypothese für den Theropoden-Flug an traditionelle Evolutionsmodelle?",
+                  "nl": "Welke uitdagingen biedt de 'meerdere oorsprong' hypothese voor theropodenvlucht aan traditionele evolutionaire modellen?"
         },
         options: [
-          { en: "Convergent evolution of flight mechanisms and complex evolutionary reversals", es: "Evolución convergente de mecanismos de vuelo y reversiones evolutivas complejas", de: "Konvergente Evolution von Flugmechanismen und komplexe evolutionäre Umkehrungen", nl: "Convergente evolutie van vliegmechanismen en complexe evolutionaire omkeringen" },
-          { en: "Simple linear progression from ground to air", es: "Progresión lineal simple de tierra a aire", de: "Einfache lineare Progression vom Boden zur Luft", nl: "Eenvoudige lineaire progressie van grond naar lucht" },
-          { en: "Single origin with no subsequent modifications", es: "Origen único sin modificaciones posteriores", de: "Einzelner Ursprung ohne nachfolgende Modifikationen", nl: "Enkele oorsprong zonder daaropvolgende wijzigingen" },
-          { en: "Only aquatic origins for all flight evolution", es: "Solo orígenes acuáticos para toda evolución de vuelo", de: "Nur aquatische Ursprünge für alle Flugevolution", nl: "Alleen aquatische oorsprong voor alle vluchtevolutie" }
+        {
+                  "en": "Convergent evolution of flight mechanisms and complex evolutionary reversals",
+                  "es": "Evolución convergente de mecanismos de vuelo y reversiones evolutivas complejas",
+                  "de": "Konvergente Evolution von Flugmechanismen und komplexe evolutionäre Umkehrungen",
+                  "nl": "Convergente evolutie van vliegmechanismen en complexe evolutionaire omkeringen"
+        },
+        {
+                  "en": "Only aquatic origins for all flight evolution",
+                  "es": "Solo orígenes acuáticos para toda evolución de vuelo",
+                  "de": "Nur aquatische Ursprünge für alle Flugevolution",
+                  "nl": "Alleen aquatische oorsprong voor alle vluchtevolutie"
+        },
+        {
+                  "en": "Simple linear progression from ground to air",
+                  "es": "Progresión lineal simple de tierra a aire",
+                  "de": "Einfache lineare Progression vom Boden zur Luft",
+                  "nl": "Eenvoudige lineaire progressie van grond naar lucht"
+        },
+        {
+                  "en": "Single origin with no subsequent modifications",
+                  "es": "Origen único sin modificaciones posteriores",
+                  "de": "Einzelner Ursprung ohne nachfolgende Modifikationen",
+                  "nl": "Enkele oorsprong zonder daaropvolgende wijzigingen"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Recent discoveries suggest flight may have evolved independently multiple times in theropods, with different lineages developing distinct wing morphologies and flight styles, challenging assumptions about single evolutionary origins and requiring complex phylogenetic scenarios.",
-          es: "Descubrimientos recientes sugieren que el vuelo pudo haber evolucionado independientemente múltiples veces en terópodos, con diferentes linajes desarrollando morfologías alares distintas y estilos de vuelo, desafiando suposiciones sobre orígenes evolutivos únicos y requiriendo escenarios filogenéticos complejos.",
-          de: "Jüngste Entdeckungen legen nahe, dass Flug möglicherweise mehrmals unabhängig bei Theropoden evolvierte, wobei verschiedene Linien unterschiedliche Flügelmorphologien und Flugstile entwickelten, was Annahmen über einzelne evolutionäre Ursprünge herausfordert und komplexe phylogenetische Szenarien erfordert.",
-          nl: "Recente ontdekkingen suggereren dat vlucht mogelijk meerdere keren onafhankelijk in theropoden evolueerde, waarbij verschillende lijnen verschillende vleugelmorfologieën en vliegstijlen ontwikkelden, wat aannames over enkele evolutionaire oorsprong uitdaagt en complexe fylogenetische scenario's vereist."
+                  "en": "Recent discoveries suggest flight may have evolved independently multiple times in theropods, with different lineages developing distinct wing morphologies and flight styles, challenging assumptions about single evolutionary origins and requiring complex phylogenetic scenarios.",
+                  "es": "Descubrimientos recientes sugieren que el vuelo pudo haber evolucionado independientemente múltiples veces en terópodos, con diferentes linajes desarrollando morfologías alares distintas y estilos de vuelo, desafiando suposiciones sobre orígenes evolutivos únicos y requiriendo escenarios filogenéticos complejos.",
+                  "de": "Jüngste Entdeckungen legen nahe, dass Flug möglicherweise mehrmals unabhängig bei Theropoden evolvierte, wobei verschiedene Linien unterschiedliche Flügelmorphologien und Flugstile entwickelten, was Annahmen über einzelne evolutionäre Ursprünge herausfordert und komplexe phylogenetische Szenarien erfordert.",
+                  "nl": "Recente ontdekkingen suggereren dat vlucht mogelijk meerdere keren onafhankelijk in theropoden evolueerde, waarbij verschillende lijnen verschillende vleugelmorfologieën en vliegstijlen ontwikkelden, wat aannames over enkele evolutionaire oorsprong uitdaagt en complexe fylogenetische scenario's vereist."
         }
       },
       {
         question: {
-          en: "What insights has ancient DNA extraction from dinosaur-era deposits provided about Mesozoic biodiversity?",
-          es: "¿Qué conocimientos ha proporcionado la extracción de ADN antiguo de depósitos de la era de los dinosaurios sobre la biodiversidad mesozoica?",
-          de: "Welche Einblicke hat die Extraktion alter DNA aus Ablagerungen der Dinosaurier-Ära zur mesozoischen Biodiversität geliefert?",
-          nl: "Welke inzichten heeft oude DNA-extractie uit dinosaurustidjperk afzettingen opgeleverd over Mesozoïsche biodiversiteit?"
+                  "en": "What insights has ancient DNA extraction from dinosaur-era deposits provided about Mesozoic biodiversity?",
+                  "es": "¿Qué conocimientos ha proporcionado la extracción de ADN antiguo de depósitos de la era de los dinosaurios sobre la biodiversidad mesozoica?",
+                  "de": "Welche Einblicke hat die Extraktion alter DNA aus Ablagerungen der Dinosaurier-Ära zur mesozoischen Biodiversität geliefert?",
+                  "nl": "Welke inzichten heeft oude DNA-extractie uit dinosaurustidjperk afzettingen opgeleverd over Mesozoïsche biodiversiteit?"
         },
         options: [
-          { en: "Microbial community composition and ecosystem dynamics, not dinosaur DNA", es: "Composición de comunidades microbianas y dinámicas ecosistémicas, no ADN de dinosaurios", de: "Mikrobielle Gemeinschaftszusammensetzung und Ökosystemdynamik, nicht Dinosaurier-DNA", nl: "Microbiële gemeenschapssamenstelling en ecosystemdynamiek, geen dinosaurus-DNA" },
-          { en: "Complete dinosaur genomes routinely recovered", es: "Genomas completos de dinosaurios recuperados rutinariamente", de: "Vollständige Dinosaurier-Genome routinemäßig wiederhergestellt", nl: "Complete dinosaurusgenomen routinematig teruggewonnen" },
-          { en: "Only plant DNA from the Mesozoic", es: "Solo ADN de plantas del Mesozoico", de: "Nur Pflanzen-DNA aus dem Mesozoikum", nl: "Alleen plant-DNA uit het Mesozoïcum" },
-          { en: "Unlimited preservation of all DNA types", es: "Preservación ilimitada de todos los tipos de ADN", de: "Unbegrenzte Erhaltung aller DNA-Typen", nl: "Onbeperkte bewaring van alle DNA-types" }
+        {
+                  "en": "Unlimited preservation of all DNA types",
+                  "es": "Preservación ilimitada de todos los tipos de ADN",
+                  "de": "Unbegrenzte Erhaltung aller DNA-Typen",
+                  "nl": "Onbeperkte bewaring van alle DNA-types"
+        },
+        {
+                  "en": "Only plant DNA from the Mesozoic",
+                  "es": "Solo ADN de plantas del Mesozoico",
+                  "de": "Nur Pflanzen-DNA aus dem Mesozoikum",
+                  "nl": "Alleen plant-DNA uit het Mesozoïcum"
+        },
+        {
+                  "en": "Microbial community composition and ecosystem dynamics, not dinosaur DNA",
+                  "es": "Composición de comunidades microbianas y dinámicas ecosistémicas, no ADN de dinosaurios",
+                  "de": "Mikrobielle Gemeinschaftszusammensetzung und Ökosystemdynamik, nicht Dinosaurier-DNA",
+                  "nl": "Microbiële gemeenschapssamenstelling en ecosystemdynamiek, geen dinosaurus-DNA"
+        },
+        {
+                  "en": "Complete dinosaur genomes routinely recovered",
+                  "es": "Genomas completos de dinosaurios recuperados rutinariamente",
+                  "de": "Vollständige Dinosaurier-Genome routinemäßig wiederhergestellt",
+                  "nl": "Complete dinosaurusgenomen routinematig teruggewonnen"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "While dinosaur DNA extraction remains impossible, ancient environmental DNA from Mesozoic sediments has revealed microbial communities, algae, and other microorganisms, providing insights into ancient ecosystem composition and environmental conditions, but not macrofaunal genetics.",
-          es: "Aunque la extracción de ADN de dinosaurios sigue siendo imposible, el ADN ambiental antiguo de sedimentos mesozoicos ha revelado comunidades microbianas, algas y otros microorganismos, proporcionando conocimientos sobre composición de ecosistemas antiguos y condiciones ambientales, pero no genética macrofaunal.",
-          de: "Während Dinosaurier-DNA-Extraktion unmöglich bleibt, hat alte Umwelt-DNA aus mesozoischen Sedimenten mikrobielle Gemeinschaften, Algen und andere Mikroorganismen enthüllt und Einblicke in alte Ökosystem-Zusammensetzung und Umweltbedingungen geliefert, aber nicht in Makrofauna-Genetik.",
-          nl: "Hoewel dinosaurus-DNA-extractie onmogelijk blijft, heeft oude milieu-DNA uit Mesozoïsche sedimenten microbiële gemeenschappen, algen en andere micro-organismen onthuld, wat inzichten biedt in oude ecosysteemsamenstelling en omgevingscondities, maar niet in macrofaunale genetica."
+                  "en": "While dinosaur DNA extraction remains impossible, ancient environmental DNA from Mesozoic sediments has revealed microbial communities, algae, and other microorganisms, providing insights into ancient ecosystem composition and environmental conditions, but not macrofaunal genetics.",
+                  "es": "Aunque la extracción de ADN de dinosaurios sigue siendo imposible, el ADN ambiental antiguo de sedimentos mesozoicos ha revelado comunidades microbianas, algas y otros microorganismos, proporcionando conocimientos sobre composición de ecosistemas antiguos y condiciones ambientales, pero no genética macrofaunal.",
+                  "de": "Während Dinosaurier-DNA-Extraktion unmöglich bleibt, hat alte Umwelt-DNA aus mesozoischen Sedimenten mikrobielle Gemeinschaften, Algen und andere Mikroorganismen enthüllt und Einblicke in alte Ökosystem-Zusammensetzung und Umweltbedingungen geliefert, aber nicht in Makrofauna-Genetik.",
+                  "nl": "Hoewel dinosaurus-DNA-extractie onmogelijk blijft, heeft oude milieu-DNA uit Mesozoïsche sedimenten microbiële gemeenschappen, algen en andere micro-organismen onthuld, wat inzichten biedt in oude ecosysteemsamenstelling en omgevingscondities, maar niet in macrofaunale genetica."
         }
       },
       {
         question: {
-          en: "How has the study of dinosaur growth series challenged traditional species concepts in paleontology?",
-          es: "¿Cómo ha desafiado el estudio de series de crecimiento de dinosaurios los conceptos tradicionales de especies en paleontología?",
-          de: "Wie hat die Untersuchung von Dinosaurier-Wachstumsserien traditionelle Artkonzepte in der Paläontologie herausgefordert?",
-          nl: "Hoe heeft de studie van dinosaurusgronoeireeksen traditionele soortenconcepten in paleontologie uitgedaagd?"
+                  "en": "How has the study of dinosaur growth series challenged traditional species concepts in paleontology?",
+                  "es": "¿Cómo ha desafiado el estudio de series de crecimiento de dinosaurios los conceptos tradicionales de especies en paleontología?",
+                  "de": "Wie hat die Untersuchung von Dinosaurier-Wachstumsserien traditionelle Artkonzepte in der Paläontologie herausgefordert?",
+                  "nl": "Hoe heeft de studie van dinosaurusgronoeireeksen traditionele soortenconcepten in paleontologie uitgedaagd?"
         },
         options: [
-          { en: "Synonymization of supposed species representing different growth stages", es: "Sinonimización de supuestas especies representando diferentes etapas de crecimiento", de: "Synonymisierung vermeintlicher Arten, die verschiedene Wachstumsstadien darstellen", nl: "Synonymisatie van veronderstelde soorten die verschillende groeistadia vertegenwoordigen" },
-          { en: "Confirmation of all previously named species", es: "Confirmación de todas las especies nombradas previamente", de: "Bestätigung aller zuvor benannten Arten", nl: "Bevestiging van alle eerder genoemde soorten" },
-          { en: "Evidence that growth patterns are uniform", es: "Evidencia de que los patrones de crecimiento son uniformes", de: "Beweise, dass Wachstumsmuster einheitlich sind", nl: "Bewijs dat groeipatronen uniform zijn" },
-          { en: "Proof that ontogeny doesn't affect morphology", es: "Prueba de que la ontogenia no afecta la morfología", de: "Beweis, dass Ontogenie die Morphologie nicht beeinflusst", nl: "Bewijs dat ontogenie morfologie niet beïnvloedt" }
+        {
+                  "en": "Evidence that growth patterns are uniform",
+                  "es": "Evidencia de que los patrones de crecimiento son uniformes",
+                  "de": "Beweise, dass Wachstumsmuster einheitlich sind",
+                  "nl": "Bewijs dat groeipatronen uniform zijn"
+        },
+        {
+                  "en": "Confirmation of all previously named species",
+                  "es": "Confirmación de todas las especies nombradas previamente",
+                  "de": "Bestätigung aller zuvor benannten Arten",
+                  "nl": "Bevestiging van alle eerder genoemde soorten"
+        },
+        {
+                  "en": "Synonymization of supposed species representing different growth stages",
+                  "es": "Sinonimización de supuestas especies representando diferentes etapas de crecimiento",
+                  "de": "Synonymisierung vermeintlicher Arten, die verschiedene Wachstumsstadien darstellen",
+                  "nl": "Synonymisatie van veronderstelde soorten die verschillende groeistadia vertegenwoordigen"
+        },
+        {
+                  "en": "Proof that ontogeny doesn't affect morphology",
+                  "es": "Prueba de que la ontogenia no afecta la morfología",
+                  "de": "Beweis, dass Ontogenie die Morphologie nicht beeinflusst",
+                  "nl": "Bewijs dat ontogenie morfologie niet beïnvloedt"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Comprehensive growth series studies have revealed that many supposed dinosaur species actually represent different growth stages of fewer taxa, leading to extensive taxonomic revision and highlighting the importance of understanding ontogenetic variation in paleontological systematics.",
-          es: "Los estudios comprehensivos de series de crecimiento han revelado que muchas supuestas especies de dinosaurios realmente representan diferentes etapas de crecimiento de menos taxa, llevando a revisión taxonómica extensiva y resaltando la importancia de entender variación ontogenética en sistemática paleontológica.",
-          de: "Umfassende Wachstumsserienstudien haben enthüllt, dass viele vermeintliche Dinosaurier-Arten tatsächlich verschiedene Wachstumsstadien weniger Taxa darstellen, was zu umfangreichen taxonomischen Revisionen führte und die Bedeutung des Verständnisses ontogenetischer Variation in der paläontologischen Systematik hervorhob.",
-          nl: "Uitgebreide groeireeksstudies hebben onthuld dat veel veronderstelde dinosaurussoorten daadwerkelijk verschillende groeistadia van minder taxa vertegenwoordigen, wat leidt tot uitgebreide taxonomische revisie en de betekenis van het begrijpen van ontogenetische variatie in paleontologische systematiek benadrukt."
+                  "en": "Comprehensive growth series studies have revealed that many supposed dinosaur species actually represent different growth stages of fewer taxa, leading to extensive taxonomic revision and highlighting the importance of understanding ontogenetic variation in paleontological systematics.",
+                  "es": "Los estudios comprehensivos de series de crecimiento han revelado que muchas supuestas especies de dinosaurios realmente representan diferentes etapas de crecimiento de menos taxa, llevando a revisión taxonómica extensiva y resaltando la importancia de entender variación ontogenética en sistemática paleontológica.",
+                  "de": "Umfassende Wachstumsserienstudien haben enthüllt, dass viele vermeintliche Dinosaurier-Arten tatsächlich verschiedene Wachstumsstadien weniger Taxa darstellen, was zu umfangreichen taxonomischen Revisionen führte und die Bedeutung des Verständnisses ontogenetischer Variation in der paläontologischen Systematik hervorhob.",
+                  "nl": "Uitgebreide groeireeksstudies hebben onthuld dat veel veronderstelde dinosaurussoorten daadwerkelijk verschillende groeistadia van minder taxa vertegenwoordigen, wat leidt tot uitgebreide taxonomische revisie en de betekenis van het begrijpen van ontogenetische variatie in paleontologische systematiek benadrukt."
         }
       },
       {
         question: {
-          en: "What controversies surround the interpretation of supposed dinosaur soft tissue preservation?",
-          es: "¿Qué controversias rodean la interpretación de supuesta preservación de tejidos blandos de dinosaurios?",
-          de: "Welche Kontroversen umgeben die Interpretation der vermeintlichen Dinosaurier-Weichgewebeerhaltung?",
-          nl: "Welke controverses omringen de interpretatie van veronderstelde dinosaurusweke weefselbeheoud?"
+                  "en": "What controversies surround the interpretation of supposed dinosaur soft tissue preservation?",
+                  "es": "¿Qué controversias rodean la interpretación de supuesta preservación de tejidos blandos de dinosaurios?",
+                  "de": "Welche Kontroversen umgeben die Interpretation der vermeintlichen Dinosaurier-Weichgewebeerhaltung?",
+                  "nl": "Welke controverses omringen de interpretatie van veronderstelde dinosaurusweke weefselbeheoud?"
         },
         options: [
-          { en: "Biofilm formation versus authentic tissue preservation and contamination issues", es: "Formación de biofilm versus preservación auténtica de tejidos y problemas de contaminación", de: "Biofilm-Bildung versus authentische Gewebeerhaltung und Kontaminationsprobleme", nl: "Biofilm-vorming versus authentieke weefselbehoud en contaminatieproblemen" },
-          { en: "Universal acceptance of all soft tissue claims", es: "Aceptación universal de todas las afirmaciones de tejidos blandos", de: "Universelle Akzeptanz aller Weichgewebeansprüche", nl: "Universele acceptatie van alle weke weefselclaims" },
-          { en: "Only mineralized tissues can be preserved", es: "Solo los tejidos mineralizados pueden preservarse", de: "Nur mineralisierte Gewebe können erhalten werden", nl: "Alleen gemineraliseerde weefsels kunnen bewaard blijven" },
-          { en: "Soft tissue preservation is routine in all fossils", es: "La preservación de tejidos blandos es rutinaria en todos los fósiles", de: "Weichgewebeerhaltung ist routinemäßig in allen Fossilien", nl: "Weke weefselbeheoud is routine in alle fossielen" }
+        {
+                  "en": "Soft tissue preservation is routine in all fossils",
+                  "es": "La preservación de tejidos blandos es rutinaria en todos los fósiles",
+                  "de": "Weichgewebeerhaltung ist routinemäßig in allen Fossilien",
+                  "nl": "Weke weefselbeheoud is routine in alle fossielen"
+        },
+        {
+                  "en": "Biofilm formation versus authentic tissue preservation and contamination issues",
+                  "es": "Formación de biofilm versus preservación auténtica de tejidos y problemas de contaminación",
+                  "de": "Biofilm-Bildung versus authentische Gewebeerhaltung und Kontaminationsprobleme",
+                  "nl": "Biofilm-vorming versus authentieke weefselbehoud en contaminatieproblemen"
+        },
+        {
+                  "en": "Universal acceptance of all soft tissue claims",
+                  "es": "Aceptación universal de todas las afirmaciones de tejidos blandos",
+                  "de": "Universelle Akzeptanz aller Weichgewebeansprüche",
+                  "nl": "Universele acceptatie van alle weke weefselclaims"
+        },
+        {
+                  "en": "Only mineralized tissues can be preserved",
+                  "es": "Solo los tejidos mineralizados pueden preservarse",
+                  "de": "Nur mineralisierte Gewebe können erhalten werden",
+                  "nl": "Alleen gemineraliseerde weefsels kunnen bewaard blijven"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Reported dinosaur soft tissue discoveries face scrutiny regarding whether structures represent original tissues, bacterial biofilms, laboratory contamination, or mineral precipitates, with ongoing debate about preservation mechanisms and authenticity of organic components.",
-          es: "Los descubrimientos reportados de tejidos blandos de dinosaurios enfrentan escrutinio sobre si las estructuras representan tejidos originales, biofilms bacterianos, contaminación de laboratorio o precipitados minerales, con debate continuo sobre mecanismos de preservación y autenticidad de componentes orgánicos.",
-          de: "Berichtete Dinosaurier-Weichgewebeentdeckungen stehen unter Prüfung, ob Strukturen ursprüngliche Gewebe, bakterielle Biofilme, Laborkontamination oder Mineralpräzipitate darstellen, mit anhaltender Debatte über Erhaltungsmechanismen und Authentizität organischer Komponenten.",
-          nl: "Gerapporteerde dinosaurusweke weefselontdekkingen ondervinden scrutinie betreffende of structuren oorspronkelijke weefsels, bacteriële biofilms, laboratoriumcontaminatie of mineraalneerslag vertegenwoordigen, met voortdurend debat over bewaarmechanismen en authenticiteit van organische componenten."
+                  "en": "Reported dinosaur soft tissue discoveries face scrutiny regarding whether structures represent original tissues, bacterial biofilms, laboratory contamination, or mineral precipitates, with ongoing debate about preservation mechanisms and authenticity of organic components.",
+                  "es": "Los descubrimientos reportados de tejidos blandos de dinosaurios enfrentan escrutinio sobre si las estructuras representan tejidos originales, biofilms bacterianos, contaminación de laboratorio o precipitados minerales, con debate continuo sobre mecanismos de preservación y autenticidad de componentes orgánicos.",
+                  "de": "Berichtete Dinosaurier-Weichgewebeentdeckungen stehen unter Prüfung, ob Strukturen ursprüngliche Gewebe, bakterielle Biofilme, Laborkontamination oder Mineralpräzipitate darstellen, mit anhaltender Debatte über Erhaltungsmechanismen und Authentizität organischer Komponenten.",
+                  "nl": "Gerapporteerde dinosaurusweke weefselontdekkingen ondervinden scrutinie betreffende of structuren oorspronkelijke weefsels, bacteriële biofilms, laboratoriumcontaminatie of mineraalneerslag vertegenwoordigen, met voortdurend debat over bewaarmechanismen en authenticiteit van organische componenten."
         }
       },
       {
         question: {
-          en: "What role does geometric morphometrics play in resolving dinosaur taxonomic controversies?",
-          es: "¿Qué papel juega la morfometría geométrica en resolver controversias taxonómicas de dinosaurios?",
-          de: "Welche Rolle spielt die geometrische Morphometrie bei der Lösung taxonomischer Dinosaurier-Kontroversen?",
-          nl: "Welke rol speelt geometrische morfometrie bij het oplossen van dinosaurustaxonomische controverses?"
+                  "en": "What role does geometric morphometrics play in resolving dinosaur taxonomic controversies?",
+                  "es": "¿Qué papel juega la morfometría geométrica en resolver controversias taxonómicas de dinosaurios?",
+                  "de": "Welche Rolle spielt die geometrische Morphometrie bei der Lösung taxonomischer Dinosaurier-Kontroversen?",
+                  "nl": "Welke rol speelt geometrische morfometrie bij het oplossen van dinosaurustaxonomische controverses?"
         },
         options: [
-          { en: "Quantitative shape analysis distinguishing ontogenetic from taxonomic variation", es: "Análisis cuantitativo de forma distinguiendo variación ontogenética de taxonómica", de: "Quantitative Formanalyse zur Unterscheidung ontogenetischer von taxonomischer Variation", nl: "Kwantitatieve vormanalyse die ontogenetische van taxonomische variatie onderscheidt" },
-          { en: "Only useful for measuring fossil size", es: "Solo útil para medir tamaño de fósiles", de: "Nur nützlich für die Messung der Fossilgröße", nl: "Alleen nuttig voor het meten van fossielgrootte" },
-          { en: "Eliminates all taxonomic uncertainty", es: "Elimina toda incertidumbre taxonómica", de: "Beseitigt alle taxonomische Unsicherheit", nl: "Elimineert alle taxonomische onzekerheid" },
-          { en: "Replaces morphological description entirely", es: "Reemplaza completamente la descripción morfológica", de: "Ersetzt morphologische Beschreibung vollständig", nl: "Vervangt morfologische beschrijving volledig" }
+        {
+                  "en": "Replaces morphological description entirely",
+                  "es": "Reemplaza completamente la descripción morfológica",
+                  "de": "Ersetzt morphologische Beschreibung vollständig",
+                  "nl": "Vervangt morfologische beschrijving volledig"
+        },
+        {
+                  "en": "Eliminates all taxonomic uncertainty",
+                  "es": "Elimina toda incertidumbre taxonómica",
+                  "de": "Beseitigt alle taxonomische Unsicherheit",
+                  "nl": "Elimineert alle taxonomische onzekerheid"
+        },
+        {
+                  "en": "Quantitative shape analysis distinguishing ontogenetic from taxonomic variation",
+                  "es": "Análisis cuantitativo de forma distinguiendo variación ontogenética de taxonómica",
+                  "de": "Quantitative Formanalyse zur Unterscheidung ontogenetischer von taxonomischer Variation",
+                  "nl": "Kwantitatieve vormanalyse die ontogenetische van taxonomische variatie onderscheidt"
+        },
+        {
+                  "en": "Only useful for measuring fossil size",
+                  "es": "Solo útil para medir tamaño de fósiles",
+                  "de": "Nur nützlich für die Messung der Fossilgröße",
+                  "nl": "Alleen nuttig voor het meten van fossielgrootte"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Geometric morphometrics uses landmark-based statistical analysis to quantify shape variation, helping distinguish between individual growth variation and genuine species differences, and identifying morphological patterns that traditional qualitative descriptions might miss.",
-          es: "La morfometría geométrica usa análisis estadístico basado en puntos de referencia para cuantificar variación de forma, ayudando a distinguir entre variación de crecimiento individual y diferencias genuinas de especies, e identificando patrones morfológicos que descripciones cualitativas tradicionales podrían pasar por alto.",
-          de: "Geometrische Morphometrie verwendet landmarkenbasierte statistische Analyse zur Quantifizierung von Formvariation, hilft zwischen individueller Wachstumsvariation und echten Artunterschieden zu unterscheiden und identifiziert morphologische Muster, die traditionelle qualitative Beschreibungen übersehen könnten.",
-          nl: "Geometrische morfometrie gebruikt landmark-gebaseerde statistische analyse om vormvariatie te kwantificeren, wat helpt onderscheid te maken tussen individuele groeivariatatie en echte soortverschillen, en morfologische patronen identificeert die traditionele kwalitatieve beschrijvingen zouden kunnen missen."
+                  "en": "Geometric morphometrics uses landmark-based statistical analysis to quantify shape variation, helping distinguish between individual growth variation and genuine species differences, and identifying morphological patterns that traditional qualitative descriptions might miss.",
+                  "es": "La morfometría geométrica usa análisis estadístico basado en puntos de referencia para cuantificar variación de forma, ayudando a distinguir entre variación de crecimiento individual y diferencias genuinas de especies, e identificando patrones morfológicos que descripciones cualitativas tradicionales podrían pasar por alto.",
+                  "de": "Geometrische Morphometrie verwendet landmarkenbasierte statistische Analyse zur Quantifizierung von Formvariation, hilft zwischen individueller Wachstumsvariation und echten Artunterschieden zu unterscheiden und identifiziert morphologische Muster, die traditionelle qualitative Beschreibungen übersehen könnten.",
+                  "nl": "Geometrische morfometrie gebruikt landmark-gebaseerde statistische analyse om vormvariatie te kwantificeren, wat helpt onderscheid te maken tussen individuele groeivariatatie en echte soortverschillen, en morfologische patronen identificeert die traditionele kwalitatieve beschrijvingen zouden kunnen missen."
         }
       },
       {
         question: {
-          en: "How has isotope geochemistry advanced our understanding of dinosaur migration patterns?",
-          es: "¿Cómo ha avanzado la geoquímica de isótopos nuestra comprensión de los patrones de migración de dinosaurios?",
-          de: "Wie hat die Isotopen-Geochemie unser Verständnis der Dinosaurier-Migrationsmuster vorangebracht?",
-          nl: "Hoe heeft isotopengeochemie ons begrip van dinosaurusmigratiepartronen gevorderd?"
+                  "en": "How has isotope geochemistry advanced our understanding of dinosaur migration patterns?",
+                  "es": "¿Cómo ha avanzado la geoquímica de isótopos nuestra comprensión de los patrones de migración de dinosaurios?",
+                  "de": "Wie hat die Isotopen-Geochemie unser Verständnis der Dinosaurier-Migrationsmuster vorangebracht?",
+                  "nl": "Hoe heeft isotopengeochemie ons begrip van dinosaurusmigratiepartronen gevorderd?"
         },
         options: [
-          { en: "Strontium isotope analysis revealing geographic movement between different geological terrains", es: "Análisis de isótopos de estroncio revelando movimiento geográfico entre diferentes terrenos geológicos", de: "Strontium-Isotopen-Analyse enthüllt geografische Bewegung zwischen verschiedenen geologischen Terrains", nl: "Strontium-isotopenanalyse die geografische beweging tussen verschillende geologische terreinen onthult" },
-          { en: "Proof that no dinosaurs ever migrated", es: "Prueba de que ningún dinosaurio migró nunca", de: "Beweis, dass keine Dinosaurier jemals migrierten", nl: "Bewijs dat geen dinosaurussen ooit migreerden" },
-          { en: "Only seasonal dietary changes detected", es: "Solo cambios dietéticos estacionales detectados", de: "Nur saisonale diätetische Veränderungen entdeckt", nl: "Alleen seizoensgebonden dieetveranderingen gedetecteerd" },
-          { en: "Universal migration patterns across all species", es: "Patrones de migración universales en todas las especies", de: "Universelle Migrationsmuster bei allen Arten", nl: "Universele migratiepatronen over alle soorten" }
+        {
+                  "en": "Strontium isotope analysis revealing geographic movement between different geological terrains",
+                  "es": "Análisis de isótopos de estroncio revelando movimiento geográfico entre diferentes terrenos geológicos",
+                  "de": "Strontium-Isotopen-Analyse enthüllt geografische Bewegung zwischen verschiedenen geologischen Terrains",
+                  "nl": "Strontium-isotopenanalyse die geografische beweging tussen verschillende geologische terreinen onthult"
+        },
+        {
+                  "en": "Proof that no dinosaurs ever migrated",
+                  "es": "Prueba de que ningún dinosaurio migró nunca",
+                  "de": "Beweis, dass keine Dinosaurier jemals migrierten",
+                  "nl": "Bewijs dat geen dinosaurussen ooit migreerden"
+        },
+        {
+                  "en": "Only seasonal dietary changes detected",
+                  "es": "Solo cambios dietéticos estacionales detectados",
+                  "de": "Nur saisonale diätetische Veränderungen entdeckt",
+                  "nl": "Alleen seizoensgebonden dieetveranderingen gedetecteerd"
+        },
+        {
+                  "en": "Universal migration patterns across all species",
+                  "es": "Patrones de migración universales en todas las especies",
+                  "de": "Universelle Migrationsmuster bei allen Arten",
+                  "nl": "Universele migratiepatronen over alle soorten"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Strontium isotope ratios in dinosaur teeth reflect the geological substrates of different regions, allowing researchers to track individual movements across landscapes and identify seasonal migration routes in some dinosaur species.",
-          es: "Las proporciones de isótopos de estroncio en dientes de dinosaurios reflejan los sustratos geológicos de diferentes regiones, permitiendo a los investigadores rastrear movimientos individuales a través de paisajes e identificar rutas de migración estacional en algunas especies de dinosaurios.",
-          de: "Strontium-Isotopenverhältnisse in Dinosaurier-Zähnen spiegeln die geologischen Substrate verschiedener Regionen wider und ermöglichen es Forschern, individuelle Bewegungen über Landschaften zu verfolgen und saisonale Migrationsrouten bei einigen Dinosaurier-Arten zu identifizieren.",
-          nl: "Strontium-isotopenverhoudingen in dinosaurustanden weerspiegelen de geologische substraten van verschillende regio's, waardoor onderzoekers individuele bewegingen over landschappen kunnen volgen en seizoensgebonden migratieroutes in sommige dinosaurussoorten kunnen identificeren."
+                  "en": "Strontium isotope ratios in dinosaur teeth reflect the geological substrates of different regions, allowing researchers to track individual movements across landscapes and identify seasonal migration routes in some dinosaur species.",
+                  "es": "Las proporciones de isótopos de estroncio en dientes de dinosaurios reflejan los sustratos geológicos de diferentes regiones, permitiendo a los investigadores rastrear movimientos individuales a través de paisajes e identificar rutas de migración estacional en algunas especies de dinosaurios.",
+                  "de": "Strontium-Isotopenverhältnisse in Dinosaurier-Zähnen spiegeln die geologischen Substrate verschiedener Regionen wider und ermöglichen es Forschern, individuelle Bewegungen über Landschaften zu verfolgen und saisonale Migrationsrouten bei einigen Dinosaurier-Arten zu identifizieren.",
+                  "nl": "Strontium-isotopenverhoudingen in dinosaurustanden weerspiegelen de geologische substraten van verschillende regio's, waardoor onderzoekers individuele bewegingen over landschappen kunnen volgen en seizoensgebonden migratieroutes in sommige dinosaurussoorten kunnen identificeren."
         }
       },
       {
         question: {
-          en: "What implications does the discovery of melanosomes in dinosaur fossils have for understanding ancient coloration?",
-          es: "¿Qué implicaciones tiene el descubrimiento de melanosomas en fósiles de dinosaurios para entender la coloración antigua?",
-          de: "Welche Implikationen hat die Entdeckung von Melanosomen in Dinosaurier-Fossilien für das Verständnis alter Färbung?",
-          nl: "Welke implicaties heeft de ontdekking van melanosomen in dinosaurusfossielen voor het begrijpen van oude kleuring?"
+                  "en": "What implications does the discovery of melanosomes in dinosaur fossils have for understanding ancient coloration?",
+                  "es": "¿Qué implicaciones tiene el descubrimiento de melanosomas en fósiles de dinosaurios para entender la coloración antigua?",
+                  "de": "Welche Implikationen hat die Entdeckung von Melanosomen in Dinosaurier-Fossilien für das Verständnis alter Färbung?",
+                  "nl": "Welke implicaties heeft de ontdekking van melanosomen in dinosaurusfossielen voor het begrijpen van oude kleuring?"
         },
         options: [
-          { en: "Reconstruction of specific color patterns and potential display behaviors", es: "Reconstrucción de patrones de color específicos y comportamientos de exhibición potenciales", de: "Rekonstruktion spezifischer Farbmuster und potenzieller Präsentationsverhalten", nl: "Reconstructie van specifieke kleurpatronen en potentiële vertoningsgedragingen" },
-          { en: "Proof that all dinosaurs were gray", es: "Prueba de que todos los dinosaurios eran grises", de: "Beweis, dass alle Dinosaurier grau waren", nl: "Bewijs dat alle dinosaurussen grijs waren" },
-          { en: "Evidence for uniform coloration across species", es: "Evidencia de coloración uniforme entre especies", de: "Beweise für einheitliche Färbung bei allen Arten", nl: "Bewijs voor uniforme kleuring over soorten" },
-          { en: "Only black and white color possibilities", es: "Solo posibilidades de color blanco y negro", de: "Nur Schwarz-Weiß-Farbmöglichkeiten", nl: "Alleen zwart-wit kleurmogelijkheden" }
+        {
+                  "en": "Evidence for uniform coloration across species",
+                  "es": "Evidencia de coloración uniforme entre especies",
+                  "de": "Beweise für einheitliche Färbung bei allen Arten",
+                  "nl": "Bewijs voor uniforme kleuring over soorten"
+        },
+        {
+                  "en": "Only black and white color possibilities",
+                  "es": "Solo posibilidades de color blanco y negro",
+                  "de": "Nur Schwarz-Weiß-Farbmöglichkeiten",
+                  "nl": "Alleen zwart-wit kleurmogelijkheden"
+        },
+        {
+                  "en": "Reconstruction of specific color patterns and potential display behaviors",
+                  "es": "Reconstrucción de patrones de color específicos y comportamientos de exhibición potenciales",
+                  "de": "Rekonstruktion spezifischer Farbmuster und potenzieller Präsentationsverhalten",
+                  "nl": "Reconstructie van specifieke kleurpatronen en potentiële vertoningsgedragingen"
+        },
+        {
+                  "en": "Proof that all dinosaurs were gray",
+                  "es": "Prueba de que todos los dinosaurios eran grises",
+                  "de": "Beweis, dass alle Dinosaurier grau waren",
+                  "nl": "Bewijs dat alle dinosaurussen grijs waren"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Melanosomes (pigment-containing organelles) preserve different shapes and sizes that correspond to specific colors, allowing reconstruction of dinosaur coloration patterns including stripes, spots, and iridescence, suggesting complex visual communication and camouflage strategies.",
-          es: "Los melanosomas (orgánulos que contienen pigmento) preservan diferentes formas y tamaños que corresponden a colores específicos, permitiendo reconstrucción de patrones de coloración de dinosaurios incluyendo rayas, manchas e iridiscencia, sugiriendo estrategias complejas de comunicación visual y camuflaje.",
-          de: "Melanosomen (pigmenthaltige Organellen) bewahren verschiedene Formen und Größen, die spezifischen Farben entsprechen, und ermöglichen die Rekonstruktion von Dinosaurier-Färbungsmustern einschließlich Streifen, Flecken und Irisierung, was komplexe visuelle Kommunikations- und Tarnungsstrategien nahelegt.",
-          nl: "Melanosomen (pigment-bevattende organellen) bewaren verschillende vormen en groottes die corresponderen met specifieke kleuren, waardoor reconstructie van dinosauruskleurrpatronen inclusief strepen, vlekken en iriseering mogelijk wordt, wat complexe visuele communicatie- en camouflagestrategieën suggereert."
+                  "en": "Melanosomes (pigment-containing organelles) preserve different shapes and sizes that correspond to specific colors, allowing reconstruction of dinosaur coloration patterns including stripes, spots, and iridescence, suggesting complex visual communication and camouflage strategies.",
+                  "es": "Los melanosomas (orgánulos que contienen pigmento) preservan diferentes formas y tamaños que corresponden a colores específicos, permitiendo reconstrucción de patrones de coloración de dinosaurios incluyendo rayas, manchas e iridiscencia, sugiriendo estrategias complejas de comunicación visual y camuflaje.",
+                  "de": "Melanosomen (pigmenthaltige Organellen) bewahren verschiedene Formen und Größen, die spezifischen Farben entsprechen, und ermöglichen die Rekonstruktion von Dinosaurier-Färbungsmustern einschließlich Streifen, Flecken und Irisierung, was komplexe visuelle Kommunikations- und Tarnungsstrategien nahelegt.",
+                  "nl": "Melanosomen (pigment-bevattende organellen) bewaren verschillende vormen en groottes die corresponderen met specifieke kleuren, waardoor reconstructie van dinosauruskleurrpatronen inclusief strepen, vlekken en iriseering mogelijk wordt, wat complexe visuele communicatie- en camouflagestrategieën suggereert."
         }
       },
       {
         question: {
-          en: "How do machine learning algorithms enhance automated fossil identification and classification systems?",
-          es: "¿Cómo mejoran los algoritmos de aprendizaje automático los sistemas automatizados de identificación y clasificación de fósiles?",
-          de: "Wie verbessern Machine-Learning-Algorithmen automatisierte Fossil-Identifikations- und Klassifikationssysteme?",
-          nl: "Hoe verbeteren machine learning algoritmen geautomatiseerde fossielidentificatie- en classificatiesystemen?"
+                  "en": "How do machine learning algorithms enhance automated fossil identification and classification systems?",
+                  "es": "¿Cómo mejoran los algoritmos de aprendizaje automático los sistemas automatizados de identificación y clasificación de fósiles?",
+                  "de": "Wie verbessern Machine-Learning-Algorithmen automatisierte Fossil-Identifikations- und Klassifikationssysteme?",
+                  "nl": "Hoe verbeteren machine learning algoritmen geautomatiseerde fossielidentificatie- en classificatiesystemen?"
         },
         options: [
-          { en: "Pattern recognition in morphological features and probabilistic taxonomic assignment", es: "Reconocimiento de patrones en características morfológicas y asignación taxonómica probabilística", de: "Mustererkennung in morphologischen Merkmalen und probabilistische taxonomische Zuordnung", nl: "Patroonherkenning in morfologische kenmerken en probabilistische taxonomische toewijzing" },
-          { en: "Simple image filtering only", es: "Solo filtrado simple de imágenes", de: "Nur einfache Bildfilterung", nl: "Alleen eenvoudige beeldfiltering" },
-          { en: "Random classification methods", es: "Métodos de clasificación aleatoria", de: "Zufällige Klassifikationsmethoden", nl: "Willekeurige classificatiemethoden" },
-          { en: "Manual data entry assistance", es: "Asistencia para entrada manual de datos", de: "Hilfe bei manueller Dateneingabe", nl: "Handmatige gegevensinvoerhulp" }
+        {
+                  "en": "Pattern recognition in morphological features and probabilistic taxonomic assignment",
+                  "es": "Reconocimiento de patrones en características morfológicas y asignación taxonómica probabilística",
+                  "de": "Mustererkennung in morphologischen Merkmalen und probabilistische taxonomische Zuordnung",
+                  "nl": "Patroonherkenning in morfologische kenmerken en probabilistische taxonomische toewijzing"
+        },
+        {
+                  "en": "Manual data entry assistance",
+                  "es": "Asistencia para entrada manual de datos",
+                  "de": "Hilfe bei manueller Dateneingabe",
+                  "nl": "Handmatige gegevensinvoerhulp"
+        },
+        {
+                  "en": "Simple image filtering only",
+                  "es": "Solo filtrado simple de imágenes",
+                  "de": "Nur einfache Bildfilterung",
+                  "nl": "Alleen eenvoudige beeldfiltering"
+        },
+        {
+                  "en": "Random classification methods",
+                  "es": "Métodos de clasificación aleatoria",
+                  "de": "Zufällige Klassifikationsmethoden",
+                  "nl": "Willekeurige classificatiemethoden"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Deep learning networks trained on large fossil datasets can recognize subtle morphological patterns, measure dimensional relationships, and assign specimens to taxonomic groups with confidence intervals, revolutionizing fossil identification speed and consistency.",
-          es: "Las redes de aprendizaje profundo entrenadas en grandes conjuntos de datos fósiles pueden reconocer patrones morfológicos sutiles, medir relaciones dimensionales y asignar especímenes a grupos taxonómicos con intervalos de confianza, revolucionando la velocidad y consistencia de identificación fósil.",
-          de: "Deep-Learning-Netzwerke, die auf großen Fossildatensätzen trainiert wurden, können subtile morphologische Muster erkennen, dimensionale Beziehungen messen und Exemplare mit Vertrauensintervallen taxonomischen Gruppen zuordnen, was die Geschwindigkeit und Konsistenz der Fossilidentifikation revolutioniert.",
-          nl: "Deep learning netwerken getraind op grote fossieldatasets kunnen subtiele morfologische patronen herkennen, dimensionale relaties meten en specimens toewijzen aan taxonomische groepen met betrouwbaarheidsintervallen, wat de snelheid en consistentie van fossielidentificatie revolutioneert."
-        }    },
-    {
-      question: {
-        en: "What is a fossil?",
-        es: "What is a fossil?",
-        de: "What is a fossil?",
-        nl: "What is a fossil?"
+                  "en": "Deep learning networks trained on large fossil datasets can recognize subtle morphological patterns, measure dimensional relationships, and assign specimens to taxonomic groups with confidence intervals, revolutionizing fossil identification speed and consistency.",
+                  "es": "Las redes de aprendizaje profundo entrenadas en grandes conjuntos de datos fósiles pueden reconocer patrones morfológicos sutiles, medir relaciones dimensionales y asignar especímenes a grupos taxonómicos con intervalos de confianza, revolucionando la velocidad y consistencia de identificación fósil.",
+                  "de": "Deep-Learning-Netzwerke, die auf großen Fossildatensätzen trainiert wurden, können subtile morphologische Muster erkennen, dimensionale Beziehungen messen und Exemplare mit Vertrauensintervallen taxonomischen Gruppen zuordnen, was die Geschwindigkeit und Konsistenz der Fossilidentifikation revolutioniert.",
+                  "nl": "Deep learning netwerken getraind op grote fossieldatasets kunnen subtiele morfologische patronen herkennen, dimensionale relaties meten en specimens toewijzen aan taxonomische groepen met betrouwbaarheidsintervallen, wat de snelheid en consistentie van fossielidentificatie revolutioneert."
+        }
       },
-      options: [
-        { en: "Preserved remains of ancient life", es: "Preserved remains of ancient life", de: "Preserved remains of ancient life", nl: "Preserved remains of ancient life" },
-        { en: "Type of rock", es: "Type of rock", de: "Type of rock", nl: "Type of rock" },
-        { en: "Ancient tool", es: "Ancient tool", de: "Ancient tool", nl: "Ancient tool" },
-        { en: "Dinosaur bone", es: "Dinosaur bone", de: "Dinosaur bone", nl: "Dinosaur bone" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A fossil is any preserved remains, impression, or trace of once-living organisms from a past geological age.",
-        es: "A fossil is any preserved remains, impression, or trace of once-living organisms from a past geological age.",
-        de: "A fossil is any preserved remains, impression, or trace of once-living organisms from a past geological age.",
-        nl: "A fossil is any preserved remains, impression, or trace of once-living organisms from a past geological age."
-      }
-    },
-    {
-      question: {
-        en: "What is fossilization?",
-        es: "What is fossilization?",
-        de: "What is fossilization?",
-        nl: "What is fossilization?"
+      {
+        question: {
+                  "en": "What is a fossil?",
+                  "es": "What is a fossil?",
+                  "de": "What is a fossil?",
+                  "nl": "What is a fossil?"
+        },
+        options: [
+        {
+                  "en": "Preserved remains of ancient life",
+                  "es": "Preserved remains of ancient life",
+                  "de": "Preserved remains of ancient life",
+                  "nl": "Preserved remains of ancient life"
+        },
+        {
+                  "en": "Ancient tool",
+                  "es": "Ancient tool",
+                  "de": "Ancient tool",
+                  "nl": "Ancient tool"
+        },
+        {
+                  "en": "Type of rock",
+                  "es": "Type of rock",
+                  "de": "Type of rock",
+                  "nl": "Type of rock"
+        },
+        {
+                  "en": "Dinosaur bone",
+                  "es": "Dinosaur bone",
+                  "de": "Dinosaur bone",
+                  "nl": "Dinosaur bone"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "A fossil is any preserved remains, impression, or trace of once-living organisms from a past geological age.",
+                  "es": "A fossil is any preserved remains, impression, or trace of once-living organisms from a past geological age.",
+                  "de": "A fossil is any preserved remains, impression, or trace of once-living organisms from a past geological age.",
+                  "nl": "A fossil is any preserved remains, impression, or trace of once-living organisms from a past geological age."
+        }
       },
-      options: [
-        { en: "Process of remains becoming fossils", es: "Process of remains becoming fossils", de: "Process of remains becoming fossils", nl: "Process of remains becoming fossils" },
-        { en: "Finding fossils", es: "Finding fossils", de: "Finding fossils", nl: "Finding fossils" },
-        { en: "Studying fossils", es: "Studying fossils", de: "Studying fossils", nl: "Studying fossils" },
-        { en: "Breaking fossils", es: "Breaking fossils", de: "Breaking fossils", nl: "Breaking fossils" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Fossilization is the process by which organic remains are preserved in rock over millions of years.",
-        es: "Fossilization is the process by which organic remains are preserved in rock over millions of years.",
-        de: "Fossilization is the process by which organic remains are preserved in rock over millions of years.",
-        nl: "Fossilization is the process by which organic remains are preserved in rock over millions of years."
-      }
-    },
-    {
-      question: {
-        en: "What is the most common way dinosaur fossils form?",
-        es: "What is the most common way dinosaur fossils form?",
-        de: "What is the most common way dinosaur fossils form?",
-        nl: "What is the most common way dinosaur fossils form?"
+      {
+        question: {
+                  "en": "What is fossilization?",
+                  "es": "What is fossilization?",
+                  "de": "What is fossilization?",
+                  "nl": "What is fossilization?"
+        },
+        options: [
+        {
+                  "en": "Process of remains becoming fossils",
+                  "es": "Process of remains becoming fossils",
+                  "de": "Process of remains becoming fossils",
+                  "nl": "Process of remains becoming fossils"
+        },
+        {
+                  "en": "Breaking fossils",
+                  "es": "Breaking fossils",
+                  "de": "Breaking fossils",
+                  "nl": "Breaking fossils"
+        },
+        {
+                  "en": "Finding fossils",
+                  "es": "Finding fossils",
+                  "de": "Finding fossils",
+                  "nl": "Finding fossils"
+        },
+        {
+                  "en": "Studying fossils",
+                  "es": "Studying fossils",
+                  "de": "Studying fossils",
+                  "nl": "Studying fossils"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Fossilization is the process by which organic remains are preserved in rock over millions of years.",
+                  "es": "Fossilization is the process by which organic remains are preserved in rock over millions of years.",
+                  "de": "Fossilization is the process by which organic remains are preserved in rock over millions of years.",
+                  "nl": "Fossilization is the process by which organic remains are preserved in rock over millions of years."
+        }
       },
-      options: [
-        { en: "Permineralization", es: "Permineralization", de: "Permineralization", nl: "Permineralization" },
-        { en: "Freezing", es: "Freezing", de: "Freezing", nl: "Freezing" },
-        { en: "Mummification", es: "Mummification", de: "Mummification", nl: "Mummification" },
-        { en: "Amber preservation", es: "Amber preservation", de: "Amber preservation", nl: "Amber preservation" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Permineralization occurs when minerals fill spaces in bones and tissues, turning them to stone over time.",
-        es: "Permineralization occurs when minerals fill spaces in bones and tissues, turning them to stone over time.",
-        de: "Permineralization occurs when minerals fill spaces in bones and tissues, turning them to stone over time.",
-        nl: "Permineralization occurs when minerals fill spaces in bones and tissues, turning them to stone over time."
-      }
-    },
-    {
-      question: {
-        en: "What is a trace fossil?",
-        es: "What is a trace fossil?",
-        de: "What is a trace fossil?",
-        nl: "What is a trace fossil?"
+      {
+        question: {
+                  "en": "What is the most common way dinosaur fossils form?",
+                  "es": "What is the most common way dinosaur fossils form?",
+                  "de": "What is the most common way dinosaur fossils form?",
+                  "nl": "What is the most common way dinosaur fossils form?"
+        },
+        options: [
+        {
+                  "en": "Mummification",
+                  "es": "Mummification",
+                  "de": "Mummification",
+                  "nl": "Mummification"
+        },
+        {
+                  "en": "Freezing",
+                  "es": "Freezing",
+                  "de": "Freezing",
+                  "nl": "Freezing"
+        },
+        {
+                  "en": "Permineralization",
+                  "es": "Permineralization",
+                  "de": "Permineralization",
+                  "nl": "Permineralization"
+        },
+        {
+                  "en": "Amber preservation",
+                  "es": "Amber preservation",
+                  "de": "Amber preservation",
+                  "nl": "Amber preservation"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Permineralization occurs when minerals fill spaces in bones and tissues, turning them to stone over time.",
+                  "es": "Permineralization occurs when minerals fill spaces in bones and tissues, turning them to stone over time.",
+                  "de": "Permineralization occurs when minerals fill spaces in bones and tissues, turning them to stone over time.",
+                  "nl": "Permineralization occurs when minerals fill spaces in bones and tissues, turning them to stone over time."
+        }
       },
-      options: [
-        { en: "Evidence of activity, not body parts", es: "Evidence of activity, not body parts", de: "Evidence of activity, not body parts", nl: "Evidence of activity, not body parts" },
-        { en: "Footprint only", es: "Footprint only", de: "Footprint only", nl: "Footprint only" },
-        { en: "Bone fragment", es: "Bone fragment", de: "Bone fragment", nl: "Bone fragment" },
-        { en: "Complete skeleton", es: "Complete skeleton", de: "Complete skeleton", nl: "Complete skeleton" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Trace fossils preserve evidence of activity like footprints, nests, or burrows rather than body parts.",
-        es: "Trace fossils preserve evidence of activity like footprints, nests, or burrows rather than body parts.",
-        de: "Trace fossils preserve evidence of activity like footprints, nests, or burrows rather than body parts.",
-        nl: "Trace fossils preserve evidence of activity like footprints, nests, or burrows rather than body parts."
-      }
-    },
-    {
-      question: {
-        en: "What are coprolites?",
-        es: "What are coprolites?",
-        de: "What are coprolites?",
-        nl: "What are coprolites?"
+      {
+        question: {
+                  "en": "What is a trace fossil?",
+                  "es": "What is a trace fossil?",
+                  "de": "What is a trace fossil?",
+                  "nl": "What is a trace fossil?"
+        },
+        options: [
+        {
+                  "en": "Complete skeleton",
+                  "es": "Complete skeleton",
+                  "de": "Complete skeleton",
+                  "nl": "Complete skeleton"
+        },
+        {
+                  "en": "Evidence of activity, not body parts",
+                  "es": "Evidence of activity, not body parts",
+                  "de": "Evidence of activity, not body parts",
+                  "nl": "Evidence of activity, not body parts"
+        },
+        {
+                  "en": "Footprint only",
+                  "es": "Footprint only",
+                  "de": "Footprint only",
+                  "nl": "Footprint only"
+        },
+        {
+                  "en": "Bone fragment",
+                  "es": "Bone fragment",
+                  "de": "Bone fragment",
+                  "nl": "Bone fragment"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Trace fossils preserve evidence of activity like footprints, nests, or burrows rather than body parts.",
+                  "es": "Trace fossils preserve evidence of activity like footprints, nests, or burrows rather than body parts.",
+                  "de": "Trace fossils preserve evidence of activity like footprints, nests, or burrows rather than body parts.",
+                  "nl": "Trace fossils preserve evidence of activity like footprints, nests, or burrows rather than body parts."
+        }
       },
-      options: [
-        { en: "Fossilized feces", es: "Fossilized feces", de: "Fossilized feces", nl: "Fossilized feces" },
-        { en: "Fossilized eggs", es: "Fossilized eggs", de: "Fossilized eggs", nl: "Fossilized eggs" },
-        { en: "Fossilized teeth", es: "Fossilized teeth", de: "Fossilized teeth", nl: "Fossilized teeth" },
-        { en: "Fossilized skin", es: "Fossilized skin", de: "Fossilized skin", nl: "Fossilized skin" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Coprolites are fossilized feces that provide information about dinosaur diets and digestive systems.",
-        es: "Coprolites are fossilized feces that provide information about dinosaur diets and digestive systems.",
-        de: "Coprolites are fossilized feces that provide information about dinosaur diets and digestive systems.",
-        nl: "Coprolites are fossilized feces that provide information about dinosaur diets and digestive systems."
-      }
-    },
-    {
-      question: {
-        en: "What is the best environment for fossilization?",
-        es: "What is the best environment for fossilization?",
-        de: "What is the best environment for fossilization?",
-        nl: "What is the best environment for fossilization?"
+      {
+        question: {
+                  "en": "What are coprolites?",
+                  "es": "What are coprolites?",
+                  "de": "What are coprolites?",
+                  "nl": "What are coprolites?"
+        },
+        options: [
+        {
+                  "en": "Fossilized skin",
+                  "es": "Fossilized skin",
+                  "de": "Fossilized skin",
+                  "nl": "Fossilized skin"
+        },
+        {
+                  "en": "Fossilized eggs",
+                  "es": "Fossilized eggs",
+                  "de": "Fossilized eggs",
+                  "nl": "Fossilized eggs"
+        },
+        {
+                  "en": "Fossilized feces",
+                  "es": "Fossilized feces",
+                  "de": "Fossilized feces",
+                  "nl": "Fossilized feces"
+        },
+        {
+                  "en": "Fossilized teeth",
+                  "es": "Fossilized teeth",
+                  "de": "Fossilized teeth",
+                  "nl": "Fossilized teeth"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Coprolites are fossilized feces that provide information about dinosaur diets and digestive systems.",
+                  "es": "Coprolites are fossilized feces that provide information about dinosaur diets and digestive systems.",
+                  "de": "Coprolites are fossilized feces that provide information about dinosaur diets and digestive systems.",
+                  "nl": "Coprolites are fossilized feces that provide information about dinosaur diets and digestive systems."
+        }
       },
-      options: [
-        { en: "Rapid burial in sediment", es: "Rapid burial in sediment", de: "Rapid burial in sediment", nl: "Rapid burial in sediment" },
-        { en: "Dry desert", es: "Dry desert", de: "Dry desert", nl: "Dry desert" },
-        { en: "Mountain peaks", es: "Mountain peaks", de: "Mountain peaks", nl: "Mountain peaks" },
-        { en: "Open plains", es: "Open plains", de: "Open plains", nl: "Open plains" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Rapid burial in sediment (like mud or sand) protects remains from scavengers and decay, ideal for fossilization.",
-        es: "Rapid burial in sediment (like mud or sand) protects remains from scavengers and decay, ideal for fossilization.",
-        de: "Rapid burial in sediment (like mud or sand) protects remains from scavengers and decay, ideal for fossilization.",
-        nl: "Rapid burial in sediment (like mud or sand) protects remains from scavengers and decay, ideal for fossilization."
-      }
-    },
-    {
-      question: {
-        en: "What is a cast fossil?",
-        es: "What is a cast fossil?",
-        de: "What is a cast fossil?",
-        nl: "What is a cast fossil?"
+      {
+        question: {
+                  "en": "What is the best environment for fossilization?",
+                  "es": "What is the best environment for fossilization?",
+                  "de": "What is the best environment for fossilization?",
+                  "nl": "What is the best environment for fossilization?"
+        },
+        options: [
+        {
+                  "en": "Mountain peaks",
+                  "es": "Mountain peaks",
+                  "de": "Mountain peaks",
+                  "nl": "Mountain peaks"
+        },
+        {
+                  "en": "Rapid burial in sediment",
+                  "es": "Rapid burial in sediment",
+                  "de": "Rapid burial in sediment",
+                  "nl": "Rapid burial in sediment"
+        },
+        {
+                  "en": "Open plains",
+                  "es": "Open plains",
+                  "de": "Open plains",
+                  "nl": "Open plains"
+        },
+        {
+                  "en": "Dry desert",
+                  "es": "Dry desert",
+                  "de": "Dry desert",
+                  "nl": "Dry desert"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Rapid burial in sediment (like mud or sand) protects remains from scavengers and decay, ideal for fossilization.",
+                  "es": "Rapid burial in sediment (like mud or sand) protects remains from scavengers and decay, ideal for fossilization.",
+                  "de": "Rapid burial in sediment (like mud or sand) protects remains from scavengers and decay, ideal for fossilization.",
+                  "nl": "Rapid burial in sediment (like mud or sand) protects remains from scavengers and decay, ideal for fossilization."
+        }
       },
-      options: [
-        { en: "Mineral filling of a mold", es: "Mineral filling of a mold", de: "Mineral filling of a mold", nl: "Mineral filling of a mold" },
-        { en: "Bone turned to stone", es: "Bone turned to stone", de: "Bone turned to stone", nl: "Bone turned to stone" },
-        { en: "Fossilized impression", es: "Fossilized impression", de: "Fossilized impression", nl: "Fossilized impression" },
-        { en: "Amber-preserved organism", es: "Amber-preserved organism", de: "Amber-preserved organism", nl: "Amber-preserved organism" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A cast fossil forms when minerals fill a mold (hollow space) left by dissolved organic material.",
-        es: "A cast fossil forms when minerals fill a mold (hollow space) left by dissolved organic material.",
-        de: "A cast fossil forms when minerals fill a mold (hollow space) left by dissolved organic material.",
-        nl: "A cast fossil forms when minerals fill a mold (hollow space) left by dissolved organic material."
-      }
-    },
-    {
-      question: {
-        en: "Who was Mary Anning?",
-        es: "Who was Mary Anning?",
-        de: "Who was Mary Anning?",
-        nl: "Who was Mary Anning?"
+      {
+        question: {
+                  "en": "What is a cast fossil?",
+                  "es": "What is a cast fossil?",
+                  "de": "What is a cast fossil?",
+                  "nl": "What is a cast fossil?"
+        },
+        options: [
+        {
+                  "en": "Mineral filling of a mold",
+                  "es": "Mineral filling of a mold",
+                  "de": "Mineral filling of a mold",
+                  "nl": "Mineral filling of a mold"
+        },
+        {
+                  "en": "Fossilized impression",
+                  "es": "Fossilized impression",
+                  "de": "Fossilized impression",
+                  "nl": "Fossilized impression"
+        },
+        {
+                  "en": "Bone turned to stone",
+                  "es": "Bone turned to stone",
+                  "de": "Bone turned to stone",
+                  "nl": "Bone turned to stone"
+        },
+        {
+                  "en": "Amber-preserved organism",
+                  "es": "Amber-preserved organism",
+                  "de": "Amber-preserved organism",
+                  "nl": "Amber-preserved organism"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "A cast fossil forms when minerals fill a mold (hollow space) left by dissolved organic material.",
+                  "es": "A cast fossil forms when minerals fill a mold (hollow space) left by dissolved organic material.",
+                  "de": "A cast fossil forms when minerals fill a mold (hollow space) left by dissolved organic material.",
+                  "nl": "A cast fossil forms when minerals fill a mold (hollow space) left by dissolved organic material."
+        }
       },
-      options: [
-        { en: "Famous fossil collector from the 1800s", es: "Famous fossil collector from the 1800s", de: "Famous fossil collector from the 1800s", nl: "Famous fossil collector from the 1800s" },
-        { en: "First paleontologist", es: "First paleontologist", de: "First paleontologist", nl: "First paleontologist" },
-        { en: "Dinosaur namer", es: "Dinosaur namer", de: "Dinosaur namer", nl: "Dinosaur namer" },
-        { en: "Museum curator", es: "Museum curator", de: "Museum curator", nl: "Museum curator" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Mary Anning was a pioneering fossil collector and paleontologist who made significant discoveries in the early 1800s.",
-        es: "Mary Anning was a pioneering fossil collector and paleontologist who made significant discoveries in the early 1800s.",
-        de: "Mary Anning was a pioneering fossil collector and paleontologist who made significant discoveries in the early 1800s.",
-        nl: "Mary Anning was a pioneering fossil collector and paleontologist who made significant discoveries in the early 1800s."
-      }
-    },
-    {
-      question: {
-        en: "What does 'petrified' mean?",
-        es: "What does 'petrified' mean?",
-        de: "What does 'petrified' mean?",
-        nl: "What does 'petrified' mean?"
+      {
+        question: {
+                  "en": "Who was Mary Anning?",
+                  "es": "Who was Mary Anning?",
+                  "de": "Who was Mary Anning?",
+                  "nl": "Who was Mary Anning?"
+        },
+        options: [
+        {
+                  "en": "Museum curator",
+                  "es": "Museum curator",
+                  "de": "Museum curator",
+                  "nl": "Museum curator"
+        },
+        {
+                  "en": "First paleontologist",
+                  "es": "First paleontologist",
+                  "de": "First paleontologist",
+                  "nl": "First paleontologist"
+        },
+        {
+                  "en": "Famous fossil collector from the 1800s",
+                  "es": "Famous fossil collector from the 1800s",
+                  "de": "Famous fossil collector from the 1800s",
+                  "nl": "Famous fossil collector from the 1800s"
+        },
+        {
+                  "en": "Dinosaur namer",
+                  "es": "Dinosaur namer",
+                  "de": "Dinosaur namer",
+                  "nl": "Dinosaur namer"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Mary Anning was a pioneering fossil collector and paleontologist who made significant discoveries in the early 1800s.",
+                  "es": "Mary Anning was a pioneering fossil collector and paleontologist who made significant discoveries in the early 1800s.",
+                  "de": "Mary Anning was a pioneering fossil collector and paleontologist who made significant discoveries in the early 1800s.",
+                  "nl": "Mary Anning was a pioneering fossil collector and paleontologist who made significant discoveries in the early 1800s."
+        }
       },
-      options: [
-        { en: "Turned to stone", es: "Turned to stone", de: "Turned to stone", nl: "Turned to stone" },
-        { en: "Very scared", es: "Very scared", de: "Very scared", nl: "Very scared" },
-        { en: "Very old", es: "Very old", de: "Very old", nl: "Very old" },
-        { en: "Well preserved", es: "Well preserved", de: "Well preserved", nl: "Well preserved" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Petrified literally means 'turned to stone' through the fossilization process.",
-        es: "Petrified literally means 'turned to stone' through the fossilization process.",
-        de: "Petrified literally means 'turned to stone' through the fossilization process.",
-        nl: "Petrified literally means 'turned to stone' through the fossilization process."
-      }
-    },
-    {
-      question: {
-        en: "What is taphonomy?",
-        es: "What is taphonomy?",
-        de: "What is taphonomy?",
-        nl: "What is taphonomy?"
+      {
+        question: {
+                  "en": "What does 'petrified' mean?",
+                  "es": "What does 'petrified' mean?",
+                  "de": "What does 'petrified' mean?",
+                  "nl": "What does 'petrified' mean?"
+        },
+        options: [
+        {
+                  "en": "Very old",
+                  "es": "Very old",
+                  "de": "Very old",
+                  "nl": "Very old"
+        },
+        {
+                  "en": "Well preserved",
+                  "es": "Well preserved",
+                  "de": "Well preserved",
+                  "nl": "Well preserved"
+        },
+        {
+                  "en": "Very scared",
+                  "es": "Very scared",
+                  "de": "Very scared",
+                  "nl": "Very scared"
+        },
+        {
+                  "en": "Turned to stone",
+                  "es": "Turned to stone",
+                  "de": "Turned to stone",
+                  "nl": "Turned to stone"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Petrified literally means 'turned to stone' through the fossilization process.",
+                  "es": "Petrified literally means 'turned to stone' through the fossilization process.",
+                  "de": "Petrified literally means 'turned to stone' through the fossilization process.",
+                  "nl": "Petrified literally means 'turned to stone' through the fossilization process."
+        }
       },
-      options: [
-        { en: "Study of fossilization process", es: "Study of fossilization process", de: "Study of fossilization process", nl: "Study of fossilization process" },
-        { en: "Study of dinosaurs", es: "Study of dinosaurs", de: "Study of dinosaurs", nl: "Study of dinosaurs" },
-        { en: "Study of rocks", es: "Study of rocks", de: "Study of rocks", nl: "Study of rocks" },
-        { en: "Study of extinction", es: "Study of extinction", de: "Study of extinction", nl: "Study of extinction" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Taphonomy studies the processes that affect organisms from death to discovery as fossils.",
-        es: "Taphonomy studies the processes that affect organisms from death to discovery as fossils.",
-        de: "Taphonomy studies the processes that affect organisms from death to discovery as fossils.",
-        nl: "Taphonomy studies the processes that affect organisms from death to discovery as fossils."
-      }
-    },
-    {
-      question: {
-        en: "What percentage of organisms become fossils?",
-        es: "What percentage of organisms become fossils?",
-        de: "What percentage of organisms become fossils?",
-        nl: "What percentage of organisms become fossils?"
+      {
+        question: {
+                  "en": "What is taphonomy?",
+                  "es": "What is taphonomy?",
+                  "de": "What is taphonomy?",
+                  "nl": "What is taphonomy?"
+        },
+        options: [
+        {
+                  "en": "Study of fossilization process",
+                  "es": "Study of fossilization process",
+                  "de": "Study of fossilization process",
+                  "nl": "Study of fossilization process"
+        },
+        {
+                  "en": "Study of dinosaurs",
+                  "es": "Study of dinosaurs",
+                  "de": "Study of dinosaurs",
+                  "nl": "Study of dinosaurs"
+        },
+        {
+                  "en": "Study of extinction",
+                  "es": "Study of extinction",
+                  "de": "Study of extinction",
+                  "nl": "Study of extinction"
+        },
+        {
+                  "en": "Study of rocks",
+                  "es": "Study of rocks",
+                  "de": "Study of rocks",
+                  "nl": "Study of rocks"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Taphonomy studies the processes that affect organisms from death to discovery as fossils.",
+                  "es": "Taphonomy studies the processes that affect organisms from death to discovery as fossils.",
+                  "de": "Taphonomy studies the processes that affect organisms from death to discovery as fossils.",
+                  "nl": "Taphonomy studies the processes that affect organisms from death to discovery as fossils."
+        }
       },
-      options: [
-        { en: "Less than 1%", es: "Less than 1%", de: "Less than 1%", nl: "Less than 1%" },
-        { en: "About 10%", es: "About 10%", de: "About 10%", nl: "About 10%" },
-        { en: "About 50%", es: "About 50%", de: "About 50%", nl: "About 50%" },
-        { en: "Most organisms", es: "Most organisms", de: "Most organisms", nl: "Most organisms" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Less than 1% of all organisms that ever lived become fossils - fossilization is extremely rare.",
-        es: "Less than 1% of all organisms that ever lived become fossils - fossilization is extremely rare.",
-        de: "Less than 1% of all organisms that ever lived become fossils - fossilization is extremely rare.",
-        nl: "Less than 1% of all organisms that ever lived become fossils - fossilization is extremely rare."
-      }
-    },
-    {
-      question: {
-        en: "What tool do paleontologists use most in the field?",
-        es: "What tool do paleontologists use most in the field?",
-        de: "What tool do paleontologists use most in the field?",
-        nl: "What tool do paleontologists use most in the field?"
+      {
+        question: {
+                  "en": "What percentage of organisms become fossils?",
+                  "es": "What percentage of organisms become fossils?",
+                  "de": "What percentage of organisms become fossils?",
+                  "nl": "What percentage of organisms become fossils?"
+        },
+        options: [
+        {
+                  "en": "Less than 1%",
+                  "es": "Less than 1%",
+                  "de": "Less than 1%",
+                  "nl": "Less than 1%"
+        },
+        {
+                  "en": "About 50%",
+                  "es": "About 50%",
+                  "de": "About 50%",
+                  "nl": "About 50%"
+        },
+        {
+                  "en": "About 10%",
+                  "es": "About 10%",
+                  "de": "About 10%",
+                  "nl": "About 10%"
+        },
+        {
+                  "en": "Most organisms",
+                  "es": "Most organisms",
+                  "de": "Most organisms",
+                  "nl": "Most organisms"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Less than 1% of all organisms that ever lived become fossils - fossilization is extremely rare.",
+                  "es": "Less than 1% of all organisms that ever lived become fossils - fossilization is extremely rare.",
+                  "de": "Less than 1% of all organisms that ever lived become fossils - fossilization is extremely rare.",
+                  "nl": "Less than 1% of all organisms that ever lived become fossils - fossilization is extremely rare."
+        }
       },
-      options: [
-        { en: "Small picks and brushes", es: "Small picks and brushes", de: "Small picks and brushes", nl: "Small picks and brushes" },
-        { en: "Jackhammers", es: "Jackhammers", de: "Jackhammers", nl: "Jackhammers" },
-        { en: "Shovels", es: "Shovels", de: "Shovels", nl: "Shovels" },
-        { en: "Hammers", es: "Hammers", de: "Hammers", nl: "Hammers" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Paleontologists carefully use small picks, brushes, and dental tools to avoid damaging delicate fossils.",
-        es: "Paleontologists carefully use small picks, brushes, and dental tools to avoid damaging delicate fossils.",
-        de: "Paleontologists carefully use small picks, brushes, and dental tools to avoid damaging delicate fossils.",
-        nl: "Paleontologists carefully use small picks, brushes, and dental tools to avoid damaging delicate fossils."
-      }
-    },
-    {
-      question: {
-        en: "What is the oldest dinosaur fossil ever found?",
-        es: "What is the oldest dinosaur fossil ever found?",
-        de: "What is the oldest dinosaur fossil ever found?",
-        nl: "What is the oldest dinosaur fossil ever found?"
+      {
+        question: {
+                  "en": "What tool do paleontologists use most in the field?",
+                  "es": "What tool do paleontologists use most in the field?",
+                  "de": "What tool do paleontologists use most in the field?",
+                  "nl": "What tool do paleontologists use most in the field?"
+        },
+        options: [
+        {
+                  "en": "Hammers",
+                  "es": "Hammers",
+                  "de": "Hammers",
+                  "nl": "Hammers"
+        },
+        {
+                  "en": "Small picks and brushes",
+                  "es": "Small picks and brushes",
+                  "de": "Small picks and brushes",
+                  "nl": "Small picks and brushes"
+        },
+        {
+                  "en": "Jackhammers",
+                  "es": "Jackhammers",
+                  "de": "Jackhammers",
+                  "nl": "Jackhammers"
+        },
+        {
+                  "en": "Shovels",
+                  "es": "Shovels",
+                  "de": "Shovels",
+                  "nl": "Shovels"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Paleontologists carefully use small picks, brushes, and dental tools to avoid damaging delicate fossils.",
+                  "es": "Paleontologists carefully use small picks, brushes, and dental tools to avoid damaging delicate fossils.",
+                  "de": "Paleontologists carefully use small picks, brushes, and dental tools to avoid damaging delicate fossils.",
+                  "nl": "Paleontologists carefully use small picks, brushes, and dental tools to avoid damaging delicate fossils."
+        }
       },
-      options: [
-        { en: "Approximately 230 million years old", es: "Approximately 230 million years old", de: "Approximately 230 million years old", nl: "Approximately 230 million years old" },
-        { en: "100 million years old", es: "100 million years old", de: "100 million years old", nl: "100 million years old" },
-        { en: "300 million years old", es: "300 million years old", de: "300 million years old", nl: "300 million years old" },
-        { en: "500 million years old", es: "500 million years old", de: "500 million years old", nl: "500 million years old" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The oldest known dinosaur fossils date to approximately 230 million years ago, from the Late Triassic.",
-        es: "The oldest known dinosaur fossils date to approximately 230 million years ago, from the Late Triassic.",
-        de: "The oldest known dinosaur fossils date to approximately 230 million years ago, from the Late Triassic.",
-        nl: "The oldest known dinosaur fossils date to approximately 230 million years ago, from the Late Triassic."
-      }
-    },
-    {
-      question: {
-        en: "What is a fossil matrix?",
-        es: "What is a fossil matrix?",
-        de: "What is a fossil matrix?",
-        nl: "What is a fossil matrix?"
+      {
+        question: {
+                  "en": "What is the oldest dinosaur fossil ever found?",
+                  "es": "What is the oldest dinosaur fossil ever found?",
+                  "de": "What is the oldest dinosaur fossil ever found?",
+                  "nl": "What is the oldest dinosaur fossil ever found?"
+        },
+        options: [
+        {
+                  "en": "100 million years old",
+                  "es": "100 million years old",
+                  "de": "100 million years old",
+                  "nl": "100 million years old"
+        },
+        {
+                  "en": "500 million years old",
+                  "es": "500 million years old",
+                  "de": "500 million years old",
+                  "nl": "500 million years old"
+        },
+        {
+                  "en": "Approximately 230 million years old",
+                  "es": "Approximately 230 million years old",
+                  "de": "Approximately 230 million years old",
+                  "nl": "Approximately 230 million years old"
+        },
+        {
+                  "en": "300 million years old",
+                  "es": "300 million years old",
+                  "de": "300 million years old",
+                  "nl": "300 million years old"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "The oldest known dinosaur fossils date to approximately 230 million years ago, from the Late Triassic.",
+                  "es": "The oldest known dinosaur fossils date to approximately 230 million years ago, from the Late Triassic.",
+                  "de": "The oldest known dinosaur fossils date to approximately 230 million years ago, from the Late Triassic.",
+                  "nl": "The oldest known dinosaur fossils date to approximately 230 million years ago, from the Late Triassic."
+        }
       },
-      options: [
-        { en: "Rock surrounding a fossil", es: "Rock surrounding a fossil", de: "Rock surrounding a fossil", nl: "Rock surrounding a fossil" },
-        { en: "Fossil classification system", es: "Fossil classification system", de: "Fossil classification system", nl: "Fossil classification system" },
-        { en: "Fossil museum display", es: "Fossil museum display", de: "Fossil museum display", nl: "Fossil museum display" },
-        { en: "Fossil database", es: "Fossil database", de: "Fossil database", nl: "Fossil database" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The matrix is the rock or sediment surrounding and encasing a fossil.",
-        es: "The matrix is the rock or sediment surrounding and encasing a fossil.",
-        de: "The matrix is the rock or sediment surrounding and encasing a fossil.",
-        nl: "The matrix is the rock or sediment surrounding and encasing a fossil."
-      }
-    },
-    {
-      question: {
-        en: "What is exceptional preservation?",
-        es: "What is exceptional preservation?",
-        de: "What is exceptional preservation?",
-        nl: "What is exceptional preservation?"
+      {
+        question: {
+                  "en": "What is a fossil matrix?",
+                  "es": "What is a fossil matrix?",
+                  "de": "What is a fossil matrix?",
+                  "nl": "What is a fossil matrix?"
+        },
+        options: [
+        {
+                  "en": "Fossil museum display",
+                  "es": "Fossil museum display",
+                  "de": "Fossil museum display",
+                  "nl": "Fossil museum display"
+        },
+        {
+                  "en": "Fossil database",
+                  "es": "Fossil database",
+                  "de": "Fossil database",
+                  "nl": "Fossil database"
+        },
+        {
+                  "en": "Fossil classification system",
+                  "es": "Fossil classification system",
+                  "de": "Fossil classification system",
+                  "nl": "Fossil classification system"
+        },
+        {
+                  "en": "Rock surrounding a fossil",
+                  "es": "Rock surrounding a fossil",
+                  "de": "Rock surrounding a fossil",
+                  "nl": "Rock surrounding a fossil"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "The matrix is the rock or sediment surrounding and encasing a fossil.",
+                  "es": "The matrix is the rock or sediment surrounding and encasing a fossil.",
+                  "de": "The matrix is the rock or sediment surrounding and encasing a fossil.",
+                  "nl": "The matrix is the rock or sediment surrounding and encasing a fossil."
+        }
       },
-      options: [
-        { en: "Preservation of soft tissues", es: "Preservation of soft tissues", de: "Preservation of soft tissues", nl: "Preservation of soft tissues" },
-        { en: "Perfect bone preservation", es: "Perfect bone preservation", de: "Perfect bone preservation", nl: "Perfect bone preservation" },
-        { en: "Large fossil size", es: "Large fossil size", de: "Large fossil size", nl: "Large fossil size" },
-        { en: "Complete skeletons", es: "Complete skeletons", de: "Complete skeletons", nl: "Complete skeletons" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Exceptional preservation occurs when rare conditions allow soft tissues, skin, or feathers to fossilize.",
-        es: "Exceptional preservation occurs when rare conditions allow soft tissues, skin, or feathers to fossilize.",
-        de: "Exceptional preservation occurs when rare conditions allow soft tissues, skin, or feathers to fossilize.",
-        nl: "Exceptional preservation occurs when rare conditions allow soft tissues, skin, or feathers to fossilize."
-      }
-    },
-    {
-      question: {
-        en: "What is the La Brea Tar Pits famous for?",
-        es: "What is the La Brea Tar Pits famous for?",
-        de: "What is the La Brea Tar Pits famous for?",
-        nl: "What is the La Brea Tar Pits famous for?"
+      {
+        question: {
+                  "en": "What is exceptional preservation?",
+                  "es": "What is exceptional preservation?",
+                  "de": "What is exceptional preservation?",
+                  "nl": "What is exceptional preservation?"
+        },
+        options: [
+        {
+                  "en": "Complete skeletons",
+                  "es": "Complete skeletons",
+                  "de": "Complete skeletons",
+                  "nl": "Complete skeletons"
+        },
+        {
+                  "en": "Perfect bone preservation",
+                  "es": "Perfect bone preservation",
+                  "de": "Perfect bone preservation",
+                  "nl": "Perfect bone preservation"
+        },
+        {
+                  "en": "Preservation of soft tissues",
+                  "es": "Preservation of soft tissues",
+                  "de": "Preservation of soft tissues",
+                  "nl": "Preservation of soft tissues"
+        },
+        {
+                  "en": "Large fossil size",
+                  "es": "Large fossil size",
+                  "de": "Large fossil size",
+                  "nl": "Large fossil size"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Exceptional preservation occurs when rare conditions allow soft tissues, skin, or feathers to fossilize.",
+                  "es": "Exceptional preservation occurs when rare conditions allow soft tissues, skin, or feathers to fossilize.",
+                  "de": "Exceptional preservation occurs when rare conditions allow soft tissues, skin, or feathers to fossilize.",
+                  "nl": "Exceptional preservation occurs when rare conditions allow soft tissues, skin, or feathers to fossilize."
+        }
       },
-      options: [
-        { en: "Preserving Ice Age animals in asphalt", es: "Preserving Ice Age animals in asphalt", de: "Preserving Ice Age animals in asphalt", nl: "Preserving Ice Age animals in asphalt" },
-        { en: "Dinosaur fossils", es: "Dinosaur fossils", de: "Dinosaur fossils", nl: "Dinosaur fossils" },
-        { en: "Oldest fossils", es: "Oldest fossils", de: "Oldest fossils", nl: "Oldest fossils" },
-        { en: "Marine fossils", es: "Marine fossils", de: "Marine fossils", nl: "Marine fossils" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The La Brea Tar Pits in Los Angeles preserved numerous Ice Age animals in natural asphalt seeps.",
-        es: "The La Brea Tar Pits in Los Angeles preserved numerous Ice Age animals in natural asphalt seeps.",
-        de: "The La Brea Tar Pits in Los Angeles preserved numerous Ice Age animals in natural asphalt seeps.",
-        nl: "The La Brea Tar Pits in Los Angeles preserved numerous Ice Age animals in natural asphalt seeps."
-      }
-    },
-    {
-      question: {
-        en: "What is a type specimen?",
-        es: "What is a type specimen?",
-        de: "What is a type specimen?",
-        nl: "What is a type specimen?"
+      {
+        question: {
+                  "en": "What is the La Brea Tar Pits famous for?",
+                  "es": "What is the La Brea Tar Pits famous for?",
+                  "de": "What is the La Brea Tar Pits famous for?",
+                  "nl": "What is the La Brea Tar Pits famous for?"
+        },
+        options: [
+        {
+                  "en": "Preserving Ice Age animals in asphalt",
+                  "es": "Preserving Ice Age animals in asphalt",
+                  "de": "Preserving Ice Age animals in asphalt",
+                  "nl": "Preserving Ice Age animals in asphalt"
+        },
+        {
+                  "en": "Marine fossils",
+                  "es": "Marine fossils",
+                  "de": "Marine fossils",
+                  "nl": "Marine fossils"
+        },
+        {
+                  "en": "Oldest fossils",
+                  "es": "Oldest fossils",
+                  "de": "Oldest fossils",
+                  "nl": "Oldest fossils"
+        },
+        {
+                  "en": "Dinosaur fossils",
+                  "es": "Dinosaur fossils",
+                  "de": "Dinosaur fossils",
+                  "nl": "Dinosaur fossils"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "The La Brea Tar Pits in Los Angeles preserved numerous Ice Age animals in natural asphalt seeps.",
+                  "es": "The La Brea Tar Pits in Los Angeles preserved numerous Ice Age animals in natural asphalt seeps.",
+                  "de": "The La Brea Tar Pits in Los Angeles preserved numerous Ice Age animals in natural asphalt seeps.",
+                  "nl": "The La Brea Tar Pits in Los Angeles preserved numerous Ice Age animals in natural asphalt seeps."
+        }
       },
-      options: [
-        { en: "Individual fossil defining a species", es: "Individual fossil defining a species", de: "Individual fossil defining a species", nl: "Individual fossil defining a species" },
-        { en: "Typical fossil example", es: "Typical fossil example", de: "Typical fossil example", nl: "Typical fossil example" },
-        { en: "Largest fossil", es: "Largest fossil", de: "Largest fossil", nl: "Largest fossil" },
-        { en: "First fossil found", es: "First fossil found", de: "First fossil found", nl: "First fossil found" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A type specimen is the individual fossil on which the description and name of a new species is based.",
-        es: "A type specimen is the individual fossil on which the description and name of a new species is based.",
-        de: "A type specimen is the individual fossil on which the description and name of a new species is based.",
-        nl: "A type specimen is the individual fossil on which the description and name of a new species is based."
-      }
-    },
-    {
-      question: {
-        en: "What technology helps find fossils without digging?",
-        es: "What technology helps find fossils without digging?",
-        de: "What technology helps find fossils without digging?",
-        nl: "What technology helps find fossils without digging?"
+      {
+        question: {
+                  "en": "What is a type specimen?",
+                  "es": "What is a type specimen?",
+                  "de": "What is a type specimen?",
+                  "nl": "What is a type specimen?"
+        },
+        options: [
+        {
+                  "en": "Largest fossil",
+                  "es": "Largest fossil",
+                  "de": "Largest fossil",
+                  "nl": "Largest fossil"
+        },
+        {
+                  "en": "Individual fossil defining a species",
+                  "es": "Individual fossil defining a species",
+                  "de": "Individual fossil defining a species",
+                  "nl": "Individual fossil defining a species"
+        },
+        {
+                  "en": "Typical fossil example",
+                  "es": "Typical fossil example",
+                  "de": "Typical fossil example",
+                  "nl": "Typical fossil example"
+        },
+        {
+                  "en": "First fossil found",
+                  "es": "First fossil found",
+                  "de": "First fossil found",
+                  "nl": "First fossil found"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "A type specimen is the individual fossil on which the description and name of a new species is based.",
+                  "es": "A type specimen is the individual fossil on which the description and name of a new species is based.",
+                  "de": "A type specimen is the individual fossil on which the description and name of a new species is based.",
+                  "nl": "A type specimen is the individual fossil on which the description and name of a new species is based."
+        }
       },
-      options: [
-        { en: "Ground-penetrating radar", es: "Ground-penetrating radar", de: "Ground-penetrating radar", nl: "Ground-penetrating radar" },
-        { en: "Metal detectors", es: "Metal detectors", de: "Metal detectors", nl: "Metal detectors" },
-        { en: "Magnets", es: "Magnets", de: "Magnets", nl: "Magnets" },
-        { en: "X-rays", es: "X-rays", de: "X-rays", nl: "X-rays" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Ground-penetrating radar and other remote sensing technologies can detect fossil-bearing layers without excavation.",
-        es: "Ground-penetrating radar and other remote sensing technologies can detect fossil-bearing layers without excavation.",
-        de: "Ground-penetrating radar and other remote sensing technologies can detect fossil-bearing layers without excavation.",
-        nl: "Ground-penetrating radar and other remote sensing technologies can detect fossil-bearing layers without excavation."
-      }
-    },
-    {
-      question: {
-        en: "What is a fossil bed?",
-        es: "What is a fossil bed?",
-        de: "What is a fossil bed?",
-        nl: "What is a fossil bed?"
+      {
+        question: {
+                  "en": "What technology helps find fossils without digging?",
+                  "es": "What technology helps find fossils without digging?",
+                  "de": "What technology helps find fossils without digging?",
+                  "nl": "What technology helps find fossils without digging?"
+        },
+        options: [
+        {
+                  "en": "X-rays",
+                  "es": "X-rays",
+                  "de": "X-rays",
+                  "nl": "X-rays"
+        },
+        {
+                  "en": "Magnets",
+                  "es": "Magnets",
+                  "de": "Magnets",
+                  "nl": "Magnets"
+        },
+        {
+                  "en": "Ground-penetrating radar",
+                  "es": "Ground-penetrating radar",
+                  "de": "Ground-penetrating radar",
+                  "nl": "Ground-penetrating radar"
+        },
+        {
+                  "en": "Metal detectors",
+                  "es": "Metal detectors",
+                  "de": "Metal detectors",
+                  "nl": "Metal detectors"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Ground-penetrating radar and other remote sensing technologies can detect fossil-bearing layers without excavation.",
+                  "es": "Ground-penetrating radar and other remote sensing technologies can detect fossil-bearing layers without excavation.",
+                  "de": "Ground-penetrating radar and other remote sensing technologies can detect fossil-bearing layers without excavation.",
+                  "nl": "Ground-penetrating radar and other remote sensing technologies can detect fossil-bearing layers without excavation."
+        }
       },
-      options: [
-        { en: "Layer of rock rich in fossils", es: "Layer of rock rich in fossils", de: "Layer of rock rich in fossils", nl: "Layer of rock rich in fossils" },
-        { en: "Museum display area", es: "Museum display area", de: "Museum display area", nl: "Museum display area" },
-        { en: "Excavation site", es: "Excavation site", de: "Excavation site", nl: "Excavation site" },
-        { en: "Fossil storage", es: "Fossil storage", de: "Fossil storage", nl: "Fossil storage" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A fossil bed is a layer or stratum of sedimentary rock especially rich in fossils.",
-        es: "A fossil bed is a layer or stratum of sedimentary rock especially rich in fossils.",
-        de: "A fossil bed is a layer or stratum of sedimentary rock especially rich in fossils.",
-        nl: "A fossil bed is a layer or stratum of sedimentary rock especially rich in fossils."
-      }
-    },
-    {
-      question: {
-        en: "What famous fossil hunter found the first Iguanodon teeth?",
-        es: "What famous fossil hunter found the first Iguanodon teeth?",
-        de: "What famous fossil hunter found the first Iguanodon teeth?",
-        nl: "What famous fossil hunter found the first Iguanodon teeth?"
+      {
+        question: {
+                  "en": "What is a fossil bed?",
+                  "es": "What is a fossil bed?",
+                  "de": "What is a fossil bed?",
+                  "nl": "What is a fossil bed?"
+        },
+        options: [
+        {
+                  "en": "Excavation site",
+                  "es": "Excavation site",
+                  "de": "Excavation site",
+                  "nl": "Excavation site"
+        },
+        {
+                  "en": "Fossil storage",
+                  "es": "Fossil storage",
+                  "de": "Fossil storage",
+                  "nl": "Fossil storage"
+        },
+        {
+                  "en": "Layer of rock rich in fossils",
+                  "es": "Layer of rock rich in fossils",
+                  "de": "Layer of rock rich in fossils",
+                  "nl": "Layer of rock rich in fossils"
+        },
+        {
+                  "en": "Museum display area",
+                  "es": "Museum display area",
+                  "de": "Museum display area",
+                  "nl": "Museum display area"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "A fossil bed is a layer or stratum of sedimentary rock especially rich in fossils.",
+                  "es": "A fossil bed is a layer or stratum of sedimentary rock especially rich in fossils.",
+                  "de": "A fossil bed is a layer or stratum of sedimentary rock especially rich in fossils.",
+                  "nl": "A fossil bed is a layer or stratum of sedimentary rock especially rich in fossils."
+        }
       },
-      options: [
-        { en: "Gideon Mantell (or his wife Mary Ann)", es: "Gideon Mantell (or his wife Mary Ann)", de: "Gideon Mantell (or his wife Mary Ann)", nl: "Gideon Mantell (or his wife Mary Ann)" },
-        { en: "Charles Darwin", es: "Charles Darwin", de: "Charles Darwin", nl: "Charles Darwin" },
-        { en: "Richard Owen", es: "Richard Owen", de: "Richard Owen", nl: "Richard Owen" },
-        { en: "William Buckland", es: "William Buckland", de: "William Buckland", nl: "William Buckland" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Gideon Mantell and possibly his wife Mary Ann discovered Iguanodon teeth in 1822, among the first dinosaur fossils recognized.",
-        es: "Gideon Mantell and possibly his wife Mary Ann discovered Iguanodon teeth in 1822, among the first dinosaur fossils recognized.",
-        de: "Gideon Mantell and possibly his wife Mary Ann discovered Iguanodon teeth in 1822, among the first dinosaur fossils recognized.",
-        nl: "Gideon Mantell and possibly his wife Mary Ann discovered Iguanodon teeth in 1822, among the first dinosaur fossils recognized."
-      }
-
+      {
+        question: {
+                  "en": "What famous fossil hunter found the first Iguanodon teeth?",
+                  "es": "What famous fossil hunter found the first Iguanodon teeth?",
+                  "de": "What famous fossil hunter found the first Iguanodon teeth?",
+                  "nl": "What famous fossil hunter found the first Iguanodon teeth?"
+        },
+        options: [
+        {
+                  "en": "Charles Darwin",
+                  "es": "Charles Darwin",
+                  "de": "Charles Darwin",
+                  "nl": "Charles Darwin"
+        },
+        {
+                  "en": "Richard Owen",
+                  "es": "Richard Owen",
+                  "de": "Richard Owen",
+                  "nl": "Richard Owen"
+        },
+        {
+                  "en": "William Buckland",
+                  "es": "William Buckland",
+                  "de": "William Buckland",
+                  "nl": "William Buckland"
+        },
+        {
+                  "en": "Gideon Mantell (or his wife Mary Ann)",
+                  "es": "Gideon Mantell (or his wife Mary Ann)",
+                  "de": "Gideon Mantell (or his wife Mary Ann)",
+                  "nl": "Gideon Mantell (or his wife Mary Ann)"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Gideon Mantell and possibly his wife Mary Ann discovered Iguanodon teeth in 1822, among the first dinosaur fossils recognized.",
+                  "es": "Gideon Mantell and possibly his wife Mary Ann discovered Iguanodon teeth in 1822, among the first dinosaur fossils recognized.",
+                  "de": "Gideon Mantell and possibly his wife Mary Ann discovered Iguanodon teeth in 1822, among the first dinosaur fossils recognized.",
+                  "nl": "Gideon Mantell and possibly his wife Mary Ann discovered Iguanodon teeth in 1822, among the first dinosaur fossils recognized."
+        }
       }
     ]
   };
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = level9;
-  } else if (typeof window !== 'undefined') {
-    window.level9 = level9;
   }
 })();

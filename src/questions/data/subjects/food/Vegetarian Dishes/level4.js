@@ -1,664 +1,1282 @@
-// Vegetarian Dishes Quiz - Level 4: Cooking Methods for Vegetarian Food
+// Vegetarian Dishes Quiz - Level 4
 (function() {
-  "use strict";
   const level4 = {
     name: {
-      en: "Vegetarian Level 4",
-      es: "Vegetariano Nivel 4",
-      de: "Vegetarisch Stufe 4",
-      nl: "Vegetarisch Level 4"
+          "en": "Vegetarian Level 4",
+          "es": "Vegetariano Nivel 4",
+          "de": "Vegetarisch Stufe 4",
+          "nl": "Vegetarisch Level 4"
     },
     questions: [
       {
         question: {
-          en: "What is the best cooking method to caramelize onions?",
-          es: "¿Cuál es el mejor método de cocción para caramelizar cebollas?",
-          de: "Was ist die beste Kochmethode zum Karamellisieren von Zwiebeln?",
-          nl: "Wat is de beste kookmethode om uien te karameliseren?"
+                  "en": "What is the best cooking method to caramelize onions?",
+                  "es": "¿Cuál es el mejor método de cocción para caramelizar cebollas?",
+                  "de": "Was ist die beste Kochmethode zum Karamellisieren von Zwiebeln?",
+                  "nl": "Wat is de beste kookmethode om uien te karameliseren?"
         },
         options: [
-          { en: "Low heat, slow cooking for 30-45 minutes", es: "Fuego bajo, cocción lenta por 30-45 minutos", de: "Niedrige Hitze, langsames Kochen für 30-45 Minuten", nl: "Lage hitte, langzaam koken gedurende 30-45 minuten" },
-          { en: "High heat for 5 minutes", es: "Fuego alto por 5 minutos", de: "Hohe Hitze für 5 Minuten", nl: "Hoge hitte gedurende 5 minuten" },
-          { en: "Boiling in water", es: "Hervir en agua", de: "In Wasser kochen", nl: "Koken in water" },
-          { en: "Microwave on high", es: "Microondas en alto", de: "Mikrowelle auf hoch", nl: "Magnetron op hoog" }
+        {
+                  "en": "Microwave on high",
+                  "es": "Microondas en alto",
+                  "de": "Mikrowelle auf hoch",
+                  "nl": "Magnetron op hoog"
+        },
+        {
+                  "en": "High heat for 5 minutes",
+                  "es": "Fuego alto por 5 minutos",
+                  "de": "Hohe Hitze für 5 Minuten",
+                  "nl": "Hoge hitte gedurende 5 minuten"
+        },
+        {
+                  "en": "Boiling in water",
+                  "es": "Hervir en agua",
+                  "de": "In Wasser kochen",
+                  "nl": "Koken in water"
+        },
+        {
+                  "en": "Low heat, slow cooking for 30-45 minutes",
+                  "es": "Fuego bajo, cocción lenta por 30-45 minutos",
+                  "de": "Niedrige Hitze, langsames Kochen für 30-45 Minuten",
+                  "nl": "Lage hitte, langzaam koken gedurende 30-45 minuten"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Caramelizing onions requires patience and low heat to slowly break down the natural sugars, creating deep, sweet flavors without burning.",
-          es: "Caramelizar cebollas requiere paciencia y fuego bajo para descomponer lentamente los azúcares naturales, creando sabores profundos y dulces sin quemarse.",
-          de: "Das Karamellisieren von Zwiebeln erfordert Geduld und niedrige Hitze, um die natürlichen Zucker langsam abzubauen und tiefe, süße Aromen zu schaffen, ohne zu verbrennen.",
-          nl: "Uien karameliseren vereist geduld en lage hitte om de natuurlijke suikers langzaam af te breken, waarbij diepe, zoete smaken ontstaan zonder verbranden."
+                  "en": "Caramelizing onions requires patience and low heat to slowly break down the natural sugars, creating deep, sweet flavors without burning.",
+                  "es": "Caramelizar cebollas requiere paciencia y fuego bajo para descomponer lentamente los azúcares naturales, creando sabores profundos y dulces sin quemarse.",
+                  "de": "Das Karamellisieren von Zwiebeln erfordert Geduld und niedrige Hitze, um die natürlichen Zucker langsam abzubauen und tiefe, süße Aromen zu schaffen, ohne zu verbrennen.",
+                  "nl": "Uien karameliseren vereist geduld en lage hitte om de natuurlijke suikers langzaam af te breken, waarbij diepe, zoete smaken ontstaan zonder verbranden."
         }
       },
       {
         question: {
-          en: "Which cooking technique creates the best texture for roasted vegetables?",
-          es: "¿Qué técnica de cocción crea la mejor textura para verduras asadas?",
-          de: "Welche Kochtechnik schafft die beste Textur für geröstetes Gemüse?",
-          nl: "Welke kooktechniek creëert de beste textuur voor geroosterde groenten?"
+                  "en": "Which cooking technique creates the best texture for roasted vegetables?",
+                  "es": "¿Qué técnica de cocción crea la mejor textura para verduras asadas?",
+                  "de": "Welche Kochtechnik schafft die beste Textur für geröstetes Gemüse?",
+                  "nl": "Welke kooktechniek creëert de beste textuur voor geroosterde groenten?"
         },
         options: [
-          { en: "High heat (400-450°F) with vegetables spread in single layer", es: "Calor alto (200-230°C) con verduras extendidas en una sola capa", de: "Hohe Hitze (200-230°C) mit Gemüse in einer Schicht ausgebreitet", nl: "Hoge hitte (200-230°C) met groenten uitgespreid in één laag" },
-          { en: "Low heat with vegetables piled together", es: "Calor bajo con verduras apiladas juntas", de: "Niedrige Hitze mit zusammengehäuftem Gemüse", nl: "Lage hitte met groenten op elkaar gestapeld" },
-          { en: "Medium heat with constant stirring", es: "Calor medio con agitación constante", de: "Mittlere Hitze mit ständigem Rühren", nl: "Gemiddelde hitte met constant roeren" },
-          { en: "Boiling in salted water", es: "Hervir en agua con sal", de: "In Salzwasser kochen", nl: "Koken in gezouten water" }
+        {
+                  "en": "Low heat with vegetables piled together",
+                  "es": "Calor bajo con verduras apiladas juntas",
+                  "de": "Niedrige Hitze mit zusammengehäuftem Gemüse",
+                  "nl": "Lage hitte met groenten op elkaar gestapeld"
+        },
+        {
+                  "en": "High heat (400-450°F) with vegetables spread in single layer",
+                  "es": "Calor alto (200-230°C) con verduras extendidas en una sola capa",
+                  "de": "Hohe Hitze (200-230°C) mit Gemüse in einer Schicht ausgebreitet",
+                  "nl": "Hoge hitte (200-230°C) met groenten uitgespreid in één laag"
+        },
+        {
+                  "en": "Boiling in salted water",
+                  "es": "Hervir en agua con sal",
+                  "de": "In Salzwasser kochen",
+                  "nl": "Koken in gezouten water"
+        },
+        {
+                  "en": "Medium heat with constant stirring",
+                  "es": "Calor medio con agitación constante",
+                  "de": "Mittlere Hitze mit ständigem Rühren",
+                  "nl": "Gemiddelde hitte met constant roeren"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "High heat and single-layer arrangement allows vegetables to caramelize and develop crispy exteriors while maintaining tender interiors. Crowding steams vegetables instead of roasting them.",
-          es: "El calor alto y la disposición en una sola capa permite que las verduras se caramelicen y desarrollen exteriores crujientes mientras mantienen interiores tiernos. El hacinamiento cuece las verduras al vapor en lugar de asarlas.",
-          de: "Hohe Hitze und Anordnung in einer Schicht ermöglicht es Gemüse zu karamellisieren und knusprige Außenseiten zu entwickeln, während das Innere zart bleibt. Überfüllung dämpft Gemüse anstatt es zu rösten.",
-          nl: "Hoge hitte en opstelling in één laag stelt groenten in staat te karameliseren en knapperige buitenkanten te ontwikkelen terwijl ze malse binnenkanten behouden. Opeenhopen stoomt groenten in plaats van ze te roosteren."
+                  "en": "High heat and single-layer arrangement allows vegetables to caramelize and develop crispy exteriors while maintaining tender interiors. Crowding steams vegetables instead of roasting them.",
+                  "es": "El calor alto y la disposición en una sola capa permite que las verduras se caramelicen y desarrollen exteriores crujientes mientras mantienen interiores tiernos. El hacinamiento cuece las verduras al vapor en lugar de asarlas.",
+                  "de": "Hohe Hitze und Anordnung in einer Schicht ermöglicht es Gemüse zu karamellisieren und knusprige Außenseiten zu entwickeln, während das Innere zart bleibt. Überfüllung dämpft Gemüse anstatt es zu rösten.",
+                  "nl": "Hoge hitte en opstelling in één laag stelt groenten in staat te karameliseren en knapperige buitenkanten te ontwikkelen terwijl ze malse binnenkanten behouden. Opeenhopen stoomt groenten in plaats van ze te roosteren."
         }
       },
       {
         question: {
-          en: "What is the purpose of blanching vegetables before cooking?",
-          es: "¿Cuál es el propósito de blanquear verduras antes de cocinar?",
-          de: "Was ist der Zweck des Blanchierens von Gemüse vor dem Kochen?",
-          nl: "Wat is het doel van het blancheren van groenten voor het koken?"
+                  "en": "What is the purpose of blanching vegetables before cooking?",
+                  "es": "¿Cuál es el propósito de blanquear verduras antes de cocinar?",
+                  "de": "Was ist der Zweck des Blanchierens von Gemüse vor dem Kochen?",
+                  "nl": "Wat is het doel van het blancheren van groenten voor het koken?"
         },
         options: [
-          { en: "To partially cook and preserve color and texture", es: "Para cocinar parcialmente y preservar color y textura", de: "Um teilweise zu kochen und Farbe und Textur zu bewahren", nl: "Om gedeeltelijk te koken en kleur en textuur te behouden" },
-          { en: "To add salt to vegetables", es: "Para añadir sal a las verduras", de: "Um Gemüse Salz hinzuzufügen", nl: "Om zout aan groenten toe te voegen" },
-          { en: "To remove all nutrients", es: "Para eliminar todos los nutrientes", de: "Um alle Nährstoffe zu entfernen", nl: "Om alle voedingsstoffen te verwijderen" },
-          { en: "To make vegetables softer only", es: "Para hacer las verduras más suaves solamente", de: "Nur um Gemüse weicher zu machen", nl: "Om groenten alleen zachter te maken" }
+        {
+                  "en": "To remove all nutrients",
+                  "es": "Para eliminar todos los nutrientes",
+                  "de": "Um alle Nährstoffe zu entfernen",
+                  "nl": "Om alle voedingsstoffen te verwijderen"
+        },
+        {
+                  "en": "To partially cook and preserve color and texture",
+                  "es": "Para cocinar parcialmente y preservar color y textura",
+                  "de": "Um teilweise zu kochen und Farbe und Textur zu bewahren",
+                  "nl": "Om gedeeltelijk te koken en kleur en textuur te behouden"
+        },
+        {
+                  "en": "To add salt to vegetables",
+                  "es": "Para añadir sal a las verduras",
+                  "de": "Um Gemüse Salz hinzuzufügen",
+                  "nl": "Om zout aan groenten toe te voegen"
+        },
+        {
+                  "en": "To make vegetables softer only",
+                  "es": "Para hacer las verduras más suaves solamente",
+                  "de": "Nur um Gemüse weicher zu machen",
+                  "nl": "Om groenten alleen zachter te maken"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Blanching involves briefly boiling vegetables then plunging into ice water. This partially cooks them, stops enzyme action, preserves color and texture, and makes them easier to finish cooking later.",
-          es: "Blanquear implica hervir brevemente las verduras y luego sumergirlas en agua helada. Esto las cocina parcialmente, detiene la acción enzimática, preserva el color y la textura, y las hace más fáciles de terminar de cocinar después.",
-          de: "Blanchieren beinhaltet kurzes Kochen von Gemüse und dann das Eintauchen in Eiswasser. Dies kocht sie teilweise, stoppt Enzymaktivität, bewahrt Farbe und Textur und macht sie einfacher später fertig zu kochen.",
-          nl: "Blancheren houdt kort koken van groenten in en ze dan in ijswater dompelen. Dit kookt ze gedeeltelijk, stopt enzymwerking, behoudt kleur en textuur, en maakt ze makkelijker om later af te koken."
+                  "en": "Blanching involves briefly boiling vegetables then plunging into ice water. This partially cooks them, stops enzyme action, preserves color and texture, and makes them easier to finish cooking later.",
+                  "es": "Blanquear implica hervir brevemente las verduras y luego sumergirlas en agua helada. Esto las cocina parcialmente, detiene la acción enzimática, preserva el color y la textura, y las hace más fáciles de terminar de cocinar después.",
+                  "de": "Blanchieren beinhaltet kurzes Kochen von Gemüse und dann das Eintauchen in Eiswasser. Dies kocht sie teilweise, stoppt Enzymaktivität, bewahrt Farbe und Textur und macht sie einfacher später fertig zu kochen.",
+                  "nl": "Blancheren houdt kort koken van groenten in en ze dan in ijswater dompelen. Dit kookt ze gedeeltelijk, stopt enzymwerking, behoudt kleur en textuur, en maakt ze makkelijker om later af te koken."
         }
       },
       {
         question: {
-          en: "Which vegetable preparation technique reduces bitterness in eggplant?",
-          es: "¿Qué técnica de preparación de verduras reduce la amargura en la berenjena?",
-          de: "Welche Gemüsevorbereitungstechnik reduziert die Bitterkeit in Auberginen?",
-          nl: "Welke groenteprepatiratietechniek vermindert bitterheid in aubergine?"
+                  "en": "Which vegetable preparation technique reduces bitterness in eggplant?",
+                  "es": "¿Qué técnica de preparación de verduras reduce la amargura en la berenjena?",
+                  "de": "Welche Gemüsevorbereitungstechnik reduziert die Bitterkeit in Auberginen?",
+                  "nl": "Welke groenteprepatiratietechniek vermindert bitterheid in aubergine?"
         },
         options: [
-          { en: "Salting and letting it sit for 30 minutes", es: "Salar y dejar reposar por 30 minutos", de: "Salzen und 30 Minuten ruhen lassen", nl: "Zouten en 30 minuten laten rusten" },
-          { en: "Freezing overnight", es: "Congelar toda la noche", de: "Über Nacht einfrieren", nl: "Een nacht invriezen" },
-          { en: "Boiling for 1 hour", es: "Hervir por 1 hora", de: "1 Stunde kochen", nl: "1 uur koken" },
-          { en: "Peeling completely", es: "Pelar completamente", de: "Vollständig schälen", nl: "Volledig schillen" }
+        {
+                  "en": "Freezing overnight",
+                  "es": "Congelar toda la noche",
+                  "de": "Über Nacht einfrieren",
+                  "nl": "Een nacht invriezen"
+        },
+        {
+                  "en": "Peeling completely",
+                  "es": "Pelar completamente",
+                  "de": "Vollständig schälen",
+                  "nl": "Volledig schillen"
+        },
+        {
+                  "en": "Boiling for 1 hour",
+                  "es": "Hervir por 1 hora",
+                  "de": "1 Stunde kochen",
+                  "nl": "1 uur koken"
+        },
+        {
+                  "en": "Salting and letting it sit for 30 minutes",
+                  "es": "Salar y dejar reposar por 30 minutos",
+                  "de": "Salzen und 30 Minuten ruhen lassen",
+                  "nl": "Zouten en 30 minuten laten rusten"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Salting eggplant draws out bitter compounds and excess moisture. After 30 minutes, rinse and pat dry before cooking. This technique is called 'degorging.'",
-          es: "Salar la berenjena extrae compuestos amargos y exceso de humedad. Después de 30 minutos, enjuagar y secar antes de cocinar. Esta técnica se llama 'degorging.'",
-          de: "Das Salzen von Auberginen zieht bittere Verbindungen und überschüssige Feuchtigkeit heraus. Nach 30 Minuten spülen und trocken tupfen vor dem Kochen. Diese Technik heißt 'Degorging.'",
-          nl: "Aubergine zouten trekt bittere stoffen en overtollig vocht eruit. Na 30 minuten spoelen en droogkloppen voor het koken. Deze techniek wordt 'degorging' genoemd."
+                  "en": "Salting eggplant draws out bitter compounds and excess moisture. After 30 minutes, rinse and pat dry before cooking. This technique is called 'degorging.'",
+                  "es": "Salar la berenjena extrae compuestos amargos y exceso de humedad. Después de 30 minutos, enjuagar y secar antes de cocinar. Esta técnica se llama 'degorging.'",
+                  "de": "Das Salzen von Auberginen zieht bittere Verbindungen und überschüssige Feuchtigkeit heraus. Nach 30 Minuten spülen und trocken tupfen vor dem Kochen. Diese Technik heißt 'Degorging.'",
+                  "nl": "Aubergine zouten trekt bittere stoffen en overtollig vocht eruit. Na 30 minuten spoelen en droogkloppen voor het koken. Deze techniek wordt 'degorging' genoemd."
         }
       },
       {
         question: {
-          en: "What is the ideal temperature for sautéing vegetables?",
-          es: "¿Cuál es la temperatura ideal para saltear verduras?",
-          de: "Was ist die ideale Temperatur zum Anbraten von Gemüse?",
-          nl: "Wat is de ideale temperatuur voor het sauteren van groenten?"
+                  "en": "What is the ideal temperature for sautéing vegetables?",
+                  "es": "¿Cuál es la temperatura ideal para saltear verduras?",
+                  "de": "Was ist die ideale Temperatur zum Anbraten von Gemüse?",
+                  "nl": "Wat is de ideale temperatuur voor het sauteren van groenten?"
         },
         options: [
-          { en: "Medium-high heat", es: "Fuego medio-alto", de: "Mittlere bis hohe Hitze", nl: "Middelhoge hitte" },
-          { en: "Very low heat", es: "Fuego muy bajo", de: "Sehr niedrige Hitze", nl: "Zeer lage hitte" },
-          { en: "Maximum high heat", es: "Fuego máximo alto", de: "Maximale hohe Hitze", nl: "Maximale hoge hitte" },
-          { en: "No heat, raw preparation", es: "Sin calor, preparación cruda", de: "Keine Hitze, rohe Zubereitung", nl: "Geen hitte, rauwe bereiding" }
+        {
+                  "en": "Maximum high heat",
+                  "es": "Fuego máximo alto",
+                  "de": "Maximale hohe Hitze",
+                  "nl": "Maximale hoge hitte"
+        },
+        {
+                  "en": "No heat, raw preparation",
+                  "es": "Sin calor, preparación cruda",
+                  "de": "Keine Hitze, rohe Zubereitung",
+                  "nl": "Geen hitte, rauwe bereiding"
+        },
+        {
+                  "en": "Medium-high heat",
+                  "es": "Fuego medio-alto",
+                  "de": "Mittlere bis hohe Hitze",
+                  "nl": "Middelhoge hitte"
+        },
+        {
+                  "en": "Very low heat",
+                  "es": "Fuego muy bajo",
+                  "de": "Sehr niedrige Hitze",
+                  "nl": "Zeer lage hitte"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Medium-high heat allows vegetables to cook quickly while developing some caramelization without burning. The pan should be hot enough that vegetables sizzle when added.",
-          es: "El fuego medio-alto permite que las verduras se cocinen rápidamente mientras desarrollan algo de caramelización sin quemarse. La sartén debe estar lo suficientemente caliente para que las verduras chisporroteen cuando se añadan.",
-          de: "Mittlere bis hohe Hitze ermöglicht es Gemüse schnell zu kochen, während es etwas Karamellisierung entwickelt ohne zu verbrennen. Die Pfanne sollte heiß genug sein, dass Gemüse zischt, wenn es hinzugefügt wird.",
-          nl: "Middelhoge hitte stelt groenten in staat om snel te koken terwijl ze wat karamelisering ontwikkelen zonder te verbranden. De pan moet heet genoeg zijn dat groenten sissen wanneer toegevoegd."
+                  "en": "Medium-high heat allows vegetables to cook quickly while developing some caramelization without burning. The pan should be hot enough that vegetables sizzle when added.",
+                  "es": "El fuego medio-alto permite que las verduras se cocinen rápidamente mientras desarrollan algo de caramelización sin quemarse. La sartén debe estar lo suficientemente caliente para que las verduras chisporroteen cuando se añadan.",
+                  "de": "Mittlere bis hohe Hitze ermöglicht es Gemüse schnell zu kochen, während es etwas Karamellisierung entwickelt ohne zu verbrennen. Die Pfanne sollte heiß genug sein, dass Gemüse zischt, wenn es hinzugefügt wird.",
+                  "nl": "Middelhoge hitte stelt groenten in staat om snel te koken terwijl ze wat karamelisering ontwikkelen zonder te verbranden. De pan moet heet genoeg zijn dat groenten sissen wanneer toegevoegd."
         }
       },
       {
         question: {
-          en: "Which technique is best for cooking grains like quinoa and rice?",
-          es: "¿Qué técnica es mejor para cocinar granos como quinoa y arroz?",
-          de: "Welche Technik ist am besten zum Kochen von Körnern wie Quinoa und Reis?",
-          nl: "Welke techniek is het beste voor het koken van granen zoals quinoa en rijst?"
+                  "en": "Which technique is best for cooking grains like quinoa and rice?",
+                  "es": "¿Qué técnica es mejor para cocinar granos como quinoa y arroz?",
+                  "de": "Welche Technik ist am besten zum Kochen von Körnern wie Quinoa und Reis?",
+                  "nl": "Welke techniek is het beste voor het koken van granen zoals quinoa en rijst?"
         },
         options: [
-          { en: "Absorption method: 2:1 water to grain ratio", es: "Método de absorción: proporción 2:1 de agua a grano", de: "Absorptionsmethode: 2:1 Wasser-zu-Korn-Verhältnis", nl: "Absorptiemethode: 2:1 water-graan verhouding" },
-          { en: "Boiling in excess water like pasta", es: "Hervir en exceso de agua como pasta", de: "In überschüssigem Wasser kochen wie Nudeln", nl: "Koken in overtollig water zoals pasta" },
-          { en: "Steaming without any water", es: "Cocinar al vapor sin agua", de: "Dämpfen ohne Wasser", nl: "Stomen zonder water" },
-          { en: "Frying in oil only", es: "Freír solo en aceite", de: "Nur in Öl braten", nl: "Alleen bakken in olie" }
+        {
+                  "en": "Absorption method: 2:1 water to grain ratio",
+                  "es": "Método de absorción: proporción 2:1 de agua a grano",
+                  "de": "Absorptionsmethode: 2:1 Wasser-zu-Korn-Verhältnis",
+                  "nl": "Absorptiemethode: 2:1 water-graan verhouding"
+        },
+        {
+                  "en": "Frying in oil only",
+                  "es": "Freír solo en aceite",
+                  "de": "Nur in Öl braten",
+                  "nl": "Alleen bakken in olie"
+        },
+        {
+                  "en": "Boiling in excess water like pasta",
+                  "es": "Hervir en exceso de agua como pasta",
+                  "de": "In überschüssigem Wasser kochen wie Nudeln",
+                  "nl": "Koken in overtollig water zoals pasta"
+        },
+        {
+                  "en": "Steaming without any water",
+                  "es": "Cocinar al vapor sin agua",
+                  "de": "Dämpfen ohne Wasser",
+                  "nl": "Stomen zonder water"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "The absorption method uses just enough liquid (usually 2:1 ratio) that gets completely absorbed during cooking, resulting in perfectly cooked grains with ideal texture.",
-          es: "El método de absorción usa justo suficiente líquido (usualmente proporción 2:1) que se absorbe completamente durante la cocción, resultando en granos perfectamente cocidos con textura ideal.",
-          de: "Die Absorptionsmethode verwendet genau genug Flüssigkeit (normalerweise 2:1-Verhältnis), die während des Kochens vollständig absorbiert wird, was zu perfekt gekochten Körnern mit idealer Textur führt.",
-          nl: "De absorptiemethode gebruikt precies genoeg vloeistof (meestal 2:1 verhouding) die volledig wordt geabsorbeerd tijdens het koken, wat resulteert in perfect gekookte granen met ideale textuur."
+                  "en": "The absorption method uses just enough liquid (usually 2:1 ratio) that gets completely absorbed during cooking, resulting in perfectly cooked grains with ideal texture.",
+                  "es": "El método de absorción usa justo suficiente líquido (usualmente proporción 2:1) que se absorbe completamente durante la cocción, resultando en granos perfectamente cocidos con textura ideal.",
+                  "de": "Die Absorptionsmethode verwendet genau genug Flüssigkeit (normalerweise 2:1-Verhältnis), die während des Kochens vollständig absorbiert wird, was zu perfekt gekochten Körnern mit idealer Textur führt.",
+                  "nl": "De absorptiemethode gebruikt precies genoeg vloeistof (meestal 2:1 verhouding) die volledig wordt geabsorbeerd tijdens het koken, wat resulteert in perfect gekookte granen met ideale textuur."
         }
       },
       {
         question: {
-          en: "What is the key to making perfectly smooth hummus?",
-          es: "¿Cuál es la clave para hacer hummus perfectamente suave?",
-          de: "Was ist der Schlüssel für perfekt glatten Hummus?",
-          nl: "Wat is de sleutel tot het maken van perfect gladde hummus?"
+                  "en": "What is the key to making perfectly smooth hummus?",
+                  "es": "¿Cuál es la clave para hacer hummus perfectamente suave?",
+                  "de": "Was ist der Schlüssel für perfekt glatten Hummus?",
+                  "nl": "Wat is de sleutel tot het maken van perfect gladde hummus?"
         },
         options: [
-          { en: "Removing chickpea skins and adding liquid gradually", es: "Remover las pieles de los garbanzos y añadir líquido gradualmente", de: "Kichererbsenschalen entfernen und Flüssigkeit allmählich hinzufügen", nl: "Kikkererwtenvelletjes verwijderen en vloeistof geleidelijk toevoegen" },
-          { en: "Using cold chickpeas", es: "Usar garbanzos fríos", de: "Kalte Kichererbsen verwenden", nl: "Koude kikkererwten gebruiken" },
-          { en: "Adding lots of olive oil at once", es: "Añadir mucho aceite de oliva de una vez", de: "Viel Olivenöl auf einmal hinzufügen", nl: "Veel olijfolie ineens toevoegen" },
-          { en: "Blending for only 30 seconds", es: "Mezclar por solo 30 segundos", de: "Nur 30 Sekunden mixen", nl: "Alleen 30 seconden mixen" }
+        {
+                  "en": "Adding lots of olive oil at once",
+                  "es": "Añadir mucho aceite de oliva de una vez",
+                  "de": "Viel Olivenöl auf einmal hinzufügen",
+                  "nl": "Veel olijfolie ineens toevoegen"
+        },
+        {
+                  "en": "Blending for only 30 seconds",
+                  "es": "Mezclar por solo 30 segundos",
+                  "de": "Nur 30 Sekunden mixen",
+                  "nl": "Alleen 30 seconden mixen"
+        },
+        {
+                  "en": "Using cold chickpeas",
+                  "es": "Usar garbanzos fríos",
+                  "de": "Kalte Kichererbsen verwenden",
+                  "nl": "Koude kikkererwten gebruiken"
+        },
+        {
+                  "en": "Removing chickpea skins and adding liquid gradually",
+                  "es": "Remover las pieles de los garbanzos y añadir líquido gradualmente",
+                  "de": "Kichererbsenschalen entfernen und Flüssigkeit allmählich hinzufügen",
+                  "nl": "Kikkererwtenvelletjes verwijderen en vloeistof geleidelijk toevoegen"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Removing the skins creates ultra-smooth texture, and adding liquid (chickpea cooking water or ice water) gradually while blending creates the perfect creamy consistency.",
-          es: "Remover las pieles crea una textura ultra-suave, y añadir líquido (agua de cocción de garbanzos o agua helada) gradualmente mientras se mezcla crea la consistencia cremosa perfecta.",
-          de: "Das Entfernen der Schalen schafft eine ultra-glatte Textur, und das allmähliche Hinzufügen von Flüssigkeit (Kichererbsen-Kochwasser oder Eiswasser) beim Mixen schafft die perfekte cremige Konsistenz.",
-          nl: "Het verwijderen van de velletjes creëert ultra-gladde textuur, en het geleidelijk toevoegen van vloeistof (kikkererwten kookwater of ijswater) tijdens het mixen creëert de perfecte romige consistentie."
+                  "en": "Removing the skins creates ultra-smooth texture, and adding liquid (chickpea cooking water or ice water) gradually while blending creates the perfect creamy consistency.",
+                  "es": "Remover las pieles crea una textura ultra-suave, y añadir líquido (agua de cocción de garbanzos o agua helada) gradualmente mientras se mezcla crea la consistencia cremosa perfecta.",
+                  "de": "Das Entfernen der Schalen schafft eine ultra-glatte Textur, und das allmähliche Hinzufügen von Flüssigkeit (Kichererbsen-Kochwasser oder Eiswasser) beim Mixen schafft die perfekte cremige Konsistenz.",
+                  "nl": "Het verwijderen van de velletjes creëert ultra-gladde textuur, en het geleidelijk toevoegen van vloeistof (kikkererwten kookwater of ijswater) tijdens het mixen creëert de perfecte romige consistentie."
         }
       },
       {
         question: {
-          en: "Which cooking method best preserves the nutrients in leafy greens?",
-          es: "¿Qué método de cocción preserva mejor los nutrientes en las verduras de hoja verde?",
-          de: "Welche Kochmethode bewahrt die Nährstoffe in Blattgrün am besten?",
-          nl: "Welke kookmethode behoudt de voedingsstoffen in bladgroenten het beste?"
+                  "en": "Which cooking method best preserves the nutrients in leafy greens?",
+                  "es": "¿Qué método de cocción preserva mejor los nutrientes en las verduras de hoja verde?",
+                  "de": "Welche Kochmethode bewahrt die Nährstoffe in Blattgrün am besten?",
+                  "nl": "Welke kookmethode behoudt de voedingsstoffen in bladgroenten het beste?"
         },
         options: [
-          { en: "Quick steaming for 2-3 minutes", es: "Cocción rápida al vapor por 2-3 minutos", de: "Schnelles Dämpfen für 2-3 Minuten", nl: "Snel stomen gedurende 2-3 minuten" },
-          { en: "Boiling for 15 minutes", es: "Hervir por 15 minutos", de: "15 Minuten kochen", nl: "15 minuten koken" },
-          { en: "Soaking in water overnight", es: "Remojar en agua toda la noche", de: "Über Nacht in Wasser einweichen", nl: "Een nacht in water weken" },
-          { en: "Deep frying in oil", es: "Freír en aceite abundante", de: "In Öl frittieren", nl: "Frituren in olie" }
+        {
+                  "en": "Quick steaming for 2-3 minutes",
+                  "es": "Cocción rápida al vapor por 2-3 minutos",
+                  "de": "Schnelles Dämpfen für 2-3 Minuten",
+                  "nl": "Snel stomen gedurende 2-3 minuten"
+        },
+        {
+                  "en": "Soaking in water overnight",
+                  "es": "Remojar en agua toda la noche",
+                  "de": "Über Nacht in Wasser einweichen",
+                  "nl": "Een nacht in water weken"
+        },
+        {
+                  "en": "Boiling for 15 minutes",
+                  "es": "Hervir por 15 minutos",
+                  "de": "15 Minuten kochen",
+                  "nl": "15 minuten koken"
+        },
+        {
+                  "en": "Deep frying in oil",
+                  "es": "Freír en aceite abundante",
+                  "de": "In Öl frittieren",
+                  "nl": "Frituren in olie"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Quick steaming minimally cooks leafy greens while preserving heat-sensitive vitamins like vitamin C and folate. Overcooking and boiling leaches nutrients into the water.",
-          es: "La cocción rápida al vapor cocina mínimamente las verduras de hoja verde mientras preserva vitaminas sensibles al calor como la vitamina C y el folato. La sobrecocción y el hervido filtran nutrientes al agua.",
-          de: "Schnelles Dämpfen kocht Blattgrün minimal, während es hitzeempfindliche Vitamine wie Vitamin C und Folsäure bewahrt. Überkochen und Kochen laugt Nährstoffe ins Wasser aus.",
-          nl: "Snel stomen kookt bladgroenten minimaal terwijl het hittegevoelige vitamines zoals vitamine C en folaat behoudt. Overkoken en koken lekt voedingsstoffen in het water."
+                  "en": "Quick steaming minimally cooks leafy greens while preserving heat-sensitive vitamins like vitamin C and folate. Overcooking and boiling leaches nutrients into the water.",
+                  "es": "La cocción rápida al vapor cocina mínimamente las verduras de hoja verde mientras preserva vitaminas sensibles al calor como la vitamina C y el folato. La sobrecocción y el hervido filtran nutrientes al agua.",
+                  "de": "Schnelles Dämpfen kocht Blattgrün minimal, während es hitzeempfindliche Vitamine wie Vitamin C und Folsäure bewahrt. Überkochen und Kochen laugt Nährstoffe ins Wasser aus.",
+                  "nl": "Snel stomen kookt bladgroenten minimaal terwijl het hittegevoelige vitamines zoals vitamine C en folaat behoudt. Overkoken en koken lekt voedingsstoffen in het water."
         }
       },
       {
         question: {
-          en: "What is the proper technique for making crispy tofu?",
-          es: "¿Cuál es la técnica adecuada para hacer tofu crujiente?",
-          de: "Was ist die richtige Technik für knusprigen Tofu?",
-          nl: "Wat is de juiste techniek voor het maken van knapperige tofu?"
+                  "en": "What is the proper technique for making crispy tofu?",
+                  "es": "¿Cuál es la técnica adecuada para hacer tofu crujiente?",
+                  "de": "Was ist die richtige Technik für knusprigen Tofu?",
+                  "nl": "Wat is de juiste techniek voor het maken van knapperige tofu?"
         },
         options: [
-          { en: "Press out water, cut into cubes, coat lightly in cornstarch", es: "Prensar el agua, cortar en cubos, cubrir ligeramente con maicena", de: "Wasser ausdrücken, in Würfel schneiden, leicht mit Maisstärke bestreuen", nl: "Water uitpersen, in blokjes snijden, licht bedekken met maïszetmeel" },
-          { en: "Use tofu straight from package", es: "Usar tofu directo del paquete", de: "Tofu direkt aus der Verpackung verwenden", nl: "Tofu direct uit de verpakking gebruiken" },
-          { en: "Boil tofu first", es: "Hervir el tofu primero", de: "Tofu zuerst kochen", nl: "Tofu eerst koken" },
-          { en: "Freeze tofu overnight", es: "Congelar tofu toda la noche", de: "Tofu über Nacht einfrieren", nl: "Tofu een nacht invriezen" }
+        {
+                  "en": "Press out water, cut into cubes, coat lightly in cornstarch",
+                  "es": "Prensar el agua, cortar en cubos, cubrir ligeramente con maicena",
+                  "de": "Wasser ausdrücken, in Würfel schneiden, leicht mit Maisstärke bestreuen",
+                  "nl": "Water uitpersen, in blokjes snijden, licht bedekken met maïszetmeel"
+        },
+        {
+                  "en": "Use tofu straight from package",
+                  "es": "Usar tofu directo del paquete",
+                  "de": "Tofu direkt aus der Verpackung verwenden",
+                  "nl": "Tofu direct uit de verpakking gebruiken"
+        },
+        {
+                  "en": "Boil tofu first",
+                  "es": "Hervir el tofu primero",
+                  "de": "Tofu zuerst kochen",
+                  "nl": "Tofu eerst koken"
+        },
+        {
+                  "en": "Freeze tofu overnight",
+                  "es": "Congelar tofu toda la noche",
+                  "de": "Tofu über Nacht einfrieren",
+                  "nl": "Tofu een nacht invriezen"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Pressing removes excess water, allowing tofu to crisp up. Cornstarch coating creates an extra crispy exterior when pan-fried or baked at high heat.",
-          es: "Prensar elimina el exceso de agua, permitiendo que el tofu se ponga crujiente. El recubrimiento de maicena crea un exterior extra crujiente cuando se fríe en sartén o se hornea a alta temperatura.",
-          de: "Das Pressen entfernt überschüssiges Wasser und ermöglicht es dem Tofu, knusprig zu werden. Maisstärke-Beschichtung schafft eine extra knusprige Außenseite beim Anbraten oder Backen bei hoher Hitze.",
-          nl: "Persen verwijdert overtollig water, waardoor tofu knapperig kan worden. Maïszetmeel coating creëert een extra knapperige buitenkant bij bakken in de pan of in de oven op hoge temperatuur."
+                  "en": "Pressing removes excess water, allowing tofu to crisp up. Cornstarch coating creates an extra crispy exterior when pan-fried or baked at high heat.",
+                  "es": "Prensar elimina el exceso de agua, permitiendo que el tofu se ponga crujiente. El recubrimiento de maicena crea un exterior extra crujiente cuando se fríe en sartén o se hornea a alta temperatura.",
+                  "de": "Das Pressen entfernt überschüssiges Wasser und ermöglicht es dem Tofu, knusprig zu werden. Maisstärke-Beschichtung schafft eine extra knusprige Außenseite beim Anbraten oder Backen bei hoher Hitze.",
+                  "nl": "Persen verwijdert overtollig water, waardoor tofu knapperig kan worden. Maïszetmeel coating creëert een extra knapperige buitenkant bij bakken in de pan of in de oven op hoge temperatuur."
         }
       },
       {
         question: {
-          en: "Which technique creates the best flavor when cooking mushrooms?",
-          es: "¿Qué técnica crea el mejor sabor al cocinar hongos?",
-          de: "Welche Technik schafft den besten Geschmack beim Kochen von Pilzen?",
-          nl: "Welke techniek creëert de beste smaak bij het koken van paddenstoelen?"
+                  "en": "Which technique creates the best flavor when cooking mushrooms?",
+                  "es": "¿Qué técnica crea el mejor sabor al cocinar hongos?",
+                  "de": "Welche Technik schafft den besten Geschmack beim Kochen von Pilzen?",
+                  "nl": "Welke techniek creëert de beste smaak bij het koken van paddenstoelen?"
         },
         options: [
-          { en: "Sear without crowding, don't stir immediately", es: "Sellar sin amontonar, no revolver inmediatamente", de: "Anbraten ohne Überfüllung, nicht sofort rühren", nl: "Aanbraden zonder opeenhopen, niet meteen roeren" },
-          { en: "Boil in salted water", es: "Hervir en agua salada", de: "In Salzwasser kochen", nl: "Koken in gezouten water" },
-          { en: "Steam covered for 20 minutes", es: "Cocer al vapor cubierto por 20 minutos", de: "Zugedeckt 20 Minuten dämpfen", nl: "Bedekt 20 minuten stomen" },
-          { en: "Microwave on high power", es: "Microondas a potencia alta", de: "Mikrowelle auf hoher Leistung", nl: "Magnetron op hoog vermogen" }
+        {
+                  "en": "Boil in salted water",
+                  "es": "Hervir en agua salada",
+                  "de": "In Salzwasser kochen",
+                  "nl": "Koken in gezouten water"
+        },
+        {
+                  "en": "Steam covered for 20 minutes",
+                  "es": "Cocer al vapor cubierto por 20 minutos",
+                  "de": "Zugedeckt 20 Minuten dämpfen",
+                  "nl": "Bedekt 20 minuten stomen"
+        },
+        {
+                  "en": "Microwave on high power",
+                  "es": "Microondas a potencia alta",
+                  "de": "Mikrowelle auf hoher Leistung",
+                  "nl": "Magnetron op hoog vermogen"
+        },
+        {
+                  "en": "Sear without crowding, don't stir immediately",
+                  "es": "Sellar sin amontonar, no revolver inmediatamente",
+                  "de": "Anbraten ohne Überfüllung, nicht sofort rühren",
+                  "nl": "Aanbraden zonder opeenhopen, niet meteen roeren"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Searing mushrooms in a hot pan without crowding allows them to brown and develop deep umami flavors. Stirring too early releases moisture and prevents browning.",
-          es: "Sellar hongos en una sartén caliente sin amontonar permite que se doren y desarrollen sabores umami profundos. Revolver muy temprano libera humedad y previene el dorado.",
-          de: "Das Anbraten von Pilzen in einer heißen Pfanne ohne Überfüllung ermöglicht es ihnen zu bräunen und tiefe Umami-Aromen zu entwickeln. Zu frühes Rühren setzt Feuchtigkeit frei und verhindert das Bräunen.",
-          nl: "Paddenstoelen aanbraden in een hete pan zonder opeenhopen stelt ze in staat te bruinen en diepe umami smaken te ontwikkelen. Te vroeg roeren geeft vocht vrij en voorkomt bruining."
+                  "en": "Searing mushrooms in a hot pan without crowding allows them to brown and develop deep umami flavors. Stirring too early releases moisture and prevents browning.",
+                  "es": "Sellar hongos en una sartén caliente sin amontonar permite que se doren y desarrollen sabores umami profundos. Revolver muy temprano libera humedad y previene el dorado.",
+                  "de": "Das Anbraten von Pilzen in einer heißen Pfanne ohne Überfüllung ermöglicht es ihnen zu bräunen und tiefe Umami-Aromen zu entwickeln. Zu frühes Rühren setzt Feuchtigkeit frei und verhindert das Bräunen.",
+                  "nl": "Paddenstoelen aanbraden in een hete pan zonder opeenhopen stelt ze in staat te bruinen en diepe umami smaken te ontwikkelen. Te vroeg roeren geeft vocht vrij en voorkomt bruining."
         }
       },
       {
         question: {
-          en: "What is the best way to prepare dried beans for cooking?",
-          es: "¿Cuál es la mejor manera de preparar frijoles secos para cocinar?",
-          de: "Was ist der beste Weg, getrocknete Bohnen zum Kochen vorzubereiten?",
-          nl: "Wat is de beste manier om gedroogde bonen voor te bereiden voor het koken?"
+                  "en": "What is the best way to prepare dried beans for cooking?",
+                  "es": "¿Cuál es la mejor manera de preparar frijoles secos para cocinar?",
+                  "de": "Was ist der beste Weg, getrocknete Bohnen zum Kochen vorzubereiten?",
+                  "nl": "Wat is de beste manier om gedroogde bonen voor te bereiden voor het koken?"
         },
         options: [
-          { en: "Soak overnight, then simmer gently", es: "Remojar toda la noche, luego hervir suavemente", de: "Über Nacht einweichen, dann sanft köcheln", nl: "Een nacht weken, dan zachtjes sudderen" },
-          { en: "Cook directly from dry", es: "Cocinar directamente desde seco", de: "Direkt trocken kochen", nl: "Direct van droog koken" },
-          { en: "Boil rapidly for 2 hours", es: "Hervir rápidamente por 2 horas", de: "Schnell 2 Stunden kochen", nl: "Snel 2 uur koken" },
-          { en: "Microwave for 10 minutes", es: "Microondas por 10 minutos", de: "10 Minuten in der Mikrowelle", nl: "10 minuten in de magnetron" }
+        {
+                  "en": "Boil rapidly for 2 hours",
+                  "es": "Hervir rápidamente por 2 horas",
+                  "de": "Schnell 2 Stunden kochen",
+                  "nl": "Snel 2 uur koken"
+        },
+        {
+                  "en": "Microwave for 10 minutes",
+                  "es": "Microondas por 10 minutos",
+                  "de": "10 Minuten in der Mikrowelle",
+                  "nl": "10 minuten in de magnetron"
+        },
+        {
+                  "en": "Cook directly from dry",
+                  "es": "Cocinar directamente desde seco",
+                  "de": "Direkt trocken kochen",
+                  "nl": "Direct van droog koken"
+        },
+        {
+                  "en": "Soak overnight, then simmer gently",
+                  "es": "Remojar toda la noche, luego hervir suavemente",
+                  "de": "Über Nacht einweichen, dann sanft köcheln",
+                  "nl": "Een nacht weken, dan zachtjes sudderen"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Soaking rehydrates beans and reduces cooking time. Gentle simmering prevents the skins from bursting and creates evenly cooked, creamy beans.",
-          es: "Remojar rehidrata los frijoles y reduce el tiempo de cocción. El hervido suave previene que las pieles revienten y crea frijoles uniformemente cocidos y cremosos.",
-          de: "Einweichen rehydratisiert Bohnen und reduziert die Kochzeit. Sanftes Köcheln verhindert das Platzen der Schalen und schafft gleichmäßig gekochte, cremige Bohnen.",
-          nl: "Weken herhydrateert bonen en vermindert kooktijd. Zacht sudderen voorkomt dat de schillen barsten en creëert gelijkmatig gekookte, romige bonen."
+                  "en": "Soaking rehydrates beans and reduces cooking time. Gentle simmering prevents the skins from bursting and creates evenly cooked, creamy beans.",
+                  "es": "Remojar rehidrata los frijoles y reduce el tiempo de cocción. El hervido suave previene que las pieles revienten y crea frijoles uniformemente cocidos y cremosos.",
+                  "de": "Einweichen rehydratisiert Bohnen und reduziert die Kochzeit. Sanftes Köcheln verhindert das Platzen der Schalen und schafft gleichmäßig gekochte, cremige Bohnen.",
+                  "nl": "Weken herhydrateert bonen en vermindert kooktijd. Zacht sudderen voorkomt dat de schillen barsten en creëert gelijkmatig gekookte, romige bonen."
         }
       },
       {
         question: {
-          en: "Which fat is best for high-heat vegetarian cooking?",
-          es: "¿Qué grasa es mejor para la cocina vegetariana de alta temperatura?",
-          de: "Welches Fett ist am besten für vegetarisches Kochen bei hoher Hitze?",
-          nl: "Welk vet is het beste voor hoge-temperatuur vegetarisch koken?"
+                  "en": "Which fat is best for high-heat vegetarian cooking?",
+                  "es": "¿Qué grasa es mejor para la cocina vegetariana de alta temperatura?",
+                  "de": "Welches Fett ist am besten für vegetarisches Kochen bei hoher Hitze?",
+                  "nl": "Welk vet is het beste voor hoge-temperatuur vegetarisch koken?"
         },
         options: [
-          { en: "Refined oils with high smoke points (avocado, grapeseed)", es: "Aceites refinados con puntos de humo altos (aguacate, semilla de uva)", de: "Raffinierte Öle mit hohen Rauchpunkten (Avocado, Traubenkern)", nl: "Geraffineerde oliën met hoge rookpunten (avocado, druivenpit)" },
-          { en: "Extra virgin olive oil", es: "Aceite de oliva extra virgen", de: "Natives Olivenöl extra", nl: "Extra vergine olijfolie" },
-          { en: "Butter", es: "Mantequilla", de: "Butter", nl: "Boter" },
-          { en: "Coconut oil", es: "Aceite de coco", de: "Kokosöl", nl: "Kokosolie" }
+        {
+                  "en": "Refined oils with high smoke points (avocado, grapeseed)",
+                  "es": "Aceites refinados con puntos de humo altos (aguacate, semilla de uva)",
+                  "de": "Raffinierte Öle mit hohen Rauchpunkten (Avocado, Traubenkern)",
+                  "nl": "Geraffineerde oliën met hoge rookpunten (avocado, druivenpit)"
+        },
+        {
+                  "en": "Extra virgin olive oil",
+                  "es": "Aceite de oliva extra virgen",
+                  "de": "Natives Olivenöl extra",
+                  "nl": "Extra vergine olijfolie"
+        },
+        {
+                  "en": "Coconut oil",
+                  "es": "Aceite de coco",
+                  "de": "Kokosöl",
+                  "nl": "Kokosolie"
+        },
+        {
+                  "en": "Butter",
+                  "es": "Mantequilla",
+                  "de": "Butter",
+                  "nl": "Boter"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Refined oils like avocado oil (520°F smoke point) and grapeseed oil (420°F) can withstand high temperatures without breaking down or producing harmful compounds.",
-          es: "Los aceites refinados como el aceite de aguacate (punto de humo 270°C) y el aceite de semilla de uva (215°C) pueden soportar altas temperaturas sin descomponerse o producir compuestos dañinos.",
-          de: "Raffinierte Öle wie Avocadoöl (271°C Rauchpunkt) und Traubenkernöl (216°C) können hohe Temperaturen ohne Zerfall oder Produktion schädlicher Verbindungen aushalten.",
-          nl: "Geraffineerde oliën zoals avocado olie (271°C rookpunt) en druivenpittenolie (216°C) kunnen hoge temperaturen weerstaan zonder af te breken of schadelijke stoffen te produceren."
+                  "en": "Refined oils like avocado oil (520°F smoke point) and grapeseed oil (420°F) can withstand high temperatures without breaking down or producing harmful compounds.",
+                  "es": "Los aceites refinados como el aceite de aguacate (punto de humo 270°C) y el aceite de semilla de uva (215°C) pueden soportar altas temperaturas sin descomponerse o producir compuestos dañinos.",
+                  "de": "Raffinierte Öle wie Avocadoöl (271°C Rauchpunkt) und Traubenkernöl (216°C) können hohe Temperaturen ohne Zerfall oder Produktion schädlicher Verbindungen aushalten.",
+                  "nl": "Geraffineerde oliën zoals avocado olie (271°C rookpunt) en druivenpittenolie (216°C) kunnen hoge temperaturen weerstaan zonder af te breken of schadelijke stoffen te produceren."
         }
       },
       {
         question: {
-          en: "What is the ideal technique for cooking pasta al dente?",
-          es: "¿Cuál es la técnica ideal para cocinar pasta al dente?",
-          de: "Was ist die ideale Technik zum Kochen von Nudeln al dente?",
-          nl: "Wat is de ideale techniek voor het koken van pasta al dente?"
+                  "en": "What is the ideal technique for cooking pasta al dente?",
+                  "es": "¿Cuál es la técnica ideal para cocinar pasta al dente?",
+                  "de": "Was ist die ideale Technik zum Kochen von Nudeln al dente?",
+                  "nl": "Wat is de ideale techniek voor het koken van pasta al dente?"
         },
         options: [
-          { en: "Boil in plenty of salted water, test 1-2 minutes before package time", es: "Hervir en abundante agua salada, probar 1-2 minutos antes del tiempo del paquete", de: "In reichlich Salzwasser kochen, 1-2 Minuten vor Packungszeit testen", nl: "Koken in veel gezouten water, 1-2 minuten voor verpakkingstijd testen" },
-          { en: "Cook exactly as package directions say", es: "Cocinar exactamente como dicen las instrucciones del paquete", de: "Genau nach Packungsanweisung kochen", nl: "Precies koken zoals de verpakkingsinstructies zeggen" },
-          { en: "Use minimal water to save energy", es: "Usar agua mínima para ahorrar energía", de: "Minimales Wasser verwenden, um Energie zu sparen", nl: "Minimaal water gebruiken om energie te besparen" },
-          { en: "Add oil to prevent sticking", es: "Añadir aceite para prevenir que se pegue", de: "Öl hinzufügen, um Anhaften zu verhindern", nl: "Olie toevoegen om plakken te voorkomen" }
+        {
+                  "en": "Boil in plenty of salted water, test 1-2 minutes before package time",
+                  "es": "Hervir en abundante agua salada, probar 1-2 minutos antes del tiempo del paquete",
+                  "de": "In reichlich Salzwasser kochen, 1-2 Minuten vor Packungszeit testen",
+                  "nl": "Koken in veel gezouten water, 1-2 minuten voor verpakkingstijd testen"
+        },
+        {
+                  "en": "Cook exactly as package directions say",
+                  "es": "Cocinar exactamente como dicen las instrucciones del paquete",
+                  "de": "Genau nach Packungsanweisung kochen",
+                  "nl": "Precies koken zoals de verpakkingsinstructies zeggen"
+        },
+        {
+                  "en": "Add oil to prevent sticking",
+                  "es": "Añadir aceite para prevenir que se pegue",
+                  "de": "Öl hinzufügen, um Anhaften zu verhindern",
+                  "nl": "Olie toevoegen om plakken te voorkomen"
+        },
+        {
+                  "en": "Use minimal water to save energy",
+                  "es": "Usar agua mínima para ahorrar energía",
+                  "de": "Minimales Wasser verwenden, um Energie zu sparen",
+                  "nl": "Minimaal water gebruiken om energie te besparen"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Plenty of salted water prevents sticking and ensures even cooking. Testing before the suggested time helps achieve the perfect al dente texture - firm to the bite.",
-          es: "Abundante agua salada previene que se pegue y asegura cocción uniforme. Probar antes del tiempo sugerido ayuda a lograr la textura al dente perfecta - firme al morder.",
-          de: "Reichlich Salzwasser verhindert Anhaften und gewährleistet gleichmäßiges Kochen. Das Testen vor der vorgeschlagenen Zeit hilft, die perfekte al dente Textur zu erreichen - bissfest.",
-          nl: "Veel gezouten water voorkomt plakken en zorgt voor gelijkmatig koken. Testen voor de voorgestelde tijd helpt de perfecte al dente textuur te bereiken - stevig om te bijten."
+                  "en": "Plenty of salted water prevents sticking and ensures even cooking. Testing before the suggested time helps achieve the perfect al dente texture - firm to the bite.",
+                  "es": "Abundante agua salada previene que se pegue y asegura cocción uniforme. Probar antes del tiempo sugerido ayuda a lograr la textura al dente perfecta - firme al morder.",
+                  "de": "Reichlich Salzwasser verhindert Anhaften und gewährleistet gleichmäßiges Kochen. Das Testen vor der vorgeschlagenen Zeit hilft, die perfekte al dente Textur zu erreichen - bissfest.",
+                  "nl": "Veel gezouten water voorkomt plakken en zorgt voor gelijkmatig koken. Testen voor de voorgestelde tijd helpt de perfecte al dente textuur te bereiken - stevig om te bijten."
         }
       },
       {
         question: {
-          en: "Which technique produces the fluffiest scrambled eggs?",
-          es: "¿Qué técnica produce los huevos revueltos más esponjosos?",
-          de: "Welche Technik produziert die fluffigsten Rühreier?",
-          nl: "Welke techniek produceert de pluizigste roereieren?"
+                  "en": "Which technique produces the fluffiest scrambled eggs?",
+                  "es": "¿Qué técnica produce los huevos revueltos más esponjosos?",
+                  "de": "Welche Technik produziert die fluffigsten Rühreier?",
+                  "nl": "Welke techniek produceert de pluizigste roereieren?"
         },
         options: [
-          { en: "Low heat, constant gentle stirring, add cold butter at the end", es: "Fuego bajo, agitación suave constante, añadir mantequilla fría al final", de: "Niedrige Hitze, ständiges sanftes Rühren, kalte Butter am Ende hinzufügen", nl: "Lage hitte, constant zacht roeren, koude boter aan het eind toevoegen" },
-          { en: "High heat, rapid stirring", es: "Fuego alto, agitación rápida", de: "Hohe Hitze, schnelles Rühren", nl: "Hoge hitte, snel roeren" },
-          { en: "Medium heat, no stirring", es: "Fuego medio, sin agitar", de: "Mittlere Hitze, nicht rühren", nl: "Gemiddelde hitte, niet roeren" },
-          { en: "Microwave for 2 minutes", es: "Microondas por 2 minutos", de: "2 Minuten Mikrowelle", nl: "2 minuten magnetron" }
+        {
+                  "en": "Microwave for 2 minutes",
+                  "es": "Microondas por 2 minutos",
+                  "de": "2 Minuten Mikrowelle",
+                  "nl": "2 minuten magnetron"
+        },
+        {
+                  "en": "Medium heat, no stirring",
+                  "es": "Fuego medio, sin agitar",
+                  "de": "Mittlere Hitze, nicht rühren",
+                  "nl": "Gemiddelde hitte, niet roeren"
+        },
+        {
+                  "en": "High heat, rapid stirring",
+                  "es": "Fuego alto, agitación rápida",
+                  "de": "Hohe Hitze, schnelles Rühren",
+                  "nl": "Hoge hitte, snel roeren"
+        },
+        {
+                  "en": "Low heat, constant gentle stirring, add cold butter at the end",
+                  "es": "Fuego bajo, agitación suave constante, añadir mantequilla fría al final",
+                  "de": "Niedrige Hitze, ständiges sanftes Rühren, kalte Butter am Ende hinzufügen",
+                  "nl": "Lage hitte, constant zacht roeren, koude boter aan het eind toevoegen"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Low heat and constant gentle stirring creates small curds for creamy texture. Cold butter at the end stops cooking and adds richness without making eggs greasy.",
-          es: "El fuego bajo y la agitación suave constante crea cuajos pequeños para textura cremosa. La mantequilla fría al final detiene la cocción y añade riqueza sin hacer los huevos grasosos.",
-          de: "Niedrige Hitze und ständiges sanftes Rühren schafft kleine Klumpen für cremige Textur. Kalte Butter am Ende stoppt das Kochen und fügt Reichhaltigkeit hinzu, ohne die Eier fettig zu machen.",
-          nl: "Lage hitte en constant zacht roeren creëert kleine klonters voor romige textuur. Koude boter aan het eind stopt het koken en voegt rijkdom toe zonder de eieren vettig te maken."
+                  "en": "Low heat and constant gentle stirring creates small curds for creamy texture. Cold butter at the end stops cooking and adds richness without making eggs greasy.",
+                  "es": "El fuego bajo y la agitación suave constante crea cuajos pequeños para textura cremosa. La mantequilla fría al final detiene la cocción y añade riqueza sin hacer los huevos grasosos.",
+                  "de": "Niedrige Hitze und ständiges sanftes Rühren schafft kleine Klumpen für cremige Textur. Kalte Butter am Ende stoppt das Kochen und fügt Reichhaltigkeit hinzu, ohne die Eier fettig zu machen.",
+                  "nl": "Lage hitte en constant zacht roeren creëert kleine klonters voor romige textuur. Koude boter aan het eind stopt het koken en voegt rijkdom toe zonder de eieren vettig te maken."
         }
       },
       {
         question: {
-          en: "What is the key to making a perfect vegetable stir-fry?",
-          es: "¿Cuál es la clave para hacer un salteado de verduras perfecto?",
-          de: "Was ist der Schlüssel für ein perfektes Gemüse-Stir-Fry?",
-          nl: "Wat is de sleutel tot het maken van een perfecte groentenwok?"
+                  "en": "What is the key to making a perfect vegetable stir-fry?",
+                  "es": "¿Cuál es la clave para hacer un salteado de verduras perfecto?",
+                  "de": "Was ist der Schlüssel für ein perfektes Gemüse-Stir-Fry?",
+                  "nl": "Wat is de sleutel tot het maken van een perfecte groentenwok?"
         },
         options: [
-          { en: "Very high heat, vegetables cut uniformly, cook in batches", es: "Fuego muy alto, verduras cortadas uniformemente, cocinar en tandas", de: "Sehr hohe Hitze, gleichmäßig geschnittenes Gemüse, in Chargen kochen", nl: "Zeer hoge hitte, groenten gelijkmatig gesneden, in batches koken" },
-          { en: "Medium heat, all vegetables together", es: "Fuego medio, todas las verduras juntas", de: "Mittlere Hitze, alles Gemüse zusammen", nl: "Gemiddelde hitte, alle groenten samen" },
-          { en: "Low heat, long cooking time", es: "Fuego bajo, tiempo de cocción largo", de: "Niedrige Hitze, lange Kochzeit", nl: "Lage hitte, lange kooktijd" },
-          { en: "Steam all vegetables first", es: "Cocer al vapor todas las verduras primero", de: "Alle Gemüse zuerst dämpfen", nl: "Alle groenten eerst stomen" }
+        {
+                  "en": "Very high heat, vegetables cut uniformly, cook in batches",
+                  "es": "Fuego muy alto, verduras cortadas uniformemente, cocinar en tandas",
+                  "de": "Sehr hohe Hitze, gleichmäßig geschnittenes Gemüse, in Chargen kochen",
+                  "nl": "Zeer hoge hitte, groenten gelijkmatig gesneden, in batches koken"
+        },
+        {
+                  "en": "Medium heat, all vegetables together",
+                  "es": "Fuego medio, todas las verduras juntas",
+                  "de": "Mittlere Hitze, alles Gemüse zusammen",
+                  "nl": "Gemiddelde hitte, alle groenten samen"
+        },
+        {
+                  "en": "Steam all vegetables first",
+                  "es": "Cocer al vapor todas las verduras primero",
+                  "de": "Alle Gemüse zuerst dämpfen",
+                  "nl": "Alle groenten eerst stomen"
+        },
+        {
+                  "en": "Low heat, long cooking time",
+                  "es": "Fuego bajo, tiempo de cocción largo",
+                  "de": "Niedrige Hitze, lange Kochzeit",
+                  "nl": "Lage hitte, lange kooktijd"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "High heat sears vegetables quickly, maintaining texture and color. Uniform cuts ensure even cooking, and cooking in batches prevents overcrowding and steaming.",
-          es: "El fuego alto sella las verduras rápidamente, manteniendo textura y color. Los cortes uniformes aseguran cocción pareja, y cocinar en tandas previene el hacinamiento y el vapor.",
-          de: "Hohe Hitze brät Gemüse schnell an und erhält Textur und Farbe. Gleichmäßige Schnitte gewährleisten gleichmäßiges Kochen, und das Kochen in Chargen verhindert Überfüllung und Dämpfen.",
-          nl: "Hoge hitte braadt groenten snel aan, behoudt textuur en kleur. Gelijkmatige sneden zorgen voor gelijkmatig koken, en koken in batches voorkomt opeenhoping en stomen."
+                  "en": "High heat sears vegetables quickly, maintaining texture and color. Uniform cuts ensure even cooking, and cooking in batches prevents overcrowding and steaming.",
+                  "es": "El fuego alto sella las verduras rápidamente, manteniendo textura y color. Los cortes uniformes aseguran cocción pareja, y cocinar en tandas previene el hacinamiento y el vapor.",
+                  "de": "Hohe Hitze brät Gemüse schnell an und erhält Textur und Farbe. Gleichmäßige Schnitte gewährleisten gleichmäßiges Kochen, und das Kochen in Chargen verhindert Überfüllung und Dämpfen.",
+                  "nl": "Hoge hitte braadt groenten snel aan, behoudt textuur en kleur. Gelijkmatige sneden zorgen voor gelijkmatig koken, en koken in batches voorkomt opeenhoping en stomen."
         }
       },
       {
         question: {
-          en: "Which method creates the best texture for mashed cauliflower?",
-          es: "¿Qué método crea la mejor textura para puré de coliflor?",
-          de: "Welche Methode schafft die beste Textur für Blumenkohl-Püree?",
-          nl: "Welke methode creëert de beste textuur voor bloemkoolpuree?"
+                  "en": "Which method creates the best texture for mashed cauliflower?",
+                  "es": "¿Qué método crea la mejor textura para puré de coliflor?",
+                  "de": "Welche Methode schafft die beste Textur für Blumenkohl-Püree?",
+                  "nl": "Welke methode creëert de beste textuur voor bloemkoolpuree?"
         },
         options: [
-          { en: "Steam, then rice or mash while hot, drain excess moisture", es: "Cocer al vapor, luego pasar por el pasapurés o hacer puré caliente, escurrir exceso de humedad", de: "Dämpfen, dann reiben oder stampfen, solange heiß, überschüssige Feuchtigkeit abtropfen", nl: "Stomen, dan rijsten of pureren terwijl heet, overtollig vocht afdruippen" },
-          { en: "Boil in water, mash with all liquid", es: "Hervir en agua, hacer puré con todo el líquido", de: "In Wasser kochen, mit aller Flüssigkeit stampfen", nl: "Koken in water, pureren met alle vloeistof" },
-          { en: "Roast first, then boil", es: "Asar primero, luego hervir", de: "Zuerst rösten, dann kochen", nl: "Eerst roosteren, dan koken" },
-          { en: "Use raw cauliflower", es: "Usar coliflor cruda", de: "Rohen Blumenkohl verwenden", nl: "Rauwe bloemkool gebruiken" }
+        {
+                  "en": "Boil in water, mash with all liquid",
+                  "es": "Hervir en agua, hacer puré con todo el líquido",
+                  "de": "In Wasser kochen, mit aller Flüssigkeit stampfen",
+                  "nl": "Koken in water, pureren met alle vloeistof"
+        },
+        {
+                  "en": "Use raw cauliflower",
+                  "es": "Usar coliflor cruda",
+                  "de": "Rohen Blumenkohl verwenden",
+                  "nl": "Rauwe bloemkool gebruiken"
+        },
+        {
+                  "en": "Roast first, then boil",
+                  "es": "Asar primero, luego hervir",
+                  "de": "Zuerst rösten, dann kochen",
+                  "nl": "Eerst roosteren, dan koken"
+        },
+        {
+                  "en": "Steam, then rice or mash while hot, drain excess moisture",
+                  "es": "Cocer al vapor, luego pasar por el pasapurés o hacer puré caliente, escurrir exceso de humedad",
+                  "de": "Dämpfen, dann reiben oder stampfen, solange heiß, überschüssige Feuchtigkeit abtropfen",
+                  "nl": "Stomen, dan rijsten of pureren terwijl heet, overtollig vocht afdruippen"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Steaming prevents waterlogging. Processing while hot and draining excess moisture creates a fluffy, potato-like texture instead of watery mash.",
-          es: "Cocer al vapor previene el encharcamiento. Procesar mientras está caliente y escurrir el exceso de humedad crea una textura esponjosa, similar a la papa, en lugar de puré aguado.",
-          de: "Dämpfen verhindert Durchnässung. Die Verarbeitung während es heiß ist und das Abtropfen überschüssiger Feuchtigkeit schafft eine fluffige, kartoffelähnliche Textur anstatt wässrigen Brei.",
-          nl: "Stomen voorkomt doorweking. Verwerken terwijl heet en overtollig vocht afdruippen creëert een pluizige, aardappelachtige textuur in plaats van waterige puree."
+                  "en": "Steaming prevents waterlogging. Processing while hot and draining excess moisture creates a fluffy, potato-like texture instead of watery mash.",
+                  "es": "Cocer al vapor previene el encharcamiento. Procesar mientras está caliente y escurrir el exceso de humedad crea una textura esponjosa, similar a la papa, en lugar de puré aguado.",
+                  "de": "Dämpfen verhindert Durchnässung. Die Verarbeitung während es heiß ist und das Abtropfen überschüssiger Feuchtigkeit schafft eine fluffige, kartoffelähnliche Textur anstatt wässrigen Brei.",
+                  "nl": "Stomen voorkomt doorweking. Verwerken terwijl heet en overtollig vocht afdruippen creëert een pluizige, aardappelachtige textuur in plaats van waterige puree."
         }
       },
       {
         question: {
-          en: "What is the proper way to cook risotto?",
-          es: "¿Cuál es la manera adecuada de cocinar risotto?",
-          de: "Was ist der richtige Weg, Risotto zu kochen?",
-          nl: "Wat is de juiste manier om risotto te koken?"
+                  "en": "What is the proper way to cook risotto?",
+                  "es": "¿Cuál es la manera adecuada de cocinar risotto?",
+                  "de": "Was ist der richtige Weg, Risotto zu kochen?",
+                  "nl": "Wat is de juiste manier om risotto te koken?"
         },
         options: [
-          { en: "Toast rice, add warm broth one ladle at a time, stir frequently", es: "Tostar arroz, añadir caldo caliente una cucharada a la vez, revolver frecuentemente", de: "Reis rösten, warme Brühe eine Kelle nach der anderen hinzufügen, häufig rühren", nl: "Rijst roosteren, warme bouillon één pollepel tegelijk toevoegen, vaak roeren" },
-          { en: "Cook like regular rice with all liquid at once", es: "Cocinar como arroz regular con todo el líquido de una vez", de: "Wie normalen Reis mit aller Flüssigkeit auf einmal kochen", nl: "Koken zoals gewone rijst met alle vloeistof ineens" },
-          { en: "Boil rice first, then add cold broth", es: "Hervir arroz primero, luego añadir caldo frío", de: "Reis zuerst kochen, dann kalte Brühe hinzufügen", nl: "Rijst eerst koken, dan koude bouillon toevoegen" },
-          { en: "Use long-grain rice only", es: "Usar solo arroz de grano largo", de: "Nur langkörnigen Reis verwenden", nl: "Alleen langkorrelrijst gebruiken" }
+        {
+                  "en": "Boil rice first, then add cold broth",
+                  "es": "Hervir arroz primero, luego añadir caldo frío",
+                  "de": "Reis zuerst kochen, dann kalte Brühe hinzufügen",
+                  "nl": "Rijst eerst koken, dan koude bouillon toevoegen"
+        },
+        {
+                  "en": "Use long-grain rice only",
+                  "es": "Usar solo arroz de grano largo",
+                  "de": "Nur langkörnigen Reis verwenden",
+                  "nl": "Alleen langkorrelrijst gebruiken"
+        },
+        {
+                  "en": "Cook like regular rice with all liquid at once",
+                  "es": "Cocinar como arroz regular con todo el líquido de una vez",
+                  "de": "Wie normalen Reis mit aller Flüssigkeit auf einmal kochen",
+                  "nl": "Koken zoals gewone rijst met alle vloeistof ineens"
+        },
+        {
+                  "en": "Toast rice, add warm broth one ladle at a time, stir frequently",
+                  "es": "Tostar arroz, añadir caldo caliente una cucharada a la vez, revolver frecuentemente",
+                  "de": "Reis rösten, warme Brühe eine Kelle nach der anderen hinzufügen, häufig rühren",
+                  "nl": "Rijst roosteren, warme bouillon één pollepel tegelijk toevoegen, vaak roeren"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Toasting rice releases starch gradually. Adding warm broth slowly and stirring releases more starch, creating the signature creamy texture while keeping rice grains distinct.",
-          es: "Tostar arroz libera almidón gradualmente. Añadir caldo caliente lentamente y revolver libera más almidón, creando la textura cremosa característica mientras mantiene los granos de arroz distintos.",
-          de: "Das Rösten von Reis setzt allmählich Stärke frei. Das langsame Hinzufügen warmer Brühe und Rühren setzt mehr Stärke frei und schafft die charakteristische cremige Textur, während die Reiskörner unterscheidbar bleiben.",
-          nl: "Rijst roosteren geeft geleidelijk zetmeel vrij. Warme bouillon langzaam toevoegen en roeren geeft meer zetmeel vrij, creëert de kenmerkende romige textuur terwijl rijstkorrels onderscheidbaar blijven."
+                  "en": "Toasting rice releases starch gradually. Adding warm broth slowly and stirring releases more starch, creating the signature creamy texture while keeping rice grains distinct.",
+                  "es": "Tostar arroz libera almidón gradualmente. Añadir caldo caliente lentamente y revolver libera más almidón, creando la textura cremosa característica mientras mantiene los granos de arroz distintos.",
+                  "de": "Das Rösten von Reis setzt allmählich Stärke frei. Das langsame Hinzufügen warmer Brühe und Rühren setzt mehr Stärke frei und schafft die charakteristische cremige Textur, während die Reiskörner unterscheidbar bleiben.",
+                  "nl": "Rijst roosteren geeft geleidelijk zetmeel vrij. Warme bouillon langzaam toevoegen en roeren geeft meer zetmeel vrij, creëert de kenmerkende romige textuur terwijl rijstkorrels onderscheidbaar blijven."
         }
       },
       {
         question: {
-          en: "Which technique prevents vegetables from becoming mushy when meal prepping?",
-          es: "¿Qué técnica previene que las verduras se pongan blandas al preparar comidas?",
-          de: "Welche Technik verhindert, dass Gemüse beim Meal-Prep matschig wird?",
-          nl: "Welke techniek voorkomt dat groenten zacht worden bij meal prepping?"
+                  "en": "Which technique prevents vegetables from becoming mushy when meal prepping?",
+                  "es": "¿Qué técnica previene que las verduras se pongan blandas al preparar comidas?",
+                  "de": "Welche Technik verhindert, dass Gemüse beim Meal-Prep matschig wird?",
+                  "nl": "Welke techniek voorkomt dat groenten zacht worden bij meal prepping?"
         },
         options: [
-          { en: "Slightly undercook, store properly, reheat gently", es: "Cocinar ligeramente menos, almacenar apropiadamente, recalentar suavemente", de: "Leicht unterkochen, richtig lagern, sanft aufwärmen", nl: "Iets onderbereiden, goed bewaren, zacht opwarmen" },
-          { en: "Fully cook everything ahead", es: "Cocinar todo completamente por adelantado", de: "Alles vollständig im Voraus kochen", nl: "Alles volledig vooruit koken" },
-          { en: "Freeze all vegetables", es: "Congelar todas las verduras", de: "Alle Gemüse einfrieren", nl: "Alle groenten invriezen" },
-          { en: "Store in water", es: "Almacenar en agua", de: "In Wasser lagern", nl: "Bewaren in water" }
+        {
+                  "en": "Freeze all vegetables",
+                  "es": "Congelar todas las verduras",
+                  "de": "Alle Gemüse einfrieren",
+                  "nl": "Alle groenten invriezen"
+        },
+        {
+                  "en": "Slightly undercook, store properly, reheat gently",
+                  "es": "Cocinar ligeramente menos, almacenar apropiadamente, recalentar suavemente",
+                  "de": "Leicht unterkochen, richtig lagern, sanft aufwärmen",
+                  "nl": "Iets onderbereiden, goed bewaren, zacht opwarmen"
+        },
+        {
+                  "en": "Store in water",
+                  "es": "Almacenar en agua",
+                  "de": "In Wasser lagern",
+                  "nl": "Bewaren in water"
+        },
+        {
+                  "en": "Fully cook everything ahead",
+                  "es": "Cocinar todo completamente por adelantado",
+                  "de": "Alles vollständig im Voraus kochen",
+                  "nl": "Alles volledig vooruit koken"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Slightly undercooking accounts for additional cooking during reheating. Proper storage maintains texture, and gentle reheating prevents overcooking and mushiness.",
-          es: "Cocinar ligeramente menos compensa la cocción adicional durante el recalentamiento. El almacenamiento apropiado mantiene la textura, y el recalentamiento suave previene la sobrecocción y blandura.",
-          de: "Leichtes Unterkochen berücksichtigt zusätzliches Kochen beim Aufwärmen. Richtige Lagerung erhält die Textur, und sanftes Aufwärmen verhindert Überkochen und Matschigkeit.",
-          nl: "Iets onderbereiden houdt rekening met extra koken tijdens het opwarmen. Goede bewaring behoudt textuur, en zacht opwarmen voorkomt overkoken en zachtheid."
+                  "en": "Slightly undercooking accounts for additional cooking during reheating. Proper storage maintains texture, and gentle reheating prevents overcooking and mushiness.",
+                  "es": "Cocinar ligeramente menos compensa la cocción adicional durante el recalentamiento. El almacenamiento apropiado mantiene la textura, y el recalentamiento suave previene la sobrecocción y blandura.",
+                  "de": "Leichtes Unterkochen berücksichtigt zusätzliches Kochen beim Aufwärmen. Richtige Lagerung erhält die Textur, und sanftes Aufwärmen verhindert Überkochen und Matschigkeit.",
+                  "nl": "Iets onderbereiden houdt rekening met extra koken tijdens het opwarmen. Goede bewaring behoudt textuur, en zacht opwarmen voorkomt overkoken en zachtheid."
         }
       },
       {
         question: {
-          en: "What is the best way to enhance umami flavor in vegetarian dishes?",
-          es: "¿Cuál es la mejor manera de realzar el sabor umami en platos vegetarianos?",
-          de: "Was ist der beste Weg, Umami-Geschmack in vegetarischen Gerichten zu verstärken?",
-          nl: "Wat is de beste manier om umami smaak in vegetarische gerechten te versterken?"
+                  "en": "What is the best way to enhance umami flavor in vegetarian dishes?",
+                  "es": "¿Cuál es la mejor manera de realzar el sabor umami en platos vegetarianos?",
+                  "de": "Was ist der beste Weg, Umami-Geschmack in vegetarischen Gerichten zu verstärken?",
+                  "nl": "Wat is de beste manier om umami smaak in vegetarische gerechten te versterken?"
         },
         options: [
-          { en: "Use mushrooms, tomato paste, soy sauce, nutritional yeast", es: "Usar hongos, pasta de tomate, salsa de soja, levadura nutricional", de: "Pilze, Tomatenmark, Sojasoße, Nährhefe verwenden", nl: "Paddenstoelen, tomatenpuree, sojasaus, voedingsgist gebruiken" },
-          { en: "Add more salt only", es: "Añadir solo más sal", de: "Nur mehr Salz hinzufügen", nl: "Alleen meer zout toevoegen" },
-          { en: "Use only sweet ingredients", es: "Usar solo ingredientes dulces", de: "Nur süße Zutaten verwenden", nl: "Alleen zoete ingrediënten gebruiken" },
-          { en: "Avoid all seasonings", es: "Evitar todos los condimentos", de: "Alle Gewürze vermeiden", nl: "Alle kruiderij vermijden" }
+        {
+                  "en": "Use only sweet ingredients",
+                  "es": "Usar solo ingredientes dulces",
+                  "de": "Nur süße Zutaten verwenden",
+                  "nl": "Alleen zoete ingrediënten gebruiken"
+        },
+        {
+                  "en": "Use mushrooms, tomato paste, soy sauce, nutritional yeast",
+                  "es": "Usar hongos, pasta de tomate, salsa de soja, levadura nutricional",
+                  "de": "Pilze, Tomatenmark, Sojasoße, Nährhefe verwenden",
+                  "nl": "Paddenstoelen, tomatenpuree, sojasaus, voedingsgist gebruiken"
+        },
+        {
+                  "en": "Avoid all seasonings",
+                  "es": "Evitar todos los condimentos",
+                  "de": "Alle Gewürze vermeiden",
+                  "nl": "Alle kruiderij vermijden"
+        },
+        {
+                  "en": "Add more salt only",
+                  "es": "Añadir solo más sal",
+                  "de": "Nur mehr Salz hinzufügen",
+                  "nl": "Alleen meer zout toevoegen"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "These ingredients naturally contain glutamates that provide umami depth. Mushrooms, aged cheeses, fermented products, and dried tomatoes are excellent umami boosters for vegetarian cooking.",
-          es: "Estos ingredientes naturalmente contienen glutamatos que proporcionan profundidad umami. Los hongos, quesos añejos, productos fermentados y tomates secos son excelentes potenciadores umami para la cocina vegetariana.",
-          de: "Diese Zutaten enthalten natürlich Glutamate, die Umami-Tiefe bieten. Pilze, gereifte Käse, fermentierte Produkte und getrocknete Tomaten sind ausgezeichnete Umami-Verstärker für vegetarisches Kochen.",
-          nl: "Deze ingrediënten bevatten van nature glutamaten die umami diepte geven. Paddenstoelen, gerijpte kazen, gefermenteerde producten en gedroogde tomaten zijn uitstekende umami boosters voor vegetarisch koken."
+                  "en": "These ingredients naturally contain glutamates that provide umami depth. Mushrooms, aged cheeses, fermented products, and dried tomatoes are excellent umami boosters for vegetarian cooking.",
+                  "es": "Estos ingredientes naturalmente contienen glutamatos que proporcionan profundidad umami. Los hongos, quesos añejos, productos fermentados y tomates secos son excelentes potenciadores umami para la cocina vegetariana.",
+                  "de": "Diese Zutaten enthalten natürlich Glutamate, die Umami-Tiefe bieten. Pilze, gereifte Käse, fermentierte Produkte und getrocknete Tomaten sind ausgezeichnete Umami-Verstärker für vegetarisches Kochen.",
+                  "nl": "Deze ingrediënten bevatten van nature glutamaten die umami diepte geven. Paddenstoelen, gerijpte kazen, gefermenteerde producten en gedroogde tomaten zijn uitstekende umami boosters voor vegetarisch koken."
         }
       },
       {
         question: {
-          en: "How should you prepare potatoes before roasting for maximum crispiness?",
-          es: "¿Cómo debes preparar las papas antes de asar para máxima crocancia?",
-          de: "Wie sollten Sie Kartoffeln vor dem Rösten für maximale Knusprigkeit vorbereiten?",
-          nl: "Hoe moet je aardappelen voorbereiden voor het roosteren voor maximale knapperigheid?"
+                  "en": "How should you prepare potatoes before roasting for maximum crispiness?",
+                  "es": "¿Cómo debes preparar las papas antes de asar para máxima crocancia?",
+                  "de": "Wie sollten Sie Kartoffeln vor dem Rösten für maximale Knusprigkeit vorbereiten?",
+                  "nl": "Hoe moet je aardappelen voorbereiden voor het roosteren voor maximale knapperigheid?"
         },
         options: [
-          { en: "Parboil, drain, rough up the surface, coat in oil", es: "Precocer, escurrir, rugosizar la superficie, cubrir con aceite", de: "Vorkochen, abtropfen, Oberfläche aufrauhen, mit Öl bestreichen", nl: "Voorbereiden, afdruippen, oppervlak ruw maken, bedekken met olie" },
-          { en: "Use raw potatoes directly", es: "Usar papas crudas directamente", de: "Rohe Kartoffeln direkt verwenden", nl: "Rauwe aardappelen direct gebruiken" },
-          { en: "Soak in cold water only", es: "Remojar solo en agua fría", de: "Nur in kaltem Wasser einweichen", nl: "Alleen in koud water weken" },
-          { en: "Microwave until fully cooked", es: "Microondas hasta que estén completamente cocidas", de: "In der Mikrowelle bis vollständig gekocht", nl: "Magnetron tot volledig gekookt" }
+        {
+                  "en": "Use raw potatoes directly",
+                  "es": "Usar papas crudas directamente",
+                  "de": "Rohe Kartoffeln direkt verwenden",
+                  "nl": "Rauwe aardappelen direct gebruiken"
+        },
+        {
+                  "en": "Microwave until fully cooked",
+                  "es": "Microondas hasta que estén completamente cocidas",
+                  "de": "In der Mikrowelle bis vollständig gekocht",
+                  "nl": "Magnetron tot volledig gekookt"
+        },
+        {
+                  "en": "Parboil, drain, rough up the surface, coat in oil",
+                  "es": "Precocer, escurrir, rugosizar la superficie, cubrir con aceite",
+                  "de": "Vorkochen, abtropfen, Oberfläche aufrauhen, mit Öl bestreichen",
+                  "nl": "Voorbereiden, afdruippen, oppervlak ruw maken, bedekken met olie"
+        },
+        {
+                  "en": "Soak in cold water only",
+                  "es": "Remojar solo en agua fría",
+                  "de": "Nur in kaltem Wasser einweichen",
+                  "nl": "Alleen in koud water weken"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Parboiling partially cooks potatoes and releases starch. Roughing up the surface creates more edges for crisping. Oil coating ensures golden, crunchy exteriors when roasted.",
-          es: "Precocer cocina parcialmente las papas y libera almidón. Rugosizar la superficie crea más bordes para crocancia. La cobertura de aceite asegura exteriores dorados y crujientes cuando se asan.",
-          de: "Vorkochen kocht Kartoffeln teilweise und setzt Stärke frei. Das Aufrauhen der Oberfläche schafft mehr Kanten zum Knusprigwerden. Ölbeschichtung sorgt für goldene, knusprige Außenseiten beim Rösten.",
-          nl: "Voorbereiden kookt aardappelen gedeeltelijk en geeft zetmeel vrij. Oppervlak ruw maken creëert meer randen voor knapperigheid. Oliebedekking zorgt voor gouden, knapperige buitenkanten bij roosteren."
+                  "en": "Parboiling partially cooks potatoes and releases starch. Roughing up the surface creates more edges for crisping. Oil coating ensures golden, crunchy exteriors when roasted.",
+                  "es": "Precocer cocina parcialmente las papas y libera almidón. Rugosizar la superficie crea más bordes para crocancia. La cobertura de aceite asegura exteriores dorados y crujientes cuando se asan.",
+                  "de": "Vorkochen kocht Kartoffeln teilweise und setzt Stärke frei. Das Aufrauhen der Oberfläche schafft mehr Kanten zum Knusprigwerden. Ölbeschichtung sorgt für goldene, knusprige Außenseiten beim Rösten.",
+                  "nl": "Voorbereiden kookt aardappelen gedeeltelijk en geeft zetmeel vrij. Oppervlak ruw maken creëert meer randen voor knapperigheid. Oliebedekking zorgt voor gouden, knapperige buitenkanten bij roosteren."
         }
       },
       {
         question: {
-          en: "What is the correct method for cooking lentils to maintain their shape?",
-          es: "¿Cuál es el método correcto para cocinar lentejas y mantener su forma?",
-          de: "Was ist die richtige Methode zum Kochen von Linsen, um ihre Form zu erhalten?",
-          nl: "Wat is de juiste methode voor het koken van linzen om hun vorm te behouden?"
+                  "en": "What is the correct method for cooking lentils to maintain their shape?",
+                  "es": "¿Cuál es el método correcto para cocinar lentejas y mantener su forma?",
+                  "de": "Was ist die richtige Methode zum Kochen von Linsen, um ihre Form zu erhalten?",
+                  "nl": "Wat is de juiste methode voor het koken van linzen om hun vorm te behouden?"
         },
         options: [
-          { en: "Simmer gently without pre-soaking, add salt near the end", es: "Hervir suavemente sin remojar previamente, añadir sal cerca del final", de: "Sanft köcheln ohne Einweichen, Salz gegen Ende hinzufügen", nl: "Zachtjes sudderen zonder voorweken, zout aan het einde toevoegen" },
-          { en: "Boil rapidly with salt from the start", es: "Hervir rápidamente con sal desde el principio", de: "Schnell kochen mit Salz von Anfang an", nl: "Snel koken met zout vanaf het begin" },
-          { en: "Pressure cook for 30 minutes", es: "Cocinar a presión por 30 minutos", de: "30 Minuten im Schnellkochtopf", nl: "30 minuten in de snelkookpan" },
-          { en: "Soak overnight like beans", es: "Remojar toda la noche como frijoles", de: "Über Nacht einweichen wie Bohnen", nl: "Een nacht weken zoals bonen" }
+        {
+                  "en": "Simmer gently without pre-soaking, add salt near the end",
+                  "es": "Hervir suavemente sin remojar previamente, añadir sal cerca del final",
+                  "de": "Sanft köcheln ohne Einweichen, Salz gegen Ende hinzufügen",
+                  "nl": "Zachtjes sudderen zonder voorweken, zout aan het einde toevoegen"
+        },
+        {
+                  "en": "Pressure cook for 30 minutes",
+                  "es": "Cocinar a presión por 30 minutos",
+                  "de": "30 Minuten im Schnellkochtopf",
+                  "nl": "30 minuten in de snelkookpan"
+        },
+        {
+                  "en": "Soak overnight like beans",
+                  "es": "Remojar toda la noche como frijoles",
+                  "de": "Über Nacht einweichen wie Bohnen",
+                  "nl": "Een nacht weken zoals bonen"
+        },
+        {
+                  "en": "Boil rapidly with salt from the start",
+                  "es": "Hervir rápidamente con sal desde el principio",
+                  "de": "Schnell kochen mit Salz von Anfang an",
+                  "nl": "Snel koken met zout vanaf het begin"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Lentils don't need soaking and cook quickly with gentle simmering. Adding salt early can toughen the skins, so add it near the end for perfectly cooked, intact lentils.",
-          es: "Las lentejas no necesitan remojo y se cocinan rápidamente con hervido suave. Añadir sal temprano puede endurecer las pieles, así que añádela cerca del final para lentejas perfectamente cocidas e intactas.",
-          de: "Linsen brauchen kein Einweichen und kochen schnell mit sanftem Köcheln. Salz früh hinzufügen kann die Schalen verhärten, also fügen Sie es gegen Ende hinzu für perfekt gekochte, intakte Linsen.",
-          nl: "Linzen hoeven niet geweekt te worden en koken snel met zacht sudderen. Zout vroeg toevoegen kan de schillen verharden, dus voeg het aan het einde toe voor perfect gekookte, intacte linzen."
+                  "en": "Lentils don't need soaking and cook quickly with gentle simmering. Adding salt early can toughen the skins, so add it near the end for perfectly cooked, intact lentils.",
+                  "es": "Las lentejas no necesitan remojo y se cocinan rápidamente con hervido suave. Añadir sal temprano puede endurecer las pieles, así que añádela cerca del final para lentejas perfectamente cocidas e intactas.",
+                  "de": "Linsen brauchen kein Einweichen und kochen schnell mit sanftem Köcheln. Salz früh hinzufügen kann die Schalen verhärten, also fügen Sie es gegen Ende hinzu für perfekt gekochte, intakte Linsen.",
+                  "nl": "Linzen hoeven niet geweekt te worden en koken snel met zacht sudderen. Zout vroeg toevoegen kan de schillen verharden, dus voeg het aan het einde toe voor perfect gekookte, intacte linzen."
         }
       },
       {
         question: {
-          en: "Which technique produces the best texture for grilled vegetables?",
-          es: "¿Qué técnica produce la mejor textura para verduras a la parrilla?",
-          de: "Welche Technik erzeugt die beste Textur für gegrilltes Gemüse?",
-          nl: "Welke techniek produceert de beste textuur voor gegrilde groenten?"
+                  "en": "Which technique produces the best texture for grilled vegetables?",
+                  "es": "¿Qué técnica produce la mejor textura para verduras a la parrilla?",
+                  "de": "Welche Technik erzeugt die beste Textur für gegrilltes Gemüse?",
+                  "nl": "Welke techniek produceert de beste textuur voor gegrilde groenten?"
         },
         options: [
-          { en: "Cut thick, oil well, high direct heat, flip once when charred", es: "Cortar grueso, aceitar bien, calor directo alto, voltear una vez cuando esté carbonizado", de: "Dick schneiden, gut ölen, hohe direkte Hitze, einmal wenden wenn verkohlt", nl: "Dik snijden, goed oliën, hoge directe hitte, één keer omkeren bij verschroeien" },
-          { en: "Cut thin, no oil, low heat, flip constantly", es: "Cortar fino, sin aceite, calor bajo, voltear constantemente", de: "Dünn schneiden, kein Öl, niedrige Hitze, ständig wenden", nl: "Dun snijden, geen olie, lage hitte, constant omkeren" },
-          { en: "Steam first, then grill briefly", es: "Cocer al vapor primero, luego asar brevemente", de: "Zuerst dämpfen, dann kurz grillen", nl: "Eerst stomen, dan kort grillen" },
-          { en: "Boil until soft, then grill", es: "Hervir hasta que estén suaves, luego asar", de: "Kochen bis weich, dann grillen", nl: "Koken tot zacht, dan grillen" }
+        {
+                  "en": "Cut thick, oil well, high direct heat, flip once when charred",
+                  "es": "Cortar grueso, aceitar bien, calor directo alto, voltear una vez cuando esté carbonizado",
+                  "de": "Dick schneiden, gut ölen, hohe direkte Hitze, einmal wenden wenn verkohlt",
+                  "nl": "Dik snijden, goed oliën, hoge directe hitte, één keer omkeren bij verschroeien"
+        },
+        {
+                  "en": "Steam first, then grill briefly",
+                  "es": "Cocer al vapor primero, luego asar brevemente",
+                  "de": "Zuerst dämpfen, dann kurz grillen",
+                  "nl": "Eerst stomen, dan kort grillen"
+        },
+        {
+                  "en": "Cut thin, no oil, low heat, flip constantly",
+                  "es": "Cortar fino, sin aceite, calor bajo, voltear constantemente",
+                  "de": "Dünn schneiden, kein Öl, niedrige Hitze, ständig wenden",
+                  "nl": "Dun snijden, geen olie, lage hitte, constant omkeren"
+        },
+        {
+                  "en": "Boil until soft, then grill",
+                  "es": "Hervir hasta que estén suaves, luego asar",
+                  "de": "Kochen bis weich, dann grillen",
+                  "nl": "Koken tot zacht, dan grillen"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Thick cuts prevent burning before cooking through. Oil prevents sticking and enhances browning. High heat creates char and caramelization. Flipping once prevents excessive moisture loss.",
-          es: "Los cortes gruesos previenen que se quemen antes de cocinarse por completo. El aceite previene que se peguen y mejora el dorado. El calor alto crea carbonizado y caramelización. Voltear una vez previene pérdida excesiva de humedad.",
-          de: "Dicke Schnitte verhindern Verbrennen vor dem Durchgaren. Öl verhindert Anhaften und verbessert das Bräunen. Hohe Hitze erzeugt Verkohlung und Karamellisierung. Einmaliges Wenden verhindert übermäßigen Feuchtigkeitsverlust.",
-          nl: "Dikke sneden voorkomen verbranden voor het gaar worden. Olie voorkomt plakken en verbetert bruining. Hoge hitte creëert verschroeiing en karamelisering. Één keer omkeren voorkomt overmatig vochtverlies."
+                  "en": "Thick cuts prevent burning before cooking through. Oil prevents sticking and enhances browning. High heat creates char and caramelization. Flipping once prevents excessive moisture loss.",
+                  "es": "Los cortes gruesos previenen que se quemen antes de cocinarse por completo. El aceite previene que se peguen y mejora el dorado. El calor alto crea carbonizado y caramelización. Voltear una vez previene pérdida excesiva de humedad.",
+                  "de": "Dicke Schnitte verhindern Verbrennen vor dem Durchgaren. Öl verhindert Anhaften und verbessert das Bräunen. Hohe Hitze erzeugt Verkohlung und Karamellisierung. Einmaliges Wenden verhindert übermäßigen Feuchtigkeitsverlust.",
+                  "nl": "Dikke sneden voorkomen verbranden voor het gaar worden. Olie voorkomt plakken en verbetert bruining. Hoge hitte creëert verschroeiing en karamelisering. Één keer omkeren voorkomt overmatig vochtverlies."
         }
       },
       {
         question: {
-          en: "What is the best technique for making vegetable stock?",
-          es: "¿Cuál es la mejor técnica para hacer caldo de verduras?",
-          de: "Was ist die beste Technik für die Herstellung von Gemüsebrühe?",
-          de: "Was ist die beste Technik für die Herstellung von Gemüsebrühe?",
-          nl: "Wat is de beste techniek voor het maken van groentebouillon?"
+                  "en": "What is the best technique for making vegetable stock?",
+                  "es": "¿Cuál es la mejor técnica para hacer caldo de verduras?",
+                  "de": "Was ist die beste Technik für die Herstellung von Gemüsebrühe?",
+                  "nl": "Wat is de beste techniek voor het maken van groentebouillon?"
         },
         options: [
-          { en: "Simmer aromatics and vegetables for 45 minutes, strain", es: "Hervir suavemente aromáticos y verduras por 45 minutos, colar", de: "Aromaten und Gemüse 45 Minuten köcheln, abseihen", nl: "Aromaten en groenten 45 minuten sudderen, zeven" },
-          { en: "Boil rapidly for 3 hours", es: "Hervir rápidamente por 3 horas", de: "3 Stunden schnell kochen", nl: "3 uur snel koken" },
-          { en: "Use only raw vegetables, no cooking", es: "Usar solo verduras crudas, sin cocinar", de: "Nur rohes Gemüse verwenden, nicht kochen", nl: "Alleen rauwe groenten gebruiken, niet koken" },
-          { en: "Pressure cook for 10 minutes only", es: "Cocinar a presión solo por 10 minutos", de: "Nur 10 Minuten im Schnellkochtopf", nl: "Alleen 10 minuten in de snelkookpan" }
+        {
+                  "en": "Simmer aromatics and vegetables for 45 minutes, strain",
+                  "es": "Hervir suavemente aromáticos y verduras por 45 minutos, colar",
+                  "de": "Aromaten und Gemüse 45 Minuten köcheln, abseihen",
+                  "nl": "Aromaten en groenten 45 minuten sudderen, zeven"
+        },
+        {
+                  "en": "Pressure cook for 10 minutes only",
+                  "es": "Cocinar a presión solo por 10 minutos",
+                  "de": "Nur 10 Minuten im Schnellkochtopf",
+                  "nl": "Alleen 10 minuten in de snelkookpan"
+        },
+        {
+                  "en": "Use only raw vegetables, no cooking",
+                  "es": "Usar solo verduras crudas, sin cocinar",
+                  "de": "Nur rohes Gemüse verwenden, nicht kochen",
+                  "nl": "Alleen rauwe groenten gebruiken, niet koken"
+        },
+        {
+                  "en": "Boil rapidly for 3 hours",
+                  "es": "Hervir rápidamente por 3 horas",
+                  "de": "3 Stunden schnell kochen",
+                  "nl": "3 uur snel koken"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Gentle simmering for 45 minutes extracts maximum flavor without bitterness. Longer cooking can make vegetable stock bitter, unlike meat stocks which benefit from hours of simmering.",
-          es: "Hervir suavemente por 45 minutos extrae el máximo sabor sin amargura. Cocinar más tiempo puede hacer el caldo de verduras amargo, a diferencia de los caldos de carne que se benefician de horas de hervido.",
-          de: "Sanftes Köcheln für 45 Minuten extrahiert maximalen Geschmack ohne Bitterkeit. Längeres Kochen kann Gemüsebrühe bitter machen, im Gegensatz zu Fleischbrühen, die von stundenlangem Köcheln profitieren.",
-          nl: "Zacht sudderen gedurende 45 minuten haalt maximale smaak eruit zonder bitterheid. Langer koken kan groentebouillon bitter maken, in tegenstelling tot vleesbouillon die baat heeft bij uren sudderen."
+                  "en": "Gentle simmering for 45 minutes extracts maximum flavor without bitterness. Longer cooking can make vegetable stock bitter, unlike meat stocks which benefit from hours of simmering.",
+                  "es": "Hervir suavemente por 45 minutos extrae el máximo sabor sin amargura. Cocinar más tiempo puede hacer el caldo de verduras amargo, a diferencia de los caldos de carne que se benefician de horas de hervido.",
+                  "de": "Sanftes Köcheln für 45 Minuten extrahiert maximalen Geschmack ohne Bitterkeit. Längeres Kochen kann Gemüsebrühe bitter machen, im Gegensatz zu Fleischbrühen, die von stundenlangem Köcheln profitieren.",
+                  "nl": "Zacht sudderen gedurende 45 minuten haalt maximale smaak eruit zonder bitterheid. Langer koken kan groentebouillon bitter maken, in tegenstelling tot vleesbouillon die baat heeft bij uren sudderen."
         }
       },
       {
         question: {
-          en: "How should you cook tempeh to reduce bitterness?",
-          es: "¿Cómo debes cocinar tempeh para reducir la amargura?",
-          de: "Wie sollten Sie Tempeh kochen, um Bitterkeit zu reduzieren?",
-          nl: "Hoe moet je tempeh koken om bitterheid te verminderen?"
+                  "en": "How should you cook tempeh to reduce bitterness?",
+                  "es": "¿Cómo debes cocinar tempeh para reducir la amargura?",
+                  "de": "Wie sollten Sie Tempeh kochen, um Bitterkeit zu reduzieren?",
+                  "nl": "Hoe moet je tempeh koken om bitterheid te verminderen?"
         },
         options: [
-          { en: "Steam or simmer for 10 minutes before marinating and cooking", es: "Cocer al vapor o hervir suavemente por 10 minutos antes de marinar y cocinar", de: "10 Minuten dämpfen oder köcheln vor dem Marinieren und Kochen", nl: "10 minuten stomen of sudderen voor het marineren en koken" },
-          { en: "Use raw without any preparation", es: "Usar crudo sin ninguna preparación", de: "Roh ohne Vorbereitung verwenden", nl: "Rauw gebruiken zonder voorbereiding" },
-          { en: "Freeze overnight", es: "Congelar toda la noche", de: "Über Nacht einfrieren", nl: "Een nacht invriezen" },
-          { en: "Fry immediately without preparation", es: "Freír inmediatamente sin preparación", de: "Sofort braten ohne Vorbereitung", nl: "Meteen bakken zonder voorbereiding" }
+        {
+                  "en": "Steam or simmer for 10 minutes before marinating and cooking",
+                  "es": "Cocer al vapor o hervir suavemente por 10 minutos antes de marinar y cocinar",
+                  "de": "10 Minuten dämpfen oder köcheln vor dem Marinieren und Kochen",
+                  "nl": "10 minuten stomen of sudderen voor het marineren en koken"
+        },
+        {
+                  "en": "Fry immediately without preparation",
+                  "es": "Freír inmediatamente sin preparación",
+                  "de": "Sofort braten ohne Vorbereitung",
+                  "nl": "Meteen bakken zonder voorbereiding"
+        },
+        {
+                  "en": "Use raw without any preparation",
+                  "es": "Usar crudo sin ninguna preparación",
+                  "de": "Roh ohne Vorbereitung verwenden",
+                  "nl": "Rauw gebruiken zonder voorbereiding"
+        },
+        {
+                  "en": "Freeze overnight",
+                  "es": "Congelar toda la noche",
+                  "de": "Über Nacht einfrieren",
+                  "nl": "Een nacht invriezen"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Steaming or simmering tempeh before cooking removes the natural bitterness and opens up the structure, allowing marinades to penetrate better and flavors to develop more fully.",
-          es: "Cocer al vapor o hervir suavemente el tempeh antes de cocinar elimina la amargura natural y abre la estructura, permitiendo que las marinadas penetren mejor y los sabores se desarrollen más completamente.",
-          de: "Das Dämpfen oder Köcheln von Tempeh vor dem Kochen entfernt die natürliche Bitterkeit und öffnet die Struktur, wodurch Marinaden besser eindringen und Aromen sich vollständiger entwickeln können.",
-          nl: "Tempeh stomen of sudderen voor het koken verwijdert de natuurlijke bitterheid en opent de structuur, waardoor marinades beter kunnen doordringen en smaken zich vollediger kunnen ontwikkelen."
+                  "en": "Steaming or simmering tempeh before cooking removes the natural bitterness and opens up the structure, allowing marinades to penetrate better and flavors to develop more fully.",
+                  "es": "Cocer al vapor o hervir suavemente el tempeh antes de cocinar elimina la amargura natural y abre la estructura, permitiendo que las marinadas penetren mejor y los sabores se desarrollen más completamente.",
+                  "de": "Das Dämpfen oder Köcheln von Tempeh vor dem Kochen entfernt die natürliche Bitterkeit und öffnet die Struktur, wodurch Marinaden besser eindringen und Aromen sich vollständiger entwickeln können.",
+                  "nl": "Tempeh stomen of sudderen voor het koken verwijdert de natuurlijke bitterheid en opent de structuur, waardoor marinades beter kunnen doordringen en smaken zich vollediger kunnen ontwikkelen."
         }
       },
       {
         question: {
-          en: "What is the best method for reheating pizza to restore crispiness?",
-          es: "¿Cuál es el mejor método para recalentar pizza y restaurar la crocancia?",
-          de: "Was ist die beste Methode zum Aufwärmen von Pizza, um Knusprigkeit wiederherzustellen?",
-          nl: "Wat is de beste methode voor het opwarmen van pizza om knapperigheid te herstellen?"
+                  "en": "What is the best method for reheating pizza to restore crispiness?",
+                  "es": "¿Cuál es el mejor método para recalentar pizza y restaurar la crocancia?",
+                  "de": "Was ist die beste Methode zum Aufwärmen von Pizza, um Knusprigkeit wiederherzustellen?",
+                  "nl": "Wat is de beste methode voor het opwarmen van pizza om knapperigheid te herstellen?"
         },
         options: [
-          { en: "Pan-fry covered briefly, then uncovered until crispy", es: "Freír en sartén cubierto brevemente, luego descubierto hasta que esté crujiente", de: "Kurz zugedeckt in der Pfanne braten, dann unbedeckt bis knusprig", nl: "Kort bedekt in de pan bakken, dan onbedekt tot knapperig" },
-          { en: "Microwave on high for 2 minutes", es: "Microondas en alto por 2 minutos", de: "2 Minuten auf hoher Stufe in der Mikrowelle", nl: "2 minuten op hoog in de magnetron" },
-          { en: "Boil in water", es: "Hervir en agua", de: "In Wasser kochen", nl: "Koken in water" },
-          { en: "Leave at room temperature", es: "Dejar a temperatura ambiente", de: "Bei Raumtemperatur lassen", nl: "Op kamertemperatuur laten" }
+        {
+                  "en": "Pan-fry covered briefly, then uncovered until crispy",
+                  "es": "Freír en sartén cubierto brevemente, luego descubierto hasta que esté crujiente",
+                  "de": "Kurz zugedeckt in der Pfanne braten, dann unbedeckt bis knusprig",
+                  "nl": "Kort bedekt in de pan bakken, dan onbedekt tot knapperig"
+        },
+        {
+                  "en": "Microwave on high for 2 minutes",
+                  "es": "Microondas en alto por 2 minutos",
+                  "de": "2 Minuten auf hoher Stufe in der Mikrowelle",
+                  "nl": "2 minuten op hoog in de magnetron"
+        },
+        {
+                  "en": "Boil in water",
+                  "es": "Hervir en agua",
+                  "de": "In Wasser kochen",
+                  "nl": "Koken in water"
+        },
+        {
+                  "en": "Leave at room temperature",
+                  "es": "Dejar a temperatura ambiente",
+                  "de": "Bei Raumtemperatur lassen",
+                  "nl": "Op kamertemperatuur laten"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Pan-frying with a cover briefly steams the toppings to heat through, then removing the cover allows the bottom to crisp up perfectly without drying out the toppings.",
-          es: "Freír en sartén con tapa brevemente cuece al vapor los ingredientes para calentarlos, luego quitar la tapa permite que la base se ponga crujiente perfectamente sin secar los ingredientes.",
-          de: "Das Braten in der Pfanne mit Deckel dämpft kurz die Beläge zum Durcherhitzen, dann ermöglicht das Entfernen des Deckels, dass der Boden perfekt knusprig wird, ohne die Beläge auszutrocknen.",
-          nl: "Bakken in de pan met deksel stoomt kort de toppings om door te warmen, dan het verwijderen van het deksel laat de bodem perfect knapperig worden zonder de toppings uit te drogen."
+                  "en": "Pan-frying with a cover briefly steams the toppings to heat through, then removing the cover allows the bottom to crisp up perfectly without drying out the toppings.",
+                  "es": "Freír en sartén con tapa brevemente cuece al vapor los ingredientes para calentarlos, luego quitar la tapa permite que la base se ponga crujiente perfectamente sin secar los ingredientes.",
+                  "de": "Das Braten in der Pfanne mit Deckel dämpft kurz die Beläge zum Durcherhitzen, dann ermöglicht das Entfernen des Deckels, dass der Boden perfekt knusprig wird, ohne die Beläge auszutrocknen.",
+                  "nl": "Bakken in de pan met deksel stoomt kort de toppings om door te warmen, dan het verwijderen van het deksel laat de bodem perfect knapperig worden zonder de toppings uit te drogen."
         }
       },
       {
         question: {
-          en: "Which technique creates the creamiest polenta?",
-          es: "¿Qué técnica crea la polenta más cremosa?",
-          de: "Welche Technik erzeugt die cremigste Polenta?",
-          nl: "Welke techniek creëert de romigste polenta?"
+                  "en": "Which technique creates the creamiest polenta?",
+                  "es": "¿Qué técnica crea la polenta más cremosa?",
+                  "de": "Welche Technik erzeugt die cremigste Polenta?",
+                  "nl": "Welke techniek creëert de romigste polenta?"
         },
         options: [
-          { en: "Whisk constantly, add gradually to boiling liquid, cook low and slow", es: "Batir constantemente, añadir gradualmente a líquido hirviendo, cocinar bajo y lento", de: "Ständig rühren, allmählich zu kochender Flüssigkeit hinzufügen, niedrig und langsam kochen", nl: "Constant kloppen, geleidelijk toevoegen aan kokende vloeistof, laag en langzaam koken" },
-          { en: "Dump all at once, don't stir", es: "Verter todo de una vez, no revolver", de: "Alles auf einmal hineingeben, nicht rühren", nl: "Alles ineens toevoegen, niet roeren" },
-          { en: "Cook on high heat for 5 minutes", es: "Cocinar a fuego alto por 5 minutos", de: "5 Minuten auf hoher Hitze kochen", nl: "5 minuten op hoge hitte koken" },
-          { en: "Use cold water only", es: "Usar solo agua fría", de: "Nur kaltes Wasser verwenden", nl: "Alleen koud water gebruiken" }
+        {
+                  "en": "Dump all at once, don't stir",
+                  "es": "Verter todo de una vez, no revolver",
+                  "de": "Alles auf einmal hineingeben, nicht rühren",
+                  "nl": "Alles ineens toevoegen, niet roeren"
+        },
+        {
+                  "en": "Use cold water only",
+                  "es": "Usar solo agua fría",
+                  "de": "Nur kaltes Wasser verwenden",
+                  "nl": "Alleen koud water gebruiken"
+        },
+        {
+                  "en": "Cook on high heat for 5 minutes",
+                  "es": "Cocinar a fuego alto por 5 minutos",
+                  "de": "5 Minuten auf hoher Hitze kochen",
+                  "nl": "5 minuten op hoge hitte koken"
+        },
+        {
+                  "en": "Whisk constantly, add gradually to boiling liquid, cook low and slow",
+                  "es": "Batir constantemente, añadir gradualmente a líquido hirviendo, cocinar bajo y lento",
+                  "de": "Ständig rühren, allmählich zu kochender Flüssigkeit hinzufügen, niedrig und langsam kochen",
+                  "nl": "Constant kloppen, geleidelijk toevoegen aan kokende vloeistof, laag en langzaam koken"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Constant whisking prevents lumps. Adding cornmeal gradually to boiling liquid ensures smooth incorporation. Low, slow cooking (30-40 min) releases starch for ultra-creamy texture.",
-          es: "Batir constantemente previene grumos. Añadir harina de maíz gradualmente a líquido hirviendo asegura incorporación suave. Cocción baja y lenta (30-40 min) libera almidón para textura ultra-cremosa.",
-          de: "Ständiges Rühren verhindert Klumpen. Allmähliches Hinzufügen von Maismehl zu kochender Flüssigkeit gewährleistet glatte Einarbeitung. Niedriges, langsames Kochen (30-40 Min) setzt Stärke frei für ultra-cremige Textur.",
-          nl: "Constant kloppen voorkomt klonters. Maismeel geleidelijk toevoegen aan kokende vloeistof zorgt voor gladde verwerking. Laag, langzaam koken (30-40 min) geeft zetmeel vrij voor ultra-romige textuur."
+                  "en": "Constant whisking prevents lumps. Adding cornmeal gradually to boiling liquid ensures smooth incorporation. Low, slow cooking (30-40 min) releases starch for ultra-creamy texture.",
+                  "es": "Batir constantemente previene grumos. Añadir harina de maíz gradualmente a líquido hirviendo asegura incorporación suave. Cocción baja y lenta (30-40 min) libera almidón para textura ultra-cremosa.",
+                  "de": "Ständiges Rühren verhindert Klumpen. Allmähliches Hinzufügen von Maismehl zu kochender Flüssigkeit gewährleistet glatte Einarbeitung. Niedriges, langsames Kochen (30-40 Min) setzt Stärke frei für ultra-cremige Textur.",
+                  "nl": "Constant kloppen voorkomt klonters. Maismeel geleidelijk toevoegen aan kokende vloeistof zorgt voor gladde verwerking. Laag, langzaam koken (30-40 min) geeft zetmeel vrij voor ultra-romige textuur."
         }
       },
       {
         question: {
-          en: "What is the proper technique for making a smooth cheese sauce?",
-          es: "¿Cuál es la técnica adecuada para hacer una salsa de queso suave?",
-          de: "Was ist die richtige Technik für eine glatte Käsesauce?",
-          nl: "Wat is de juiste techniek voor het maken van een gladde kaassaus?"
+                  "en": "What is the proper technique for making a smooth cheese sauce?",
+                  "es": "¿Cuál es la técnica adecuada para hacer una salsa de queso suave?",
+                  "de": "Was ist die richtige Technik für eine glatte Käsesauce?",
+                  "nl": "Wat is de juiste techniek voor het maken van een gladde kaassaus?"
         },
         options: [
-          { en: "Make roux, add milk gradually, melt cheese off heat while stirring", es: "Hacer roux, añadir leche gradualmente, derretir queso fuera del fuego mientras se revuelve", de: "Mehlschwitze machen, Milch allmählich hinzufügen, Käse vom Herd schmelzen während gerührt wird", nl: "Roux maken, melk geleidelijk toevoegen, kaas van het vuur smelten terwijl geroerd wordt" },
-          { en: "Boil cheese directly in milk", es: "Hervir queso directamente en leche", de: "Käse direkt in Milch kochen", nl: "Kaas direct in melk koken" },
-          { en: "Microwave cheese and milk together", es: "Microondas queso y leche juntos", de: "Käse und Milch zusammen in der Mikrowelle", nl: "Kaas en melk samen in de magnetron" },
-          { en: "Add cold cheese to hot sauce", es: "Añadir queso frío a salsa caliente", de: "Kalten Käse zu heißer Sauce hinzufügen", nl: "Koude kaas aan hete saus toevoegen" }
+        {
+                  "en": "Add cold cheese to hot sauce",
+                  "es": "Añadir queso frío a salsa caliente",
+                  "de": "Kalten Käse zu heißer Sauce hinzufügen",
+                  "nl": "Koude kaas aan hete saus toevoegen"
+        },
+        {
+                  "en": "Make roux, add milk gradually, melt cheese off heat while stirring",
+                  "es": "Hacer roux, añadir leche gradualmente, derretir queso fuera del fuego mientras se revuelve",
+                  "de": "Mehlschwitze machen, Milch allmählich hinzufügen, Käse vom Herd schmelzen während gerührt wird",
+                  "nl": "Roux maken, melk geleidelijk toevoegen, kaas van het vuur smelten terwijl geroerd wordt"
+        },
+        {
+                  "en": "Microwave cheese and milk together",
+                  "es": "Microondas queso y leche juntos",
+                  "de": "Käse und Milch zusammen in der Mikrowelle",
+                  "nl": "Kaas en melk samen in de magnetron"
+        },
+        {
+                  "en": "Boil cheese directly in milk",
+                  "es": "Hervir queso directamente en leche",
+                  "de": "Käse direkt in Milch kochen",
+                  "nl": "Kaas direct in melk koken"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "A roux-based sauce prevents separation. Gradual milk addition ensures smoothness. Melting cheese off heat prevents proteins from seizing and creating grainy texture.",
-          es: "Una salsa basada en roux previene la separación. La adición gradual de leche asegura suavidad. Derretir queso fuera del fuego previene que las proteínas se agarroten y creen textura granulosa.",
-          de: "Eine Mehlschwitze-basierte Sauce verhindert Trennung. Allmähliche Milchzugabe gewährleistet Glätte. Käse vom Herd schmelzen verhindert, dass Proteine erstarren und körnige Textur erzeugen.",
-          nl: "Een roux-gebaseerde saus voorkomt scheiding. Geleidelijke melktoevoeging zorgt voor gladheid. Kaas van het vuur smelten voorkomt dat eiwitten stollen en korrelige textuur creëren."
+                  "en": "A roux-based sauce prevents separation. Gradual milk addition ensures smoothness. Melting cheese off heat prevents proteins from seizing and creating grainy texture.",
+                  "es": "Una salsa basada en roux previene la separación. La adición gradual de leche asegura suavidad. Derretir queso fuera del fuego previene que las proteínas se agarroten y creen textura granulosa.",
+                  "de": "Eine Mehlschwitze-basierte Sauce verhindert Trennung. Allmähliche Milchzugabe gewährleistet Glätte. Käse vom Herd schmelzen verhindert, dass Proteine erstarren und körnige Textur erzeugen.",
+                  "nl": "Een roux-gebaseerde saus voorkomt scheiding. Geleidelijke melktoevoeging zorgt voor gladheid. Kaas van het vuur smelten voorkomt dat eiwitten stollen en korrelige textuur creëren."
         }
       },
       {
         question: {
-          en: "Which method produces the best baked sweet potato?",
-          es: "¿Qué método produce la mejor papa dulce horneada?",
-          de: "Welche Methode erzeugt die beste gebackene Süßkartoffel?",
-          nl: "Welke methode produceert de beste gebakken zoete aardappel?"
+                  "en": "Which method produces the best baked sweet potato?",
+                  "es": "¿Qué método produce la mejor papa dulce horneada?",
+                  "de": "Welche Methode erzeugt die beste gebackene Süßkartoffel?",
+                  "nl": "Welke methode produceert de beste gebakken zoete aardappel?"
         },
         options: [
-          { en: "Pierce skin, bake at 400°F for 45-60 minutes until very soft", es: "Perforar la piel, hornear a 200°C por 45-60 minutos hasta que esté muy suave", de: "Haut einstechen, bei 200°C 45-60 Minuten backen bis sehr weich", nl: "Schil prikken, bakken op 200°C gedurende 45-60 minuten tot zeer zacht" },
-          { en: "Boil for 10 minutes first, then bake", es: "Hervir por 10 minutos primero, luego hornear", de: "Zuerst 10 Minuten kochen, dann backen", nl: "Eerst 10 minuten koken, dan bakken" },
-          { en: "Microwave for 3 minutes only", es: "Microondas solo por 3 minutos", de: "Nur 3 Minuten in der Mikrowelle", nl: "Alleen 3 minuten in de magnetron" },
-          { en: "Cut into pieces before baking", es: "Cortar en piezas antes de hornear", de: "Vor dem Backen in Stücke schneiden", nl: "In stukken snijden voor het bakken" }
+        {
+                  "en": "Cut into pieces before baking",
+                  "es": "Cortar en piezas antes de hornear",
+                  "de": "Vor dem Backen in Stücke schneiden",
+                  "nl": "In stukken snijden voor het bakken"
+        },
+        {
+                  "en": "Boil for 10 minutes first, then bake",
+                  "es": "Hervir por 10 minutos primero, luego hornear",
+                  "de": "Zuerst 10 Minuten kochen, dann backen",
+                  "nl": "Eerst 10 minuten koken, dan bakken"
+        },
+        {
+                  "en": "Microwave for 3 minutes only",
+                  "es": "Microondas solo por 3 minutos",
+                  "de": "Nur 3 Minuten in der Mikrowelle",
+                  "nl": "Alleen 3 minuten in de magnetron"
+        },
+        {
+                  "en": "Pierce skin, bake at 400°F for 45-60 minutes until very soft",
+                  "es": "Perforar la piel, hornear a 200°C por 45-60 minutos hasta que esté muy suave",
+                  "de": "Haut einstechen, bei 200°C 45-60 Minuten backen bis sehr weich",
+                  "nl": "Schil prikken, bakken op 200°C gedurende 45-60 minuten tot zeer zacht"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Piercing prevents bursting. Baking whole at 400°F concentrates natural sugars and creates creamy, caramelized flesh. The long baking time fully develops the sweet flavor.",
-          es: "Perforar previene que reviente. Hornear entero a 200°C concentra azúcares naturales y crea pulpa cremosa y caramelizada. El largo tiempo de horneado desarrolla completamente el sabor dulce.",
-          de: "Einstechen verhindert Platzen. Ganzes Backen bei 200°C konzentriert natürliche Zucker und erzeugt cremiges, karamellisiertes Fleisch. Die lange Backzeit entwickelt den süßen Geschmack vollständig.",
-          nl: "Prikken voorkomt barsten. Heel bakken op 200°C concentreert natuurlijke suikers en creëert romig, gekarameliseerd vruchtvlees. De lange baktijd ontwikkelt de zoete smaak volledig."
+                  "en": "Piercing prevents bursting. Baking whole at 400°F concentrates natural sugars and creates creamy, caramelized flesh. The long baking time fully develops the sweet flavor.",
+                  "es": "Perforar previene que reviente. Hornear entero a 200°C concentra azúcares naturales y crea pulpa cremosa y caramelizada. El largo tiempo de horneado desarrolla completamente el sabor dulce.",
+                  "de": "Einstechen verhindert Platzen. Ganzes Backen bei 200°C konzentriert natürliche Zucker und erzeugt cremiges, karamellisiertes Fleisch. Die lange Backzeit entwickelt den süßen Geschmack vollständig.",
+                  "nl": "Prikken voorkomt barsten. Heel bakken op 200°C concentreert natuurlijke suikers en creëert romig, gekarameliseerd vruchtvlees. De lange baktijd ontwikkelt de zoete smaak volledig."
         }
       },
       {
         question: {
-          en: "What is the best way to cook asparagus to preserve its texture?",
-          es: "¿Cuál es la mejor manera de cocinar espárragos para preservar su textura?",
-          de: "Was ist der beste Weg, Spargel zu kochen, um seine Textur zu bewahren?",
-          nl: "Wat is de beste manier om asperges te koken om de textuur te behouden?"
+                  "en": "What is the best way to cook asparagus to preserve its texture?",
+                  "es": "¿Cuál es la mejor manera de cocinar espárragos para preservar su textura?",
+                  "de": "Was ist der beste Weg, Spargel zu kochen, um seine Textur zu bewahren?",
+                  "nl": "Wat is de beste manier om asperges te koken om de textuur te behouden?"
         },
         options: [
-          { en: "Quick roast at high heat or blanch for 2-3 minutes", es: "Asar rápido a alta temperatura o blanquear por 2-3 minutos", de: "Schnell bei hoher Hitze rösten oder 2-3 Minuten blanchieren", nl: "Snel roosteren op hoge hitte of 2-3 minuten blancheren" },
-          { en: "Boil for 15 minutes until very soft", es: "Hervir por 15 minutos hasta que esté muy suave", de: "15 Minuten kochen bis sehr weich", nl: "15 minuten koken tot zeer zacht" },
-          { en: "Steam for 30 minutes", es: "Cocer al vapor por 30 minutos", de: "30 Minuten dämpfen", nl: "30 minuten stomen" },
-          { en: "Microwave for 10 minutes", es: "Microondas por 10 minutos", de: "10 Minuten in der Mikrowelle", nl: "10 minuten in de magnetron" }
+        {
+                  "en": "Quick roast at high heat or blanch for 2-3 minutes",
+                  "es": "Asar rápido a alta temperatura o blanquear por 2-3 minutos",
+                  "de": "Schnell bei hoher Hitze rösten oder 2-3 Minuten blanchieren",
+                  "nl": "Snel roosteren op hoge hitte of 2-3 minuten blancheren"
+        },
+        {
+                  "en": "Microwave for 10 minutes",
+                  "es": "Microondas por 10 minutos",
+                  "de": "10 Minuten in der Mikrowelle",
+                  "nl": "10 minuten in de magnetron"
+        },
+        {
+                  "en": "Boil for 15 minutes until very soft",
+                  "es": "Hervir por 15 minutos hasta que esté muy suave",
+                  "de": "15 Minuten kochen bis sehr weich",
+                  "nl": "15 minuten koken tot zeer zacht"
+        },
+        {
+                  "en": "Steam for 30 minutes",
+                  "es": "Cocer al vapor por 30 minutos",
+                  "de": "30 Minuten dämpfen",
+                  "nl": "30 minuten stomen"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Asparagus overcooks quickly and becomes mushy. High-heat roasting or brief blanching maintains the tender-crisp texture while bringing out natural sweetness.",
-          es: "Los espárragos se sobrecocinan rápidamente y se vuelven blandos. Asar a alta temperatura o blanquear brevemente mantiene la textura tierna-crujiente mientras resalta la dulzura natural.",
-          de: "Spargel verkocht schnell und wird matschig. Rösten bei hoher Hitze oder kurzes Blanchieren erhält die zart-knackige Textur, während die natürliche Süße hervorgehoben wird.",
-          nl: "Asperges worden snel overbereid en worden zacht. Roosteren op hoge hitte of kort blancheren behoudt de malse-knapperige textuur terwijl de natuurlijke zoetheid naar voren komt."
+                  "en": "Asparagus overcooks quickly and becomes mushy. High-heat roasting or brief blanching maintains the tender-crisp texture while bringing out natural sweetness.",
+                  "es": "Los espárragos se sobrecocinan rápidamente y se vuelven blandos. Asar a alta temperatura o blanquear brevemente mantiene la textura tierna-crujiente mientras resalta la dulzura natural.",
+                  "de": "Spargel verkocht schnell und wird matschig. Rösten bei hoher Hitze oder kurzes Blanchieren erhält die zart-knackige Textur, während die natürliche Süße hervorgehoben wird.",
+                  "nl": "Asperges worden snel overbereid en worden zacht. Roosteren op hoge hitte of kort blancheren behoudt de malse-knapperige textuur terwijl de natuurlijke zoetheid naar voren komt."
         }
       },
       {
         question: {
-          en: "Which technique ensures evenly cooked frittata?",
-          es: "¿Qué técnica asegura una frittata cocida uniformemente?",
-          de: "Welche Technik gewährleistet gleichmäßig gekochte Frittata?",
-          nl: "Welke techniek zorgt voor gelijkmatig gekookte frittata?"
+                  "en": "Which technique ensures evenly cooked frittata?",
+                  "es": "¿Qué técnica asegura una frittata cocida uniformemente?",
+                  "de": "Welche Technik gewährleistet gleichmäßig gekochte Frittata?",
+                  "nl": "Welke techniek zorgt voor gelijkmatig gekookte frittata?"
         },
         options: [
-          { en: "Cook on stovetop until edges set, finish under broiler", es: "Cocinar en la estufa hasta que los bordes se fijen, terminar bajo el asador", de: "Auf dem Herd kochen bis die Ränder fest sind, unter dem Grill beenden", nl: "Koken op het fornuis tot de randen stollen, afmaken onder de grill" },
-          { en: "Cook entirely on stovetop with lid", es: "Cocinar completamente en la estufa con tapa", de: "Vollständig auf dem Herd mit Deckel kochen", nl: "Volledig op het fornuis koken met deksel" },
-          { en: "Bake only in oven from start", es: "Hornear solo en horno desde el inicio", de: "Nur im Ofen von Anfang an backen", nl: "Alleen in de oven bakken vanaf het begin" },
-          { en: "Microwave until set", es: "Microondas hasta que se fije", de: "In der Mikrowelle bis fest", nl: "Magnetron tot gestold" }
+        {
+                  "en": "Cook on stovetop until edges set, finish under broiler",
+                  "es": "Cocinar en la estufa hasta que los bordes se fijen, terminar bajo el asador",
+                  "de": "Auf dem Herd kochen bis die Ränder fest sind, unter dem Grill beenden",
+                  "nl": "Koken op het fornuis tot de randen stollen, afmaken onder de grill"
+        },
+        {
+                  "en": "Bake only in oven from start",
+                  "es": "Hornear solo en horno desde el inicio",
+                  "de": "Nur im Ofen von Anfang an backen",
+                  "nl": "Alleen in de oven bakken vanaf het begin"
+        },
+        {
+                  "en": "Cook entirely on stovetop with lid",
+                  "es": "Cocinar completamente en la estufa con tapa",
+                  "de": "Vollständig auf dem Herd mit Deckel kochen",
+                  "nl": "Volledig op het fornuis koken met deksel"
+        },
+        {
+                  "en": "Microwave until set",
+                  "es": "Microondas hasta que se fije",
+                  "de": "In der Mikrowelle bis fest",
+                  "nl": "Magnetron tot gestold"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Starting on the stovetop cooks the bottom while keeping it tender. Finishing under the broiler sets the top evenly without overcooking the bottom, creating perfect texture throughout.",
-          es: "Empezar en la estufa cocina el fondo mientras lo mantiene tierno. Terminar bajo el asador fija la parte superior uniformemente sin sobrecocinar el fondo, creando textura perfecta en todo.",
-          de: "Auf dem Herd beginnen kocht den Boden, während er zart bleibt. Unter dem Grill beenden setzt die Oberseite gleichmäßig fest, ohne den Boden zu überkochen, und erzeugt perfekte Textur überall.",
-          nl: "Beginnen op het fornuis kookt de bodem terwijl het mals blijft. Afmaken onder de grill stolt de bovenkant gelijkmatig zonder de bodem over te koken, waardoor perfecte textuur ontstaat."
+                  "en": "Starting on the stovetop cooks the bottom while keeping it tender. Finishing under the broiler sets the top evenly without overcooking the bottom, creating perfect texture throughout.",
+                  "es": "Empezar en la estufa cocina el fondo mientras lo mantiene tierno. Terminar bajo el asador fija la parte superior uniformemente sin sobrecocinar el fondo, creando textura perfecta en todo.",
+                  "de": "Auf dem Herd beginnen kocht den Boden, während er zart bleibt. Unter dem Grill beenden setzt die Oberseite gleichmäßig fest, ohne den Boden zu überkochen, und erzeugt perfekte Textur überall.",
+                  "nl": "Beginnen op het fornuis kookt de bodem terwijl het mals blijft. Afmaken onder de grill stolt de bovenkant gelijkmatig zonder de bodem over te koken, waardoor perfecte textuur ontstaat."
         }
       },
       {
         question: {
-          en: "What is the proper way to cook Brussels sprouts to avoid bitterness?",
-          es: "¿Cuál es la manera adecuada de cocinar coles de Bruselas para evitar amargura?",
-          de: "Was ist der richtige Weg, Rosenkohl zu kochen, um Bitterkeit zu vermeiden?",
-          nl: "Wat is de juiste manier om spruitjes te koken om bitterheid te vermijden?"
+                  "en": "What is the proper way to cook Brussels sprouts to avoid bitterness?",
+                  "es": "¿Cuál es la manera adecuada de cocinar coles de Bruselas para evitar amargura?",
+                  "de": "Was ist der richtige Weg, Rosenkohl zu kochen, um Bitterkeit zu vermeiden?",
+                  "nl": "Wat is de juiste manier om spruitjes te koken om bitterheid te vermijden?"
         },
         options: [
-          { en: "Halve them, roast cut-side down at high heat until caramelized", es: "Cortarlas por la mitad, asar con el lado cortado hacia abajo a alta temperatura hasta que se caramelicen", de: "Halbieren, mit Schnittseite nach unten bei hoher Hitze rösten bis karamellisiert", nl: "Halveren, snijkant naar beneden roosteren op hoge hitte tot gekarameliseerd" },
-          { en: "Boil whole for 20 minutes", es: "Hervir enteras por 20 minutos", de: "Ganz 20 Minuten kochen", nl: "Heel 20 minuten koken" },
-          { en: "Steam until very soft", es: "Cocer al vapor hasta que estén muy suaves", de: "Dämpfen bis sehr weich", nl: "Stomen tot zeer zacht" },
-          { en: "Microwave covered in water", es: "Microondas cubierto en agua", de: "In der Mikrowelle bedeckt in Wasser", nl: "Magnetron bedekt in water" }
+        {
+                  "en": "Steam until very soft",
+                  "es": "Cocer al vapor hasta que estén muy suaves",
+                  "de": "Dämpfen bis sehr weich",
+                  "nl": "Stomen tot zeer zacht"
+        },
+        {
+                  "en": "Halve them, roast cut-side down at high heat until caramelized",
+                  "es": "Cortarlas por la mitad, asar con el lado cortado hacia abajo a alta temperatura hasta que se caramelicen",
+                  "de": "Halbieren, mit Schnittseite nach unten bei hoher Hitze rösten bis karamellisiert",
+                  "nl": "Halveren, snijkant naar beneden roosteren op hoge hitte tot gekarameliseerd"
+        },
+        {
+                  "en": "Boil whole for 20 minutes",
+                  "es": "Hervir enteras por 20 minutos",
+                  "de": "Ganz 20 Minuten kochen",
+                  "nl": "Heel 20 minuten koken"
+        },
+        {
+                  "en": "Microwave covered in water",
+                  "es": "Microondas cubierto en agua",
+                  "de": "In der Mikrowelle bedeckt in Wasser",
+                  "nl": "Magnetron bedekt in water"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Halving exposes more surface area for caramelization. High-heat roasting converts bitter compounds into sweet, nutty flavors through the Maillard reaction. Overcooking intensifies bitterness.",
-          es: "Cortar por la mitad expone más área superficial para caramelización. Asar a alta temperatura convierte compuestos amargos en sabores dulces y a nuez a través de la reacción de Maillard. Sobrecocinar intensifica la amargura.",
-          de: "Halbieren legt mehr Oberfläche für Karamellisierung frei. Rösten bei hoher Hitze wandelt bittere Verbindungen durch die Maillard-Reaktion in süße, nussige Aromen um. Überkochen verstärkt Bitterkeit.",
-          nl: "Halveren legt meer oppervlak bloot voor karamelisering. Roosteren op hoge hitte zet bittere stoffen om in zoete, nootachtige smaken door de Maillard-reactie. Overkoken versterkt bitterheid."
+                  "en": "Halving exposes more surface area for caramelization. High-heat roasting converts bitter compounds into sweet, nutty flavors through the Maillard reaction. Overcooking intensifies bitterness.",
+                  "es": "Cortar por la mitad expone más área superficial para caramelización. Asar a alta temperatura convierte compuestos amargos en sabores dulces y a nuez a través de la reacción de Maillard. Sobrecocinar intensifica la amargura.",
+                  "de": "Halbieren legt mehr Oberfläche für Karamellisierung frei. Rösten bei hoher Hitze wandelt bittere Verbindungen durch die Maillard-Reaktion in süße, nussige Aromen um. Überkochen verstärkt Bitterkeit.",
+                  "nl": "Halveren legt meer oppervlak bloot voor karamelisering. Roosteren op hoge hitte zet bittere stoffen om in zoete, nootachtige smaken door de Maillard-reactie. Overkoken versterkt bitterheid."
         }
       }
     ]
@@ -667,5 +1285,4 @@
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = level4;
   }
-  return level4;
 })();

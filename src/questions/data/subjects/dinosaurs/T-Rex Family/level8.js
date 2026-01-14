@@ -1,859 +1,1657 @@
-// T-Rex Family Quiz - Level 8: Advanced Knowledge
+// T-Rex Family Quiz - Level 8
 (function() {
   const level8 = {
     name: {
-      en: "T-Rex Family Level 8",
-      es: "Familia T-Rex Nivel 8",
-      de: "T-Rex Familie Stufe 8",
-      nl: "T-Rex Familie Level 8"
+          "en": "T-Rex Family Level 8",
+          "es": "Familia T-Rex Nivel 8",
+          "de": "T-Rex Familie Stufe 8",
+          "nl": "T-Rex Familie Level 8"
     },
     questions: [
       {
         question: {
-          en: "What was the estimated bite force of an adult Tyrannosaurus rex?",
-          es: "¿Cuál era la fuerza de mordida estimada de un Tyrannosaurus rex adulto?",
-          de: "Wie hoch war die geschätzte Beißkraft eines ausgewachsenen Tyrannosaurus rex?",
-          nl: "Wat was de geschatte bijtkracht van een volwassen Tyrannosaurus rex?"
+                  "en": "What was the estimated bite force of an adult Tyrannosaurus rex?",
+                  "es": "¿Cuál era la fuerza de mordida estimada de un Tyrannosaurus rex adulto?",
+                  "de": "Wie hoch war die geschätzte Beißkraft eines ausgewachsenen Tyrannosaurus rex?",
+                  "nl": "Wat was de geschatte bijtkracht van een volwassen Tyrannosaurus rex?"
         },
         options: [
-          { en: "12,800 Newtons (2,900 pounds-force)", es: "12,800 Newtons (2,900 libras-fuerza)", de: "12.800 Newton (2.900 Pfund-Kraft)", nl: "12.800 Newton (2.900 pond-kracht)" },
-          { en: "6,400 Newtons (1,450 pounds-force)", es: "6,400 Newtons (1,450 libras-fuerza)", de: "6.400 Newton (1.450 Pfund-Kraft)", nl: "6.400 Newton (1.450 pond-kracht)" },
-          { en: "35,000 to 57,000 Newtons (8,000-13,000 pounds-force)", es: "35,000 a 57,000 Newtons (8,000-13,000 libras-fuerza)", de: "35.000 bis 57.000 Newton (8.000-13.000 Pfund-Kraft)", nl: "35.000 tot 57.000 Newton (8.000-13.000 pond-kracht)" },
-          { en: "100,000 Newtons (22,500 pounds-force)", es: "100,000 Newtons (22,500 libras-fuerza)", de: "100.000 Newton (22.500 Pfund-Kraft)", nl: "100.000 Newton (22.500 pond-kracht)" }
+        {
+                  "en": "6,400 Newtons (1,450 pounds-force)",
+                  "es": "6,400 Newtons (1,450 libras-fuerza)",
+                  "de": "6.400 Newton (1.450 Pfund-Kraft)",
+                  "nl": "6.400 Newton (1.450 pond-kracht)"
+        },
+        {
+                  "en": "100,000 Newtons (22,500 pounds-force)",
+                  "es": "100,000 Newtons (22,500 libras-fuerza)",
+                  "de": "100.000 Newton (22.500 Pfund-Kraft)",
+                  "nl": "100.000 Newton (22.500 pond-kracht)"
+        },
+        {
+                  "en": "35,000 to 57,000 Newtons (8,000-13,000 pounds-force)",
+                  "es": "35,000 a 57,000 Newtons (8,000-13,000 libras-fuerza)",
+                  "de": "35.000 bis 57.000 Newton (8.000-13.000 Pfund-Kraft)",
+                  "nl": "35.000 tot 57.000 Newton (8.000-13.000 pond-kracht)"
+        },
+        {
+                  "en": "12,800 Newtons (2,900 pounds-force)",
+                  "es": "12,800 Newtons (2,900 libras-fuerza)",
+                  "de": "12.800 Newton (2.900 Pfund-Kraft)",
+                  "nl": "12.800 Newton (2.900 pond-kracht)"
+        }
         ],
         correct: 2,
         explanation: {
-          en: "Studies suggest T. rex had the most powerful bite of any land animal, with estimates ranging from 35,000 to 57,000 Newtons. This incredible force, combined with bone-crushing teeth, allowed it to bite through bone and access marrow.",
-          es: "Los estudios sugieren que T. rex tenía la mordida más poderosa de cualquier animal terrestre, con estimaciones que van de 35,000 a 57,000 Newtons. Esta increíble fuerza, combinada con dientes trituradores de huesos, le permitía morder a través del hueso y acceder a la médula.",
-          de: "Studien legen nahe, dass T. rex den stärksten Biss aller Landtiere hatte, mit Schätzungen von 35.000 bis 57.000 Newton. Diese unglaubliche Kraft, kombiniert mit knochenbrechenden Zähnen, ermöglichte es ihm, durch Knochen zu beißen und Mark zu erreichen.",
-          nl: "Studies suggereren dat T. rex de krachtigste beet had van alle landdieren, met schattingen variërend van 35.000 tot 57.000 Newton. Deze ongelooflijke kracht, gecombineerd met botverbrijzelende tanden, stelde hem in staat door bot te bijten en toegang te krijgen tot merg."
+                  "en": "Studies suggest T. rex had the most powerful bite of any land animal, with estimates ranging from 35,000 to 57,000 Newtons. This incredible force, combined with bone-crushing teeth, allowed it to bite through bone and access marrow.",
+                  "es": "Los estudios sugieren que T. rex tenía la mordida más poderosa de cualquier animal terrestre, con estimaciones que van de 35,000 a 57,000 Newtons. Esta increíble fuerza, combinada con dientes trituradores de huesos, le permitía morder a través del hueso y acceder a la médula.",
+                  "de": "Studien legen nahe, dass T. rex den stärksten Biss aller Landtiere hatte, mit Schätzungen von 35.000 bis 57.000 Newton. Diese unglaubliche Kraft, kombiniert mit knochenbrechenden Zähnen, ermöglichte es ihm, durch Knochen zu beißen und Mark zu erreichen.",
+                  "nl": "Studies suggereren dat T. rex de krachtigste beet had van alle landdieren, met schattingen variërend van 35.000 tot 57.000 Newton. Deze ongelooflijke kracht, gecombineerd met botverbrijzelende tanden, stelde hem in staat door bot te bijten en toegang te krijgen tot merg."
         }
       },
       {
         question: {
-          en: "Which sense was particularly well-developed in Tyrannosaurus rex based on skull anatomy?",
-          es: "¿Qué sentido estaba particularmente bien desarrollado en Tyrannosaurus rex según la anatomía del cráneo?",
-          de: "Welcher Sinn war bei Tyrannosaurus rex basierend auf der Schädelanatomie besonders gut entwickelt?",
-          nl: "Welk zintuig was bijzonder goed ontwikkeld bij Tyrannosaurus rex op basis van schedelanatomie?"
+                  "en": "Which sense was particularly well-developed in Tyrannosaurus rex based on skull anatomy?",
+                  "es": "¿Qué sentido estaba particularmente bien desarrollado en Tyrannosaurus rex según la anatomía del cráneo?",
+                  "de": "Welcher Sinn war bei Tyrannosaurus rex basierend auf der Schädelanatomie besonders gut entwickelt?",
+                  "nl": "Welk zintuig was bijzonder goed ontwikkeld bij Tyrannosaurus rex op basis van schedelanatomie?"
         },
         options: [
-          { en: "Smell (olfaction)", es: "Olfato (olfacción)", de: "Geruchssinn (Olfaktion)", nl: "Reuk (reukzin)" },
-          { en: "Taste", es: "Gusto", de: "Geschmack", nl: "Smaak" },
-          { en: "Touch", es: "Tacto", de: "Tastsinn", nl: "Tastzin" },
-          { en: "Echolocation", es: "Ecolocalización", de: "Echolokation", nl: "Echolocatie" }
+        {
+                  "en": "Smell (olfaction)",
+                  "es": "Olfato (olfacción)",
+                  "de": "Geruchssinn (Olfaktion)",
+                  "nl": "Reuk (reukzin)"
+        },
+        {
+                  "en": "Touch",
+                  "es": "Tacto",
+                  "de": "Tastsinn",
+                  "nl": "Tastzin"
+        },
+        {
+                  "en": "Taste",
+                  "es": "Gusto",
+                  "de": "Geschmack",
+                  "nl": "Smaak"
+        },
+        {
+                  "en": "Echolocation",
+                  "es": "Ecolocalización",
+                  "de": "Echolokation",
+                  "nl": "Echolocatie"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "T. rex had exceptionally large olfactory bulbs (the part of the brain dedicated to smell), suggesting it had an excellent sense of smell. This would have helped in hunting, locating carrion, and possibly social communication.",
-          es: "T. rex tenía bulbos olfatorios excepcionalmente grandes (la parte del cerebro dedicada al olfato), lo que sugiere que tenía un excelente sentido del olfato. Esto habría ayudado en la caza, localización de carroña y posiblemente comunicación social.",
-          de: "T. rex hatte außergewöhnlich große Riechkolben (der Teil des Gehirns, der dem Geruch gewidmet ist), was auf einen ausgezeichneten Geruchssinn hindeutet. Dies hätte bei der Jagd, dem Auffinden von Aas und möglicherweise bei der sozialen Kommunikation geholfen.",
-          nl: "T. rex had uitzonderlijk grote reukbollen (het deel van de hersenen gewijd aan reuk), wat suggereert dat hij een uitstekend reukvermogen had. Dit zou hebben geholpen bij het jagen, het lokaliseren van aas en mogelijk sociale communicatie."
+                  "en": "T. rex had exceptionally large olfactory bulbs (the part of the brain dedicated to smell), suggesting it had an excellent sense of smell. This would have helped in hunting, locating carrion, and possibly social communication.",
+                  "es": "T. rex tenía bulbos olfatorios excepcionalmente grandes (la parte del cerebro dedicada al olfato), lo que sugiere que tenía un excelente sentido del olfato. Esto habría ayudado en la caza, localización de carroña y posiblemente comunicación social.",
+                  "de": "T. rex hatte außergewöhnlich große Riechkolben (der Teil des Gehirns, der dem Geruch gewidmet ist), was auf einen ausgezeichneten Geruchssinn hindeutet. Dies hätte bei der Jagd, dem Auffinden von Aas und möglicherweise bei der sozialen Kommunikation geholfen.",
+                  "nl": "T. rex had uitzonderlijk grote reukbollen (het deel van de hersenen gewijd aan reuk), wat suggereert dat hij een uitstekend reukvermogen had. Dit zou hebben geholpen bij het jagen, het lokaliseren van aas en mogelijk sociale communicatie."
         }
       },
       {
         question: {
-          en: "What unique feature did T. rex have regarding its teeth compared to most other theropods?",
-          es: "¿Qué característica única tenía T. rex respecto a sus dientes en comparación con la mayoría de los otros terópodos?",
-          de: "Welches einzigartige Merkmal hatte T. rex bezüglich seiner Zähne im Vergleich zu den meisten anderen Theropoden?",
-          nl: "Welk uniek kenmerk had T. rex wat betreft zijn tanden vergeleken met de meeste andere theropoden?"
+                  "en": "What unique feature did T. rex have regarding its teeth compared to most other theropods?",
+                  "es": "¿Qué característica única tenía T. rex respecto a sus dientes en comparación con la mayoría de los otros terópodos?",
+                  "de": "Welches einzigartige Merkmal hatte T. rex bezüglich seiner Zähne im Vergleich zu den meisten anderen Theropoden?",
+                  "nl": "Welk uniek kenmerk had T. rex wat betreft zijn tanden vergeleken met de meeste andere theropoden?"
         },
         options: [
-          { en: "Flat, blade-like teeth", es: "Dientes planos en forma de hoja", de: "Flache, klingenartige Zähne", nl: "Platte, mesachtige tanden" },
-          { en: "Thick, conical, bone-crushing teeth", es: "Dientes gruesos, cónicos, trituradores de huesos", de: "Dicke, konische, knochenbrechende Zähne", nl: "Dikke, conische, botverbrijzelende tanden" },
-          { en: "Tiny, needle-like teeth", es: "Dientes diminutos en forma de aguja", de: "Winzige, nadelartige Zähne", nl: "Kleine, naaldachtige tanden" },
-          { en: "No teeth, only a beak", es: "Sin dientes, solo un pico", de: "Keine Zähne, nur ein Schnabel", nl: "Geen tanden, alleen een snavel" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Unlike most theropods with blade-like teeth for slicing flesh, T. rex had thick, conical teeth designed for crushing bone. This adaptation allowed it to access nutrient-rich marrow and exploit carcasses more thoroughly than other predators.",
-          es: "A diferencia de la mayoría de terópodos con dientes en forma de hoja para cortar carne, T. rex tenía dientes gruesos y cónicos diseñados para triturar huesos. Esta adaptación le permitía acceder a la médula rica en nutrientes y explotar cadáveres más a fondo que otros depredadores.",
-          de: "Im Gegensatz zu den meisten Theropoden mit klingenartigen Zähnen zum Schneiden von Fleisch hatte T. rex dicke, konische Zähne zum Zerbrechen von Knochen. Diese Anpassung ermöglichte es ihm, nährstoffreiches Mark zu erreichen und Kadaver gründlicher zu verwerten als andere Raubtiere.",
-          nl: "In tegenstelling tot de meeste theropoden met mesachtige tanden voor het snijden van vlees, had T. rex dikke, conische tanden ontworpen voor het verbrijzelen van bot. Deze aanpassing stelde hem in staat om toegang te krijgen tot voedingsrijk merg en karkassen grondiger te benutten dan andere roofdieren."
+        {
+                  "en": "Thick, conical, bone-crushing teeth",
+                  "es": "Dientes gruesos, cónicos, trituradores de huesos",
+                  "de": "Dicke, konische, knochenbrechende Zähne",
+                  "nl": "Dikke, conische, botverbrijzelende tanden"
+        },
+        {
+                  "en": "Flat, blade-like teeth",
+                  "es": "Dientes planos en forma de hoja",
+                  "de": "Flache, klingenartige Zähne",
+                  "nl": "Platte, mesachtige tanden"
+        },
+        {
+                  "en": "No teeth, only a beak",
+                  "es": "Sin dientes, solo un pico",
+                  "de": "Keine Zähne, nur ein Schnabel",
+                  "nl": "Geen tanden, alleen een snavel"
+        },
+        {
+                  "en": "Tiny, needle-like teeth",
+                  "es": "Dientes diminutos en forma de aguja",
+                  "de": "Winzige, nadelartige Zähne",
+                  "nl": "Kleine, naaldachtige tanden"
         }
-      },
-      {
-        question: {
-          en: "How did the growth rate of juvenile T. rex compare to other dinosaurs?",
-          es: "¿Cómo se comparaba la tasa de crecimiento de T. rex juvenil con otros dinosaurios?",
-          de: "Wie war die Wachstumsrate junger T. rex im Vergleich zu anderen Dinosauriern?",
-          nl: "Hoe was het groeitempo van juvenile T. rex vergeleken met andere dinosauriërs?"
-        },
-        options: [
-          { en: "Very slow, taking 50 years to reach adult size", es: "Muy lento, tardando 50 años en alcanzar el tamaño adulto", de: "Sehr langsam, 50 Jahre bis zur Erwachsenengröße", nl: "Zeer langzaam, 50 jaar om volwassen grootte te bereiken" },
-          { en: "Extremely rapid during adolescence, gaining up to 5 pounds per day", es: "Extremadamente rápido durante la adolescencia, ganando hasta 5 libras por día", de: "Extrem schnell während der Adoleszenz, bis zu 2,3 kg pro Tag", nl: "Extreem snel tijdens adolescentie, tot 2,3 kg per dag aankomend" },
-          { en: "Constant slow rate throughout life", es: "Tasa lenta constante durante toda la vida", de: "Konstant langsame Rate während des gesamten Lebens", nl: "Constant langzaam tempo gedurende het hele leven" },
-          { en: "Same as modern reptiles", es: "Igual que los reptiles modernos", de: "Gleich wie moderne Reptilien", nl: "Hetzelfde als moderne reptielen" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Studies of T. rex bone growth rings show that juveniles experienced a rapid growth spurt during adolescence, gaining up to 2 kg (4.6 pounds) per day. This fast growth is more similar to modern warm-blooded animals than to cold-blooded reptiles.",
-          es: "Los estudios de anillos de crecimiento óseo de T. rex muestran que los juveniles experimentaban un rápido estirón durante la adolescencia, ganando hasta 2 kg (4.6 libras) por día. Este crecimiento rápido es más similar a los animales modernos de sangre caliente que a los reptiles de sangre fría.",
-          de: "Studien der Knochenwachstumsringe von T. rex zeigen, dass Jungtiere während der Adoleszenz einen schnellen Wachstumsschub erlebten und bis zu 2 kg pro Tag zunahmen. Dieses schnelle Wachstum ähnelt eher modernen warmblütigen Tieren als kaltblütigen Reptilien.",
-          nl: "Studies van T. rex botgroeiringen tonen aan dat juvenielen een snelle groeispurt doormaakten tijdens adolescentie, waarbij ze tot 2 kg per dag aankwamen. Deze snelle groei lijkt meer op moderne warmbloedige dieren dan op koudbloedige reptielen."
-        }
-      },
-      {
-        question: {
-          en: "What is the significance of the 'Sue' T. rex specimen?",
-          es: "¿Cuál es la importancia del espécimen de T. rex 'Sue'?",
-          de: "Was ist die Bedeutung des T. rex-Exemplars 'Sue'?",
-          nl: "Wat is de betekenis van het 'Sue' T. rex specimen?"
-        },
-        options: [
-          { en: "First T. rex ever discovered", es: "Primer T. rex descubierto", de: "Erster jemals entdeckter T. rex", nl: "Eerste T. rex ooit ontdekt" },
-          { en: "Most complete and one of the largest T. rex specimens found", es: "Espécimen de T. rex más completo y uno de los más grandes encontrados", de: "Vollständigstes und eines der größten T. rex-Exemplare", nl: "Meest complete en een van de grootste T. rex specimens gevonden" },
-          { en: "Only juvenile T. rex specimen", es: "Único espécimen juvenil de T. rex", de: "Einziges juveniles T. rex-Exemplar", nl: "Enige juveniele T. rex specimen" },
-          { en: "Only T. rex found with feathers", es: "Único T. rex encontrado con plumas", de: "Einziger T. rex mit Federn gefunden", nl: "Enige T. rex gevonden met veren" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Sue, discovered in 1990 in South Dakota, is the most complete T. rex skeleton ever found (about 90% complete) and one of the largest. Named after paleontologist Sue Hendrickson, it's now displayed at the Field Museum in Chicago.",
-          es: "Sue, descubierto en 1990 en Dakota del Sur, es el esqueleto de T. rex más completo jamás encontrado (aproximadamente 90% completo) y uno de los más grandes. Nombrado en honor a la paleontóloga Sue Hendrickson, ahora se exhibe en el Field Museum de Chicago.",
-          de: "Sue, 1990 in South Dakota entdeckt, ist das vollständigste jemals gefundene T. rex-Skelett (etwa 90% vollständig) und eines der größten. Benannt nach der Paläontologin Sue Hendrickson, wird es jetzt im Field Museum in Chicago ausgestellt.",
-          nl: "Sue, ontdekt in 1990 in South Dakota, is het meest complete T. rex skelet ooit gevonden (ongeveer 90% compleet) en een van de grootste. Vernoemd naar paleontoloog Sue Hendrickson, wordt het nu tentoongesteld in het Field Museum in Chicago."
-        }
-      },
-      {
-        question: {
-          en: "Which tyrannosaurid was the earliest known large-bodied member of the family?",
-          es: "¿Qué tiranosáurido fue el miembro de cuerpo grande más antiguo conocido de la familia?",
-          de: "Welcher Tyrannosauride war das früheste bekannte großkörprige Mitglied der Familie?",
-          nl: "Welke tyrannosauride was het vroegst bekende grootlijvige lid van de familie?"
-        },
-        options: [
-          { en: "Tarbosaurus", es: "Tarbosaurus", de: "Tarbosaurus", nl: "Tarbosaurus" },
-          { en: "Albertosaurus", es: "Albertosaurus", de: "Albertosaurus", nl: "Albertosaurus" },
-          { en: "Yutyrannus", es: "Yutyrannus", de: "Yutyrannus", nl: "Yutyrannus" },
-          { en: "Daspletosaurus", es: "Daspletosaurus", de: "Daspletosaurus", nl: "Daspletosaurus" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Yutyrannus huali, from Early Cretaceous China (about 125 million years ago), is the earliest known large tyrannosaurid, reaching 9 meters long. It's also significant as the largest dinosaur known to have direct fossil evidence of feathers.",
-          es: "Yutyrannus huali, del Cretácico Temprano de China (hace unos 125 millones de años), es el tiranosáurido grande más antiguo conocido, alcanzando 9 metros de largo. También es significativo como el dinosaurio más grande conocido con evidencia fósil directa de plumas.",
-          de: "Yutyrannus huali, aus der frühen Kreidezeit Chinas (vor etwa 125 Millionen Jahren), ist der früheste bekannte große Tyrannosauride und erreichte 9 Meter Länge. Er ist auch bedeutsam als der größte Dinosaurier mit direkten fossilen Beweisen für Federn.",
-          nl: "Yutyrannus huali, uit het Vroeg-Krijt van China (ongeveer 125 miljoen jaar geleden), is de vroegst bekende grote tyrannosauride, die 9 meter lang werd. Het is ook significant als de grootste dinosaurus waarvan directe fossiele bewijs van veren bekend is."
-        }
-      },
-      {
-        question: {
-          en: "What evidence suggests that some tyrannosaurids may have hunted in groups?",
-          es: "¿Qué evidencia sugiere que algunos tiranosáuridos pudieron haber cazado en grupos?",
-          de: "Welche Beweise deuten darauf hin, dass einige Tyrannosauriden möglicherweise in Gruppen gejagt haben?",
-          nl: "Welk bewijs suggereert dat sommige tyrannosauriden mogelijk in groepen jaagden?"
-        },
-        options: [
-          { en: "Multiple Albertosaurus fossils found together in bone beds", es: "Múltiples fósiles de Albertosaurus encontrados juntos en lechos de huesos", de: "Mehrere Albertosaurus-Fossilien zusammen in Knochenbetten gefunden", nl: "Meerdere Albertosaurus fossielen samen gevonden in botbedden" },
-          { en: "Written records from the Cretaceous period", es: "Registros escritos del período Cretácico", de: "Schriftliche Aufzeichnungen aus der Kreidezeit", nl: "Geschreven verslagen uit het Krijt tijdperk" },
-          { en: "Modern lizards hunting in packs", es: "Lagartos modernos cazando en manadas", de: "Moderne Eidechsen jagen in Rudeln", nl: "Moderne hagedissen jagen in roedels" },
-          { en: "Cave paintings showing group hunting", es: "Pinturas rupestres mostrando caza en grupo", de: "Höhlenmalereien zeigen Gruppenjagd", nl: "Grotschilderingen die groepsjacht tonen" }
         ],
         correct: 0,
         explanation: {
-          en: "Several Albertosaurus bone beds in Alberta, Canada contain multiple individuals of different ages found together. While debated, this suggests possible social behavior or at least aggregation at certain sites, though not necessarily coordinated pack hunting like modern wolves.",
-          es: "Varios lechos de huesos de Albertosaurus en Alberta, Canadá contienen múltiples individuos de diferentes edades encontrados juntos. Aunque debatido, esto sugiere posible comportamiento social o al menos agregación en ciertos sitios, aunque no necesariamente caza en manada coordinada como los lobos modernos.",
-          de: "Mehrere Albertosaurus-Knochenbetten in Alberta, Kanada, enthalten mehrere Individuen unterschiedlichen Alters, die zusammen gefunden wurden. Obwohl umstritten, deutet dies auf mögliches Sozialverhalten oder zumindest Aggregation an bestimmten Orten hin, wenn auch nicht unbedingt koordinierte Rudeljagd wie bei modernen Wölfen.",
-          nl: "Verschillende Albertosaurus botbedden in Alberta, Canada bevatten meerdere individuen van verschillende leeftijden die samen werden gevonden. Hoewel bediscussieerd, suggereert dit mogelijk sociaal gedrag of op zijn minst aggregatie op bepaalde locaties, hoewel niet noodzakelijk gecoördineerde roedeljacht zoals moderne wolven."
+                  "en": "Unlike most theropods with blade-like teeth for slicing flesh, T. rex had thick, conical teeth designed for crushing bone. This adaptation allowed it to access nutrient-rich marrow and exploit carcasses more thoroughly than other predators.",
+                  "es": "A diferencia de la mayoría de terópodos con dientes en forma de hoja para cortar carne, T. rex tenía dientes gruesos y cónicos diseñados para triturar huesos. Esta adaptación le permitía acceder a la médula rica en nutrientes y explotar cadáveres más a fondo que otros depredadores.",
+                  "de": "Im Gegensatz zu den meisten Theropoden mit klingenartigen Zähnen zum Schneiden von Fleisch hatte T. rex dicke, konische Zähne zum Zerbrechen von Knochen. Diese Anpassung ermöglichte es ihm, nährstoffreiches Mark zu erreichen und Kadaver gründlicher zu verwerten als andere Raubtiere.",
+                  "nl": "In tegenstelling tot de meeste theropoden met mesachtige tanden voor het snijden van vlees, had T. rex dikke, conische tanden ontworpen voor het verbrijzelen van bot. Deze aanpassing stelde hem in staat om toegang te krijgen tot voedingsrijk merg en karkassen grondiger te benutten dan andere roofdieren."
         }
       },
       {
         question: {
-          en: "How did Tarbosaurus bataar differ from Tyrannosaurus rex?",
-          es: "¿En qué se diferenciaba Tarbosaurus bataar de Tyrannosaurus rex?",
-          de: "Wie unterschied sich Tarbosaurus bataar von Tyrannosaurus rex?",
-          nl: "Hoe verschilde Tarbosaurus bataar van Tyrannosaurus rex?"
+                  "en": "How did the growth rate of juvenile T. rex compare to other dinosaurs?",
+                  "es": "¿Cómo se comparaba la tasa de crecimiento de T. rex juvenil con otros dinosaurios?",
+                  "de": "Wie war die Wachstumsrate junger T. rex im Vergleich zu anderen Dinosauriern?",
+                  "nl": "Hoe was het groeitempo van juvenile T. rex vergeleken met andere dinosauriërs?"
         },
         options: [
-          { en: "Tarbosaurus was much smaller and had longer arms", es: "Tarbosaurus era mucho más pequeño y tenía brazos más largos", de: "Tarbosaurus war viel kleiner und hatte längere Arme", nl: "Tarbosaurus was veel kleiner en had langere armen" },
-          { en: "Tarbosaurus had a narrower skull and slightly smaller build", es: "Tarbosaurus tenía un cráneo más estrecho y constitución ligeramente más pequeña", de: "Tarbosaurus hatte einen schmaleren Schädel und etwas kleineren Körperbau", nl: "Tarbosaurus had een smallere schedel en iets kleinere bouw" },
-          { en: "Tarbosaurus was herbivorous", es: "Tarbosaurus era herbívoro", de: "Tarbosaurus war Pflanzenfresser", nl: "Tarbosaurus was herbivoor" },
-          { en: "Tarbosaurus had wings", es: "Tarbosaurus tenía alas", de: "Tarbosaurus hatte Flügel", nl: "Tarbosaurus had vleugels" }
+        {
+                  "en": "Same as modern reptiles",
+                  "es": "Igual que los reptiles modernos",
+                  "de": "Gleich wie moderne Reptilien",
+                  "nl": "Hetzelfde als moderne reptielen"
+        },
+        {
+                  "en": "Extremely rapid during adolescence, gaining up to 5 pounds per day",
+                  "es": "Extremadamente rápido durante la adolescencia, ganando hasta 5 libras por día",
+                  "de": "Extrem schnell während der Adoleszenz, bis zu 2,3 kg pro Tag",
+                  "nl": "Extreem snel tijdens adolescentie, tot 2,3 kg per dag aankomend"
+        },
+        {
+                  "en": "Constant slow rate throughout life",
+                  "es": "Tasa lenta constante durante toda la vida",
+                  "de": "Konstant langsame Rate während des gesamten Lebens",
+                  "nl": "Constant langzaam tempo gedurende het hele leven"
+        },
+        {
+                  "en": "Very slow, taking 50 years to reach adult size",
+                  "es": "Muy lento, tardando 50 años en alcanzar el tamaño adulto",
+                  "de": "Sehr langsam, 50 Jahre bis zur Erwachsenengröße",
+                  "nl": "Zeer langzaam, 50 jaar om volwassen grootte te bereiken"
+        }
         ],
         correct: 1,
         explanation: {
-          en: "Tarbosaurus bataar, found in Mongolia and China, was a close relative of T. rex. It had a narrower skull, was slightly smaller, and its arms were proportionally even shorter than T. rex. Some scientists consider it closely related enough to be in the same genus.",
-          es: "Tarbosaurus bataar, encontrado en Mongolia y China, era un pariente cercano de T. rex. Tenía un cráneo más estrecho, era ligeramente más pequeño, y sus brazos eran proporcionalmente aún más cortos que T. rex. Algunos científicos lo consideran lo suficientemente relacionado como para estar en el mismo género.",
-          de: "Tarbosaurus bataar, gefunden in der Mongolei und China, war ein enger Verwandter von T. rex. Er hatte einen schmaleren Schädel, war etwas kleiner, und seine Arme waren proportional noch kürzer als bei T. rex. Einige Wissenschaftler halten ihn für eng genug verwandt, um zur selben Gattung zu gehören.",
-          nl: "Tarbosaurus bataar, gevonden in Mongolië en China, was een naaste verwant van T. rex. Het had een smallere schedel, was iets kleiner, en zijn armen waren proportioneel nog korter dan T. rex. Sommige wetenschappers beschouwen het als nauw genoeg verwant om tot hetzelfde geslacht te behoren."
+                  "en": "Studies of T. rex bone growth rings show that juveniles experienced a rapid growth spurt during adolescence, gaining up to 2 kg (4.6 pounds) per day. This fast growth is more similar to modern warm-blooded animals than to cold-blooded reptiles.",
+                  "es": "Los estudios de anillos de crecimiento óseo de T. rex muestran que los juveniles experimentaban un rápido estirón durante la adolescencia, ganando hasta 2 kg (4.6 libras) por día. Este crecimiento rápido es más similar a los animales modernos de sangre caliente que a los reptiles de sangre fría.",
+                  "de": "Studien der Knochenwachstumsringe von T. rex zeigen, dass Jungtiere während der Adoleszenz einen schnellen Wachstumsschub erlebten und bis zu 2 kg pro Tag zunahmen. Dieses schnelle Wachstum ähnelt eher modernen warmblütigen Tieren als kaltblütigen Reptilien.",
+                  "nl": "Studies van T. rex botgroeiringen tonen aan dat juvenielen een snelle groeispurt doormaakten tijdens adolescentie, waarbij ze tot 2 kg per dag aankwamen. Deze snelle groei lijkt meer op moderne warmbloedige dieren dan op koudbloedige reptielen."
         }
       },
       {
         question: {
-          en: "What was unusual about the arms of Tyrannosaurus rex relative to its body size?",
-          es: "¿Qué tenía de inusual los brazos de Tyrannosaurus rex en relación con el tamaño de su cuerpo?",
-          de: "Was war ungewöhnlich an den Armen von Tyrannosaurus rex im Verhältnis zu seiner Körpergröße?",
-          nl: "Wat was ongebruikelijk aan de armen van Tyrannosaurus rex ten opzichte van zijn lichaamsgrootte?"
+                  "en": "What is the significance of the 'Sue' T. rex specimen?",
+                  "es": "¿Cuál es la importancia del espécimen de T. rex 'Sue'?",
+                  "de": "Was ist die Bedeutung des T. rex-Exemplars 'Sue'?",
+                  "nl": "Wat is de betekenis van het 'Sue' T. rex specimen?"
         },
         options: [
-          { en: "They were proportionally very long", es: "Eran proporcionalmente muy largos", de: "Sie waren proportional sehr lang", nl: "Ze waren proportioneel erg lang" },
-          { en: "They were proportionally tiny but still powerful", es: "Eran proporcionalmente diminutos pero aún poderosos", de: "Sie waren proportional winzig, aber dennoch kräftig", nl: "Ze waren proportioneel minuscuul maar nog steeds krachtig" },
-          { en: "They had no fingers", es: "No tenían dedos", de: "Sie hatten keine Finger", nl: "Ze hadden geen vingers" },
-          { en: "They were covered in scales", es: "Estaban cubiertos de escamas", de: "Sie waren mit Schuppen bedeckt", nl: "Ze waren bedekt met schubben" }
+        {
+                  "en": "Only T. rex found with feathers",
+                  "es": "Único T. rex encontrado con plumas",
+                  "de": "Einziger T. rex mit Federn gefunden",
+                  "nl": "Enige T. rex gevonden met veren"
+        },
+        {
+                  "en": "Most complete and one of the largest T. rex specimens found",
+                  "es": "Espécimen de T. rex más completo y uno de los más grandes encontrados",
+                  "de": "Vollständigstes und eines der größten T. rex-Exemplare",
+                  "nl": "Meest complete en een van de grootste T. rex specimens gevonden"
+        },
+        {
+                  "en": "First T. rex ever discovered",
+                  "es": "Primer T. rex descubierto",
+                  "de": "Erster jemals entdeckter T. rex",
+                  "nl": "Eerste T. rex ooit ontdekt"
+        },
+        {
+                  "en": "Only juvenile T. rex specimen",
+                  "es": "Único espécimen juvenil de T. rex",
+                  "de": "Einziges juveniles T. rex-Exemplar",
+                  "nl": "Enige juveniele T. rex specimen"
+        }
         ],
         correct: 1,
         explanation: {
-          en: "T. rex arms were only about 1 meter long on a 12-meter body - proportionally tiny. However, studies show they were extremely muscular and could lift over 400 pounds. Their function remains debated - possibly for gripping prey, mating, or pushing up from a resting position.",
-          es: "Los brazos de T. rex medían solo alrededor de 1 metro de largo en un cuerpo de 12 metros - proporcionalmente diminutos. Sin embargo, los estudios muestran que eran extremadamente musculosos y podían levantar más de 400 libras. Su función sigue siendo debatida - posiblemente para agarrar presas, apareamiento, o empujarse desde una posición de descanso.",
-          de: "T. rex-Arme waren nur etwa 1 Meter lang bei einem 12-Meter-Körper - proportional winzig. Studien zeigen jedoch, dass sie extrem muskulös waren und über 180 kg heben konnten. Ihre Funktion wird noch diskutiert - möglicherweise zum Greifen von Beute, zur Paarung oder zum Aufstehen aus einer Ruheposition.",
-          nl: "T. rex armen waren slechts ongeveer 1 meter lang op een 12-meter lichaam - proportioneel minuscuul. Studies tonen echter aan dat ze extreem gespierd waren en meer dan 180 kg konden tillen. Hun functie blijft onderwerp van debat - mogelijk voor het vastgrijpen van prooi, paring, of opstaan vanuit rustpositie."
+                  "en": "Sue, discovered in 1990 in South Dakota, is the most complete T. rex skeleton ever found (about 90% complete) and one of the largest. Named after paleontologist Sue Hendrickson, it's now displayed at the Field Museum in Chicago.",
+                  "es": "Sue, descubierto en 1990 en Dakota del Sur, es el esqueleto de T. rex más completo jamás encontrado (aproximadamente 90% completo) y uno de los más grandes. Nombrado en honor a la paleontóloga Sue Hendrickson, ahora se exhibe en el Field Museum de Chicago.",
+                  "de": "Sue, 1990 in South Dakota entdeckt, ist das vollständigste jemals gefundene T. rex-Skelett (etwa 90% vollständig) und eines der größten. Benannt nach der Paläontologin Sue Hendrickson, wird es jetzt im Field Museum in Chicago ausgestellt.",
+                  "nl": "Sue, ontdekt in 1990 in South Dakota, is het meest complete T. rex skelet ooit gevonden (ongeveer 90% compleet) en een van de grootste. Vernoemd naar paleontoloog Sue Hendrickson, wordt het nu tentoongesteld in het Field Museum in Chicago."
         }
       },
       {
         question: {
-          en: "What does the presence of medullary bone in some T. rex fossils indicate?",
-          es: "¿Qué indica la presencia de hueso medular en algunos fósiles de T. rex?",
-          de: "Was zeigt das Vorhandensein von Markknoche in einigen T. rex-Fossilien an?",
-          nl: "Wat geeft de aanwezigheid van mergbot in sommige T. rex fossielen aan?"
+                  "en": "Which tyrannosaurid was the earliest known large-bodied member of the family?",
+                  "es": "¿Qué tiranosáurido fue el miembro de cuerpo grande más antiguo conocido de la familia?",
+                  "de": "Welcher Tyrannosauride war das früheste bekannte großkörprige Mitglied der Familie?",
+                  "nl": "Welke tyrannosauride was het vroegst bekende grootlijvige lid van de familie?"
         },
         options: [
-          { en: "The dinosaur was diseased", es: "El dinosaurio estaba enfermo", de: "Der Dinosaurier war krank", nl: "De dinosaurus was ziek" },
-          { en: "The dinosaur was male", es: "El dinosaurio era macho", de: "Der Dinosaurier war männlich", nl: "De dinosaurus was mannelijk" },
-          { en: "The dinosaur was a pregnant or egg-laying female", es: "El dinosaurio era una hembra embarazada o poniendo huevos", de: "Der Dinosaurier war ein schwangeres oder eierlegendes Weibchen", nl: "De dinosaurus was een zwangere of eieren leggende vrouw" },
-          { en: "The dinosaur was very old", es: "El dinosaurio era muy viejo", de: "Der Dinosaurier war sehr alt", nl: "De dinosaurus was erg oud" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Medullary bone is a special calcium-rich bone tissue found only in female birds during egg-laying, as it provides calcium for eggshells. Its discovery in T. rex and other dinosaurs proves the specimen was female and likely in breeding condition, providing one of the few ways to determine dinosaur sex.",
-          es: "El hueso medular es un tejido óseo especial rico en calcio que se encuentra solo en aves hembras durante la puesta de huevos, ya que proporciona calcio para las cáscaras de huevo. Su descubrimiento en T. rex y otros dinosaurios prueba que el espécimen era hembra y probablemente en condición reproductiva, proporcionando una de las pocas formas de determinar el sexo de los dinosaurios.",
-          de: "Markknochen ist ein spezielles kalziumreiches Knochengewebe, das nur bei weiblichen Vögeln während der Eiablage vorkommt, da es Kalzium für Eierschalen liefert. Seine Entdeckung bei T. rex und anderen Dinosauriern beweist, dass das Exemplar weiblich und wahrscheinlich in Brutkondition war, und bietet eine der wenigen Möglichkeiten, das Geschlecht von Dinosauriern zu bestimmen.",
-          nl: "Mergbot is een speciaal calciumrijk botweefsel dat alleen wordt gevonden bij vrouwelijke vogels tijdens het leggen van eieren, omdat het calcium levert voor eierschalen. De ontdekking ervan in T. rex en andere dinosauriërs bewijst dat het specimen vrouwelijk was en waarschijnlijk in broedconditie, wat een van de weinige manieren biedt om het geslacht van dinosauriërs te bepalen."
+        {
+                  "en": "Yutyrannus",
+                  "es": "Yutyrannus",
+                  "de": "Yutyrannus",
+                  "nl": "Yutyrannus"
+        },
+        {
+                  "en": "Daspletosaurus",
+                  "es": "Daspletosaurus",
+                  "de": "Daspletosaurus",
+                  "nl": "Daspletosaurus"
+        },
+        {
+                  "en": "Tarbosaurus",
+                  "es": "Tarbosaurus",
+                  "de": "Tarbosaurus",
+                  "nl": "Tarbosaurus"
+        },
+        {
+                  "en": "Albertosaurus",
+                  "es": "Albertosaurus",
+                  "de": "Albertosaurus",
+                  "nl": "Albertosaurus"
         }
-      },
-      {
-        question: {
-          en: "Which tyrannosaurid is known from the most fossil specimens, providing insights into growth and variation?",
-          es: "¿Qué tiranosáurido se conoce por la mayoría de especímenes fósiles, proporcionando información sobre crecimiento y variación?",
-          de: "Welcher Tyrannosauride ist aus den meisten fossilen Exemplaren bekannt und liefert Einblicke in Wachstum und Variation?",
-          nl: "Welke tyrannosauride is bekend van de meeste fossiele specimens, wat inzichten geeft in groei en variatie?"
-        },
-        options: [
-          { en: "Tyrannosaurus rex", es: "Tyrannosaurus rex", de: "Tyrannosaurus rex", nl: "Tyrannosaurus rex" },
-          { en: "Albertosaurus sarcophagus", es: "Albertosaurus sarcophagus", de: "Albertosaurus sarcophagus", nl: "Albertosaurus sarcophagus" },
-          { en: "Gorgosaurus libratus", es: "Gorgosaurus libratus", de: "Gorgosaurus libratus", nl: "Gorgosaurus libratus" },
-          { en: "Daspletosaurus torosus", es: "Daspletosaurus torosus", de: "Daspletosaurus torosus", nl: "Daspletosaurus torosus" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "While T. rex is most famous, Albertosaurus sarcophagus is known from the most specimens - including bone beds with multiple individuals. This abundance has made it particularly valuable for studying tyrannosaurid growth patterns, population structure, and individual variation.",
-          es: "Aunque T. rex es más famoso, Albertosaurus sarcophagus se conoce por la mayoría de especímenes - incluyendo lechos de huesos con múltiples individuos. Esta abundancia lo ha hecho particularmente valioso para estudiar patrones de crecimiento de tiranosáuridos, estructura poblacional y variación individual.",
-          de: "Während T. rex am berühmtesten ist, ist Albertosaurus sarcophagus aus den meisten Exemplaren bekannt - einschließlich Knochenbetten mit mehreren Individuen. Diese Fülle hat ihn besonders wertvoll für das Studium von Tyrannosauriden-Wachstumsmustern, Populationsstruktur und individueller Variation gemacht.",
-          nl: "Hoewel T. rex het beroemdst is, is Albertosaurus sarcophagus bekend van de meeste specimens - inclusief botbedden met meerdere individuen. Deze overvloed heeft het bijzonder waardevol gemaakt voor het bestuderen van tyrannosauride groeipatronen, populatiestructuur en individuele variatie."
-        }
-      },
-      {
-        question: {
-          en: "What was Gorgosaurus's primary hunting strategy based on its skeletal features?",
-          es: "¿Cuál era la estrategia de caza principal de Gorgosaurus basada en sus características esqueléticas?",
-          de: "Was war die primäre Jagdstrategie von Gorgosaurus basierend auf seinen Skelettmerkmalen?",
-          nl: "Wat was de primaire jachtstrategie van Gorgosaurus gebaseerd op zijn skeletkenmerken?"
-        },
-        options: [
-          { en: "Ambush predator relying on camouflage", es: "Depredador de emboscada confiando en camuflaje", de: "Hinterhaltjäger, der auf Tarnung vertraut", nl: "Hinderlaag roofdier dat vertrouwt op camouflage" },
-          { en: "Pursuit predator with long, powerful legs for running", es: "Depredador de persecución con piernas largas y poderosas para correr", de: "Verfolgungsjäger mit langen, kräftigen Beinen zum Laufen", nl: "Achtervolging roofdier met lange, krachtige benen voor rennen" },
-          { en: "Scavenger only", es: "Solo carroñero", de: "Nur Aasfresser", nl: "Alleen aaseter" },
-          { en: "Fishing specialist", es: "Especialista en pesca", de: "Fischerei-Spezialist", nl: "Visserij specialist" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Gorgosaurus had proportionally longer legs and a lighter build compared to later tyrannosaurids like T. rex, suggesting it was a more active pursuit predator. Its skeleton indicates it could run faster and was more agile, likely hunting hadrosaurs and ceratopsians in Cretaceous Alberta.",
-          es: "Gorgosaurus tenía piernas proporcionalmente más largas y constitución más ligera comparado con tiranosáuridos posteriores como T. rex, sugiriendo que era un depredador de persecución más activo. Su esqueleto indica que podía correr más rápido y era más ágil, probablemente cazando hadrosaurios y ceratopsios en el Cretácico de Alberta.",
-          de: "Gorgosaurus hatte proportional längere Beine und einen leichteren Körperbau im Vergleich zu späteren Tyrannosauriden wie T. rex, was darauf hindeutet, dass er ein aktiverer Verfolgungsjäger war. Sein Skelett zeigt, dass er schneller laufen konnte und agiler war, wahrscheinlich Hadrosaurier und Ceratopsier im Kreidezeitlichen Alberta jagte.",
-          nl: "Gorgosaurus had proportioneel langere benen en een lichtere bouw vergeleken met latere tyrannosauriden zoals T. rex, wat suggereert dat het een actiever achtervolging roofdier was. Zijn skelet geeft aan dat het sneller kon rennen en wendbaarder was, waarschijnlijk jagend op hadrosaurs en ceratopsians in het Krijt Alberta."
-        }
-      },
-      {
-        question: {
-          en: "What role did the large temporal fenestrae (skull openings) play in tyrannosaurid skulls?",
-          es: "¿Qué papel desempeñaban las grandes fenestras temporales (aberturas del cráneo) en los cráneos de tiranosáuridos?",
-          de: "Welche Rolle spielten die großen temporalen Fenestrae (Schädelöffnungen) in Tyrannosauriden-Schädeln?",
-          nl: "Welke rol speelden de grote temporale fenestrae (schedel openingen) in tyrannosauride schedels?"
-        },
-        options: [
-          { en: "They housed extra brain tissue", es: "Alojaban tejido cerebral adicional", de: "Sie beherbergten zusätzliches Gehirngewebe", nl: "Ze huisvestten extra hersenweefsel" },
-          { en: "They reduced skull weight and provided attachment points for jaw muscles", es: "Reducían el peso del cráneo y proporcionaban puntos de anclaje para músculos de la mandíbula", de: "Sie reduzierten das Schädelgewicht und boten Ansatzpunkte für Kiefermuskeln", nl: "Ze verminderden het schedelgewicht en boden aanhechtingspunten voor kaakspieren" },
-          { en: "They were for breathing", es: "Eran para respirar", de: "Sie waren zum Atmen", nl: "Ze waren voor ademhaling" },
-          { en: "They served no purpose", es: "No servían ningún propósito", de: "Sie hatten keinen Zweck", nl: "Ze dienden geen doel" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The large temporal fenestrae (openings behind the eyes) served dual purposes: reducing skull weight while maintaining strength, and providing large surface areas for powerful jaw-closing muscles to attach. This design allowed tyrannosaurids to have both strong, light skulls and tremendous bite force.",
-          es: "Las grandes fenestras temporales (aberturas detrás de los ojos) servían propósitos duales: reducir el peso del cráneo mientras mantenían la fuerza, y proporcionar grandes áreas de superficie para que los poderosos músculos de cierre de mandíbula se anclen. Este diseño permitía a los tiranosáuridos tener tanto cráneos fuertes y ligeros como tremenda fuerza de mordida.",
-          de: "Die großen temporalen Fenestrae (Öffnungen hinter den Augen) dienten zwei Zwecken: Reduzierung des Schädelgewichts bei Beibehaltung der Stärke und Bereitstellung großer Oberflächen für die Befestigung kräftiger Kieferschlussmuskeln. Dieses Design ermöglichte es Tyrannosauriden, sowohl starke, leichte Schädel als auch enorme Beißkraft zu haben.",
-          nl: "De grote temporale fenestrae (openingen achter de ogen) dienden twee doelen: vermindering van schedelgewicht met behoud van sterkte, en het bieden van grote oppervlakten voor krachtige kaaksluitspieren om aan te hechten. Dit ontwerp stelde tyrannosauriden in staat om zowel sterke, lichte schedels als enorme bijtkracht te hebben."
-        }
-      },
-      {
-        question: {
-          en: "How did Daspletosaurus differ from other albertosaurine tyrannosaurids?",
-          es: "¿En qué se diferenciaba Daspletosaurus de otros tiranosáuridos albertosaurinos?",
-          de: "Wie unterschied sich Daspletosaurus von anderen albertosaurinen Tyrannosauriden?",
-          nl: "Hoe verschilde Daspletosaurus van andere albertosaurine tyrannosauriden?"
-        },
-        options: [
-          { en: "It was smaller and faster", es: "Era más pequeño y rápido", de: "Er war kleiner und schneller", nl: "Het was kleiner en sneller" },
-          { en: "It was more heavily built and robust, with a deeper skull", es: "Era de constitución más pesada y robusta, con un cráneo más profundo", de: "Er war schwerer gebaut und robuster, mit einem tieferen Schädel", nl: "Het was zwaarder gebouwd en robuuster, met een diepere schedel" },
-          { en: "It was herbivorous", es: "Era herbívoro", de: "Er war Pflanzenfresser", nl: "Het was herbivoor" },
-          { en: "It lived in water", es: "Vivía en el agua", de: "Er lebte im Wasser", nl: "Het leefde in water" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Daspletosaurus ('frightful lizard') was more heavily built than its relatives Gorgosaurus and Albertosaurus, with a deeper, more robust skull and stronger bite. It likely hunted larger, more dangerous prey like ceratopsians, and showed adaptations toward the heavy-duty predatory style of T. rex.",
-          es: "Daspletosaurus ('lagarto espantoso') era de constitución más pesada que sus parientes Gorgosaurus y Albertosaurus, con un cráneo más profundo y robusto y mordida más fuerte. Probablemente cazaba presas más grandes y peligrosas como ceratopsios, y mostraba adaptaciones hacia el estilo depredador de servicio pesado de T. rex.",
-          de: "Daspletosaurus ('schreckliche Echse') war schwerer gebaut als seine Verwandten Gorgosaurus und Albertosaurus, mit einem tieferen, robusteren Schädel und stärkerem Biss. Er jagte wahrscheinlich größere, gefährlichere Beute wie Ceratopsier und zeigte Anpassungen zum schweren Raubtierstil von T. rex.",
-          nl: "Daspletosaurus ('angstaanjagende hagedis') was zwaarder gebouwd dan zijn verwanten Gorgosaurus en Albertosaurus, met een diepere, robuustere schedel en sterkere beet. Het jaagde waarschijnlijk op grotere, gevaarlijkere prooi zoals ceratopsians, en vertoonde aanpassingen richting de zware roofdier stijl van T. rex."
-        }
-      },
-      {
-        question: {
-          en: "What evidence suggests tyrannosaurids had binocular vision?",
-          es: "¿Qué evidencia sugiere que los tiranosáuridos tenían visión binocular?",
-          de: "Welche Beweise deuten darauf hin, dass Tyrannosauriden binokulares Sehen hatten?",
-          nl: "Welk bewijs suggereert dat tyrannosauriden binoculair zicht hadden?"
-        },
-        options: [
-          { en: "Forward-facing eyes with overlapping visual fields", es: "Ojos orientados hacia adelante con campos visuales superpuestos", de: "Nach vorne gerichtete Augen mit überlappenden Sichtfeldern", nl: "Naar voren gerichte ogen met overlappende gezichtsvelden" },
-          { en: "Eyes on sides of head like horses", es: "Ojos a los lados de la cabeza como caballos", de: "Augen an den Seiten des Kopfes wie Pferde", nl: "Ogen aan de zijkanten van het hoofd zoals paarden" },
-          { en: "Compound eyes like insects", es: "Ojos compuestos como insectos", de: "Facettenaugen wie Insekten", nl: "Samengestelde ogen zoals insecten" },
-          { en: "No eyes, relied on smell only", es: "Sin ojos, solo confiaban en el olfato", de: "Keine Augen, verließen sich nur auf Geruch", nl: "Geen ogen, vertrouwde alleen op reuk" }
         ],
         correct: 0,
         explanation: {
-          en: "Tyrannosaurid skulls show forward-facing orbits (eye sockets) that allowed significant overlap in visual fields, providing binocular vision and depth perception. This is characteristic of predators that need to judge distances accurately when pursuing and attacking prey, similar to modern eagles or cats.",
-          es: "Los cráneos de tiranosáuridos muestran órbitas (cuencas oculares) orientadas hacia adelante que permitían superposición significativa en campos visuales, proporcionando visión binocular y percepción de profundidad. Esto es característico de depredadores que necesitan juzgar distancias con precisión al perseguir y atacar presas, similar a águilas o gatos modernos.",
-          de: "Tyrannosauriden-Schädel zeigen nach vorne gerichtete Augenhöhlen, die eine signifikante Überlappung der Sichtfelder ermöglichten, was binokulares Sehen und Tiefenwahrnehmung bot. Dies ist charakteristisch für Raubtiere, die Entfernungen genau einschätzen müssen, wenn sie Beute verfolgen und angreifen, ähnlich modernen Adlern oder Katzen.",
-          nl: "Tyrannosauride schedels tonen naar voren gerichte oogkassen die significante overlap in gezichtsvelden mogelijk maakten, wat binoculair zicht en diepteperceptie bood. Dit is kenmerkend voor roofdieren die afstanden nauwkeurig moeten inschatten bij het achtervolgen en aanvallen van prooi, vergelijkbaar met moderne arenden of katten."
+                  "en": "Yutyrannus huali, from Early Cretaceous China (about 125 million years ago), is the earliest known large tyrannosaurid, reaching 9 meters long. It's also significant as the largest dinosaur known to have direct fossil evidence of feathers.",
+                  "es": "Yutyrannus huali, del Cretácico Temprano de China (hace unos 125 millones de años), es el tiranosáurido grande más antiguo conocido, alcanzando 9 metros de largo. También es significativo como el dinosaurio más grande conocido con evidencia fósil directa de plumas.",
+                  "de": "Yutyrannus huali, aus der frühen Kreidezeit Chinas (vor etwa 125 Millionen Jahren), ist der früheste bekannte große Tyrannosauride und erreichte 9 Meter Länge. Er ist auch bedeutsam als der größte Dinosaurier mit direkten fossilen Beweisen für Federn.",
+                  "nl": "Yutyrannus huali, uit het Vroeg-Krijt van China (ongeveer 125 miljoen jaar geleden), is de vroegst bekende grote tyrannosauride, die 9 meter lang werd. Het is ook significant als de grootste dinosaurus waarvan directe fossiele bewijs van veren bekend is."
         }
       },
       {
         question: {
-          en: "What is the significance of the 'AMNH 5027' specimen in tyrannosaurid research?",
-          es: "¿Cuál es la importancia del espécimen 'AMNH 5027' en la investigación de tiranosáuridos?",
-          de: "Was ist die Bedeutung des Exemplars 'AMNH 5027' in der Tyrannosauriden-Forschung?",
-          nl: "Wat is de betekenis van het 'AMNH 5027' specimen in tyrannosauride onderzoek?"
+                  "en": "What evidence suggests that some tyrannosaurids may have hunted in groups?",
+                  "es": "¿Qué evidencia sugiere que algunos tiranosáuridos pudieron haber cazado en grupos?",
+                  "de": "Welche Beweise deuten darauf hin, dass einige Tyrannosauriden möglicherweise in Gruppen gejagt haben?",
+                  "nl": "Welk bewijs suggereert dat sommige tyrannosauriden mogelijk in groepen jaagden?"
         },
         options: [
-          { en: "First dinosaur fossil ever found", es: "Primer fósil de dinosaurio jamás encontrado", de: "Erstes jemals gefundenes Dinosaurierfossil", nl: "Eerste dinosaurus fossiel ooit gevonden" },
-          { en: "First mounted T. rex skeleton, found by Barnum Brown in 1908", es: "Primer esqueleto de T. rex montado, encontrado por Barnum Brown en 1908", de: "Erstes montiertes T. rex-Skelett, 1908 von Barnum Brown gefunden", nl: "Eerste gemonteerde T. rex skelet, gevonden door Barnum Brown in 1908" },
-          { en: "Only feathered T. rex specimen", es: "Único espécimen de T. rex emplumado", de: "Einziges gefiedertes T. rex-Exemplar", nl: "Enige bevederde T. rex specimen" },
-          { en: "A juvenile specimen", es: "Un espécimen juvenil", de: "Ein juveniles Exemplar", nl: "Een juveniel specimen" }
+        {
+                  "en": "Cave paintings showing group hunting",
+                  "es": "Pinturas rupestres mostrando caza en grupo",
+                  "de": "Höhlenmalereien zeigen Gruppenjagd",
+                  "nl": "Grotschilderingen die groepsjacht tonen"
+        },
+        {
+                  "en": "Modern lizards hunting in packs",
+                  "es": "Lagartos modernos cazando en manadas",
+                  "de": "Moderne Eidechsen jagen in Rudeln",
+                  "nl": "Moderne hagedissen jagen in roedels"
+        },
+        {
+                  "en": "Written records from the Cretaceous period",
+                  "es": "Registros escritos del período Cretácico",
+                  "de": "Schriftliche Aufzeichnungen aus der Kreidezeit",
+                  "nl": "Geschreven verslagen uit het Krijt tijdperk"
+        },
+        {
+                  "en": "Multiple Albertosaurus fossils found together in bone beds",
+                  "es": "Múltiples fósiles de Albertosaurus encontrados juntos en lechos de huesos",
+                  "de": "Mehrere Albertosaurus-Fossilien zusammen in Knochenbetten gefunden",
+                  "nl": "Meerdere Albertosaurus fossielen samen gevonden in botbedden"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Several Albertosaurus bone beds in Alberta, Canada contain multiple individuals of different ages found together. While debated, this suggests possible social behavior or at least aggregation at certain sites, though not necessarily coordinated pack hunting like modern wolves.",
+                  "es": "Varios lechos de huesos de Albertosaurus en Alberta, Canadá contienen múltiples individuos de diferentes edades encontrados juntos. Aunque debatido, esto sugiere posible comportamiento social o al menos agregación en ciertos sitios, aunque no necesariamente caza en manada coordinada como los lobos modernos.",
+                  "de": "Mehrere Albertosaurus-Knochenbetten in Alberta, Kanada, enthalten mehrere Individuen unterschiedlichen Alters, die zusammen gefunden wurden. Obwohl umstritten, deutet dies auf mögliches Sozialverhalten oder zumindest Aggregation an bestimmten Orten hin, wenn auch nicht unbedingt koordinierte Rudeljagd wie bei modernen Wölfen.",
+                  "nl": "Verschillende Albertosaurus botbedden in Alberta, Canada bevatten meerdere individuen van verschillende leeftijden die samen werden gevonden. Hoewel bediscussieerd, suggereert dit mogelijk sociaal gedrag of op zijn minst aggregatie op bepaalde locaties, hoewel niet noodzakelijk gecoördineerde roedeljacht zoals moderne wolven."
+        }
+      },
+      {
+        question: {
+                  "en": "How did Tarbosaurus bataar differ from Tyrannosaurus rex?",
+                  "es": "¿En qué se diferenciaba Tarbosaurus bataar de Tyrannosaurus rex?",
+                  "de": "Wie unterschied sich Tarbosaurus bataar von Tyrannosaurus rex?",
+                  "nl": "Hoe verschilde Tarbosaurus bataar van Tyrannosaurus rex?"
+        },
+        options: [
+        {
+                  "en": "Tarbosaurus was much smaller and had longer arms",
+                  "es": "Tarbosaurus era mucho más pequeño y tenía brazos más largos",
+                  "de": "Tarbosaurus war viel kleiner und hatte längere Arme",
+                  "nl": "Tarbosaurus was veel kleiner en had langere armen"
+        },
+        {
+                  "en": "Tarbosaurus had a narrower skull and slightly smaller build",
+                  "es": "Tarbosaurus tenía un cráneo más estrecho y constitución ligeramente más pequeña",
+                  "de": "Tarbosaurus hatte einen schmaleren Schädel und etwas kleineren Körperbau",
+                  "nl": "Tarbosaurus had een smallere schedel en iets kleinere bouw"
+        },
+        {
+                  "en": "Tarbosaurus was herbivorous",
+                  "es": "Tarbosaurus era herbívoro",
+                  "de": "Tarbosaurus war Pflanzenfresser",
+                  "nl": "Tarbosaurus was herbivoor"
+        },
+        {
+                  "en": "Tarbosaurus had wings",
+                  "es": "Tarbosaurus tenía alas",
+                  "de": "Tarbosaurus hatte Flügel",
+                  "nl": "Tarbosaurus had vleugels"
+        }
         ],
         correct: 1,
         explanation: {
-          en: "AMNH 5027, discovered by legendary fossil hunter Barnum Brown in Montana in 1908, became the first T. rex skeleton ever mounted for display at the American Museum of Natural History. It defined the iconic upright posture (though later shown to be incorrect) and established T. rex as a cultural icon.",
-          es: "AMNH 5027, descubierto por el legendario cazador de fósiles Barnum Brown en Montana en 1908, se convirtió en el primer esqueleto de T. rex montado para exhibición en el Museo Americano de Historia Natural. Definió la postura vertical icónica (aunque luego se demostró incorrecta) y estableció a T. rex como un ícono cultural.",
-          de: "AMNH 5027, 1908 vom legendären Fossiliensammler Barnum Brown in Montana entdeckt, wurde das erste T. rex-Skelett, das im American Museum of Natural History ausgestellt wurde. Es definierte die ikonische aufrechte Haltung (obwohl sich dies später als falsch erwies) und etablierte T. rex als kulturelle Ikone.",
-          nl: "AMNH 5027, ontdekt door legendarische fossielenjager Barnum Brown in Montana in 1908, werd het eerste T. rex skelet ooit gemonteerd voor vertoning in het American Museum of Natural History. Het definieerde de iconische rechtopstaande houding (hoewel later bleek dat dit incorrect was) en vestigde T. rex als cultureel icoon."
+                  "en": "Tarbosaurus bataar, found in Mongolia and China, was a close relative of T. rex. It had a narrower skull, was slightly smaller, and its arms were proportionally even shorter than T. rex. Some scientists consider it closely related enough to be in the same genus.",
+                  "es": "Tarbosaurus bataar, encontrado en Mongolia y China, era un pariente cercano de T. rex. Tenía un cráneo más estrecho, era ligeramente más pequeño, y sus brazos eran proporcionalmente aún más cortos que T. rex. Algunos científicos lo consideran lo suficientemente relacionado como para estar en el mismo género.",
+                  "de": "Tarbosaurus bataar, gefunden in der Mongolei und China, war ein enger Verwandter von T. rex. Er hatte einen schmaleren Schädel, war etwas kleiner, und seine Arme waren proportional noch kürzer als bei T. rex. Einige Wissenschaftler halten ihn für eng genug verwandt, um zur selben Gattung zu gehören.",
+                  "nl": "Tarbosaurus bataar, gevonden in Mongolië en China, was een naaste verwant van T. rex. Het had een smallere schedel, was iets kleiner, en zijn armen waren proportioneel nog korter dan T. rex. Sommige wetenschappers beschouwen het als nauw genoeg verwant om tot hetzelfde geslacht te behoren."
         }
       },
       {
         question: {
-          en: "How did tyrannosaurid tooth replacement compare to modern reptiles?",
-          es: "¿Cómo se comparaba el reemplazo de dientes de tiranosáuridos con los reptiles modernos?",
-          de: "Wie war der Zahnersatz bei Tyrannosauriden im Vergleich zu modernen Reptilien?",
-          nl: "Hoe was de tandvervanging bij tyrannosauriden vergeleken met moderne reptielen?"
+                  "en": "What was unusual about the arms of Tyrannosaurus rex relative to its body size?",
+                  "es": "¿Qué tenía de inusual los brazos de Tyrannosaurus rex en relación con el tamaño de su cuerpo?",
+                  "de": "Was war ungewöhnlich an den Armen von Tyrannosaurus rex im Verhältnis zu seiner Körpergröße?",
+                  "nl": "Wat was ongebruikelijk aan de armen van Tyrannosaurus rex ten opzichte van zijn lichaamsgrootte?"
         },
         options: [
-          { en: "Teeth were never replaced", es: "Los dientes nunca se reemplazaban", de: "Zähne wurden nie ersetzt", nl: "Tanden werden nooit vervangen" },
-          { en: "Teeth were continuously replaced throughout life", es: "Los dientes se reemplazaban continuamente durante toda la vida", de: "Zähne wurden lebenslang kontinuierlich ersetzt", nl: "Tanden werden gedurende het hele leven continu vervangen" },
-          { en: "Only baby teeth, then permanent teeth", es: "Solo dientes de leche, luego dientes permanentes", de: "Nur Milchzähne, dann bleibende Zähne", nl: "Alleen melktanden, daarna blijvende tanden" },
-          { en: "Teeth grew continuously like rodents", es: "Los dientes crecían continuamente como roedores", de: "Zähne wuchsen kontinuierlich wie bei Nagetieren", nl: "Tanden groeiden continu zoals knaagdieren" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Like modern crocodiles and sharks, tyrannosaurids continuously replaced their teeth throughout life. Each tooth socket contained replacement teeth developing beneath the functional tooth, ready to emerge when the old tooth was lost or worn. A T. rex could go through thousands of teeth in its lifetime.",
-          es: "Como los cocodrilos modernos y tiburones, los tiranosáuridos reemplazaban continuamente sus dientes durante toda la vida. Cada alvéolo dental contenía dientes de reemplazo desarrollándose debajo del diente funcional, listos para emerger cuando el diente viejo se perdía o desgastaba. Un T. rex podía pasar por miles de dientes en su vida.",
-          de: "Wie moderne Krokodile und Haie ersetzten Tyrannosauriden ihre Zähne lebenslang kontinuierlich. Jede Zahnhöhle enthielt Ersatzzähne, die sich unter dem funktionellen Zahn entwickelten und bereit waren aufzutauchen, wenn der alte Zahn verloren ging oder abgenutzt war. Ein T. rex konnte in seinem Leben Tausende von Zähnen durchlaufen.",
-          nl: "Net als moderne krokodillen en haaien, vervingen tyrannosauriden hun tanden continu gedurende hun hele leven. Elke tandholte bevatte vervangende tanden die zich ontwikkelden onder de functionele tand, klaar om te verschijnen wanneer de oude tand verloren ging of versleten was. Een T. rex kon duizenden tanden doormaken in zijn leven."
+        {
+                  "en": "They were covered in scales",
+                  "es": "Estaban cubiertos de escamas",
+                  "de": "Sie waren mit Schuppen bedeckt",
+                  "nl": "Ze waren bedekt met schubben"
+        },
+        {
+                  "en": "They had no fingers",
+                  "es": "No tenían dedos",
+                  "de": "Sie hatten keine Finger",
+                  "nl": "Ze hadden geen vingers"
+        },
+        {
+                  "en": "They were proportionally tiny but still powerful",
+                  "es": "Eran proporcionalmente diminutos pero aún poderosos",
+                  "de": "Sie waren proportional winzig, aber dennoch kräftig",
+                  "nl": "Ze waren proportioneel minuscuul maar nog steeds krachtig"
+        },
+        {
+                  "en": "They were proportionally very long",
+                  "es": "Eran proporcionalmente muy largos",
+                  "de": "Sie waren proportional sehr lang",
+                  "nl": "Ze waren proportioneel erg lang"
         }
-      },
-      {
-        question: {
-          en: "What can bone histology reveal about tyrannosaurid physiology?",
-          es: "¿Qué puede revelar la histología ósea sobre la fisiología de los tiranosáuridos?",
-          de: "Was kann Knochenhistologie über Tyrannosauriden-Physiologie enthüllen?",
-          nl: "Wat kan bot histologie onthullen over tyrannosauride fysiologie?"
-        },
-        options: [
-          { en: "Nothing, fossilized bone contains no information", es: "Nada, el hueso fosilizado no contiene información", de: "Nichts, versteinerter Knochen enthält keine Informationen", nl: "Niets, gefossiliseerd bot bevat geen informatie" },
-          { en: "Growth rates, age at death, and metabolic activity", es: "Tasas de crecimiento, edad al morir y actividad metabólica", de: "Wachstumsraten, Todesalter und metabolische Aktivität", nl: "Groeisnelheden, leeftijd bij overlijden en metabolische activiteit" },
-          { en: "Only the color of the dinosaur", es: "Solo el color del dinosaurio", de: "Nur die Farbe des Dinosauriers", nl: "Alleen de kleur van de dinosaurus" },
-          { en: "Only diet information", es: "Solo información sobre la dieta", de: "Nur Ernährungsinformationen", nl: "Alleen dieet informatie" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Bone histology (microscopic bone structure) shows growth lines like tree rings, indicating age and growth patterns. Tyrannosaurid bones show fibrolamellar bone tissue with high vascularity, suggesting rapid growth and high metabolic rates more similar to birds and mammals than to modern cold-blooded reptiles.",
-          es: "La histología ósea (estructura ósea microscópica) muestra líneas de crecimiento como anillos de árboles, indicando edad y patrones de crecimiento. Los huesos de tiranosáuridos muestran tejido óseo fibrolamelar con alta vascularización, sugiriendo crecimiento rápido y tasas metabólicas altas más similares a aves y mamíferos que a reptiles modernos de sangre fría.",
-          de: "Knochenhistologie (mikroskopische Knochenstruktur) zeigt Wachstumslinien wie Baumringe, die Alter und Wachstumsmuster anzeigen. Tyrannosauriden-Knochen zeigen fibrolamellares Knochengewebe mit hoher Vaskularisierung, was auf schnelles Wachstum und hohe Stoffwechselraten hindeutet, die eher Vögeln und Säugetieren ähneln als modernen kaltblütigen Reptilien.",
-          nl: "Bot histologie (microscopische botstructuur) toont groeilijnen zoals boomringen, wat leeftijd en groeipatronen aangeeft. Tyrannosauride botten tonen fibrolamellaar botweefsel met hoge vascularisatie, wat snelle groei en hoge metabolische snelheden suggereert die meer lijken op vogels en zoogdieren dan op moderne koudbloedige reptielen."
-        }
-      },
-      {
-        question: {
-          en: "What was the approximate lifespan of a Tyrannosaurus rex based on growth studies?",
-          es: "¿Cuál era la esperanza de vida aproximada de un Tyrannosaurus rex basándose en estudios de crecimiento?",
-          de: "Was war die ungefähre Lebensdauer eines Tyrannosaurus rex basierend auf Wachstumsstudien?",
-          nl: "Wat was de geschatte levensduur van een Tyrannosaurus rex gebaseerd op groeistudies?"
-        },
-        options: [
-          { en: "10-15 years", es: "10-15 años", de: "10-15 Jahre", nl: "10-15 jaar" },
-          { en: "25-30 years", es: "25-30 años", de: "25-30 Jahre", nl: "25-30 jaar" },
-          { en: "50-60 years", es: "50-60 años", de: "50-60 Jahre", nl: "50-60 jaar" },
-          { en: "Over 100 years", es: "Más de 100 años", de: "Über 100 Jahre", nl: "Meer dan 100 jaar" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Based on growth line analysis in bones, T. rex likely lived 25-30 years, reaching sexual maturity around age 15-18. The oldest known T. rex specimen (Sue) was about 28 years old. Few individuals survived past their prime reproductive years due to the harsh conditions of the Cretaceous.",
-          es: "Basándose en análisis de líneas de crecimiento en huesos, T. rex probablemente vivía 25-30 años, alcanzando madurez sexual alrededor de los 15-18 años. El espécimen de T. rex más antiguo conocido (Sue) tenía alrededor de 28 años. Pocos individuos sobrevivían más allá de sus años reproductivos principales debido a las duras condiciones del Cretácico.",
-          de: "Basierend auf Wachstumslinie-Analysen in Knochen lebte T. rex wahrscheinlich 25-30 Jahre und erreichte die Geschlechtsreife im Alter von etwa 15-18 Jahren. Das älteste bekannte T. rex-Exemplar (Sue) war etwa 28 Jahre alt. Wenige Individuen überlebten über ihre reproduktiven Hauptjahre hinaus aufgrund der harten Bedingungen der Kreidezeit.",
-          nl: "Gebaseerd op groeillijn analyse in botten, leefde T. rex waarschijnlijk 25-30 jaar, bereikend geslachtsrijpheid rond de leeftijd 15-18. Het oudste bekende T. rex specimen (Sue) was ongeveer 28 jaar oud. Weinig individuen overleefden hun beste reproductieve jaren vanwege de harde omstandigheden van het Krijt."
-        }
-      },
-      {
-        question: {
-          en: "Which geographic region has NOT yielded tyrannosaurid fossils?",
-          es: "¿Qué región geográfica NO ha producido fósiles de tiranosáuridos?",
-          de: "Welche geografische Region hat KEINE Tyrannosauriden-Fossilien hervorgebracht?",
-          nl: "Welke geografische regio heeft GEEN tyrannosauride fossielen opgeleverd?"
-        },
-        options: [
-          { en: "North America", es: "Norteamérica", de: "Nordamerika", nl: "Noord-Amerika" },
-          { en: "Asia (China and Mongolia)", es: "Asia (China y Mongolia)", de: "Asien (China und Mongolei)", nl: "Azië (China en Mongolië)" },
-          { en: "South America", es: "Sudamérica", de: "Südamerika", nl: "Zuid-Amerika" },
-          { en: "Western Europe (England)", es: "Europa Occidental (Inglaterra)", de: "Westeuropa (England)", nl: "West-Europa (Engeland)" }
         ],
         correct: 2,
         explanation: {
-          en: "Tyrannosaurids have been found in North America, Asia, and even fragmentary remains in Europe, but never in South America, Africa, Australia, or Antarctica. This distribution reflects the Late Cretaceous northern supercontinent configuration and suggests tyrannosaurids originated in Asia before spreading to North America.",
-          es: "Se han encontrado tiranosáuridos en Norteamérica, Asia, e incluso restos fragmentarios en Europa, pero nunca en Sudamérica, África, Australia o Antártida. Esta distribución refleja la configuración del supercontinente norte del Cretácico Tardío y sugiere que los tiranosáuridos se originaron en Asia antes de extenderse a Norteamérica.",
-          de: "Tyrannosauriden wurden in Nordamerika, Asien und sogar fragmentarische Überreste in Europa gefunden, aber nie in Südamerika, Afrika, Australien oder der Antarktis. Diese Verteilung spiegelt die spätkretazische Nordkontinent-Konfiguration wider und deutet darauf hin, dass Tyrannosauriden in Asien entstanden, bevor sie sich nach Nordamerika ausbreiteten.",
-          nl: "Tyrannosauriden zijn gevonden in Noord-Amerika, Azië, en zelfs fragmentarische resten in Europa, maar nooit in Zuid-Amerika, Afrika, Australië of Antarctica. Deze verspreiding weerspiegelt de Laat-Krijt noordelijk supercontinent configuratie en suggereert dat tyrannosauriden ontstonden in Azië voordat ze zich verspreidden naar Noord-Amerika."
-        }    },
-    {
-      question: {
-        en: "What is Tyrannosaurus Rex?",
-        es: "What is Tyrannosaurus Rex?",
-        de: "What is Tyrannosaurus Rex?",
-        nl: "What is Tyrannosaurus Rex?"
+                  "en": "T. rex arms were only about 1 meter long on a 12-meter body - proportionally tiny. However, studies show they were extremely muscular and could lift over 400 pounds. Their function remains debated - possibly for gripping prey, mating, or pushing up from a resting position.",
+                  "es": "Los brazos de T. rex medían solo alrededor de 1 metro de largo en un cuerpo de 12 metros - proporcionalmente diminutos. Sin embargo, los estudios muestran que eran extremadamente musculosos y podían levantar más de 400 libras. Su función sigue siendo debatida - posiblemente para agarrar presas, apareamiento, o empujarse desde una posición de descanso.",
+                  "de": "T. rex-Arme waren nur etwa 1 Meter lang bei einem 12-Meter-Körper - proportional winzig. Studien zeigen jedoch, dass sie extrem muskulös waren und über 180 kg heben konnten. Ihre Funktion wird noch diskutiert - möglicherweise zum Greifen von Beute, zur Paarung oder zum Aufstehen aus einer Ruheposition.",
+                  "nl": "T. rex armen waren slechts ongeveer 1 meter lang op een 12-meter lichaam - proportioneel minuscuul. Studies tonen echter aan dat ze extreem gespierd waren en meer dan 180 kg konden tillen. Hun functie blijft onderwerp van debat - mogelijk voor het vastgrijpen van prooi, paring, of opstaan vanuit rustpositie."
+        }
       },
-      options: [
-        { en: "Large carnivorous theropod dinosaur", es: "Large carnivorous theropod dinosaur", de: "Large carnivorous theropod dinosaur", nl: "Large carnivorous theropod dinosaur" },
-        { en: "Herbivorous dinosaur", es: "Herbivorous dinosaur", de: "Herbivorous dinosaur", nl: "Herbivorous dinosaur" },
-        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" },
-        { en: "Marine reptile", es: "Marine reptile", de: "Marine reptile", nl: "Marine reptile" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Tyrannosaurus Rex was one of the largest land carnivores ever, living in Late Cretaceous North America.",
-        es: "Tyrannosaurus Rex was one of the largest land carnivores ever, living in Late Cretaceous North America.",
-        de: "Tyrannosaurus Rex was one of the largest land carnivores ever, living in Late Cretaceous North America.",
-        nl: "Tyrannosaurus Rex was one of the largest land carnivores ever, living in Late Cretaceous North America."
-      }
-    },
-    {
-      question: {
-        en: "What does Tyrannosaurus Rex mean?",
-        es: "What does Tyrannosaurus Rex mean?",
-        de: "What does Tyrannosaurus Rex mean?",
-        nl: "What does Tyrannosaurus Rex mean?"
+      {
+        question: {
+                  "en": "What does the presence of medullary bone in some T. rex fossils indicate?",
+                  "es": "¿Qué indica la presencia de hueso medular en algunos fósiles de T. rex?",
+                  "de": "Was zeigt das Vorhandensein von Markknoche in einigen T. rex-Fossilien an?",
+                  "nl": "Wat geeft de aanwezigheid van mergbot in sommige T. rex fossielen aan?"
+        },
+        options: [
+        {
+                  "en": "The dinosaur was a pregnant or egg-laying female",
+                  "es": "El dinosaurio era una hembra embarazada o poniendo huevos",
+                  "de": "Der Dinosaurier war ein schwangeres oder eierlegendes Weibchen",
+                  "nl": "De dinosaurus was een zwangere of eieren leggende vrouw"
+        },
+        {
+                  "en": "The dinosaur was very old",
+                  "es": "El dinosaurio era muy viejo",
+                  "de": "Der Dinosaurier war sehr alt",
+                  "nl": "De dinosaurus was erg oud"
+        },
+        {
+                  "en": "The dinosaur was male",
+                  "es": "El dinosaurio era macho",
+                  "de": "Der Dinosaurier war männlich",
+                  "nl": "De dinosaurus was mannelijk"
+        },
+        {
+                  "en": "The dinosaur was diseased",
+                  "es": "El dinosaurio estaba enfermo",
+                  "de": "Der Dinosaurier war krank",
+                  "nl": "De dinosaurus was ziek"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Medullary bone is a special calcium-rich bone tissue found only in female birds during egg-laying, as it provides calcium for eggshells. Its discovery in T. rex and other dinosaurs proves the specimen was female and likely in breeding condition, providing one of the few ways to determine dinosaur sex.",
+                  "es": "El hueso medular es un tejido óseo especial rico en calcio que se encuentra solo en aves hembras durante la puesta de huevos, ya que proporciona calcio para las cáscaras de huevo. Su descubrimiento en T. rex y otros dinosaurios prueba que el espécimen era hembra y probablemente en condición reproductiva, proporcionando una de las pocas formas de determinar el sexo de los dinosaurios.",
+                  "de": "Markknochen ist ein spezielles kalziumreiches Knochengewebe, das nur bei weiblichen Vögeln während der Eiablage vorkommt, da es Kalzium für Eierschalen liefert. Seine Entdeckung bei T. rex und anderen Dinosauriern beweist, dass das Exemplar weiblich und wahrscheinlich in Brutkondition war, und bietet eine der wenigen Möglichkeiten, das Geschlecht von Dinosauriern zu bestimmen.",
+                  "nl": "Mergbot is een speciaal calciumrijk botweefsel dat alleen wordt gevonden bij vrouwelijke vogels tijdens het leggen van eieren, omdat het calcium levert voor eierschalen. De ontdekking ervan in T. rex en andere dinosauriërs bewijst dat het specimen vrouwelijk was en waarschijnlijk in broedconditie, wat een van de weinige manieren biedt om het geslacht van dinosauriërs te bepalen."
+        }
       },
-      options: [
-        { en: "Tyrant Lizard King", es: "Tyrant Lizard King", de: "Tyrant Lizard King", nl: "Tyrant Lizard King" },
-        { en: "Terrible Lizard", es: "Terrible Lizard", de: "Terrible Lizard", nl: "Terrible Lizard" },
-        { en: "Giant Reptile", es: "Giant Reptile", de: "Giant Reptile", nl: "Giant Reptile" },
-        { en: "Ancient Beast", es: "Ancient Beast", de: "Ancient Beast", nl: "Ancient Beast" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Tyrannosaurus Rex means 'Tyrant Lizard King' in Greek and Latin.",
-        es: "Tyrannosaurus Rex means 'Tyrant Lizard King' in Greek and Latin.",
-        de: "Tyrannosaurus Rex means 'Tyrant Lizard King' in Greek and Latin.",
-        nl: "Tyrannosaurus Rex means 'Tyrant Lizard King' in Greek and Latin."
-      }
-    },
-    {
-      question: {
-        en: "How long was T-Rex?",
-        es: "How long was T-Rex?",
-        de: "How long was T-Rex?",
-        nl: "How long was T-Rex?"
+      {
+        question: {
+                  "en": "Which tyrannosaurid is known from the most fossil specimens, providing insights into growth and variation?",
+                  "es": "¿Qué tiranosáurido se conoce por la mayoría de especímenes fósiles, proporcionando información sobre crecimiento y variación?",
+                  "de": "Welcher Tyrannosauride ist aus den meisten fossilen Exemplaren bekannt und liefert Einblicke in Wachstum und Variation?",
+                  "nl": "Welke tyrannosauride is bekend van de meeste fossiele specimens, wat inzichten geeft in groei en variatie?"
+        },
+        options: [
+        {
+                  "en": "Daspletosaurus torosus",
+                  "es": "Daspletosaurus torosus",
+                  "de": "Daspletosaurus torosus",
+                  "nl": "Daspletosaurus torosus"
+        },
+        {
+                  "en": "Tyrannosaurus rex",
+                  "es": "Tyrannosaurus rex",
+                  "de": "Tyrannosaurus rex",
+                  "nl": "Tyrannosaurus rex"
+        },
+        {
+                  "en": "Gorgosaurus libratus",
+                  "es": "Gorgosaurus libratus",
+                  "de": "Gorgosaurus libratus",
+                  "nl": "Gorgosaurus libratus"
+        },
+        {
+                  "en": "Albertosaurus sarcophagus",
+                  "es": "Albertosaurus sarcophagus",
+                  "de": "Albertosaurus sarcophagus",
+                  "nl": "Albertosaurus sarcophagus"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "While T. rex is most famous, Albertosaurus sarcophagus is known from the most specimens - including bone beds with multiple individuals. This abundance has made it particularly valuable for studying tyrannosaurid growth patterns, population structure, and individual variation.",
+                  "es": "Aunque T. rex es más famoso, Albertosaurus sarcophagus se conoce por la mayoría de especímenes - incluyendo lechos de huesos con múltiples individuos. Esta abundancia lo ha hecho particularmente valioso para estudiar patrones de crecimiento de tiranosáuridos, estructura poblacional y variación individual.",
+                  "de": "Während T. rex am berühmtesten ist, ist Albertosaurus sarcophagus aus den meisten Exemplaren bekannt - einschließlich Knochenbetten mit mehreren Individuen. Diese Fülle hat ihn besonders wertvoll für das Studium von Tyrannosauriden-Wachstumsmustern, Populationsstruktur und individueller Variation gemacht.",
+                  "nl": "Hoewel T. rex het beroemdst is, is Albertosaurus sarcophagus bekend van de meeste specimens - inclusief botbedden met meerdere individuen. Deze overvloed heeft het bijzonder waardevol gemaakt voor het bestuderen van tyrannosauride groeipatronen, populatiestructuur en individuele variatie."
+        }
       },
-      options: [
-        { en: "About 40 feet", es: "About 40 feet", de: "About 40 feet", nl: "About 40 feet" },
-        { en: "About 20 feet", es: "About 20 feet", de: "About 20 feet", nl: "About 20 feet" },
-        { en: "About 80 feet", es: "About 80 feet", de: "About 80 feet", nl: "About 80 feet" },
-        { en: "About 100 feet", es: "About 100 feet", de: "About 100 feet", nl: "About 100 feet" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "T-Rex measured about 40 feet from nose to tail.",
-        es: "T-Rex measured about 40 feet from nose to tail.",
-        de: "T-Rex measured about 40 feet from nose to tail.",
-        nl: "T-Rex measured about 40 feet from nose to tail."
-      }
-    },
-    {
-      question: {
-        en: "What was T-Rex's bite force?",
-        es: "What was T-Rex's bite force?",
-        de: "What was T-Rex's bite force?",
-        nl: "What was T-Rex's bite force?"
+      {
+        question: {
+                  "en": "What was Gorgosaurus's primary hunting strategy based on its skeletal features?",
+                  "es": "¿Cuál era la estrategia de caza principal de Gorgosaurus basada en sus características esqueléticas?",
+                  "de": "Was war die primäre Jagdstrategie von Gorgosaurus basierend auf seinen Skelettmerkmalen?",
+                  "nl": "Wat was de primaire jachtstrategie van Gorgosaurus gebaseerd op zijn skeletkenmerken?"
+        },
+        options: [
+        {
+                  "en": "Pursuit predator with long, powerful legs for running",
+                  "es": "Depredador de persecución con piernas largas y poderosas para correr",
+                  "de": "Verfolgungsjäger mit langen, kräftigen Beinen zum Laufen",
+                  "nl": "Achtervolging roofdier met lange, krachtige benen voor rennen"
+        },
+        {
+                  "en": "Ambush predator relying on camouflage",
+                  "es": "Depredador de emboscada confiando en camuflaje",
+                  "de": "Hinterhaltjäger, der auf Tarnung vertraut",
+                  "nl": "Hinderlaag roofdier dat vertrouwt op camouflage"
+        },
+        {
+                  "en": "Fishing specialist",
+                  "es": "Especialista en pesca",
+                  "de": "Fischerei-Spezialist",
+                  "nl": "Visserij specialist"
+        },
+        {
+                  "en": "Scavenger only",
+                  "es": "Solo carroñero",
+                  "de": "Nur Aasfresser",
+                  "nl": "Alleen aaseter"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Gorgosaurus had proportionally longer legs and a lighter build compared to later tyrannosaurids like T. rex, suggesting it was a more active pursuit predator. Its skeleton indicates it could run faster and was more agile, likely hunting hadrosaurs and ceratopsians in Cretaceous Alberta.",
+                  "es": "Gorgosaurus tenía piernas proporcionalmente más largas y constitución más ligera comparado con tiranosáuridos posteriores como T. rex, sugiriendo que era un depredador de persecución más activo. Su esqueleto indica que podía correr más rápido y era más ágil, probablemente cazando hadrosaurios y ceratopsios en el Cretácico de Alberta.",
+                  "de": "Gorgosaurus hatte proportional längere Beine und einen leichteren Körperbau im Vergleich zu späteren Tyrannosauriden wie T. rex, was darauf hindeutet, dass er ein aktiverer Verfolgungsjäger war. Sein Skelett zeigt, dass er schneller laufen konnte und agiler war, wahrscheinlich Hadrosaurier und Ceratopsier im Kreidezeitlichen Alberta jagte.",
+                  "nl": "Gorgosaurus had proportioneel langere benen en een lichtere bouw vergeleken met latere tyrannosauriden zoals T. rex, wat suggereert dat het een actiever achtervolging roofdier was. Zijn skelet geeft aan dat het sneller kon rennen en wendbaarder was, waarschijnlijk jagend op hadrosaurs en ceratopsians in het Krijt Alberta."
+        }
       },
-      options: [
-        { en: "Strongest of any land animal, ~12,800 pounds", es: "Strongest of any land animal, ~12,800 pounds", de: "Strongest of any land animal, ~12,800 pounds", nl: "Strongest of any land animal, ~12,800 pounds" },
-        { en: "Weak bite", es: "Weak bite", de: "Weak bite", nl: "Weak bite" },
-        { en: "Moderate bite", es: "Moderate bite", de: "Moderate bite", nl: "Moderate bite" },
-        { en: "Unknown", es: "Unknown", de: "Unknown", nl: "Unknown" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "T-Rex had the strongest bite force of any land animal, estimated at over 12,800 pounds.",
-        es: "T-Rex had the strongest bite force of any land animal, estimated at over 12,800 pounds.",
-        de: "T-Rex had the strongest bite force of any land animal, estimated at over 12,800 pounds.",
-        nl: "T-Rex had the strongest bite force of any land animal, estimated at over 12,800 pounds."
-      }
-    },
-    {
-      question: {
-        en: "What is the T-Rex family called?",
-        es: "What is the T-Rex family called?",
-        de: "What is the T-Rex family called?",
-        nl: "What is the T-Rex family called?"
+      {
+        question: {
+                  "en": "What role did the large temporal fenestrae (skull openings) play in tyrannosaurid skulls?",
+                  "es": "¿Qué papel desempeñaban las grandes fenestras temporales (aberturas del cráneo) en los cráneos de tiranosáuridos?",
+                  "de": "Welche Rolle spielten die großen temporalen Fenestrae (Schädelöffnungen) in Tyrannosauriden-Schädeln?",
+                  "nl": "Welke rol speelden de grote temporale fenestrae (schedel openingen) in tyrannosauride schedels?"
+        },
+        options: [
+        {
+                  "en": "They were for breathing",
+                  "es": "Eran para respirar",
+                  "de": "Sie waren zum Atmen",
+                  "nl": "Ze waren voor ademhaling"
+        },
+        {
+                  "en": "They served no purpose",
+                  "es": "No servían ningún propósito",
+                  "de": "Sie hatten keinen Zweck",
+                  "nl": "Ze dienden geen doel"
+        },
+        {
+                  "en": "They reduced skull weight and provided attachment points for jaw muscles",
+                  "es": "Reducían el peso del cráneo y proporcionaban puntos de anclaje para músculos de la mandíbula",
+                  "de": "Sie reduzierten das Schädelgewicht und boten Ansatzpunkte für Kiefermuskeln",
+                  "nl": "Ze verminderden het schedelgewicht en boden aanhechtingspunten voor kaakspieren"
+        },
+        {
+                  "en": "They housed extra brain tissue",
+                  "es": "Alojaban tejido cerebral adicional",
+                  "de": "Sie beherbergten zusätzliches Gehirngewebe",
+                  "nl": "Ze huisvestten extra hersenweefsel"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "The large temporal fenestrae (openings behind the eyes) served dual purposes: reducing skull weight while maintaining strength, and providing large surface areas for powerful jaw-closing muscles to attach. This design allowed tyrannosaurids to have both strong, light skulls and tremendous bite force.",
+                  "es": "Las grandes fenestras temporales (aberturas detrás de los ojos) servían propósitos duales: reducir el peso del cráneo mientras mantenían la fuerza, y proporcionar grandes áreas de superficie para que los poderosos músculos de cierre de mandíbula se anclen. Este diseño permitía a los tiranosáuridos tener tanto cráneos fuertes y ligeros como tremenda fuerza de mordida.",
+                  "de": "Die großen temporalen Fenestrae (Öffnungen hinter den Augen) dienten zwei Zwecken: Reduzierung des Schädelgewichts bei Beibehaltung der Stärke und Bereitstellung großer Oberflächen für die Befestigung kräftiger Kieferschlussmuskeln. Dieses Design ermöglichte es Tyrannosauriden, sowohl starke, leichte Schädel als auch enorme Beißkraft zu haben.",
+                  "nl": "De grote temporale fenestrae (openingen achter de ogen) dienden twee doelen: vermindering van schedelgewicht met behoud van sterkte, en het bieden van grote oppervlakten voor krachtige kaaksluitspieren om aan te hechten. Dit ontwerp stelde tyrannosauriden in staat om zowel sterke, lichte schedels als enorme bijtkracht te hebben."
+        }
       },
-      options: [
-        { en: "Tyrannosauridae", es: "Tyrannosauridae", de: "Tyrannosauridae", nl: "Tyrannosauridae" },
-        { en: "Allosauridae", es: "Allosauridae", de: "Allosauridae", nl: "Allosauridae" },
-        { en: "Spinosauridae", es: "Spinosauridae", de: "Spinosauridae", nl: "Spinosauridae" },
-        { en: "Theropoda only", es: "Theropoda only", de: "Theropoda only", nl: "Theropoda only" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The T-Rex belongs to the family Tyrannosauridae.",
-        es: "The T-Rex belongs to the family Tyrannosauridae.",
-        de: "The T-Rex belongs to the family Tyrannosauridae.",
-        nl: "The T-Rex belongs to the family Tyrannosauridae."
-      }
-    },
-    {
-      question: {
-        en: "What is Albertosaurus?",
-        es: "What is Albertosaurus?",
-        de: "What is Albertosaurus?",
-        nl: "What is Albertosaurus?"
+      {
+        question: {
+                  "en": "How did Daspletosaurus differ from other albertosaurine tyrannosaurids?",
+                  "es": "¿En qué se diferenciaba Daspletosaurus de otros tiranosáuridos albertosaurinos?",
+                  "de": "Wie unterschied sich Daspletosaurus von anderen albertosaurinen Tyrannosauriden?",
+                  "nl": "Hoe verschilde Daspletosaurus van andere albertosaurine tyrannosauriden?"
+        },
+        options: [
+        {
+                  "en": "It was more heavily built and robust, with a deeper skull",
+                  "es": "Era de constitución más pesada y robusta, con un cráneo más profundo",
+                  "de": "Er war schwerer gebaut und robuster, mit einem tieferen Schädel",
+                  "nl": "Het was zwaarder gebouwd en robuuster, met een diepere schedel"
+        },
+        {
+                  "en": "It was herbivorous",
+                  "es": "Era herbívoro",
+                  "de": "Er war Pflanzenfresser",
+                  "nl": "Het was herbivoor"
+        },
+        {
+                  "en": "It was smaller and faster",
+                  "es": "Era más pequeño y rápido",
+                  "de": "Er war kleiner und schneller",
+                  "nl": "Het was kleiner en sneller"
+        },
+        {
+                  "en": "It lived in water",
+                  "es": "Vivía en el agua",
+                  "de": "Er lebte im Wasser",
+                  "nl": "Het leefde in water"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Daspletosaurus ('frightful lizard') was more heavily built than its relatives Gorgosaurus and Albertosaurus, with a deeper, more robust skull and stronger bite. It likely hunted larger, more dangerous prey like ceratopsians, and showed adaptations toward the heavy-duty predatory style of T. rex.",
+                  "es": "Daspletosaurus ('lagarto espantoso') era de constitución más pesada que sus parientes Gorgosaurus y Albertosaurus, con un cráneo más profundo y robusto y mordida más fuerte. Probablemente cazaba presas más grandes y peligrosas como ceratopsios, y mostraba adaptaciones hacia el estilo depredador de servicio pesado de T. rex.",
+                  "de": "Daspletosaurus ('schreckliche Echse') war schwerer gebaut als seine Verwandten Gorgosaurus und Albertosaurus, mit einem tieferen, robusteren Schädel und stärkerem Biss. Er jagte wahrscheinlich größere, gefährlichere Beute wie Ceratopsier und zeigte Anpassungen zum schweren Raubtierstil von T. rex.",
+                  "nl": "Daspletosaurus ('angstaanjagende hagedis') was zwaarder gebouwd dan zijn verwanten Gorgosaurus en Albertosaurus, met een diepere, robuustere schedel en sterkere beet. Het jaagde waarschijnlijk op grotere, gevaarlijkere prooi zoals ceratopsians, en vertoonde aanpassingen richting de zware roofdier stijl van T. rex."
+        }
       },
-      options: [
-        { en: "Smaller relative of T-Rex", es: "Smaller relative of T-Rex", de: "Smaller relative of T-Rex", nl: "Smaller relative of T-Rex" },
-        { en: "Larger than T-Rex", es: "Larger than T-Rex", de: "Larger than T-Rex", nl: "Larger than T-Rex" },
-        { en: "Herbivore", es: "Herbivore", de: "Herbivore", nl: "Herbivore" },
-        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Albertosaurus was a smaller tyrannosaurid, about 30 feet long, from Late Cretaceous Canada.",
-        es: "Albertosaurus was a smaller tyrannosaurid, about 30 feet long, from Late Cretaceous Canada.",
-        de: "Albertosaurus was a smaller tyrannosaurid, about 30 feet long, from Late Cretaceous Canada.",
-        nl: "Albertosaurus was a smaller tyrannosaurid, about 30 feet long, from Late Cretaceous Canada."
-      }
-    },
-    {
-      question: {
-        en: "How many fingers did T-Rex have?",
-        es: "How many fingers did T-Rex have?",
-        de: "How many fingers did T-Rex have?",
-        nl: "How many fingers did T-Rex have?"
+      {
+        question: {
+                  "en": "What evidence suggests tyrannosaurids had binocular vision?",
+                  "es": "¿Qué evidencia sugiere que los tiranosáuridos tenían visión binocular?",
+                  "de": "Welche Beweise deuten darauf hin, dass Tyrannosauriden binokulares Sehen hatten?",
+                  "nl": "Welk bewijs suggereert dat tyrannosauriden binoculair zicht hadden?"
+        },
+        options: [
+        {
+                  "en": "Compound eyes like insects",
+                  "es": "Ojos compuestos como insectos",
+                  "de": "Facettenaugen wie Insekten",
+                  "nl": "Samengestelde ogen zoals insecten"
+        },
+        {
+                  "en": "No eyes, relied on smell only",
+                  "es": "Sin ojos, solo confiaban en el olfato",
+                  "de": "Keine Augen, verließen sich nur auf Geruch",
+                  "nl": "Geen ogen, vertrouwde alleen op reuk"
+        },
+        {
+                  "en": "Forward-facing eyes with overlapping visual fields",
+                  "es": "Ojos orientados hacia adelante con campos visuales superpuestos",
+                  "de": "Nach vorne gerichtete Augen mit überlappenden Sichtfeldern",
+                  "nl": "Naar voren gerichte ogen met overlappende gezichtsvelden"
+        },
+        {
+                  "en": "Eyes on sides of head like horses",
+                  "es": "Ojos a los lados de la cabeza como caballos",
+                  "de": "Augen an den Seiten des Kopfes wie Pferde",
+                  "nl": "Ogen aan de zijkanten van het hoofd zoals paarden"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Tyrannosaurid skulls show forward-facing orbits (eye sockets) that allowed significant overlap in visual fields, providing binocular vision and depth perception. This is characteristic of predators that need to judge distances accurately when pursuing and attacking prey, similar to modern eagles or cats.",
+                  "es": "Los cráneos de tiranosáuridos muestran órbitas (cuencas oculares) orientadas hacia adelante que permitían superposición significativa en campos visuales, proporcionando visión binocular y percepción de profundidad. Esto es característico de depredadores que necesitan juzgar distancias con precisión al perseguir y atacar presas, similar a águilas o gatos modernos.",
+                  "de": "Tyrannosauriden-Schädel zeigen nach vorne gerichtete Augenhöhlen, die eine signifikante Überlappung der Sichtfelder ermöglichten, was binokulares Sehen und Tiefenwahrnehmung bot. Dies ist charakteristisch für Raubtiere, die Entfernungen genau einschätzen müssen, wenn sie Beute verfolgen und angreifen, ähnlich modernen Adlern oder Katzen.",
+                  "nl": "Tyrannosauride schedels tonen naar voren gerichte oogkassen die significante overlap in gezichtsvelden mogelijk maakten, wat binoculair zicht en diepteperceptie bood. Dit is kenmerkend voor roofdieren die afstanden nauwkeurig moeten inschatten bij het achtervolgen en aanvallen van prooi, vergelijkbaar met moderne arenden of katten."
+        }
       },
-      options: [
-        { en: "Two", es: "Two", de: "Two", nl: "Two" },
-        { en: "Three", es: "Three", de: "Three", nl: "Three" },
-        { en: "Four", es: "Four", de: "Four", nl: "Four" },
-        { en: "Five", es: "Five", de: "Five", nl: "Five" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "T-Rex had only two functional fingers on each tiny arm.",
-        es: "T-Rex had only two functional fingers on each tiny arm.",
-        de: "T-Rex had only two functional fingers on each tiny arm.",
-        nl: "T-Rex had only two functional fingers on each tiny arm."
-      }
-    },
-    {
-      question: {
-        en: "What is Tarbosaurus?",
-        es: "What is Tarbosaurus?",
-        de: "What is Tarbosaurus?",
-        nl: "What is Tarbosaurus?"
+      {
+        question: {
+                  "en": "What is the significance of the 'AMNH 5027' specimen in tyrannosaurid research?",
+                  "es": "¿Cuál es la importancia del espécimen 'AMNH 5027' en la investigación de tiranosáuridos?",
+                  "de": "Was ist die Bedeutung des Exemplars 'AMNH 5027' in der Tyrannosauriden-Forschung?",
+                  "nl": "Wat is de betekenis van het 'AMNH 5027' specimen in tyrannosauride onderzoek?"
+        },
+        options: [
+        {
+                  "en": "Only feathered T. rex specimen",
+                  "es": "Único espécimen de T. rex emplumado",
+                  "de": "Einziges gefiedertes T. rex-Exemplar",
+                  "nl": "Enige bevederde T. rex specimen"
+        },
+        {
+                  "en": "First dinosaur fossil ever found",
+                  "es": "Primer fósil de dinosaurio jamás encontrado",
+                  "de": "Erstes jemals gefundenes Dinosaurierfossil",
+                  "nl": "Eerste dinosaurus fossiel ooit gevonden"
+        },
+        {
+                  "en": "First mounted T. rex skeleton, found by Barnum Brown in 1908",
+                  "es": "Primer esqueleto de T. rex montado, encontrado por Barnum Brown en 1908",
+                  "de": "Erstes montiertes T. rex-Skelett, 1908 von Barnum Brown gefunden",
+                  "nl": "Eerste gemonteerde T. rex skelet, gevonden door Barnum Brown in 1908"
+        },
+        {
+                  "en": "A juvenile specimen",
+                  "es": "Un espécimen juvenil",
+                  "de": "Ein juveniles Exemplar",
+                  "nl": "Een juveniel specimen"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "AMNH 5027, discovered by legendary fossil hunter Barnum Brown in Montana in 1908, became the first T. rex skeleton ever mounted for display at the American Museum of Natural History. It defined the iconic upright posture (though later shown to be incorrect) and established T. rex as a cultural icon.",
+                  "es": "AMNH 5027, descubierto por el legendario cazador de fósiles Barnum Brown en Montana en 1908, se convirtió en el primer esqueleto de T. rex montado para exhibición en el Museo Americano de Historia Natural. Definió la postura vertical icónica (aunque luego se demostró incorrecta) y estableció a T. rex como un ícono cultural.",
+                  "de": "AMNH 5027, 1908 vom legendären Fossiliensammler Barnum Brown in Montana entdeckt, wurde das erste T. rex-Skelett, das im American Museum of Natural History ausgestellt wurde. Es definierte die ikonische aufrechte Haltung (obwohl sich dies später als falsch erwies) und etablierte T. rex als kulturelle Ikone.",
+                  "nl": "AMNH 5027, ontdekt door legendarische fossielenjager Barnum Brown in Montana in 1908, werd het eerste T. rex skelet ooit gemonteerd voor vertoning in het American Museum of Natural History. Het definieerde de iconische rechtopstaande houding (hoewel later bleek dat dit incorrect was) en vestigde T. rex als cultureel icoon."
+        }
       },
-      options: [
-        { en: "Asian relative of T-Rex", es: "Asian relative of T-Rex", de: "Asian relative of T-Rex", nl: "Asian relative of T-Rex" },
-        { en: "African T-Rex", es: "African T-Rex", de: "African T-Rex", nl: "African T-Rex" },
-        { en: "South American T-Rex", es: "South American T-Rex", de: "South American T-Rex", nl: "South American T-Rex" },
-        { en: "Australian T-Rex", es: "Australian T-Rex", de: "Australian T-Rex", nl: "Australian T-Rex" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Tarbosaurus was a close Asian relative of T-Rex from Mongolia, nearly as large.",
-        es: "Tarbosaurus was a close Asian relative of T-Rex from Mongolia, nearly as large.",
-        de: "Tarbosaurus was a close Asian relative of T-Rex from Mongolia, nearly as large.",
-        nl: "Tarbosaurus was a close Asian relative of T-Rex from Mongolia, nearly as large."
-      }
-    },
-    {
-      question: {
-        en: "Were T-Rex arms useless?",
-        es: "Were T-Rex arms useless?",
-        de: "Were T-Rex arms useless?",
-        nl: "Were T-Rex arms useless?"
+      {
+        question: {
+                  "en": "How did tyrannosaurid tooth replacement compare to modern reptiles?",
+                  "es": "¿Cómo se comparaba el reemplazo de dientes de tiranosáuridos con los reptiles modernos?",
+                  "de": "Wie war der Zahnersatz bei Tyrannosauriden im Vergleich zu modernen Reptilien?",
+                  "nl": "Hoe was de tandvervanging bij tyrannosauriden vergeleken met moderne reptielen?"
+        },
+        options: [
+        {
+                  "en": "Teeth grew continuously like rodents",
+                  "es": "Los dientes crecían continuamente como roedores",
+                  "de": "Zähne wuchsen kontinuierlich wie bei Nagetieren",
+                  "nl": "Tanden groeiden continu zoals knaagdieren"
+        },
+        {
+                  "en": "Teeth were never replaced",
+                  "es": "Los dientes nunca se reemplazaban",
+                  "de": "Zähne wurden nie ersetzt",
+                  "nl": "Tanden werden nooit vervangen"
+        },
+        {
+                  "en": "Teeth were continuously replaced throughout life",
+                  "es": "Los dientes se reemplazaban continuamente durante toda la vida",
+                  "de": "Zähne wurden lebenslang kontinuierlich ersetzt",
+                  "nl": "Tanden werden gedurende het hele leven continu vervangen"
+        },
+        {
+                  "en": "Only baby teeth, then permanent teeth",
+                  "es": "Solo dientes de leche, luego dientes permanentes",
+                  "de": "Nur Milchzähne, dann bleibende Zähne",
+                  "nl": "Alleen melktanden, daarna blijvende tanden"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Like modern crocodiles and sharks, tyrannosaurids continuously replaced their teeth throughout life. Each tooth socket contained replacement teeth developing beneath the functional tooth, ready to emerge when the old tooth was lost or worn. A T. rex could go through thousands of teeth in its lifetime.",
+                  "es": "Como los cocodrilos modernos y tiburones, los tiranosáuridos reemplazaban continuamente sus dientes durante toda la vida. Cada alvéolo dental contenía dientes de reemplazo desarrollándose debajo del diente funcional, listos para emerger cuando el diente viejo se perdía o desgastaba. Un T. rex podía pasar por miles de dientes en su vida.",
+                  "de": "Wie moderne Krokodile und Haie ersetzten Tyrannosauriden ihre Zähne lebenslang kontinuierlich. Jede Zahnhöhle enthielt Ersatzzähne, die sich unter dem funktionellen Zahn entwickelten und bereit waren aufzutauchen, wenn der alte Zahn verloren ging oder abgenutzt war. Ein T. rex konnte in seinem Leben Tausende von Zähnen durchlaufen.",
+                  "nl": "Net als moderne krokodillen en haaien, vervingen tyrannosauriden hun tanden continu gedurende hun hele leven. Elke tandholte bevatte vervangende tanden die zich ontwikkelden onder de functionele tand, klaar om te verschijnen wanneer de oude tand verloren ging of versleten was. Een T. rex kon duizenden tanden doormaken in zijn leven."
+        }
       },
-      options: [
-        { en: "No, likely used for grasping", es: "No, likely used for grasping", de: "No, likely used for grasping", nl: "No, likely used for grasping" },
-        { en: "Yes, completely useless", es: "Yes, completely useless", de: "Yes, completely useless", nl: "Yes, completely useless" },
-        { en: "Used for flying", es: "Used for flying", de: "Used for flying", nl: "Used for flying" },
-        { en: "Used for walking", es: "Used for walking", de: "Used for walking", nl: "Used for walking" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "T-Rex arms, though small, were muscular and likely used for grasping prey or mates.",
-        es: "T-Rex arms, though small, were muscular and likely used for grasping prey or mates.",
-        de: "T-Rex arms, though small, were muscular and likely used for grasping prey or mates.",
-        nl: "T-Rex arms, though small, were muscular and likely used for grasping prey or mates."
-      }
-    },
-    {
-      question: {
-        en: "What is Daspletosaurus?",
-        es: "What is Daspletosaurus?",
-        de: "What is Daspletosaurus?",
-        nl: "What is Daspletosaurus?"
+      {
+        question: {
+                  "en": "What can bone histology reveal about tyrannosaurid physiology?",
+                  "es": "¿Qué puede revelar la histología ósea sobre la fisiología de los tiranosáuridos?",
+                  "de": "Was kann Knochenhistologie über Tyrannosauriden-Physiologie enthüllen?",
+                  "nl": "Wat kan bot histologie onthullen over tyrannosauride fysiologie?"
+        },
+        options: [
+        {
+                  "en": "Only diet information",
+                  "es": "Solo información sobre la dieta",
+                  "de": "Nur Ernährungsinformationen",
+                  "nl": "Alleen dieet informatie"
+        },
+        {
+                  "en": "Growth rates, age at death, and metabolic activity",
+                  "es": "Tasas de crecimiento, edad al morir y actividad metabólica",
+                  "de": "Wachstumsraten, Todesalter und metabolische Aktivität",
+                  "nl": "Groeisnelheden, leeftijd bij overlijden en metabolische activiteit"
+        },
+        {
+                  "en": "Only the color of the dinosaur",
+                  "es": "Solo el color del dinosaurio",
+                  "de": "Nur die Farbe des Dinosauriers",
+                  "nl": "Alleen de kleur van de dinosaurus"
+        },
+        {
+                  "en": "Nothing, fossilized bone contains no information",
+                  "es": "Nada, el hueso fosilizado no contiene información",
+                  "de": "Nichts, versteinerter Knochen enthält keine Informationen",
+                  "nl": "Niets, gefossiliseerd bot bevat geen informatie"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Bone histology (microscopic bone structure) shows growth lines like tree rings, indicating age and growth patterns. Tyrannosaurid bones show fibrolamellar bone tissue with high vascularity, suggesting rapid growth and high metabolic rates more similar to birds and mammals than to modern cold-blooded reptiles.",
+                  "es": "La histología ósea (estructura ósea microscópica) muestra líneas de crecimiento como anillos de árboles, indicando edad y patrones de crecimiento. Los huesos de tiranosáuridos muestran tejido óseo fibrolamelar con alta vascularización, sugiriendo crecimiento rápido y tasas metabólicas altas más similares a aves y mamíferos que a reptiles modernos de sangre fría.",
+                  "de": "Knochenhistologie (mikroskopische Knochenstruktur) zeigt Wachstumslinien wie Baumringe, die Alter und Wachstumsmuster anzeigen. Tyrannosauriden-Knochen zeigen fibrolamellares Knochengewebe mit hoher Vaskularisierung, was auf schnelles Wachstum und hohe Stoffwechselraten hindeutet, die eher Vögeln und Säugetieren ähneln als modernen kaltblütigen Reptilien.",
+                  "nl": "Bot histologie (microscopische botstructuur) toont groeilijnen zoals boomringen, wat leeftijd en groeipatronen aangeeft. Tyrannosauride botten tonen fibrolamellaar botweefsel met hoge vascularisatie, wat snelle groei en hoge metabolische snelheden suggereert die meer lijken op vogels en zoogdieren dan op moderne koudbloedige reptielen."
+        }
       },
-      options: [
-        { en: "Large tyrannosaurid related to T-Rex", es: "Large tyrannosaurid related to T-Rex", de: "Large tyrannosaurid related to T-Rex", nl: "Large tyrannosaurid related to T-Rex" },
-        { en: "Small tyrannosaur", es: "Small tyrannosaur", de: "Small tyrannosaur", nl: "Small tyrannosaur" },
-        { en: "Herbivore", es: "Herbivore", de: "Herbivore", nl: "Herbivore" },
-        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Daspletosaurus was a large tyrannosaurid from Late Cretaceous North America, closely related to T-Rex.",
-        es: "Daspletosaurus was a large tyrannosaurid from Late Cretaceous North America, closely related to T-Rex.",
-        de: "Daspletosaurus was a large tyrannosaurid from Late Cretaceous North America, closely related to T-Rex.",
-        nl: "Daspletosaurus was a large tyrannosaurid from Late Cretaceous North America, closely related to T-Rex."
-      }
-    },
-    {
-      question: {
-        en: "What did T-Rex eat?",
-        es: "What did T-Rex eat?",
-        de: "What did T-Rex eat?",
-        nl: "What did T-Rex eat?"
+      {
+        question: {
+                  "en": "What was the approximate lifespan of a Tyrannosaurus rex based on growth studies?",
+                  "es": "¿Cuál era la esperanza de vida aproximada de un Tyrannosaurus rex basándose en estudios de crecimiento?",
+                  "de": "Was war die ungefähre Lebensdauer eines Tyrannosaurus rex basierend auf Wachstumsstudien?",
+                  "nl": "Wat was de geschatte levensduur van een Tyrannosaurus rex gebaseerd op groeistudies?"
+        },
+        options: [
+        {
+                  "en": "25-30 years",
+                  "es": "25-30 años",
+                  "de": "25-30 Jahre",
+                  "nl": "25-30 jaar"
+        },
+        {
+                  "en": "10-15 years",
+                  "es": "10-15 años",
+                  "de": "10-15 Jahre",
+                  "nl": "10-15 jaar"
+        },
+        {
+                  "en": "50-60 years",
+                  "es": "50-60 años",
+                  "de": "50-60 Jahre",
+                  "nl": "50-60 jaar"
+        },
+        {
+                  "en": "Over 100 years",
+                  "es": "Más de 100 años",
+                  "de": "Über 100 Jahre",
+                  "nl": "Meer dan 100 jaar"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Based on growth line analysis in bones, T. rex likely lived 25-30 years, reaching sexual maturity around age 15-18. The oldest known T. rex specimen (Sue) was about 28 years old. Few individuals survived past their prime reproductive years due to the harsh conditions of the Cretaceous.",
+                  "es": "Basándose en análisis de líneas de crecimiento en huesos, T. rex probablemente vivía 25-30 años, alcanzando madurez sexual alrededor de los 15-18 años. El espécimen de T. rex más antiguo conocido (Sue) tenía alrededor de 28 años. Pocos individuos sobrevivían más allá de sus años reproductivos principales debido a las duras condiciones del Cretácico.",
+                  "de": "Basierend auf Wachstumslinie-Analysen in Knochen lebte T. rex wahrscheinlich 25-30 Jahre und erreichte die Geschlechtsreife im Alter von etwa 15-18 Jahren. Das älteste bekannte T. rex-Exemplar (Sue) war etwa 28 Jahre alt. Wenige Individuen überlebten über ihre reproduktiven Hauptjahre hinaus aufgrund der harten Bedingungen der Kreidezeit.",
+                  "nl": "Gebaseerd op groeillijn analyse in botten, leefde T. rex waarschijnlijk 25-30 jaar, bereikend geslachtsrijpheid rond de leeftijd 15-18. Het oudste bekende T. rex specimen (Sue) was ongeveer 28 jaar oud. Weinig individuen overleefden hun beste reproductieve jaren vanwege de harde omstandigheden van het Krijt."
+        }
       },
-      options: [
-        { en: "Large herbivorous dinosaurs", es: "Large herbivorous dinosaurs", de: "Large herbivorous dinosaurs", nl: "Large herbivorous dinosaurs" },
-        { en: "Plants", es: "Plants", de: "Plants", nl: "Plants" },
-        { en: "Fish", es: "Fish", de: "Fish", nl: "Fish" },
-        { en: "Insects", es: "Insects", de: "Insects", nl: "Insects" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "T-Rex preyed on large herbivorous dinosaurs like Triceratops and hadrosaurs.",
-        es: "T-Rex preyed on large herbivorous dinosaurs like Triceratops and hadrosaurs.",
-        de: "T-Rex preyed on large herbivorous dinosaurs like Triceratops and hadrosaurs.",
-        nl: "T-Rex preyed on large herbivorous dinosaurs like Triceratops and hadrosaurs."
-      }
-    },
-    {
-      question: {
-        en: "What is Gorgosaurus?",
-        es: "What is Gorgosaurus?",
-        de: "What is Gorgosaurus?",
-        nl: "What is Gorgosaurus?"
+      {
+        question: {
+                  "en": "Which geographic region has NOT yielded tyrannosaurid fossils?",
+                  "es": "¿Qué región geográfica NO ha producido fósiles de tiranosáuridos?",
+                  "de": "Welche geografische Region hat KEINE Tyrannosauriden-Fossilien hervorgebracht?",
+                  "nl": "Welke geografische regio heeft GEEN tyrannosauride fossielen opgeleverd?"
+        },
+        options: [
+        {
+                  "en": "North America",
+                  "es": "Norteamérica",
+                  "de": "Nordamerika",
+                  "nl": "Noord-Amerika"
+        },
+        {
+                  "en": "Western Europe (England)",
+                  "es": "Europa Occidental (Inglaterra)",
+                  "de": "Westeuropa (England)",
+                  "nl": "West-Europa (Engeland)"
+        },
+        {
+                  "en": "Asia (China and Mongolia)",
+                  "es": "Asia (China y Mongolia)",
+                  "de": "Asien (China und Mongolei)",
+                  "nl": "Azië (China en Mongolië)"
+        },
+        {
+                  "en": "South America",
+                  "es": "Sudamérica",
+                  "de": "Südamerika",
+                  "nl": "Zuid-Amerika"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Tyrannosaurids have been found in North America, Asia, and even fragmentary remains in Europe, but never in South America, Africa, Australia, or Antarctica. This distribution reflects the Late Cretaceous northern supercontinent configuration and suggests tyrannosaurids originated in Asia before spreading to North America.",
+                  "es": "Se han encontrado tiranosáuridos en Norteamérica, Asia, e incluso restos fragmentarios en Europa, pero nunca en Sudamérica, África, Australia o Antártida. Esta distribución refleja la configuración del supercontinente norte del Cretácico Tardío y sugiere que los tiranosáuridos se originaron en Asia antes de extenderse a Norteamérica.",
+                  "de": "Tyrannosauriden wurden in Nordamerika, Asien und sogar fragmentarische Überreste in Europa gefunden, aber nie in Südamerika, Afrika, Australien oder der Antarktis. Diese Verteilung spiegelt die spätkretazische Nordkontinent-Konfiguration wider und deutet darauf hin, dass Tyrannosauriden in Asien entstanden, bevor sie sich nach Nordamerika ausbreiteten.",
+                  "nl": "Tyrannosauriden zijn gevonden in Noord-Amerika, Azië, en zelfs fragmentarische resten in Europa, maar nooit in Zuid-Amerika, Afrika, Australië of Antarctica. Deze verspreiding weerspiegelt de Laat-Krijt noordelijk supercontinent configuratie en suggereert dat tyrannosauriden ontstonden in Azië voordat ze zich verspreidden naar Noord-Amerika."
+        }
       },
-      options: [
-        { en: "Albertosaurus relative, tyrannosaurid", es: "Albertosaurus relative, tyrannosaurid", de: "Albertosaurus relative, tyrannosaurid", nl: "Albertosaurus relative, tyrannosaurid" },
-        { en: "Larger than T-Rex", es: "Larger than T-Rex", de: "Larger than T-Rex", nl: "Larger than T-Rex" },
-        { en: "Herbivore", es: "Herbivore", de: "Herbivore", nl: "Herbivore" },
-        { en: "Marine reptile", es: "Marine reptile", de: "Marine reptile", nl: "Marine reptile" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Gorgosaurus was a tyrannosaurid similar to Albertosaurus, from Late Cretaceous North America.",
-        es: "Gorgosaurus was a tyrannosaurid similar to Albertosaurus, from Late Cretaceous North America.",
-        de: "Gorgosaurus was a tyrannosaurid similar to Albertosaurus, from Late Cretaceous North America.",
-        nl: "Gorgosaurus was a tyrannosaurid similar to Albertosaurus, from Late Cretaceous North America."
-      }
-    },
-    {
-      question: {
-        en: "Did T-Rex have feathers?",
-        es: "Did T-Rex have feathers?",
-        de: "Did T-Rex have feathers?",
-        nl: "Did T-Rex have feathers?"
+      {
+        question: {
+                  "en": "What is Tyrannosaurus Rex?",
+                  "es": "What is Tyrannosaurus Rex?",
+                  "de": "What is Tyrannosaurus Rex?",
+                  "nl": "What is Tyrannosaurus Rex?"
+        },
+        options: [
+        {
+                  "en": "Marine reptile",
+                  "es": "Marine reptile",
+                  "de": "Marine reptile",
+                  "nl": "Marine reptile"
+        },
+        {
+                  "en": "Large carnivorous theropod dinosaur",
+                  "es": "Large carnivorous theropod dinosaur",
+                  "de": "Large carnivorous theropod dinosaur",
+                  "nl": "Large carnivorous theropod dinosaur"
+        },
+        {
+                  "en": "Flying dinosaur",
+                  "es": "Flying dinosaur",
+                  "de": "Flying dinosaur",
+                  "nl": "Flying dinosaur"
+        },
+        {
+                  "en": "Herbivorous dinosaur",
+                  "es": "Herbivorous dinosaur",
+                  "de": "Herbivorous dinosaur",
+                  "nl": "Herbivorous dinosaur"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Tyrannosaurus Rex was one of the largest land carnivores ever, living in Late Cretaceous North America.",
+                  "es": "Tyrannosaurus Rex was one of the largest land carnivores ever, living in Late Cretaceous North America.",
+                  "de": "Tyrannosaurus Rex was one of the largest land carnivores ever, living in Late Cretaceous North America.",
+                  "nl": "Tyrannosaurus Rex was one of the largest land carnivores ever, living in Late Cretaceous North America."
+        }
       },
-      options: [
-        { en: "Possibly when young; adults may have been scaly", es: "Possibly when young; adults may have been scaly", de: "Possibly when young; adults may have been scaly", nl: "Possibly when young; adults may have been scaly" },
-        { en: "Yes, fully feathered", es: "Yes, fully feathered", de: "Yes, fully feathered", nl: "Yes, fully feathered" },
-        { en: "No feathers at all", es: "No feathers at all", de: "No feathers at all", nl: "No feathers at all" },
-        { en: "Unknown", es: "Unknown", de: "Unknown", nl: "Unknown" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Evidence suggests young tyrannosaurs may have had feathers, but adults were likely mostly scaly.",
-        es: "Evidence suggests young tyrannosaurs may have had feathers, but adults were likely mostly scaly.",
-        de: "Evidence suggests young tyrannosaurs may have had feathers, but adults were likely mostly scaly.",
-        nl: "Evidence suggests young tyrannosaurs may have had feathers, but adults were likely mostly scaly."
-      }
-    },
-    {
-      question: {
-        en: "What is the earliest tyrannosaur?",
-        es: "What is the earliest tyrannosaur?",
-        de: "What is the earliest tyrannosaur?",
-        nl: "What is the earliest tyrannosaur?"
+      {
+        question: {
+                  "en": "What does Tyrannosaurus Rex mean?",
+                  "es": "What does Tyrannosaurus Rex mean?",
+                  "de": "What does Tyrannosaurus Rex mean?",
+                  "nl": "What does Tyrannosaurus Rex mean?"
+        },
+        options: [
+        {
+                  "en": "Tyrant Lizard King",
+                  "es": "Tyrant Lizard King",
+                  "de": "Tyrant Lizard King",
+                  "nl": "Tyrant Lizard King"
+        },
+        {
+                  "en": "Giant Reptile",
+                  "es": "Giant Reptile",
+                  "de": "Giant Reptile",
+                  "nl": "Giant Reptile"
+        },
+        {
+                  "en": "Terrible Lizard",
+                  "es": "Terrible Lizard",
+                  "de": "Terrible Lizard",
+                  "nl": "Terrible Lizard"
+        },
+        {
+                  "en": "Ancient Beast",
+                  "es": "Ancient Beast",
+                  "de": "Ancient Beast",
+                  "nl": "Ancient Beast"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Tyrannosaurus Rex means 'Tyrant Lizard King' in Greek and Latin.",
+                  "es": "Tyrannosaurus Rex means 'Tyrant Lizard King' in Greek and Latin.",
+                  "de": "Tyrannosaurus Rex means 'Tyrant Lizard King' in Greek and Latin.",
+                  "nl": "Tyrannosaurus Rex means 'Tyrant Lizard King' in Greek and Latin."
+        }
       },
-      options: [
-        { en: "Proceratosaurus or Guanlong", es: "Proceratosaurus or Guanlong", de: "Proceratosaurus or Guanlong", nl: "Proceratosaurus or Guanlong" },
-        { en: "T-Rex", es: "T-Rex", de: "T-Rex", nl: "T-Rex" },
-        { en: "Albertosaurus", es: "Albertosaurus", de: "Albertosaurus", nl: "Albertosaurus" },
-        { en: "Tarbosaurus", es: "Tarbosaurus", de: "Tarbosaurus", nl: "Tarbosaurus" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Early tyrannosaurs like Proceratosaurus and Guanlong lived in the Jurassic, much smaller than later forms.",
-        es: "Early tyrannosaurs like Proceratosaurus and Guanlong lived in the Jurassic, much smaller than later forms.",
-        de: "Early tyrannosaurs like Proceratosaurus and Guanlong lived in the Jurassic, much smaller than later forms.",
-        nl: "Early tyrannosaurs like Proceratosaurus and Guanlong lived in the Jurassic, much smaller than later forms."
-      }
-    },
-    {
-      question: {
-        en: "How fast could T-Rex run?",
-        es: "How fast could T-Rex run?",
-        de: "How fast could T-Rex run?",
-        nl: "How fast could T-Rex run?"
+      {
+        question: {
+                  "en": "How long was T-Rex?",
+                  "es": "How long was T-Rex?",
+                  "de": "How long was T-Rex?",
+                  "nl": "How long was T-Rex?"
+        },
+        options: [
+        {
+                  "en": "About 100 feet",
+                  "es": "About 100 feet",
+                  "de": "About 100 feet",
+                  "nl": "About 100 feet"
+        },
+        {
+                  "en": "About 40 feet",
+                  "es": "About 40 feet",
+                  "de": "About 40 feet",
+                  "nl": "About 40 feet"
+        },
+        {
+                  "en": "About 80 feet",
+                  "es": "About 80 feet",
+                  "de": "About 80 feet",
+                  "nl": "About 80 feet"
+        },
+        {
+                  "en": "About 20 feet",
+                  "es": "About 20 feet",
+                  "de": "About 20 feet",
+                  "nl": "About 20 feet"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "T-Rex measured about 40 feet from nose to tail.",
+                  "es": "T-Rex measured about 40 feet from nose to tail.",
+                  "de": "T-Rex measured about 40 feet from nose to tail.",
+                  "nl": "T-Rex measured about 40 feet from nose to tail."
+        }
       },
-      options: [
-        { en: "12-25 mph estimated", es: "12-25 mph estimated", de: "12-25 mph estimated", nl: "12-25 mph estimated" },
-        { en: "50 mph", es: "50 mph", de: "50 mph", nl: "50 mph" },
-        { en: "5 mph", es: "5 mph", de: "5 mph", nl: "5 mph" },
-        { en: "Couldn't run", es: "Couldn't run", de: "Couldn't run", nl: "Couldn't run" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Estimates suggest T-Rex could move at 12-25 mph, though debate continues.",
-        es: "Estimates suggest T-Rex could move at 12-25 mph, though debate continues.",
-        de: "Estimates suggest T-Rex could move at 12-25 mph, though debate continues.",
-        nl: "Estimates suggest T-Rex could move at 12-25 mph, though debate continues."
-      }
-    },
-    {
-      question: {
-        en: "What is Yutyrannus?",
-        es: "What is Yutyrannus?",
-        de: "What is Yutyrannus?",
-        nl: "What is Yutyrannus?"
+      {
+        question: {
+                  "en": "What was T-Rex's bite force?",
+                  "es": "What was T-Rex's bite force?",
+                  "de": "What was T-Rex's bite force?",
+                  "nl": "What was T-Rex's bite force?"
+        },
+        options: [
+        {
+                  "en": "Unknown",
+                  "es": "Unknown",
+                  "de": "Unknown",
+                  "nl": "Unknown"
+        },
+        {
+                  "en": "Weak bite",
+                  "es": "Weak bite",
+                  "de": "Weak bite",
+                  "nl": "Weak bite"
+        },
+        {
+                  "en": "Moderate bite",
+                  "es": "Moderate bite",
+                  "de": "Moderate bite",
+                  "nl": "Moderate bite"
+        },
+        {
+                  "en": "Strongest of any land animal, ~12,800 pounds",
+                  "es": "Strongest of any land animal, ~12,800 pounds",
+                  "de": "Strongest of any land animal, ~12,800 pounds",
+                  "nl": "Strongest of any land animal, ~12,800 pounds"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "T-Rex had the strongest bite force of any land animal, estimated at over 12,800 pounds.",
+                  "es": "T-Rex had the strongest bite force of any land animal, estimated at over 12,800 pounds.",
+                  "de": "T-Rex had the strongest bite force of any land animal, estimated at over 12,800 pounds.",
+                  "nl": "T-Rex had the strongest bite force of any land animal, estimated at over 12,800 pounds."
+        }
       },
-      options: [
-        { en: "Largest known feathered dinosaur, early tyrannosaur", es: "Largest known feathered dinosaur, early tyrannosaur", de: "Largest known feathered dinosaur, early tyrannosaur", nl: "Largest known feathered dinosaur, early tyrannosaur" },
-        { en: "Late tyrannosaur", es: "Late tyrannosaur", de: "Late tyrannosaur", nl: "Late tyrannosaur" },
-        { en: "Herbivore", es: "Herbivore", de: "Herbivore", nl: "Herbivore" },
-        { en: "Marine reptile", es: "Marine reptile", de: "Marine reptile", nl: "Marine reptile" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Yutyrannus was an early tyrannosauroid from China, the largest known feathered dinosaur at 30 feet long.",
-        es: "Yutyrannus was an early tyrannosauroid from China, the largest known feathered dinosaur at 30 feet long.",
-        de: "Yutyrannus was an early tyrannosauroid from China, the largest known feathered dinosaur at 30 feet long.",
-        nl: "Yutyrannus was an early tyrannosauroid from China, the largest known feathered dinosaur at 30 feet long."
-      }
-    },
-    {
-      question: {
-        en: "How good was T-Rex's sense of smell?",
-        es: "How good was T-Rex's sense of smell?",
-        de: "How good was T-Rex's sense of smell?",
-        nl: "How good was T-Rex's sense of smell?"
+      {
+        question: {
+                  "en": "What is the T-Rex family called?",
+                  "es": "What is the T-Rex family called?",
+                  "de": "What is the T-Rex family called?",
+                  "nl": "What is the T-Rex family called?"
+        },
+        options: [
+        {
+                  "en": "Spinosauridae",
+                  "es": "Spinosauridae",
+                  "de": "Spinosauridae",
+                  "nl": "Spinosauridae"
+        },
+        {
+                  "en": "Tyrannosauridae",
+                  "es": "Tyrannosauridae",
+                  "de": "Tyrannosauridae",
+                  "nl": "Tyrannosauridae"
+        },
+        {
+                  "en": "Allosauridae",
+                  "es": "Allosauridae",
+                  "de": "Allosauridae",
+                  "nl": "Allosauridae"
+        },
+        {
+                  "en": "Theropoda only",
+                  "es": "Theropoda only",
+                  "de": "Theropoda only",
+                  "nl": "Theropoda only"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "The T-Rex belongs to the family Tyrannosauridae.",
+                  "es": "The T-Rex belongs to the family Tyrannosauridae.",
+                  "de": "The T-Rex belongs to the family Tyrannosauridae.",
+                  "nl": "The T-Rex belongs to the family Tyrannosauridae."
+        }
       },
-      options: [
-        { en: "Excellent, among the best", es: "Excellent, among the best", de: "Excellent, among the best", nl: "Excellent, among the best" },
-        { en: "Poor", es: "Poor", de: "Poor", nl: "Poor" },
-        { en: "Average", es: "Average", de: "Average", nl: "Average" },
-        { en: "No sense of smell", es: "No sense of smell", de: "No sense of smell", nl: "No sense of smell" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "T-Rex had an exceptionally large olfactory bulb, suggesting an excellent sense of smell.",
-        es: "T-Rex had an exceptionally large olfactory bulb, suggesting an excellent sense of smell.",
-        de: "T-Rex had an exceptionally large olfactory bulb, suggesting an excellent sense of smell.",
-        nl: "T-Rex had an exceptionally large olfactory bulb, suggesting an excellent sense of smell."
-      }
-    },
-    {
-      question: {
-        en: "What is a juvenile T-Rex called informally?",
-        es: "What is a juvenile T-Rex called informally?",
-        de: "What is a juvenile T-Rex called informally?",
-        nl: "What is a juvenile T-Rex called informally?"
+      {
+        question: {
+                  "en": "What is Albertosaurus?",
+                  "es": "What is Albertosaurus?",
+                  "de": "What is Albertosaurus?",
+                  "nl": "What is Albertosaurus?"
+        },
+        options: [
+        {
+                  "en": "Larger than T-Rex",
+                  "es": "Larger than T-Rex",
+                  "de": "Larger than T-Rex",
+                  "nl": "Larger than T-Rex"
+        },
+        {
+                  "en": "Herbivore",
+                  "es": "Herbivore",
+                  "de": "Herbivore",
+                  "nl": "Herbivore"
+        },
+        {
+                  "en": "Smaller relative of T-Rex",
+                  "es": "Smaller relative of T-Rex",
+                  "de": "Smaller relative of T-Rex",
+                  "nl": "Smaller relative of T-Rex"
+        },
+        {
+                  "en": "Flying dinosaur",
+                  "es": "Flying dinosaur",
+                  "de": "Flying dinosaur",
+                  "nl": "Flying dinosaur"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Albertosaurus was a smaller tyrannosaurid, about 30 feet long, from Late Cretaceous Canada.",
+                  "es": "Albertosaurus was a smaller tyrannosaurid, about 30 feet long, from Late Cretaceous Canada.",
+                  "de": "Albertosaurus was a smaller tyrannosaurid, about 30 feet long, from Late Cretaceous Canada.",
+                  "nl": "Albertosaurus was a smaller tyrannosaurid, about 30 feet long, from Late Cretaceous Canada."
+        }
       },
-      options: [
-        { en: "Jane or juvenile T-Rex", es: "Jane or juvenile T-Rex", de: "Jane or juvenile T-Rex", nl: "Jane or juvenile T-Rex" },
-        { en: "Baby Rex", es: "Baby Rex", de: "Baby Rex", nl: "Baby Rex" },
-        { en: "Mini Rex", es: "Mini Rex", de: "Mini Rex", nl: "Mini Rex" },
-        { en: "T-Rex Jr.", es: "T-Rex Jr.", de: "T-Rex Jr.", nl: "T-Rex Jr." }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Several juvenile T-Rex specimens have been found; one famous specimen is nicknamed 'Jane'.",
-        es: "Several juvenile T-Rex specimens have been found; one famous specimen is nicknamed 'Jane'.",
-        de: "Several juvenile T-Rex specimens have been found; one famous specimen is nicknamed 'Jane'.",
-        nl: "Several juvenile T-Rex specimens have been found; one famous specimen is nicknamed 'Jane'."
-      }
-    },
-    {
-      question: {
-        en: "Was T-Rex a scavenger or hunter?",
-        es: "Was T-Rex a scavenger or hunter?",
-        de: "Was T-Rex a scavenger or hunter?",
-        nl: "Was T-Rex a scavenger or hunter?"
+      {
+        question: {
+                  "en": "How many fingers did T-Rex have?",
+                  "es": "How many fingers did T-Rex have?",
+                  "de": "How many fingers did T-Rex have?",
+                  "nl": "How many fingers did T-Rex have?"
+        },
+        options: [
+        {
+                  "en": "Four",
+                  "es": "Four",
+                  "de": "Four",
+                  "nl": "Four"
+        },
+        {
+                  "en": "Five",
+                  "es": "Five",
+                  "de": "Five",
+                  "nl": "Five"
+        },
+        {
+                  "en": "Three",
+                  "es": "Three",
+                  "de": "Three",
+                  "nl": "Three"
+        },
+        {
+                  "en": "Two",
+                  "es": "Two",
+                  "de": "Two",
+                  "nl": "Two"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "T-Rex had only two functional fingers on each tiny arm.",
+                  "es": "T-Rex had only two functional fingers on each tiny arm.",
+                  "de": "T-Rex had only two functional fingers on each tiny arm.",
+                  "nl": "T-Rex had only two functional fingers on each tiny arm."
+        }
       },
-      options: [
-        { en: "Likely both, primarily hunter", es: "Likely both, primarily hunter", de: "Likely both, primarily hunter", nl: "Likely both, primarily hunter" },
-        { en: "Only scavenger", es: "Only scavenger", de: "Only scavenger", nl: "Only scavenger" },
-        { en: "Only hunter", es: "Only hunter", de: "Only hunter", nl: "Only hunter" },
-        { en: "Neither", es: "Neither", de: "Neither", nl: "Neither" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Evidence suggests T-Rex was primarily an active hunter but would also scavenge when opportunities arose.",
-        es: "Evidence suggests T-Rex was primarily an active hunter but would also scavenge when opportunities arose.",
-        de: "Evidence suggests T-Rex was primarily an active hunter but would also scavenge when opportunities arose.",
-        nl: "Evidence suggests T-Rex was primarily an active hunter but would also scavenge when opportunities arose."
-      }
-    },
-    {
-      question: {
-        en: "What period did T-Rex live in?",
-        es: "What period did T-Rex live in?",
-        de: "What period did T-Rex live in?",
-        nl: "What period did T-Rex live in?"
+      {
+        question: {
+                  "en": "What is Tarbosaurus?",
+                  "es": "What is Tarbosaurus?",
+                  "de": "What is Tarbosaurus?",
+                  "nl": "What is Tarbosaurus?"
+        },
+        options: [
+        {
+                  "en": "Australian T-Rex",
+                  "es": "Australian T-Rex",
+                  "de": "Australian T-Rex",
+                  "nl": "Australian T-Rex"
+        },
+        {
+                  "en": "African T-Rex",
+                  "es": "African T-Rex",
+                  "de": "African T-Rex",
+                  "nl": "African T-Rex"
+        },
+        {
+                  "en": "Asian relative of T-Rex",
+                  "es": "Asian relative of T-Rex",
+                  "de": "Asian relative of T-Rex",
+                  "nl": "Asian relative of T-Rex"
+        },
+        {
+                  "en": "South American T-Rex",
+                  "es": "South American T-Rex",
+                  "de": "South American T-Rex",
+                  "nl": "South American T-Rex"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Tarbosaurus was a close Asian relative of T-Rex from Mongolia, nearly as large.",
+                  "es": "Tarbosaurus was a close Asian relative of T-Rex from Mongolia, nearly as large.",
+                  "de": "Tarbosaurus was a close Asian relative of T-Rex from Mongolia, nearly as large.",
+                  "nl": "Tarbosaurus was a close Asian relative of T-Rex from Mongolia, nearly as large."
+        }
       },
-      options: [
-        { en: "Very end of Cretaceous Period", es: "Very end of Cretaceous Period", de: "Very end of Cretaceous Period", nl: "Very end of Cretaceous Period" },
-        { en: "Jurassic Period", es: "Jurassic Period", de: "Jurassic Period", nl: "Jurassic Period" },
-        { en: "Early Cretaceous", es: "Early Cretaceous", de: "Early Cretaceous", nl: "Early Cretaceous" },
-        { en: "Triassic Period", es: "Triassic Period", de: "Triassic Period", nl: "Triassic Period" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "T-Rex lived only during the very end of the Cretaceous Period, 68-66 million years ago.",
-        es: "T-Rex lived only during the very end of the Cretaceous Period, 68-66 million years ago.",
-        de: "T-Rex lived only during the very end of the Cretaceous Period, 68-66 million years ago.",
-        nl: "T-Rex lived only during the very end of the Cretaceous Period, 68-66 million years ago."
-      }
-
+      {
+        question: {
+                  "en": "Were T-Rex arms useless?",
+                  "es": "Were T-Rex arms useless?",
+                  "de": "Were T-Rex arms useless?",
+                  "nl": "Were T-Rex arms useless?"
+        },
+        options: [
+        {
+                  "en": "Used for walking",
+                  "es": "Used for walking",
+                  "de": "Used for walking",
+                  "nl": "Used for walking"
+        },
+        {
+                  "en": "No, likely used for grasping",
+                  "es": "No, likely used for grasping",
+                  "de": "No, likely used for grasping",
+                  "nl": "No, likely used for grasping"
+        },
+        {
+                  "en": "Yes, completely useless",
+                  "es": "Yes, completely useless",
+                  "de": "Yes, completely useless",
+                  "nl": "Yes, completely useless"
+        },
+        {
+                  "en": "Used for flying",
+                  "es": "Used for flying",
+                  "de": "Used for flying",
+                  "nl": "Used for flying"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "T-Rex arms, though small, were muscular and likely used for grasping prey or mates.",
+                  "es": "T-Rex arms, though small, were muscular and likely used for grasping prey or mates.",
+                  "de": "T-Rex arms, though small, were muscular and likely used for grasping prey or mates.",
+                  "nl": "T-Rex arms, though small, were muscular and likely used for grasping prey or mates."
+        }
+      },
+      {
+        question: {
+                  "en": "What is Daspletosaurus?",
+                  "es": "What is Daspletosaurus?",
+                  "de": "What is Daspletosaurus?",
+                  "nl": "What is Daspletosaurus?"
+        },
+        options: [
+        {
+                  "en": "Herbivore",
+                  "es": "Herbivore",
+                  "de": "Herbivore",
+                  "nl": "Herbivore"
+        },
+        {
+                  "en": "Flying dinosaur",
+                  "es": "Flying dinosaur",
+                  "de": "Flying dinosaur",
+                  "nl": "Flying dinosaur"
+        },
+        {
+                  "en": "Large tyrannosaurid related to T-Rex",
+                  "es": "Large tyrannosaurid related to T-Rex",
+                  "de": "Large tyrannosaurid related to T-Rex",
+                  "nl": "Large tyrannosaurid related to T-Rex"
+        },
+        {
+                  "en": "Small tyrannosaur",
+                  "es": "Small tyrannosaur",
+                  "de": "Small tyrannosaur",
+                  "nl": "Small tyrannosaur"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Daspletosaurus was a large tyrannosaurid from Late Cretaceous North America, closely related to T-Rex.",
+                  "es": "Daspletosaurus was a large tyrannosaurid from Late Cretaceous North America, closely related to T-Rex.",
+                  "de": "Daspletosaurus was a large tyrannosaurid from Late Cretaceous North America, closely related to T-Rex.",
+                  "nl": "Daspletosaurus was a large tyrannosaurid from Late Cretaceous North America, closely related to T-Rex."
+        }
+      },
+      {
+        question: {
+                  "en": "What did T-Rex eat?",
+                  "es": "What did T-Rex eat?",
+                  "de": "What did T-Rex eat?",
+                  "nl": "What did T-Rex eat?"
+        },
+        options: [
+        {
+                  "en": "Plants",
+                  "es": "Plants",
+                  "de": "Plants",
+                  "nl": "Plants"
+        },
+        {
+                  "en": "Large herbivorous dinosaurs",
+                  "es": "Large herbivorous dinosaurs",
+                  "de": "Large herbivorous dinosaurs",
+                  "nl": "Large herbivorous dinosaurs"
+        },
+        {
+                  "en": "Fish",
+                  "es": "Fish",
+                  "de": "Fish",
+                  "nl": "Fish"
+        },
+        {
+                  "en": "Insects",
+                  "es": "Insects",
+                  "de": "Insects",
+                  "nl": "Insects"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "T-Rex preyed on large herbivorous dinosaurs like Triceratops and hadrosaurs.",
+                  "es": "T-Rex preyed on large herbivorous dinosaurs like Triceratops and hadrosaurs.",
+                  "de": "T-Rex preyed on large herbivorous dinosaurs like Triceratops and hadrosaurs.",
+                  "nl": "T-Rex preyed on large herbivorous dinosaurs like Triceratops and hadrosaurs."
+        }
+      },
+      {
+        question: {
+                  "en": "What is Gorgosaurus?",
+                  "es": "What is Gorgosaurus?",
+                  "de": "What is Gorgosaurus?",
+                  "nl": "What is Gorgosaurus?"
+        },
+        options: [
+        {
+                  "en": "Herbivore",
+                  "es": "Herbivore",
+                  "de": "Herbivore",
+                  "nl": "Herbivore"
+        },
+        {
+                  "en": "Marine reptile",
+                  "es": "Marine reptile",
+                  "de": "Marine reptile",
+                  "nl": "Marine reptile"
+        },
+        {
+                  "en": "Larger than T-Rex",
+                  "es": "Larger than T-Rex",
+                  "de": "Larger than T-Rex",
+                  "nl": "Larger than T-Rex"
+        },
+        {
+                  "en": "Albertosaurus relative, tyrannosaurid",
+                  "es": "Albertosaurus relative, tyrannosaurid",
+                  "de": "Albertosaurus relative, tyrannosaurid",
+                  "nl": "Albertosaurus relative, tyrannosaurid"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Gorgosaurus was a tyrannosaurid similar to Albertosaurus, from Late Cretaceous North America.",
+                  "es": "Gorgosaurus was a tyrannosaurid similar to Albertosaurus, from Late Cretaceous North America.",
+                  "de": "Gorgosaurus was a tyrannosaurid similar to Albertosaurus, from Late Cretaceous North America.",
+                  "nl": "Gorgosaurus was a tyrannosaurid similar to Albertosaurus, from Late Cretaceous North America."
+        }
+      },
+      {
+        question: {
+                  "en": "Did T-Rex have feathers?",
+                  "es": "Did T-Rex have feathers?",
+                  "de": "Did T-Rex have feathers?",
+                  "nl": "Did T-Rex have feathers?"
+        },
+        options: [
+        {
+                  "en": "Possibly when young; adults may have been scaly",
+                  "es": "Possibly when young; adults may have been scaly",
+                  "de": "Possibly when young; adults may have been scaly",
+                  "nl": "Possibly when young; adults may have been scaly"
+        },
+        {
+                  "en": "Unknown",
+                  "es": "Unknown",
+                  "de": "Unknown",
+                  "nl": "Unknown"
+        },
+        {
+                  "en": "No feathers at all",
+                  "es": "No feathers at all",
+                  "de": "No feathers at all",
+                  "nl": "No feathers at all"
+        },
+        {
+                  "en": "Yes, fully feathered",
+                  "es": "Yes, fully feathered",
+                  "de": "Yes, fully feathered",
+                  "nl": "Yes, fully feathered"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Evidence suggests young tyrannosaurs may have had feathers, but adults were likely mostly scaly.",
+                  "es": "Evidence suggests young tyrannosaurs may have had feathers, but adults were likely mostly scaly.",
+                  "de": "Evidence suggests young tyrannosaurs may have had feathers, but adults were likely mostly scaly.",
+                  "nl": "Evidence suggests young tyrannosaurs may have had feathers, but adults were likely mostly scaly."
+        }
+      },
+      {
+        question: {
+                  "en": "What is the earliest tyrannosaur?",
+                  "es": "What is the earliest tyrannosaur?",
+                  "de": "What is the earliest tyrannosaur?",
+                  "nl": "What is the earliest tyrannosaur?"
+        },
+        options: [
+        {
+                  "en": "T-Rex",
+                  "es": "T-Rex",
+                  "de": "T-Rex",
+                  "nl": "T-Rex"
+        },
+        {
+                  "en": "Proceratosaurus or Guanlong",
+                  "es": "Proceratosaurus or Guanlong",
+                  "de": "Proceratosaurus or Guanlong",
+                  "nl": "Proceratosaurus or Guanlong"
+        },
+        {
+                  "en": "Albertosaurus",
+                  "es": "Albertosaurus",
+                  "de": "Albertosaurus",
+                  "nl": "Albertosaurus"
+        },
+        {
+                  "en": "Tarbosaurus",
+                  "es": "Tarbosaurus",
+                  "de": "Tarbosaurus",
+                  "nl": "Tarbosaurus"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Early tyrannosaurs like Proceratosaurus and Guanlong lived in the Jurassic, much smaller than later forms.",
+                  "es": "Early tyrannosaurs like Proceratosaurus and Guanlong lived in the Jurassic, much smaller than later forms.",
+                  "de": "Early tyrannosaurs like Proceratosaurus and Guanlong lived in the Jurassic, much smaller than later forms.",
+                  "nl": "Early tyrannosaurs like Proceratosaurus and Guanlong lived in the Jurassic, much smaller than later forms."
+        }
+      },
+      {
+        question: {
+                  "en": "How fast could T-Rex run?",
+                  "es": "How fast could T-Rex run?",
+                  "de": "How fast could T-Rex run?",
+                  "nl": "How fast could T-Rex run?"
+        },
+        options: [
+        {
+                  "en": "5 mph",
+                  "es": "5 mph",
+                  "de": "5 mph",
+                  "nl": "5 mph"
+        },
+        {
+                  "en": "50 mph",
+                  "es": "50 mph",
+                  "de": "50 mph",
+                  "nl": "50 mph"
+        },
+        {
+                  "en": "12-25 mph estimated",
+                  "es": "12-25 mph estimated",
+                  "de": "12-25 mph estimated",
+                  "nl": "12-25 mph estimated"
+        },
+        {
+                  "en": "Couldn't run",
+                  "es": "Couldn't run",
+                  "de": "Couldn't run",
+                  "nl": "Couldn't run"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Estimates suggest T-Rex could move at 12-25 mph, though debate continues.",
+                  "es": "Estimates suggest T-Rex could move at 12-25 mph, though debate continues.",
+                  "de": "Estimates suggest T-Rex could move at 12-25 mph, though debate continues.",
+                  "nl": "Estimates suggest T-Rex could move at 12-25 mph, though debate continues."
+        }
+      },
+      {
+        question: {
+                  "en": "What is Yutyrannus?",
+                  "es": "What is Yutyrannus?",
+                  "de": "What is Yutyrannus?",
+                  "nl": "What is Yutyrannus?"
+        },
+        options: [
+        {
+                  "en": "Late tyrannosaur",
+                  "es": "Late tyrannosaur",
+                  "de": "Late tyrannosaur",
+                  "nl": "Late tyrannosaur"
+        },
+        {
+                  "en": "Marine reptile",
+                  "es": "Marine reptile",
+                  "de": "Marine reptile",
+                  "nl": "Marine reptile"
+        },
+        {
+                  "en": "Herbivore",
+                  "es": "Herbivore",
+                  "de": "Herbivore",
+                  "nl": "Herbivore"
+        },
+        {
+                  "en": "Largest known feathered dinosaur, early tyrannosaur",
+                  "es": "Largest known feathered dinosaur, early tyrannosaur",
+                  "de": "Largest known feathered dinosaur, early tyrannosaur",
+                  "nl": "Largest known feathered dinosaur, early tyrannosaur"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Yutyrannus was an early tyrannosauroid from China, the largest known feathered dinosaur at 30 feet long.",
+                  "es": "Yutyrannus was an early tyrannosauroid from China, the largest known feathered dinosaur at 30 feet long.",
+                  "de": "Yutyrannus was an early tyrannosauroid from China, the largest known feathered dinosaur at 30 feet long.",
+                  "nl": "Yutyrannus was an early tyrannosauroid from China, the largest known feathered dinosaur at 30 feet long."
+        }
+      },
+      {
+        question: {
+                  "en": "How good was T-Rex's sense of smell?",
+                  "es": "How good was T-Rex's sense of smell?",
+                  "de": "How good was T-Rex's sense of smell?",
+                  "nl": "How good was T-Rex's sense of smell?"
+        },
+        options: [
+        {
+                  "en": "Poor",
+                  "es": "Poor",
+                  "de": "Poor",
+                  "nl": "Poor"
+        },
+        {
+                  "en": "Excellent, among the best",
+                  "es": "Excellent, among the best",
+                  "de": "Excellent, among the best",
+                  "nl": "Excellent, among the best"
+        },
+        {
+                  "en": "Average",
+                  "es": "Average",
+                  "de": "Average",
+                  "nl": "Average"
+        },
+        {
+                  "en": "No sense of smell",
+                  "es": "No sense of smell",
+                  "de": "No sense of smell",
+                  "nl": "No sense of smell"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "T-Rex had an exceptionally large olfactory bulb, suggesting an excellent sense of smell.",
+                  "es": "T-Rex had an exceptionally large olfactory bulb, suggesting an excellent sense of smell.",
+                  "de": "T-Rex had an exceptionally large olfactory bulb, suggesting an excellent sense of smell.",
+                  "nl": "T-Rex had an exceptionally large olfactory bulb, suggesting an excellent sense of smell."
+        }
+      },
+      {
+        question: {
+                  "en": "What is a juvenile T-Rex called informally?",
+                  "es": "What is a juvenile T-Rex called informally?",
+                  "de": "What is a juvenile T-Rex called informally?",
+                  "nl": "What is a juvenile T-Rex called informally?"
+        },
+        options: [
+        {
+                  "en": "Mini Rex",
+                  "es": "Mini Rex",
+                  "de": "Mini Rex",
+                  "nl": "Mini Rex"
+        },
+        {
+                  "en": "Baby Rex",
+                  "es": "Baby Rex",
+                  "de": "Baby Rex",
+                  "nl": "Baby Rex"
+        },
+        {
+                  "en": "Jane or juvenile T-Rex",
+                  "es": "Jane or juvenile T-Rex",
+                  "de": "Jane or juvenile T-Rex",
+                  "nl": "Jane or juvenile T-Rex"
+        },
+        {
+                  "en": "T-Rex Jr.",
+                  "es": "T-Rex Jr.",
+                  "de": "T-Rex Jr.",
+                  "nl": "T-Rex Jr."
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Several juvenile T-Rex specimens have been found; one famous specimen is nicknamed 'Jane'.",
+                  "es": "Several juvenile T-Rex specimens have been found; one famous specimen is nicknamed 'Jane'.",
+                  "de": "Several juvenile T-Rex specimens have been found; one famous specimen is nicknamed 'Jane'.",
+                  "nl": "Several juvenile T-Rex specimens have been found; one famous specimen is nicknamed 'Jane'."
+        }
+      },
+      {
+        question: {
+                  "en": "Was T-Rex a scavenger or hunter?",
+                  "es": "Was T-Rex a scavenger or hunter?",
+                  "de": "Was T-Rex a scavenger or hunter?",
+                  "nl": "Was T-Rex a scavenger or hunter?"
+        },
+        options: [
+        {
+                  "en": "Only scavenger",
+                  "es": "Only scavenger",
+                  "de": "Only scavenger",
+                  "nl": "Only scavenger"
+        },
+        {
+                  "en": "Likely both, primarily hunter",
+                  "es": "Likely both, primarily hunter",
+                  "de": "Likely both, primarily hunter",
+                  "nl": "Likely both, primarily hunter"
+        },
+        {
+                  "en": "Neither",
+                  "es": "Neither",
+                  "de": "Neither",
+                  "nl": "Neither"
+        },
+        {
+                  "en": "Only hunter",
+                  "es": "Only hunter",
+                  "de": "Only hunter",
+                  "nl": "Only hunter"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Evidence suggests T-Rex was primarily an active hunter but would also scavenge when opportunities arose.",
+                  "es": "Evidence suggests T-Rex was primarily an active hunter but would also scavenge when opportunities arose.",
+                  "de": "Evidence suggests T-Rex was primarily an active hunter but would also scavenge when opportunities arose.",
+                  "nl": "Evidence suggests T-Rex was primarily an active hunter but would also scavenge when opportunities arose."
+        }
+      },
+      {
+        question: {
+                  "en": "What period did T-Rex live in?",
+                  "es": "What period did T-Rex live in?",
+                  "de": "What period did T-Rex live in?",
+                  "nl": "What period did T-Rex live in?"
+        },
+        options: [
+        {
+                  "en": "Jurassic Period",
+                  "es": "Jurassic Period",
+                  "de": "Jurassic Period",
+                  "nl": "Jurassic Period"
+        },
+        {
+                  "en": "Early Cretaceous",
+                  "es": "Early Cretaceous",
+                  "de": "Early Cretaceous",
+                  "nl": "Early Cretaceous"
+        },
+        {
+                  "en": "Very end of Cretaceous Period",
+                  "es": "Very end of Cretaceous Period",
+                  "de": "Very end of Cretaceous Period",
+                  "nl": "Very end of Cretaceous Period"
+        },
+        {
+                  "en": "Triassic Period",
+                  "es": "Triassic Period",
+                  "de": "Triassic Period",
+                  "nl": "Triassic Period"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "T-Rex lived only during the very end of the Cretaceous Period, 68-66 million years ago.",
+                  "es": "T-Rex lived only during the very end of the Cretaceous Period, 68-66 million years ago.",
+                  "de": "T-Rex lived only during the very end of the Cretaceous Period, 68-66 million years ago.",
+                  "nl": "T-Rex lived only during the very end of the Cretaceous Period, 68-66 million years ago."
+        }
       }
     ]
   };
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = level8;
-  } else if (typeof window !== 'undefined') {
-    window.level8 = level8;
   }
 })();

@@ -1,827 +1,1609 @@
-// Quiz Level 9: Drinken - Frisdranken (Advanced Research & Innovation)
+// Soft Drinks Quiz - Level 9
 (function() {
   const level9 = {
     name: {
-      en: "Advanced Research & Innovation",
-      es: "Investigación Avanzada e Innovación",
-      de: "Fortgeschrittene Forschung & Innovation",
-      nl: "Geavanceerd Onderzoek & Innovatie"
+          "en": "Advanced Research & Innovation",
+          "es": "Investigación Avanzada e Innovación",
+          "de": "Fortgeschrittene Forschung & Innovation",
+          "nl": "Geavanceerd Onderzoek & Innovatie"
     },
     questions: [
       {
         question: {
-          en: "Which metabolomic technique is most effective for comprehensive flavor profiling in novel beverage formulations?",
-          es: "¿Qué técnica metabolómica es más efectiva para el perfilado integral de sabor en formulaciones novedosas de bebidas?",
-          de: "Welche metabolomische Technik ist am wirksamsten für umfassende Geschmacksprofilierung in neuartigen Getränkeformulierungen?",
-          nl: "Welke metabolomische techniek is het meest effectief voor uitgebreide smaakprofilering in nieuwe drankenformuleringen?"
+                  "en": "Which metabolomic technique is most effective for comprehensive flavor profiling in novel beverage formulations?",
+                  "es": "¿Qué técnica metabolómica es más efectiva para el perfilado integral de sabor en formulaciones novedosas de bebidas?",
+                  "de": "Welche metabolomische Technik ist am wirksamsten für umfassende Geschmacksprofilierung in neuartigen Getränkeformulierungen?",
+                  "nl": "Welke metabolomische techniek is het meest effectief voor uitgebreide smaakprofilering in nieuwe drankenformuleringen?"
         },
         options: [
-          { en: "LC-MS/MS with QTOF", es: "LC-MS/MS con QTOF", de: "LC-MS/MS mit QTOF", nl: "LC-MS/MS met QTOF" },
-          { en: "1H-NMR spectroscopy", es: "Espectroscopía 1H-NMR", de: "1H-NMR-Spektroskopie", nl: "1H-NMR spectroscopie" },
-          { en: "GC×GC-TOF-MS", es: "GC×GC-TOF-MS", de: "GC×GC-TOF-MS", nl: "GC×GC-TOF-MS" },
-          { en: "CE-MS analysis", es: "Análisis CE-MS", de: "CE-MS-Analyse", nl: "CE-MS analyse" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Two-dimensional gas chromatography time-of-flight mass spectrometry (GC×GC-TOF-MS) provides the highest resolution for volatile compounds crucial to flavor perception.",
-          es: "La cromatografía de gases bidimensional con espectrometría de masas de tiempo de vuelo (GC×GC-TOF-MS) proporciona la mayor resolución para compuestos volátiles cruciales para la percepción del sabor.",
-          de: "Zweidimensionale Gaschromatographie-Flugzeit-Massenspektrometrie (GC×GC-TOF-MS) bietet die höchste Auflösung für flüchtige Verbindungen, die für die Geschmackswahrnehmung entscheidend sind.",
-          nl: "Tweedimensionale gaschromatografie tijd-van-vlucht massaspectrometrie (GC×GC-TOF-MS) biedt de hoogste resolutie voor vluchtige verbindingen cruciaal voor smaakperceptie."
+        {
+                  "en": "1H-NMR spectroscopy",
+                  "es": "Espectroscopía 1H-NMR",
+                  "de": "1H-NMR-Spektroskopie",
+                  "nl": "1H-NMR spectroscopie"
+        },
+        {
+                  "en": "LC-MS/MS with QTOF",
+                  "es": "LC-MS/MS con QTOF",
+                  "de": "LC-MS/MS mit QTOF",
+                  "nl": "LC-MS/MS met QTOF"
+        },
+        {
+                  "en": "CE-MS analysis",
+                  "es": "Análisis CE-MS",
+                  "de": "CE-MS-Analyse",
+                  "nl": "CE-MS analyse"
+        },
+        {
+                  "en": "GC×GC-TOF-MS",
+                  "es": "GC×GC-TOF-MS",
+                  "de": "GC×GC-TOF-MS",
+                  "nl": "GC×GC-TOF-MS"
         }
-      },
-      {
-        question: {
-          en: "What is the optimal pressure range for supercritical CO2 extraction of natural flavor compounds from botanical sources?",
-          es: "¿Cuál es el rango de presión óptimo para la extracción con CO2 supercrítico de compuestos de sabor naturales de fuentes botánicas?",
-          de: "Was ist der optimale Druckbereich für die überkritische CO2-Extraktion natürlicher Geschmacksverbindungen aus botanischen Quellen?",
-          nl: "Wat is het optimale drukbereik voor superkritische CO2 extractie van natuurlijke smaakverbindingen uit botanische bronnen?"
-        },
-        options: [
-          { en: "50-100 bar", es: "50-100 bar", de: "50-100 bar", nl: "50-100 bar" },
-          { en: "150-300 bar", es: "150-300 bar", de: "150-300 bar", nl: "150-300 bar" },
-          { en: "400-600 bar", es: "400-600 bar", de: "400-600 bar", nl: "400-600 bar" },
-          { en: "800-1000 bar", es: "800-1000 bar", de: "800-1000 bar", nl: "800-1000 bar" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Supercritical CO2 extraction for flavor compounds typically operates at 150-300 bar, balancing extraction efficiency with selectivity for target molecules.",
-          es: "La extracción con CO2 supercrítico para compuestos de sabor típicamente opera a 150-300 bar, equilibrando la eficiencia de extracción con la selectividad para moléculas objetivo.",
-          de: "Überkritische CO2-Extraktion für Geschmacksverbindungen arbeitet typischerweise bei 150-300 bar und balanciert Extraktionseffizienz mit Selektivität für Zielmoleküle.",
-          nl: "Superkritische CO2 extractie voor smaakverbindingen werkt doorgaans bij 150-300 bar, waarmee extractie-efficiëntie en selectiviteit voor doelmoleculen in balans zijn."
-        }
-      },
-      {
-        question: {
-          en: "Which encapsulation technology provides the highest flavor retention during spray drying of beverage powders?",
-          es: "¿Qué tecnología de encapsulación proporciona la mayor retención de sabor durante el secado por aspersión de polvos de bebidas?",
-          de: "Welche Einkapselungstechnologie bietet die höchste Geschmacksretention während des Sprühtrocknens von Getränkepulvern?",
-          nl: "Welke inkapselingstechnologie biedt de hoogste smaakretentie tijdens sproeidrogen van dranken poeders?"
-        },
-        options: [
-          { en: "Maltodextrin coating", es: "Recubrimiento con maltodextrina", de: "Maltodextrin-Beschichtung", nl: "Maltodextrine coating" },
-          { en: "β-cyclodextrin complexation", es: "Complexación con β-ciclodextrina", de: "β-Cyclodextrin-Komplexierung", nl: "β-cyclodextrine complexatie" },
-          { en: "Protein-polysaccharide coacervation", es: "Coacervación proteína-polisacárido", de: "Protein-Polysaccharid-Koazervation", nl: "Eiwit-polysacharide coacervatie" },
-          { en: "Lipid matrix entrapment", es: "Atrapamiento en matriz lipídica", de: "Lipidmatrix-Einschluss", nl: "Lipide matrix opsluiting" }
-        ],
-        correct: 2,
-        explanation: {
-          en: "Protein-polysaccharide coacervation provides superior protection against oxidation and thermal degradation, achieving the highest flavor retention rates.",
-          es: "La coacervación proteína-polisacárido proporciona protección superior contra la oxidación y degradación térmica, logrando las tasas más altas de retención de sabor.",
-          de: "Protein-Polysaccharid-Koazervation bietet überlegenen Schutz gegen Oxidation und thermische Degradation und erreicht die höchsten Geschmacksretentionsraten.",
-          nl: "Eiwit-polysacharide coacervatie biedt superieure bescherming tegen oxidatie en thermische degradatie, waarbij de hoogste smaakretentie percentages worden bereikt."
-        }
-      },
-      {
-        question: {
-          en: "What is the critical micelle concentration (CMC) threshold for lecithin-based emulsification systems in citrus beverages?",
-          es: "¿Cuál es el umbral de concentración micelar crítica (CMC) para sistemas de emulsificación basados en lecitina en bebidas cítricas?",
-          de: "Was ist die kritische Mizellkonzentrations-(CMC)-Schwelle für lecithinbasierte Emulgiersysteme in Zitrusgetränken?",
-          nl: "Wat is de kritische micel concentratie (CMC) drempel voor lecithine-gebaseerde emulsificatiesystemen in citrusdranken?"
-        },
-        options: [
-          { en: "0.01-0.05%", es: "0.01-0.05%", de: "0.01-0.05%", nl: "0.01-0.05%" },
-          { en: "0.1-0.3%", es: "0.1-0.3%", de: "0.1-0.3%", nl: "0.1-0.3%" },
-          { en: "0.5-1.0%", es: "0.5-1.0%", de: "0.5-1.0%", nl: "0.5-1.0%" },
-          { en: "2.0-5.0%", es: "2.0-5.0%", de: "2.0-5.0%", nl: "2.0-5.0%" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Lecithin in citrus beverages typically requires 0.1-0.3% concentration to achieve effective emulsification and prevent oil separation.",
-          es: "La lecitina en bebidas cítricas típicamente requiere una concentración de 0.1-0.3% para lograr emulsificación efectiva y prevenir la separación del aceite.",
-          de: "Lecithin in Zitrusgetränken benötigt typischerweise 0.1-0.3% Konzentration, um effektive Emulgierung zu erreichen und Ölseparation zu verhindern.",
-          nl: "Lecithine in citrusdranken vereist doorgaans 0.1-0.3% concentratie om effectieve emulsificatie te bereiken en oliescheiding te voorkomen."
-        }
-      },
-      {
-        question: {
-          en: "Which advanced filtration technology provides the highest rejection rate for virus-sized particles in cold-processed beverages?",
-          es: "¿Qué tecnología de filtración avanzada proporciona la mayor tasa de rechazo para partículas del tamaño de virus en bebidas procesadas en frío?",
-          de: "Welche fortgeschrittene Filtrationstechnologie bietet die höchste Rückhalterate für virusgroße Partikel in kalt verarbeiteten Getränken?",
-          nl: "Welke geavanceerde filtratietechnologie biedt de hoogste afwijzingsgraad voor virus-grote deeltjes in koud verwerkte dranken?"
-        },
-        options: [
-          { en: "Ultrafiltration (10-100 kDa)", es: "Ultrafiltración (10-100 kDa)", de: "Ultrafiltration (10-100 kDa)", nl: "Ultrafiltratie (10-100 kDa)" },
-          { en: "Nanofiltration (200-1000 Da)", es: "Nanofiltración (200-1000 Da)", de: "Nanofiltration (200-1000 Da)", nl: "Nanofiltratie (200-1000 Da)" },
-          { en: "Reverse osmosis (<100 Da)", es: "Ósmosis inversa (<100 Da)", de: "Umkehrosmose (<100 Da)", nl: "Omgekeerde osmose (<100 Da)" },
-          { en: "Microfiltration (0.1-0.2 μm)", es: "Microfiltración (0.1-0.2 μm)", de: "Mikrofiltration (0.1-0.2 μm)", nl: "Microfiltratie (0.1-0.2 μm)" }
         ],
         correct: 3,
         explanation: {
-          en: "Microfiltration with 0.1-0.2 μm pore size provides optimal virus rejection while maintaining beverage quality and nutritional properties.",
-          es: "La microfiltración con tamaño de poro de 0.1-0.2 μm proporciona rechazo óptimo de virus mientras mantiene la calidad de la bebida y propiedades nutricionales.",
-          de: "Mikrofiltration mit 0.1-0.2 μm Porengröße bietet optimale Virusrückhaltung bei Erhaltung der Getränkequalität und Nährstoffeigenschaften.",
-          nl: "Microfiltratie met 0.1-0.2 μm poriëngrootte biedt optimale virusafwijzing terwijl drankenkwaliteit en voedingseigenschappen behouden blijven."
+                  "en": "Two-dimensional gas chromatography time-of-flight mass spectrometry (GC×GC-TOF-MS) provides the highest resolution for volatile compounds crucial to flavor perception.",
+                  "es": "La cromatografía de gases bidimensional con espectrometría de masas de tiempo de vuelo (GC×GC-TOF-MS) proporciona la mayor resolución para compuestos volátiles cruciales para la percepción del sabor.",
+                  "de": "Zweidimensionale Gaschromatographie-Flugzeit-Massenspektrometrie (GC×GC-TOF-MS) bietet die höchste Auflösung für flüchtige Verbindungen, die für die Geschmackswahrnehmung entscheidend sind.",
+                  "nl": "Tweedimensionale gaschromatografie tijd-van-vlucht massaspectrometrie (GC×GC-TOF-MS) biedt de hoogste resolutie voor vluchtige verbindingen cruciaal voor smaakperceptie."
         }
       },
       {
         question: {
-          en: "What is the theoretical maximum CO2 solubility in water at 0°C and 1 atm according to Henry's Law?",
-          es: "¿Cuál es la solubilidad teórica máxima de CO2 en agua a 0°C y 1 atm según la Ley de Henry?",
-          de: "Was ist die theoretische maximale CO2-Löslichkeit in Wasser bei 0°C und 1 atm nach dem Henry'schen Gesetz?",
-          nl: "Wat is de theoretische maximale CO2 oplosbaarheid in water bij 0°C en 1 atm volgens de Wet van Henry?"
+                  "en": "What is the optimal pressure range for supercritical CO2 extraction of natural flavor compounds from botanical sources?",
+                  "es": "¿Cuál es el rango de presión óptimo para la extracción con CO2 supercrítico de compuestos de sabor naturales de fuentes botánicas?",
+                  "de": "Was ist der optimale Druckbereich für die überkritische CO2-Extraktion natürlicher Geschmacksverbindungen aus botanischen Quellen?",
+                  "nl": "Wat is het optimale drukbereik voor superkritische CO2 extractie van natuurlijke smaakverbindingen uit botanische bronnen?"
         },
         options: [
-          { en: "0.5 volumes", es: "0.5 volúmenes", de: "0.5 Volumina", nl: "0.5 volumes" },
-          { en: "1.0 volumes", es: "1.0 volúmenes", de: "1.0 Volumina", nl: "1.0 volumes" },
-          { en: "1.7 volumes", es: "1.7 volúmenes", de: "1.7 Volumina", nl: "1.7 volumes" },
-          { en: "3.0 volumes", es: "3.0 volúmenes", de: "3.0 Volumina", nl: "3.0 volumes" }
+        {
+                  "en": "50-100 bar",
+                  "es": "50-100 bar",
+                  "de": "50-100 bar",
+                  "nl": "50-100 bar"
+        },
+        {
+                  "en": "800-1000 bar",
+                  "es": "800-1000 bar",
+                  "de": "800-1000 bar",
+                  "nl": "800-1000 bar"
+        },
+        {
+                  "en": "150-300 bar",
+                  "es": "150-300 bar",
+                  "de": "150-300 bar",
+                  "nl": "150-300 bar"
+        },
+        {
+                  "en": "400-600 bar",
+                  "es": "400-600 bar",
+                  "de": "400-600 bar",
+                  "nl": "400-600 bar"
+        }
         ],
         correct: 2,
         explanation: {
-          en: "At 0°C and 1 atm, the theoretical maximum CO2 solubility in pure water is approximately 1.7 volumes according to Henry's Law calculations.",
-          es: "A 0°C y 1 atm, la solubilidad teórica máxima de CO2 en agua pura es aproximadamente 1.7 volúmenes según los cálculos de la Ley de Henry.",
-          de: "Bei 0°C und 1 atm beträgt die theoretische maximale CO2-Löslichkeit in reinem Wasser etwa 1.7 Volumina nach Henry'schen Gesetzberechnungen.",
-          nl: "Bij 0°C en 1 atm is de theoretische maximale CO2 oplosbaarheid in puur water ongeveer 1.7 volumes volgens Wet van Henry berekeningen."
+                  "en": "Supercritical CO2 extraction for flavor compounds typically operates at 150-300 bar, balancing extraction efficiency with selectivity for target molecules.",
+                  "es": "La extracción con CO2 supercrítico para compuestos de sabor típicamente opera a 150-300 bar, equilibrando la eficiencia de extracción con la selectividad para moléculas objetivo.",
+                  "de": "Überkritische CO2-Extraktion für Geschmacksverbindungen arbeitet typischerweise bei 150-300 bar und balanciert Extraktionseffizienz mit Selektivität für Zielmoleküle.",
+                  "nl": "Superkritische CO2 extractie voor smaakverbindingen werkt doorgaans bij 150-300 bar, waarmee extractie-efficiëntie en selectiviteit voor doelmoleculen in balans zijn."
         }
       },
       {
         question: {
-          en: "Which molecular mechanism is responsible for astringency perception in polyphenol-rich beverages?",
-          es: "¿Qué mecanismo molecular es responsable de la percepción de astringencia en bebidas ricas en polifenoles?",
-          de: "Welcher molekulare Mechanismus ist für die Astringenz-Wahrnehmung in polyphenolreichen Getränken verantwortlich?",
-          nl: "Welk moleculair mechanisme is verantwoordelijk voor astringentie perceptie in polyfenol-rijke dranken?"
+                  "en": "Which encapsulation technology provides the highest flavor retention during spray drying of beverage powders?",
+                  "es": "¿Qué tecnología de encapsulación proporciona la mayor retención de sabor durante el secado por aspersión de polvos de bebidas?",
+                  "de": "Welche Einkapselungstechnologie bietet die höchste Geschmacksretention während des Sprühtrocknens von Getränkepulvern?",
+                  "nl": "Welke inkapselingstechnologie biedt de hoogste smaakretentie tijdens sproeidrogen van dranken poeders?"
         },
         options: [
-          { en: "pH-induced receptor activation", es: "Activación de receptores inducida por pH", de: "pH-induzierte Rezeptoraktivierung", nl: "pH-geïnduceerde receptor activatie" },
-          { en: "Tannin-protein precipitation and saliva viscosity changes", es: "Precipitación tanino-proteína y cambios de viscosidad de saliva", de: "Tannin-Protein-Präzipitation und Speichelviskositätsveränderungen", nl: "Tannine-eiwit precipitatie en speeksel viscositeit veranderingen" },
-          { en: "Direct bitter taste receptor binding", es: "Unión directa a receptores de sabor amargo", de: "Direkte Bittergeschmacksrezeptor-Bindung", nl: "Directe bittere smaak receptor binding" },
-          { en: "Osmotic pressure modulation", es: "Modulación de presión osmótica", de: "Osmotische Druckmodulation", nl: "Osmotische druk modulatie" }
+        {
+                  "en": "β-cyclodextrin complexation",
+                  "es": "Complexación con β-ciclodextrina",
+                  "de": "β-Cyclodextrin-Komplexierung",
+                  "nl": "β-cyclodextrine complexatie"
+        },
+        {
+                  "en": "Lipid matrix entrapment",
+                  "es": "Atrapamiento en matriz lipídica",
+                  "de": "Lipidmatrix-Einschluss",
+                  "nl": "Lipide matrix opsluiting"
+        },
+        {
+                  "en": "Maltodextrin coating",
+                  "es": "Recubrimiento con maltodextrina",
+                  "de": "Maltodextrin-Beschichtung",
+                  "nl": "Maltodextrine coating"
+        },
+        {
+                  "en": "Protein-polysaccharide coacervation",
+                  "es": "Coacervación proteína-polisacárido",
+                  "de": "Protein-Polysaccharid-Koazervation",
+                  "nl": "Eiwit-polysacharide coacervatie"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Protein-polysaccharide coacervation provides superior protection against oxidation and thermal degradation, achieving the highest flavor retention rates.",
+                  "es": "La coacervación proteína-polisacárido proporciona protección superior contra la oxidación y degradación térmica, logrando las tasas más altas de retención de sabor.",
+                  "de": "Protein-Polysaccharid-Koazervation bietet überlegenen Schutz gegen Oxidation und thermische Degradation und erreicht die höchsten Geschmacksretentionsraten.",
+                  "nl": "Eiwit-polysacharide coacervatie biedt superieure bescherming tegen oxidatie en thermische degradatie, waarbij de hoogste smaakretentie percentages worden bereikt."
+        }
+      },
+      {
+        question: {
+                  "en": "What is the critical micelle concentration (CMC) threshold for lecithin-based emulsification systems in citrus beverages?",
+                  "es": "¿Cuál es el umbral de concentración micelar crítica (CMC) para sistemas de emulsificación basados en lecitina en bebidas cítricas?",
+                  "de": "Was ist die kritische Mizellkonzentrations-(CMC)-Schwelle für lecithinbasierte Emulgiersysteme in Zitrusgetränken?",
+                  "nl": "Wat is de kritische micel concentratie (CMC) drempel voor lecithine-gebaseerde emulsificatiesystemen in citrusdranken?"
+        },
+        options: [
+        {
+                  "en": "0.01-0.05%",
+                  "es": "0.01-0.05%",
+                  "de": "0.01-0.05%",
+                  "nl": "0.01-0.05%"
+        },
+        {
+                  "en": "2.0-5.0%",
+                  "es": "2.0-5.0%",
+                  "de": "2.0-5.0%",
+                  "nl": "2.0-5.0%"
+        },
+        {
+                  "en": "0.1-0.3%",
+                  "es": "0.1-0.3%",
+                  "de": "0.1-0.3%",
+                  "nl": "0.1-0.3%"
+        },
+        {
+                  "en": "0.5-1.0%",
+                  "es": "0.5-1.0%",
+                  "de": "0.5-1.0%",
+                  "nl": "0.5-1.0%"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Lecithin in citrus beverages typically requires 0.1-0.3% concentration to achieve effective emulsification and prevent oil separation.",
+                  "es": "La lecitina en bebidas cítricas típicamente requiere una concentración de 0.1-0.3% para lograr emulsificación efectiva y prevenir la separación del aceite.",
+                  "de": "Lecithin in Zitrusgetränken benötigt typischerweise 0.1-0.3% Konzentration, um effektive Emulgierung zu erreichen und Ölseparation zu verhindern.",
+                  "nl": "Lecithine in citrusdranken vereist doorgaans 0.1-0.3% concentratie om effectieve emulsificatie te bereiken en oliescheiding te voorkomen."
+        }
+      },
+      {
+        question: {
+                  "en": "Which advanced filtration technology provides the highest rejection rate for virus-sized particles in cold-processed beverages?",
+                  "es": "¿Qué tecnología de filtración avanzada proporciona la mayor tasa de rechazo para partículas del tamaño de virus en bebidas procesadas en frío?",
+                  "de": "Welche fortgeschrittene Filtrationstechnologie bietet die höchste Rückhalterate für virusgroße Partikel in kalt verarbeiteten Getränken?",
+                  "nl": "Welke geavanceerde filtratietechnologie biedt de hoogste afwijzingsgraad voor virus-grote deeltjes in koud verwerkte dranken?"
+        },
+        options: [
+        {
+                  "en": "Microfiltration (0.1-0.2 μm)",
+                  "es": "Microfiltración (0.1-0.2 μm)",
+                  "de": "Mikrofiltration (0.1-0.2 μm)",
+                  "nl": "Microfiltratie (0.1-0.2 μm)"
+        },
+        {
+                  "en": "Ultrafiltration (10-100 kDa)",
+                  "es": "Ultrafiltración (10-100 kDa)",
+                  "de": "Ultrafiltration (10-100 kDa)",
+                  "nl": "Ultrafiltratie (10-100 kDa)"
+        },
+        {
+                  "en": "Reverse osmosis (<100 Da)",
+                  "es": "Ósmosis inversa (<100 Da)",
+                  "de": "Umkehrosmose (<100 Da)",
+                  "nl": "Omgekeerde osmose (<100 Da)"
+        },
+        {
+                  "en": "Nanofiltration (200-1000 Da)",
+                  "es": "Nanofiltración (200-1000 Da)",
+                  "de": "Nanofiltration (200-1000 Da)",
+                  "nl": "Nanofiltratie (200-1000 Da)"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Microfiltration with 0.1-0.2 μm pore size provides optimal virus rejection while maintaining beverage quality and nutritional properties.",
+                  "es": "La microfiltración con tamaño de poro de 0.1-0.2 μm proporciona rechazo óptimo de virus mientras mantiene la calidad de la bebida y propiedades nutricionales.",
+                  "de": "Mikrofiltration mit 0.1-0.2 μm Porengröße bietet optimale Virusrückhaltung bei Erhaltung der Getränkequalität und Nährstoffeigenschaften.",
+                  "nl": "Microfiltratie met 0.1-0.2 μm poriëngrootte biedt optimale virusafwijzing terwijl drankenkwaliteit en voedingseigenschappen behouden blijven."
+        }
+      },
+      {
+        question: {
+                  "en": "What is the theoretical maximum CO2 solubility in water at 0°C and 1 atm according to Henry's Law?",
+                  "es": "¿Cuál es la solubilidad teórica máxima de CO2 en agua a 0°C y 1 atm según la Ley de Henry?",
+                  "de": "Was ist die theoretische maximale CO2-Löslichkeit in Wasser bei 0°C und 1 atm nach dem Henry'schen Gesetz?",
+                  "nl": "Wat is de theoretische maximale CO2 oplosbaarheid in water bij 0°C en 1 atm volgens de Wet van Henry?"
+        },
+        options: [
+        {
+                  "en": "0.5 volumes",
+                  "es": "0.5 volúmenes",
+                  "de": "0.5 Volumina",
+                  "nl": "0.5 volumes"
+        },
+        {
+                  "en": "1.0 volumes",
+                  "es": "1.0 volúmenes",
+                  "de": "1.0 Volumina",
+                  "nl": "1.0 volumes"
+        },
+        {
+                  "en": "1.7 volumes",
+                  "es": "1.7 volúmenes",
+                  "de": "1.7 Volumina",
+                  "nl": "1.7 volumes"
+        },
+        {
+                  "en": "3.0 volumes",
+                  "es": "3.0 volúmenes",
+                  "de": "3.0 Volumina",
+                  "nl": "3.0 volumes"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "At 0°C and 1 atm, the theoretical maximum CO2 solubility in pure water is approximately 1.7 volumes according to Henry's Law calculations.",
+                  "es": "A 0°C y 1 atm, la solubilidad teórica máxima de CO2 en agua pura es aproximadamente 1.7 volúmenes según los cálculos de la Ley de Henry.",
+                  "de": "Bei 0°C und 1 atm beträgt die theoretische maximale CO2-Löslichkeit in reinem Wasser etwa 1.7 Volumina nach Henry'schen Gesetzberechnungen.",
+                  "nl": "Bij 0°C en 1 atm is de theoretische maximale CO2 oplosbaarheid in puur water ongeveer 1.7 volumes volgens Wet van Henry berekeningen."
+        }
+      },
+      {
+        question: {
+                  "en": "Which molecular mechanism is responsible for astringency perception in polyphenol-rich beverages?",
+                  "es": "¿Qué mecanismo molecular es responsable de la percepción de astringencia en bebidas ricas en polifenoles?",
+                  "de": "Welcher molekulare Mechanismus ist für die Astringenz-Wahrnehmung in polyphenolreichen Getränken verantwortlich?",
+                  "nl": "Welk moleculair mechanisme is verantwoordelijk voor astringentie perceptie in polyfenol-rijke dranken?"
+        },
+        options: [
+        {
+                  "en": "Osmotic pressure modulation",
+                  "es": "Modulación de presión osmótica",
+                  "de": "Osmotische Druckmodulation",
+                  "nl": "Osmotische druk modulatie"
+        },
+        {
+                  "en": "pH-induced receptor activation",
+                  "es": "Activación de receptores inducida por pH",
+                  "de": "pH-induzierte Rezeptoraktivierung",
+                  "nl": "pH-geïnduceerde receptor activatie"
+        },
+        {
+                  "en": "Tannin-protein precipitation and saliva viscosity changes",
+                  "es": "Precipitación tanino-proteína y cambios de viscosidad de saliva",
+                  "de": "Tannin-Protein-Präzipitation und Speichelviskositätsveränderungen",
+                  "nl": "Tannine-eiwit precipitatie en speeksel viscositeit veranderingen"
+        },
+        {
+                  "en": "Direct bitter taste receptor binding",
+                  "es": "Unión directa a receptores de sabor amargo",
+                  "de": "Direkte Bittergeschmacksrezeptor-Bindung",
+                  "nl": "Directe bittere smaak receptor binding"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Astringency results from tannin-protein interactions that precipitate salivary proteins, reducing lubrication and creating the characteristic dry, puckering sensation.",
+                  "es": "La astringencia resulta de interacciones tanino-proteína que precipitan proteínas salivales, reduciendo la lubricación y creando la sensación característica seca y fruncida.",
+                  "de": "Astringenz entsteht durch Tannin-Protein-Wechselwirkungen, die Speichelproteine ausfällen, die Schmierung reduzieren und das charakteristische trockene, zusammenziehende Gefühl erzeugen.",
+                  "nl": "Astringentie ontstaat door tannine-eiwit interacties die speekseleiwitten neerslaan, smering verminderen en de karakteristieke droge, samentrekkende sensatie creëren."
+        }
+      },
+      {
+        question: {
+                  "en": "What is the optimal particle size distribution for stable foam formation in protein-enriched beverages?",
+                  "es": "¿Cuál es la distribución óptima de tamaño de partícula para la formación estable de espuma en bebidas enriquecidas con proteínas?",
+                  "de": "Was ist die optimale Partikelgrößenverteilung für stabile Schaumbildung in proteinangereicherten Getränken?",
+                  "nl": "Wat is de optimale deeltjesgrootte verdeling voor stabiele schuimvorming in eiwit-verrijkte dranken?"
+        },
+        options: [
+        {
+                  "en": "100-1000 μm wide distribution",
+                  "es": "Distribución amplia de 100-1000 μm",
+                  "de": "100-1000 μm breite Verteilung",
+                  "nl": "100-1000 μm brede verdeling"
+        },
+        {
+                  "en": "10-100 μm polydisperse system",
+                  "es": "Sistema polidisperso de 10-100 μm",
+                  "de": "10-100 μm polydisperses System",
+                  "nl": "10-100 μm polydispers systeem"
+        },
+        {
+                  "en": "1-10 μm bimodal distribution",
+                  "es": "Distribución bimodal de 1-10 μm",
+                  "de": "1-10 μm bimodale Verteilung",
+                  "nl": "1-10 μm bimodale verdeling"
+        },
+        {
+                  "en": "0.1-1 μm uniform distribution",
+                  "es": "Distribución uniforme de 0.1-1 μm",
+                  "de": "0.1-1 μm gleichmäßige Verteilung",
+                  "nl": "0.1-1 μm uniforme verdeling"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Bimodal particle distribution (1-10 μm) provides optimal foam stability by combining small particles for interfacial stabilization with larger particles for mechanical strength.",
+                  "es": "La distribución bimodal de partículas (1-10 μm) proporciona estabilidad óptima de espuma combinando partículas pequeñas para estabilización interfacial con partículas más grandes para resistencia mecánica.",
+                  "de": "Bimodale Partikelverteilung (1-10 μm) bietet optimale Schaumstabilität durch Kombination kleiner Partikel für Grenzflächenstabilisierung mit größeren Partikeln für mechanische Festigkeit.",
+                  "nl": "Bimodale deeltjesverdeling (1-10 μm) biedt optimale schuimstabiliteit door kleine deeltjes voor oppervlakte stabilisatie te combineren met grotere deeltjes voor mechanische sterkte."
+        }
+      },
+      {
+        question: {
+                  "en": "Which spectroscopic technique provides real-time monitoring of Maillard reaction kinetics during thermal processing?",
+                  "es": "¿Qué técnica espectroscópica proporciona monitoreo en tiempo real de la cinética de reacción de Maillard durante el procesamiento térmico?",
+                  "de": "Welche spektroskopische Technik bietet Echtzeitüberwachung der Maillard-Reaktionskinetik während der thermischen Verarbeitung?",
+                  "nl": "Welke spectroscopische techniek biedt real-time monitoring van Maillard reactie kinetiek tijdens thermische verwerking?"
+        },
+        options: [
+        {
+                  "en": "Raman spectroscopy at 1560 cm⁻¹",
+                  "es": "Espectroscopía Raman a 1560 cm⁻¹",
+                  "de": "Raman-Spektroskopie bei 1560 cm⁻¹",
+                  "nl": "Raman spectroscopie bij 1560 cm⁻¹"
+        },
+        {
+                  "en": "Fluorescence excitation at 347 nm",
+                  "es": "Excitación de fluorescencia a 347 nm",
+                  "de": "Fluoreszenzanregung bei 347 nm",
+                  "nl": "Fluorescentie excitatie bij 347 nm"
+        },
+        {
+                  "en": "UV-Vis absorption at 280 nm",
+                  "es": "Absorción UV-Vis a 280 nm",
+                  "de": "UV-Vis-Absorption bei 280 nm",
+                  "nl": "UV-Vis absorptie bij 280 nm"
+        },
+        {
+                  "en": "Mid-IR analysis at 1650-1750 cm⁻¹",
+                  "es": "Análisis mid-IR a 1650-1750 cm⁻¹",
+                  "de": "Mid-IR-Analyse bei 1650-1750 cm⁻¹",
+                  "nl": "Mid-IR analyse bij 1650-1750 cm⁻¹"
+        }
         ],
         correct: 1,
         explanation: {
-          en: "Astringency results from tannin-protein interactions that precipitate salivary proteins, reducing lubrication and creating the characteristic dry, puckering sensation.",
-          es: "La astringencia resulta de interacciones tanino-proteína que precipitan proteínas salivales, reduciendo la lubricación y creando la sensación característica seca y fruncida.",
-          de: "Astringenz entsteht durch Tannin-Protein-Wechselwirkungen, die Speichelproteine ausfällen, die Schmierung reduzieren und das charakteristische trockene, zusammenziehende Gefühl erzeugen.",
-          nl: "Astringentie ontstaat door tannine-eiwit interacties die speekseleiwitten neerslaan, smering verminderen en de karakteristieke droge, samentrekkende sensatie creëren."
+                  "en": "Fluorescence excitation at 347 nm specifically detects advanced glycation end products (AGEs) formed during Maillard reactions, enabling real-time kinetic monitoring.",
+                  "es": "La excitación de fluorescencia a 347 nm detecta específicamente productos finales de glicación avanzada (AGEs) formados durante las reacciones de Maillard, permitiendo monitoreo cinético en tiempo real.",
+                  "de": "Fluoreszenzanregung bei 347 nm detektiert spezifisch fortgeschrittene Glykationsendprodukte (AGEs), die während Maillard-Reaktionen gebildet werden, und ermöglicht Echtzeitkinetik-Überwachung.",
+                  "nl": "Fluorescentie excitatie bij 347 nm detecteert specifiek geavanceerde glycatie eindproducten (AGEs) gevormd tijdens Maillard reacties, wat real-time kinetische monitoring mogelijk maakt."
         }
       },
       {
         question: {
-          en: "What is the optimal particle size distribution for stable foam formation in protein-enriched beverages?",
-          es: "¿Cuál es la distribución óptima de tamaño de partícula para la formación estable de espuma en bebidas enriquecidas con proteínas?",
-          de: "Was ist die optimale Partikelgrößenverteilung für stabile Schaumbildung in proteinangereicherten Getränken?",
-          nl: "Wat is de optimale deeltjesgrootte verdeling voor stabiele schuimvorming in eiwit-verrijkte dranken?"
+                  "en": "What is the optimal hydraulic residence time for continuous ozonation systems in beverage water treatment?",
+                  "es": "¿Cuál es el tiempo de residencia hidráulico óptimo para sistemas de ozonización continua en tratamiento de agua para bebidas?",
+                  "de": "Was ist die optimale hydraulische Verweilzeit für kontinuierliche Ozonisierungssysteme in der Getränkewasseraufbereitung?",
+                  "nl": "Wat is de optimale hydraulische verblijftijd voor continue ozonisatie systemen in drankenwaterbehandeling?"
         },
         options: [
-          { en: "0.1-1 μm uniform distribution", es: "Distribución uniforme de 0.1-1 μm", de: "0.1-1 μm gleichmäßige Verteilung", nl: "0.1-1 μm uniforme verdeling" },
-          { en: "1-10 μm bimodal distribution", es: "Distribución bimodal de 1-10 μm", de: "1-10 μm bimodale Verteilung", nl: "1-10 μm bimodale verdeling" },
-          { en: "10-100 μm polydisperse system", es: "Sistema polidisperso de 10-100 μm", de: "10-100 μm polydisperses System", nl: "10-100 μm polydispers systeem" },
-          { en: "100-1000 μm wide distribution", es: "Distribución amplia de 100-1000 μm", de: "100-1000 μm breite Verteilung", nl: "100-1000 μm brede verdeling" }
+        {
+                  "en": "30-60 seconds",
+                  "es": "30-60 segundos",
+                  "de": "30-60 Sekunden",
+                  "nl": "30-60 seconden"
+        },
+        {
+                  "en": "10-15 minutes",
+                  "es": "10-15 minutos",
+                  "de": "10-15 Minuten",
+                  "nl": "10-15 minuten"
+        },
+        {
+                  "en": "30-45 minutes",
+                  "es": "30-45 minutos",
+                  "de": "30-45 Minuten",
+                  "nl": "30-45 minuten"
+        },
+        {
+                  "en": "2-5 minutes",
+                  "es": "2-5 minutos",
+                  "de": "2-5 Minuten",
+                  "nl": "2-5 minuten"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Optimal ozonation requires 2-5 minutes contact time to achieve effective microbial inactivation while preventing excessive oxidation of beneficial compounds.",
+                  "es": "La ozonización óptima requiere 2-5 minutos de tiempo de contacto para lograr inactivación microbiana efectiva mientras previene la oxidación excesiva de compuestos beneficiosos.",
+                  "de": "Optimale Ozonisierung erfordert 2-5 Minuten Kontaktzeit, um effektive mikrobielle Inaktivierung zu erreichen und gleichzeitig übermäßige Oxidation nützlicher Verbindungen zu verhindern.",
+                  "nl": "Optimale ozonisatie vereist 2-5 minuten contacttijd om effectieve microbiële inactivatie te bereiken terwijl excessieve oxidatie van nuttige verbindingen wordt voorkomen."
+        }
+      },
+      {
+        question: {
+                  "en": "What is 'fouling resistance' (Rf) calculation in beverage heat exchangers and its implications?",
+                  "es": "¿Qué es cálculo 'resistencia incrustación' (Rf) en intercambiadores calor bebidas y sus implicaciones?",
+                  "de": "Was ist 'Verschmutzungswiderstand' (Rf) Berechnung in Getränke-Wärmetauschern und ihre Implikationen?",
+                  "nl": "Wat is 'vervuilingsweerstand' (Rf) berekening in dranken warmtewisselaars en zijn implicaties?"
+        },
+        options: [
+        {
+                  "en": "Rf = 1/U_dirty - 1/U_clean; increasing Rf indicates heat transfer decline from protein/mineral deposits requiring CIP escalation",
+                  "es": "Rf = 1/U_sucio - 1/U_limpio; aumento Rf indica declive transferencia calor de depósitos proteína/minerales requiriendo escalada CIP",
+                  "de": "Rf = 1/U_schmutzig - 1/U_sauber; steigendes Rf zeigt Wärmeübertragungsabnahme von Protein/Mineralablagerungen erfordert CIP-Eskalation",
+                  "nl": "Rf = 1/U_vuil - 1/U_schoon; stijgende Rf duidt warmteoverdracht afname van eiwit/mineraal afzettingen vereisend CIP escalatie"
+        },
+        {
+                  "en": "Only pressure loss",
+                  "es": "Solo pérdida presión",
+                  "de": "Nur Druckverlust",
+                  "nl": "Alleen drukverlies"
+        },
+        {
+                  "en": "Only flow rate changes",
+                  "es": "Solo cambios tasa flujo",
+                  "de": "Nur Durchflussratenänderungen",
+                  "nl": "Alleen stroomsnelheidsveranderingen"
+        },
+        {
+                  "en": "Only temperature difference",
+                  "es": "Solo diferencia temperatura",
+                  "de": "Nur Temperaturdifferenz",
+                  "nl": "Alleen temperatuurverschil"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Fouling resistance quantifies thermal efficiency decline: Rf = 1/U_dirty - 1/U_clean where U is overall heat transfer coefficient (W/m²·K). Clean plate heat exchangers: U = 3000-5000; after fouling: U drops to 2000-3000, increasing Rf from 0 to 0.0002-0.0003 m²·K/W. Fouling mechanisms in soft drinks: protein denaturation (milk-based), calcium phosphate scaling (hard water), caramelization (sugar-based), biofilm formation (microbial). Consequences: reduced thermal efficiency (longer processing times, higher energy costs), uneven heating (compromised pasteurization), increased pressure drop (pump strain). Monitoring: inline temperature/pressure sensors calculating U in real-time; typical CIP triggers when Rf > 0.0003 or U drops 20-30%. Prevention: velocity >1.5 m/s (turbulent flow reduces deposits), temperature control <85°C (limits protein denaturation), acid CIP cycles (dissolve mineral scale), alkaline CIP (remove proteins). Design: corrugated plates creating high shear zones, cleanability factors in plate geometry selection."
+        }
+      },
+      {
+        question: {
+                  "en": "What is 'microfluidic emulsification' for nanoemulsion beverage production?",
+                  "es": "¿Qué es 'emulsificación microfluídica' para producción bebidas nanoemulsión?",
+                  "de": "Was ist 'mikrofluidische Emulgierung' für Nanoemulsions-Getränkeproduktion?",
+                  "nl": "Wat is 'microfluïdische emulsificatie' voor nanoemulsie drankenproductie?"
+        },
+        options: [
+        {
+                  "en": "Only more surfactant",
+                  "es": "Solo más surfactante",
+                  "de": "Nur mehr Tensid",
+                  "nl": "Alleen meer surfactant"
+        },
+        {
+                  "en": "Only stirring faster",
+                  "es": "Solo agitar más rápido",
+                  "de": "Nur schneller rühren",
+                  "nl": "Alleen sneller roeren"
+        },
+        {
+                  "en": "Controlled droplet generation <200nm via microchannel geometry for bioavailability enhancement",
+                  "es": "Generación gotas controlada <200nm vía geometría microcanal para mejora biodisponibilidad",
+                  "de": "Kontrollierte Tröpfchenbildung <200nm über Mikrokanalgeometrie für Bioverfügbarkeitsverbesserung",
+                  "nl": "Gecontroleerde druppel generatie <200nm via microkanaal geometrie voor biobeschikbaarheid verbetering"
+        },
+        {
+                  "en": "Only higher temperature",
+                  "es": "Solo temperatura más alta",
+                  "de": "Nur höhere Temperatur",
+                  "nl": "Alleen hogere temperatuur"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Microfluidic devices use precisely engineered microchannels (10-500 μm) creating controlled shear/elongational flows for monodisperse nanoemulsion droplet formation. Functional beverage applications include enhanced bioavailability of curcumin, resveratrol, omega-3, fat-soluble vitamins."
+        }
+      },
+      {
+        question: {
+                  "en": "What is 'CRISPR-based biosensors' for real-time pathogen detection in beverage lines?",
+                  "es": "¿Qué son 'biosensores basados CRISPR' para detección patógenos tiempo real en líneas bebidas?",
+                  "de": "Was sind 'CRISPR-basierte Biosensoren' für Echtzeit-Pathogendetektion in Getränkelinien?",
+                  "nl": "Wat zijn 'CRISPR-gebaseerde biosensoren' voor real-time pathogeen detectie in drankenlijnen?"
+        },
+        options: [
+        {
+                  "en": "Cas protein detecting specific DNA/RNA sequences with fluorescent/electrochemical readout in <30min for E.coli, Salmonella, Listeria",
+                  "es": "Proteína Cas detectando secuencias DNA/RNA específicas con lectura fluorescente/electroquímica en <30min para E.coli, Salmonella, Listeria",
+                  "de": "Cas-Protein erkennt spezifische DNA/RNA-Sequenzen mit fluoreszierender/elektrochemischer Ablesung in <30min für E.coli, Salmonella, Listeria",
+                  "nl": "Cas eiwit detecterend specifieke DNA/RNA sequenties met fluorescente/elektrochemische uitlezing in <30min voor E.coli, Salmonella, Listeria"
+        },
+        {
+                  "en": "Only cell culture",
+                  "es": "Solo cultivo celular",
+                  "de": "Nur Zellkultur",
+                  "nl": "Alleen celkweek"
+        },
+        {
+                  "en": "Only PCR testing",
+                  "es": "Solo prueba PCR",
+                  "de": "Nur PCR-Test",
+                  "nl": "Alleen PCR testen"
+        },
+        {
+                  "en": "Only DNA sequencing",
+                  "es": "Solo secuenciación DNA",
+                  "de": "Nur DNA-Sequenzierung",
+                  "nl": "Alleen DNA sequencing"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "CRISPR-Cas systems (Cas12/Cas13) detect target pathogen nucleic acids with single-base specificity. Upon binding, collateral cleavage activity releases fluorophore or generates electrochemical signal. Advantages: rapid (<30min vs. 24-48hr culture), sensitive (10-100 CFU/mL), field-deployable, multiplexed detection."
+        }
+      },
+      {
+        question: {
+                  "en": "What is 'additive manufacturing' (3D printing) for customized beverage production nozzles?",
+                  "es": "¿Qué es 'fabricación aditiva' (impresión 3D) para boquillas producción bebidas personalizadas?",
+                  "de": "Was ist 'additive Fertigung' (3D-Druck) für kundenspezifische Getränkeproduktionsdüsen?",
+                  "nl": "Wat is 'additieve fabricage' (3D printen) voor aangepaste drankenproductie mondstukken?"
+        },
+        options: [
+        {
+                  "en": "Layer-by-layer metal/polymer deposition enabling complex geometries for optimized spray patterns, mixing, carbonation",
+                  "es": "Deposición metal/polímero capa por capa permitiendo geometrías complejas para patrones rociado, mezcla, carbonatación optimizados",
+                  "de": "Schicht-für-Schicht Metall/Polymer-Abscheidung ermöglicht komplexe Geometrien für optimierte Sprühmuster, Mischung, Karbonisierung",
+                  "nl": "Laag-voor-laag metaal/polymeer depositie mogelijk makend complexe geometrieën voor geoptimaliseerde sproeipatronen, menging, carbonatie"
+        },
+        {
+                  "en": "Only molding",
+                  "es": "Solo moldeado",
+                  "de": "Nur Formen",
+                  "nl": "Alleen vormgeven"
+        },
+        {
+                  "en": "Only traditional machining",
+                  "es": "Solo mecanizado tradicional",
+                  "de": "Nur traditionelle Bearbeitung",
+                  "nl": "Alleen traditionele bewerking"
+        },
+        {
+                  "en": "Only casting",
+                  "es": "Solo fundición",
+                  "de": "Nur Gießen",
+                  "nl": "Alleen gieten"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "3D printing (SLS, DMLS, SLA) creates intricate internal channels impossible via conventional manufacturing. Applications: optimized carbonator nozzles (enhanced CO₂ dissolution), static mixers (improved homogeneity), spray dryer atomizers (controlled droplet size), rapid prototyping (days vs. weeks), on-demand spare parts."
+        }
+      },
+      {
+        question: {
+                  "en": "What is 'metabolic flux analysis' (MFA) for optimizing fermentation in kombucha-style soft drinks?",
+                  "es": "¿Qué es 'análisis flujo metabólico' (MFA) para optimizar fermentación en refrescos estilo kombucha?",
+                  "de": "Was ist 'metabolische Flussanalyse' (MFA) zur Optimierung der Fermentation in Kombucha-artigen Erfrischungsgetränken?",
+                  "nl": "Wat is 'metabolische flux analyse' (MFA) voor optimaliseren fermentatie in kombucha-stijl frisdranken?"
+        },
+        options: [
+        {
+                  "en": "13C isotope tracing quantifying carbon flux through metabolic pathways predicting flavor compound yields, fermentation time, pH trajectory",
+                  "es": "Rastreo isótopo 13C cuantificando flujo carbono a través vías metabólicas prediciendo rendimientos compuestos sabor, tiempo fermentación, trayectoria pH",
+                  "de": "13C-Isotopen-Verfolgung quantifiziert Kohlenstofffluss durch Stoffwechselwege vorhersagend Aromaverbindungsausbeuten, Fermentationszeit, pH-Verlauf",
+                  "nl": "13C isotoop tracering kwantificerend koolstof flux door metabole routes voorspellend smaakstof opbrengsten, fermentatie tijd, pH traject"
+        },
+        {
+                  "en": "Only measuring pH",
+                  "es": "Solo medir pH",
+                  "de": "Nur pH messen",
+                  "nl": "Alleen pH meten"
+        },
+        {
+                  "en": "Only counting cells",
+                  "es": "Solo contar células",
+                  "de": "Nur Zellen zählen",
+                  "nl": "Alleen cellen tellen"
+        },
+        {
+                  "en": "Only taste testing",
+                  "es": "Solo prueba sabor",
+                  "de": "Nur Geschmackstest",
+                  "nl": "Alleen smaaktest"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "MFA uses 13C-labeled substrates (glucose, fructose) tracking carbon atom fate through yeast/bacteria metabolism. GC-MS/LC-MS measures labeling patterns in metabolites, computational models calculate flux rates (reaction velocities). Optimizes: acetic acid:ethanol ratio, gluconic acid production (flavor), polyphenol biotransformation, probiotic viability, batch time reduction."
+        }
+      },
+      {
+        question: {
+                  "en": "What is 'ohmic heating' for continuous beverage pasteurization?",
+                  "es": "¿Qué es 'calentamiento óhmico' para pasteurización continua bebidas?",
+                  "de": "Was ist 'Ohmsche Erhitzung' für kontinuierliche Getränkepasteurisierung?",
+                  "nl": "Wat is 'ohmische verwarming' voor continue dranken pasteurisatie?"
+        },
+        options: [
+        {
+                  "en": "Only steam injection",
+                  "es": "Solo inyección vapor",
+                  "de": "Nur Dampfinjektion",
+                  "nl": "Alleen stoom injectie"
+        },
+        {
+                  "en": "Only hot plates",
+                  "es": "Solo placas calientes",
+                  "de": "Nur Heizplatten",
+                  "nl": "Alleen hete platen"
+        },
+        {
+                  "en": "Only microwave heating",
+                  "es": "Solo calentamiento microondas",
+                  "de": "Nur Mikrowellenerhitzung",
+                  "nl": "Alleen magnetron verwarming"
+        },
+        {
+                  "en": "Direct electrical current through beverage generating uniform volumetric heating avoiding surface overheating, rapid heating rates 1-10°C/s",
+                  "es": "Corriente eléctrica directa a través bebida generando calentamiento volumétrico uniforme evitando sobrecalentamiento superficie, tasas calentamiento rápidas 1-10°C/s",
+                  "de": "Direkter elektrischer Strom durch Getränk erzeugt gleichmäßige volumetrische Erwärmung vermeidet Oberflächenüberhitzung, schnelle Heizraten 1-10°C/s",
+                  "nl": "Directe elektrische stroom door drank genererend uniforme volumetrische verwarming vermijdend oppervlakte oververhitting, snelle verwarmingssnelheden 1-10°C/s"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Ohmic heating passes AC current (50-60 Hz, 100-10000 V/m) through beverage between electrodes. Electrical resistance generates heat directly within product (Q = I²R). Advantages: no hot surfaces (no fouling/burning), rapid heating (preserves nutrients/flavor), uniform temperature (particulate-containing beverages), energy-efficient (>90% vs. 60-70% conventional). Applications: fruit juices with pulp, plant-based milks, liquid eggs. Requirements: ionic conductivity control, electrode materials (titanium, stainless steel), frequency optimization."
+        }
+      },
+      {
+        question: {
+                  "en": "What is 'sono-crystallization' for controlling sugar crystal size in beverage syrups?",
+                  "es": "¿Qué es 'sono-cristalización' para controlar tamaño cristal azúcar en jarabes bebidas?",
+                  "de": "Was ist 'Sono-Kristallisation' zur Kontrolle der Zuckerkristallgröße in Getränkesirupen?",
+                  "nl": "Wat is 'sono-kristallisatie' voor controle suiker kristal grootte in dranken siropen?"
+        },
+        options: [
+        {
+                  "en": "Only stirring",
+                  "es": "Solo agitar",
+                  "de": "Nur Rühren",
+                  "nl": "Alleen roeren"
+        },
+        {
+                  "en": "Only seeding",
+                  "es": "Solo sembrar",
+                  "de": "Nur Säen",
+                  "nl": "Alleen zaaien"
+        },
+        {
+                  "en": "Only slow cooling",
+                  "es": "Solo enfriamiento lento",
+                  "de": "Nur langsames Abkühlen",
+                  "nl": "Alleen langzaam koelen"
+        },
+        {
+                  "en": "Ultrasonic waves (20-100 kHz) inducing cavitation creating nucleation sites for uniform small crystals preventing graininess",
+                  "es": "Ondas ultrasónicas (20-100 kHz) induciendo cavitación creando sitios nucleación para cristales pequeños uniformes previniendo granulosidad",
+                  "de": "Ultraschallwellen (20-100 kHz) induzieren Kavitation schaffen Nukleationsstellen für einheitliche kleine Kristalle verhindern Körnigkeit",
+                  "nl": "Ultrasone golven (20-100 kHz) inducerend cavitatie creërend nucleatie sites voor uniforme kleine kristallen voorkomen korreligheid"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Ultrasound creates acoustic cavitation—microscopic bubbles imploding generate localized pressure/temperature spikes and micro-jets. Effects: increased nucleation rate (more crystals formed simultaneously), reduced metastable zone width (faster crystallization), smaller mean crystal size (10-50 μm vs. 100-500 μm conventional), narrower size distribution. Applications: fountain syrup production (preventing settling/clogging), fondant manufacturing, preventing sucrose crystallization in high-Brix beverages. Parameters: frequency (20-40 kHz optimal), power (5-20 W/cm²), pulsing patterns."
+        }
+      },
+      {
+        question: {
+                  "en": "What is 'photocatalytic oxidation' using TiO₂ for beverage packaging surface decontamination?",
+                  "es": "¿Qué es 'oxidación fotocatalítica' usando TiO₂ para descontaminación superficie empaque bebidas?",
+                  "de": "Was ist 'photokatalytische Oxidation' mit TiO₂ zur Dekontamination von Getränkeverpackungsoberflächen?",
+                  "nl": "Wat is 'fotokatalytische oxidatie' gebruikmakend van TiO₂ voor dranken verpakking oppervlakte decontaminatie?"
+        },
+        options: [
+        {
+                  "en": "Only alcohol wipes",
+                  "es": "Solo toallitas alcohol",
+                  "de": "Nur Alkoholtücher",
+                  "nl": "Alleen alcohol doekjes"
+        },
+        {
+                  "en": "Only washing with water",
+                  "es": "Solo lavar con agua",
+                  "de": "Nur mit Wasser waschen",
+                  "nl": "Alleen wassen met water"
+        },
+        {
+                  "en": "UV light activating TiO₂ coating generating reactive oxygen species destroying bacteria/viruses/biofilms on bottles/caps without chemical residues",
+                  "es": "Luz UV activando recubrimiento TiO₂ generando especies reactivas oxígeno destruyendo bacterias/virus/biopelículas en botellas/tapas sin residuos químicos",
+                  "de": "UV-Licht aktiviert TiO₂-Beschichtung erzeugt reaktive Sauerstoffspezies zerstört Bakterien/Viren/Biofilme auf Flaschen/Kappen ohne chemische Rückstände",
+                  "nl": "UV licht activerend TiO₂ coating genererend reactieve zuurstof soorten vernietigt bacteriën/virussen/biofilms op flessen/doppen zonder chemische residuen"
+        },
+        {
+                  "en": "Only heat treatment",
+                  "es": "Solo tratamiento calor",
+                  "de": "Nur Wärmebehandlung",
+                  "nl": "Alleen warmtebehandeling"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "TiO₂ photocatalyst absorbs UV (<380nm) generating electron-hole pairs. Electrons reduce O₂ to superoxide (O₂⁻), holes oxidize H₂O/OH⁻ to hydroxyl radicals (•OH). These reactive species non-selectively oxidize organic contaminants and microbial cells causing membrane rupture, DNA damage. Applications: self-sterilizing bottle surfaces (continuous antimicrobial effect), cap liners, filling equipment surfaces. Advantages: no consumables (catalytic cycle), works at room temperature, broad spectrum (bacteria, viruses, fungi, spores), no disinfection byproducts. Coatings applied via sol-gel, sputtering, CVD. Growing use in aseptic lines reducing chemical sanitizer dependence."
+        }
+      },
+      {
+        question: {
+                  "en": "What is 'dielectric spectroscopy' for real-time monitoring of beverage fermentation/aging?",
+                  "es": "¿Qué es 'espectroscopía dieléctrica' para monitoreo tiempo real fermentación/envejecimiento bebidas?",
+                  "de": "Was ist 'dielektrische Spektroskopie' für Echtzeit-Überwachung von Getränkefermentation/-alterung?",
+                  "nl": "Wat is 'diëlektrische spectroscopie' voor real-time monitoring van dranken fermentatie/rijping?"
+        },
+        options: [
+        {
+                  "en": "Measuring complex permittivity (0.1Hz-10GHz) tracking cell membrane polarization, ion mobility, biomass, metabolite changes non-invasively",
+                  "es": "Medir permitividad compleja (0.1Hz-10GHz) rastreando polarización membrana celular, movilidad iones, biomasa, cambios metabolitos no invasivamente",
+                  "de": "Messung komplexer Permittivität (0.1Hz-10GHz) verfolgt Zellmembranpolarisation, Ionenmobilität, Biomasse, Metabolitänderungen nicht-invasiv",
+                  "nl": "Meten complexe permittiviteit (0.1Hz-10GHz) tracking cel membraan polarisatie, ion mobiliteit, biomassa, metaboliet veranderingen niet-invasief"
+        },
+        {
+                  "en": "Only optical density",
+                  "es": "Solo densidad óptica",
+                  "de": "Nur optische Dichte",
+                  "nl": "Alleen optische dichtheid"
+        },
+        {
+                  "en": "Only temperature",
+                  "es": "Solo temperatura",
+                  "de": "Nur Temperatur",
+                  "nl": "Alleen temperatuur"
+        },
+        {
+                  "en": "Only pH measurement",
+                  "es": "Solo medición pH",
+                  "de": "Nur pH-Messung",
+                  "nl": "Alleen pH meting"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Dielectric spectroscopy applies alternating electric field measuring frequency-dependent complex permittivity (ε* = ε' - jε'') reflecting dielectric relaxation processes. In fermentation: β-dispersion (kHz-MHz range) from cell membrane interfacial polarization correlates with viable biomass; α-dispersion (Hz-kHz) from ionic double layer reflects metabolite concentrations. Advantages: non-invasive sensors (inline probes), real-time continuous measurement, distinguishes viable vs. dead cells, no sampling required. Applications: monitoring yeast fermentation kinetics, lactic acid bacteria growth in probiotic beverages, kombucha SCOBY activity. Correlations: permittivity vs. cell density (R²>0.95), conductivity vs. ethanol/organic acid production. Enables predictive control, early contamination detection."
+        }
+      },
+      {
+        question: {
+                  "en": "What is 'electro-membrane extraction' for selective flavor compound recovery from beverage waste streams?",
+                  "es": "¿Qué es 'extracción electro-membrana' para recuperación selectiva compuestos sabor de corrientes residuales bebidas?",
+                  "de": "Was ist 'Elektro-Membran-Extraktion' zur selektiven Aromaverbindungsrückgewinnung aus Getränkeabfallströmen?",
+                  "nl": "Wat is 'elektro-membraan extractie' voor selectieve smaakstof terugwinning uit dranken afvalstromen?"
+        },
+        options: [
+        {
+                  "en": "Electric field driving charged flavor molecules through ion-exchange membranes enabling concentration/purification for upcycling",
+                  "es": "Campo eléctrico impulsando moléculas sabor cargadas a través membranas intercambio iónico permitiendo concentración/purificación para upcycling",
+                  "de": "Elektrisches Feld treibt geladene Aromamoleküle durch Ionenaustauschermembranen ermöglicht Konzentration/Reinigung für Upcycling",
+                  "nl": "Elektrisch veld drijvend geladen smaak moleculen door ion-uitwisseling membranen mogelijk makend concentratie/zuivering voor upcycling"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Combines electrodialysis with selective membranes. Applied voltage (5-20 V) drives ionized/ionizable compounds through cation/anion-exchange membranes based on charge. Selectively extracts organic acids (citric, malic), amino acids, phenolic compounds from waste streams (spent citrus peels, pomace, brewery waste). Advantages: low temperature (prevents degradation), selective separation (removes unwanted components), concentrates compounds 10-100x, energy-efficient vs. evaporation. Circular economy application: recovering valuable flavors/bioactives from production waste for formulation inputs. Growing with sustainability mandates, waste valorization economics."
+        }
+      },
+      {
+        question: {
+                  "en": "What is a soft drink?",
+                  "es": "What is a soft drink?",
+                  "de": "What is a soft drink?",
+                  "nl": "What is a soft drink?"
+        },
+        options: [
+        {
+                  "en": "Alcoholic drink",
+                  "es": "Alcoholic drink",
+                  "de": "Alcoholic drink",
+                  "nl": "Alcoholic drink"
+        },
+        {
+                  "en": "Juice",
+                  "es": "Juice",
+                  "de": "Juice",
+                  "nl": "Juice"
+        },
+        {
+                  "en": "Milk-based drink",
+                  "es": "Milk-based drink",
+                  "de": "Milk-based drink",
+                  "nl": "Milk-based drink"
+        },
+        {
+                  "en": "Non-alcoholic carbonated beverage",
+                  "es": "Non-alcoholic carbonated beverage",
+                  "de": "Non-alcoholic carbonated beverage",
+                  "nl": "Non-alcoholic carbonated beverage"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "A soft drink is a non-alcoholic beverage, typically carbonated and sweetened.",
+                  "es": "A soft drink is a non-alcoholic beverage, typically carbonated and sweetened.",
+                  "de": "A soft drink is a non-alcoholic beverage, typically carbonated and sweetened.",
+                  "nl": "A soft drink is a non-alcoholic beverage, typically carbonated and sweetened."
+        }
+      },
+      {
+        question: {
+                  "en": "What company makes Coca-Cola?",
+                  "es": "What company makes Coca-Cola?",
+                  "de": "What company makes Coca-Cola?",
+                  "nl": "What company makes Coca-Cola?"
+        },
+        options: [
+        {
+                  "en": "Nestle",
+                  "es": "Nestle",
+                  "de": "Nestle",
+                  "nl": "Nestle"
+        },
+        {
+                  "en": "The Coca-Cola Company",
+                  "es": "The Coca-Cola Company",
+                  "de": "The Coca-Cola Company",
+                  "nl": "The Coca-Cola Company"
+        },
+        {
+                  "en": "PepsiCo",
+                  "es": "PepsiCo",
+                  "de": "PepsiCo",
+                  "nl": "PepsiCo"
+        },
+        {
+                  "en": "Dr Pepper Snapple",
+                  "es": "Dr Pepper Snapple",
+                  "de": "Dr Pepper Snapple",
+                  "nl": "Dr Pepper Snapple"
+        }
         ],
         correct: 1,
         explanation: {
-          en: "Bimodal particle distribution (1-10 μm) provides optimal foam stability by combining small particles for interfacial stabilization with larger particles for mechanical strength.",
-          es: "La distribución bimodal de partículas (1-10 μm) proporciona estabilidad óptima de espuma combinando partículas pequeñas para estabilización interfacial con partículas más grandes para resistencia mecánica.",
-          de: "Bimodale Partikelverteilung (1-10 μm) bietet optimale Schaumstabilität durch Kombination kleiner Partikel für Grenzflächenstabilisierung mit größeren Partikeln für mechanische Festigkeit.",
-          nl: "Bimodale deeltjesverdeling (1-10 μm) biedt optimale schuimstabiliteit door kleine deeltjes voor oppervlakte stabilisatie te combineren met grotere deeltjes voor mechanische sterkte."
+                  "en": "Coca-Cola is produced by The Coca-Cola Company, founded in 1886.",
+                  "es": "Coca-Cola is produced by The Coca-Cola Company, founded in 1886.",
+                  "de": "Coca-Cola is produced by The Coca-Cola Company, founded in 1886.",
+                  "nl": "Coca-Cola is produced by The Coca-Cola Company, founded in 1886."
         }
       },
       {
         question: {
-          en: "Which spectroscopic technique provides real-time monitoring of Maillard reaction kinetics during thermal processing?",
-          es: "¿Qué técnica espectroscópica proporciona monitoreo en tiempo real de la cinética de reacción de Maillard durante el procesamiento térmico?",
-          de: "Welche spektroskopische Technik bietet Echtzeitüberwachung der Maillard-Reaktionskinetik während der thermischen Verarbeitung?",
-          nl: "Welke spectroscopische techniek biedt real-time monitoring van Maillard reactie kinetiek tijdens thermische verwerking?"
+                  "en": "What flavor is Sprite?",
+                  "es": "What flavor is Sprite?",
+                  "de": "What flavor is Sprite?",
+                  "nl": "What flavor is Sprite?"
         },
         options: [
-          { en: "UV-Vis absorption at 280 nm", es: "Absorción UV-Vis a 280 nm", de: "UV-Vis-Absorption bei 280 nm", nl: "UV-Vis absorptie bij 280 nm" },
-          { en: "Fluorescence excitation at 347 nm", es: "Excitación de fluorescencia a 347 nm", de: "Fluoreszenzanregung bei 347 nm", nl: "Fluorescentie excitatie bij 347 nm" },
-          { en: "Mid-IR analysis at 1650-1750 cm⁻¹", es: "Análisis mid-IR a 1650-1750 cm⁻¹", de: "Mid-IR-Analyse bei 1650-1750 cm⁻¹", nl: "Mid-IR analyse bij 1650-1750 cm⁻¹" },
-          { en: "Raman spectroscopy at 1560 cm⁻¹", es: "Espectroscopía Raman a 1560 cm⁻¹", de: "Raman-Spektroskopie bei 1560 cm⁻¹", nl: "Raman spectroscopie bij 1560 cm⁻¹" }
+        {
+                  "en": "Lemon-lime",
+                  "es": "Lemon-lime",
+                  "de": "Lemon-lime",
+                  "nl": "Lemon-lime"
+        },
+        {
+                  "en": "Grape",
+                  "es": "Grape",
+                  "de": "Grape",
+                  "nl": "Grape"
+        },
+        {
+                  "en": "Orange",
+                  "es": "Orange",
+                  "de": "Orange",
+                  "nl": "Orange"
+        },
+        {
+                  "en": "Cola",
+                  "es": "Cola",
+                  "de": "Cola",
+                  "nl": "Cola"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Sprite is a lemon-lime flavored carbonated soft drink.",
+                  "es": "Sprite is a lemon-lime flavored carbonated soft drink.",
+                  "de": "Sprite is a lemon-lime flavored carbonated soft drink.",
+                  "nl": "Sprite is a lemon-lime flavored carbonated soft drink."
+        }
+      },
+      {
+        question: {
+                  "en": "What gives soda its fizz?",
+                  "es": "What gives soda its fizz?",
+                  "de": "What gives soda its fizz?",
+                  "nl": "What gives soda its fizz?"
+        },
+        options: [
+        {
+                  "en": "Oxygen",
+                  "es": "Oxygen",
+                  "de": "Oxygen",
+                  "nl": "Oxygen"
+        },
+        {
+                  "en": "Nitrogen",
+                  "es": "Nitrogen",
+                  "de": "Nitrogen",
+                  "nl": "Nitrogen"
+        },
+        {
+                  "en": "Carbon dioxide",
+                  "es": "Carbon dioxide",
+                  "de": "Carbon dioxide",
+                  "nl": "Carbon dioxide"
+        },
+        {
+                  "en": "Hydrogen",
+                  "es": "Hydrogen",
+                  "de": "Hydrogen",
+                  "nl": "Hydrogen"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Carbon dioxide dissolved under pressure gives soda its characteristic fizz and bubbles.",
+                  "es": "Carbon dioxide dissolved under pressure gives soda its characteristic fizz and bubbles.",
+                  "de": "Carbon dioxide dissolved under pressure gives soda its characteristic fizz and bubbles.",
+                  "nl": "Carbon dioxide dissolved under pressure gives soda its characteristic fizz and bubbles."
+        }
+      },
+      {
+        question: {
+                  "en": "What company makes Pepsi?",
+                  "es": "What company makes Pepsi?",
+                  "de": "What company makes Pepsi?",
+                  "nl": "What company makes Pepsi?"
+        },
+        options: [
+        {
+                  "en": "Nestle",
+                  "es": "Nestle",
+                  "de": "Nestle",
+                  "nl": "Nestle"
+        },
+        {
+                  "en": "PepsiCo",
+                  "es": "PepsiCo",
+                  "de": "PepsiCo",
+                  "nl": "PepsiCo"
+        },
+        {
+                  "en": "Coca-Cola Company",
+                  "es": "Coca-Cola Company",
+                  "de": "Coca-Cola Company",
+                  "nl": "Coca-Cola Company"
+        },
+        {
+                  "en": "Dr Pepper",
+                  "es": "Dr Pepper",
+                  "de": "Dr Pepper",
+                  "nl": "Dr Pepper"
+        }
         ],
         correct: 1,
         explanation: {
-          en: "Fluorescence excitation at 347 nm specifically detects advanced glycation end products (AGEs) formed during Maillard reactions, enabling real-time kinetic monitoring.",
-          es: "La excitación de fluorescencia a 347 nm detecta específicamente productos finales de glicación avanzada (AGEs) formados durante las reacciones de Maillard, permitiendo monitoreo cinético en tiempo real.",
-          de: "Fluoreszenzanregung bei 347 nm detektiert spezifisch fortgeschrittene Glykationsendprodukte (AGEs), die während Maillard-Reaktionen gebildet werden, und ermöglicht Echtzeitkinetik-Überwachung.",
-          nl: "Fluorescentie excitatie bij 347 nm detecteert specifiek geavanceerde glycatie eindproducten (AGEs) gevormd tijdens Maillard reacties, wat real-time kinetische monitoring mogelijk maakt."
+                  "en": "Pepsi is produced by PepsiCo, a major competitor to Coca-Cola.",
+                  "es": "Pepsi is produced by PepsiCo, a major competitor to Coca-Cola.",
+                  "de": "Pepsi is produced by PepsiCo, a major competitor to Coca-Cola.",
+                  "nl": "Pepsi is produced by PepsiCo, a major competitor to Coca-Cola."
         }
       },
       {
         question: {
-          en: "What is the optimal hydraulic residence time for continuous ozonation systems in beverage water treatment?",
-          es: "¿Cuál es el tiempo de residencia hidráulico óptimo para sistemas de ozonización continua en tratamiento de agua para bebidas?",
-          de: "Was ist die optimale hydraulische Verweilzeit für kontinuierliche Ozonisierungssysteme in der Getränkewasseraufbereitung?",
-          nl: "Wat is de optimale hydraulische verblijftijd voor continue ozonisatie systemen in drankenwaterbehandeling?"
+                  "en": "What is root beer?",
+                  "es": "What is root beer?",
+                  "de": "What is root beer?",
+                  "nl": "What is root beer?"
         },
         options: [
-          { en: "30-60 seconds", es: "30-60 segundos", de: "30-60 Sekunden", nl: "30-60 seconden" },
-          { en: "2-5 minutes", es: "2-5 minutos", de: "2-5 Minuten", nl: "2-5 minuten" },
-          { en: "10-15 minutes", es: "10-15 minutos", de: "10-15 Minuten", nl: "10-15 minuten" },
-          { en: "30-45 minutes", es: "30-45 minutos", de: "30-45 Minuten", nl: "30-45 minuten" }
+        {
+                  "en": "Alcoholic beer",
+                  "es": "Alcoholic beer",
+                  "de": "Alcoholic beer",
+                  "nl": "Alcoholic beer"
+        },
+        {
+                  "en": "Sweet soft drink flavored with sassafras",
+                  "es": "Sweet soft drink flavored with sassafras",
+                  "de": "Sweet soft drink flavored with sassafras",
+                  "nl": "Sweet soft drink flavored with sassafras"
+        },
+        {
+                  "en": "Coffee-based drink",
+                  "es": "Coffee-based drink",
+                  "de": "Coffee-based drink",
+                  "nl": "Coffee-based drink"
+        },
+        {
+                  "en": "Cola variant",
+                  "es": "Cola variant",
+                  "de": "Cola variant",
+                  "nl": "Cola variant"
+        }
         ],
         correct: 1,
         explanation: {
-          en: "Optimal ozonation requires 2-5 minutes contact time to achieve effective microbial inactivation while preventing excessive oxidation of beneficial compounds.",
-          es: "La ozonización óptima requiere 2-5 minutos de tiempo de contacto para lograr inactivación microbiana efectiva mientras previene la oxidación excesiva de compuestos beneficiosos.",
-          de: "Optimale Ozonisierung erfordert 2-5 Minuten Kontaktzeit, um effektive mikrobielle Inaktivierung zu erreichen und gleichzeitig übermäßige Oxidation nützlicher Verbindungen zu verhindern.",
-          nl: "Optimale ozonisatie vereist 2-5 minuten contacttijd om effectieve microbiële inactivatie te bereiken terwijl excessieve oxidatie van nuttige verbindingen wordt voorkomen."
+                  "en": "Root beer is a sweet North American soft drink traditionally flavored with sassafras root.",
+                  "es": "Root beer is a sweet North American soft drink traditionally flavored with sassafras root.",
+                  "de": "Root beer is a sweet North American soft drink traditionally flavored with sassafras root.",
+                  "nl": "Root beer is a sweet North American soft drink traditionally flavored with sassafras root."
         }
       },
       {
         question: {
-          en: "What is 'fouling resistance' (Rf) calculation in beverage heat exchangers and its implications?",
-          es: "¿Qué es cálculo 'resistencia incrustación' (Rf) en intercambiadores calor bebidas y sus implicaciones?",
-          de: "Was ist 'Verschmutzungswiderstand' (Rf) Berechnung in Getränke-Wärmetauschern und ihre Implikationen?",
-          nl: "Wat is 'vervuilingsweerstand' (Rf) berekening in dranken warmtewisselaars en zijn implicaties?"
+                  "en": "What is ginger ale?",
+                  "es": "What is ginger ale?",
+                  "de": "What is ginger ale?",
+                  "nl": "What is ginger ale?"
         },
         options: [
-          { en: "Rf = 1/U_dirty - 1/U_clean; increasing Rf indicates heat transfer decline from protein/mineral deposits requiring CIP escalation", es: "Rf = 1/U_sucio - 1/U_limpio; aumento Rf indica declive transferencia calor de depósitos proteína/minerales requiriendo escalada CIP", de: "Rf = 1/U_schmutzig - 1/U_sauber; steigendes Rf zeigt Wärmeübertragungsabnahme von Protein/Mineralablagerungen erfordert CIP-Eskalation", nl: "Rf = 1/U_vuil - 1/U_schoon; stijgende Rf duidt warmteoverdracht afname van eiwit/mineraal afzettingen vereisend CIP escalatie" },
-          { en: "Only temperature difference", es: "Solo diferencia temperatura", de: "Nur Temperaturdifferenz", nl: "Alleen temperatuurverschil" },
-          { en: "Only flow rate changes", es: "Solo cambios tasa flujo", de: "Nur Durchflussratenänderungen", nl: "Alleen stroomsnelheidsveranderingen" },
-          { en: "Only pressure loss", es: "Solo pérdida presión", de: "Nur Druckverlust", nl: "Alleen drukverlies" }
+        {
+                  "en": "Ginger-flavored carbonated drink",
+                  "es": "Ginger-flavored carbonated drink",
+                  "de": "Ginger-flavored carbonated drink",
+                  "nl": "Ginger-flavored carbonated drink"
+        },
+        {
+                  "en": "Alcoholic ginger beer",
+                  "es": "Alcoholic ginger beer",
+                  "de": "Alcoholic ginger beer",
+                  "nl": "Alcoholic ginger beer"
+        },
+        {
+                  "en": "Ale with ginger flavor",
+                  "es": "Ale with ginger flavor",
+                  "de": "Ale with ginger flavor",
+                  "nl": "Ale with ginger flavor"
+        },
+        {
+                  "en": "Beer made with ginger",
+                  "es": "Beer made with ginger",
+                  "de": "Beer made with ginger",
+                  "nl": "Beer made with ginger"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Fouling resistance quantifies thermal efficiency decline: Rf = 1/U_dirty - 1/U_clean where U is overall heat transfer coefficient (W/m²·K). Clean plate heat exchangers: U = 3000-5000; after fouling: U drops to 2000-3000, increasing Rf from 0 to 0.0002-0.0003 m²·K/W. Fouling mechanisms in soft drinks: protein denaturation (milk-based), calcium phosphate scaling (hard water), caramelization (sugar-based), biofilm formation (microbial). Consequences: reduced thermal efficiency (longer processing times, higher energy costs), uneven heating (compromised pasteurization), increased pressure drop (pump strain). Monitoring: inline temperature/pressure sensors calculating U in real-time; typical CIP triggers when Rf > 0.0003 or U drops 20-30%. Prevention: velocity >1.5 m/s (turbulent flow reduces deposits), temperature control <85°C (limits protein denaturation), acid CIP cycles (dissolve mineral scale), alkaline CIP (remove proteins). Design: corrugated plates creating high shear zones, cleanability factors in plate geometry selection."
+                  "en": "Ginger ale is a non-alcoholic carbonated soft drink flavored with ginger.",
+                  "es": "Ginger ale is a non-alcoholic carbonated soft drink flavored with ginger.",
+                  "de": "Ginger ale is a non-alcoholic carbonated soft drink flavored with ginger.",
+                  "nl": "Ginger ale is a non-alcoholic carbonated soft drink flavored with ginger."
         }
       },
       {
         question: {
-          en: "What is 'microfluidic emulsification' for nanoemulsion beverage production?",
-          es: "¿Qué es 'emulsificación microfluídica' para producción bebidas nanoemulsión?",
-          de: "Was ist 'mikrofluidische Emulgierung' für Nanoemulsions-Getränkeproduktion?",
-          nl: "Wat is 'microfluïdische emulsificatie' voor nanoemulsie drankenproductie?"
+                  "en": "What soft drink is known for its 23 flavors?",
+                  "es": "What soft drink is known for its 23 flavors?",
+                  "de": "What soft drink is known for its 23 flavors?",
+                  "nl": "What soft drink is known for its 23 flavors?"
         },
         options: [
-          { en: "Controlled droplet generation <200nm via microchannel geometry for bioavailability enhancement", es: "Generación gotas controlada <200nm vía geometría microcanal para mejora biodisponibilidad", de: "Kontrollierte Tröpfchenbildung <200nm über Mikrokanalgeometrie für Bioverfügbarkeitsverbesserung", nl: "Gecontroleerde druppel generatie <200nm via microkanaal geometrie voor biobeschikbaarheid verbetering" },
-          { en: "Only stirring faster", es: "Solo agitar más rápido", de: "Nur schneller rühren", nl: "Alleen sneller roeren" },
-          { en: "Only higher temperature", es: "Solo temperatura más alta", de: "Nur höhere Temperatur", nl: "Alleen hogere temperatuur" },
-          { en: "Only more surfactant", es: "Solo más surfactante", de: "Nur mehr Tensid", nl: "Alleen meer surfactant" }
+        {
+                  "en": "Dr Pepper",
+                  "es": "Dr Pepper",
+                  "de": "Dr Pepper",
+                  "nl": "Dr Pepper"
+        },
+        {
+                  "en": "Pepsi",
+                  "es": "Pepsi",
+                  "de": "Pepsi",
+                  "nl": "Pepsi"
+        },
+        {
+                  "en": "7-Up",
+                  "es": "7-Up",
+                  "de": "7-Up",
+                  "nl": "7-Up"
+        },
+        {
+                  "en": "Coca-Cola",
+                  "es": "Coca-Cola",
+                  "de": "Coca-Cola",
+                  "nl": "Coca-Cola"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Microfluidic devices use precisely engineered microchannels (10-500 μm) creating controlled shear/elongational flows for monodisperse nanoemulsion droplet formation. Functional beverage applications include enhanced bioavailability of curcumin, resveratrol, omega-3, fat-soluble vitamins."
+                  "en": "Dr Pepper is marketed as having a unique blend of 23 flavors.",
+                  "es": "Dr Pepper is marketed as having a unique blend of 23 flavors.",
+                  "de": "Dr Pepper is marketed as having a unique blend of 23 flavors.",
+                  "nl": "Dr Pepper is marketed as having a unique blend of 23 flavors."
         }
       },
       {
         question: {
-          en: "What is 'CRISPR-based biosensors' for real-time pathogen detection in beverage lines?",
-          es: "¿Qué son 'biosensores basados CRISPR' para detección patógenos tiempo real en líneas bebidas?",
-          de: "Was sind 'CRISPR-basierte Biosensoren' für Echtzeit-Pathogendetektion in Getränkelinien?",
-          nl: "Wat zijn 'CRISPR-gebaseerde biosensoren' voor real-time pathogeen detectie in drankenlijnen?"
+                  "en": "What is Mountain Dew?",
+                  "es": "What is Mountain Dew?",
+                  "de": "What is Mountain Dew?",
+                  "nl": "What is Mountain Dew?"
         },
         options: [
-          { en: "Cas protein detecting specific DNA/RNA sequences with fluorescent/electrochemical readout in <30min for E.coli, Salmonella, Listeria", es: "Proteína Cas detectando secuencias DNA/RNA específicas con lectura fluorescente/electroquímica en <30min para E.coli, Salmonella, Listeria", de: "Cas-Protein erkennt spezifische DNA/RNA-Sequenzen mit fluoreszierender/elektrochemischer Ablesung in <30min für E.coli, Salmonella, Listeria", nl: "Cas eiwit detecterend specifieke DNA/RNA sequenties met fluorescente/elektrochemische uitlezing in <30min voor E.coli, Salmonella, Listeria" },
-          { en: "Only DNA sequencing", es: "Solo secuenciación DNA", de: "Nur DNA-Sequenzierung", nl: "Alleen DNA sequencing" },
-          { en: "Only cell culture", es: "Solo cultivo celular", de: "Nur Zellkultur", nl: "Alleen celkweek" },
-          { en: "Only PCR testing", es: "Solo prueba PCR", de: "Nur PCR-Test", nl: "Alleen PCR testen" }
+        {
+                  "en": "Tea-based drink",
+                  "es": "Tea-based drink",
+                  "de": "Tea-based drink",
+                  "nl": "Tea-based drink"
+        },
+        {
+                  "en": "Juice",
+                  "es": "Juice",
+                  "de": "Juice",
+                  "nl": "Juice"
+        },
+        {
+                  "en": "Energy drink",
+                  "es": "Energy drink",
+                  "de": "Energy drink",
+                  "nl": "Energy drink"
+        },
+        {
+                  "en": "Citrus-flavored caffeinated soft drink",
+                  "es": "Citrus-flavored caffeinated soft drink",
+                  "de": "Citrus-flavored caffeinated soft drink",
+                  "nl": "Citrus-flavored caffeinated soft drink"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "CRISPR-Cas systems (Cas12/Cas13) detect target pathogen nucleic acids with single-base specificity. Upon binding, collateral cleavage activity releases fluorophore or generates electrochemical signal. Advantages: rapid (<30min vs. 24-48hr culture), sensitive (10-100 CFU/mL), field-deployable, multiplexed detection."
+                  "en": "Mountain Dew is a citrus-flavored carbonated soft drink with caffeine.",
+                  "es": "Mountain Dew is a citrus-flavored carbonated soft drink with caffeine.",
+                  "de": "Mountain Dew is a citrus-flavored carbonated soft drink with caffeine.",
+                  "nl": "Mountain Dew is a citrus-flavored carbonated soft drink with caffeine."
         }
       },
       {
         question: {
-          en: "What is 'additive manufacturing' (3D printing) for customized beverage production nozzles?",
-          es: "¿Qué es 'fabricación aditiva' (impresión 3D) para boquillas producción bebidas personalizadas?",
-          de: "Was ist 'additive Fertigung' (3D-Druck) für kundenspezifische Getränkeproduktionsdüsen?",
-          nl: "Wat is 'additieve fabricage' (3D printen) voor aangepaste drankenproductie mondstukken?"
+                  "en": "What is tonic water?",
+                  "es": "What is tonic water?",
+                  "de": "What is tonic water?",
+                  "nl": "What is tonic water?"
         },
         options: [
-          { en: "Layer-by-layer metal/polymer deposition enabling complex geometries for optimized spray patterns, mixing, carbonation", es: "Deposición metal/polímero capa por capa permitiendo geometrías complejas para patrones rociado, mezcla, carbonatación optimizados", de: "Schicht-für-Schicht Metall/Polymer-Abscheidung ermöglicht komplexe Geometrien für optimierte Sprühmuster, Mischung, Karbonisierung", nl: "Laag-voor-laag metaal/polymeer depositie mogelijk makend complexe geometrieën voor geoptimaliseerde sproeipatronen, menging, carbonatie" },
-          { en: "Only traditional machining", es: "Solo mecanizado tradicional", de: "Nur traditionelle Bearbeitung", nl: "Alleen traditionele bewerking" },
-          { en: "Only casting", es: "Solo fundición", de: "Nur Gießen", nl: "Alleen gieten" },
-          { en: "Only molding", es: "Solo moldeado", de: "Nur Formen", nl: "Alleen vormgeven" }
+        {
+                  "en": "Plain carbonated water",
+                  "es": "Plain carbonated water",
+                  "de": "Plain carbonated water",
+                  "nl": "Plain carbonated water"
+        },
+        {
+                  "en": "Sweet soda",
+                  "es": "Sweet soda",
+                  "de": "Sweet soda",
+                  "nl": "Sweet soda"
+        },
+        {
+                  "en": "Flavored water",
+                  "es": "Flavored water",
+                  "de": "Flavored water",
+                  "nl": "Flavored water"
+        },
+        {
+                  "en": "Carbonated water with quinine",
+                  "es": "Carbonated water with quinine",
+                  "de": "Carbonated water with quinine",
+                  "nl": "Carbonated water with quinine"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "3D printing (SLS, DMLS, SLA) creates intricate internal channels impossible via conventional manufacturing. Applications: optimized carbonator nozzles (enhanced CO₂ dissolution), static mixers (improved homogeneity), spray dryer atomizers (controlled droplet size), rapid prototyping (days vs. weeks), on-demand spare parts."
+                  "en": "Tonic water is carbonated water flavored with quinine, originally used to prevent malaria.",
+                  "es": "Tonic water is carbonated water flavored with quinine, originally used to prevent malaria.",
+                  "de": "Tonic water is carbonated water flavored with quinine, originally used to prevent malaria.",
+                  "nl": "Tonic water is carbonated water flavored with quinine, originally used to prevent malaria."
         }
       },
       {
         question: {
-          en: "What is 'metabolic flux analysis' (MFA) for optimizing fermentation in kombucha-style soft drinks?",
-          es: "¿Qué es 'análisis flujo metabólico' (MFA) para optimizar fermentación en refrescos estilo kombucha?",
-          de: "Was ist 'metabolische Flussanalyse' (MFA) zur Optimierung der Fermentation in Kombucha-artigen Erfrischungsgetränken?",
-          nl: "Wat is 'metabolische flux analyse' (MFA) voor optimaliseren fermentatie in kombucha-stijl frisdranken?"
+                  "en": "What is club soda?",
+                  "es": "What is club soda?",
+                  "de": "What is club soda?",
+                  "nl": "What is club soda?"
         },
         options: [
-          { en: "13C isotope tracing quantifying carbon flux through metabolic pathways predicting flavor compound yields, fermentation time, pH trajectory", es: "Rastreo isótopo 13C cuantificando flujo carbono a través vías metabólicas prediciendo rendimientos compuestos sabor, tiempo fermentación, trayectoria pH", de: "13C-Isotopen-Verfolgung quantifiziert Kohlenstofffluss durch Stoffwechselwege vorhersagend Aromaverbindungsausbeuten, Fermentationszeit, pH-Verlauf", nl: "13C isotoop tracering kwantificerend koolstof flux door metabole routes voorspellend smaakstof opbrengsten, fermentatie tijd, pH traject" },
-          { en: "Only measuring pH", es: "Solo medir pH", de: "Nur pH messen", nl: "Alleen pH meten" },
-          { en: "Only counting cells", es: "Solo contar células", de: "Nur Zellen zählen", nl: "Alleen cellen tellen" },
-          { en: "Only taste testing", es: "Solo prueba sabor", de: "Nur Geschmackstest", nl: "Alleen smaaktest" }
+        {
+                  "en": "Alcoholic soda",
+                  "es": "Alcoholic soda",
+                  "de": "Alcoholic soda",
+                  "nl": "Alcoholic soda"
+        },
+        {
+                  "en": "Sweet soda",
+                  "es": "Sweet soda",
+                  "de": "Sweet soda",
+                  "nl": "Sweet soda"
+        },
+        {
+                  "en": "Fruit-flavored soda",
+                  "es": "Fruit-flavored soda",
+                  "de": "Fruit-flavored soda",
+                  "nl": "Fruit-flavored soda"
+        },
+        {
+                  "en": "Carbonated water with minerals",
+                  "es": "Carbonated water with minerals",
+                  "de": "Carbonated water with minerals",
+                  "nl": "Carbonated water with minerals"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "MFA uses 13C-labeled substrates (glucose, fructose) tracking carbon atom fate through yeast/bacteria metabolism. GC-MS/LC-MS measures labeling patterns in metabolites, computational models calculate flux rates (reaction velocities). Optimizes: acetic acid:ethanol ratio, gluconic acid production (flavor), polyphenol biotransformation, probiotic viability, batch time reduction."
+                  "en": "Club soda is carbonated water with added minerals like sodium bicarbonate or potassium sulfate.",
+                  "es": "Club soda is carbonated water with added minerals like sodium bicarbonate or potassium sulfate.",
+                  "de": "Club soda is carbonated water with added minerals like sodium bicarbonate or potassium sulfate.",
+                  "nl": "Club soda is carbonated water with added minerals like sodium bicarbonate or potassium sulfate."
         }
       },
       {
         question: {
-          en: "What is 'ohmic heating' for continuous beverage pasteurization?",
-          es: "¿Qué es 'calentamiento óhmico' para pasteurización continua bebidas?",
-          de: "Was ist 'Ohmsche Erhitzung' für kontinuierliche Getränkepasteurisierung?",
-          nl: "Wat is 'ohmische verwarming' voor continue dranken pasteurisatie?"
+                  "en": "What color is original Coca-Cola?",
+                  "es": "What color is original Coca-Cola?",
+                  "de": "What color is original Coca-Cola?",
+                  "nl": "What color is original Coca-Cola?"
         },
         options: [
-          { en: "Direct electrical current through beverage generating uniform volumetric heating avoiding surface overheating, rapid heating rates 1-10°C/s", es: "Corriente eléctrica directa a través bebida generando calentamiento volumétrico uniforme evitando sobrecalentamiento superficie, tasas calentamiento rápidas 1-10°C/s", de: "Direkter elektrischer Strom durch Getränk erzeugt gleichmäßige volumetrische Erwärmung vermeidet Oberflächenüberhitzung, schnelle Heizraten 1-10°C/s", nl: "Directe elektrische stroom door drank genererend uniforme volumetrische verwarming vermijdend oppervlakte oververhitting, snelle verwarmingssnelheden 1-10°C/s" },
-          { en: "Only microwave heating", es: "Solo calentamiento microondas", de: "Nur Mikrowellenerhitzung", nl: "Alleen magnetron verwarming" },
-          { en: "Only steam injection", es: "Solo inyección vapor", de: "Nur Dampfinjektion", nl: "Alleen stoom injectie" },
-          { en: "Only hot plates", es: "Solo placas calientes", de: "Nur Heizplatten", nl: "Alleen hete platen" }
+        {
+                  "en": "Black",
+                  "es": "Black",
+                  "de": "Black",
+                  "nl": "Black"
+        },
+        {
+                  "en": "Red",
+                  "es": "Red",
+                  "de": "Red",
+                  "nl": "Red"
+        },
+        {
+                  "en": "Clear",
+                  "es": "Clear",
+                  "de": "Clear",
+                  "nl": "Clear"
+        },
+        {
+                  "en": "Caramel brown",
+                  "es": "Caramel brown",
+                  "de": "Caramel brown",
+                  "nl": "Caramel brown"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Ohmic heating passes AC current (50-60 Hz, 100-10000 V/m) through beverage between electrodes. Electrical resistance generates heat directly within product (Q = I²R). Advantages: no hot surfaces (no fouling/burning), rapid heating (preserves nutrients/flavor), uniform temperature (particulate-containing beverages), energy-efficient (>90% vs. 60-70% conventional). Applications: fruit juices with pulp, plant-based milks, liquid eggs. Requirements: ionic conductivity control, electrode materials (titanium, stainless steel), frequency optimization."
+                  "en": "Coca-Cola has a distinctive caramel brown color from caramel coloring.",
+                  "es": "Coca-Cola has a distinctive caramel brown color from caramel coloring.",
+                  "de": "Coca-Cola has a distinctive caramel brown color from caramel coloring.",
+                  "nl": "Coca-Cola has a distinctive caramel brown color from caramel coloring."
         }
       },
       {
         question: {
-          en: "What is 'sono-crystallization' for controlling sugar crystal size in beverage syrups?",
-          es: "¿Qué es 'sono-cristalización' para controlar tamaño cristal azúcar en jarabes bebidas?",
-          de: "Was ist 'Sono-Kristallisation' zur Kontrolle der Zuckerkristallgröße in Getränkesirupen?",
-          nl: "Wat is 'sono-kristallisatie' voor controle suiker kristal grootte in dranken siropen?"
+                  "en": "What is Fanta?",
+                  "es": "What is Fanta?",
+                  "de": "What is Fanta?",
+                  "nl": "What is Fanta?"
         },
         options: [
-          { en: "Ultrasonic waves (20-100 kHz) inducing cavitation creating nucleation sites for uniform small crystals preventing graininess", es: "Ondas ultrasónicas (20-100 kHz) induciendo cavitación creando sitios nucleación para cristales pequeños uniformes previniendo granulosidad", de: "Ultraschallwellen (20-100 kHz) induzieren Kavitation schaffen Nukleationsstellen für einheitliche kleine Kristalle verhindern Körnigkeit", nl: "Ultrasone golven (20-100 kHz) inducerend cavitatie creërend nucleatie sites voor uniforme kleine kristallen voorkomen korreligheid" },
-          { en: "Only slow cooling", es: "Solo enfriamiento lento", de: "Nur langsames Abkühlen", nl: "Alleen langzaam koelen" },
-          { en: "Only stirring", es: "Solo agitar", de: "Nur Rühren", nl: "Alleen roeren" },
-          { en: "Only seeding", es: "Solo sembrar", de: "Nur Säen", nl: "Alleen zaaien" }
+        {
+                  "en": "Root beer",
+                  "es": "Root beer",
+                  "de": "Root beer",
+                  "nl": "Root beer"
+        },
+        {
+                  "en": "Lemon-lime soda",
+                  "es": "Lemon-lime soda",
+                  "de": "Lemon-lime soda",
+                  "nl": "Lemon-lime soda"
+        },
+        {
+                  "en": "Cola drink",
+                  "es": "Cola drink",
+                  "de": "Cola drink",
+                  "nl": "Cola drink"
+        },
+        {
+                  "en": "Orange-flavored soft drink",
+                  "es": "Orange-flavored soft drink",
+                  "de": "Orange-flavored soft drink",
+                  "nl": "Orange-flavored soft drink"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Ultrasound creates acoustic cavitation—microscopic bubbles imploding generate localized pressure/temperature spikes and micro-jets. Effects: increased nucleation rate (more crystals formed simultaneously), reduced metastable zone width (faster crystallization), smaller mean crystal size (10-50 μm vs. 100-500 μm conventional), narrower size distribution. Applications: fountain syrup production (preventing settling/clogging), fondant manufacturing, preventing sucrose crystallization in high-Brix beverages. Parameters: frequency (20-40 kHz optimal), power (5-20 W/cm²), pulsing patterns."
+                  "en": "Fanta is a fruit-flavored carbonated soft drink, most commonly orange-flavored.",
+                  "es": "Fanta is a fruit-flavored carbonated soft drink, most commonly orange-flavored.",
+                  "de": "Fanta is a fruit-flavored carbonated soft drink, most commonly orange-flavored.",
+                  "nl": "Fanta is a fruit-flavored carbonated soft drink, most commonly orange-flavored."
         }
       },
       {
         question: {
-          en: "What is 'photocatalytic oxidation' using TiO₂ for beverage packaging surface decontamination?",
-          es: "¿Qué es 'oxidación fotocatalítica' usando TiO₂ para descontaminación superficie empaque bebidas?",
-          de: "Was ist 'photokatalytische Oxidation' mit TiO₂ zur Dekontamination von Getränkeverpackungsoberflächen?",
-          nl: "Wat is 'fotokatalytische oxidatie' gebruikmakend van TiO₂ voor dranken verpakking oppervlakte decontaminatie?"
+                  "en": "What does 'diet' or 'zero' soda mean?",
+                  "es": "What does 'diet' or 'zero' soda mean?",
+                  "de": "What does 'diet' or 'zero' soda mean?",
+                  "nl": "What does 'diet' or 'zero' soda mean?"
         },
         options: [
-          { en: "UV light activating TiO₂ coating generating reactive oxygen species destroying bacteria/viruses/biofilms on bottles/caps without chemical residues", es: "Luz UV activando recubrimiento TiO₂ generando especies reactivas oxígeno destruyendo bacterias/virus/biopelículas en botellas/tapas sin residuos químicos", de: "UV-Licht aktiviert TiO₂-Beschichtung erzeugt reaktive Sauerstoffspezies zerstört Bakterien/Viren/Biofilme auf Flaschen/Kappen ohne chemische Rückstände", nl: "UV licht activerend TiO₂ coating genererend reactieve zuurstof soorten vernietigt bacteriën/virussen/biofilms op flessen/doppen zonder chemische residuen" },
-          { en: "Only washing with water", es: "Solo lavar con agua", de: "Nur mit Wasser waschen", nl: "Alleen wassen met water" },
-          { en: "Only heat treatment", es: "Solo tratamiento calor", de: "Nur Wärmebehandlung", nl: "Alleen warmtebehandeling" },
-          { en: "Only alcohol wipes", es: "Solo toallitas alcohol", de: "Nur Alkoholtücher", nl: "Alleen alcohol doekjes" }
+        {
+                  "en": "No caffeine",
+                  "es": "No caffeine",
+                  "de": "No caffeine",
+                  "nl": "No caffeine"
+        },
+        {
+                  "en": "Sweetened with artificial sweeteners, no sugar",
+                  "es": "Sweetened with artificial sweeteners, no sugar",
+                  "de": "Sweetened with artificial sweeteners, no sugar",
+                  "nl": "Sweetened with artificial sweeteners, no sugar"
+        },
+        {
+                  "en": "Less carbonation",
+                  "es": "Less carbonation",
+                  "de": "Less carbonation",
+                  "nl": "Less carbonation"
+        },
+        {
+                  "en": "Organic ingredients",
+                  "es": "Organic ingredients",
+                  "de": "Organic ingredients",
+                  "nl": "Organic ingredients"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "TiO₂ photocatalyst absorbs UV (<380nm) generating electron-hole pairs. Electrons reduce O₂ to superoxide (O₂⁻), holes oxidize H₂O/OH⁻ to hydroxyl radicals (•OH). These reactive species non-selectively oxidize organic contaminants and microbial cells causing membrane rupture, DNA damage. Applications: self-sterilizing bottle surfaces (continuous antimicrobial effect), cap liners, filling equipment surfaces. Advantages: no consumables (catalytic cycle), works at room temperature, broad spectrum (bacteria, viruses, fungi, spores), no disinfection byproducts. Coatings applied via sol-gel, sputtering, CVD. Growing use in aseptic lines reducing chemical sanitizer dependence."
+                  "en": "Diet or zero sodas use artificial sweeteners instead of sugar, reducing calories.",
+                  "es": "Diet or zero sodas use artificial sweeteners instead of sugar, reducing calories.",
+                  "de": "Diet or zero sodas use artificial sweeteners instead of sugar, reducing calories.",
+                  "nl": "Diet or zero sodas use artificial sweeteners instead of sugar, reducing calories."
         }
       },
       {
         question: {
-          en: "What is 'dielectric spectroscopy' for real-time monitoring of beverage fermentation/aging?",
-          es: "¿Qué es 'espectroscopía dieléctrica' para monitoreo tiempo real fermentación/envejecimiento bebidas?",
-          de: "Was ist 'dielektrische Spektroskopie' für Echtzeit-Überwachung von Getränkefermentation/-alterung?",
-          nl: "Wat is 'diëlektrische spectroscopie' voor real-time monitoring van dranken fermentatie/rijping?"
+                  "en": "What is cream soda?",
+                  "es": "What is cream soda?",
+                  "de": "What is cream soda?",
+                  "nl": "What is cream soda?"
         },
         options: [
-          { en: "Measuring complex permittivity (0.1Hz-10GHz) tracking cell membrane polarization, ion mobility, biomass, metabolite changes non-invasively", es: "Medir permitividad compleja (0.1Hz-10GHz) rastreando polarización membrana celular, movilidad iones, biomasa, cambios metabolitos no invasivamente", de: "Messung komplexer Permittivität (0.1Hz-10GHz) verfolgt Zellmembranpolarisation, Ionenmobilität, Biomasse, Metabolitänderungen nicht-invasiv", nl: "Meten complexe permittiviteit (0.1Hz-10GHz) tracking cel membraan polarisatie, ion mobiliteit, biomassa, metaboliet veranderingen niet-invasief" },
-          { en: "Only pH measurement", es: "Solo medición pH", de: "Nur pH-Messung", nl: "Alleen pH meting" },
-          { en: "Only optical density", es: "Solo densidad óptica", de: "Nur optische Dichte", nl: "Alleen optische dichtheid" },
-          { en: "Only temperature", es: "Solo temperatura", de: "Nur Temperatur", nl: "Alleen temperatuur" }
+        {
+                  "en": "Soda with cream",
+                  "es": "Soda with cream",
+                  "de": "Soda with cream",
+                  "nl": "Soda with cream"
+        },
+        {
+                  "en": "Vanilla-flavored carbonated drink",
+                  "es": "Vanilla-flavored carbonated drink",
+                  "de": "Vanilla-flavored carbonated drink",
+                  "nl": "Vanilla-flavored carbonated drink"
+        },
+        {
+                  "en": "Chocolate soda",
+                  "es": "Chocolate soda",
+                  "de": "Chocolate soda",
+                  "nl": "Chocolate soda"
+        },
+        {
+                  "en": "Coffee soda",
+                  "es": "Coffee soda",
+                  "de": "Coffee soda",
+                  "nl": "Coffee soda"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Dielectric spectroscopy applies alternating electric field measuring frequency-dependent complex permittivity (ε* = ε' - jε'') reflecting dielectric relaxation processes. In fermentation: β-dispersion (kHz-MHz range) from cell membrane interfacial polarization correlates with viable biomass; α-dispersion (Hz-kHz) from ionic double layer reflects metabolite concentrations. Advantages: non-invasive sensors (inline probes), real-time continuous measurement, distinguishes viable vs. dead cells, no sampling required. Applications: monitoring yeast fermentation kinetics, lactic acid bacteria growth in probiotic beverages, kombucha SCOBY activity. Correlations: permittivity vs. cell density (R²>0.95), conductivity vs. ethanol/organic acid production. Enables predictive control, early contamination detection."
+                  "en": "Cream soda is a sweet carbonated beverage flavored with vanilla.",
+                  "es": "Cream soda is a sweet carbonated beverage flavored with vanilla.",
+                  "de": "Cream soda is a sweet carbonated beverage flavored with vanilla.",
+                  "nl": "Cream soda is a sweet carbonated beverage flavored with vanilla."
         }
       },
       {
         question: {
-          en: "What is 'electro-membrane extraction' for selective flavor compound recovery from beverage waste streams?",
-          es: "¿Qué es 'extracción electro-membrana' para recuperación selectiva compuestos sabor de corrientes residuales bebidas?",
-          de: "Was ist 'Elektro-Membran-Extraktion' zur selektiven Aromaverbindungsrückgewinnung aus Getränkeabfallströmen?",
-          nl: "Wat is 'elektro-membraan extractie' voor selectieve smaakstof terugwinning uit dranken afvalstromen?"
+                  "en": "What is energy drink classified as?",
+                  "es": "What is energy drink classified as?",
+                  "de": "What is energy drink classified as?",
+                  "nl": "What is energy drink classified as?"
         },
         options: [
-          { en: "Electric field driving charged flavor molecules through ion-exchange membranes enabling concentration/purification for upcycling", es: "Campo eléctrico impulsando moléculas sabor cargadas a través membranas intercambio iónico permitiendo concentración/purificación para upcycling", de: "Elektrisches Feld treibt geladene Aromamoleküle durch Ionenaustauschermembranen ermöglicht Konzentration/Reinigung für Upcycling", nl: "Elektrisch veld drijvend geladen smaak moleculen door ion-uitwisseling membranen mogelijk makend concentratie/zuivering voor upcycling" }
+        {
+                  "en": "Soft drink with added stimulants",
+                  "es": "Soft drink with added stimulants",
+                  "de": "Soft drink with added stimulants",
+                  "nl": "Soft drink with added stimulants"
+        },
+        {
+                  "en": "Sports drink",
+                  "es": "Sports drink",
+                  "de": "Sports drink",
+                  "nl": "Sports drink"
+        },
+        {
+                  "en": "Juice",
+                  "es": "Juice",
+                  "de": "Juice",
+                  "nl": "Juice"
+        },
+        {
+                  "en": "Tea",
+                  "es": "Tea",
+                  "de": "Tea",
+                  "nl": "Tea"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Combines electrodialysis with selective membranes. Applied voltage (5-20 V) drives ionized/ionizable compounds through cation/anion-exchange membranes based on charge. Selectively extracts organic acids (citric, malic), amino acids, phenolic compounds from waste streams (spent citrus peels, pomace, brewery waste). Advantages: low temperature (prevents degradation), selective separation (removes unwanted components), concentrates compounds 10-100x, energy-efficient vs. evaporation. Circular economy application: recovering valuable flavors/bioactives from production waste for formulation inputs. Growing with sustainability mandates, waste valorization economics."
-        }    },
-    {
-      question: {
-        en: "What is a soft drink?",
-        es: "What is a soft drink?",
-        de: "What is a soft drink?",
-        nl: "What is a soft drink?"
+                  "en": "Energy drinks are soft drinks containing caffeine and other stimulants like taurine.",
+                  "es": "Energy drinks are soft drinks containing caffeine and other stimulants like taurine.",
+                  "de": "Energy drinks are soft drinks containing caffeine and other stimulants like taurine.",
+                  "nl": "Energy drinks are soft drinks containing caffeine and other stimulants like taurine."
+        }
       },
-      options: [
-        { en: "Non-alcoholic carbonated beverage", es: "Non-alcoholic carbonated beverage", de: "Non-alcoholic carbonated beverage", nl: "Non-alcoholic carbonated beverage" },
-        { en: "Alcoholic drink", es: "Alcoholic drink", de: "Alcoholic drink", nl: "Alcoholic drink" },
-        { en: "Juice", es: "Juice", de: "Juice", nl: "Juice" },
-        { en: "Milk-based drink", es: "Milk-based drink", de: "Milk-based drink", nl: "Milk-based drink" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A soft drink is a non-alcoholic beverage, typically carbonated and sweetened.",
-        es: "A soft drink is a non-alcoholic beverage, typically carbonated and sweetened.",
-        de: "A soft drink is a non-alcoholic beverage, typically carbonated and sweetened.",
-        nl: "A soft drink is a non-alcoholic beverage, typically carbonated and sweetened."
-      }
-    },
-    {
-      question: {
-        en: "What company makes Coca-Cola?",
-        es: "What company makes Coca-Cola?",
-        de: "What company makes Coca-Cola?",
-        nl: "What company makes Coca-Cola?"
+      {
+        question: {
+                  "en": "What is 7-Up?",
+                  "es": "What is 7-Up?",
+                  "de": "What is 7-Up?",
+                  "nl": "What is 7-Up?"
+        },
+        options: [
+        {
+                  "en": "Root beer",
+                  "es": "Root beer",
+                  "de": "Root beer",
+                  "nl": "Root beer"
+        },
+        {
+                  "en": "Cola",
+                  "es": "Cola",
+                  "de": "Cola",
+                  "nl": "Cola"
+        },
+        {
+                  "en": "Lemon-lime flavored soft drink",
+                  "es": "Lemon-lime flavored soft drink",
+                  "de": "Lemon-lime flavored soft drink",
+                  "nl": "Lemon-lime flavored soft drink"
+        },
+        {
+                  "en": "Orange soda",
+                  "es": "Orange soda",
+                  "de": "Orange soda",
+                  "nl": "Orange soda"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "7-Up is a lemon-lime flavored non-caffeinated soft drink.",
+                  "es": "7-Up is a lemon-lime flavored non-caffeinated soft drink.",
+                  "de": "7-Up is a lemon-lime flavored non-caffeinated soft drink.",
+                  "nl": "7-Up is a lemon-lime flavored non-caffeinated soft drink."
+        }
       },
-      options: [
-        { en: "The Coca-Cola Company", es: "The Coca-Cola Company", de: "The Coca-Cola Company", nl: "The Coca-Cola Company" },
-        { en: "PepsiCo", es: "PepsiCo", de: "PepsiCo", nl: "PepsiCo" },
-        { en: "Dr Pepper Snapple", es: "Dr Pepper Snapple", de: "Dr Pepper Snapple", nl: "Dr Pepper Snapple" },
-        { en: "Nestle", es: "Nestle", de: "Nestle", nl: "Nestle" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Coca-Cola is produced by The Coca-Cola Company, founded in 1886.",
-        es: "Coca-Cola is produced by The Coca-Cola Company, founded in 1886.",
-        de: "Coca-Cola is produced by The Coca-Cola Company, founded in 1886.",
-        nl: "Coca-Cola is produced by The Coca-Cola Company, founded in 1886."
-      }
-    },
-    {
-      question: {
-        en: "What flavor is Sprite?",
-        es: "What flavor is Sprite?",
-        de: "What flavor is Sprite?",
-        nl: "What flavor is Sprite?"
+      {
+        question: {
+                  "en": "What is the sweetener in regular soda?",
+                  "es": "What is the sweetener in regular soda?",
+                  "de": "What is the sweetener in regular soda?",
+                  "nl": "What is the sweetener in regular soda?"
+        },
+        options: [
+        {
+                  "en": "Sugar or high-fructose corn syrup",
+                  "es": "Sugar or high-fructose corn syrup",
+                  "de": "Sugar or high-fructose corn syrup",
+                  "nl": "Sugar or high-fructose corn syrup"
+        },
+        {
+                  "en": "Fruit juice",
+                  "es": "Fruit juice",
+                  "de": "Fruit juice",
+                  "nl": "Fruit juice"
+        },
+        {
+                  "en": "Honey",
+                  "es": "Honey",
+                  "de": "Honey",
+                  "nl": "Honey"
+        },
+        {
+                  "en": "Artificial sweetener",
+                  "es": "Artificial sweetener",
+                  "de": "Artificial sweetener",
+                  "nl": "Artificial sweetener"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Regular sodas are typically sweetened with sugar or high-fructose corn syrup.",
+                  "es": "Regular sodas are typically sweetened with sugar or high-fructose corn syrup.",
+                  "de": "Regular sodas are typically sweetened with sugar or high-fructose corn syrup.",
+                  "nl": "Regular sodas are typically sweetened with sugar or high-fructose corn syrup."
+        }
       },
-      options: [
-        { en: "Lemon-lime", es: "Lemon-lime", de: "Lemon-lime", nl: "Lemon-lime" },
-        { en: "Orange", es: "Orange", de: "Orange", nl: "Orange" },
-        { en: "Cola", es: "Cola", de: "Cola", nl: "Cola" },
-        { en: "Grape", es: "Grape", de: "Grape", nl: "Grape" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Sprite is a lemon-lime flavored carbonated soft drink.",
-        es: "Sprite is a lemon-lime flavored carbonated soft drink.",
-        de: "Sprite is a lemon-lime flavored carbonated soft drink.",
-        nl: "Sprite is a lemon-lime flavored carbonated soft drink."
-      }
-    },
-    {
-      question: {
-        en: "What gives soda its fizz?",
-        es: "What gives soda its fizz?",
-        de: "What gives soda its fizz?",
-        nl: "What gives soda its fizz?"
+      {
+        question: {
+                  "en": "What is seltzer water?",
+                  "es": "What is seltzer water?",
+                  "de": "What is seltzer water?",
+                  "nl": "What is seltzer water?"
+        },
+        options: [
+        {
+                  "en": "Tonic water",
+                  "es": "Tonic water",
+                  "de": "Tonic water",
+                  "nl": "Tonic water"
+        },
+        {
+                  "en": "Flavored soda",
+                  "es": "Flavored soda",
+                  "de": "Flavored soda",
+                  "nl": "Flavored soda"
+        },
+        {
+                  "en": "Mineral water",
+                  "es": "Mineral water",
+                  "de": "Mineral water",
+                  "nl": "Mineral water"
+        },
+        {
+                  "en": "Plain carbonated water",
+                  "es": "Plain carbonated water",
+                  "de": "Plain carbonated water",
+                  "nl": "Plain carbonated water"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Seltzer water is simply water that has been carbonated, with no added minerals or flavoring.",
+                  "es": "Seltzer water is simply water that has been carbonated, with no added minerals or flavoring.",
+                  "de": "Seltzer water is simply water that has been carbonated, with no added minerals or flavoring.",
+                  "nl": "Seltzer water is simply water that has been carbonated, with no added minerals or flavoring."
+        }
       },
-      options: [
-        { en: "Carbon dioxide", es: "Carbon dioxide", de: "Carbon dioxide", nl: "Carbon dioxide" },
-        { en: "Oxygen", es: "Oxygen", de: "Oxygen", nl: "Oxygen" },
-        { en: "Nitrogen", es: "Nitrogen", de: "Nitrogen", nl: "Nitrogen" },
-        { en: "Hydrogen", es: "Hydrogen", de: "Hydrogen", nl: "Hydrogen" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Carbon dioxide dissolved under pressure gives soda its characteristic fizz and bubbles.",
-        es: "Carbon dioxide dissolved under pressure gives soda its characteristic fizz and bubbles.",
-        de: "Carbon dioxide dissolved under pressure gives soda its characteristic fizz and bubbles.",
-        nl: "Carbon dioxide dissolved under pressure gives soda its characteristic fizz and bubbles."
-      }
-    },
-    {
-      question: {
-        en: "What company makes Pepsi?",
-        es: "What company makes Pepsi?",
-        de: "What company makes Pepsi?",
-        nl: "What company makes Pepsi?"
-      },
-      options: [
-        { en: "PepsiCo", es: "PepsiCo", de: "PepsiCo", nl: "PepsiCo" },
-        { en: "Coca-Cola Company", es: "Coca-Cola Company", de: "Coca-Cola Company", nl: "Coca-Cola Company" },
-        { en: "Dr Pepper", es: "Dr Pepper", de: "Dr Pepper", nl: "Dr Pepper" },
-        { en: "Nestle", es: "Nestle", de: "Nestle", nl: "Nestle" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pepsi is produced by PepsiCo, a major competitor to Coca-Cola.",
-        es: "Pepsi is produced by PepsiCo, a major competitor to Coca-Cola.",
-        de: "Pepsi is produced by PepsiCo, a major competitor to Coca-Cola.",
-        nl: "Pepsi is produced by PepsiCo, a major competitor to Coca-Cola."
-      }
-    },
-    {
-      question: {
-        en: "What is root beer?",
-        es: "What is root beer?",
-        de: "What is root beer?",
-        nl: "What is root beer?"
-      },
-      options: [
-        { en: "Sweet soft drink flavored with sassafras", es: "Sweet soft drink flavored with sassafras", de: "Sweet soft drink flavored with sassafras", nl: "Sweet soft drink flavored with sassafras" },
-        { en: "Alcoholic beer", es: "Alcoholic beer", de: "Alcoholic beer", nl: "Alcoholic beer" },
-        { en: "Cola variant", es: "Cola variant", de: "Cola variant", nl: "Cola variant" },
-        { en: "Coffee-based drink", es: "Coffee-based drink", de: "Coffee-based drink", nl: "Coffee-based drink" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Root beer is a sweet North American soft drink traditionally flavored with sassafras root.",
-        es: "Root beer is a sweet North American soft drink traditionally flavored with sassafras root.",
-        de: "Root beer is a sweet North American soft drink traditionally flavored with sassafras root.",
-        nl: "Root beer is a sweet North American soft drink traditionally flavored with sassafras root."
-      }
-    },
-    {
-      question: {
-        en: "What is ginger ale?",
-        es: "What is ginger ale?",
-        de: "What is ginger ale?",
-        nl: "What is ginger ale?"
-      },
-      options: [
-        { en: "Ginger-flavored carbonated drink", es: "Ginger-flavored carbonated drink", de: "Ginger-flavored carbonated drink", nl: "Ginger-flavored carbonated drink" },
-        { en: "Alcoholic ginger beer", es: "Alcoholic ginger beer", de: "Alcoholic ginger beer", nl: "Alcoholic ginger beer" },
-        { en: "Beer made with ginger", es: "Beer made with ginger", de: "Beer made with ginger", nl: "Beer made with ginger" },
-        { en: "Ale with ginger flavor", es: "Ale with ginger flavor", de: "Ale with ginger flavor", nl: "Ale with ginger flavor" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Ginger ale is a non-alcoholic carbonated soft drink flavored with ginger.",
-        es: "Ginger ale is a non-alcoholic carbonated soft drink flavored with ginger.",
-        de: "Ginger ale is a non-alcoholic carbonated soft drink flavored with ginger.",
-        nl: "Ginger ale is a non-alcoholic carbonated soft drink flavored with ginger."
-      }
-    },
-    {
-      question: {
-        en: "What soft drink is known for its 23 flavors?",
-        es: "What soft drink is known for its 23 flavors?",
-        de: "What soft drink is known for its 23 flavors?",
-        nl: "What soft drink is known for its 23 flavors?"
-      },
-      options: [
-        { en: "Dr Pepper", es: "Dr Pepper", de: "Dr Pepper", nl: "Dr Pepper" },
-        { en: "Coca-Cola", es: "Coca-Cola", de: "Coca-Cola", nl: "Coca-Cola" },
-        { en: "Pepsi", es: "Pepsi", de: "Pepsi", nl: "Pepsi" },
-        { en: "7-Up", es: "7-Up", de: "7-Up", nl: "7-Up" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Dr Pepper is marketed as having a unique blend of 23 flavors.",
-        es: "Dr Pepper is marketed as having a unique blend of 23 flavors.",
-        de: "Dr Pepper is marketed as having a unique blend of 23 flavors.",
-        nl: "Dr Pepper is marketed as having a unique blend of 23 flavors."
-      }
-    },
-    {
-      question: {
-        en: "What is Mountain Dew?",
-        es: "What is Mountain Dew?",
-        de: "What is Mountain Dew?",
-        nl: "What is Mountain Dew?"
-      },
-      options: [
-        { en: "Citrus-flavored caffeinated soft drink", es: "Citrus-flavored caffeinated soft drink", de: "Citrus-flavored caffeinated soft drink", nl: "Citrus-flavored caffeinated soft drink" },
-        { en: "Energy drink", es: "Energy drink", de: "Energy drink", nl: "Energy drink" },
-        { en: "Juice", es: "Juice", de: "Juice", nl: "Juice" },
-        { en: "Tea-based drink", es: "Tea-based drink", de: "Tea-based drink", nl: "Tea-based drink" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Mountain Dew is a citrus-flavored carbonated soft drink with caffeine.",
-        es: "Mountain Dew is a citrus-flavored carbonated soft drink with caffeine.",
-        de: "Mountain Dew is a citrus-flavored carbonated soft drink with caffeine.",
-        nl: "Mountain Dew is a citrus-flavored carbonated soft drink with caffeine."
-      }
-    },
-    {
-      question: {
-        en: "What is tonic water?",
-        es: "What is tonic water?",
-        de: "What is tonic water?",
-        nl: "What is tonic water?"
-      },
-      options: [
-        { en: "Carbonated water with quinine", es: "Carbonated water with quinine", de: "Carbonated water with quinine", nl: "Carbonated water with quinine" },
-        { en: "Plain carbonated water", es: "Plain carbonated water", de: "Plain carbonated water", nl: "Plain carbonated water" },
-        { en: "Sweet soda", es: "Sweet soda", de: "Sweet soda", nl: "Sweet soda" },
-        { en: "Flavored water", es: "Flavored water", de: "Flavored water", nl: "Flavored water" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Tonic water is carbonated water flavored with quinine, originally used to prevent malaria.",
-        es: "Tonic water is carbonated water flavored with quinine, originally used to prevent malaria.",
-        de: "Tonic water is carbonated water flavored with quinine, originally used to prevent malaria.",
-        nl: "Tonic water is carbonated water flavored with quinine, originally used to prevent malaria."
-      }
-    },
-    {
-      question: {
-        en: "What is club soda?",
-        es: "What is club soda?",
-        de: "What is club soda?",
-        nl: "What is club soda?"
-      },
-      options: [
-        { en: "Carbonated water with minerals", es: "Carbonated water with minerals", de: "Carbonated water with minerals", nl: "Carbonated water with minerals" },
-        { en: "Alcoholic soda", es: "Alcoholic soda", de: "Alcoholic soda", nl: "Alcoholic soda" },
-        { en: "Sweet soda", es: "Sweet soda", de: "Sweet soda", nl: "Sweet soda" },
-        { en: "Fruit-flavored soda", es: "Fruit-flavored soda", de: "Fruit-flavored soda", nl: "Fruit-flavored soda" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Club soda is carbonated water with added minerals like sodium bicarbonate or potassium sulfate.",
-        es: "Club soda is carbonated water with added minerals like sodium bicarbonate or potassium sulfate.",
-        de: "Club soda is carbonated water with added minerals like sodium bicarbonate or potassium sulfate.",
-        nl: "Club soda is carbonated water with added minerals like sodium bicarbonate or potassium sulfate."
-      }
-    },
-    {
-      question: {
-        en: "What color is original Coca-Cola?",
-        es: "What color is original Coca-Cola?",
-        de: "What color is original Coca-Cola?",
-        nl: "What color is original Coca-Cola?"
-      },
-      options: [
-        { en: "Caramel brown", es: "Caramel brown", de: "Caramel brown", nl: "Caramel brown" },
-        { en: "Clear", es: "Clear", de: "Clear", nl: "Clear" },
-        { en: "Red", es: "Red", de: "Red", nl: "Red" },
-        { en: "Black", es: "Black", de: "Black", nl: "Black" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Coca-Cola has a distinctive caramel brown color from caramel coloring.",
-        es: "Coca-Cola has a distinctive caramel brown color from caramel coloring.",
-        de: "Coca-Cola has a distinctive caramel brown color from caramel coloring.",
-        nl: "Coca-Cola has a distinctive caramel brown color from caramel coloring."
-      }
-    },
-    {
-      question: {
-        en: "What is Fanta?",
-        es: "What is Fanta?",
-        de: "What is Fanta?",
-        nl: "What is Fanta?"
-      },
-      options: [
-        { en: "Orange-flavored soft drink", es: "Orange-flavored soft drink", de: "Orange-flavored soft drink", nl: "Orange-flavored soft drink" },
-        { en: "Cola drink", es: "Cola drink", de: "Cola drink", nl: "Cola drink" },
-        { en: "Lemon-lime soda", es: "Lemon-lime soda", de: "Lemon-lime soda", nl: "Lemon-lime soda" },
-        { en: "Root beer", es: "Root beer", de: "Root beer", nl: "Root beer" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Fanta is a fruit-flavored carbonated soft drink, most commonly orange-flavored.",
-        es: "Fanta is a fruit-flavored carbonated soft drink, most commonly orange-flavored.",
-        de: "Fanta is a fruit-flavored carbonated soft drink, most commonly orange-flavored.",
-        nl: "Fanta is a fruit-flavored carbonated soft drink, most commonly orange-flavored."
-      }
-    },
-    {
-      question: {
-        en: "What does 'diet' or 'zero' soda mean?",
-        es: "What does 'diet' or 'zero' soda mean?",
-        de: "What does 'diet' or 'zero' soda mean?",
-        nl: "What does 'diet' or 'zero' soda mean?"
-      },
-      options: [
-        { en: "Sweetened with artificial sweeteners, no sugar", es: "Sweetened with artificial sweeteners, no sugar", de: "Sweetened with artificial sweeteners, no sugar", nl: "Sweetened with artificial sweeteners, no sugar" },
-        { en: "Less carbonation", es: "Less carbonation", de: "Less carbonation", nl: "Less carbonation" },
-        { en: "No caffeine", es: "No caffeine", de: "No caffeine", nl: "No caffeine" },
-        { en: "Organic ingredients", es: "Organic ingredients", de: "Organic ingredients", nl: "Organic ingredients" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Diet or zero sodas use artificial sweeteners instead of sugar, reducing calories.",
-        es: "Diet or zero sodas use artificial sweeteners instead of sugar, reducing calories.",
-        de: "Diet or zero sodas use artificial sweeteners instead of sugar, reducing calories.",
-        nl: "Diet or zero sodas use artificial sweeteners instead of sugar, reducing calories."
-      }
-    },
-    {
-      question: {
-        en: "What is cream soda?",
-        es: "What is cream soda?",
-        de: "What is cream soda?",
-        nl: "What is cream soda?"
-      },
-      options: [
-        { en: "Vanilla-flavored carbonated drink", es: "Vanilla-flavored carbonated drink", de: "Vanilla-flavored carbonated drink", nl: "Vanilla-flavored carbonated drink" },
-        { en: "Soda with cream", es: "Soda with cream", de: "Soda with cream", nl: "Soda with cream" },
-        { en: "Chocolate soda", es: "Chocolate soda", de: "Chocolate soda", nl: "Chocolate soda" },
-        { en: "Coffee soda", es: "Coffee soda", de: "Coffee soda", nl: "Coffee soda" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Cream soda is a sweet carbonated beverage flavored with vanilla.",
-        es: "Cream soda is a sweet carbonated beverage flavored with vanilla.",
-        de: "Cream soda is a sweet carbonated beverage flavored with vanilla.",
-        nl: "Cream soda is a sweet carbonated beverage flavored with vanilla."
-      }
-    },
-    {
-      question: {
-        en: "What is energy drink classified as?",
-        es: "What is energy drink classified as?",
-        de: "What is energy drink classified as?",
-        nl: "What is energy drink classified as?"
-      },
-      options: [
-        { en: "Soft drink with added stimulants", es: "Soft drink with added stimulants", de: "Soft drink with added stimulants", nl: "Soft drink with added stimulants" },
-        { en: "Sports drink", es: "Sports drink", de: "Sports drink", nl: "Sports drink" },
-        { en: "Juice", es: "Juice", de: "Juice", nl: "Juice" },
-        { en: "Tea", es: "Tea", de: "Tea", nl: "Tea" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Energy drinks are soft drinks containing caffeine and other stimulants like taurine.",
-        es: "Energy drinks are soft drinks containing caffeine and other stimulants like taurine.",
-        de: "Energy drinks are soft drinks containing caffeine and other stimulants like taurine.",
-        nl: "Energy drinks are soft drinks containing caffeine and other stimulants like taurine."
-      }
-    },
-    {
-      question: {
-        en: "What is 7-Up?",
-        es: "What is 7-Up?",
-        de: "What is 7-Up?",
-        nl: "What is 7-Up?"
-      },
-      options: [
-        { en: "Lemon-lime flavored soft drink", es: "Lemon-lime flavored soft drink", de: "Lemon-lime flavored soft drink", nl: "Lemon-lime flavored soft drink" },
-        { en: "Cola", es: "Cola", de: "Cola", nl: "Cola" },
-        { en: "Orange soda", es: "Orange soda", de: "Orange soda", nl: "Orange soda" },
-        { en: "Root beer", es: "Root beer", de: "Root beer", nl: "Root beer" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "7-Up is a lemon-lime flavored non-caffeinated soft drink.",
-        es: "7-Up is a lemon-lime flavored non-caffeinated soft drink.",
-        de: "7-Up is a lemon-lime flavored non-caffeinated soft drink.",
-        nl: "7-Up is a lemon-lime flavored non-caffeinated soft drink."
-      }
-    },
-    {
-      question: {
-        en: "What is the sweetener in regular soda?",
-        es: "What is the sweetener in regular soda?",
-        de: "What is the sweetener in regular soda?",
-        nl: "What is the sweetener in regular soda?"
-      },
-      options: [
-        { en: "Sugar or high-fructose corn syrup", es: "Sugar or high-fructose corn syrup", de: "Sugar or high-fructose corn syrup", nl: "Sugar or high-fructose corn syrup" },
-        { en: "Honey", es: "Honey", de: "Honey", nl: "Honey" },
-        { en: "Artificial sweetener", es: "Artificial sweetener", de: "Artificial sweetener", nl: "Artificial sweetener" },
-        { en: "Fruit juice", es: "Fruit juice", de: "Fruit juice", nl: "Fruit juice" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Regular sodas are typically sweetened with sugar or high-fructose corn syrup.",
-        es: "Regular sodas are typically sweetened with sugar or high-fructose corn syrup.",
-        de: "Regular sodas are typically sweetened with sugar or high-fructose corn syrup.",
-        nl: "Regular sodas are typically sweetened with sugar or high-fructose corn syrup."
-      }
-    },
-    {
-      question: {
-        en: "What is seltzer water?",
-        es: "What is seltzer water?",
-        de: "What is seltzer water?",
-        nl: "What is seltzer water?"
-      },
-      options: [
-        { en: "Plain carbonated water", es: "Plain carbonated water", de: "Plain carbonated water", nl: "Plain carbonated water" },
-        { en: "Flavored soda", es: "Flavored soda", de: "Flavored soda", nl: "Flavored soda" },
-        { en: "Mineral water", es: "Mineral water", de: "Mineral water", nl: "Mineral water" },
-        { en: "Tonic water", es: "Tonic water", de: "Tonic water", nl: "Tonic water" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Seltzer water is simply water that has been carbonated, with no added minerals or flavoring.",
-        es: "Seltzer water is simply water that has been carbonated, with no added minerals or flavoring.",
-        de: "Seltzer water is simply water that has been carbonated, with no added minerals or flavoring.",
-        nl: "Seltzer water is simply water that has been carbonated, with no added minerals or flavoring."
-      }
-    },
-    {
-      question: {
-        en: "What soft drink was originally a mixer for whiskey?",
-        es: "What soft drink was originally a mixer for whiskey?",
-        de: "What soft drink was originally a mixer for whiskey?",
-        nl: "What soft drink was originally a mixer for whiskey?"
-      },
-      options: [
-        { en: "Ginger ale", es: "Ginger ale", de: "Ginger ale", nl: "Ginger ale" },
-        { en: "Coca-Cola", es: "Coca-Cola", de: "Coca-Cola", nl: "Coca-Cola" },
-        { en: "Sprite", es: "Sprite", de: "Sprite", nl: "Sprite" },
-        { en: "Root beer", es: "Root beer", de: "Root beer", nl: "Root beer" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Ginger ale was originally created in the 1850s and often used as a mixer for whiskey.",
-        es: "Ginger ale was originally created in the 1850s and often used as a mixer for whiskey.",
-        de: "Ginger ale was originally created in the 1850s and often used as a mixer for whiskey.",
-        nl: "Ginger ale was originally created in the 1850s and often used as a mixer for whiskey."
-      }
-
+      {
+        question: {
+                  "en": "What soft drink was originally a mixer for whiskey?",
+                  "es": "What soft drink was originally a mixer for whiskey?",
+                  "de": "What soft drink was originally a mixer for whiskey?",
+                  "nl": "What soft drink was originally a mixer for whiskey?"
+        },
+        options: [
+        {
+                  "en": "Sprite",
+                  "es": "Sprite",
+                  "de": "Sprite",
+                  "nl": "Sprite"
+        },
+        {
+                  "en": "Coca-Cola",
+                  "es": "Coca-Cola",
+                  "de": "Coca-Cola",
+                  "nl": "Coca-Cola"
+        },
+        {
+                  "en": "Root beer",
+                  "es": "Root beer",
+                  "de": "Root beer",
+                  "nl": "Root beer"
+        },
+        {
+                  "en": "Ginger ale",
+                  "es": "Ginger ale",
+                  "de": "Ginger ale",
+                  "nl": "Ginger ale"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Ginger ale was originally created in the 1850s and often used as a mixer for whiskey.",
+                  "es": "Ginger ale was originally created in the 1850s and often used as a mixer for whiskey.",
+                  "de": "Ginger ale was originally created in the 1850s and often used as a mixer for whiskey.",
+                  "nl": "Ginger ale was originally created in the 1850s and often used as a mixer for whiskey."
+        }
       }
     ]
   };
 
-  // Export for use in the quiz application
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = level9;
-  } else if (typeof window !== 'undefined') {
-    window.level9 = level9;
   }
 })();

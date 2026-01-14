@@ -1,0 +1,11 @@
+SALADS EXPANSION PROGRESS:
+
+Files to expand from 20 to 40 questions:
+1. level1.js - COMPLETED (Basic Salad Knowledge)
+2. level2.js - COMPLETED (added dressing/vinaigrette questions - but level says "Salad Types & Popular Recipes")
+3. level3.js - IN PROGRESS (currently has dressings content, need to add 20 more)
+4. level4.js - PENDING
+5. level5.js - PENDING
+
+Note: There appears to be topic confusion between level2 and level3 based on file comments vs content.
+Current approach: Complete expansion of all 5 files to 40 questions each, maintaining existing content.

@@ -1,859 +1,1657 @@
-// Pyramids Quiz - Level 9: Debates and Theories
+// Pyramids Quiz - Level 9
 (function() {
   const level9 = {
     name: {
-      en: "Pyramids Level 9",
-      es: "Pirámides Nivel 9",
-      de: "Pyramiden Stufe 9",
-      nl: "Piramides Level 9"
+          "en": "Pyramids Level 9",
+          "es": "Pirámides Nivel 9",
+          "de": "Pyramiden Stufe 9",
+          "nl": "Piramides Level 9"
     },
     questions: [
       {
         question: {
-          en: "What theory did Robert Bauval propose in 1983?",
-          es: "¿Qué teoría propuso Robert Bauval en 1983?",
-          de: "Welche Theorie schlug Robert Bauval 1983 vor?",
-          nl: "Welke theorie stelde Robert Bauval voor in 1983?"
+                  "en": "What theory did Robert Bauval propose in 1983?",
+                  "es": "¿Qué teoría propuso Robert Bauval en 1983?",
+                  "de": "Welche Theorie schlug Robert Bauval 1983 vor?",
+                  "nl": "Welke theorie stelde Robert Bauval voor in 1983?"
         },
         options: [
-          { en: "Orion Correlation Theory linking pyramids to Orion's Belt", es: "Teoría de Correlación de Orión vinculando pirámides al Cinturón de Orión", de: "Orion-Korrelationstheorie, die Pyramiden mit dem Oriongürtel verbindet", nl: "Orion Correlatie Theorie die piramides koppelt aan de Gordel van Orion" },
-          { en: "Pyramids were grain storage", es: "Las pirámides eran almacenamiento de grano", de: "Pyramiden waren Getreidespeicher", nl: "Piramides waren graanopslag" },
-          { en: "Alien construction theory", es: "Teoría de construcción alienígena", de: "Außerirdische Bautheorie", nl: "Buitenaardse constructietheorie" },
-          { en: "Water pump theory", es: "Teoría de bomba de agua", de: "Wasserpumpentheorie", nl: "Waterpomptheorie" }
+        {
+                  "en": "Pyramids were grain storage",
+                  "es": "Las pirámides eran almacenamiento de grano",
+                  "de": "Pyramiden waren Getreidespeicher",
+                  "nl": "Piramides waren graanopslag"
+        },
+        {
+                  "en": "Water pump theory",
+                  "es": "Teoría de bomba de agua",
+                  "de": "Wasserpumpentheorie",
+                  "nl": "Waterpomptheorie"
+        },
+        {
+                  "en": "Orion Correlation Theory linking pyramids to Orion's Belt",
+                  "es": "Teoría de Correlación de Orión vinculando pirámides al Cinturón de Orión",
+                  "de": "Orion-Korrelationstheorie, die Pyramiden mit dem Oriongürtel verbindet",
+                  "nl": "Orion Correlatie Theorie die piramides koppelt aan de Gordel van Orion"
+        },
+        {
+                  "en": "Alien construction theory",
+                  "es": "Teoría de construcción alienígena",
+                  "de": "Außerirdische Bautheorie",
+                  "nl": "Buitenaardse constructietheorie"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Robert Bauval proposed the Orion Correlation Theory in 1983, suggesting the three Giza pyramids' layout mirrors the three stars of Orion's Belt, though this remains debated among scholars.",
-          es: "Robert Bauval propuso la Teoría de Correlación de Orión en 1983, sugiriendo que la distribución de las tres pirámides de Giza refleja las tres estrellas del Cinturón de Orión, aunque esto sigue siendo debatido entre académicos.",
-          de: "Robert Bauval schlug 1983 die Orion-Korrelationstheorie vor, die nahelegt, dass das Layout der drei Gizeh-Pyramiden die drei Sterne des Oriongürtels widerspiegelt, obwohl dies unter Gelehrten umstritten bleibt.",
-          nl: "Robert Bauval stelde in 1983 de Orion Correlatie Theorie voor, die suggereert dat de opstelling van de drie Giza-piramides de drie sterren van de Gordel van Orion weerspiegelt, hoewel dit onder geleerden betwist blijft."
+                  "en": "Robert Bauval proposed the Orion Correlation Theory in 1983, suggesting the three Giza pyramids' layout mirrors the three stars of Orion's Belt, though this remains debated among scholars.",
+                  "es": "Robert Bauval propuso la Teoría de Correlación de Orión en 1983, sugiriendo que la distribución de las tres pirámides de Giza refleja las tres estrellas del Cinturón de Orión, aunque esto sigue siendo debatido entre académicos.",
+                  "de": "Robert Bauval schlug 1983 die Orion-Korrelationstheorie vor, die nahelegt, dass das Layout der drei Gizeh-Pyramiden die drei Sterne des Oriongürtels widerspiegelt, obwohl dies unter Gelehrten umstritten bleibt.",
+                  "nl": "Robert Bauval stelde in 1983 de Orion Correlatie Theorie voor, die suggereert dat de opstelling van de drie Giza-piramides de drie sterren van de Gordel van Orion weerspiegelt, hoewel dit onder geleerden betwist blijft."
         }
       },
       {
         question: {
-          en: "According to Mark Lehner's research, approximately how many workers built the Great Pyramid?",
-          es: "Según la investigación de Mark Lehner, ¿aproximadamente cuántos trabajadores construyeron la Gran Pirámide?",
-          de: "Laut Mark Lehners Forschung, wie viele Arbeiter bauten etwa die Große Pyramide?",
-          nl: "Volgens Mark Lehner's onderzoek, hoeveel arbeiders bouwden ongeveer de Grote Piramide?"
+                  "en": "According to Mark Lehner's research, approximately how many workers built the Great Pyramid?",
+                  "es": "Según la investigación de Mark Lehner, ¿aproximadamente cuántos trabajadores construyeron la Gran Pirámide?",
+                  "de": "Laut Mark Lehners Forschung, wie viele Arbeiter bauten etwa die Große Pyramide?",
+                  "nl": "Volgens Mark Lehner's onderzoek, hoeveel arbeiders bouwden ongeveer de Grote Piramide?"
         },
         options: [
-          { en: "Approximately 20,000 workers", es: "Aproximadamente 20,000 trabajadores", de: "Etwa 20.000 Arbeiter", nl: "Ongeveer 20.000 arbeiders" },
-          { en: "100,000 workers", es: "100,000 trabajadores", de: "100.000 Arbeiter", nl: "100.000 arbeiders" },
-          { en: "5,000 workers", es: "5,000 trabajadores", de: "5.000 Arbeiter", nl: "5.000 arbeiders" },
-          { en: "1 million workers", es: "1 millón de trabajadores", de: "1 Million Arbeiter", nl: "1 miljoen arbeiders" }
+        {
+                  "en": "5,000 workers",
+                  "es": "5,000 trabajadores",
+                  "de": "5.000 Arbeiter",
+                  "nl": "5.000 arbeiders"
+        },
+        {
+                  "en": "1 million workers",
+                  "es": "1 millón de trabajadores",
+                  "de": "1 Million Arbeiter",
+                  "nl": "1 miljoen arbeiders"
+        },
+        {
+                  "en": "Approximately 20,000 workers",
+                  "es": "Aproximadamente 20,000 trabajadores",
+                  "de": "Etwa 20.000 Arbeiter",
+                  "nl": "Ongeveer 20.000 arbeiders"
+        },
+        {
+                  "en": "100,000 workers",
+                  "es": "100,000 trabajadores",
+                  "de": "100.000 Arbeiter",
+                  "nl": "100.000 arbeiders"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Mark Lehner's archaeological evidence from worker villages and bakeries suggests approximately 20,000 workers, including skilled craftsmen and seasonal laborers, built the Great Pyramid.",
-          es: "La evidencia arqueológica de Mark Lehner de aldeas de trabajadores y panaderías sugiere que aproximadamente 20,000 trabajadores, incluyendo artesanos calificados y trabajadores estacionales, construyeron la Gran Pirámide.",
-          de: "Mark Lehners archäologische Beweise aus Arbeitersiedlungen und Bäckereien legen nahe, dass etwa 20.000 Arbeiter, einschließlich qualifizierter Handwerker und Saisonarbeiter, die Große Pyramide bauten.",
-          nl: "Mark Lehner's archeologisch bewijs van werkersverblijven en bakkerijen suggereert dat ongeveer 20.000 arbeiders, inclusief geschoolde ambachtslieden en seizoenarbeiders, de Grote Piramide bouwden."
+                  "en": "Mark Lehner's archaeological evidence from worker villages and bakeries suggests approximately 20,000 workers, including skilled craftsmen and seasonal laborers, built the Great Pyramid.",
+                  "es": "La evidencia arqueológica de Mark Lehner de aldeas de trabajadores y panaderías sugiere que aproximadamente 20,000 trabajadores, incluyendo artesanos calificados y trabajadores estacionales, construyeron la Gran Pirámide.",
+                  "de": "Mark Lehners archäologische Beweise aus Arbeitersiedlungen und Bäckereien legen nahe, dass etwa 20.000 Arbeiter, einschließlich qualifizierter Handwerker und Saisonarbeiter, die Große Pyramide bauten.",
+                  "nl": "Mark Lehner's archeologisch bewijs van werkersverblijven en bakkerijen suggereert dat ongeveer 20.000 arbeiders, inclusief geschoolde ambachtslieden en seizoenarbeiders, de Grote Piramide bouwden."
         }
       },
       {
         question: {
-          en: "What timeline did John Romer propose for the Great Pyramid's construction?",
-          es: "¿Qué cronología propuso John Romer para la construcción de la Gran Pirámide?",
-          de: "Welchen Zeitplan schlug John Romer für den Bau der Großen Pyramide vor?",
-          nl: "Welke tijdlijn stelde John Romer voor voor de bouw van de Grote Piramide?"
+                  "en": "What timeline did John Romer propose for the Great Pyramid's construction?",
+                  "es": "¿Qué cronología propuso John Romer para la construcción de la Gran Pirámide?",
+                  "de": "Welchen Zeitplan schlug John Romer für den Bau der Großen Pyramide vor?",
+                  "nl": "Welke tijdlijn stelde John Romer voor voor de bouw van de Grote Piramide?"
         },
         options: [
-          { en: "Approximately 23 years", es: "Aproximadamente 23 años", de: "Etwa 23 Jahre", nl: "Ongeveer 23 jaar" },
-          { en: "10 years", es: "10 años", de: "10 Jahre", nl: "10 jaar" },
-          { en: "50 years", es: "50 años", de: "50 Jahre", nl: "50 jaar" },
-          { en: "100 years", es: "100 años", de: "100 Jahre", nl: "100 jaar" }
+        {
+                  "en": "10 years",
+                  "es": "10 años",
+                  "de": "10 Jahre",
+                  "nl": "10 jaar"
+        },
+        {
+                  "en": "100 years",
+                  "es": "100 años",
+                  "de": "100 Jahre",
+                  "nl": "100 jaar"
+        },
+        {
+                  "en": "50 years",
+                  "es": "50 años",
+                  "de": "50 Jahre",
+                  "nl": "50 jaar"
+        },
+        {
+                  "en": "Approximately 23 years",
+                  "es": "Aproximadamente 23 años",
+                  "de": "Etwa 23 Jahre",
+                  "nl": "Ongeveer 23 jaar"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "John Romer calculated that the Great Pyramid took approximately 23 years to build, based on Khufu's reign length and the logistics of moving and placing roughly 2.3 million stone blocks.",
-          es: "John Romer calculó que la Gran Pirámide tomó aproximadamente 23 años construir, basándose en la longitud del reinado de Keops y la logística de mover y colocar aproximadamente 2.3 millones de bloques de piedra.",
-          de: "John Romer berechnete, dass die Große Pyramide etwa 23 Jahre zum Bau benötigte, basierend auf der Länge von Chufus Herrschaft und der Logistik des Bewegens und Platzierens von etwa 2,3 Millionen Steinblöcken.",
-          nl: "John Romer berekende dat de Grote Piramide ongeveer 23 jaar duurde om te bouwen, gebaseerd op de lengte van Cheops' heerschappij en de logistiek van het verplaatsen en plaatsen van ongeveer 2,3 miljoen stenen blokken."
+                  "en": "John Romer calculated that the Great Pyramid took approximately 23 years to build, based on Khufu's reign length and the logistics of moving and placing roughly 2.3 million stone blocks.",
+                  "es": "John Romer calculó que la Gran Pirámide tomó aproximadamente 23 años construir, basándose en la longitud del reinado de Keops y la logística de mover y colocar aproximadamente 2.3 millones de bloques de piedra.",
+                  "de": "John Romer berechnete, dass die Große Pyramide etwa 23 Jahre zum Bau benötigte, basierend auf der Länge von Chufus Herrschaft und der Logistik des Bewegens und Platzierens von etwa 2,3 Millionen Steinblöcken.",
+                  "nl": "John Romer berekende dat de Grote Piramide ongeveer 23 jaar duurde om te bouwen, gebaseerd op de lengte van Cheops' heerschappij en de logistiek van het verplaatsen en plaatsen van ongeveer 2,3 miljoen stenen blokken."
         }
       },
       {
         question: {
-          en: "What is the ongoing debate about the pyramid air shafts?",
-          es: "¿Cuál es el debate continuo sobre los conductos de aire de las pirámides?",
-          de: "Was ist die laufende Debatte über die Luftschächte der Pyramiden?",
-          nl: "Wat is het lopende debat over de luchtschachten van piramides?"
+                  "en": "What is the ongoing debate about the pyramid air shafts?",
+                  "es": "¿Cuál es el debate continuo sobre los conductos de aire de las pirámides?",
+                  "de": "Was ist die laufende Debatte über die Luftschächte der Pyramiden?",
+                  "nl": "Wat is het lopende debat over de luchtschachten van piramides?"
         },
         options: [
-          { en: "Stellar alignment (Sirius/Thuban) versus ventilation purpose", es: "Alineación estelar (Sirio/Thuban) versus propósito de ventilación", de: "Stellare Ausrichtung (Sirius/Thuban) versus Belüftungszweck", nl: "Stellaire uitlijning (Sirius/Thuban) versus ventilatiedoel" },
-          { en: "Whether they exist at all", es: "Si existen en absoluto", de: "Ob sie überhaupt existieren", nl: "Of ze überhaupt bestaan" },
-          { en: "Their construction materials", es: "Sus materiales de construcción", de: "Ihre Baumaterialien", nl: "Hun bouwmaterialen" },
-          { en: "When they were discovered", es: "Cuándo fueron descubiertos", de: "Wann sie entdeckt wurden", nl: "Wanneer ze werden ontdekt" }
+        {
+                  "en": "Whether they exist at all",
+                  "es": "Si existen en absoluto",
+                  "de": "Ob sie überhaupt existieren",
+                  "nl": "Of ze überhaupt bestaan"
+        },
+        {
+                  "en": "Stellar alignment (Sirius/Thuban) versus ventilation purpose",
+                  "es": "Alineación estelar (Sirio/Thuban) versus propósito de ventilación",
+                  "de": "Stellare Ausrichtung (Sirius/Thuban) versus Belüftungszweck",
+                  "nl": "Stellaire uitlijning (Sirius/Thuban) versus ventilatiedoel"
+        },
+        {
+                  "en": "Their construction materials",
+                  "es": "Sus materiales de construcción",
+                  "de": "Ihre Baumaterialien",
+                  "nl": "Hun bouwmaterialen"
+        },
+        {
+                  "en": "When they were discovered",
+                  "es": "Cuándo fueron descubiertos",
+                  "de": "Wann sie entdeckt wurden",
+                  "nl": "Wanneer ze werden ontdekt"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Scholars debate whether the narrow shafts pointed to stars (Sirius and Thuban, the pole star in 2600 BC) for religious purposes or simply provided ventilation during construction.",
-          es: "Los académicos debaten si los conductos estrechos apuntaban a estrellas (Sirio y Thuban, la estrella polar en 2600 a.C.) con fines religiosos o simplemente proporcionaban ventilación durante la construcción.",
-          de: "Gelehrte debattieren, ob die schmalen Schächte auf Sterne (Sirius und Thuban, der Polarstern um 2600 v. Chr.) für religiöse Zwecke zeigten oder einfach Belüftung während des Baus boten.",
-          nl: "Geleerden debatteren of de smalle schachten naar sterren (Sirius en Thuban, de poolster in 2600 v.Chr.) wezen voor religieuze doeleinden of gewoon ventilatie boden tijdens de bouw."
+                  "en": "Scholars debate whether the narrow shafts pointed to stars (Sirius and Thuban, the pole star in 2600 BC) for religious purposes or simply provided ventilation during construction.",
+                  "es": "Los académicos debaten si los conductos estrechos apuntaban a estrellas (Sirio y Thuban, la estrella polar en 2600 a.C.) con fines religiosos o simplemente proporcionaban ventilación durante la construcción.",
+                  "de": "Gelehrte debattieren, ob die schmalen Schächte auf Sterne (Sirius und Thuban, der Polarstern um 2600 v. Chr.) für religiöse Zwecke zeigten oder einfach Belüftung während des Baus boten.",
+                  "nl": "Geleerden debatteren of de smalle schachten naar sterren (Sirius en Thuban, de poolster in 2600 v.Chr.) wezen voor religieuze doeleinden of gewoon ventilatie boden tijdens de bouw."
         }
       },
       {
         question: {
-          en: "What controversial dating theory did Robert Schoch propose about the Sphinx?",
-          es: "¿Qué controvertida teoría de datación propuso Robert Schoch sobre la Esfinge?",
-          de: "Welche kontroverse Datierungstheorie schlug Robert Schoch über die Sphinx vor?",
-          nl: "Welke controversiële dateringstheorie stelde Robert Schoch voor over de Sfinx?"
+                  "en": "What controversial dating theory did Robert Schoch propose about the Sphinx?",
+                  "es": "¿Qué controvertida teoría de datación propuso Robert Schoch sobre la Esfinge?",
+                  "de": "Welche kontroverse Datierungstheorie schlug Robert Schoch über die Sphinx vor?",
+                  "nl": "Welke controversiële dateringstheorie stelde Robert Schoch voor over de Sfinx?"
         },
         options: [
-          { en: "Water erosion suggests much older date (7000-5000 BC)", es: "La erosión del agua sugiere una fecha mucho más antigua (7000-5000 a.C.)", de: "Wassererosion deutet auf viel älteres Datum hin (7000-5000 v. Chr.)", nl: "Watererosie suggereert veel oudere datum (7000-5000 v.Chr.)" },
-          { en: "It was built in Roman times", es: "Fue construida en tiempos romanos", de: "Sie wurde in römischer Zeit gebaut", nl: "Het werd gebouwd in Romeinse tijden" },
-          { en: "It's only 500 years old", es: "Solo tiene 500 años", de: "Sie ist nur 500 Jahre alt", nl: "Het is slechts 500 jaar oud" },
-          { en: "It was built in the Middle Ages", es: "Fue construida en la Edad Media", de: "Sie wurde im Mittelalter gebaut", nl: "Het werd gebouwd in de Middeleeuwen" }
+        {
+                  "en": "It's only 500 years old",
+                  "es": "Solo tiene 500 años",
+                  "de": "Sie ist nur 500 Jahre alt",
+                  "nl": "Het is slechts 500 jaar oud"
+        },
+        {
+                  "en": "Water erosion suggests much older date (7000-5000 BC)",
+                  "es": "La erosión del agua sugiere una fecha mucho más antigua (7000-5000 a.C.)",
+                  "de": "Wassererosion deutet auf viel älteres Datum hin (7000-5000 v. Chr.)",
+                  "nl": "Watererosie suggereert veel oudere datum (7000-5000 v.Chr.)"
+        },
+        {
+                  "en": "It was built in the Middle Ages",
+                  "es": "Fue construida en la Edad Media",
+                  "de": "Sie wurde im Mittelalter gebaut",
+                  "nl": "Het werd gebouwd in de Middeleeuwen"
+        },
+        {
+                  "en": "It was built in Roman times",
+                  "es": "Fue construida en tiempos romanos",
+                  "de": "Sie wurde in römischer Zeit gebaut",
+                  "nl": "Het werd gebouwd in Romeinse tijden"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Geologist Robert Schoch controversially argued that water erosion patterns on the Sphinx suggest it dates to 7000-5000 BC, much older than conventional dating, though most Egyptologists reject this theory.",
-          es: "El geólogo Robert Schoch argumentó controvertidamente que los patrones de erosión del agua en la Esfinge sugieren que data del 7000-5000 a.C., mucho más antigua que la datación convencional, aunque la mayoría de los egiptólogos rechazan esta teoría.",
-          de: "Der Geologe Robert Schoch argumentierte kontrovers, dass Wassererosionsmuster an der Sphinx darauf hindeuten, dass sie auf 7000-5000 v. Chr. datiert, viel älter als die konventionelle Datierung, obwohl die meisten Ägyptologen diese Theorie ablehnen.",
-          nl: "Geoloog Robert Schoch voerde controversieel aan dat watererosiepatronen op de Sfinx suggereren dat het dateert van 7000-5000 v.Chr., veel ouder dan conventionele datering, hoewel de meeste Egyptologen deze theorie verwerpen."
+                  "en": "Geologist Robert Schoch controversially argued that water erosion patterns on the Sphinx suggest it dates to 7000-5000 BC, much older than conventional dating, though most Egyptologists reject this theory.",
+                  "es": "El geólogo Robert Schoch argumentó controvertidamente que los patrones de erosión del agua en la Esfinge sugieren que data del 7000-5000 a.C., mucho más antigua que la datación convencional, aunque la mayoría de los egiptólogos rechazan esta teoría.",
+                  "de": "Der Geologe Robert Schoch argumentierte kontrovers, dass Wassererosionsmuster an der Sphinx darauf hindeuten, dass sie auf 7000-5000 v. Chr. datiert, viel älter als die konventionelle Datierung, obwohl die meisten Ägyptologen diese Theorie ablehnen.",
+                  "nl": "Geoloog Robert Schoch voerde controversieel aan dat watererosiepatronen op de Sfinx suggereren dat het dateert van 7000-5000 v.Chr., veel ouder dan conventionele datering, hoewel de meeste Egyptologen deze theorie verwerpen."
         }
       },
       {
         question: {
-          en: "Do most scholars agree the Great Pyramid incorporates the golden ratio φ (1.618)?",
-          es: "¿Están de acuerdo la mayoría de los académicos en que la Gran Pirámide incorpora la proporción áurea φ (1.618)?",
-          de: "Sind sich die meisten Gelehrten einig, dass die Große Pyramide den goldenen Schnitt φ (1,618) einbezieht?",
-          nl: "Zijn de meeste geleerden het eens dat de Grote Piramide de gulden snede φ (1,618) bevat?"
+                  "en": "Do most scholars agree the Great Pyramid incorporates the golden ratio φ (1.618)?",
+                  "es": "¿Están de acuerdo la mayoría de los académicos en que la Gran Pirámide incorpora la proporción áurea φ (1.618)?",
+                  "de": "Sind sich die meisten Gelehrten einig, dass die Große Pyramide den goldenen Schnitt φ (1,618) einbezieht?",
+                  "nl": "Zijn de meeste geleerden het eens dat de Grote Piramide de gulden snede φ (1,618) bevat?"
         },
         options: [
-          { en: "No, scholars debate whether it was intentional or coincidental", es: "No, los académicos debaten si fue intencional o coincidencia", de: "Nein, Gelehrte debattieren, ob es beabsichtigt oder zufällig war", nl: "Nee, geleerden debatteren of het opzettelijk of toevallig was" },
-          { en: "Yes, all agree it was deliberate", es: "Sí, todos están de acuerdo en que fue deliberado", de: "Ja, alle sind sich einig, dass es absichtlich war", nl: "Ja, allen zijn het eens dat het opzettelijk was" },
-          { en: "The golden ratio is not present", es: "La proporción áurea no está presente", de: "Der goldene Schnitt ist nicht vorhanden", nl: "De gulden snede is niet aanwezig" },
-          { en: "Only modern scholars believe it", es: "Solo los académicos modernos lo creen", de: "Nur moderne Gelehrte glauben es", nl: "Alleen moderne geleerden geloven het" }
+        {
+                  "en": "The golden ratio is not present",
+                  "es": "La proporción áurea no está presente",
+                  "de": "Der goldene Schnitt ist nicht vorhanden",
+                  "nl": "De gulden snede is niet aanwezig"
+        },
+        {
+                  "en": "Only modern scholars believe it",
+                  "es": "Solo los académicos modernos lo creen",
+                  "de": "Nur moderne Gelehrte glauben es",
+                  "nl": "Alleen moderne geleerden geloven het"
+        },
+        {
+                  "en": "Yes, all agree it was deliberate",
+                  "es": "Sí, todos están de acuerdo en que fue deliberado",
+                  "de": "Ja, alle sind sich einig, dass es absichtlich war",
+                  "nl": "Ja, allen zijn het eens dat het opzettelijk was"
+        },
+        {
+                  "en": "No, scholars debate whether it was intentional or coincidental",
+                  "es": "No, los académicos debaten si fue intencional o coincidencia",
+                  "de": "Nein, Gelehrte debattieren, ob es beabsichtigt oder zufällig war",
+                  "nl": "Nee, geleerden debatteren of het opzettelijk of toevallig was"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "While some pyramid proportions approximate φ (1.618), scholars debate whether ancient Egyptians deliberately incorporated it or if it's a mathematical coincidence from the seked slope system.",
-          es: "Aunque algunas proporciones de pirámides se aproximan a φ (1.618), los académicos debaten si los antiguos egipcios lo incorporaron deliberadamente o si es una coincidencia matemática del sistema de pendiente seked.",
-          de: "Während einige Pyramidenproportionen φ (1,618) annähern, debattieren Gelehrte, ob alte Ägypter es absichtlich einbezogen oder ob es ein mathematischer Zufall aus dem Seked-Neigungssystem ist.",
-          nl: "Hoewel sommige piramideverhoudingen φ (1,618) benaderen, debatteren geleerden of oude Egyptenaren het opzettelijk opnamen of dat het een wiskundig toeval is van het seked hellingsysteem."
+                  "en": "While some pyramid proportions approximate φ (1.618), scholars debate whether ancient Egyptians deliberately incorporated it or if it's a mathematical coincidence from the seked slope system.",
+                  "es": "Aunque algunas proporciones de pirámides se aproximan a φ (1.618), los académicos debaten si los antiguos egipcios lo incorporaron deliberadamente o si es una coincidencia matemática del sistema de pendiente seked.",
+                  "de": "Während einige Pyramidenproportionen φ (1,618) annähern, debattieren Gelehrte, ob alte Ägypter es absichtlich einbezogen oder ob es ein mathematischer Zufall aus dem Seked-Neigungssystem ist.",
+                  "nl": "Hoewel sommige piramideverhoudingen φ (1,618) benaderen, debatteren geleerden of oude Egyptenaren het opzettelijk opnamen of dat het een wiskundig toeval is van het seked hellingsysteem."
         }
       },
       {
         question: {
-          en: "What did Joseph Davidovits controversially claim about pyramid construction?",
-          es: "¿Qué afirmó controvertidamente Joseph Davidovits sobre la construcción de pirámides?",
-          de: "Was behauptete Joseph Davidovits kontrovers über den Pyramidenbau?",
-          nl: "Wat beweerde Joseph Davidovits controversieel over piramidebouw?"
+                  "en": "What did Joseph Davidovits controversially claim about pyramid construction?",
+                  "es": "¿Qué afirmó controvertidamente Joseph Davidovits sobre la construcción de pirámides?",
+                  "de": "Was behauptete Joseph Davidovits kontrovers über den Pyramidenbau?",
+                  "nl": "Wat beweerde Joseph Davidovits controversieel over piramidebouw?"
         },
         options: [
-          { en: "Blocks were cast concrete, not carved stone (refuted by analysis)", es: "Los bloques eran concreto moldeado, no piedra tallada (refutado por análisis)", de: "Blöcke waren gegossener Beton, nicht gemeißelter Stein (durch Analyse widerlegt)", nl: "Blokken waren gegoten beton, niet gehouwen steen (weerlegd door analyse)" },
-          { en: "Pyramids were built by machines", es: "Las pirámides fueron construidas por máquinas", de: "Pyramiden wurden von Maschinen gebaut", nl: "Piramides werden gebouwd door machines" },
-          { en: "They used wooden blocks", es: "Usaron bloques de madera", de: "Sie verwendeten Holzblöcke", nl: "Ze gebruikten houten blokken" },
-          { en: "No tools were needed", es: "No se necesitaban herramientas", de: "Keine Werkzeuge wurden benötigt", nl: "Geen gereedschap was nodig" }
+        {
+                  "en": "Pyramids were built by machines",
+                  "es": "Las pirámides fueron construidas por máquinas",
+                  "de": "Pyramiden wurden von Maschinen gebaut",
+                  "nl": "Piramides werden gebouwd door machines"
+        },
+        {
+                  "en": "They used wooden blocks",
+                  "es": "Usaron bloques de madera",
+                  "de": "Sie verwendeten Holzblöcke",
+                  "nl": "Ze gebruikten houten blokken"
+        },
+        {
+                  "en": "No tools were needed",
+                  "es": "No se necesitaban herramientas",
+                  "de": "Keine Werkzeuge wurden benötigt",
+                  "nl": "Geen gereedschap was nodig"
+        },
+        {
+                  "en": "Blocks were cast concrete, not carved stone (refuted by analysis)",
+                  "es": "Los bloques eran concreto moldeado, no piedra tallada (refutado por análisis)",
+                  "de": "Blöcke waren gegossener Beton, nicht gemeißelter Stein (durch Analyse widerlegt)",
+                  "nl": "Blokken waren gegoten beton, niet gehouwen steen (weerlegd door analyse)"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Joseph Davidovits claimed pyramid blocks were cast concrete rather than carved limestone, but microscopic analysis, quarry marks, and fossil evidence have thoroughly refuted this theory.",
-          es: "Joseph Davidovits afirmó que los bloques de pirámides eran concreto moldeado en lugar de piedra caliza tallada, pero el análisis microscópico, las marcas de cantera y la evidencia fósil han refutado completamente esta teoría.",
-          de: "Joseph Davidovits behauptete, Pyramidenblöcke seien gegossener Beton statt gemeißelter Kalkstein, aber mikroskopische Analyse, Steinbruchmarkierungen und fossile Beweise haben diese Theorie gründlich widerlegt.",
-          nl: "Joseph Davidovits beweerde dat piramideblokken gegoten beton waren in plaats van gehouwen kalksteen, maar microscopische analyse, steengroevemarkeringen en fossiel bewijs hebben deze theorie grondig weerlegd."
+                  "en": "Joseph Davidovits claimed pyramid blocks were cast concrete rather than carved limestone, but microscopic analysis, quarry marks, and fossil evidence have thoroughly refuted this theory.",
+                  "es": "Joseph Davidovits afirmó que los bloques de pirámides eran concreto moldeado en lugar de piedra caliza tallada, pero el análisis microscópico, las marcas de cantera y la evidencia fósil han refutado completamente esta teoría.",
+                  "de": "Joseph Davidovits behauptete, Pyramidenblöcke seien gegossener Beton statt gemeißelter Kalkstein, aber mikroskopische Analyse, Steinbruchmarkierungen und fossile Beweise haben diese Theorie gründlich widerlegt.",
+                  "nl": "Joseph Davidovits beweerde dat piramideblokken gegoten beton waren in plaats van gehouwen kalksteen, maar microscopische analyse, steengroevemarkeringen en fossiel bewijs hebben deze theorie grondig weerlegd."
         }
       },
       {
         question: {
-          en: "What does Jean Kerisel's research examine?",
-          es: "¿Qué examina la investigación de Jean Kerisel?",
-          de: "Was untersucht Jean Kerisels Forschung?",
-          nl: "Wat onderzoekt Jean Kerisel's onderzoek?"
+                  "en": "What does Jean Kerisel's research examine?",
+                  "es": "¿Qué examina la investigación de Jean Kerisel?",
+                  "de": "Was untersucht Jean Kerisels Forschung?",
+                  "nl": "Wat onderzoekt Jean Kerisel's onderzoek?"
         },
         options: [
-          { en: "Internal versus external ramp construction methods", es: "Métodos de construcción de rampa interna versus externa", de: "Interne versus externe Rampen-Baumethoden", nl: "Interne versus externe helling-bouwmethoden" },
-          { en: "Pyramid decoration styles", es: "Estilos de decoración de pirámides", de: "Pyramiden-Dekorationsstile", nl: "Piramide-decoratiestijlen" },
-          { en: "Egyptian writing systems", es: "Sistemas de escritura egipcia", de: "Ägyptische Schriftsysteme", nl: "Egyptische schrijfsystemen" },
-          { en: "Mummification techniques", es: "Técnicas de momificación", de: "Mumifizierungstechniken", nl: "Mummificatietechnieken" }
+        {
+                  "en": "Egyptian writing systems",
+                  "es": "Sistemas de escritura egipcia",
+                  "de": "Ägyptische Schriftsysteme",
+                  "nl": "Egyptische schrijfsystemen"
+        },
+        {
+                  "en": "Internal versus external ramp construction methods",
+                  "es": "Métodos de construcción de rampa interna versus externa",
+                  "de": "Interne versus externe Rampen-Baumethoden",
+                  "nl": "Interne versus externe helling-bouwmethoden"
+        },
+        {
+                  "en": "Pyramid decoration styles",
+                  "es": "Estilos de decoración de pirámides",
+                  "de": "Pyramiden-Dekorationsstile",
+                  "nl": "Piramide-decoratiestijlen"
+        },
+        {
+                  "en": "Mummification techniques",
+                  "es": "Técnicas de momificación",
+                  "de": "Mumifizierungstechniken",
+                  "nl": "Mummificatietechnieken"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Engineer Jean Kerisel analyzed different ramp theories, examining whether builders used external straight/spiral ramps or internal ramps within the pyramid structure itself.",
-          es: "El ingeniero Jean Kerisel analizó diferentes teorías de rampas, examinando si los constructores usaron rampas rectas/espirales externas o rampas internas dentro de la estructura de la pirámide misma.",
-          de: "Ingenieur Jean Kerisel analysierte verschiedene Rampentheorien und untersuchte, ob Baumeister externe gerade/spiralförmige Rampen oder interne Rampen innerhalb der Pyramidenstruktur selbst verwendeten.",
-          nl: "Ingenieur Jean Kerisel analyseerde verschillende hellingtheorieën, waarbij werd onderzocht of bouwers externe rechte/spiraalvormige hellingen of interne hellingen binnen de piramidestructuur zelf gebruikten."
+                  "en": "Engineer Jean Kerisel analyzed different ramp theories, examining whether builders used external straight/spiral ramps or internal ramps within the pyramid structure itself.",
+                  "es": "El ingeniero Jean Kerisel analizó diferentes teorías de rampas, examinando si los constructores usaron rampas rectas/espirales externas o rampas internas dentro de la estructura de la pirámide misma.",
+                  "de": "Ingenieur Jean Kerisel analysierte verschiedene Rampentheorien und untersuchte, ob Baumeister externe gerade/spiralförmige Rampen oder interne Rampen innerhalb der Pyramidenstruktur selbst verwendeten.",
+                  "nl": "Ingenieur Jean Kerisel analyseerde verschillende hellingtheorieën, waarbij werd onderzocht of bouwers externe rechte/spiraalvormige hellingen of interne hellingen binnen de piramidestructuur zelf gebruikten."
         }
       },
       {
         question: {
-          en: "How do scholars view the Great Pyramid's mathematical precision?",
-          es: "¿Cómo ven los académicos la precisión matemática de la Gran Pirámide?",
-          de: "Wie sehen Gelehrte die mathematische Präzision der Großen Pyramide?",
-          nl: "Hoe zien geleerden de wiskundige precisie van de Grote Piramide?"
+                  "en": "How do scholars view the Great Pyramid's mathematical precision?",
+                  "es": "¿Cómo ven los académicos la precisión matemática de la Gran Pirámide?",
+                  "de": "Wie sehen Gelehrte die mathematische Präzision der Großen Pyramide?",
+                  "nl": "Hoe zien geleerden de wiskundige precisie van de Grote Piramide?"
         },
         options: [
-          { en: "Debating whether precision was intentional or coincidental", es: "Debatiendo si la precisión fue intencional o coincidencia", de: "Debattieren, ob Präzision beabsichtigt oder zufällig war", nl: "Debatterend of precisie opzettelijk of toevallig was" },
-          { en: "All agree it was purely accidental", es: "Todos están de acuerdo en que fue puramente accidental", de: "Alle sind sich einig, dass es rein zufällig war", nl: "Allen zijn het eens dat het puur toevallig was" },
-          { en: "Modern measurements show no precision", es: "Las mediciones modernas no muestran precisión", de: "Moderne Messungen zeigen keine Präzision", nl: "Moderne metingen tonen geen precisie" },
-          { en: "Only pseudoscientists notice it", es: "Solo los pseudocientíficos lo notan", de: "Nur Pseudowissenschaftler bemerken es", nl: "Alleen pseudowetenschappers merken het op" }
+        {
+                  "en": "Debating whether precision was intentional or coincidental",
+                  "es": "Debatiendo si la precisión fue intencional o coincidencia",
+                  "de": "Debattieren, ob Präzision beabsichtigt oder zufällig war",
+                  "nl": "Debatterend of precisie opzettelijk of toevallig was"
+        },
+        {
+                  "en": "Only pseudoscientists notice it",
+                  "es": "Solo los pseudocientíficos lo notan",
+                  "de": "Nur Pseudowissenschaftler bemerken es",
+                  "nl": "Alleen pseudowetenschappers merken het op"
+        },
+        {
+                  "en": "All agree it was purely accidental",
+                  "es": "Todos están de acuerdo en que fue puramente accidental",
+                  "de": "Alle sind sich einig, dass es rein zufällig war",
+                  "nl": "Allen zijn het eens dat het puur toevallig was"
+        },
+        {
+                  "en": "Modern measurements show no precision",
+                  "es": "Las mediciones modernas no muestran precisión",
+                  "de": "Moderne Messungen zeigen keine Präzision",
+                  "nl": "Moderne metingen tonen geen precisie"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Scholars acknowledge the Great Pyramid's remarkable precision but debate whether mathematical relationships (π, φ) resulted from deliberate encoding or emerged naturally from the construction methods used.",
-          es: "Los académicos reconocen la notable precisión de la Gran Pirámide pero debaten si las relaciones matemáticas (π, φ) resultaron de una codificación deliberada o surgieron naturalmente de los métodos de construcción utilizados.",
-          de: "Gelehrte erkennen die bemerkenswerte Präzision der Großen Pyramide an, debattieren aber, ob mathematische Beziehungen (π, φ) aus absichtlicher Kodierung resultierten oder natürlich aus den verwendeten Baumethoden entstanden.",
-          nl: "Geleerden erkennen de opmerkelijke precisie van de Grote Piramide maar debatteren of wiskundige relaties (π, φ) voortkwamen uit opzettelijke codering of natuurlijk ontstonden uit de gebruikte bouwmethoden."
+                  "en": "Scholars acknowledge the Great Pyramid's remarkable precision but debate whether mathematical relationships (π, φ) resulted from deliberate encoding or emerged naturally from the construction methods used.",
+                  "es": "Los académicos reconocen la notable precisión de la Gran Pirámide pero debaten si las relaciones matemáticas (π, φ) resultaron de una codificación deliberada o surgieron naturalmente de los métodos de construcción utilizados.",
+                  "de": "Gelehrte erkennen die bemerkenswerte Präzision der Großen Pyramide an, debattieren aber, ob mathematische Beziehungen (π, φ) aus absichtlicher Kodierung resultierten oder natürlich aus den verwendeten Baumethoden entstanden.",
+                  "nl": "Geleerden erkennen de opmerkelijke precisie van de Grote Piramide maar debatteren of wiskundige relaties (π, φ) voortkwamen uit opzettelijke codering of natuurlijk ontstonden uit de gebruikte bouwmethoden."
         }
       },
       {
         question: {
-          en: "What pseudoscientific theory did Erich von Däniken popularize?",
-          es: "¿Qué teoría pseudocientífica popularizó Erich von Däniken?",
-          de: "Welche pseudowissenschaftliche Theorie popularisierte Erich von Däniken?",
-          nl: "Welke pseudowetenschappelijke theorie populariseerde Erich von Däniken?"
+                  "en": "What pseudoscientific theory did Erich von Däniken popularize?",
+                  "es": "¿Qué teoría pseudocientífica popularizó Erich von Däniken?",
+                  "de": "Welche pseudowissenschaftliche Theorie popularisierte Erich von Däniken?",
+                  "nl": "Welke pseudowetenschappelijke theorie populariseerde Erich von Däniken?"
         },
         options: [
-          { en: "Ancient alien construction (rejected by archaeologists)", es: "Construcción alienígena antigua (rechazada por arqueólogos)", de: "Antike außerirdische Konstruktion (von Archäologen abgelehnt)", nl: "Oude buitenaardse constructie (verworpen door archeologen)" },
-          { en: "Pyramids were natural formations", es: "Las pirámides eran formaciones naturales", de: "Pyramiden waren natürliche Formationen", nl: "Piramides waren natuurlijke formaties" },
-          { en: "They were built in medieval times", es: "Fueron construidas en tiempos medievales", de: "Sie wurden im Mittelalter gebaut", nl: "Ze werden gebouwd in middeleeuwse tijden" },
-          { en: "Pyramids are only 100 years old", es: "Las pirámides tienen solo 100 años", de: "Pyramiden sind nur 100 Jahre alt", nl: "Piramides zijn slechts 100 jaar oud" }
+        {
+                  "en": "Pyramids are only 100 years old",
+                  "es": "Las pirámides tienen solo 100 años",
+                  "de": "Pyramiden sind nur 100 Jahre alt",
+                  "nl": "Piramides zijn slechts 100 jaar oud"
+        },
+        {
+                  "en": "Pyramids were natural formations",
+                  "es": "Las pirámides eran formaciones naturales",
+                  "de": "Pyramiden waren natürliche Formationen",
+                  "nl": "Piramides waren natuurlijke formaties"
+        },
+        {
+                  "en": "They were built in medieval times",
+                  "es": "Fueron construidas en tiempos medievales",
+                  "de": "Sie wurden im Mittelalter gebaut",
+                  "nl": "Ze werden gebouwd in middeleeuwse tijden"
+        },
+        {
+                  "en": "Ancient alien construction (rejected by archaeologists)",
+                  "es": "Construcción alienígena antigua (rechazada por arqueólogos)",
+                  "de": "Antike außerirdische Konstruktion (von Archäologen abgelehnt)",
+                  "nl": "Oude buitenaardse constructie (verworpen door archeologen)"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Erich von Däniken's 'ancient astronaut' theory claiming aliens built the pyramids is thoroughly rejected by archaeologists, who have extensive evidence of Egyptian construction methods and worker villages.",
-          es: "La teoría de 'astronautas antiguos' de Erich von Däniken que afirma que los alienígenas construyeron las pirámides es completamente rechazada por los arqueólogos, quienes tienen amplia evidencia de métodos de construcción egipcios y aldeas de trabajadores.",
-          de: "Erich von Dänikens 'antike Astronauten'-Theorie, die behauptet, Außerirdische hätten die Pyramiden gebaut, wird von Archäologen gründlich abgelehnt, die umfangreiche Beweise für ägyptische Baumethoden und Arbeitersiedlungen haben.",
-          nl: "Erich von Däniken's 'oude astronauten' theorie die beweert dat buitenaardsen de piramides bouwden wordt grondig verworpen door archeologen, die uitgebreid bewijs hebben van Egyptische bouwmethoden en werkersverblijven."
+                  "en": "Erich von Däniken's 'ancient astronaut' theory claiming aliens built the pyramids is thoroughly rejected by archaeologists, who have extensive evidence of Egyptian construction methods and worker villages.",
+                  "es": "La teoría de 'astronautas antiguos' de Erich von Däniken que afirma que los alienígenas construyeron las pirámides es completamente rechazada por los arqueólogos, quienes tienen amplia evidencia de métodos de construcción egipcios y aldeas de trabajadores.",
+                  "de": "Erich von Dänikens 'antike Astronauten'-Theorie, die behauptet, Außerirdische hätten die Pyramiden gebaut, wird von Archäologen gründlich abgelehnt, die umfangreiche Beweise für ägyptische Baumethoden und Arbeitersiedlungen haben.",
+                  "nl": "Erich von Däniken's 'oude astronauten' theorie die beweert dat buitenaardsen de piramides bouwden wordt grondig verworpen door archeologen, die uitgebreid bewijs hebben van Egyptische bouwmethoden en werkersverblijven."
         }
       },
       {
         question: {
-          en: "What do some researchers claim about the Great Pyramid's acoustic properties?",
-          es: "¿Qué afirman algunos investigadores sobre las propiedades acústicas de la Gran Pirámide?",
-          de: "Was behaupten einige Forscher über die akustischen Eigenschaften der Großen Pyramide?",
-          nl: "Wat beweren sommige onderzoekers over de akoestische eigenschappen van de Grote Piramide?"
+                  "en": "What do some researchers claim about the Great Pyramid's acoustic properties?",
+                  "es": "¿Qué afirman algunos investigadores sobre las propiedades acústicas de la Gran Pirámide?",
+                  "de": "Was behaupten einige Forscher über die akustischen Eigenschaften der Großen Pyramide?",
+                  "nl": "Wat beweren sommige onderzoekers over de akoestische eigenschappen van de Grote Piramide?"
         },
         options: [
-          { en: "Chambers may have unique resonance frequencies", es: "Las cámaras pueden tener frecuencias de resonancia únicas", de: "Kammern können einzigartige Resonanzfrequenzen haben", nl: "Kamers kunnen unieke resonantiefrequenties hebben" },
-          { en: "It produces no sound", es: "No produce sonido", de: "Es erzeugt keinen Klang", nl: "Het produceert geen geluid" },
-          { en: "It was a musical instrument", es: "Era un instrumento musical", de: "Es war ein Musikinstrument", nl: "Het was een muziekinstrument" },
-          { en: "Sound cannot enter it", es: "El sonido no puede entrar en ella", de: "Klang kann nicht eindringen", nl: "Geluid kan er niet inkomen" }
+        {
+                  "en": "It produces no sound",
+                  "es": "No produce sonido",
+                  "de": "Es erzeugt keinen Klang",
+                  "nl": "Het produceert geen geluid"
+        },
+        {
+                  "en": "Chambers may have unique resonance frequencies",
+                  "es": "Las cámaras pueden tener frecuencias de resonancia únicas",
+                  "de": "Kammern können einzigartige Resonanzfrequenzen haben",
+                  "nl": "Kamers kunnen unieke resonantiefrequenties hebben"
+        },
+        {
+                  "en": "Sound cannot enter it",
+                  "es": "El sonido no puede entrar en ella",
+                  "de": "Klang kann nicht eindringen",
+                  "nl": "Geluid kan er niet inkomen"
+        },
+        {
+                  "en": "It was a musical instrument",
+                  "es": "Era un instrumento musical",
+                  "de": "Es war ein Musikinstrument",
+                  "nl": "Het was een muziekinstrument"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Some researchers have measured unusual acoustic resonance in the King's Chamber and Grand Gallery, though debate continues about whether this was intentional or an architectural byproduct.",
-          es: "Algunos investigadores han medido resonancia acústica inusual en la Cámara del Rey y la Gran Galería, aunque el debate continúa sobre si esto fue intencional o un subproducto arquitectónico.",
-          de: "Einige Forscher haben ungewöhnliche akustische Resonanz in der Königskammer und der Großen Galerie gemessen, obwohl die Debatte darüber fortbesteht, ob dies beabsichtigt oder ein architektonisches Nebenprodukt war.",
-          nl: "Sommige onderzoekers hebben ongebruikelijke akoestische resonantie gemeten in de Koningskamer en Grote Galerij, hoewel het debat voortduurt of dit opzettelijk was of een architectonisch bijproduct."
+                  "en": "Some researchers have measured unusual acoustic resonance in the King's Chamber and Grand Gallery, though debate continues about whether this was intentional or an architectural byproduct.",
+                  "es": "Algunos investigadores han medido resonancia acústica inusual en la Cámara del Rey y la Gran Galería, aunque el debate continúa sobre si esto fue intencional o un subproducto arquitectónico.",
+                  "de": "Einige Forscher haben ungewöhnliche akustische Resonanz in der Königskammer und der Großen Galerie gemessen, obwohl die Debatte darüber fortbesteht, ob dies beabsichtigt oder ein architektonisches Nebenprodukt war.",
+                  "nl": "Sommige onderzoekers hebben ongebruikelijke akoestische resonantie gemeten in de Koningskamer en Grote Galerij, hoewel het debat voortduurt of dit opzettelijk was of een architectonisch bijproduct."
         }
       },
       {
         question: {
-          en: "Is the π relationship in the Great Pyramid widely accepted as intentional?",
-          es: "¿La relación π en la Gran Pirámide es ampliamente aceptada como intencional?",
-          de: "Wird die π-Beziehung in der Großen Pyramide weithin als beabsichtigt akzeptiert?",
-          nl: "Wordt de π-relatie in de Grote Piramide algemeen geaccepteerd als opzettelijk?"
+                  "en": "Is the π relationship in the Great Pyramid widely accepted as intentional?",
+                  "es": "¿La relación π en la Gran Pirámide es ampliamente aceptada como intencional?",
+                  "de": "Wird die π-Beziehung in der Großen Pyramide weithin als beabsichtigt akzeptiert?",
+                  "nl": "Wordt de π-relatie in de Grote Piramide algemeen geaccepteerd als opzettelijk?"
         },
         options: [
-          { en: "No, scholars debate whether it's design or coincidence", es: "No, los académicos debaten si es diseño o coincidencia", de: "Nein, Gelehrte debattieren, ob es Design oder Zufall ist", nl: "Nee, geleerden debatteren of het ontwerp of toeval is" },
-          { en: "Yes, all experts agree it was deliberate", es: "Sí, todos los expertos están de acuerdo en que fue deliberado", de: "Ja, alle Experten sind sich einig, dass es absichtlich war", nl: "Ja, alle experts zijn het eens dat het opzettelijk was" },
-          { en: "π is not present in the pyramid", es: "π no está presente en la pirámide", de: "π ist nicht in der Pyramide vorhanden", nl: "π is niet aanwezig in de piramide" },
-          { en: "Only modern mathematicians see it", es: "Solo los matemáticos modernos lo ven", de: "Nur moderne Mathematiker sehen es", nl: "Alleen moderne wiskundigen zien het" }
+        {
+                  "en": "Yes, all experts agree it was deliberate",
+                  "es": "Sí, todos los expertos están de acuerdo en que fue deliberado",
+                  "de": "Ja, alle Experten sind sich einig, dass es absichtlich war",
+                  "nl": "Ja, alle experts zijn het eens dat het opzettelijk was"
+        },
+        {
+                  "en": "π is not present in the pyramid",
+                  "es": "π no está presente en la pirámide",
+                  "de": "π ist nicht in der Pyramide vorhanden",
+                  "nl": "π is niet aanwezig in de piramide"
+        },
+        {
+                  "en": "No, scholars debate whether it's design or coincidence",
+                  "es": "No, los académicos debaten si es diseño o coincidencia",
+                  "de": "Nein, Gelehrte debattieren, ob es Design oder Zufall ist",
+                  "nl": "Nee, geleerden debatteren of het ontwerp of toeval is"
+        },
+        {
+                  "en": "Only modern mathematicians see it",
+                  "es": "Solo los matemáticos modernos lo ven",
+                  "de": "Nur moderne Mathematiker sehen es",
+                  "nl": "Alleen moderne wiskundigen zien het"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "While the pyramid's perimeter-to-height ratio approximates 2π, scholars remain divided on whether this reflects advanced mathematical knowledge or emerged accidentally from the seked slope measurement system.",
-          es: "Aunque la relación perímetro-altura de la pirámide se aproxima a 2π, los académicos permanecen divididos sobre si esto refleja conocimiento matemático avanzado o surgió accidentalmente del sistema de medición de pendiente seked.",
-          de: "Während das Umfang-zu-Höhe-Verhältnis der Pyramide sich 2π annähert, bleiben Gelehrte gespalten darüber, ob dies fortgeschrittenes mathematisches Wissen widerspiegelt oder zufällig aus dem Seked-Neigungsmesssystem entstand.",
-          nl: "Hoewel de omtrek-tot-hoogte verhouding van de piramide 2π benadert, blijven geleerden verdeeld of dit geavanceerde wiskundige kennis weerspiegelt of per ongeluk ontstond uit het seked hellingsmeetsysteem."
+                  "en": "While the pyramid's perimeter-to-height ratio approximates 2π, scholars remain divided on whether this reflects advanced mathematical knowledge or emerged accidentally from the seked slope measurement system.",
+                  "es": "Aunque la relación perímetro-altura de la pirámide se aproxima a 2π, los académicos permanecen divididos sobre si esto refleja conocimiento matemático avanzado o surgió accidentalmente del sistema de medición de pendiente seked.",
+                  "de": "Während das Umfang-zu-Höhe-Verhältnis der Pyramide sich 2π annähert, bleiben Gelehrte gespalten darüber, ob dies fortgeschrittenes mathematisches Wissen widerspiegelt oder zufällig aus dem Seked-Neigungsmesssystem entstand.",
+                  "nl": "Hoewel de omtrek-tot-hoogte verhouding van de piramide 2π benadert, blijven geleerden verdeeld of dit geavanceerde wiskundige kennis weerspiegelt of per ongeluk ontstond uit het seked hellingsmeetsysteem."
         }
       },
       {
         question: {
-          en: "What evidence exists for the workforce logistics debate?",
-          es: "¿Qué evidencia existe para el debate de logística de la fuerza laboral?",
-          de: "Welche Beweise gibt es für die Debatte über Arbeitskräftelogistik?",
-          nl: "Welk bewijs bestaat er voor het debat over arbeidskrachtlogistiek?"
+                  "en": "What evidence exists for the workforce logistics debate?",
+                  "es": "¿Qué evidencia existe para el debate de logística de la fuerza laboral?",
+                  "de": "Welche Beweise gibt es für die Debatte über Arbeitskräftelogistik?",
+                  "nl": "Welk bewijs bestaat er voor het debat over arbeidskrachtlogistiek?"
         },
         options: [
-          { en: "Worker villages, bakeries, and tool workshops discovered", es: "Aldeas de trabajadores, panaderías y talleres de herramientas descubiertos", de: "Arbeitersiedlungen, Bäckereien und Werkzeugwerkstätten entdeckt", nl: "Werkersverblijven, bakkerijen en gereedschapswerkplaatsen ontdekt" },
-          { en: "No evidence of workers exists", es: "No existe evidencia de trabajadores", de: "Es gibt keine Beweise für Arbeiter", nl: "Er bestaat geen bewijs van arbeiders" },
-          { en: "Only written records exist", es: "Solo existen registros escritos", de: "Nur schriftliche Aufzeichnungen existieren", nl: "Alleen geschreven verslagen bestaan" },
-          { en: "Evidence was destroyed", es: "La evidencia fue destruida", de: "Beweise wurden zerstört", nl: "Bewijs werd vernietigd" }
+        {
+                  "en": "No evidence of workers exists",
+                  "es": "No existe evidencia de trabajadores",
+                  "de": "Es gibt keine Beweise für Arbeiter",
+                  "nl": "Er bestaat geen bewijs van arbeiders"
+        },
+        {
+                  "en": "Only written records exist",
+                  "es": "Solo existen registros escritos",
+                  "de": "Nur schriftliche Aufzeichnungen existieren",
+                  "nl": "Alleen geschreven verslagen bestaan"
+        },
+        {
+                  "en": "Evidence was destroyed",
+                  "es": "La evidencia fue destruida",
+                  "de": "Beweise wurden zerstört",
+                  "nl": "Bewijs werd vernietigd"
+        },
+        {
+                  "en": "Worker villages, bakeries, and tool workshops discovered",
+                  "es": "Aldeas de trabajadores, panaderías y talleres de herramientas descubiertos",
+                  "de": "Arbeitersiedlungen, Bäckereien und Werkzeugwerkstätten entdeckt",
+                  "nl": "Werkersverblijven, bakkerijen en gereedschapswerkplaatsen ontdekt"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Archaeological discoveries of worker villages, massive bakeries, copper tool workshops, and medical facilities provide concrete evidence of how pyramid construction was organized and sustained.",
-          es: "Los descubrimientos arqueológicos de aldeas de trabajadores, panaderías masivas, talleres de herramientas de cobre e instalaciones médicas proporcionan evidencia concreta de cómo se organizó y sostuvo la construcción de pirámides.",
-          de: "Archäologische Entdeckungen von Arbeitersiedlungen, massiven Bäckereien, Kupferwerkzeugwerkstätten und medizinischen Einrichtungen liefern konkrete Beweise dafür, wie der Pyramidenbau organisiert und aufrechterhalten wurde.",
-          nl: "Archeologische ontdekkingen van werkersverblijven, massale bakkerijen, koperen gereedschapswerkplaatsen en medische faciliteiten bieden concreet bewijs van hoe piramidebouw werd georganiseerd en in stand gehouden."
+                  "en": "Archaeological discoveries of worker villages, massive bakeries, copper tool workshops, and medical facilities provide concrete evidence of how pyramid construction was organized and sustained.",
+                  "es": "Los descubrimientos arqueológicos de aldeas de trabajadores, panaderías masivas, talleres de herramientas de cobre e instalaciones médicas proporcionan evidencia concreta de cómo se organizó y sostuvo la construcción de pirámides.",
+                  "de": "Archäologische Entdeckungen von Arbeitersiedlungen, massiven Bäckereien, Kupferwerkzeugwerkstätten und medizinischen Einrichtungen liefern konkrete Beweise dafür, wie der Pyramidenbau organisiert und aufrechterhalten wurde.",
+                  "nl": "Archeologische ontdekkingen van werkersverblijven, massale bakkerijen, koperen gereedschapswerkplaatsen en medische faciliteiten bieden concreet bewijs van hoe piramidebouw werd georganiseerd en in stand gehouden."
         }
       },
       {
         question: {
-          en: "What debate exists about construction timelines?",
-          es: "¿Qué debate existe sobre los plazos de construcción?",
-          de: "Welche Debatte existiert über Bauzeitpläne?",
-          nl: "Welk debat bestaat er over bouwtijdlijnen?"
+                  "en": "What debate exists about construction timelines?",
+                  "es": "¿Qué debate existe sobre los plazos de construcción?",
+                  "de": "Welche Debatte existiert über Bauzeitpläne?",
+                  "nl": "Welk debat bestaat er over bouwtijdlijnen?"
         },
         options: [
-          { en: "Whether 20-30 year timelines are feasible with available labor", es: "Si los plazos de 20-30 años son factibles con la mano de obra disponible", de: "Ob 20-30-Jahres-Zeitpläne mit verfügbaren Arbeitskräften machbar sind", nl: "Of 20-30 jaar tijdlijnen haalbaar zijn met beschikbare arbeidskracht" },
-          { en: "All agree on exact dates", es: "Todos están de acuerdo en fechas exactas", de: "Alle sind sich über genaue Daten einig", nl: "Allen zijn het eens over exacte data" },
-          { en: "No one has proposed any timeline", es: "Nadie ha propuesto ningún plazo", de: "Niemand hat einen Zeitplan vorgeschlagen", nl: "Niemand heeft een tijdlijn voorgesteld" },
-          { en: "Construction took 1000 years", es: "La construcción tomó 1000 años", de: "Der Bau dauerte 1000 Jahre", nl: "Bouw duurde 1000 jaar" }
+        {
+                  "en": "All agree on exact dates",
+                  "es": "Todos están de acuerdo en fechas exactas",
+                  "de": "Alle sind sich über genaue Daten einig",
+                  "nl": "Allen zijn het eens over exacte data"
+        },
+        {
+                  "en": "Construction took 1000 years",
+                  "es": "La construcción tomó 1000 años",
+                  "de": "Der Bau dauerte 1000 Jahre",
+                  "nl": "Bouw duurde 1000 jaar"
+        },
+        {
+                  "en": "No one has proposed any timeline",
+                  "es": "Nadie ha propuesto ningún plazo",
+                  "de": "Niemand hat einen Zeitplan vorgeschlagen",
+                  "nl": "Niemand heeft een tijdlijn voorgesteld"
+        },
+        {
+                  "en": "Whether 20-30 year timelines are feasible with available labor",
+                  "es": "Si los plazos de 20-30 años son factibles con la mano de obra disponible",
+                  "de": "Ob 20-30-Jahres-Zeitpläne mit verfügbaren Arbeitskräften machbar sind",
+                  "nl": "Of 20-30 jaar tijdlijnen haalbaar zijn met beschikbare arbeidskracht"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Researchers debate whether the traditionally accepted 20-30 year construction timeline is realistic, considering the logistics of quarrying, transporting, and precisely placing millions of massive stone blocks.",
-          es: "Los investigadores debaten si el plazo de construcción tradicionalmente aceptado de 20-30 años es realista, considerando la logística de cantería, transporte y colocación precisa de millones de bloques de piedra masivos.",
-          de: "Forscher debattieren, ob der traditionell akzeptierte 20-30-jährige Bauzeitplan realistisch ist, unter Berücksichtigung der Logistik des Steinbruchs, Transports und präzisen Platzierens von Millionen massiver Steinblöcke.",
-          nl: "Onderzoekers debatteren of de traditioneel geaccepteerde 20-30 jaar bouwtijdlijn realistisch is, gezien de logistiek van steengroeven, transporteren en nauwkeurig plaatsen van miljoenen massieve stenen blokken."
+                  "en": "Researchers debate whether the traditionally accepted 20-30 year construction timeline is realistic, considering the logistics of quarrying, transporting, and precisely placing millions of massive stone blocks.",
+                  "es": "Los investigadores debaten si el plazo de construcción tradicionalmente aceptado de 20-30 años es realista, considerando la logística de cantería, transporte y colocación precisa de millones de bloques de piedra masivos.",
+                  "de": "Forscher debattieren, ob der traditionell akzeptierte 20-30-jährige Bauzeitplan realistisch ist, unter Berücksichtigung der Logistik des Steinbruchs, Transports und präzisen Platzierens von Millionen massiver Steinblöcke.",
+                  "nl": "Onderzoekers debatteren of de traditioneel geaccepteerde 20-30 jaar bouwtijdlijn realistisch is, gezien de logistiek van steengroeven, transporteren en nauwkeurig plaatsen van miljoenen massieve stenen blokken."
         }
       },
       {
         question: {
-          en: "What evidence exists for seasonal work patterns in pyramid construction?",
-          es: "¿Qué evidencia existe para los patrones de trabajo estacionales en la construcción de pirámides?",
-          de: "Welche Beweise gibt es für saisonale Arbeitsmuster beim Pyramidenbau?",
-          nl: "Welk bewijs bestaat er voor seizoensgebonden werkpatronen bij piramidebouw?"
+                  "en": "What evidence exists for seasonal work patterns in pyramid construction?",
+                  "es": "¿Qué evidencia existe para los patrones de trabajo estacionales en la construcción de pirámides?",
+                  "de": "Welche Beweise gibt es für saisonale Arbeitsmuster beim Pyramidenbau?",
+                  "nl": "Welk bewijs bestaat er voor seizoensgebonden werkpatronen bij piramidebouw?"
         },
         options: [
-          { en: "Worker camps suggest peak activity during Nile flood season", es: "Los campamentos de trabajadores sugieren actividad pico durante la temporada de inundaciones del Nilo", de: "Arbeiterlager deuten auf Spitzenaktivität während der Nilflutzeit hin", nl: "Werkerskampen suggereren piekactiviteit tijdens het Nijl-overstromingsseizoen" },
-          { en: "Work was continuous year-round", es: "El trabajo fue continuo durante todo el año", de: "Die Arbeit war ganzjährig kontinuierlich", nl: "Werk was continu het hele jaar door" },
-          { en: "No seasonal patterns existed", es: "No existían patrones estacionales", de: "Es gab keine saisonalen Muster", nl: "Er bestonden geen seizoenspatronen" },
-          { en: "Work only happened in winter", es: "El trabajo solo ocurría en invierno", de: "Die Arbeit fand nur im Winter statt", nl: "Werk gebeurde alleen in de winter" }
+        {
+                  "en": "Work only happened in winter",
+                  "es": "El trabajo solo ocurría en invierno",
+                  "de": "Die Arbeit fand nur im Winter statt",
+                  "nl": "Werk gebeurde alleen in de winter"
+        },
+        {
+                  "en": "Work was continuous year-round",
+                  "es": "El trabajo fue continuo durante todo el año",
+                  "de": "Die Arbeit war ganzjährig kontinuierlich",
+                  "nl": "Werk was continu het hele jaar door"
+        },
+        {
+                  "en": "Worker camps suggest peak activity during Nile flood season",
+                  "es": "Los campamentos de trabajadores sugieren actividad pico durante la temporada de inundaciones del Nilo",
+                  "de": "Arbeiterlager deuten auf Spitzenaktivität während der Nilflutzeit hin",
+                  "nl": "Werkerskampen suggereren piekactiviteit tijdens het Nijl-overstromingsseizoen"
+        },
+        {
+                  "en": "No seasonal patterns existed",
+                  "es": "No existían patrones estacionales",
+                  "de": "Es gab keine saisonalen Muster",
+                  "nl": "Er bestonden geen seizoenspatronen"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Archaeological evidence suggests large numbers of farmers worked on pyramids during the Nile flood season (July-November) when agricultural work was impossible, returning to their farms afterward.",
-          es: "La evidencia arqueológica sugiere que gran número de agricultores trabajaban en las pirámides durante la temporada de inundaciones del Nilo (julio-noviembre) cuando el trabajo agrícola era imposible, regresando a sus granjas después.",
-          de: "Archäologische Beweise legen nahe, dass große Zahlen von Bauern während der Nilflutzeit (Juli-November) an Pyramiden arbeiteten, wenn landwirtschaftliche Arbeit unmöglich war, und danach zu ihren Farmen zurückkehrten.",
-          nl: "Archeologisch bewijs suggereert dat grote aantallen boeren aan piramides werkten tijdens het Nijl-overstromingsseizoen (juli-november) wanneer landbouwwerk onmogelijk was, en daarna terugkeerden naar hun boerderijen."
+                  "en": "Archaeological evidence suggests large numbers of farmers worked on pyramids during the Nile flood season (July-November) when agricultural work was impossible, returning to their farms afterward.",
+                  "es": "La evidencia arqueológica sugiere que gran número de agricultores trabajaban en las pirámides durante la temporada de inundaciones del Nilo (julio-noviembre) cuando el trabajo agrícola era imposible, regresando a sus granjas después.",
+                  "de": "Archäologische Beweise legen nahe, dass große Zahlen von Bauern während der Nilflutzeit (Juli-November) an Pyramiden arbeiteten, wenn landwirtschaftliche Arbeit unmöglich war, und danach zu ihren Farmen zurückkehrten.",
+                  "nl": "Archeologisch bewijs suggereert dat grote aantallen boeren aan piramides werkten tijdens het Nijl-overstromingsseizoen (juli-november) wanneer landbouwwerk onmogelijk was, en daarna terugkeerden naar hun boerderijen."
         }
       },
       {
         question: {
-          en: "How did ancient Egyptians utilize the Nile flood in pyramid construction?",
-          es: "¿Cómo utilizaron los antiguos egipcios la inundación del Nilo en la construcción de pirámides?",
-          de: "Wie nutzten die alten Ägypter die Nilflut beim Pyramidenbau?",
-          nl: "Hoe gebruikten oude Egyptenaren de Nijloverstroming bij piramidebouw?"
+                  "en": "How did ancient Egyptians utilize the Nile flood in pyramid construction?",
+                  "es": "¿Cómo utilizaron los antiguos egipcios la inundación del Nilo en la construcción de pirámides?",
+                  "de": "Wie nutzten die alten Ägypter die Nilflut beim Pyramidenbau?",
+                  "nl": "Hoe gebruikten oude Egyptenaren de Nijloverstroming bij piramidebouw?"
         },
         options: [
-          { en: "Transported stone blocks closer to construction sites via canals", es: "Transportaron bloques de piedra más cerca de los sitios de construcción a través de canales", de: "Transportierten Steinblöcke näher an Baustellen über Kanäle", nl: "Transporteerden stenen blokken dichter bij bouwplaatsen via kanalen" },
-          { en: "Floods stopped all construction", es: "Las inundaciones detuvieron toda construcción", de: "Fluten stoppten alle Bauarbeiten", nl: "Overstromingen stopten alle bouw" },
-          { en: "No connection to construction", es: "Sin conexión con la construcción", de: "Keine Verbindung zum Bau", nl: "Geen verband met bouw" },
-          { en: "Used water for cement mixing", es: "Usaron agua para mezclar cemento", de: "Nutzten Wasser zum Mischen von Zement", nl: "Gebruikten water voor cement mengen" }
+        {
+                  "en": "Floods stopped all construction",
+                  "es": "Las inundaciones detuvieron toda construcción",
+                  "de": "Fluten stoppten alle Bauarbeiten",
+                  "nl": "Overstromingen stopten alle bouw"
+        },
+        {
+                  "en": "No connection to construction",
+                  "es": "Sin conexión con la construcción",
+                  "de": "Keine Verbindung zum Bau",
+                  "nl": "Geen verband met bouw"
+        },
+        {
+                  "en": "Transported stone blocks closer to construction sites via canals",
+                  "es": "Transportaron bloques de piedra más cerca de los sitios de construcción a través de canales",
+                  "de": "Transportierten Steinblöcke näher an Baustellen über Kanäle",
+                  "nl": "Transporteerden stenen blokken dichter bij bouwplaatsen via kanalen"
+        },
+        {
+                  "en": "Used water for cement mixing",
+                  "es": "Usaron agua para mezclar cemento",
+                  "de": "Nutzten Wasser zum Mischen von Zement",
+                  "nl": "Gebruikten water voor cement mengen"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Engineers likely dug temporary canals during the annual Nile flood to transport heavy stone blocks by boat closer to pyramid construction sites, dramatically reducing overland hauling distances.",
-          es: "Los ingenieros probablemente cavaron canales temporales durante la inundación anual del Nilo para transportar bloques de piedra pesados por barco más cerca de los sitios de construcción de pirámides, reduciendo drásticamente las distancias de transporte terrestre.",
-          de: "Ingenieure gruben wahrscheinlich temporäre Kanäle während der jährlichen Nilflut, um schwere Steinblöcke per Boot näher an Pyramiden-Baustellen zu transportieren, wodurch Überlandtransportdistanzen drastisch reduziert wurden.",
-          nl: "Ingenieurs groeven waarschijnlijk tijdelijke kanalen tijdens de jaarlijkse Nijloverstroming om zware stenen blokken per boot dichter bij piramidebouwplaatsen te vervoeren, wat overland-transportafstanden dramatisch verminderde."
+                  "en": "Engineers likely dug temporary canals during the annual Nile flood to transport heavy stone blocks by boat closer to pyramid construction sites, dramatically reducing overland hauling distances.",
+                  "es": "Los ingenieros probablemente cavaron canales temporales durante la inundación anual del Nilo para transportar bloques de piedra pesados por barco más cerca de los sitios de construcción de pirámides, reduciendo drásticamente las distancias de transporte terrestre.",
+                  "de": "Ingenieure gruben wahrscheinlich temporäre Kanäle während der jährlichen Nilflut, um schwere Steinblöcke per Boot näher an Pyramiden-Baustellen zu transportieren, wodurch Überlandtransportdistanzen drastisch reduziert wurden.",
+                  "nl": "Ingenieurs groeven waarschijnlijk tijdelijke kanalen tijdens de jaarlijkse Nijloverstroming om zware stenen blokken per boot dichter bij piramidebouwplaatsen te vervoeren, wat overland-transportafstanden dramatisch verminderde."
         }
       },
       {
         question: {
-          en: "What happened to construction ramps after pyramids were completed?",
-          es: "¿Qué pasó con las rampas de construcción después de que se completaron las pirámides?",
-          de: "Was geschah mit Baurampen, nachdem Pyramiden fertiggestellt waren?",
-          nl: "Wat gebeurde er met bouwhellingen nadat piramides voltooid waren?"
+                  "en": "What happened to construction ramps after pyramids were completed?",
+                  "es": "¿Qué pasó con las rampas de construcción después de que se completaron las pirámides?",
+                  "de": "Was geschah mit Baurampen, nachdem Pyramiden fertiggestellt waren?",
+                  "nl": "Wat gebeurde er met bouwhellingen nadat piramides voltooid waren?"
         },
         options: [
-          { en: "Dismantled, leaving little archaeological evidence", es: "Desmanteladas, dejando poca evidencia arqueológica", de: "Abgebaut, hinterließen wenig archäologische Beweise", nl: "Ontmanteld, waarbij weinig archeologisch bewijs achterbleef" },
-          { en: "Still standing at all pyramid sites", es: "Todavía en pie en todos los sitios de pirámides", de: "Noch an allen Pyramidenstätten stehend", nl: "Nog steeds staand bij alle piramidelocaties" },
-          { en: "Converted to temples", es: "Convertidas en templos", de: "In Tempel umgewandelt", nl: "Omgezet tot tempels" },
-          { en: "Never existed", es: "Nunca existieron", de: "Haben nie existiert", nl: "Hebben nooit bestaan" }
+        {
+                  "en": "Converted to temples",
+                  "es": "Convertidas en templos",
+                  "de": "In Tempel umgewandelt",
+                  "nl": "Omgezet tot tempels"
+        },
+        {
+                  "en": "Dismantled, leaving little archaeological evidence",
+                  "es": "Desmanteladas, dejando poca evidencia arqueológica",
+                  "de": "Abgebaut, hinterließen wenig archäologische Beweise",
+                  "nl": "Ontmanteld, waarbij weinig archeologisch bewijs achterbleef"
+        },
+        {
+                  "en": "Never existed",
+                  "es": "Nunca existieron",
+                  "de": "Haben nie existiert",
+                  "nl": "Hebben nooit bestaan"
+        },
+        {
+                  "en": "Still standing at all pyramid sites",
+                  "es": "Todavía en pie en todos los sitios de pirámides",
+                  "de": "Noch an allen Pyramidenstätten stehend",
+                  "nl": "Nog steeds staand bij alle piramidelocaties"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Construction ramps were systematically dismantled after completion, with materials likely reused elsewhere. This explains why little direct ramp evidence survives, complicating our understanding of construction methods.",
-          es: "Las rampas de construcción fueron sistemáticamente desmanteladas después de la finalización, con materiales probablemente reutilizados en otros lugares. Esto explica por qué sobrevive poca evidencia directa de rampas, complicando nuestra comprensión de los métodos de construcción.",
-          de: "Baurampen wurden nach Fertigstellung systematisch abgebaut, wobei Materialien wahrscheinlich anderswo wiederverwendet wurden. Dies erklärt, warum wenig direkte Rampenbeweise überleben, was unser Verständnis der Baumethoden erschwert.",
-          nl: "Bouwhellingen werden systematisch ontmanteld na voltooiing, waarbij materialen waarschijnlijk elders werden hergebruikt. Dit verklaart waarom er weinig direct hellingbewijs overleeft, wat ons begrip van bouwmethoden bemoeilijkt."
+                  "en": "Construction ramps were systematically dismantled after completion, with materials likely reused elsewhere. This explains why little direct ramp evidence survives, complicating our understanding of construction methods.",
+                  "es": "Las rampas de construcción fueron sistemáticamente desmanteladas después de la finalización, con materiales probablemente reutilizados en otros lugares. Esto explica por qué sobrevive poca evidencia directa de rampas, complicando nuestra comprensión de los métodos de construcción.",
+                  "de": "Baurampen wurden nach Fertigstellung systematisch abgebaut, wobei Materialien wahrscheinlich anderswo wiederverwendet wurden. Dies erklärt, warum wenig direkte Rampenbeweise überleben, was unser Verständnis der Baumethoden erschwert.",
+                  "nl": "Bouwhellingen werden systematisch ontmanteld na voltooiing, waarbij materialen waarschijnlijk elders werden hergebruikt. Dit verklaart waarom er weinig direct hellingbewijs overleeft, wat ons begrip van bouwmethoden bemoeilijkt."
         }
       },
       {
         question: {
-          en: "What can we learn from abandoned pyramid projects?",
-          es: "¿Qué podemos aprender de los proyectos de pirámides abandonados?",
-          de: "Was können wir aus aufgegebenen Pyramidenprojekten lernen?",
-          nl: "Wat kunnen we leren van verlaten piramideprojecten?"
+                  "en": "What can we learn from abandoned pyramid projects?",
+                  "es": "¿Qué podemos aprender de los proyectos de pirámides abandonados?",
+                  "de": "Was können wir aus aufgegebenen Pyramidenprojekten lernen?",
+                  "nl": "Wat kunnen we leren van verlaten piramideprojecten?"
         },
         options: [
-          { en: "Construction techniques and planning stages are visible", es: "Las técnicas de construcción y las etapas de planificación son visibles", de: "Bautechniken und Planungsstadien sind sichtbar", nl: "Bouwtechnieken en planningsfasen zijn zichtbaar" },
-          { en: "Nothing can be learned", es: "No se puede aprender nada", de: "Es kann nichts gelernt werden", nl: "Er kan niets worden geleerd" },
-          { en: "They were all completed", es: "Todas fueron completadas", de: "Sie wurden alle fertiggestellt", nl: "Ze werden allemaal voltooid" },
-          { en: "No pyramids were ever abandoned", es: "Nunca se abandonaron pirámides", de: "Pyramiden wurden nie aufgegeben", nl: "Piramides werden nooit verlaten" }
+        {
+                  "en": "Nothing can be learned",
+                  "es": "No se puede aprender nada",
+                  "de": "Es kann nichts gelernt werden",
+                  "nl": "Er kan niets worden geleerd"
+        },
+        {
+                  "en": "No pyramids were ever abandoned",
+                  "es": "Nunca se abandonaron pirámides",
+                  "de": "Pyramiden wurden nie aufgegeben",
+                  "nl": "Piramides werden nooit verlaten"
+        },
+        {
+                  "en": "Construction techniques and planning stages are visible",
+                  "es": "Las técnicas de construcción y las etapas de planificación son visibles",
+                  "de": "Bautechniken und Planungsstadien sind sichtbar",
+                  "nl": "Bouwtechnieken en planningsfasen zijn zichtbaar"
+        },
+        {
+                  "en": "They were all completed",
+                  "es": "Todas fueron completadas",
+                  "de": "Sie wurden alle fertiggestellt",
+                  "nl": "Ze werden allemaal voltooid"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Unfinished pyramids like those at Zawyet el-Aryan preserve evidence of construction stages, quarrying techniques, and planning methods that were removed or hidden in completed structures.",
-          es: "Las pirámides inacabadas como las de Zawyet el-Aryan preservan evidencia de etapas de construcción, técnicas de cantería y métodos de planificación que fueron removidos u ocultos en estructuras completadas.",
-          de: "Unvollendete Pyramiden wie die in Zawyet el-Aryan bewahren Beweise für Bauphasen, Steinbruchtechniken und Planungsmethoden, die in fertigen Strukturen entfernt oder verborgen wurden.",
-          nl: "Onvoltooide piramides zoals die in Zawyet el-Aryan bewaren bewijs van bouwfasen, steengroeftechnieken en planningsmethoden die werden verwijderd of verborgen in voltooide structuren."
+                  "en": "Unfinished pyramids like those at Zawyet el-Aryan preserve evidence of construction stages, quarrying techniques, and planning methods that were removed or hidden in completed structures.",
+                  "es": "Las pirámides inacabadas como las de Zawyet el-Aryan preservan evidencia de etapas de construcción, técnicas de cantería y métodos de planificación que fueron removidos u ocultos en estructuras completadas.",
+                  "de": "Unvollendete Pyramiden wie die in Zawyet el-Aryan bewahren Beweise für Bauphasen, Steinbruchtechniken und Planungsmethoden, die in fertigen Strukturen entfernt oder verborgen wurden.",
+                  "nl": "Onvoltooide piramides zoals die in Zawyet el-Aryan bewaren bewijs van bouwfasen, steengroeftechnieken en planningsmethoden die werden verwijderd of verborgen in voltooide structuren."
         }
       },
       {
         question: {
-          en: "What does pyramid architectural evolution reveal?",
-          es: "¿Qué revela la evolución arquitectónica de las pirámides?",
-          de: "Was offenbart die architektonische Evolution der Pyramiden?",
-          nl: "Wat onthult de architectonische evolutie van piramides?"
+                  "en": "What does pyramid architectural evolution reveal?",
+                  "es": "¿Qué revela la evolución arquitectónica de las pirámides?",
+                  "de": "Was offenbart die architektonische Evolution der Pyramiden?",
+                  "nl": "Wat onthult de architectonische evolutie van piramides?"
         },
         options: [
-          { en: "Progressive refinement from step to true pyramid design", es: "Refinamiento progresivo desde el diseño escalonado hasta la pirámide verdadera", de: "Progressive Verfeinerung vom Stufen- zum echten Pyramidendesign", nl: "Progressieve verfijning van trap naar echte piramide-ontwerp" },
-          { en: "No evolution occurred", es: "No ocurrió evolución", de: "Keine Evolution fand statt", nl: "Er vond geen evolutie plaats" },
-          { en: "All pyramids are identical", es: "Todas las pirámides son idénticas", de: "Alle Pyramiden sind identisch", nl: "Alle piramides zijn identiek" },
-          { en: "Design quality declined immediately", es: "La calidad del diseño declinó inmediatamente", de: "Designqualität sank sofort", nl: "Ontwerpkwaliteit daalde onmiddellijk" }
+        {
+                  "en": "No evolution occurred",
+                  "es": "No ocurrió evolución",
+                  "de": "Keine Evolution fand statt",
+                  "nl": "Er vond geen evolutie plaats"
+        },
+        {
+                  "en": "Design quality declined immediately",
+                  "es": "La calidad del diseño declinó inmediatamente",
+                  "de": "Designqualität sank sofort",
+                  "nl": "Ontwerpkwaliteit daalde onmiddellijk"
+        },
+        {
+                  "en": "Progressive refinement from step to true pyramid design",
+                  "es": "Refinamiento progresivo desde el diseño escalonado hasta la pirámide verdadera",
+                  "de": "Progressive Verfeinerung vom Stufen- zum echten Pyramidendesign",
+                  "nl": "Progressieve verfijning van trap naar echte piramide-ontwerp"
+        },
+        {
+                  "en": "All pyramids are identical",
+                  "es": "Todas las pirámides son idénticas",
+                  "de": "Alle Pyramiden sind identisch",
+                  "nl": "Alle piramides zijn identiek"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Pyramid architecture shows clear evolution from Djoser's stepped design through Sneferu's experimental bent form to the perfected true pyramids at Giza, demonstrating technological learning and refinement.",
-          es: "La arquitectura de pirámides muestra una evolución clara desde el diseño escalonado de Zoser a través de la forma acodada experimental de Sneferu hasta las pirámides verdaderas perfeccionadas en Giza, demostrando aprendizaje tecnológico y refinamiento.",
-          de: "Pyramidenarchitektur zeigt klare Evolution von Djosers gestuftem Design über Snefrus experimentelle Knickform zu den perfektionierten echten Pyramiden in Gizeh, was technologisches Lernen und Verfeinerung demonstriert.",
-          nl: "Piramide-architectuur toont duidelijke evolutie van Djoser's getrapte ontwerp via Sneferu's experimentele knikvorm naar de geperfectioneerde echte piramides in Giza, wat technologisch leren en verfijning demonstreert."
+                  "en": "Pyramid architecture shows clear evolution from Djoser's stepped design through Sneferu's experimental bent form to the perfected true pyramids at Giza, demonstrating technological learning and refinement.",
+                  "es": "La arquitectura de pirámides muestra una evolución clara desde el diseño escalonado de Zoser a través de la forma acodada experimental de Sneferu hasta las pirámides verdaderas perfeccionadas en Giza, demostrando aprendizaje tecnológico y refinamiento.",
+                  "de": "Pyramidenarchitektur zeigt klare Evolution von Djosers gestuftem Design über Snefrus experimentelle Knickform zu den perfektionierten echten Pyramiden in Gizeh, was technologisches Lernen und Verfeinerung demonstriert.",
+                  "nl": "Piramide-architectuur toont duidelijke evolutie van Djoser's getrapte ontwerp via Sneferu's experimentele knikvorm naar de geperfectioneerde echte piramides in Giza, wat technologisch leren en verfijning demonstreert."
         }
       },
       {
         question: {
-          en: "What debates exist about labor social structure?",
-          es: "¿Qué debates existen sobre la estructura social laboral?",
-          de: "Welche Debatten gibt es über die soziale Struktur der Arbeit?",
-          nl: "Welke debatten bestaan er over de sociale structuur van arbeid?"
+                  "en": "What debates exist about labor social structure?",
+                  "es": "¿Qué debates existen sobre la estructura social laboral?",
+                  "de": "Welche Debatten gibt es über die soziale Struktur der Arbeit?",
+                  "nl": "Welke debatten bestaan er over de sociale structuur van arbeid?"
         },
         options: [
-          { en: "Whether workers were paid laborers, corvée duty, or combination", es: "Si los trabajadores eran trabajadores pagados, deber de corvée o combinación", de: "Ob Arbeiter bezahlte Arbeiter, Frondienstpflicht oder Kombination waren", nl: "Of arbeiders betaalde arbeiders, herendienst of combinatie waren" },
-          { en: "All workers were definitely slaves", es: "Todos los trabajadores eran definitivamente esclavos", de: "Alle Arbeiter waren definitiv Sklaven", nl: "Alle arbeiders waren zeker slaven" },
-          { en: "No debate exists", es: "No existe debate", de: "Es gibt keine Debatte", nl: "Er bestaat geen debat" },
-          { en: "Workers were all foreigners", es: "Los trabajadores eran todos extranjeros", de: "Arbeiter waren alle Ausländer", nl: "Arbeiders waren allemaal buitenlanders" }
+        {
+                  "en": "Whether workers were paid laborers, corvée duty, or combination",
+                  "es": "Si los trabajadores eran trabajadores pagados, deber de corvée o combinación",
+                  "de": "Ob Arbeiter bezahlte Arbeiter, Frondienstpflicht oder Kombination waren",
+                  "nl": "Of arbeiders betaalde arbeiders, herendienst of combinatie waren"
+        },
+        {
+                  "en": "No debate exists",
+                  "es": "No existe debate",
+                  "de": "Es gibt keine Debatte",
+                  "nl": "Er bestaat geen debat"
+        },
+        {
+                  "en": "Workers were all foreigners",
+                  "es": "Los trabajadores eran todos extranjeros",
+                  "de": "Arbeiter waren alle Ausländer",
+                  "nl": "Arbeiders waren allemaal buitenlanders"
+        },
+        {
+                  "en": "All workers were definitely slaves",
+                  "es": "Todos los trabajadores eran definitivamente esclavos",
+                  "de": "Alle Arbeiter waren definitiv Sklaven",
+                  "nl": "Alle arbeiders waren zeker slaven"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Scholars debate whether pyramid workers were paid professionals, farmers fulfilling corvée (state labor duty), or a combination of both permanent craftsmen and seasonal conscript labor.",
-          es: "Los académicos debaten si los trabajadores de pirámides eran profesionales pagados, agricultores cumpliendo corvée (deber laboral estatal) o una combinación de artesanos permanentes y trabajo conscripto estacional.",
-          de: "Gelehrte debattieren, ob Pyramidenarbeiter bezahlte Fachleute, Bauern, die Frondienst (staatliche Arbeitspflicht) erfüllten, oder eine Kombination aus permanenten Handwerkern und saisonalen Wehrpflichtigen waren.",
-          nl: "Geleerden debatteren of piramidearbeiders betaalde professionals waren, boeren die herendienst (staatsarbeidsverplichting) vervulden, of een combinatie van permanente ambachtslieden en seizoensgebonden dienstplicht arbeid."
-        }    },
-    {
-      question: {
-        en: "What is the Great Pyramid also called?",
-        es: "What is the Great Pyramid also called?",
-        de: "What is the Great Pyramid also called?",
-        nl: "What is the Great Pyramid also called?"
+                  "en": "Scholars debate whether pyramid workers were paid professionals, farmers fulfilling corvée (state labor duty), or a combination of both permanent craftsmen and seasonal conscript labor.",
+                  "es": "Los académicos debaten si los trabajadores de pirámides eran profesionales pagados, agricultores cumpliendo corvée (deber laboral estatal) o una combinación de artesanos permanentes y trabajo conscripto estacional.",
+                  "de": "Gelehrte debattieren, ob Pyramidenarbeiter bezahlte Fachleute, Bauern, die Frondienst (staatliche Arbeitspflicht) erfüllten, oder eine Kombination aus permanenten Handwerkern und saisonalen Wehrpflichtigen waren.",
+                  "nl": "Geleerden debatteren of piramidearbeiders betaalde professionals waren, boeren die herendienst (staatsarbeidsverplichting) vervulden, of een combinatie van permanente ambachtslieden en seizoensgebonden dienstplicht arbeid."
+        }
       },
-      options: [
-        { en: "Pyramid of Khufu/Cheops", es: "Pyramid of Khufu/Cheops", de: "Pyramid of Khufu/Cheops", nl: "Pyramid of Khufu/Cheops" },
-        { en: "Pyramid of Khafre", es: "Pyramid of Khafre", de: "Pyramid of Khafre", nl: "Pyramid of Khafre" },
-        { en: "Pyramid of Giza", es: "Pyramid of Giza", de: "Pyramid of Giza", nl: "Pyramid of Giza" },
-        { en: "Pyramid of Egypt", es: "Pyramid of Egypt", de: "Pyramid of Egypt", nl: "Pyramid of Egypt" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The Great Pyramid is also known as the Pyramid of Khufu (or Cheops in Greek).",
-        es: "The Great Pyramid is also known as the Pyramid of Khufu (or Cheops in Greek).",
-        de: "The Great Pyramid is also known as the Pyramid of Khufu (or Cheops in Greek).",
-        nl: "The Great Pyramid is also known as the Pyramid of Khufu (or Cheops in Greek)."
-      }
-    },
-    {
-      question: {
-        en: "Where are the three main pyramids located?",
-        es: "Where are the three main pyramids located?",
-        de: "Where are the three main pyramids located?",
-        nl: "Where are the three main pyramids located?"
+      {
+        question: {
+                  "en": "What is the Great Pyramid also called?",
+                  "es": "What is the Great Pyramid also called?",
+                  "de": "What is the Great Pyramid also called?",
+                  "nl": "What is the Great Pyramid also called?"
+        },
+        options: [
+        {
+                  "en": "Pyramid of Egypt",
+                  "es": "Pyramid of Egypt",
+                  "de": "Pyramid of Egypt",
+                  "nl": "Pyramid of Egypt"
+        },
+        {
+                  "en": "Pyramid of Giza",
+                  "es": "Pyramid of Giza",
+                  "de": "Pyramid of Giza",
+                  "nl": "Pyramid of Giza"
+        },
+        {
+                  "en": "Pyramid of Khufu/Cheops",
+                  "es": "Pyramid of Khufu/Cheops",
+                  "de": "Pyramid of Khufu/Cheops",
+                  "nl": "Pyramid of Khufu/Cheops"
+        },
+        {
+                  "en": "Pyramid of Khafre",
+                  "es": "Pyramid of Khafre",
+                  "de": "Pyramid of Khafre",
+                  "nl": "Pyramid of Khafre"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "The Great Pyramid is also known as the Pyramid of Khufu (or Cheops in Greek).",
+                  "es": "The Great Pyramid is also known as the Pyramid of Khufu (or Cheops in Greek).",
+                  "de": "The Great Pyramid is also known as the Pyramid of Khufu (or Cheops in Greek).",
+                  "nl": "The Great Pyramid is also known as the Pyramid of Khufu (or Cheops in Greek)."
+        }
       },
-      options: [
-        { en: "Giza plateau", es: "Giza plateau", de: "Giza plateau", nl: "Giza plateau" },
-        { en: "Luxor", es: "Luxor", de: "Luxor", nl: "Luxor" },
-        { en: "Cairo city center", es: "Cairo city center", de: "Cairo city center", nl: "Cairo city center" },
-        { en: "Saqqara", es: "Saqqara", de: "Saqqara", nl: "Saqqara" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The three famous pyramids of Khufu, Khafre, and Menkaure are on the Giza plateau.",
-        es: "The three famous pyramids of Khufu, Khafre, and Menkaure are on the Giza plateau.",
-        de: "The three famous pyramids of Khufu, Khafre, and Menkaure are on the Giza plateau.",
-        nl: "The three famous pyramids of Khufu, Khafre, and Menkaure are on the Giza plateau."
-      }
-    },
-    {
-      question: {
-        en: "What was the purpose of pyramids?",
-        es: "What was the purpose of pyramids?",
-        de: "What was the purpose of pyramids?",
-        nl: "What was the purpose of pyramids?"
+      {
+        question: {
+                  "en": "Where are the three main pyramids located?",
+                  "es": "Where are the three main pyramids located?",
+                  "de": "Where are the three main pyramids located?",
+                  "nl": "Where are the three main pyramids located?"
+        },
+        options: [
+        {
+                  "en": "Luxor",
+                  "es": "Luxor",
+                  "de": "Luxor",
+                  "nl": "Luxor"
+        },
+        {
+                  "en": "Giza plateau",
+                  "es": "Giza plateau",
+                  "de": "Giza plateau",
+                  "nl": "Giza plateau"
+        },
+        {
+                  "en": "Cairo city center",
+                  "es": "Cairo city center",
+                  "de": "Cairo city center",
+                  "nl": "Cairo city center"
+        },
+        {
+                  "en": "Saqqara",
+                  "es": "Saqqara",
+                  "de": "Saqqara",
+                  "nl": "Saqqara"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "The three famous pyramids of Khufu, Khafre, and Menkaure are on the Giza plateau.",
+                  "es": "The three famous pyramids of Khufu, Khafre, and Menkaure are on the Giza plateau.",
+                  "de": "The three famous pyramids of Khufu, Khafre, and Menkaure are on the Giza plateau.",
+                  "nl": "The three famous pyramids of Khufu, Khafre, and Menkaure are on the Giza plateau."
+        }
       },
-      options: [
-        { en: "Royal tombs and monuments", es: "Royal tombs and monuments", de: "Royal tombs and monuments", nl: "Royal tombs and monuments" },
-        { en: "Temples", es: "Temples", de: "Temples", nl: "Temples" },
-        { en: "Observatories", es: "Observatories", de: "Observatories", nl: "Observatories" },
-        { en: "Fortresses", es: "Fortresses", de: "Fortresses", nl: "Fortresses" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pyramids served as elaborate tombs and monuments for pharaohs.",
-        es: "Pyramids served as elaborate tombs and monuments for pharaohs.",
-        de: "Pyramids served as elaborate tombs and monuments for pharaohs.",
-        nl: "Pyramids served as elaborate tombs and monuments for pharaohs."
-      }
-    },
-    {
-      question: {
-        en: "What is the oldest pyramid?",
-        es: "What is the oldest pyramid?",
-        de: "What is the oldest pyramid?",
-        nl: "What is the oldest pyramid?"
+      {
+        question: {
+                  "en": "What was the purpose of pyramids?",
+                  "es": "What was the purpose of pyramids?",
+                  "de": "What was the purpose of pyramids?",
+                  "nl": "What was the purpose of pyramids?"
+        },
+        options: [
+        {
+                  "en": "Royal tombs and monuments",
+                  "es": "Royal tombs and monuments",
+                  "de": "Royal tombs and monuments",
+                  "nl": "Royal tombs and monuments"
+        },
+        {
+                  "en": "Observatories",
+                  "es": "Observatories",
+                  "de": "Observatories",
+                  "nl": "Observatories"
+        },
+        {
+                  "en": "Fortresses",
+                  "es": "Fortresses",
+                  "de": "Fortresses",
+                  "nl": "Fortresses"
+        },
+        {
+                  "en": "Temples",
+                  "es": "Temples",
+                  "de": "Temples",
+                  "nl": "Temples"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Pyramids served as elaborate tombs and monuments for pharaohs.",
+                  "es": "Pyramids served as elaborate tombs and monuments for pharaohs.",
+                  "de": "Pyramids served as elaborate tombs and monuments for pharaohs.",
+                  "nl": "Pyramids served as elaborate tombs and monuments for pharaohs."
+        }
       },
-      options: [
-        { en: "Step Pyramid of Djoser", es: "Step Pyramid of Djoser", de: "Step Pyramid of Djoser", nl: "Step Pyramid of Djoser" },
-        { en: "Great Pyramid", es: "Great Pyramid", de: "Great Pyramid", nl: "Great Pyramid" },
-        { en: "Bent Pyramid", es: "Bent Pyramid", de: "Bent Pyramid", nl: "Bent Pyramid" },
-        { en: "Red Pyramid", es: "Red Pyramid", de: "Red Pyramid", nl: "Red Pyramid" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The Step Pyramid at Saqqara, built for Djoser, is Egypt's oldest pyramid.",
-        es: "The Step Pyramid at Saqqara, built for Djoser, is Egypt's oldest pyramid.",
-        de: "The Step Pyramid at Saqqara, built for Djoser, is Egypt's oldest pyramid.",
-        nl: "The Step Pyramid at Saqqara, built for Djoser, is Egypt's oldest pyramid."
-      }
-    },
-    {
-      question: {
-        en: "Who designed the Step Pyramid?",
-        es: "Who designed the Step Pyramid?",
-        de: "Who designed the Step Pyramid?",
-        nl: "Who designed the Step Pyramid?"
+      {
+        question: {
+                  "en": "What is the oldest pyramid?",
+                  "es": "What is the oldest pyramid?",
+                  "de": "What is the oldest pyramid?",
+                  "nl": "What is the oldest pyramid?"
+        },
+        options: [
+        {
+                  "en": "Bent Pyramid",
+                  "es": "Bent Pyramid",
+                  "de": "Bent Pyramid",
+                  "nl": "Bent Pyramid"
+        },
+        {
+                  "en": "Red Pyramid",
+                  "es": "Red Pyramid",
+                  "de": "Red Pyramid",
+                  "nl": "Red Pyramid"
+        },
+        {
+                  "en": "Step Pyramid of Djoser",
+                  "es": "Step Pyramid of Djoser",
+                  "de": "Step Pyramid of Djoser",
+                  "nl": "Step Pyramid of Djoser"
+        },
+        {
+                  "en": "Great Pyramid",
+                  "es": "Great Pyramid",
+                  "de": "Great Pyramid",
+                  "nl": "Great Pyramid"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "The Step Pyramid at Saqqara, built for Djoser, is Egypt's oldest pyramid.",
+                  "es": "The Step Pyramid at Saqqara, built for Djoser, is Egypt's oldest pyramid.",
+                  "de": "The Step Pyramid at Saqqara, built for Djoser, is Egypt's oldest pyramid.",
+                  "nl": "The Step Pyramid at Saqqara, built for Djoser, is Egypt's oldest pyramid."
+        }
       },
-      options: [
-        { en: "Imhotep", es: "Imhotep", de: "Imhotep", nl: "Imhotep" },
-        { en: "Khufu", es: "Khufu", de: "Khufu", nl: "Khufu" },
-        { en: "Sneferu", es: "Sneferu", de: "Sneferu", nl: "Sneferu" },
-        { en: "Hemiunu", es: "Hemiunu", de: "Hemiunu", nl: "Hemiunu" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Imhotep, Djoser's vizier, is credited with designing the Step Pyramid.",
-        es: "Imhotep, Djoser's vizier, is credited with designing the Step Pyramid.",
-        de: "Imhotep, Djoser's vizier, is credited with designing the Step Pyramid.",
-        nl: "Imhotep, Djoser's vizier, is credited with designing the Step Pyramid."
-      }
-    },
-    {
-      question: {
-        en: "How many pyramids are in Egypt?",
-        es: "How many pyramids are in Egypt?",
-        de: "How many pyramids are in Egypt?",
-        nl: "How many pyramids are in Egypt?"
+      {
+        question: {
+                  "en": "Who designed the Step Pyramid?",
+                  "es": "Who designed the Step Pyramid?",
+                  "de": "Who designed the Step Pyramid?",
+                  "nl": "Who designed the Step Pyramid?"
+        },
+        options: [
+        {
+                  "en": "Hemiunu",
+                  "es": "Hemiunu",
+                  "de": "Hemiunu",
+                  "nl": "Hemiunu"
+        },
+        {
+                  "en": "Imhotep",
+                  "es": "Imhotep",
+                  "de": "Imhotep",
+                  "nl": "Imhotep"
+        },
+        {
+                  "en": "Sneferu",
+                  "es": "Sneferu",
+                  "de": "Sneferu",
+                  "nl": "Sneferu"
+        },
+        {
+                  "en": "Khufu",
+                  "es": "Khufu",
+                  "de": "Khufu",
+                  "nl": "Khufu"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Imhotep, Djoser's vizier, is credited with designing the Step Pyramid.",
+                  "es": "Imhotep, Djoser's vizier, is credited with designing the Step Pyramid.",
+                  "de": "Imhotep, Djoser's vizier, is credited with designing the Step Pyramid.",
+                  "nl": "Imhotep, Djoser's vizier, is credited with designing the Step Pyramid."
+        }
       },
-      options: [
-        { en: "Over 100", es: "Over 100", de: "Over 100", nl: "Over 100" },
-        { en: "Three", es: "Three", de: "Three", nl: "Three" },
-        { en: "Ten", es: "Ten", de: "Ten", nl: "Ten" },
-        { en: "Fifty", es: "Fifty", de: "Fifty", nl: "Fifty" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Archaeologists have identified over 100 pyramids in Egypt.",
-        es: "Archaeologists have identified over 100 pyramids in Egypt.",
-        de: "Archaeologists have identified over 100 pyramids in Egypt.",
-        nl: "Archaeologists have identified over 100 pyramids in Egypt."
-      }
-    },
-    {
-      question: {
-        en: "What aligned the pyramids?",
-        es: "What aligned the pyramids?",
-        de: "What aligned the pyramids?",
-        nl: "What aligned the pyramids?"
+      {
+        question: {
+                  "en": "How many pyramids are in Egypt?",
+                  "es": "How many pyramids are in Egypt?",
+                  "de": "How many pyramids are in Egypt?",
+                  "nl": "How many pyramids are in Egypt?"
+        },
+        options: [
+        {
+                  "en": "Three",
+                  "es": "Three",
+                  "de": "Three",
+                  "nl": "Three"
+        },
+        {
+                  "en": "Fifty",
+                  "es": "Fifty",
+                  "de": "Fifty",
+                  "nl": "Fifty"
+        },
+        {
+                  "en": "Ten",
+                  "es": "Ten",
+                  "de": "Ten",
+                  "nl": "Ten"
+        },
+        {
+                  "en": "Over 100",
+                  "es": "Over 100",
+                  "de": "Over 100",
+                  "nl": "Over 100"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Archaeologists have identified over 100 pyramids in Egypt.",
+                  "es": "Archaeologists have identified over 100 pyramids in Egypt.",
+                  "de": "Archaeologists have identified over 100 pyramids in Egypt.",
+                  "nl": "Archaeologists have identified over 100 pyramids in Egypt."
+        }
       },
-      options: [
-        { en: "Cardinal directions (north, south, east, west)", es: "Cardinal directions (north, south, east, west)", de: "Cardinal directions (north, south, east, west)", nl: "Cardinal directions (north, south, east, west)" },
-        { en: "Stars", es: "Stars", de: "Stars", nl: "Stars" },
-        { en: "Rivers", es: "Rivers", de: "Rivers", nl: "Rivers" },
-        { en: "Random placement", es: "Random placement", de: "Random placement", nl: "Random placement" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The pyramids are precisely aligned with the cardinal directions.",
-        es: "The pyramids are precisely aligned with the cardinal directions.",
-        de: "The pyramids are precisely aligned with the cardinal directions.",
-        nl: "The pyramids are precisely aligned with the cardinal directions."
-      }
-    },
-    {
-      question: {
-        en: "What covered the pyramids originally?",
-        es: "What covered the pyramids originally?",
-        de: "What covered the pyramids originally?",
-        nl: "What covered the pyramids originally?"
+      {
+        question: {
+                  "en": "What aligned the pyramids?",
+                  "es": "What aligned the pyramids?",
+                  "de": "What aligned the pyramids?",
+                  "nl": "What aligned the pyramids?"
+        },
+        options: [
+        {
+                  "en": "Cardinal directions (north, south, east, west)",
+                  "es": "Cardinal directions (north, south, east, west)",
+                  "de": "Cardinal directions (north, south, east, west)",
+                  "nl": "Cardinal directions (north, south, east, west)"
+        },
+        {
+                  "en": "Stars",
+                  "es": "Stars",
+                  "de": "Stars",
+                  "nl": "Stars"
+        },
+        {
+                  "en": "Rivers",
+                  "es": "Rivers",
+                  "de": "Rivers",
+                  "nl": "Rivers"
+        },
+        {
+                  "en": "Random placement",
+                  "es": "Random placement",
+                  "de": "Random placement",
+                  "nl": "Random placement"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "The pyramids are precisely aligned with the cardinal directions.",
+                  "es": "The pyramids are precisely aligned with the cardinal directions.",
+                  "de": "The pyramids are precisely aligned with the cardinal directions.",
+                  "nl": "The pyramids are precisely aligned with the cardinal directions."
+        }
       },
-      options: [
-        { en: "Smooth white limestone casing", es: "Smooth white limestone casing", de: "Smooth white limestone casing", nl: "Smooth white limestone casing" },
-        { en: "Gold", es: "Gold", de: "Gold", nl: "Gold" },
-        { en: "Paint", es: "Paint", de: "Paint", nl: "Paint" },
-        { en: "Nothing", es: "Nothing", de: "Nothing", nl: "Nothing" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pyramids were originally covered in smooth, polished white limestone casing stones.",
-        es: "Pyramids were originally covered in smooth, polished white limestone casing stones.",
-        de: "Pyramids were originally covered in smooth, polished white limestone casing stones.",
-        nl: "Pyramids were originally covered in smooth, polished white limestone casing stones."
-      }
-    },
-    {
-      question: {
-        en: "What is inside the Great Pyramid?",
-        es: "What is inside the Great Pyramid?",
-        de: "What is inside the Great Pyramid?",
-        nl: "What is inside the Great Pyramid?"
+      {
+        question: {
+                  "en": "What covered the pyramids originally?",
+                  "es": "What covered the pyramids originally?",
+                  "de": "What covered the pyramids originally?",
+                  "nl": "What covered the pyramids originally?"
+        },
+        options: [
+        {
+                  "en": "Nothing",
+                  "es": "Nothing",
+                  "de": "Nothing",
+                  "nl": "Nothing"
+        },
+        {
+                  "en": "Paint",
+                  "es": "Paint",
+                  "de": "Paint",
+                  "nl": "Paint"
+        },
+        {
+                  "en": "Smooth white limestone casing",
+                  "es": "Smooth white limestone casing",
+                  "de": "Smooth white limestone casing",
+                  "nl": "Smooth white limestone casing"
+        },
+        {
+                  "en": "Gold",
+                  "es": "Gold",
+                  "de": "Gold",
+                  "nl": "Gold"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Pyramids were originally covered in smooth, polished white limestone casing stones.",
+                  "es": "Pyramids were originally covered in smooth, polished white limestone casing stones.",
+                  "de": "Pyramids were originally covered in smooth, polished white limestone casing stones.",
+                  "nl": "Pyramids were originally covered in smooth, polished white limestone casing stones."
+        }
       },
-      options: [
-        { en: "Chambers and passageways", es: "Chambers and passageways", de: "Chambers and passageways", nl: "Chambers and passageways" },
-        { en: "Treasure", es: "Treasure", de: "Treasure", nl: "Treasure" },
-        { en: "Nothing", es: "Nothing", de: "Nothing", nl: "Nothing" },
-        { en: "Furniture", es: "Furniture", de: "Furniture", nl: "Furniture" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The Great Pyramid contains chambers, galleries, and shafts, including the King's and Queen's Chambers.",
-        es: "The Great Pyramid contains chambers, galleries, and shafts, including the King's and Queen's Chambers.",
-        de: "The Great Pyramid contains chambers, galleries, and shafts, including the King's and Queen's Chambers.",
-        nl: "The Great Pyramid contains chambers, galleries, and shafts, including the King's and Queen's Chambers."
-      }
-    },
-    {
-      question: {
-        en: "How tall was the Great Pyramid originally?",
-        es: "How tall was the Great Pyramid originally?",
-        de: "How tall was the Great Pyramid originally?",
-        nl: "How tall was the Great Pyramid originally?"
+      {
+        question: {
+                  "en": "What is inside the Great Pyramid?",
+                  "es": "What is inside the Great Pyramid?",
+                  "de": "What is inside the Great Pyramid?",
+                  "nl": "What is inside the Great Pyramid?"
+        },
+        options: [
+        {
+                  "en": "Chambers and passageways",
+                  "es": "Chambers and passageways",
+                  "de": "Chambers and passageways",
+                  "nl": "Chambers and passageways"
+        },
+        {
+                  "en": "Treasure",
+                  "es": "Treasure",
+                  "de": "Treasure",
+                  "nl": "Treasure"
+        },
+        {
+                  "en": "Furniture",
+                  "es": "Furniture",
+                  "de": "Furniture",
+                  "nl": "Furniture"
+        },
+        {
+                  "en": "Nothing",
+                  "es": "Nothing",
+                  "de": "Nothing",
+                  "nl": "Nothing"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "The Great Pyramid contains chambers, galleries, and shafts, including the King's and Queen's Chambers.",
+                  "es": "The Great Pyramid contains chambers, galleries, and shafts, including the King's and Queen's Chambers.",
+                  "de": "The Great Pyramid contains chambers, galleries, and shafts, including the King's and Queen's Chambers.",
+                  "nl": "The Great Pyramid contains chambers, galleries, and shafts, including the King's and Queen's Chambers."
+        }
       },
-      options: [
-        { en: "About 481 feet (146.5 meters)", es: "About 481 feet (146.5 meters)", de: "About 481 feet (146.5 meters)", nl: "About 481 feet (146.5 meters)" },
-        { en: "300 feet", es: "300 feet", de: "300 feet", nl: "300 feet" },
-        { en: "600 feet", es: "600 feet", de: "600 feet", nl: "600 feet" },
-        { en: "200 feet", es: "200 feet", de: "200 feet", nl: "200 feet" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The Great Pyramid originally stood about 481 feet tall, now about 455 feet due to erosion.",
-        es: "The Great Pyramid originally stood about 481 feet tall, now about 455 feet due to erosion.",
-        de: "The Great Pyramid originally stood about 481 feet tall, now about 455 feet due to erosion.",
-        nl: "The Great Pyramid originally stood about 481 feet tall, now about 455 feet due to erosion."
-      }
-    },
-    {
-      question: {
-        en: "How long did it take to build the Great Pyramid?",
-        es: "How long did it take to build the Great Pyramid?",
-        de: "How long did it take to build the Great Pyramid?",
-        nl: "How long did it take to build the Great Pyramid?"
+      {
+        question: {
+                  "en": "How tall was the Great Pyramid originally?",
+                  "es": "How tall was the Great Pyramid originally?",
+                  "de": "How tall was the Great Pyramid originally?",
+                  "nl": "How tall was the Great Pyramid originally?"
+        },
+        options: [
+        {
+                  "en": "About 481 feet (146.5 meters)",
+                  "es": "About 481 feet (146.5 meters)",
+                  "de": "About 481 feet (146.5 meters)",
+                  "nl": "About 481 feet (146.5 meters)"
+        },
+        {
+                  "en": "200 feet",
+                  "es": "200 feet",
+                  "de": "200 feet",
+                  "nl": "200 feet"
+        },
+        {
+                  "en": "600 feet",
+                  "es": "600 feet",
+                  "de": "600 feet",
+                  "nl": "600 feet"
+        },
+        {
+                  "en": "300 feet",
+                  "es": "300 feet",
+                  "de": "300 feet",
+                  "nl": "300 feet"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "The Great Pyramid originally stood about 481 feet tall, now about 455 feet due to erosion.",
+                  "es": "The Great Pyramid originally stood about 481 feet tall, now about 455 feet due to erosion.",
+                  "de": "The Great Pyramid originally stood about 481 feet tall, now about 455 feet due to erosion.",
+                  "nl": "The Great Pyramid originally stood about 481 feet tall, now about 455 feet due to erosion."
+        }
       },
-      options: [
-        { en: "About 20 years", es: "About 20 years", de: "About 20 years", nl: "About 20 years" },
-        { en: "5 years", es: "5 years", de: "5 years", nl: "5 years" },
-        { en: "100 years", es: "100 years", de: "100 years", nl: "100 years" },
-        { en: "50 years", es: "50 years", de: "50 years", nl: "50 years" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Estimates suggest the Great Pyramid took approximately 20 years to build.",
-        es: "Estimates suggest the Great Pyramid took approximately 20 years to build.",
-        de: "Estimates suggest the Great Pyramid took approximately 20 years to build.",
-        nl: "Estimates suggest the Great Pyramid took approximately 20 years to build."
-      }
-    },
-    {
-      question: {
-        en: "What is the Bent Pyramid?",
-        es: "What is the Bent Pyramid?",
-        de: "What is the Bent Pyramid?",
-        nl: "What is the Bent Pyramid?"
+      {
+        question: {
+                  "en": "How long did it take to build the Great Pyramid?",
+                  "es": "How long did it take to build the Great Pyramid?",
+                  "de": "How long did it take to build the Great Pyramid?",
+                  "nl": "How long did it take to build the Great Pyramid?"
+        },
+        options: [
+        {
+                  "en": "50 years",
+                  "es": "50 years",
+                  "de": "50 years",
+                  "nl": "50 years"
+        },
+        {
+                  "en": "5 years",
+                  "es": "5 years",
+                  "de": "5 years",
+                  "nl": "5 years"
+        },
+        {
+                  "en": "About 20 years",
+                  "es": "About 20 years",
+                  "de": "About 20 years",
+                  "nl": "About 20 years"
+        },
+        {
+                  "en": "100 years",
+                  "es": "100 years",
+                  "de": "100 years",
+                  "nl": "100 years"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Estimates suggest the Great Pyramid took approximately 20 years to build.",
+                  "es": "Estimates suggest the Great Pyramid took approximately 20 years to build.",
+                  "de": "Estimates suggest the Great Pyramid took approximately 20 years to build.",
+                  "nl": "Estimates suggest the Great Pyramid took approximately 20 years to build."
+        }
       },
-      options: [
-        { en: "Pyramid with two different angles", es: "Pyramid with two different angles", de: "Pyramid with two different angles", nl: "Pyramid with two different angles" },
-        { en: "Collapsed pyramid", es: "Collapsed pyramid", de: "Collapsed pyramid", nl: "Collapsed pyramid" },
-        { en: "Unfinished pyramid", es: "Unfinished pyramid", de: "Unfinished pyramid", nl: "Unfinished pyramid" },
-        { en: "Smallest pyramid", es: "Smallest pyramid", de: "Smallest pyramid", nl: "Smallest pyramid" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The Bent Pyramid at Dahshur has two distinct angles, changing partway up.",
-        es: "The Bent Pyramid at Dahshur has two distinct angles, changing partway up.",
-        de: "The Bent Pyramid at Dahshur has two distinct angles, changing partway up.",
-        nl: "The Bent Pyramid at Dahshur has two distinct angles, changing partway up."
-      }
-    },
-    {
-      question: {
-        en: "Who built the Bent Pyramid?",
-        es: "Who built the Bent Pyramid?",
-        de: "Who built the Bent Pyramid?",
-        nl: "Who built the Bent Pyramid?"
+      {
+        question: {
+                  "en": "What is the Bent Pyramid?",
+                  "es": "What is the Bent Pyramid?",
+                  "de": "What is the Bent Pyramid?",
+                  "nl": "What is the Bent Pyramid?"
+        },
+        options: [
+        {
+                  "en": "Pyramid with two different angles",
+                  "es": "Pyramid with two different angles",
+                  "de": "Pyramid with two different angles",
+                  "nl": "Pyramid with two different angles"
+        },
+        {
+                  "en": "Collapsed pyramid",
+                  "es": "Collapsed pyramid",
+                  "de": "Collapsed pyramid",
+                  "nl": "Collapsed pyramid"
+        },
+        {
+                  "en": "Smallest pyramid",
+                  "es": "Smallest pyramid",
+                  "de": "Smallest pyramid",
+                  "nl": "Smallest pyramid"
+        },
+        {
+                  "en": "Unfinished pyramid",
+                  "es": "Unfinished pyramid",
+                  "de": "Unfinished pyramid",
+                  "nl": "Unfinished pyramid"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "The Bent Pyramid at Dahshur has two distinct angles, changing partway up.",
+                  "es": "The Bent Pyramid at Dahshur has two distinct angles, changing partway up.",
+                  "de": "The Bent Pyramid at Dahshur has two distinct angles, changing partway up.",
+                  "nl": "The Bent Pyramid at Dahshur has two distinct angles, changing partway up."
+        }
       },
-      options: [
-        { en: "Sneferu", es: "Sneferu", de: "Sneferu", nl: "Sneferu" },
-        { en: "Khufu", es: "Khufu", de: "Khufu", nl: "Khufu" },
-        { en: "Djoser", es: "Djoser", de: "Djoser", nl: "Djoser" },
-        { en: "Khafre", es: "Khafre", de: "Khafre", nl: "Khafre" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pharaoh Sneferu built the Bent Pyramid during the 4th Dynasty.",
-        es: "Pharaoh Sneferu built the Bent Pyramid during the 4th Dynasty.",
-        de: "Pharaoh Sneferu built the Bent Pyramid during the 4th Dynasty.",
-        nl: "Pharaoh Sneferu built the Bent Pyramid during the 4th Dynasty."
-      }
-    },
-    {
-      question: {
-        en: "What stone composes most pyramids?",
-        es: "What stone composes most pyramids?",
-        de: "What stone composes most pyramids?",
-        nl: "What stone composes most pyramids?"
+      {
+        question: {
+                  "en": "Who built the Bent Pyramid?",
+                  "es": "Who built the Bent Pyramid?",
+                  "de": "Who built the Bent Pyramid?",
+                  "nl": "Who built the Bent Pyramid?"
+        },
+        options: [
+        {
+                  "en": "Khufu",
+                  "es": "Khufu",
+                  "de": "Khufu",
+                  "nl": "Khufu"
+        },
+        {
+                  "en": "Khafre",
+                  "es": "Khafre",
+                  "de": "Khafre",
+                  "nl": "Khafre"
+        },
+        {
+                  "en": "Sneferu",
+                  "es": "Sneferu",
+                  "de": "Sneferu",
+                  "nl": "Sneferu"
+        },
+        {
+                  "en": "Djoser",
+                  "es": "Djoser",
+                  "de": "Djoser",
+                  "nl": "Djoser"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Pharaoh Sneferu built the Bent Pyramid during the 4th Dynasty.",
+                  "es": "Pharaoh Sneferu built the Bent Pyramid during the 4th Dynasty.",
+                  "de": "Pharaoh Sneferu built the Bent Pyramid during the 4th Dynasty.",
+                  "nl": "Pharaoh Sneferu built the Bent Pyramid during the 4th Dynasty."
+        }
       },
-      options: [
-        { en: "Limestone", es: "Limestone", de: "Limestone", nl: "Limestone" },
-        { en: "Granite", es: "Granite", de: "Granite", nl: "Granite" },
-        { en: "Sandstone", es: "Sandstone", de: "Sandstone", nl: "Sandstone" },
-        { en: "Marble", es: "Marble", de: "Marble", nl: "Marble" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Most pyramids are primarily constructed of limestone blocks.",
-        es: "Most pyramids are primarily constructed of limestone blocks.",
-        de: "Most pyramids are primarily constructed of limestone blocks.",
-        nl: "Most pyramids are primarily constructed of limestone blocks."
-      }
-    },
-    {
-      question: {
-        en: "What is the Red Pyramid?",
-        es: "What is the Red Pyramid?",
-        de: "What is the Red Pyramid?",
-        nl: "What is the Red Pyramid?"
+      {
+        question: {
+                  "en": "What stone composes most pyramids?",
+                  "es": "What stone composes most pyramids?",
+                  "de": "What stone composes most pyramids?",
+                  "nl": "What stone composes most pyramids?"
+        },
+        options: [
+        {
+                  "en": "Limestone",
+                  "es": "Limestone",
+                  "de": "Limestone",
+                  "nl": "Limestone"
+        },
+        {
+                  "en": "Granite",
+                  "es": "Granite",
+                  "de": "Granite",
+                  "nl": "Granite"
+        },
+        {
+                  "en": "Sandstone",
+                  "es": "Sandstone",
+                  "de": "Sandstone",
+                  "nl": "Sandstone"
+        },
+        {
+                  "en": "Marble",
+                  "es": "Marble",
+                  "de": "Marble",
+                  "nl": "Marble"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Most pyramids are primarily constructed of limestone blocks.",
+                  "es": "Most pyramids are primarily constructed of limestone blocks.",
+                  "de": "Most pyramids are primarily constructed of limestone blocks.",
+                  "nl": "Most pyramids are primarily constructed of limestone blocks."
+        }
       },
-      options: [
-        { en: "Egypt's first true smooth-sided pyramid", es: "Egypt's first true smooth-sided pyramid", de: "Egypt's first true smooth-sided pyramid", nl: "Egypt's first true smooth-sided pyramid" },
-        { en: "Pyramid painted red", es: "Pyramid painted red", de: "Pyramid painted red", nl: "Pyramid painted red" },
-        { en: "Pyramid made of red stone", es: "Pyramid made of red stone", de: "Pyramid made of red stone", nl: "Pyramid made of red stone" },
-        { en: "Modern name for Great Pyramid", es: "Modern name for Great Pyramid", de: "Modern name for Great Pyramid", nl: "Modern name for Great Pyramid" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The Red Pyramid at Dahshur is Egypt's first successful smooth-sided pyramid.",
-        es: "The Red Pyramid at Dahshur is Egypt's first successful smooth-sided pyramid.",
-        de: "The Red Pyramid at Dahshur is Egypt's first successful smooth-sided pyramid.",
-        nl: "The Red Pyramid at Dahshur is Egypt's first successful smooth-sided pyramid."
-      }
-    },
-    {
-      question: {
-        en: "How were pyramid blocks moved?",
-        es: "How were pyramid blocks moved?",
-        de: "How were pyramid blocks moved?",
-        nl: "How were pyramid blocks moved?"
+      {
+        question: {
+                  "en": "What is the Red Pyramid?",
+                  "es": "What is the Red Pyramid?",
+                  "de": "What is the Red Pyramid?",
+                  "nl": "What is the Red Pyramid?"
+        },
+        options: [
+        {
+                  "en": "Egypt's first true smooth-sided pyramid",
+                  "es": "Egypt's first true smooth-sided pyramid",
+                  "de": "Egypt's first true smooth-sided pyramid",
+                  "nl": "Egypt's first true smooth-sided pyramid"
+        },
+        {
+                  "en": "Pyramid made of red stone",
+                  "es": "Pyramid made of red stone",
+                  "de": "Pyramid made of red stone",
+                  "nl": "Pyramid made of red stone"
+        },
+        {
+                  "en": "Pyramid painted red",
+                  "es": "Pyramid painted red",
+                  "de": "Pyramid painted red",
+                  "nl": "Pyramid painted red"
+        },
+        {
+                  "en": "Modern name for Great Pyramid",
+                  "es": "Modern name for Great Pyramid",
+                  "de": "Modern name for Great Pyramid",
+                  "nl": "Modern name for Great Pyramid"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "The Red Pyramid at Dahshur is Egypt's first successful smooth-sided pyramid.",
+                  "es": "The Red Pyramid at Dahshur is Egypt's first successful smooth-sided pyramid.",
+                  "de": "The Red Pyramid at Dahshur is Egypt's first successful smooth-sided pyramid.",
+                  "nl": "The Red Pyramid at Dahshur is Egypt's first successful smooth-sided pyramid."
+        }
       },
-      options: [
-        { en: "Sledges, rollers, ramps", es: "Sledges, rollers, ramps", de: "Sledges, rollers, ramps", nl: "Sledges, rollers, ramps" },
-        { en: "Cranes", es: "Cranes", de: "Cranes", nl: "Cranes" },
-        { en: "Wheels", es: "Wheels", de: "Wheels", nl: "Wheels" },
-        { en: "Aliens", es: "Aliens", de: "Aliens", nl: "Aliens" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Blocks were moved using wooden sledges, rollers, ramps, and human labor.",
-        es: "Blocks were moved using wooden sledges, rollers, ramps, and human labor.",
-        de: "Blocks were moved using wooden sledges, rollers, ramps, and human labor.",
-        nl: "Blocks were moved using wooden sledges, rollers, ramps, and human labor."
-      }
-    },
-    {
-      question: {
-        en: "What guards the Giza pyramids?",
-        es: "What guards the Giza pyramids?",
-        de: "What guards the Giza pyramids?",
-        nl: "What guards the Giza pyramids?"
+      {
+        question: {
+                  "en": "How were pyramid blocks moved?",
+                  "es": "How were pyramid blocks moved?",
+                  "de": "How were pyramid blocks moved?",
+                  "nl": "How were pyramid blocks moved?"
+        },
+        options: [
+        {
+                  "en": "Sledges, rollers, ramps",
+                  "es": "Sledges, rollers, ramps",
+                  "de": "Sledges, rollers, ramps",
+                  "nl": "Sledges, rollers, ramps"
+        },
+        {
+                  "en": "Aliens",
+                  "es": "Aliens",
+                  "de": "Aliens",
+                  "nl": "Aliens"
+        },
+        {
+                  "en": "Cranes",
+                  "es": "Cranes",
+                  "de": "Cranes",
+                  "nl": "Cranes"
+        },
+        {
+                  "en": "Wheels",
+                  "es": "Wheels",
+                  "de": "Wheels",
+                  "nl": "Wheels"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Blocks were moved using wooden sledges, rollers, ramps, and human labor.",
+                  "es": "Blocks were moved using wooden sledges, rollers, ramps, and human labor.",
+                  "de": "Blocks were moved using wooden sledges, rollers, ramps, and human labor.",
+                  "nl": "Blocks were moved using wooden sledges, rollers, ramps, and human labor."
+        }
       },
-      options: [
-        { en: "Great Sphinx", es: "Great Sphinx", de: "Great Sphinx", nl: "Great Sphinx" },
-        { en: "Temple", es: "Temple", de: "Temple", nl: "Temple" },
-        { en: "Wall", es: "Wall", de: "Wall", nl: "Wall" },
-        { en: "Statues", es: "Statues", de: "Statues", nl: "Statues" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The Great Sphinx guards the Giza pyramid complex.",
-        es: "The Great Sphinx guards the Giza pyramid complex.",
-        de: "The Great Sphinx guards the Giza pyramid complex.",
-        nl: "The Great Sphinx guards the Giza pyramid complex."
-      }
-    },
-    {
-      question: {
-        en: "How many blocks in the Great Pyramid?",
-        es: "How many blocks in the Great Pyramid?",
-        de: "How many blocks in the Great Pyramid?",
-        nl: "How many blocks in the Great Pyramid?"
+      {
+        question: {
+                  "en": "What guards the Giza pyramids?",
+                  "es": "What guards the Giza pyramids?",
+                  "de": "What guards the Giza pyramids?",
+                  "nl": "What guards the Giza pyramids?"
+        },
+        options: [
+        {
+                  "en": "Temple",
+                  "es": "Temple",
+                  "de": "Temple",
+                  "nl": "Temple"
+        },
+        {
+                  "en": "Wall",
+                  "es": "Wall",
+                  "de": "Wall",
+                  "nl": "Wall"
+        },
+        {
+                  "en": "Great Sphinx",
+                  "es": "Great Sphinx",
+                  "de": "Great Sphinx",
+                  "nl": "Great Sphinx"
+        },
+        {
+                  "en": "Statues",
+                  "es": "Statues",
+                  "de": "Statues",
+                  "nl": "Statues"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "The Great Sphinx guards the Giza pyramid complex.",
+                  "es": "The Great Sphinx guards the Giza pyramid complex.",
+                  "de": "The Great Sphinx guards the Giza pyramid complex.",
+                  "nl": "The Great Sphinx guards the Giza pyramid complex."
+        }
       },
-      options: [
-        { en: "About 2.3 million", es: "About 2.3 million", de: "About 2.3 million", nl: "About 2.3 million" },
-        { en: "100,000", es: "100,000", de: "100,000", nl: "100,000" },
-        { en: "500,000", es: "500,000", de: "500,000", nl: "500,000" },
-        { en: "10 million", es: "10 million", de: "10 million", nl: "10 million" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The Great Pyramid contains approximately 2.3 million stone blocks.",
-        es: "The Great Pyramid contains approximately 2.3 million stone blocks.",
-        de: "The Great Pyramid contains approximately 2.3 million stone blocks.",
-        nl: "The Great Pyramid contains approximately 2.3 million stone blocks."
-      }
-    },
-    {
-      question: {
-        en: "What was the pyramidion?",
-        es: "What was the pyramidion?",
-        de: "What was the pyramidion?",
-        nl: "What was the pyramidion?"
+      {
+        question: {
+                  "en": "How many blocks in the Great Pyramid?",
+                  "es": "How many blocks in the Great Pyramid?",
+                  "de": "How many blocks in the Great Pyramid?",
+                  "nl": "How many blocks in the Great Pyramid?"
+        },
+        options: [
+        {
+                  "en": "100,000",
+                  "es": "100,000",
+                  "de": "100,000",
+                  "nl": "100,000"
+        },
+        {
+                  "en": "10 million",
+                  "es": "10 million",
+                  "de": "10 million",
+                  "nl": "10 million"
+        },
+        {
+                  "en": "500,000",
+                  "es": "500,000",
+                  "de": "500,000",
+                  "nl": "500,000"
+        },
+        {
+                  "en": "About 2.3 million",
+                  "es": "About 2.3 million",
+                  "de": "About 2.3 million",
+                  "nl": "About 2.3 million"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "The Great Pyramid contains approximately 2.3 million stone blocks.",
+                  "es": "The Great Pyramid contains approximately 2.3 million stone blocks.",
+                  "de": "The Great Pyramid contains approximately 2.3 million stone blocks.",
+                  "nl": "The Great Pyramid contains approximately 2.3 million stone blocks."
+        }
       },
-      options: [
-        { en: "Capstone at pyramid's apex", es: "Capstone at pyramid's apex", de: "Capstone at pyramid's apex", nl: "Capstone at pyramid's apex" },
-        { en: "Base stone", es: "Base stone", de: "Base stone", nl: "Base stone" },
-        { en: "Door", es: "Door", de: "Door", nl: "Door" },
-        { en: "Corner stone", es: "Corner stone", de: "Corner stone", nl: "Corner stone" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The pyramidion was the pointed capstone that topped the pyramid.",
-        es: "The pyramidion was the pointed capstone that topped the pyramid.",
-        de: "The pyramidion was the pointed capstone that topped the pyramid.",
-        nl: "The pyramidion was the pointed capstone that topped the pyramid."
-      }
-    },
-    {
-      question: {
-        en: "Are pyramids wonders of the world?",
-        es: "Are pyramids wonders of the world?",
-        de: "Are pyramids wonders of the world?",
-        nl: "Are pyramids wonders of the world?"
+      {
+        question: {
+                  "en": "What was the pyramidion?",
+                  "es": "What was the pyramidion?",
+                  "de": "What was the pyramidion?",
+                  "nl": "What was the pyramidion?"
+        },
+        options: [
+        {
+                  "en": "Door",
+                  "es": "Door",
+                  "de": "Door",
+                  "nl": "Door"
+        },
+        {
+                  "en": "Capstone at pyramid's apex",
+                  "es": "Capstone at pyramid's apex",
+                  "de": "Capstone at pyramid's apex",
+                  "nl": "Capstone at pyramid's apex"
+        },
+        {
+                  "en": "Base stone",
+                  "es": "Base stone",
+                  "de": "Base stone",
+                  "nl": "Base stone"
+        },
+        {
+                  "en": "Corner stone",
+                  "es": "Corner stone",
+                  "de": "Corner stone",
+                  "nl": "Corner stone"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "The pyramidion was the pointed capstone that topped the pyramid.",
+                  "es": "The pyramidion was the pointed capstone that topped the pyramid.",
+                  "de": "The pyramidion was the pointed capstone that topped the pyramid.",
+                  "nl": "The pyramidion was the pointed capstone that topped the pyramid."
+        }
       },
-      options: [
-        { en: "Great Pyramid is the only surviving ancient wonder", es: "Great Pyramid is the only surviving ancient wonder", de: "Great Pyramid is the only surviving ancient wonder", nl: "Great Pyramid is the only surviving ancient wonder" },
-        { en: "All pyramids are wonders", es: "All pyramids are wonders", de: "All pyramids are wonders", nl: "All pyramids are wonders" },
-        { en: "No pyramids are wonders", es: "No pyramids are wonders", de: "No pyramids are wonders", nl: "No pyramids are wonders" },
-        { en: "They're modern wonders", es: "They're modern wonders", de: "They're modern wonders", nl: "They're modern wonders" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World.",
-        es: "The Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World.",
-        de: "The Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World.",
-        nl: "The Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World."
-      }
-
+      {
+        question: {
+                  "en": "Are pyramids wonders of the world?",
+                  "es": "Are pyramids wonders of the world?",
+                  "de": "Are pyramids wonders of the world?",
+                  "nl": "Are pyramids wonders of the world?"
+        },
+        options: [
+        {
+                  "en": "No pyramids are wonders",
+                  "es": "No pyramids are wonders",
+                  "de": "No pyramids are wonders",
+                  "nl": "No pyramids are wonders"
+        },
+        {
+                  "en": "They're modern wonders",
+                  "es": "They're modern wonders",
+                  "de": "They're modern wonders",
+                  "nl": "They're modern wonders"
+        },
+        {
+                  "en": "Great Pyramid is the only surviving ancient wonder",
+                  "es": "Great Pyramid is the only surviving ancient wonder",
+                  "de": "Great Pyramid is the only surviving ancient wonder",
+                  "nl": "Great Pyramid is the only surviving ancient wonder"
+        },
+        {
+                  "en": "All pyramids are wonders",
+                  "es": "All pyramids are wonders",
+                  "de": "All pyramids are wonders",
+                  "nl": "All pyramids are wonders"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "The Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World.",
+                  "es": "The Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World.",
+                  "de": "The Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World.",
+                  "nl": "The Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World."
+        }
       }
     ]
   };
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = level9;
-  } else if (typeof window !== 'undefined') {
-    window.level9 = level9;
   }
 })();

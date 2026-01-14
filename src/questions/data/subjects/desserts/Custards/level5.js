@@ -1,859 +1,1657 @@
-// Custards Quiz - Level 5: Professional Custard Techniques
+// Custards Quiz - Level 5
 (function() {
   const level5 = {
     name: {
-      en: "Professional Custard Techniques",
-      es: "Técnicas Profesionales de Natillas",
-      de: "Professionelle Pudding-Techniken",
-      nl: "Professionele Custard Technieken"
+          "en": "Professional Custard Techniques",
+          "es": "Técnicas Profesionales de Natillas",
+          "de": "Professionelle Pudding-Techniken",
+          "nl": "Professionele Custard Technieken"
     },
     questions: [
       {
         question: {
-          en: "What is the ideal temperature range for tempering eggs when making custard?",
-          es: "¿Cuál es el rango de temperatura ideal para templar huevos al hacer natillas?",
-          de: "Was ist der ideale Temperaturbereich zum Temperieren von Eiern beim Pudding-Machen?",
-          nl: "Wat is het ideale temperatuurbereik voor het tempereren van eieren bij het maken van custard?"
+                  "en": "What is the ideal temperature range for tempering eggs when making custard?",
+                  "es": "¿Cuál es el rango de temperatura ideal para templar huevos al hacer natillas?",
+                  "de": "Was ist der ideale Temperaturbereich zum Temperieren von Eiern beim Pudding-Machen?",
+                  "nl": "Wat is het ideale temperatuurbereik voor het tempereren van eieren bij het maken van custard?"
         },
         options: [
-          { en: "40-50°C (104-122°F)", es: "40-50°C (104-122°F)", de: "40-50°C (104-122°F)", nl: "40-50°C (104-122°F)" },
-          { en: "60-70°C (140-158°F)", es: "60-70°C (140-158°F)", de: "60-70°C (140-158°F)", nl: "60-70°C (140-158°F)" },
-          { en: "80-90°C (176-194°F)", es: "80-90°C (176-194°F)", de: "80-90°C (176-194°F)", nl: "80-90°C (176-194°F)" },
-          { en: "95-100°C (203-212°F)", es: "95-100°C (203-212°F)", de: "95-100°C (203-212°F)", nl: "95-100°C (203-212°F)" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The ideal temperature range for tempering eggs is 60-70°C (140-158°F). This gradually raises the egg temperature without shocking them, preventing coagulation while preparing them for the hot dairy mixture.",
-          es: "El rango de temperatura ideal para templar huevos es 60-70°C (140-158°F). Esto eleva gradualmente la temperatura del huevo sin sorprenderlos, previniendo la coagulación mientras los prepara para la mezcla láctea caliente.",
-          de: "Der ideale Temperaturbereich zum Temperieren von Eiern ist 60-70°C (140-158°F). Dies erhöht allmählich die Eiertemperatur ohne sie zu schockieren, verhindert Koagulation und bereitet sie auf die heiße Milchmischung vor.",
-          nl: "Het ideale temperatuurbereik voor het tempereren van eieren is 60-70°C (140-158°F). Dit verhoogt geleidelijk de eiertemperatuur zonder ze te shockeren, voorkomt coagulatie terwijl ze voorbereid worden voor het hete zuivelmengsel."
+        {
+                  "en": "40-50°C (104-122°F)",
+                  "es": "40-50°C (104-122°F)",
+                  "de": "40-50°C (104-122°F)",
+                  "nl": "40-50°C (104-122°F)"
+        },
+        {
+                  "en": "80-90°C (176-194°F)",
+                  "es": "80-90°C (176-194°F)",
+                  "de": "80-90°C (176-194°F)",
+                  "nl": "80-90°C (176-194°F)"
+        },
+        {
+                  "en": "60-70°C (140-158°F)",
+                  "es": "60-70°C (140-158°F)",
+                  "de": "60-70°C (140-158°F)",
+                  "nl": "60-70°C (140-158°F)"
+        },
+        {
+                  "en": "95-100°C (203-212°F)",
+                  "es": "95-100°C (203-212°F)",
+                  "de": "95-100°C (203-212°F)",
+                  "nl": "95-100°C (203-212°F)"
         }
-      },
-      {
-        question: {
-          en: "What professional technique prevents lumps when adding cornstarch to custard?",
-          es: "¿Qué técnica profesional previene grumos al agregar maicena a las natillas?",
-          de: "Welche professionelle Technik verhindert Klumpen beim Hinzufügen von Maisstärke zum Pudding?",
-          nl: "Welke professionele techniek voorkomt klontjes bij het toevoegen van maïszetmeel aan custard?"
-        },
-        options: [
-          { en: "Add cornstarch directly to hot mixture", es: "Agregar maicena directamente a la mezcla caliente", de: "Maisstärke direkt zur heißen Mischung hinzufügen", nl: "Maïszetmeel direct aan hete mengsel toevoegen" },
-          { en: "Create a slurry with cold liquid first", es: "Crear una suspensión con líquido frío primero", de: "Zuerst eine Aufschlämmung mit kalter Flüssigkeit erstellen", nl: "Eerst een brij maken met koude vloeistof" },
-          { en: "Sift cornstarch into mixture", es: "Tamizar maicena en la mezcla", de: "Maisstärke in die Mischung sieben", nl: "Maïszetmeel in mengsel zeven" },
-          { en: "Mix cornstarch with sugar only", es: "Mezclar maicena solo con azúcar", de: "Maisstärke nur mit Zucker mischen", nl: "Maïszetmeel alleen met suiker mengen" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Creating a slurry by mixing cornstarch with a small amount of cold liquid first prevents lumps. This technique ensures smooth incorporation when the slurry is gradually whisked into the hot mixture.",
-          es: "Crear una suspensión mezclando maicena con una pequeña cantidad de líquido frío primero previene grumos. Esta técnica asegura incorporación suave cuando la suspensión se bate gradualmente en la mezcla caliente.",
-          de: "Das Erstellen einer Aufschlämmung durch Mischen von Maisstärke mit einer kleinen Menge kalter Flüssigkeit verhindert Klumpen. Diese Technik gewährleistet glatte Einarbeitung, wenn die Aufschlämmung allmählich in die heiße Mischung eingeschlagen wird.",
-          nl: "Het maken van een brij door maïszetmeel eerst met een kleine hoeveelheid koude vloeistof te mengen voorkomt klontjes. Deze techniek zorgt voor gladde incorporatie wanneer de brij geleidelijk in het hete mengsel wordt geklopt."
-        }
-      },
-      {
-        question: {
-          en: "What is the professional method for achieving perfectly smooth custard texture?",
-          es: "¿Cuál es el método profesional para lograr una textura perfectamente suave de natillas?",
-          de: "Was ist die professionelle Methode für die Erzielung einer perfekt glatten Pudding-Textur?",
-          nl: "Wat is de professionele methode voor het bereiken van een perfect gladde custard textuur?"
-        },
-        options: [
-          { en: "Cook at high heat quickly", es: "Cocinar a fuego alto rápidamente", de: "Bei hoher Hitze schnell kochen", nl: "Snel koken op hoog vuur" },
-          { en: "Double strain through fine mesh, then through a coffee filter", es: "Colar doblemente através de malla fina, luego através de filtro de café", de: "Doppelt durch feines Sieb, dann durch Kaffeefilter abseihen", nl: "Dubbel zeven door fijne maas, dan door koffiefilter" },
-          { en: "Blend with immersion blender", es: "Mezclar con batidora de inmersión", de: "Mit Stabmixer mischen", nl: "Mengen met staafmixer" },
-          { en: "Whisk vigorously throughout cooking", es: "Batir vigorosamente durante toda la cocción", de: "Während des gesamten Kochens kräftig schlagen", nl: "Krachtig kloppen tijdens het hele kookproces" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Professional custards are double-strained: first through a fine mesh sieve to remove any lumps, then through a coffee filter or very fine strainer to achieve restaurant-quality smoothness.",
-          es: "Las natillas profesionales se cuelan doblemente: primero a través de un tamiz de malla fina para eliminar grumos, luego a través de un filtro de café o colador muy fino para lograr suavidad de calidad de restaurante.",
-          de: "Professionelle Puddings werden doppelt abgeseiht: zuerst durch ein feines Sieb um Klumpen zu entfernen, dann durch einen Kaffeefilter oder sehr feinen Sieb für Restaurant-Qualität Glätte.",
-          nl: "Professionele custards worden dubbel gezeefd: eerst door een fijne zeef om klontjes te verwijderen, dan door een koffiefilter of zeer fijne zeef voor restaurant-kwaliteit gladheid."
-        }
-      },
-      {
-        question: {
-          en: "What is the optimal stirring technique during custard cooking?",
-          es: "¿Cuál es la técnica óptima de revolver durante la cocción de natillas?",
-          de: "Was ist die optimale Rührtechnik während des Pudding-Kochens?",
-          nl: "Wat is de optimale roertechniek tijdens het koken van custard?"
-        },
-        options: [
-          { en: "Figure-8 pattern with wooden spoon", es: "Patrón de figura-8 con cuchara de madera", de: "Achter-Muster mit Holzlöffel", nl: "Figuur-8 patroon met houten lepel" },
-          { en: "Circular motion only", es: "Solo movimiento circular", de: "Nur kreisförmige Bewegung", nl: "Alleen cirkelvormige beweging" },
-          { en: "Back and forth motion", es: "Movimiento de ida y vuelta", de: "Hin- und Her-Bewegung", nl: "Heen en weer beweging" },
-          { en: "No stirring needed", es: "No se necesita revolver", de: "Kein Rühren nötig", nl: "Geen roeren nodig" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The figure-8 stirring pattern with a wooden spoon ensures even heat distribution and prevents hot spots that could cause curdling. The wooden spoon won't conduct heat and damage the custard.",
-          es: "El patrón de revolver en figura-8 con cuchara de madera asegura distribución uniforme del calor y previene puntos calientes que podrían causar cuajado. La cuchara de madera no conducirá calor y dañará las natillas.",
-          de: "Das Achter-Rührmuster mit einem Holzlöffel gewährleistet gleichmäßige Wärmeverteilung und verhindert heiße Stellen, die Gerinnung verursachen könnten. Der Holzlöffel leitet keine Wärme und beschädigt den Pudding nicht.",
-          nl: "Het figuur-8 roerpatroon met een houten lepel zorgt voor gelijkmatige warmteverdeling en voorkomt hete plekken die klontering kunnen veroorzaken. De houten lepel geleidt geen warmte en beschadigt de custard niet."
-        }
-      },
-      {
-        question: {
-          en: "What temperature should custard be cooled to before refrigeration to prevent condensation?",
-          es: "¿A qué temperatura debe enfriarse la natilla antes de la refrigeración para prevenir condensación?",
-          de: "Auf welche Temperatur sollte Pudding vor der Kühlung abgekühlt werden, um Kondensation zu verhindern?",
-          nl: "Tot welke temperatuur moet custard worden afgekoeld voor koeling om condensatie te voorkomen?"
-        },
-        options: [
-          { en: "Room temperature (20°C/68°F)", es: "Temperatura ambiente (20°C/68°F)", de: "Raumtemperatur (20°C/68°F)", nl: "Kamertemperatuur (20°C/68°F)" },
-          { en: "Body temperature (37°C/98°F)", es: "Temperatura corporal (37°C/98°F)", de: "Körpertemperatur (37°C/98°F)", nl: "Lichaamstemperatuur (37°C/98°F)" },
-          { en: "50°C (122°F)", es: "50°C (122°F)", de: "50°C (122°F)", nl: "50°C (122°F)" },
-          { en: "Can be refrigerated immediately", es: "Puede refrigerarse inmediatamente", de: "Kann sofort gekühlt werden", nl: "Kan onmiddellijk gekoeld worden" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Custard should be cooled to room temperature before refrigeration to prevent condensation forming on the surface, which would create a watery layer and affect texture.",
-          es: "La natilla debe enfriarse a temperatura ambiente antes de la refrigeración para prevenir que se forme condensación en la superficie, lo que crearía una capa acuosa y afectaría la textura.",
-          de: "Pudding sollte vor der Kühlung auf Raumtemperatur abgekühlt werden, um Kondensation auf der Oberfläche zu verhindern, die eine wässrige Schicht bilden und die Textur beeinträchtigen würde.",
-          nl: "Custard moet worden afgekoeld tot kamertemperatuur voor koeling om condensatie op het oppervlak te voorkomen, wat een waterige laag zou creëren en de textuur zou beïnvloeden."
-        }
-      },
-      {
-        question: {
-          en: "What professional tool provides the most accurate temperature monitoring for custard?",
-          es: "¿Qué herramienta profesional proporciona el monitoreo de temperatura más preciso para natillas?",
-          de: "Welches professionelle Werkzeug bietet die genaueste Temperaturüberwachung für Pudding?",
-          nl: "Welk professioneel gereedschap biedt de meest nauwkeurige temperatuurcontrole voor custard?"
-        },
-        options: [
-          { en: "Digital instant-read thermometer", es: "Termómetro digital de lectura instantánea", de: "Digitales Sofortthermometer", nl: "Digitale direct-lees thermometer" },
-          { en: "Analog candy thermometer", es: "Termómetro analógico para dulces", de: "Analoges Bonbonthermometer", nl: "Analoge snoep thermometer" },
-          { en: "Visual assessment only", es: "Solo evaluación visual", de: "Nur visuelle Beurteilung", nl: "Alleen visuele beoordeling" },
-          { en: "Touch test with finger", es: "Prueba táctil con dedo", de: "Berührungstest mit dem Finger", nl: "Aanraaktest met vinger" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "A digital instant-read thermometer provides the most accurate and immediate temperature readings, crucial for the precise temperature control required in professional custard making.",
-          es: "Un termómetro digital de lectura instantánea proporciona las lecturas de temperatura más precisas e inmediatas, crucial para el control preciso de temperatura requerido en la preparación profesional de natillas.",
-          de: "Ein digitales Sofortthermometer liefert die genauesten und sofortigsten Temperaturmessungen, entscheidend für die präzise Temperaturkontrolle, die bei der professionellen Pudding-Herstellung erforderlich ist.",
-          nl: "Een digitale direct-lees thermometer biedt de meest nauwkeurige en onmiddellijke temperatuurmetingen, cruciaal voor de precieze temperatuurcontrole vereist bij professionele custard bereiding."
-        }
-      },
-      {
-        question: {
-          en: "What causes 'weeping' in custard and how is it prevented professionally?",
-          es: "¿Qué causa el 'llorar' en las natillas y cómo se previene profesionalmente?",
-          de: "Was verursacht 'Weinen' im Pudding und wie wird es professionell verhindert?",
-          nl: "Wat veroorzaakt 'wenen' in custard en hoe wordt dit professioneel voorkomen?"
-        },
-        options: [
-          { en: "Overcooking; prevent with precise temperature control", es: "Exceso de cocción; prevenir con control preciso de temperatura", de: "Überkochen; verhindern mit präziser Temperaturkontrolle", nl: "Overkoken; voorkomen met precieze temperatuurcontrole" },
-          { en: "Too much sugar; reduce sugar content", es: "Demasiada azúcar; reducir contenido de azúcar", de: "Zu viel Zucker; Zuckergehalt reduzieren", nl: "Te veel suiker; suikergehalte verminderen" },
-          { en: "Wrong type of milk; use only whole milk", es: "Tipo incorrecto de leche; usar solo leche entera", de: "Falsche Milchsorte; nur Vollmilch verwenden", nl: "Verkeerd type melk; gebruik alleen volle melk" },
-          { en: "Insufficient eggs; add more egg yolks", es: "Huevos insuficientes; agregar más yemas", de: "Unzureichende Eier; mehr Eigelb hinzufügen", nl: "Onvoldoende eieren; meer eidooiers toevoegen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Weeping (syneresis) occurs when proteins over-coagulate from excessive heat, squeezing out liquid. Professional prevention involves precise temperature control, never exceeding optimal cooking temperatures.",
-          es: "El llorar (sinéresis) ocurre cuando las proteínas se sobre-coagulan por calor excesivo, exprimiendo líquido. La prevención profesional involucra control preciso de temperatura, nunca excediendo temperaturas óptimas de cocción.",
-          de: "Weinen (Synerese) tritt auf, wenn Proteine durch übermäßige Hitze überkoagulieren und Flüssigkeit herausdrücken. Professionelle Prävention beinhaltet präzise Temperaturkontrolle, niemals optimale Kochtemperaturen überschreiten.",
-          nl: "Wenen (synerese) treedt op wanneer eiwitten door overmatige hitte overcoaguleren, waardoor vloeistof wordt uitgeperst. Professionele preventie houdt precieze temperatuurcontrole in, nooit optimale kooktemperaturen overschrijden."
-        }
-      },
-      {
-        question: {
-          en: "What is the professional technique for incorporating gelatin into custard?",
-          es: "¿Cuál es la técnica profesional para incorporar gelatina en natillas?",
-          de: "Was ist die professionelle Technik zum Einarbeiten von Gelatine in Pudding?",
-          nl: "Wat is de professionele techniek voor het verwerken van gelatine in custard?"
-        },
-        options: [
-          { en: "Add gelatin powder directly to hot custard", es: "Agregar polvo de gelatina directamente a natillas calientes", de: "Gelatinepulver direkt zu heißem Pudding hinzufügen", nl: "Gelatinepoeder direct aan hete custard toevoegen" },
-          { en: "Bloom gelatin in cold water, then dissolve in warm custard", es: "Hinchar gelatina en agua fría, luego disolver en natillas tibias", de: "Gelatine in kaltem Wasser quellen lassen, dann in warmem Pudding auflösen", nl: "Gelatine laten zwellen in koud water, dan oplossen in warme custard" },
-          { en: "Mix gelatin with sugar first", es: "Mezclar gelatina con azúcar primero", de: "Gelatine zuerst mit Zucker mischen", nl: "Gelatine eerst met suiker mengen" },
-          { en: "Add gelatin at the end when custard is cold", es: "Agregar gelatina al final cuando las natillas estén frías", de: "Gelatine am Ende hinzufügen, wenn der Pudding kalt ist", nl: "Gelatine aan het eind toevoegen wanneer custard koud is" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Professional technique involves blooming gelatin in cold water to hydrate it, then dissolving the bloomed gelatin in warm (not hot) custard to prevent protein damage and ensure smooth incorporation.",
-          es: "La técnica profesional involucra hinchar gelatina en agua fría para hidratarla, luego disolver la gelatina hinchada en natillas tibias (no calientes) para prevenir daño a las proteínas y asegurar incorporación suave.",
-          de: "Die professionelle Technik beinhaltet das Quellenlassen von Gelatine in kaltem Wasser zur Hydratation, dann das Auflösen der gequollenen Gelatine in warmem (nicht heißem) Pudding, um Proteinschäden zu verhindern und glatte Einarbeitung zu gewährleisten.",
-          nl: "Professionele techniek houdt in dat gelatine wordt gezwollen in koud water om het te hydrateren, vervolgens de gezwollen gelatine oplossen in warme (niet hete) custard om eiwitschade te voorkomen en gladde verwerking te verzekeren."
-        }
-      },
-      {
-        question: {
-          en: "What is the ideal ratio of egg yolks to liquid for a standard crème anglaise?",
-          es: "¿Cuál es la proporción ideal de yemas de huevo a líquido para una crème anglaise estándar?",
-          de: "Was ist das ideale Verhältnis von Eigelb zu Flüssigkeit für eine Standard-Crème Anglaise?",
-          nl: "Wat is de ideale verhouding van eidooiers tot vloeistof voor een standaard crème anglaise?"
-        },
-        options: [
-          { en: "4 yolks per 250ml liquid", es: "4 yemas por 250ml de líquido", de: "4 Eigelb pro 250ml Flüssigkeit", nl: "4 dooiers per 250ml vloeistof" },
-          { en: "6 yolks per 500ml liquid", es: "6 yemas por 500ml de líquido", de: "6 Eigelb pro 500ml Flüssigkeit", nl: "6 dooiers per 500ml vloeistof" },
-          { en: "8 yolks per 1000ml liquid", es: "8 yemas por 1000ml de líquido", de: "8 Eigelb pro 1000ml Flüssigkeit", nl: "8 dooiers per 1000ml vloeistof" },
-          { en: "10 yolks per 250ml liquid", es: "10 yemas por 250ml de líquido", de: "10 Eigelb pro 250ml Flüssigkeit", nl: "10 dooiers per 250ml vloeistof" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The professional standard for crème anglaise is 6 egg yolks per 500ml of liquid (milk/cream mixture). This ratio provides optimal richness and thickening power without being overly eggy.",
-          es: "El estándar profesional para crème anglaise es 6 yemas de huevo por 500ml de líquido (mezcla leche/nata). Esta proporción proporciona riqueza óptima y poder espesante sin ser excesivamente a huevo.",
-          de: "Der professionelle Standard für Crème Anglaise ist 6 Eigelb pro 500ml Flüssigkeit (Milch/Sahne-Mischung). Dieses Verhältnis bietet optimale Reichhaltigkeit und Verdickungskraft ohne zu sehr nach Ei zu schmecken.",
-          nl: "De professionele standaard voor crème anglaise is 6 eidooiers per 500ml vloeistof (melk/room mengsel). Deze verhouding biedt optimale rijkdom en verdikkingskracht zonder te erg naar ei te smaken."
-        }
-      },
-      {
-        question: {
-          en: "What professional technique prevents skin formation on cooling custard?",
-          es: "¿Qué técnica profesional previene la formación de piel en natillas que se enfrían?",
-          de: "Welche professionelle Technik verhindert Hautbildung auf abkühlendem Pudding?",
-          nl: "Welke professionele techniek voorkomt velvorming op afkoelende custard?"
-        },
-        options: [
-          { en: "Cover with plastic wrap directly touching surface", es: "Cubrir con film plástico tocando directamente la superficie", de: "Mit Plastikfolie abdecken, die direkt die Oberfläche berührt", nl: "Bedekken met plastic folie die direct het oppervlak raakt" },
-          { en: "Leave uncovered to air dry", es: "Dejar descubierto para secar al aire", de: "Unbedeckt zum Lufttrocknen lassen", nl: "Onbedekt laten om aan de lucht te drogen" },
-          { en: "Cover with loose cloth", es: "Cubrir con tela suelta", de: "Mit lockerem Tuch abdecken", nl: "Bedekken met losse doek" },
-          { en: "Stir continuously while cooling", es: "Revolver continuamente mientras se enfría", de: "Kontinuierlich rühren während des Abkühlens", nl: "Continu roeren tijdens het afkoelen" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "Professional technique involves placing plastic wrap directly on the custard surface to prevent air contact, which causes skin formation. This creates an airtight seal while maintaining surface smoothness.",
-          es: "La técnica profesional involucra colocar film plástico directamente en la superficie de las natillas para prevenir contacto con aire, que causa formación de piel. Esto crea un sello hermético mientras mantiene la suavidad de la superficie.",
-          de: "Die professionelle Technik beinhaltet das Platzieren von Plastikfolie direkt auf der Pudding-Oberfläche, um Luftkontakt zu verhindern, der Hautbildung verursacht. Dies schafft eine luftdichte Versiegelung bei Erhaltung der Oberflächenglätte.",
-          nl: "Professionele techniek houdt in dat plastic folie direct op het custard oppervlak wordt geplaatst om luchtcontact te voorkomen, wat velvorming veroorzaakt. Dit creëert een luchtdichte afsluiting terwijl de oppervlakte gladheid behouden blijft."
-        }
-      },
-      {
-        question: {
-          en: "What is the maximum safe holding time for freshly made custard at room temperature?",
-          es: "¿Cuál es el tiempo máximo seguro de conservación para natillas recién hechas a temperatura ambiente?",
-          de: "Was ist die maximale sichere Aufbewahrungszeit für frisch gemachten Pudding bei Raumtemperatur?",
-          nl: "Wat is de maximale veilige bewaartijd voor vers gemaakte custard op kamertemperatuur?"
-        },
-        options: [
-          { en: "30 minutes", es: "30 minutos", de: "30 Minuten", nl: "30 minuten" },
-          { en: "1 hour", es: "1 hora", de: "1 Stunde", nl: "1 uur" },
-          { en: "2 hours", es: "2 horas", de: "2 Stunden", nl: "2 uur" },
-          { en: "4 hours", es: "4 horas", de: "4 Stunden", nl: "4 uur" }
         ],
         correct: 2,
         explanation: {
-          en: "Professional food safety standards specify maximum 2 hours at room temperature for custard. Beyond this time, bacterial growth becomes dangerous. This is part of the 'danger zone' (4-60°C) guidelines.",
-          es: "Los estándares profesionales de seguridad alimentaria especifican máximo 2 horas a temperatura ambiente para natillas. Más allá de este tiempo, el crecimiento bacteriano se vuelve peligroso. Esto es parte de las directrices de 'zona peligrosa' (4-60°C).",
-          de: "Professionelle Lebensmittelsicherheitsstandards spezifizieren maximal 2 Stunden bei Raumtemperatur für Pudding. Darüber hinaus wird bakterielles Wachstum gefährlich. Dies ist Teil der 'Gefahrenzone' (4-60°C) Richtlinien.",
-          nl: "Professionele voedselveiligheidsstandaarden specificeren maximaal 2 uur op kamertemperatuur voor custard. Na deze tijd wordt bacteriegroei gevaarlijk. Dit is onderdeel van de 'gevaarzone' (4-60°C) richtlijnen."
+                  "en": "The ideal temperature range for tempering eggs is 60-70°C (140-158°F). This gradually raises the egg temperature without shocking them, preventing coagulation while preparing them for the hot dairy mixture.",
+                  "es": "El rango de temperatura ideal para templar huevos es 60-70°C (140-158°F). Esto eleva gradualmente la temperatura del huevo sin sorprenderlos, previniendo la coagulación mientras los prepara para la mezcla láctea caliente.",
+                  "de": "Der ideale Temperaturbereich zum Temperieren von Eiern ist 60-70°C (140-158°F). Dies erhöht allmählich die Eiertemperatur ohne sie zu schockieren, verhindert Koagulation und bereitet sie auf die heiße Milchmischung vor.",
+                  "nl": "Het ideale temperatuurbereik voor het tempereren van eieren is 60-70°C (140-158°F). Dit verhoogt geleidelijk de eiertemperatuur zonder ze te shockeren, voorkomt coagulatie terwijl ze voorbereid worden voor het hete zuivelmengsel."
         }
       },
       {
         question: {
-          en: "What professional method ensures even cooking when making large batches of custard?",
-          es: "¿Qué método profesional asegura cocción uniforme al hacer grandes lotes de natillas?",
-          de: "Welche professionelle Methode gewährleistet gleichmäßiges Kochen beim Herstellen großer Pudding-Chargen?",
-          nl: "Welke professionele methode zorgt voor gelijkmatig koken bij het maken van grote batches custard?"
+                  "en": "What professional technique prevents lumps when adding cornstarch to custard?",
+                  "es": "¿Qué técnica profesional previene grumos al agregar maicena a las natillas?",
+                  "de": "Welche professionelle Technik verhindert Klumpen beim Hinzufügen von Maisstärke zum Pudding?",
+                  "nl": "Welke professionele techniek voorkomt klontjes bij het toevoegen van maïszetmeel aan custard?"
         },
         options: [
-          { en: "Use highest heat setting for speed", es: "Usar el ajuste de calor más alto para velocidad", de: "Höchste Hitzeeinstellung für Geschwindigkeit verwenden", nl: "Hoogste warmte-instelling gebruiken voor snelheid" },
-          { en: "Double boiler method with constant stirring", es: "Método de baño maría con revuelto constante", de: "Wasserbad-Methode mit konstantem Rühren", nl: "Dubbele ketel methode met constant roeren" },
-          { en: "Microwave in intervals", es: "Microondas en intervalos", de: "Mikrowelle in Intervallen", nl: "Magnetron in intervallen" },
-          { en: "Oven baking only", es: "Solo horneado en horno", de: "Nur Ofenbacken", nl: "Alleen oven bakken" }
+        {
+                  "en": "Mix cornstarch with sugar only",
+                  "es": "Mezclar maicena solo con azúcar",
+                  "de": "Maisstärke nur mit Zucker mischen",
+                  "nl": "Maïszetmeel alleen met suiker mengen"
+        },
+        {
+                  "en": "Sift cornstarch into mixture",
+                  "es": "Tamizar maicena en la mezcla",
+                  "de": "Maisstärke in die Mischung sieben",
+                  "nl": "Maïszetmeel in mengsel zeven"
+        },
+        {
+                  "en": "Create a slurry with cold liquid first",
+                  "es": "Crear una suspensión con líquido frío primero",
+                  "de": "Zuerst eine Aufschlämmung mit kalter Flüssigkeit erstellen",
+                  "nl": "Eerst een brij maken met koude vloeistof"
+        },
+        {
+                  "en": "Add cornstarch directly to hot mixture",
+                  "es": "Agregar maicena directamente a la mezcla caliente",
+                  "de": "Maisstärke direkt zur heißen Mischung hinzufügen",
+                  "nl": "Maïszetmeel direct aan hete mengsel toevoegen"
+        }
         ],
-        correct: 1,
+        correct: 2,
         explanation: {
-          en: "Double boiler method with constant stirring ensures even, gentle heating for large batches. This prevents hot spots and scorching while maintaining consistent temperature throughout the mixture.",
-          es: "El método de baño maría con revuelto constante asegura calentamiento uniforme y suave para grandes lotes. Esto previene puntos calientes y quemado mientras mantiene temperatura consistente en toda la mezcla.",
-          de: "Die Wasserbad-Methode mit konstantem Rühren gewährleistet gleichmäßige, sanfte Erhitzung für große Chargen. Dies verhindert heiße Stellen und Anbrennen bei gleichzeitiger Aufrechterhaltung konstanter Temperatur in der gesamten Mischung.",
-          nl: "De dubbele ketel methode met constant roeren zorgt voor gelijkmatige, zachte verwarming voor grote batches. Dit voorkomt hete plekken en aanbranden terwijl een consistente temperatuur door het hele mengsel wordt gehandhaafd."
+                  "en": "Creating a slurry by mixing cornstarch with a small amount of cold liquid first prevents lumps. This technique ensures smooth incorporation when the slurry is gradually whisked into the hot mixture.",
+                  "es": "Crear una suspensión mezclando maicena con una pequeña cantidad de líquido frío primero previene grumos. Esta técnica asegura incorporación suave cuando la suspensión se bate gradualmente en la mezcla caliente.",
+                  "de": "Das Erstellen einer Aufschlämmung durch Mischen von Maisstärke mit einer kleinen Menge kalter Flüssigkeit verhindert Klumpen. Diese Technik gewährleistet glatte Einarbeitung, wenn die Aufschlämmung allmählich in die heiße Mischung eingeschlagen wird.",
+                  "nl": "Het maken van een brij door maïszetmeel eerst met een kleine hoeveelheid koude vloeistof te mengen voorkomt klontjes. Deze techniek zorgt voor gladde incorporatie wanneer de brij geleidelijk in het hete mengsel wordt geklopt."
         }
       },
       {
         question: {
-          en: "What ingredient ratio adjustment is needed when scaling custard recipes up significantly?",
-          es: "¿Qué ajuste de proporción de ingredientes se necesita al escalar recetas de natillas significativamente?",
-          de: "Welche Anpassung des Zutatenanteils ist erforderlich beim deutlichen Hochskalieren von Pudding-Rezepten?",
-          nl: "Welke ingrediënt verhouding aanpassing is nodig bij het significant opschalen van custard recepten?"
+                  "en": "What is the professional method for achieving perfectly smooth custard texture?",
+                  "es": "¿Cuál es el método profesional para lograr una textura perfectamente suave de natillas?",
+                  "de": "Was ist die professionelle Methode für die Erzielung einer perfekt glatten Pudding-Textur?",
+                  "nl": "Wat is de professionele methode voor het bereiken van een perfect gladde custard textuur?"
         },
         options: [
-          { en: "All ingredients scale proportionally", es: "Todos los ingredientes escalan proporcionalmente", de: "Alle Zutaten skalieren proportional", nl: "Alle ingrediënten schalen proportioneel" },
-          { en: "Slightly reduce thickening agents per unit", es: "Reducir ligeramente agentes espesantes por unidad", de: "Verdickungsmittel pro Einheit leicht reduzieren", nl: "Verdikkingsmiddelen per eenheid licht verminderen" },
-          { en: "Increase thickening agents per unit", es: "Aumentar agentes espesantes por unidad", de: "Verdickungsmittel pro Einheit erhöhen", nl: "Verdikkingsmiddelen per eenheid verhogen" },
-          { en: "Double all thickening agents", es: "Duplicar todos los agentes espesantes", de: "Alle Verdickungsmittel verdoppeln", nl: "Alle verdikkingsmiddelen verdubbelen" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "When scaling up significantly, thickening agents (eggs, starch) should be slightly reduced per unit as larger volumes naturally create more thickening power through increased cooking time and surface area effects.",
-          es: "Al escalar significativamente, los agentes espesantes (huevos, almidón) deben reducirse ligeramente por unidad ya que volúmenes más grandes naturalmente crean más poder espesante a través de mayor tiempo de cocción y efectos de área de superficie.",
-          de: "Beim deutlichen Hochskalieren sollten Verdickungsmittel (Eier, Stärke) pro Einheit leicht reduziert werden, da größere Volumina natürlich mehr Verdickungskraft durch längere Kochzeit und Oberflächeneffekte erzeugen.",
-          nl: "Bij significant opschalen moeten verdikkingsmiddelen (eieren, zetmeel) per eenheid licht worden verminderd omdat grotere volumes natuurlijk meer verdikkingskracht creëren door langere kooktijd en oppervlakte-effecten."
+        {
+                  "en": "Double strain through fine mesh, then through a coffee filter",
+                  "es": "Colar doblemente através de malla fina, luego através de filtro de café",
+                  "de": "Doppelt durch feines Sieb, dann durch Kaffeefilter abseihen",
+                  "nl": "Dubbel zeven door fijne maas, dan door koffiefilter"
+        },
+        {
+                  "en": "Blend with immersion blender",
+                  "es": "Mezclar con batidora de inmersión",
+                  "de": "Mit Stabmixer mischen",
+                  "nl": "Mengen met staafmixer"
+        },
+        {
+                  "en": "Cook at high heat quickly",
+                  "es": "Cocinar a fuego alto rápidamente",
+                  "de": "Bei hoher Hitze schnell kochen",
+                  "nl": "Snel koken op hoog vuur"
+        },
+        {
+                  "en": "Whisk vigorously throughout cooking",
+                  "es": "Batir vigorosamente durante toda la cocción",
+                  "de": "Während des gesamten Kochens kräftig schlagen",
+                  "nl": "Krachtig kloppen tijdens het hele kookproces"
         }
-      },
-      {
-        question: {
-          en: "What is the professional standard for custard consistency when properly cooked?",
-          es: "¿Cuál es el estándar profesional para la consistencia de natillas cuando está bien cocida?",
-          de: "Was ist der professionelle Standard für Pudding-Konsistenz bei ordnungsgemäßer Zubereitung?",
-          nl: "Wat is de professionele standaard voor custard consistentie wanneer goed gekookt?"
-        },
-        options: [
-          { en: "Coats spoon and maintains line when finger drawn through", es: "Cubre cuchara y mantiene línea cuando se traza dedo a través", de: "Überzieht Löffel und hält Linie bei Fingerdurchzug", nl: "Bedekt lepel en houdt lijn vast wanneer vinger erdoor wordt getrokken" },
-          { en: "Thick enough to stand upright", es: "Suficientemente espesa para mantenerse derecha", de: "Dick genug um aufrecht zu stehen", nl: "Dik genoeg om rechtop te staan" },
-          { en: "Thin and pourable like cream", es: "Fina y vertible como nata", de: "Dünn und gießbar wie Sahne", nl: "Dun en gietbaar zoals room" },
-          { en: "Consistency of yogurt", es: "Consistencia de yogur", de: "Konsistenz von Joghurt", nl: "Consistentie van yoghurt" }
-        ],
-        correct: 0,
-        explanation: {
-          en: "The professional standard is the nappe test: custard should coat a spoon and when you draw your finger through it, the line should remain clear and distinct without immediately flowing back together.",
-          es: "El estándar profesional es la prueba nappe: las natillas deben cubrir una cuchara y cuando trazas tu dedo a través, la línea debe permanecer clara y distinta sin fluir inmediatamente de vuelta juntas.",
-          de: "Der professionelle Standard ist der Nappe-Test: Pudding sollte einen Löffel überziehen und wenn man den Finger hindurchzieht, sollte die Linie klar und deutlich bleiben ohne sofort zusammenzufließen.",
-          nl: "De professionele standaard is de nappe test: custard moet een lepel bedekken en wanneer je je vinger erdoor trekt, moet de lijn helder en duidelijk blijven zonder onmiddellijk weer samen te vloeien."
-        }
-      },
-      {
-        question: {
-          en: "What causes custard to develop a grainy texture and how is it prevented?",
-          es: "¿Qué causa que las natillas desarrollen una textura granulosa y cómo se previene?",
-          de: "Was verursacht, dass Pudding eine körnige Textur entwickelt und wie wird es verhindert?",
-          nl: "Wat veroorzaakt dat custard een korrelige textuur ontwikkelt en hoe wordt dit voorkomen?"
-        },
-        options: [
-          { en: "Too much sugar; reduce sugar content", es: "Demasiada azúcar; reducir contenido de azúcar", de: "Zu viel Zucker; Zuckergehalt reduzieren", nl: "Te veel suiker; suikergehalte verminderen" },
-          { en: "Egg proteins coagulating; maintain proper temperature control", es: "Proteínas del huevo coagulando; mantener control adecuado de temperatura", de: "Eiweiße koagulieren; ordnungsgemäße Temperaturkontrolle aufrechterhalten", nl: "Eieiwitten coaguleren; juiste temperatuurcontrole handhaven" },
-          { en: "Insufficient mixing; stir more vigorously", es: "Mezcla insuficiente; revolver más vigorosamente", de: "Unzureichendes Mischen; kräftiger rühren", nl: "Onvoldoende mengen; krachtiger roeren" },
-          { en: "Wrong type of milk; use skim milk only", es: "Tipo incorrecto de leche; usar solo leche descremada", de: "Falsche Milchsorte; nur Magermilch verwenden", nl: "Verkeerd type melk; gebruik alleen magere melk" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Grainy texture results from egg proteins over-coagulating due to excessive heat. Prevention requires precise temperature control, keeping temperatures below 85°C (185°F) and using gradual heating methods.",
-          es: "La textura granulosa resulta de proteínas del huevo sobre-coagulando debido a calor excesivo. La prevención requiere control preciso de temperatura, manteniendo temperaturas debajo de 85°C (185°F) y usando métodos de calentamiento gradual.",
-          de: "Körnige Textur resultiert aus Eiweiß-Überkoagulation aufgrund übermäßiger Hitze. Prävention erfordert präzise Temperaturkontrolle, Temperaturen unter 85°C (185°F) halten und allmähliche Erhitzungsmethoden verwenden.",
-          nl: "Korrelige textuur ontstaat door eiwitten die overcoaguleren door overmatige hitte. Preventie vereist precieze temperatuurcontrole, temperaturen onder 85°C (185°F) houden en geleidelijke verwarmingsmethoden gebruiken."
-        }
-      },
-      {
-        question: {
-          en: "What is the professional technique for testing custard doneness without a thermometer?",
-          es: "¿Cuál es la técnica profesional para probar la cocción de natillas sin termómetro?",
-          de: "Was ist die professionelle Technik zum Testen der Pudding-Fertigstellung ohne Thermometer?",
-          nl: "Wat is de professionele techniek voor het testen van custard gaarheid zonder thermometer?"
-        },
-        options: [
-          { en: "Taste for flavor development", es: "Probar para desarrollo de sabor", de: "Für Geschmacksentwicklung probieren", nl: "Proeven voor smaak ontwikkeling" },
-          { en: "Check if mixture coats spoon and finger test shows clear line", es: "Verificar si la mezcla cubre cuchara y prueba de dedo muestra línea clara", de: "Prüfen ob Mischung Löffel überzieht und Fingertest klare Linie zeigt", nl: "Controleren of mengsel lepel bedekt en vingertest duidelijke lijn toont" },
-          { en: "Look for color change only", es: "Buscar solo cambio de color", de: "Nur nach Farbwechsel suchen", nl: "Alleen zoeken naar kleurverandering" },
-          { en: "Time the cooking process exactly", es: "Cronometrar el proceso de cocción exactamente", de: "Den Kochvorgang genau timen", nl: "Het kookproces exact timen" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The professional nappe test involves coating a spoon with custard and drawing your finger across it. When properly cooked, the line remains clear and distinct, indicating proper thickening without overcooking.",
-          es: "La prueba profesional nappe involucra cubrir una cuchara con natillas y trazar tu dedo a través. Cuando está bien cocida, la línea permanece clara y distinta, indicando espesado adecuado sin exceso de cocción.",
-          de: "Der professionelle Nappe-Test beinhaltet das Überziehen eines Löffels mit Pudding und das Ziehen des Fingers darüber. Bei ordnungsgemäßer Zubereitung bleibt die Linie klar und deutlich, was ordnungsgemäße Verdickung ohne Überkochen anzeigt.",
-          nl: "De professionele nappe test houdt in dat een lepel met custard wordt bedekt en je vinger eroverheen trekt. Wanneer goed gekookt, blijft de lijn helder en duidelijk, wat goede verdikking zonder overkoken aangeeft."
-        }
-      },
-      {
-        question: {
-          en: "What professional storage method maintains custard quality for maximum time?",
-          es: "¿Qué método profesional de almacenamiento mantiene la calidad de natillas por máximo tiempo?",
-          de: "Welche professionelle Aufbewahrungsmethode erhält Pudding-Qualität für maximale Zeit?",
-          nl: "Welke professionele opslagmethode houdt custard kwaliteit voor maximale tijd?"
-        },
-        options: [
-          { en: "Refrigerate in original cooking pot", es: "Refrigerar en olla de cocción original", de: "Im ursprünglichen Kochtopf kühlen", nl: "Koelen in originele kookpan" },
-          { en: "Transfer to shallow containers, surface-contact plastic wrap, refrigerate", es: "Transferir a recipientes poco profundos, film plástico en contacto con superficie, refrigerar", de: "In flache Behälter umfüllen, oberflächenkontaktierender Plastikfolie, kühlen", nl: "Overbrengen naar ondiepe containers, oppervlakte-contact plastic folie, koelen" },
-          { en: "Store at room temperature in airtight container", es: "Almacenar a temperatura ambiente en recipiente hermético", de: "Bei Raumtemperatur in luftdichtem Behälter lagern", nl: "Bewaren op kamertemperatuur in luchtdichte container" },
-          { en: "Freeze immediately after cooking", es: "Congelar inmediatamente después de cocinar", de: "Sofort nach dem Kochen einfrieren", nl: "Onmiddellijk na koken invriezen" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "Professional storage involves transferring to shallow containers for faster cooling, covering with plastic wrap touching the surface to prevent skin formation, and refrigerating. This method maximizes quality and shelf life.",
-          es: "El almacenamiento profesional involucra transferir a recipientes poco profundos para enfriamiento más rápido, cubrir con film plástico tocando la superficie para prevenir formación de piel, y refrigerar. Este método maximiza calidad y vida útil.",
-          de: "Professionelle Lagerung beinhaltet Umfüllen in flache Behälter für schnellere Abkühlung, Abdecken mit Plastikfolie, die die Oberfläche berührt, um Hautbildung zu verhindern, und Kühlen. Diese Methode maximiert Qualität und Haltbarkeit.",
-          nl: "Professionele opslag houdt in dat het wordt overgebracht naar ondiepe containers voor snellere afkoeling, bedekt met plastic folie die het oppervlak raakt om velvorming te voorkomen, en gekoeld. Deze methode maximaliseert kwaliteit en houdbaarheid."
-        }
-      },
-      {
-        question: {
-          en: "What is the critical factor in preventing custard from breaking during the cooking process?",
-          es: "¿Cuál es el factor crítico para prevenir que las natillas se corten durante el proceso de cocción?",
-          de: "Was ist der kritische Faktor zur Verhinderung des Brechens von Pudding während des Kochvorgangs?",
-          nl: "Wat is de kritieke factor bij het voorkomen dat custard breekt tijdens het kookproces?"
-        },
-        options: [
-          { en: "Constant high heat for speed", es: "Calor alto constante para velocidad", de: "Konstante hohe Hitze für Geschwindigkeit", nl: "Constante hoge hitte voor snelheid" },
-          { en: "Gradual temperature increase with continuous gentle stirring", es: "Aumento gradual de temperatura con revuelto suave continuo", de: "Allmähliche Temperaturerhöhung mit kontinuierlichem sanftem Rühren", nl: "Geleidelijke temperatuurverhoging met continu zacht roeren" },
-          { en: "Adding all ingredients at once", es: "Agregar todos los ingredientes de una vez", de: "Alle Zutaten auf einmal hinzufügen", nl: "Alle ingrediënten tegelijk toevoegen" },
-          { en: "No stirring during cooking", es: "No revolver durante la cocción", de: "Kein Rühren während des Kochens", nl: "Geen roeren tijdens het koken" }
-        ],
-        correct: 1,
-        explanation: {
-          en: "The critical factor is gradual temperature increase with continuous gentle stirring. This prevents hot spots and protein shock, allowing the custard to thicken smoothly without curdling or breaking.",
-          es: "El factor crítico es el aumento gradual de temperatura con revuelto suave continuo. Esto previene puntos calientes y shock de proteínas, permitiendo que las natillas espesen suavemente sin cuajar o cortarse.",
-          de: "Der kritische Faktor ist allmähliche Temperaturerhöhung mit kontinuierlichem sanftem Rühren. Dies verhindert heiße Stellen und Proteinschock, wodurch der Pudding glatt verdicken kann ohne zu gerinnen oder zu brechen.",
-          nl: "De kritieke factor is geleidelijke temperatuurverhoging met continu zacht roeren. Dit voorkomt hete plekken en eiwit shock, waardoor de custard glad kan verdikken zonder te klonteren of te breken."
-        }
-      },
-      {
-        question: {
-          en: "What is the purpose of the water bath (bain-marie) when baking custards?",
-          es: "¿Cuál es el propósito del baño de agua (baño María) al hornear natillas?",
-          de: "Was ist der Zweck des Wasserbads (Bain-Marie) beim Backen von Pudding?",
-          nl: "Wat is het doel van het waterbad (bain-marie) bij het bakken van custards?"
-        },
-        options: [
-          { en: "Provides gentle, even heat to prevent curdling", es: "Proporciona calor suave y uniforme para prevenir cuajado", de: "Bietet sanfte, gleichmäßige Hitze zur Verhinderung des Gerinnens", nl: "Biedt zachte, gelijkmatige warmte om klontering te voorkomen" },
-          { en: "Adds moisture to the custard", es: "Añade humedad a las natillas", de: "Fügt dem Pudding Feuchtigkeit hinzu", nl: "Voegt vocht toe aan de custard" },
-          { en: "Speeds up cooking time", es: "Acelera el tiempo de cocción", de: "Beschleunigt die Kochzeit", nl: "Versnelt de kooktijd" },
-          { en: "Creates a crispy top", es: "Crea una superficie crujiente", de: "Erzeugt eine knusprige Oberseite", nl: "Creëert een knapperige bovenkant" }
         ],
         correct: 0,
         explanation: {
-          en: "A water bath provides gentle, indirect heat that prevents the custard from cooking too quickly and curdling, ensuring a smooth, silky texture.",
-          es: "Un baño de agua proporciona calor suave e indirecto que previene que las natillas se cocinen demasiado rápido y se cuajen, asegurando una textura suave y sedosa.",
-          de: "Ein Wasserbad bietet sanfte, indirekte Hitze, die verhindert, dass der Pudding zu schnell kocht und gerinnt, und eine glatte, seidige Textur gewährleistet.",
-          nl: "Een waterbad biedt zachte, indirecte warmte die voorkomt dat de custard te snel kookt en klontert, wat een gladde, zijdeachtige textuur verzekert."
+                  "en": "Professional custards are double-strained: first through a fine mesh sieve to remove any lumps, then through a coffee filter or very fine strainer to achieve restaurant-quality smoothness.",
+                  "es": "Las natillas profesionales se cuelan doblemente: primero a través de un tamiz de malla fina para eliminar grumos, luego a través de un filtro de café o colador muy fino para lograr suavidad de calidad de restaurante.",
+                  "de": "Professionelle Puddings werden doppelt abgeseiht: zuerst durch ein feines Sieb um Klumpen zu entfernen, dann durch einen Kaffeefilter oder sehr feinen Sieb für Restaurant-Qualität Glätte.",
+                  "nl": "Professionele custards worden dubbel gezeefd: eerst door een fijne zeef om klontjes te verwijderen, dan door een koffiefilter of zeer fijne zeef voor restaurant-kwaliteit gladheid."
         }
       },
       {
         question: {
-          en: "What causes custard to weep or separate after cooling?",
-          es: "¿Qué causa que las natillas lloren o se separen después de enfriarse?",
-          de: "Was verursacht, dass Pudding nach dem Abkühlen aussondert oder sich trennt?",
-          nl: "Wat veroorzaakt dat custard uitscheidt of scheidt na het afkoelen?"
+                  "en": "What is the optimal stirring technique during custard cooking?",
+                  "es": "¿Cuál es la técnica óptima de revolver durante la cocción de natillas?",
+                  "de": "Was ist die optimale Rührtechnik während des Pudding-Kochens?",
+                  "nl": "Wat is de optimale roertechniek tijdens het koken van custard?"
         },
         options: [
-          { en: "Overcooking or using too high temperature", es: "Cocinar demasiado o usar temperatura muy alta", de: "Überkochen oder zu hohe Temperatur verwenden", nl: "Overkoken of te hoge temperatuur gebruiken" },
-          { en: "Using fresh eggs", es: "Usar huevos frescos", de: "Frische Eier verwenden", nl: "Verse eieren gebruiken" },
-          { en: "Adding too much sugar", es: "Agregar demasiada azúcar", de: "Zu viel Zucker hinzufügen", nl: "Te veel suiker toevoegen" },
-          { en: "Cooling too slowly", es: "Enfriar demasiado lentamente", de: "Zu langsam abkühlen", nl: "Te langzaam afkoelen" }
+        {
+                  "en": "No stirring needed",
+                  "es": "No se necesita revolver",
+                  "de": "Kein Rühren nötig",
+                  "nl": "Geen roeren nodig"
+        },
+        {
+                  "en": "Circular motion only",
+                  "es": "Solo movimiento circular",
+                  "de": "Nur kreisförmige Bewegung",
+                  "nl": "Alleen cirkelvormige beweging"
+        },
+        {
+                  "en": "Figure-8 pattern with wooden spoon",
+                  "es": "Patrón de figura-8 con cuchara de madera",
+                  "de": "Achter-Muster mit Holzlöffel",
+                  "nl": "Figuur-8 patroon met houten lepel"
+        },
+        {
+                  "en": "Back and forth motion",
+                  "es": "Movimiento de ida y vuelta",
+                  "de": "Hin- und Her-Bewegung",
+                  "nl": "Heen en weer beweging"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "The figure-8 stirring pattern with a wooden spoon ensures even heat distribution and prevents hot spots that could cause curdling. The wooden spoon won't conduct heat and damage the custard.",
+                  "es": "El patrón de revolver en figura-8 con cuchara de madera asegura distribución uniforme del calor y previene puntos calientes que podrían causar cuajado. La cuchara de madera no conducirá calor y dañará las natillas.",
+                  "de": "Das Achter-Rührmuster mit einem Holzlöffel gewährleistet gleichmäßige Wärmeverteilung und verhindert heiße Stellen, die Gerinnung verursachen könnten. Der Holzlöffel leitet keine Wärme und beschädigt den Pudding nicht.",
+                  "nl": "Het figuur-8 roerpatroon met een houten lepel zorgt voor gelijkmatige warmteverdeling en voorkomt hete plekken die klontering kunnen veroorzaken. De houten lepel geleidt geen warmte en beschadigt de custard niet."
+        }
+      },
+      {
+        question: {
+                  "en": "What temperature should custard be cooled to before refrigeration to prevent condensation?",
+                  "es": "¿A qué temperatura debe enfriarse la natilla antes de la refrigeración para prevenir condensación?",
+                  "de": "Auf welche Temperatur sollte Pudding vor der Kühlung abgekühlt werden, um Kondensation zu verhindern?",
+                  "nl": "Tot welke temperatuur moet custard worden afgekoeld voor koeling om condensatie te voorkomen?"
+        },
+        options: [
+        {
+                  "en": "Can be refrigerated immediately",
+                  "es": "Puede refrigerarse inmediatamente",
+                  "de": "Kann sofort gekühlt werden",
+                  "nl": "Kan onmiddellijk gekoeld worden"
+        },
+        {
+                  "en": "50°C (122°F)",
+                  "es": "50°C (122°F)",
+                  "de": "50°C (122°F)",
+                  "nl": "50°C (122°F)"
+        },
+        {
+                  "en": "Body temperature (37°C/98°F)",
+                  "es": "Temperatura corporal (37°C/98°F)",
+                  "de": "Körpertemperatur (37°C/98°F)",
+                  "nl": "Lichaamstemperatuur (37°C/98°F)"
+        },
+        {
+                  "en": "Room temperature (20°C/68°F)",
+                  "es": "Temperatura ambiente (20°C/68°F)",
+                  "de": "Raumtemperatur (20°C/68°F)",
+                  "nl": "Kamertemperatuur (20°C/68°F)"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Custard should be cooled to room temperature before refrigeration to prevent condensation forming on the surface, which would create a watery layer and affect texture.",
+                  "es": "La natilla debe enfriarse a temperatura ambiente antes de la refrigeración para prevenir que se forme condensación en la superficie, lo que crearía una capa acuosa y afectaría la textura.",
+                  "de": "Pudding sollte vor der Kühlung auf Raumtemperatur abgekühlt werden, um Kondensation auf der Oberfläche zu verhindern, die eine wässrige Schicht bilden und die Textur beeinträchtigen würde.",
+                  "nl": "Custard moet worden afgekoeld tot kamertemperatuur voor koeling om condensatie op het oppervlak te voorkomen, wat een waterige laag zou creëren en de textuur zou beïnvloeden."
+        }
+      },
+      {
+        question: {
+                  "en": "What professional tool provides the most accurate temperature monitoring for custard?",
+                  "es": "¿Qué herramienta profesional proporciona el monitoreo de temperatura más preciso para natillas?",
+                  "de": "Welches professionelle Werkzeug bietet die genaueste Temperaturüberwachung für Pudding?",
+                  "nl": "Welk professioneel gereedschap biedt de meest nauwkeurige temperatuurcontrole voor custard?"
+        },
+        options: [
+        {
+                  "en": "Digital instant-read thermometer",
+                  "es": "Termómetro digital de lectura instantánea",
+                  "de": "Digitales Sofortthermometer",
+                  "nl": "Digitale direct-lees thermometer"
+        },
+        {
+                  "en": "Touch test with finger",
+                  "es": "Prueba táctil con dedo",
+                  "de": "Berührungstest mit dem Finger",
+                  "nl": "Aanraaktest met vinger"
+        },
+        {
+                  "en": "Analog candy thermometer",
+                  "es": "Termómetro analógico para dulces",
+                  "de": "Analoges Bonbonthermometer",
+                  "nl": "Analoge snoep thermometer"
+        },
+        {
+                  "en": "Visual assessment only",
+                  "es": "Solo evaluación visual",
+                  "de": "Nur visuelle Beurteilung",
+                  "nl": "Alleen visuele beoordeling"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Custard weeps when the proteins are overcoagulated from excessive heat, causing them to contract and squeeze out liquid, resulting in syneresis.",
-          es: "Las natillas lloran cuando las proteínas se coagulan excesivamente por calor excesivo, causando que se contraigan y expulsen líquido, resultando en sinéresis.",
-          de: "Pudding sondert aus, wenn die Proteine durch übermäßige Hitze überkoaguliert werden, wodurch sie sich zusammenziehen und Flüssigkeit ausdrücken, was zu Synerese führt.",
-          nl: "Custard scheidt uit wanneer de eiwitten te veel coaguleren door overmatige warmte, waardoor ze inkrimpen en vloeistof uitpersen, wat synerese veroorzaakt."
-        }    },
-    {
-      question: {
-        en: "What is the main thickening agent in custard?",
-        es: "What is the main thickening agent in custard?",
-        de: "What is the main thickening agent in custard?",
-        nl: "What is the main thickening agent in custard?"
+                  "en": "A digital instant-read thermometer provides the most accurate and immediate temperature readings, crucial for the precise temperature control required in professional custard making.",
+                  "es": "Un termómetro digital de lectura instantánea proporciona las lecturas de temperatura más precisas e inmediatas, crucial para el control preciso de temperatura requerido en la preparación profesional de natillas.",
+                  "de": "Ein digitales Sofortthermometer liefert die genauesten und sofortigsten Temperaturmessungen, entscheidend für die präzise Temperaturkontrolle, die bei der professionellen Pudding-Herstellung erforderlich ist.",
+                  "nl": "Een digitale direct-lees thermometer biedt de meest nauwkeurige en onmiddellijke temperatuurmetingen, cruciaal voor de precieze temperatuurcontrole vereist bij professionele custard bereiding."
+        }
       },
-      options: [
-        { en: "Eggs", es: "Eggs", de: "Eggs", nl: "Eggs" },
-        { en: "Flour", es: "Flour", de: "Flour", nl: "Flour" },
-        { en: "Cornstarch", es: "Cornstarch", de: "Cornstarch", nl: "Cornstarch" },
-        { en: "Gelatin", es: "Gelatin", de: "Gelatin", nl: "Gelatin" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Eggs are the primary thickening agent in custard, as the proteins coagulate when heated.",
-        es: "Eggs are the primary thickening agent in custard, as the proteins coagulate when heated.",
-        de: "Eggs are the primary thickening agent in custard, as the proteins coagulate when heated.",
-        nl: "Eggs are the primary thickening agent in custard, as the proteins coagulate when heated."
-      }
-    },
-    {
-      question: {
-        en: "What is crème brûlée?",
-        es: "What is crème brûlée?",
-        de: "What is crème brûlée?",
-        nl: "What is crème brûlée?"
+      {
+        question: {
+                  "en": "What causes 'weeping' in custard and how is it prevented professionally?",
+                  "es": "¿Qué causa el 'llorar' en las natillas y cómo se previene profesionalmente?",
+                  "de": "Was verursacht 'Weinen' im Pudding und wie wird es professionell verhindert?",
+                  "nl": "Wat veroorzaakt 'wenen' in custard en hoe wordt dit professioneel voorkomen?"
+        },
+        options: [
+        {
+                  "en": "Overcooking; prevent with precise temperature control",
+                  "es": "Exceso de cocción; prevenir con control preciso de temperatura",
+                  "de": "Überkochen; verhindern mit präziser Temperaturkontrolle",
+                  "nl": "Overkoken; voorkomen met precieze temperatuurcontrole"
+        },
+        {
+                  "en": "Insufficient eggs; add more egg yolks",
+                  "es": "Huevos insuficientes; agregar más yemas",
+                  "de": "Unzureichende Eier; mehr Eigelb hinzufügen",
+                  "nl": "Onvoldoende eieren; meer eidooiers toevoegen"
+        },
+        {
+                  "en": "Too much sugar; reduce sugar content",
+                  "es": "Demasiada azúcar; reducir contenido de azúcar",
+                  "de": "Zu viel Zucker; Zuckergehalt reduzieren",
+                  "nl": "Te veel suiker; suikergehalte verminderen"
+        },
+        {
+                  "en": "Wrong type of milk; use only whole milk",
+                  "es": "Tipo incorrecto de leche; usar solo leche entera",
+                  "de": "Falsche Milchsorte; nur Vollmilch verwenden",
+                  "nl": "Verkeerd type melk; gebruik alleen volle melk"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Weeping (syneresis) occurs when proteins over-coagulate from excessive heat, squeezing out liquid. Professional prevention involves precise temperature control, never exceeding optimal cooking temperatures.",
+                  "es": "El llorar (sinéresis) ocurre cuando las proteínas se sobre-coagulan por calor excesivo, exprimiendo líquido. La prevención profesional involucra control preciso de temperatura, nunca excediendo temperaturas óptimas de cocción.",
+                  "de": "Weinen (Synerese) tritt auf, wenn Proteine durch übermäßige Hitze überkoagulieren und Flüssigkeit herausdrücken. Professionelle Prävention beinhaltet präzise Temperaturkontrolle, niemals optimale Kochtemperaturen überschreiten.",
+                  "nl": "Wenen (synerese) treedt op wanneer eiwitten door overmatige hitte overcoaguleren, waardoor vloeistof wordt uitgeperst. Professionele preventie houdt precieze temperatuurcontrole in, nooit optimale kooktemperaturen overschrijden."
+        }
       },
-      options: [
-        { en: "Custard with caramelized sugar top", es: "Custard with caramelized sugar top", de: "Custard with caramelized sugar top", nl: "Custard with caramelized sugar top" },
-        { en: "Chocolate custard", es: "Chocolate custard", de: "Chocolate custard", nl: "Chocolate custard" },
-        { en: "Frozen custard", es: "Frozen custard", de: "Frozen custard", nl: "Frozen custard" },
-        { en: "Custard pie", es: "Custard pie", de: "Custard pie", nl: "Custard pie" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Crème brûlée is a rich custard dessert topped with a hard layer of caramelized sugar.",
-        es: "Crème brûlée is a rich custard dessert topped with a hard layer of caramelized sugar.",
-        de: "Crème brûlée is a rich custard dessert topped with a hard layer of caramelized sugar.",
-        nl: "Crème brûlée is a rich custard dessert topped with a hard layer of caramelized sugar."
-      }
-    },
-    {
-      question: {
-        en: "What temperature should custard reach to thicken?",
-        es: "What temperature should custard reach to thicken?",
-        de: "What temperature should custard reach to thicken?",
-        nl: "What temperature should custard reach to thicken?"
+      {
+        question: {
+                  "en": "What is the professional technique for incorporating gelatin into custard?",
+                  "es": "¿Cuál es la técnica profesional para incorporar gelatina en natillas?",
+                  "de": "Was ist die professionelle Technik zum Einarbeiten von Gelatine in Pudding?",
+                  "nl": "Wat is de professionele techniek voor het verwerken van gelatine in custard?"
+        },
+        options: [
+        {
+                  "en": "Add gelatin at the end when custard is cold",
+                  "es": "Agregar gelatina al final cuando las natillas estén frías",
+                  "de": "Gelatine am Ende hinzufügen, wenn der Pudding kalt ist",
+                  "nl": "Gelatine aan het eind toevoegen wanneer custard koud is"
+        },
+        {
+                  "en": "Bloom gelatin in cold water, then dissolve in warm custard",
+                  "es": "Hinchar gelatina en agua fría, luego disolver en natillas tibias",
+                  "de": "Gelatine in kaltem Wasser quellen lassen, dann in warmem Pudding auflösen",
+                  "nl": "Gelatine laten zwellen in koud water, dan oplossen in warme custard"
+        },
+        {
+                  "en": "Mix gelatin with sugar first",
+                  "es": "Mezclar gelatina con azúcar primero",
+                  "de": "Gelatine zuerst mit Zucker mischen",
+                  "nl": "Gelatine eerst met suiker mengen"
+        },
+        {
+                  "en": "Add gelatin powder directly to hot custard",
+                  "es": "Agregar polvo de gelatina directamente a natillas calientes",
+                  "de": "Gelatinepulver direkt zu heißem Pudding hinzufügen",
+                  "nl": "Gelatinepoeder direct aan hete custard toevoegen"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Professional technique involves blooming gelatin in cold water to hydrate it, then dissolving the bloomed gelatin in warm (not hot) custard to prevent protein damage and ensure smooth incorporation.",
+                  "es": "La técnica profesional involucra hinchar gelatina en agua fría para hidratarla, luego disolver la gelatina hinchada en natillas tibias (no calientes) para prevenir daño a las proteínas y asegurar incorporación suave.",
+                  "de": "Die professionelle Technik beinhaltet das Quellenlassen von Gelatine in kaltem Wasser zur Hydratation, dann das Auflösen der gequollenen Gelatine in warmem (nicht heißem) Pudding, um Proteinschäden zu verhindern und glatte Einarbeitung zu gewährleisten.",
+                  "nl": "Professionele techniek houdt in dat gelatine wordt gezwollen in koud water om het te hydrateren, vervolgens de gezwollen gelatine oplossen in warme (niet hete) custard om eiwitschade te voorkomen en gladde verwerking te verzekeren."
+        }
       },
-      options: [
-        { en: "170-180°F (77-82°C)", es: "170-180°F (77-82°C)", de: "170-180°F (77-82°C)", nl: "170-180°F (77-82°C)" },
-        { en: "212°F (100°C)", es: "212°F (100°C)", de: "212°F (100°C)", nl: "212°F (100°C)" },
-        { en: "140°F (60°C)", es: "140°F (60°C)", de: "140°F (60°C)", nl: "140°F (60°C)" },
-        { en: "200°F (93°C)", es: "200°F (93°C)", de: "200°F (93°C)", nl: "200°F (93°C)" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Custard thickens when eggs coagulate at 170-180°F; higher temperatures risk curdling.",
-        es: "Custard thickens when eggs coagulate at 170-180°F; higher temperatures risk curdling.",
-        de: "Custard thickens when eggs coagulate at 170-180°F; higher temperatures risk curdling.",
-        nl: "Custard thickens when eggs coagulate at 170-180°F; higher temperatures risk curdling."
-      }
-    },
-    {
-      question: {
-        en: "What is flan?",
-        es: "What is flan?",
-        de: "What is flan?",
-        nl: "What is flan?"
+      {
+        question: {
+                  "en": "What is the ideal ratio of egg yolks to liquid for a standard crème anglaise?",
+                  "es": "¿Cuál es la proporción ideal de yemas de huevo a líquido para una crème anglaise estándar?",
+                  "de": "Was ist das ideale Verhältnis von Eigelb zu Flüssigkeit für eine Standard-Crème Anglaise?",
+                  "nl": "Wat is de ideale verhouding van eidooiers tot vloeistof voor een standaard crème anglaise?"
+        },
+        options: [
+        {
+                  "en": "4 yolks per 250ml liquid",
+                  "es": "4 yemas por 250ml de líquido",
+                  "de": "4 Eigelb pro 250ml Flüssigkeit",
+                  "nl": "4 dooiers per 250ml vloeistof"
+        },
+        {
+                  "en": "10 yolks per 250ml liquid",
+                  "es": "10 yemas por 250ml de líquido",
+                  "de": "10 Eigelb pro 250ml Flüssigkeit",
+                  "nl": "10 dooiers per 250ml vloeistof"
+        },
+        {
+                  "en": "6 yolks per 500ml liquid",
+                  "es": "6 yemas por 500ml de líquido",
+                  "de": "6 Eigelb pro 500ml Flüssigkeit",
+                  "nl": "6 dooiers per 500ml vloeistof"
+        },
+        {
+                  "en": "8 yolks per 1000ml liquid",
+                  "es": "8 yemas por 1000ml de líquido",
+                  "de": "8 Eigelb pro 1000ml Flüssigkeit",
+                  "nl": "8 dooiers per 1000ml vloeistof"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "The professional standard for crème anglaise is 6 egg yolks per 500ml of liquid (milk/cream mixture). This ratio provides optimal richness and thickening power without being overly eggy.",
+                  "es": "El estándar profesional para crème anglaise es 6 yemas de huevo por 500ml de líquido (mezcla leche/nata). Esta proporción proporciona riqueza óptima y poder espesante sin ser excesivamente a huevo.",
+                  "de": "Der professionelle Standard für Crème Anglaise ist 6 Eigelb pro 500ml Flüssigkeit (Milch/Sahne-Mischung). Dieses Verhältnis bietet optimale Reichhaltigkeit und Verdickungskraft ohne zu sehr nach Ei zu schmecken.",
+                  "nl": "De professionele standaard voor crème anglaise is 6 eidooiers per 500ml vloeistof (melk/room mengsel). Deze verhouding biedt optimale rijkdom en verdikkingskracht zonder te erg naar ei te smaken."
+        }
       },
-      options: [
-        { en: "Caramel-topped custard dessert", es: "Caramel-topped custard dessert", de: "Caramel-topped custard dessert", nl: "Caramel-topped custard dessert" },
-        { en: "Chocolate pudding", es: "Chocolate pudding", de: "Chocolate pudding", nl: "Chocolate pudding" },
-        { en: "Cream pie", es: "Cream pie", de: "Cream pie", nl: "Cream pie" },
-        { en: "Frozen dessert", es: "Frozen dessert", de: "Frozen dessert", nl: "Frozen dessert" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Flan is a baked custard dessert with a layer of soft caramel on top, popular in Latin American and European cuisines.",
-        es: "Flan is a baked custard dessert with a layer of soft caramel on top, popular in Latin American and European cuisines.",
-        de: "Flan is a baked custard dessert with a layer of soft caramel on top, popular in Latin American and European cuisines.",
-        nl: "Flan is a baked custard dessert with a layer of soft caramel on top, popular in Latin American and European cuisines."
-      }
-    },
-    {
-      question: {
-        en: "What is the difference between custard and pudding?",
-        es: "What is the difference between custard and pudding?",
-        de: "What is the difference between custard and pudding?",
-        nl: "What is the difference between custard and pudding?"
+      {
+        question: {
+                  "en": "What professional technique prevents skin formation on cooling custard?",
+                  "es": "¿Qué técnica profesional previene la formación de piel en natillas que se enfrían?",
+                  "de": "Welche professionelle Technik verhindert Hautbildung auf abkühlendem Pudding?",
+                  "nl": "Welke professionele techniek voorkomt velvorming op afkoelende custard?"
+        },
+        options: [
+        {
+                  "en": "Cover with plastic wrap directly touching surface",
+                  "es": "Cubrir con film plástico tocando directamente la superficie",
+                  "de": "Mit Plastikfolie abdecken, die direkt die Oberfläche berührt",
+                  "nl": "Bedekken met plastic folie die direct het oppervlak raakt"
+        },
+        {
+                  "en": "Leave uncovered to air dry",
+                  "es": "Dejar descubierto para secar al aire",
+                  "de": "Unbedeckt zum Lufttrocknen lassen",
+                  "nl": "Onbedekt laten om aan de lucht te drogen"
+        },
+        {
+                  "en": "Cover with loose cloth",
+                  "es": "Cubrir con tela suelta",
+                  "de": "Mit lockerem Tuch abdecken",
+                  "nl": "Bedekken met losse doek"
+        },
+        {
+                  "en": "Stir continuously while cooling",
+                  "es": "Revolver continuamente mientras se enfría",
+                  "de": "Kontinuierlich rühren während des Abkühlens",
+                  "nl": "Continu roeren tijdens het afkoelen"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Professional technique involves placing plastic wrap directly on the custard surface to prevent air contact, which causes skin formation. This creates an airtight seal while maintaining surface smoothness.",
+                  "es": "La técnica profesional involucra colocar film plástico directamente en la superficie de las natillas para prevenir contacto con aire, que causa formación de piel. Esto crea un sello hermético mientras mantiene la suavidad de la superficie.",
+                  "de": "Die professionelle Technik beinhaltet das Platzieren von Plastikfolie direkt auf der Pudding-Oberfläche, um Luftkontakt zu verhindern, der Hautbildung verursacht. Dies schafft eine luftdichte Versiegelung bei Erhaltung der Oberflächenglätte.",
+                  "nl": "Professionele techniek houdt in dat plastic folie direct op het custard oppervlak wordt geplaatst om luchtcontact te voorkomen, wat velvorming veroorzaakt. Dit creëert een luchtdichte afsluiting terwijl de oppervlakte gladheid behouden blijft."
+        }
       },
-      options: [
-        { en: "Custard uses eggs as thickener; pudding often uses starch", es: "Custard uses eggs as thickener; pudding often uses starch", de: "Custard uses eggs as thickener; pudding often uses starch", nl: "Custard uses eggs as thickener; pudding often uses starch" },
-        { en: "No difference", es: "No difference", de: "No difference", nl: "No difference" },
-        { en: "Custard is frozen", es: "Custard is frozen", de: "Custard is frozen", nl: "Custard is frozen" },
-        { en: "Pudding is baked", es: "Pudding is baked", de: "Pudding is baked", nl: "Pudding is baked" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Custard is thickened primarily with eggs, while pudding often uses cornstarch or other starches as thickeners.",
-        es: "Custard is thickened primarily with eggs, while pudding often uses cornstarch or other starches as thickeners.",
-        de: "Custard is thickened primarily with eggs, while pudding often uses cornstarch or other starches as thickeners.",
-        nl: "Custard is thickened primarily with eggs, while pudding often uses cornstarch or other starches as thickeners."
-      }
-    },
-    {
-      question: {
-        en: "What is pastry cream?",
-        es: "What is pastry cream?",
-        de: "What is pastry cream?",
-        nl: "What is pastry cream?"
+      {
+        question: {
+                  "en": "What is the maximum safe holding time for freshly made custard at room temperature?",
+                  "es": "¿Cuál es el tiempo máximo seguro de conservación para natillas recién hechas a temperatura ambiente?",
+                  "de": "Was ist die maximale sichere Aufbewahrungszeit für frisch gemachten Pudding bei Raumtemperatur?",
+                  "nl": "Wat is de maximale veilige bewaartijd voor vers gemaakte custard op kamertemperatuur?"
+        },
+        options: [
+        {
+                  "en": "2 hours",
+                  "es": "2 horas",
+                  "de": "2 Stunden",
+                  "nl": "2 uur"
+        },
+        {
+                  "en": "1 hour",
+                  "es": "1 hora",
+                  "de": "1 Stunde",
+                  "nl": "1 uur"
+        },
+        {
+                  "en": "4 hours",
+                  "es": "4 horas",
+                  "de": "4 Stunden",
+                  "nl": "4 uur"
+        },
+        {
+                  "en": "30 minutes",
+                  "es": "30 minutos",
+                  "de": "30 Minuten",
+                  "nl": "30 minuten"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Professional food safety standards specify maximum 2 hours at room temperature for custard. Beyond this time, bacterial growth becomes dangerous. This is part of the 'danger zone' (4-60°C) guidelines.",
+                  "es": "Los estándares profesionales de seguridad alimentaria especifican máximo 2 horas a temperatura ambiente para natillas. Más allá de este tiempo, el crecimiento bacteriano se vuelve peligroso. Esto es parte de las directrices de 'zona peligrosa' (4-60°C).",
+                  "de": "Professionelle Lebensmittelsicherheitsstandards spezifizieren maximal 2 Stunden bei Raumtemperatur für Pudding. Darüber hinaus wird bakterielles Wachstum gefährlich. Dies ist Teil der 'Gefahrenzone' (4-60°C) Richtlinien.",
+                  "nl": "Professionele voedselveiligheidsstandaarden specificeren maximaal 2 uur op kamertemperatuur voor custard. Na deze tijd wordt bacteriegroei gevaarlijk. Dit is onderdeel van de 'gevaarzone' (4-60°C) richtlijnen."
+        }
       },
-      options: [
-        { en: "Thick custard with cornstarch for stability", es: "Thick custard with cornstarch for stability", de: "Thick custard with cornstarch for stability", nl: "Thick custard with cornstarch for stability" },
-        { en: "Whipped cream", es: "Whipped cream", de: "Whipped cream", nl: "Whipped cream" },
-        { en: "Cream cheese frosting", es: "Cream cheese frosting", de: "Cream cheese frosting", nl: "Cream cheese frosting" },
-        { en: "Buttercream", es: "Buttercream", de: "Buttercream", nl: "Buttercream" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pastry cream (crème pâtissière) is custard stabilized with cornstarch or flour, used as filling for pastries and desserts.",
-        es: "Pastry cream (crème pâtissière) is custard stabilized with cornstarch or flour, used as filling for pastries and desserts.",
-        de: "Pastry cream (crème pâtissière) is custard stabilized with cornstarch or flour, used as filling for pastries and desserts.",
-        nl: "Pastry cream (crème pâtissière) is custard stabilized with cornstarch or flour, used as filling for pastries and desserts."
-      }
-    },
-    {
-      question: {
-        en: "What causes custard to curdle?",
-        es: "What causes custard to curdle?",
-        de: "What causes custard to curdle?",
-        nl: "What causes custard to curdle?"
+      {
+        question: {
+                  "en": "What professional method ensures even cooking when making large batches of custard?",
+                  "es": "¿Qué método profesional asegura cocción uniforme al hacer grandes lotes de natillas?",
+                  "de": "Welche professionelle Methode gewährleistet gleichmäßiges Kochen beim Herstellen großer Pudding-Chargen?",
+                  "nl": "Welke professionele methode zorgt voor gelijkmatig koken bij het maken van grote batches custard?"
+        },
+        options: [
+        {
+                  "en": "Double boiler method with constant stirring",
+                  "es": "Método de baño maría con revuelto constante",
+                  "de": "Wasserbad-Methode mit konstantem Rühren",
+                  "nl": "Dubbele ketel methode met constant roeren"
+        },
+        {
+                  "en": "Use highest heat setting for speed",
+                  "es": "Usar el ajuste de calor más alto para velocidad",
+                  "de": "Höchste Hitzeeinstellung für Geschwindigkeit verwenden",
+                  "nl": "Hoogste warmte-instelling gebruiken voor snelheid"
+        },
+        {
+                  "en": "Microwave in intervals",
+                  "es": "Microondas en intervalos",
+                  "de": "Mikrowelle in Intervallen",
+                  "nl": "Magnetron in intervallen"
+        },
+        {
+                  "en": "Oven baking only",
+                  "es": "Solo horneado en horno",
+                  "de": "Nur Ofenbacken",
+                  "nl": "Alleen oven bakken"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Double boiler method with constant stirring ensures even, gentle heating for large batches. This prevents hot spots and scorching while maintaining consistent temperature throughout the mixture.",
+                  "es": "El método de baño maría con revuelto constante asegura calentamiento uniforme y suave para grandes lotes. Esto previene puntos calientes y quemado mientras mantiene temperatura consistente en toda la mezcla.",
+                  "de": "Die Wasserbad-Methode mit konstantem Rühren gewährleistet gleichmäßige, sanfte Erhitzung für große Chargen. Dies verhindert heiße Stellen und Anbrennen bei gleichzeitiger Aufrechterhaltung konstanter Temperatur in der gesamten Mischung.",
+                  "nl": "De dubbele ketel methode met constant roeren zorgt voor gelijkmatige, zachte verwarming voor grote batches. Dit voorkomt hete plekken en aanbranden terwijl een consistente temperatuur door het hele mengsel wordt gehandhaafd."
+        }
       },
-      options: [
-        { en: "Too high heat or overcooking", es: "Too high heat or overcooking", de: "Too high heat or overcooking", nl: "Too high heat or overcooking" },
-        { en: "Too much sugar", es: "Too much sugar", de: "Too much sugar", nl: "Too much sugar" },
-        { en: "Not enough eggs", es: "Not enough eggs", de: "Not enough eggs", nl: "Not enough eggs" },
-        { en: "Cold temperature", es: "Cold temperature", de: "Cold temperature", nl: "Cold temperature" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Custard curdles when heated too quickly or to too high a temperature, causing egg proteins to separate.",
-        es: "Custard curdles when heated too quickly or to too high a temperature, causing egg proteins to separate.",
-        de: "Custard curdles when heated too quickly or to too high a temperature, causing egg proteins to separate.",
-        nl: "Custard curdles when heated too quickly or to too high a temperature, causing egg proteins to separate."
-      }
-    },
-    {
-      question: {
-        en: "What is a water bath (bain-marie) used for in custard baking?",
-        es: "What is a water bath (bain-marie) used for in custard baking?",
-        de: "What is a water bath (bain-marie) used for in custard baking?",
-        nl: "What is a water bath (bain-marie) used for in custard baking?"
+      {
+        question: {
+                  "en": "What ingredient ratio adjustment is needed when scaling custard recipes up significantly?",
+                  "es": "¿Qué ajuste de proporción de ingredientes se necesita al escalar recetas de natillas significativamente?",
+                  "de": "Welche Anpassung des Zutatenanteils ist erforderlich beim deutlichen Hochskalieren von Pudding-Rezepten?",
+                  "nl": "Welke ingrediënt verhouding aanpassing is nodig bij het significant opschalen van custard recepten?"
+        },
+        options: [
+        {
+                  "en": "Increase thickening agents per unit",
+                  "es": "Aumentar agentes espesantes por unidad",
+                  "de": "Verdickungsmittel pro Einheit erhöhen",
+                  "nl": "Verdikkingsmiddelen per eenheid verhogen"
+        },
+        {
+                  "en": "Double all thickening agents",
+                  "es": "Duplicar todos los agentes espesantes",
+                  "de": "Alle Verdickungsmittel verdoppeln",
+                  "nl": "Alle verdikkingsmiddelen verdubbelen"
+        },
+        {
+                  "en": "Slightly reduce thickening agents per unit",
+                  "es": "Reducir ligeramente agentes espesantes por unidad",
+                  "de": "Verdickungsmittel pro Einheit leicht reduzieren",
+                  "nl": "Verdikkingsmiddelen per eenheid licht verminderen"
+        },
+        {
+                  "en": "All ingredients scale proportionally",
+                  "es": "Todos los ingredientes escalan proporcionalmente",
+                  "de": "Alle Zutaten skalieren proportional",
+                  "nl": "Alle ingrediënten schalen proportioneel"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "When scaling up significantly, thickening agents (eggs, starch) should be slightly reduced per unit as larger volumes naturally create more thickening power through increased cooking time and surface area effects.",
+                  "es": "Al escalar significativamente, los agentes espesantes (huevos, almidón) deben reducirse ligeramente por unidad ya que volúmenes más grandes naturalmente crean más poder espesante a través de mayor tiempo de cocción y efectos de área de superficie.",
+                  "de": "Beim deutlichen Hochskalieren sollten Verdickungsmittel (Eier, Stärke) pro Einheit leicht reduziert werden, da größere Volumina natürlich mehr Verdickungskraft durch längere Kochzeit und Oberflächeneffekte erzeugen.",
+                  "nl": "Bij significant opschalen moeten verdikkingsmiddelen (eieren, zetmeel) per eenheid licht worden verminderd omdat grotere volumes natuurlijk meer verdikkingskracht creëren door langere kooktijd en oppervlakte-effecten."
+        }
       },
-      options: [
-        { en: "Gentle, even heat to prevent curdling", es: "Gentle, even heat to prevent curdling", de: "Gentle, even heat to prevent curdling", nl: "Gentle, even heat to prevent curdling" },
-        { en: "Speed up cooking", es: "Speed up cooking", de: "Speed up cooking", nl: "Speed up cooking" },
-        { en: "Add moisture", es: "Add moisture", de: "Add moisture", nl: "Add moisture" },
-        { en: "Cool down custard", es: "Cool down custard", de: "Cool down custard", nl: "Cool down custard" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A water bath provides gentle, even heat that prevents custard from overheating and curdling.",
-        es: "A water bath provides gentle, even heat that prevents custard from overheating and curdling.",
-        de: "A water bath provides gentle, even heat that prevents custard from overheating and curdling.",
-        nl: "A water bath provides gentle, even heat that prevents custard from overheating and curdling."
-      }
-    },
-    {
-      question: {
-        en: "What is pot de crème?",
-        es: "What is pot de crème?",
-        de: "What is pot de crème?",
-        nl: "What is pot de crème?"
+      {
+        question: {
+                  "en": "What is the professional standard for custard consistency when properly cooked?",
+                  "es": "¿Cuál es el estándar profesional para la consistencia de natillas cuando está bien cocida?",
+                  "de": "Was ist der professionelle Standard für Pudding-Konsistenz bei ordnungsgemäßer Zubereitung?",
+                  "nl": "Wat is de professionele standaard voor custard consistentie wanneer goed gekookt?"
+        },
+        options: [
+        {
+                  "en": "Coats spoon and maintains line when finger drawn through",
+                  "es": "Cubre cuchara y mantiene línea cuando se traza dedo a través",
+                  "de": "Überzieht Löffel und hält Linie bei Fingerdurchzug",
+                  "nl": "Bedekt lepel en houdt lijn vast wanneer vinger erdoor wordt getrokken"
+        },
+        {
+                  "en": "Thick enough to stand upright",
+                  "es": "Suficientemente espesa para mantenerse derecha",
+                  "de": "Dick genug um aufrecht zu stehen",
+                  "nl": "Dik genoeg om rechtop te staan"
+        },
+        {
+                  "en": "Thin and pourable like cream",
+                  "es": "Fina y vertible como nata",
+                  "de": "Dünn und gießbar wie Sahne",
+                  "nl": "Dun en gietbaar zoals room"
+        },
+        {
+                  "en": "Consistency of yogurt",
+                  "es": "Consistencia de yogur",
+                  "de": "Konsistenz von Joghurt",
+                  "nl": "Consistentie van yoghurt"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "The professional standard is the nappe test: custard should coat a spoon and when you draw your finger through it, the line should remain clear and distinct without immediately flowing back together.",
+                  "es": "El estándar profesional es la prueba nappe: las natillas deben cubrir una cuchara y cuando trazas tu dedo a través, la línea debe permanecer clara y distinta sin fluir inmediatamente de vuelta juntas.",
+                  "de": "Der professionelle Standard ist der Nappe-Test: Pudding sollte einen Löffel überziehen und wenn man den Finger hindurchzieht, sollte die Linie klar und deutlich bleiben ohne sofort zusammenzufließen.",
+                  "nl": "De professionele standaard is de nappe test: custard moet een lepel bedekken en wanneer je je vinger erdoor trekt, moet de lijn helder en duidelijk blijven zonder onmiddellijk weer samen te vloeien."
+        }
       },
-      options: [
-        { en: "French baked custard dessert", es: "French baked custard dessert", de: "French baked custard dessert", nl: "French baked custard dessert" },
-        { en: "Chocolate mousse", es: "Chocolate mousse", de: "Chocolate mousse", nl: "Chocolate mousse" },
-        { en: "Whipped cream", es: "Whipped cream", de: "Whipped cream", nl: "Whipped cream" },
-        { en: "Ice cream", es: "Ice cream", de: "Ice cream", nl: "Ice cream" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pot de crème is a French dessert of rich, creamy baked custard served in small pots or ramekins.",
-        es: "Pot de crème is a French dessert of rich, creamy baked custard served in small pots or ramekins.",
-        de: "Pot de crème is a French dessert of rich, creamy baked custard served in small pots or ramekins.",
-        nl: "Pot de crème is a French dessert of rich, creamy baked custard served in small pots or ramekins."
-      }
-    },
-    {
-      question: {
-        en: "What is zabaglione?",
-        es: "What is zabaglione?",
-        de: "What is zabaglione?",
-        nl: "What is zabaglione?"
+      {
+        question: {
+                  "en": "What causes custard to develop a grainy texture and how is it prevented?",
+                  "es": "¿Qué causa que las natillas desarrollen una textura granulosa y cómo se previene?",
+                  "de": "Was verursacht, dass Pudding eine körnige Textur entwickelt und wie wird es verhindert?",
+                  "nl": "Wat veroorzaakt dat custard een korrelige textuur ontwikkelt en hoe wordt dit voorkomen?"
+        },
+        options: [
+        {
+                  "en": "Wrong type of milk; use skim milk only",
+                  "es": "Tipo incorrecto de leche; usar solo leche descremada",
+                  "de": "Falsche Milchsorte; nur Magermilch verwenden",
+                  "nl": "Verkeerd type melk; gebruik alleen magere melk"
+        },
+        {
+                  "en": "Insufficient mixing; stir more vigorously",
+                  "es": "Mezcla insuficiente; revolver más vigorosamente",
+                  "de": "Unzureichendes Mischen; kräftiger rühren",
+                  "nl": "Onvoldoende mengen; krachtiger roeren"
+        },
+        {
+                  "en": "Egg proteins coagulating; maintain proper temperature control",
+                  "es": "Proteínas del huevo coagulando; mantener control adecuado de temperatura",
+                  "de": "Eiweiße koagulieren; ordnungsgemäße Temperaturkontrolle aufrechterhalten",
+                  "nl": "Eieiwitten coaguleren; juiste temperatuurcontrole handhaven"
+        },
+        {
+                  "en": "Too much sugar; reduce sugar content",
+                  "es": "Demasiada azúcar; reducir contenido de azúcar",
+                  "de": "Zu viel Zucker; Zuckergehalt reduzieren",
+                  "nl": "Te veel suiker; suikergehalte verminderen"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Grainy texture results from egg proteins over-coagulating due to excessive heat. Prevention requires precise temperature control, keeping temperatures below 85°C (185°F) and using gradual heating methods.",
+                  "es": "La textura granulosa resulta de proteínas del huevo sobre-coagulando debido a calor excesivo. La prevención requiere control preciso de temperatura, manteniendo temperaturas debajo de 85°C (185°F) y usando métodos de calentamiento gradual.",
+                  "de": "Körnige Textur resultiert aus Eiweiß-Überkoagulation aufgrund übermäßiger Hitze. Prävention erfordert präzise Temperaturkontrolle, Temperaturen unter 85°C (185°F) halten und allmähliche Erhitzungsmethoden verwenden.",
+                  "nl": "Korrelige textuur ontstaat door eiwitten die overcoaguleren door overmatige hitte. Preventie vereist precieze temperatuurcontrole, temperaturen onder 85°C (185°F) houden en geleidelijke verwarmingsmethoden gebruiken."
+        }
       },
-      options: [
-        { en: "Italian custard made with egg yolks, sugar, and wine", es: "Italian custard made with egg yolks, sugar, and wine", de: "Italian custard made with egg yolks, sugar, and wine", nl: "Italian custard made with egg yolks, sugar, and wine" },
-        { en: "French custard", es: "French custard", de: "French custard", nl: "French custard" },
-        { en: "Chocolate pudding", es: "Chocolate pudding", de: "Chocolate pudding", nl: "Chocolate pudding" },
-        { en: "Frozen custard", es: "Frozen custard", de: "Frozen custard", nl: "Frozen custard" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Zabaglione (sabayon in French) is a light Italian custard made by whisking egg yolks, sugar, and sweet wine over heat.",
-        es: "Zabaglione (sabayon in French) is a light Italian custard made by whisking egg yolks, sugar, and sweet wine over heat.",
-        de: "Zabaglione (sabayon in French) is a light Italian custard made by whisking egg yolks, sugar, and sweet wine over heat.",
-        nl: "Zabaglione (sabayon in French) is a light Italian custard made by whisking egg yolks, sugar, and sweet wine over heat."
-      }
-    },
-    {
-      question: {
-        en: "What is the purpose of tempering eggs when making custard?",
-        es: "What is the purpose of tempering eggs when making custard?",
-        de: "What is the purpose of tempering eggs when making custard?",
-        nl: "What is the purpose of tempering eggs when making custard?"
+      {
+        question: {
+                  "en": "What is the professional technique for testing custard doneness without a thermometer?",
+                  "es": "¿Cuál es la técnica profesional para probar la cocción de natillas sin termómetro?",
+                  "de": "Was ist die professionelle Technik zum Testen der Pudding-Fertigstellung ohne Thermometer?",
+                  "nl": "Wat is de professionele techniek voor het testen van custard gaarheid zonder thermometer?"
+        },
+        options: [
+        {
+                  "en": "Check if mixture coats spoon and finger test shows clear line",
+                  "es": "Verificar si la mezcla cubre cuchara y prueba de dedo muestra línea clara",
+                  "de": "Prüfen ob Mischung Löffel überzieht und Fingertest klare Linie zeigt",
+                  "nl": "Controleren of mengsel lepel bedekt en vingertest duidelijke lijn toont"
+        },
+        {
+                  "en": "Taste for flavor development",
+                  "es": "Probar para desarrollo de sabor",
+                  "de": "Für Geschmacksentwicklung probieren",
+                  "nl": "Proeven voor smaak ontwikkeling"
+        },
+        {
+                  "en": "Time the cooking process exactly",
+                  "es": "Cronometrar el proceso de cocción exactamente",
+                  "de": "Den Kochvorgang genau timen",
+                  "nl": "Het kookproces exact timen"
+        },
+        {
+                  "en": "Look for color change only",
+                  "es": "Buscar solo cambio de color",
+                  "de": "Nur nach Farbwechsel suchen",
+                  "nl": "Alleen zoeken naar kleurverandering"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "The professional nappe test involves coating a spoon with custard and drawing your finger across it. When properly cooked, the line remains clear and distinct, indicating proper thickening without overcooking.",
+                  "es": "La prueba profesional nappe involucra cubrir una cuchara con natillas y trazar tu dedo a través. Cuando está bien cocida, la línea permanece clara y distinta, indicando espesado adecuado sin exceso de cocción.",
+                  "de": "Der professionelle Nappe-Test beinhaltet das Überziehen eines Löffels mit Pudding und das Ziehen des Fingers darüber. Bei ordnungsgemäßer Zubereitung bleibt die Linie klar und deutlich, was ordnungsgemäße Verdickung ohne Überkochen anzeigt.",
+                  "nl": "De professionele nappe test houdt in dat een lepel met custard wordt bedekt en je vinger eroverheen trekt. Wanneer goed gekookt, blijft de lijn helder en duidelijk, wat goede verdikking zonder overkoken aangeeft."
+        }
       },
-      options: [
-        { en: "Gradually raise temperature to prevent curdling", es: "Gradually raise temperature to prevent curdling", de: "Gradually raise temperature to prevent curdling", nl: "Gradually raise temperature to prevent curdling" },
-        { en: "Add flavor", es: "Add flavor", de: "Add flavor", nl: "Add flavor" },
-        { en: "Thicken faster", es: "Thicken faster", de: "Thicken faster", nl: "Thicken faster" },
-        { en: "Change color", es: "Change color", de: "Change color", nl: "Change color" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Tempering involves slowly adding hot liquid to eggs while whisking to gradually raise their temperature without cooking them into scrambled eggs.",
-        es: "Tempering involves slowly adding hot liquid to eggs while whisking to gradually raise their temperature without cooking them into scrambled eggs.",
-        de: "Tempering involves slowly adding hot liquid to eggs while whisking to gradually raise their temperature without cooking them into scrambled eggs.",
-        nl: "Tempering involves slowly adding hot liquid to eggs while whisking to gradually raise their temperature without cooking them into scrambled eggs."
-      }
-    },
-    {
-      question: {
-        en: "What is crème anglaise?",
-        es: "What is crème anglaise?",
-        de: "What is crème anglaise?",
-        nl: "What is crème anglaise?"
+      {
+        question: {
+                  "en": "What professional storage method maintains custard quality for maximum time?",
+                  "es": "¿Qué método profesional de almacenamiento mantiene la calidad de natillas por máximo tiempo?",
+                  "de": "Welche professionelle Aufbewahrungsmethode erhält Pudding-Qualität für maximale Zeit?",
+                  "nl": "Welke professionele opslagmethode houdt custard kwaliteit voor maximale tijd?"
+        },
+        options: [
+        {
+                  "en": "Freeze immediately after cooking",
+                  "es": "Congelar inmediatamente después de cocinar",
+                  "de": "Sofort nach dem Kochen einfrieren",
+                  "nl": "Onmiddellijk na koken invriezen"
+        },
+        {
+                  "en": "Refrigerate in original cooking pot",
+                  "es": "Refrigerar en olla de cocción original",
+                  "de": "Im ursprünglichen Kochtopf kühlen",
+                  "nl": "Koelen in originele kookpan"
+        },
+        {
+                  "en": "Transfer to shallow containers, surface-contact plastic wrap, refrigerate",
+                  "es": "Transferir a recipientes poco profundos, film plástico en contacto con superficie, refrigerar",
+                  "de": "In flache Behälter umfüllen, oberflächenkontaktierender Plastikfolie, kühlen",
+                  "nl": "Overbrengen naar ondiepe containers, oppervlakte-contact plastic folie, koelen"
+        },
+        {
+                  "en": "Store at room temperature in airtight container",
+                  "es": "Almacenar a temperatura ambiente en recipiente hermético",
+                  "de": "Bei Raumtemperatur in luftdichtem Behälter lagern",
+                  "nl": "Bewaren op kamertemperatuur in luchtdichte container"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Professional storage involves transferring to shallow containers for faster cooling, covering with plastic wrap touching the surface to prevent skin formation, and refrigerating. This method maximizes quality and shelf life.",
+                  "es": "El almacenamiento profesional involucra transferir a recipientes poco profundos para enfriamiento más rápido, cubrir con film plástico tocando la superficie para prevenir formación de piel, y refrigerar. Este método maximiza calidad y vida útil.",
+                  "de": "Professionelle Lagerung beinhaltet Umfüllen in flache Behälter für schnellere Abkühlung, Abdecken mit Plastikfolie, die die Oberfläche berührt, um Hautbildung zu verhindern, und Kühlen. Diese Methode maximiert Qualität und Haltbarkeit.",
+                  "nl": "Professionele opslag houdt in dat het wordt overgebracht naar ondiepe containers voor snellere afkoeling, bedekt met plastic folie die het oppervlak raakt om velvorming te voorkomen, en gekoeld. Deze methode maximaliseert kwaliteit en houdbaarheid."
+        }
       },
-      options: [
-        { en: "Pourable vanilla custard sauce", es: "Pourable vanilla custard sauce", de: "Pourable vanilla custard sauce", nl: "Pourable vanilla custard sauce" },
-        { en: "Thick custard", es: "Thick custard", de: "Thick custard", nl: "Thick custard" },
-        { en: "Whipped cream", es: "Whipped cream", de: "Whipped cream", nl: "Whipped cream" },
-        { en: "Pudding", es: "Pudding", de: "Pudding", nl: "Pudding" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Crème anglaise is a light, pourable custard sauce flavored with vanilla, often served with desserts.",
-        es: "Crème anglaise is a light, pourable custard sauce flavored with vanilla, often served with desserts.",
-        de: "Crème anglaise is a light, pourable custard sauce flavored with vanilla, often served with desserts.",
-        nl: "Crème anglaise is a light, pourable custard sauce flavored with vanilla, often served with desserts."
-      }
-    },
-    {
-      question: {
-        en: "What is the ideal consistency of properly cooked custard?",
-        es: "What is the ideal consistency of properly cooked custard?",
-        de: "What is the ideal consistency of properly cooked custard?",
-        nl: "What is the ideal consistency of properly cooked custard?"
+      {
+        question: {
+                  "en": "What is the critical factor in preventing custard from breaking during the cooking process?",
+                  "es": "¿Cuál es el factor crítico para prevenir que las natillas se corten durante el proceso de cocción?",
+                  "de": "Was ist der kritische Faktor zur Verhinderung des Brechens von Pudding während des Kochvorgangs?",
+                  "nl": "Wat is de kritieke factor bij het voorkomen dat custard breekt tijdens het kookproces?"
+        },
+        options: [
+        {
+                  "en": "Gradual temperature increase with continuous gentle stirring",
+                  "es": "Aumento gradual de temperatura con revuelto suave continuo",
+                  "de": "Allmähliche Temperaturerhöhung mit kontinuierlichem sanftem Rühren",
+                  "nl": "Geleidelijke temperatuurverhoging met continu zacht roeren"
+        },
+        {
+                  "en": "No stirring during cooking",
+                  "es": "No revolver durante la cocción",
+                  "de": "Kein Rühren während des Kochens",
+                  "nl": "Geen roeren tijdens het koken"
+        },
+        {
+                  "en": "Adding all ingredients at once",
+                  "es": "Agregar todos los ingredientes de una vez",
+                  "de": "Alle Zutaten auf einmal hinzufügen",
+                  "nl": "Alle ingrediënten tegelijk toevoegen"
+        },
+        {
+                  "en": "Constant high heat for speed",
+                  "es": "Calor alto constante para velocidad",
+                  "de": "Konstante hohe Hitze für Geschwindigkeit",
+                  "nl": "Constante hoge hitte voor snelheid"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "The critical factor is gradual temperature increase with continuous gentle stirring. This prevents hot spots and protein shock, allowing the custard to thicken smoothly without curdling or breaking.",
+                  "es": "El factor crítico es el aumento gradual de temperatura con revuelto suave continuo. Esto previene puntos calientes y shock de proteínas, permitiendo que las natillas espesen suavemente sin cuajar o cortarse.",
+                  "de": "Der kritische Faktor ist allmähliche Temperaturerhöhung mit kontinuierlichem sanftem Rühren. Dies verhindert heiße Stellen und Proteinschock, wodurch der Pudding glatt verdicken kann ohne zu gerinnen oder zu brechen.",
+                  "nl": "De kritieke factor is geleidelijke temperatuurverhoging met continu zacht roeren. Dit voorkomt hete plekken en eiwit shock, waardoor de custard glad kan verdikken zonder te klonteren of te breken."
+        }
       },
-      options: [
-        { en: "Coats the back of a spoon", es: "Coats the back of a spoon", de: "Coats the back of a spoon", nl: "Coats the back of a spoon" },
-        { en: "Very thick and stiff", es: "Very thick and stiff", de: "Very thick and stiff", nl: "Very thick and stiff" },
-        { en: "Completely liquid", es: "Completely liquid", de: "Completely liquid", nl: "Completely liquid" },
-        { en: "Lumpy", es: "Lumpy", de: "Lumpy", nl: "Lumpy" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Properly cooked custard should be thick enough to coat the back of a spoon and hold a line when you draw your finger through it.",
-        es: "Properly cooked custard should be thick enough to coat the back of a spoon and hold a line when you draw your finger through it.",
-        de: "Properly cooked custard should be thick enough to coat the back of a spoon and hold a line when you draw your finger through it.",
-        nl: "Properly cooked custard should be thick enough to coat the back of a spoon and hold a line when you draw your finger through it."
-      }
-    },
-    {
-      question: {
-        en: "What is diplomat cream?",
-        es: "What is diplomat cream?",
-        de: "What is diplomat cream?",
-        nl: "What is diplomat cream?"
+      {
+        question: {
+                  "en": "What is the purpose of the water bath (bain-marie) when baking custards?",
+                  "es": "¿Cuál es el propósito del baño de agua (baño María) al hornear natillas?",
+                  "de": "Was ist der Zweck des Wasserbads (Bain-Marie) beim Backen von Pudding?",
+                  "nl": "Wat is het doel van het waterbad (bain-marie) bij het bakken van custards?"
+        },
+        options: [
+        {
+                  "en": "Speeds up cooking time",
+                  "es": "Acelera el tiempo de cocción",
+                  "de": "Beschleunigt die Kochzeit",
+                  "nl": "Versnelt de kooktijd"
+        },
+        {
+                  "en": "Adds moisture to the custard",
+                  "es": "Añade humedad a las natillas",
+                  "de": "Fügt dem Pudding Feuchtigkeit hinzu",
+                  "nl": "Voegt vocht toe aan de custard"
+        },
+        {
+                  "en": "Provides gentle, even heat to prevent curdling",
+                  "es": "Proporciona calor suave y uniforme para prevenir cuajado",
+                  "de": "Bietet sanfte, gleichmäßige Hitze zur Verhinderung des Gerinnens",
+                  "nl": "Biedt zachte, gelijkmatige warmte om klontering te voorkomen"
+        },
+        {
+                  "en": "Creates a crispy top",
+                  "es": "Crea una superficie crujiente",
+                  "de": "Erzeugt eine knusprige Oberseite",
+                  "nl": "Creëert een knapperige bovenkant"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "A water bath provides gentle, indirect heat that prevents the custard from cooking too quickly and curdling, ensuring a smooth, silky texture.",
+                  "es": "Un baño de agua proporciona calor suave e indirecto que previene que las natillas se cocinen demasiado rápido y se cuajen, asegurando una textura suave y sedosa.",
+                  "de": "Ein Wasserbad bietet sanfte, indirekte Hitze, die verhindert, dass der Pudding zu schnell kocht und gerinnt, und eine glatte, seidige Textur gewährleistet.",
+                  "nl": "Een waterbad biedt zachte, indirecte warmte die voorkomt dat de custard te snel kookt en klontert, wat een gladde, zijdeachtige textuur verzekert."
+        }
       },
-      options: [
-        { en: "Pastry cream lightened with whipped cream", es: "Pastry cream lightened with whipped cream", de: "Pastry cream lightened with whipped cream", nl: "Pastry cream lightened with whipped cream" },
-        { en: "Custard with alcohol", es: "Custard with alcohol", de: "Custard with alcohol", nl: "Custard with alcohol" },
-        { en: "Chocolate custard", es: "Chocolate custard", de: "Chocolate custard", nl: "Chocolate custard" },
-        { en: "Frozen custard", es: "Frozen custard", de: "Frozen custard", nl: "Frozen custard" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Diplomat cream is pastry cream folded with whipped cream, creating a lighter filling for pastries.",
-        es: "Diplomat cream is pastry cream folded with whipped cream, creating a lighter filling for pastries.",
-        de: "Diplomat cream is pastry cream folded with whipped cream, creating a lighter filling for pastries.",
-        nl: "Diplomat cream is pastry cream folded with whipped cream, creating a lighter filling for pastries."
-      }
-    },
-    {
-      question: {
-        en: "What is the French name for caramel custard?",
-        es: "What is the French name for caramel custard?",
-        de: "What is the French name for caramel custard?",
-        nl: "What is the French name for caramel custard?"
+      {
+        question: {
+                  "en": "What causes custard to weep or separate after cooling?",
+                  "es": "¿Qué causa que las natillas lloren o se separen después de enfriarse?",
+                  "de": "Was verursacht, dass Pudding nach dem Abkühlen aussondert oder sich trennt?",
+                  "nl": "Wat veroorzaakt dat custard uitscheidt of scheidt na het afkoelen?"
+        },
+        options: [
+        {
+                  "en": "Using fresh eggs",
+                  "es": "Usar huevos frescos",
+                  "de": "Frische Eier verwenden",
+                  "nl": "Verse eieren gebruiken"
+        },
+        {
+                  "en": "Adding too much sugar",
+                  "es": "Agregar demasiada azúcar",
+                  "de": "Zu viel Zucker hinzufügen",
+                  "nl": "Te veel suiker toevoegen"
+        },
+        {
+                  "en": "Cooling too slowly",
+                  "es": "Enfriar demasiado lentamente",
+                  "de": "Zu langsam abkühlen",
+                  "nl": "Te langzaam afkoelen"
+        },
+        {
+                  "en": "Overcooking or using too high temperature",
+                  "es": "Cocinar demasiado o usar temperatura muy alta",
+                  "de": "Überkochen oder zu hohe Temperatur verwenden",
+                  "nl": "Overkoken of te hoge temperatuur gebruiken"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Custard weeps when the proteins are overcoagulated from excessive heat, causing them to contract and squeeze out liquid, resulting in syneresis.",
+                  "es": "Las natillas lloran cuando las proteínas se coagulan excesivamente por calor excesivo, causando que se contraigan y expulsen líquido, resultando en sinéresis.",
+                  "de": "Pudding sondert aus, wenn die Proteine durch übermäßige Hitze überkoaguliert werden, wodurch sie sich zusammenziehen und Flüssigkeit ausdrücken, was zu Synerese führt.",
+                  "nl": "Custard scheidt uit wanneer de eiwitten te veel coaguleren door overmatige warmte, waardoor ze inkrimpen en vloeistof uitpersen, wat synerese veroorzaakt."
+        }
       },
-      options: [
-        { en: "Crème caramel", es: "Crème caramel", de: "Crème caramel", nl: "Crème caramel" },
-        { en: "Crème brûlée", es: "Crème brûlée", de: "Crème brûlée", nl: "Crème brûlée" },
-        { en: "Crème anglaise", es: "Crème anglaise", de: "Crème anglaise", nl: "Crème anglaise" },
-        { en: "Pot de crème", es: "Pot de crème", de: "Pot de crème", nl: "Pot de crème" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Crème caramel is the French term for custard with liquid caramel sauce, similar to flan.",
-        es: "Crème caramel is the French term for custard with liquid caramel sauce, similar to flan.",
-        de: "Crème caramel is the French term for custard with liquid caramel sauce, similar to flan.",
-        nl: "Crème caramel is the French term for custard with liquid caramel sauce, similar to flan."
-      }
-    },
-    {
-      question: {
-        en: "What is chiboust cream?",
-        es: "What is chiboust cream?",
-        de: "What is chiboust cream?",
-        nl: "What is chiboust cream?"
+      {
+        question: {
+                  "en": "What is the main thickening agent in custard?",
+                  "es": "What is the main thickening agent in custard?",
+                  "de": "What is the main thickening agent in custard?",
+                  "nl": "What is the main thickening agent in custard?"
+        },
+        options: [
+        {
+                  "en": "Flour",
+                  "es": "Flour",
+                  "de": "Flour",
+                  "nl": "Flour"
+        },
+        {
+                  "en": "Cornstarch",
+                  "es": "Cornstarch",
+                  "de": "Cornstarch",
+                  "nl": "Cornstarch"
+        },
+        {
+                  "en": "Eggs",
+                  "es": "Eggs",
+                  "de": "Eggs",
+                  "nl": "Eggs"
+        },
+        {
+                  "en": "Gelatin",
+                  "es": "Gelatin",
+                  "de": "Gelatin",
+                  "nl": "Gelatin"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Eggs are the primary thickening agent in custard, as the proteins coagulate when heated.",
+                  "es": "Eggs are the primary thickening agent in custard, as the proteins coagulate when heated.",
+                  "de": "Eggs are the primary thickening agent in custard, as the proteins coagulate when heated.",
+                  "nl": "Eggs are the primary thickening agent in custard, as the proteins coagulate when heated."
+        }
       },
-      options: [
-        { en: "Pastry cream lightened with meringue", es: "Pastry cream lightened with meringue", de: "Pastry cream lightened with meringue", nl: "Pastry cream lightened with meringue" },
-        { en: "Whipped cream", es: "Whipped cream", de: "Whipped cream", nl: "Whipped cream" },
-        { en: "Chocolate custard", es: "Chocolate custard", de: "Chocolate custard", nl: "Chocolate custard" },
-        { en: "Butter cream", es: "Butter cream", de: "Butter cream", nl: "Butter cream" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Chiboust cream is pastry cream lightened with Italian meringue, used in desserts like Saint-Honoré cake.",
-        es: "Chiboust cream is pastry cream lightened with Italian meringue, used in desserts like Saint-Honoré cake.",
-        de: "Chiboust cream is pastry cream lightened with Italian meringue, used in desserts like Saint-Honoré cake.",
-        nl: "Chiboust cream is pastry cream lightened with Italian meringue, used in desserts like Saint-Honoré cake."
-      }
-    },
-    {
-      question: {
-        en: "What milk fat percentage is best for rich custard?",
-        es: "What milk fat percentage is best for rich custard?",
-        de: "What milk fat percentage is best for rich custard?",
-        nl: "What milk fat percentage is best for rich custard?"
+      {
+        question: {
+                  "en": "What is crème brûlée?",
+                  "es": "What is crème brûlée?",
+                  "de": "What is crème brûlée?",
+                  "nl": "What is crème brûlée?"
+        },
+        options: [
+        {
+                  "en": "Custard with caramelized sugar top",
+                  "es": "Custard with caramelized sugar top",
+                  "de": "Custard with caramelized sugar top",
+                  "nl": "Custard with caramelized sugar top"
+        },
+        {
+                  "en": "Custard pie",
+                  "es": "Custard pie",
+                  "de": "Custard pie",
+                  "nl": "Custard pie"
+        },
+        {
+                  "en": "Frozen custard",
+                  "es": "Frozen custard",
+                  "de": "Frozen custard",
+                  "nl": "Frozen custard"
+        },
+        {
+                  "en": "Chocolate custard",
+                  "es": "Chocolate custard",
+                  "de": "Chocolate custard",
+                  "nl": "Chocolate custard"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Crème brûlée is a rich custard dessert topped with a hard layer of caramelized sugar.",
+                  "es": "Crème brûlée is a rich custard dessert topped with a hard layer of caramelized sugar.",
+                  "de": "Crème brûlée is a rich custard dessert topped with a hard layer of caramelized sugar.",
+                  "nl": "Crème brûlée is a rich custard dessert topped with a hard layer of caramelized sugar."
+        }
       },
-      options: [
-        { en: "Whole milk or cream (3.5%+)", es: "Whole milk or cream (3.5%+)", de: "Whole milk or cream (3.5%+)", nl: "Whole milk or cream (3.5%+)" },
-        { en: "Skim milk", es: "Skim milk", de: "Skim milk", nl: "Skim milk" },
-        { en: "1% milk", es: "1% milk", de: "1% milk", nl: "1% milk" },
-        { en: "2% milk", es: "2% milk", de: "2% milk", nl: "2% milk" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Whole milk (3.5% fat) or cream creates the richest, creamiest custard texture.",
-        es: "Whole milk (3.5% fat) or cream creates the richest, creamiest custard texture.",
-        de: "Whole milk (3.5% fat) or cream creates the richest, creamiest custard texture.",
-        nl: "Whole milk (3.5% fat) or cream creates the richest, creamiest custard texture."
-      }
-    },
-    {
-      question: {
-        en: "What is a stirred custard vs. baked custard?",
-        es: "What is a stirred custard vs. baked custard?",
-        de: "What is a stirred custard vs. baked custard?",
-        nl: "What is a stirred custard vs. baked custard?"
+      {
+        question: {
+                  "en": "What temperature should custard reach to thicken?",
+                  "es": "What temperature should custard reach to thicken?",
+                  "de": "What temperature should custard reach to thicken?",
+                  "nl": "What temperature should custard reach to thicken?"
+        },
+        options: [
+        {
+                  "en": "140°F (60°C)",
+                  "es": "140°F (60°C)",
+                  "de": "140°F (60°C)",
+                  "nl": "140°F (60°C)"
+        },
+        {
+                  "en": "170-180°F (77-82°C)",
+                  "es": "170-180°F (77-82°C)",
+                  "de": "170-180°F (77-82°C)",
+                  "nl": "170-180°F (77-82°C)"
+        },
+        {
+                  "en": "200°F (93°C)",
+                  "es": "200°F (93°C)",
+                  "de": "200°F (93°C)",
+                  "nl": "200°F (93°C)"
+        },
+        {
+                  "en": "212°F (100°C)",
+                  "es": "212°F (100°C)",
+                  "de": "212°F (100°C)",
+                  "nl": "212°F (100°C)"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Custard thickens when eggs coagulate at 170-180°F; higher temperatures risk curdling.",
+                  "es": "Custard thickens when eggs coagulate at 170-180°F; higher temperatures risk curdling.",
+                  "de": "Custard thickens when eggs coagulate at 170-180°F; higher temperatures risk curdling.",
+                  "nl": "Custard thickens when eggs coagulate at 170-180°F; higher temperatures risk curdling."
+        }
       },
-      options: [
-        { en: "Stirred is made on stovetop; baked in oven", es: "Stirred is made on stovetop; baked in oven", de: "Stirred is made on stovetop; baked in oven", nl: "Stirred is made on stovetop; baked in oven" },
-        { en: "Stirred has more eggs", es: "Stirred has more eggs", de: "Stirred has more eggs", nl: "Stirred has more eggs" },
-        { en: "Baked uses starch", es: "Baked uses starch", de: "Baked uses starch", nl: "Baked uses starch" },
-        { en: "No difference", es: "No difference", de: "No difference", nl: "No difference" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Stirred custard is cooked on the stovetop with constant stirring; baked custard is cooked in the oven without stirring.",
-        es: "Stirred custard is cooked on the stovetop with constant stirring; baked custard is cooked in the oven without stirring.",
-        de: "Stirred custard is cooked on the stovetop with constant stirring; baked custard is cooked in the oven without stirring.",
-        nl: "Stirred custard is cooked on the stovetop with constant stirring; baked custard is cooked in the oven without stirring."
-      }
-    },
-    {
-      question: {
-        en: "What is the purpose of straining custard?",
-        es: "What is the purpose of straining custard?",
-        de: "What is the purpose of straining custard?",
-        nl: "What is the purpose of straining custard?"
+      {
+        question: {
+                  "en": "What is flan?",
+                  "es": "What is flan?",
+                  "de": "What is flan?",
+                  "nl": "What is flan?"
+        },
+        options: [
+        {
+                  "en": "Cream pie",
+                  "es": "Cream pie",
+                  "de": "Cream pie",
+                  "nl": "Cream pie"
+        },
+        {
+                  "en": "Caramel-topped custard dessert",
+                  "es": "Caramel-topped custard dessert",
+                  "de": "Caramel-topped custard dessert",
+                  "nl": "Caramel-topped custard dessert"
+        },
+        {
+                  "en": "Chocolate pudding",
+                  "es": "Chocolate pudding",
+                  "de": "Chocolate pudding",
+                  "nl": "Chocolate pudding"
+        },
+        {
+                  "en": "Frozen dessert",
+                  "es": "Frozen dessert",
+                  "de": "Frozen dessert",
+                  "nl": "Frozen dessert"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Flan is a baked custard dessert with a layer of soft caramel on top, popular in Latin American and European cuisines.",
+                  "es": "Flan is a baked custard dessert with a layer of soft caramel on top, popular in Latin American and European cuisines.",
+                  "de": "Flan is a baked custard dessert with a layer of soft caramel on top, popular in Latin American and European cuisines.",
+                  "nl": "Flan is a baked custard dessert with a layer of soft caramel on top, popular in Latin American and European cuisines."
+        }
       },
-      options: [
-        { en: "Remove any cooked egg bits for smooth texture", es: "Remove any cooked egg bits for smooth texture", de: "Remove any cooked egg bits for smooth texture", nl: "Remove any cooked egg bits for smooth texture" },
-        { en: "Add air", es: "Add air", de: "Add air", nl: "Add air" },
-        { en: "Cool it down", es: "Cool it down", de: "Cool it down", nl: "Cool it down" },
-        { en: "Thicken it", es: "Thicken it", de: "Thicken it", nl: "Thicken it" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Straining custard removes any bits of cooked egg or other lumps, ensuring a perfectly smooth, silky texture.",
-        es: "Straining custard removes any bits of cooked egg or other lumps, ensuring a perfectly smooth, silky texture.",
-        de: "Straining custard removes any bits of cooked egg or other lumps, ensuring a perfectly smooth, silky texture.",
-        nl: "Straining custard removes any bits of cooked egg or other lumps, ensuring a perfectly smooth, silky texture."
-      }
-    },
-    {
-      question: {
-        en: "What is frozen custard?",
-        es: "What is frozen custard?",
-        de: "What is frozen custard?",
-        nl: "What is frozen custard?"
+      {
+        question: {
+                  "en": "What is the difference between custard and pudding?",
+                  "es": "What is the difference between custard and pudding?",
+                  "de": "What is the difference between custard and pudding?",
+                  "nl": "What is the difference between custard and pudding?"
+        },
+        options: [
+        {
+                  "en": "Pudding is baked",
+                  "es": "Pudding is baked",
+                  "de": "Pudding is baked",
+                  "nl": "Pudding is baked"
+        },
+        {
+                  "en": "No difference",
+                  "es": "No difference",
+                  "de": "No difference",
+                  "nl": "No difference"
+        },
+        {
+                  "en": "Custard uses eggs as thickener; pudding often uses starch",
+                  "es": "Custard uses eggs as thickener; pudding often uses starch",
+                  "de": "Custard uses eggs as thickener; pudding often uses starch",
+                  "nl": "Custard uses eggs as thickener; pudding often uses starch"
+        },
+        {
+                  "en": "Custard is frozen",
+                  "es": "Custard is frozen",
+                  "de": "Custard is frozen",
+                  "nl": "Custard is frozen"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Custard is thickened primarily with eggs, while pudding often uses cornstarch or other starches as thickeners.",
+                  "es": "Custard is thickened primarily with eggs, while pudding often uses cornstarch or other starches as thickeners.",
+                  "de": "Custard is thickened primarily with eggs, while pudding often uses cornstarch or other starches as thickeners.",
+                  "nl": "Custard is thickened primarily with eggs, while pudding often uses cornstarch or other starches as thickeners."
+        }
       },
-      options: [
-        { en: "Ice cream-like dessert with eggs", es: "Ice cream-like dessert with eggs", de: "Ice cream-like dessert with eggs", nl: "Ice cream-like dessert with eggs" },
-        { en: "Custard stored in freezer", es: "Custard stored in freezer", de: "Custard stored in freezer", nl: "Custard stored in freezer" },
-        { en: "Ice cream without eggs", es: "Ice cream without eggs", de: "Ice cream without eggs", nl: "Ice cream without eggs" },
-        { en: "Frozen pudding", es: "Frozen pudding", de: "Frozen pudding", nl: "Frozen pudding" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Frozen custard is similar to ice cream but contains egg yolks and is churned at a higher temperature, creating a denser, creamier texture.",
-        es: "Frozen custard is similar to ice cream but contains egg yolks and is churned at a higher temperature, creating a denser, creamier texture.",
-        de: "Frozen custard is similar to ice cream but contains egg yolks and is churned at a higher temperature, creating a denser, creamier texture.",
-        nl: "Frozen custard is similar to ice cream but contains egg yolks and is churned at a higher temperature, creating a denser, creamier texture."
-      }
-
+      {
+        question: {
+                  "en": "What is pastry cream?",
+                  "es": "What is pastry cream?",
+                  "de": "What is pastry cream?",
+                  "nl": "What is pastry cream?"
+        },
+        options: [
+        {
+                  "en": "Buttercream",
+                  "es": "Buttercream",
+                  "de": "Buttercream",
+                  "nl": "Buttercream"
+        },
+        {
+                  "en": "Cream cheese frosting",
+                  "es": "Cream cheese frosting",
+                  "de": "Cream cheese frosting",
+                  "nl": "Cream cheese frosting"
+        },
+        {
+                  "en": "Whipped cream",
+                  "es": "Whipped cream",
+                  "de": "Whipped cream",
+                  "nl": "Whipped cream"
+        },
+        {
+                  "en": "Thick custard with cornstarch for stability",
+                  "es": "Thick custard with cornstarch for stability",
+                  "de": "Thick custard with cornstarch for stability",
+                  "nl": "Thick custard with cornstarch for stability"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Pastry cream (crème pâtissière) is custard stabilized with cornstarch or flour, used as filling for pastries and desserts.",
+                  "es": "Pastry cream (crème pâtissière) is custard stabilized with cornstarch or flour, used as filling for pastries and desserts.",
+                  "de": "Pastry cream (crème pâtissière) is custard stabilized with cornstarch or flour, used as filling for pastries and desserts.",
+                  "nl": "Pastry cream (crème pâtissière) is custard stabilized with cornstarch or flour, used as filling for pastries and desserts."
+        }
+      },
+      {
+        question: {
+                  "en": "What causes custard to curdle?",
+                  "es": "What causes custard to curdle?",
+                  "de": "What causes custard to curdle?",
+                  "nl": "What causes custard to curdle?"
+        },
+        options: [
+        {
+                  "en": "Too much sugar",
+                  "es": "Too much sugar",
+                  "de": "Too much sugar",
+                  "nl": "Too much sugar"
+        },
+        {
+                  "en": "Cold temperature",
+                  "es": "Cold temperature",
+                  "de": "Cold temperature",
+                  "nl": "Cold temperature"
+        },
+        {
+                  "en": "Not enough eggs",
+                  "es": "Not enough eggs",
+                  "de": "Not enough eggs",
+                  "nl": "Not enough eggs"
+        },
+        {
+                  "en": "Too high heat or overcooking",
+                  "es": "Too high heat or overcooking",
+                  "de": "Too high heat or overcooking",
+                  "nl": "Too high heat or overcooking"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Custard curdles when heated too quickly or to too high a temperature, causing egg proteins to separate.",
+                  "es": "Custard curdles when heated too quickly or to too high a temperature, causing egg proteins to separate.",
+                  "de": "Custard curdles when heated too quickly or to too high a temperature, causing egg proteins to separate.",
+                  "nl": "Custard curdles when heated too quickly or to too high a temperature, causing egg proteins to separate."
+        }
+      },
+      {
+        question: {
+                  "en": "What is a water bath (bain-marie) used for in custard baking?",
+                  "es": "What is a water bath (bain-marie) used for in custard baking?",
+                  "de": "What is a water bath (bain-marie) used for in custard baking?",
+                  "nl": "What is a water bath (bain-marie) used for in custard baking?"
+        },
+        options: [
+        {
+                  "en": "Cool down custard",
+                  "es": "Cool down custard",
+                  "de": "Cool down custard",
+                  "nl": "Cool down custard"
+        },
+        {
+                  "en": "Speed up cooking",
+                  "es": "Speed up cooking",
+                  "de": "Speed up cooking",
+                  "nl": "Speed up cooking"
+        },
+        {
+                  "en": "Add moisture",
+                  "es": "Add moisture",
+                  "de": "Add moisture",
+                  "nl": "Add moisture"
+        },
+        {
+                  "en": "Gentle, even heat to prevent curdling",
+                  "es": "Gentle, even heat to prevent curdling",
+                  "de": "Gentle, even heat to prevent curdling",
+                  "nl": "Gentle, even heat to prevent curdling"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "A water bath provides gentle, even heat that prevents custard from overheating and curdling.",
+                  "es": "A water bath provides gentle, even heat that prevents custard from overheating and curdling.",
+                  "de": "A water bath provides gentle, even heat that prevents custard from overheating and curdling.",
+                  "nl": "A water bath provides gentle, even heat that prevents custard from overheating and curdling."
+        }
+      },
+      {
+        question: {
+                  "en": "What is pot de crème?",
+                  "es": "What is pot de crème?",
+                  "de": "What is pot de crème?",
+                  "nl": "What is pot de crème?"
+        },
+        options: [
+        {
+                  "en": "Chocolate mousse",
+                  "es": "Chocolate mousse",
+                  "de": "Chocolate mousse",
+                  "nl": "Chocolate mousse"
+        },
+        {
+                  "en": "Whipped cream",
+                  "es": "Whipped cream",
+                  "de": "Whipped cream",
+                  "nl": "Whipped cream"
+        },
+        {
+                  "en": "Ice cream",
+                  "es": "Ice cream",
+                  "de": "Ice cream",
+                  "nl": "Ice cream"
+        },
+        {
+                  "en": "French baked custard dessert",
+                  "es": "French baked custard dessert",
+                  "de": "French baked custard dessert",
+                  "nl": "French baked custard dessert"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Pot de crème is a French dessert of rich, creamy baked custard served in small pots or ramekins.",
+                  "es": "Pot de crème is a French dessert of rich, creamy baked custard served in small pots or ramekins.",
+                  "de": "Pot de crème is a French dessert of rich, creamy baked custard served in small pots or ramekins.",
+                  "nl": "Pot de crème is a French dessert of rich, creamy baked custard served in small pots or ramekins."
+        }
+      },
+      {
+        question: {
+                  "en": "What is zabaglione?",
+                  "es": "What is zabaglione?",
+                  "de": "What is zabaglione?",
+                  "nl": "What is zabaglione?"
+        },
+        options: [
+        {
+                  "en": "Frozen custard",
+                  "es": "Frozen custard",
+                  "de": "Frozen custard",
+                  "nl": "Frozen custard"
+        },
+        {
+                  "en": "Chocolate pudding",
+                  "es": "Chocolate pudding",
+                  "de": "Chocolate pudding",
+                  "nl": "Chocolate pudding"
+        },
+        {
+                  "en": "Italian custard made with egg yolks, sugar, and wine",
+                  "es": "Italian custard made with egg yolks, sugar, and wine",
+                  "de": "Italian custard made with egg yolks, sugar, and wine",
+                  "nl": "Italian custard made with egg yolks, sugar, and wine"
+        },
+        {
+                  "en": "French custard",
+                  "es": "French custard",
+                  "de": "French custard",
+                  "nl": "French custard"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Zabaglione (sabayon in French) is a light Italian custard made by whisking egg yolks, sugar, and sweet wine over heat.",
+                  "es": "Zabaglione (sabayon in French) is a light Italian custard made by whisking egg yolks, sugar, and sweet wine over heat.",
+                  "de": "Zabaglione (sabayon in French) is a light Italian custard made by whisking egg yolks, sugar, and sweet wine over heat.",
+                  "nl": "Zabaglione (sabayon in French) is a light Italian custard made by whisking egg yolks, sugar, and sweet wine over heat."
+        }
+      },
+      {
+        question: {
+                  "en": "What is the purpose of tempering eggs when making custard?",
+                  "es": "What is the purpose of tempering eggs when making custard?",
+                  "de": "What is the purpose of tempering eggs when making custard?",
+                  "nl": "What is the purpose of tempering eggs when making custard?"
+        },
+        options: [
+        {
+                  "en": "Gradually raise temperature to prevent curdling",
+                  "es": "Gradually raise temperature to prevent curdling",
+                  "de": "Gradually raise temperature to prevent curdling",
+                  "nl": "Gradually raise temperature to prevent curdling"
+        },
+        {
+                  "en": "Change color",
+                  "es": "Change color",
+                  "de": "Change color",
+                  "nl": "Change color"
+        },
+        {
+                  "en": "Add flavor",
+                  "es": "Add flavor",
+                  "de": "Add flavor",
+                  "nl": "Add flavor"
+        },
+        {
+                  "en": "Thicken faster",
+                  "es": "Thicken faster",
+                  "de": "Thicken faster",
+                  "nl": "Thicken faster"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Tempering involves slowly adding hot liquid to eggs while whisking to gradually raise their temperature without cooking them into scrambled eggs.",
+                  "es": "Tempering involves slowly adding hot liquid to eggs while whisking to gradually raise their temperature without cooking them into scrambled eggs.",
+                  "de": "Tempering involves slowly adding hot liquid to eggs while whisking to gradually raise their temperature without cooking them into scrambled eggs.",
+                  "nl": "Tempering involves slowly adding hot liquid to eggs while whisking to gradually raise their temperature without cooking them into scrambled eggs."
+        }
+      },
+      {
+        question: {
+                  "en": "What is crème anglaise?",
+                  "es": "What is crème anglaise?",
+                  "de": "What is crème anglaise?",
+                  "nl": "What is crème anglaise?"
+        },
+        options: [
+        {
+                  "en": "Pudding",
+                  "es": "Pudding",
+                  "de": "Pudding",
+                  "nl": "Pudding"
+        },
+        {
+                  "en": "Pourable vanilla custard sauce",
+                  "es": "Pourable vanilla custard sauce",
+                  "de": "Pourable vanilla custard sauce",
+                  "nl": "Pourable vanilla custard sauce"
+        },
+        {
+                  "en": "Whipped cream",
+                  "es": "Whipped cream",
+                  "de": "Whipped cream",
+                  "nl": "Whipped cream"
+        },
+        {
+                  "en": "Thick custard",
+                  "es": "Thick custard",
+                  "de": "Thick custard",
+                  "nl": "Thick custard"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Crème anglaise is a light, pourable custard sauce flavored with vanilla, often served with desserts.",
+                  "es": "Crème anglaise is a light, pourable custard sauce flavored with vanilla, often served with desserts.",
+                  "de": "Crème anglaise is a light, pourable custard sauce flavored with vanilla, often served with desserts.",
+                  "nl": "Crème anglaise is a light, pourable custard sauce flavored with vanilla, often served with desserts."
+        }
+      },
+      {
+        question: {
+                  "en": "What is the ideal consistency of properly cooked custard?",
+                  "es": "What is the ideal consistency of properly cooked custard?",
+                  "de": "What is the ideal consistency of properly cooked custard?",
+                  "nl": "What is the ideal consistency of properly cooked custard?"
+        },
+        options: [
+        {
+                  "en": "Very thick and stiff",
+                  "es": "Very thick and stiff",
+                  "de": "Very thick and stiff",
+                  "nl": "Very thick and stiff"
+        },
+        {
+                  "en": "Coats the back of a spoon",
+                  "es": "Coats the back of a spoon",
+                  "de": "Coats the back of a spoon",
+                  "nl": "Coats the back of a spoon"
+        },
+        {
+                  "en": "Completely liquid",
+                  "es": "Completely liquid",
+                  "de": "Completely liquid",
+                  "nl": "Completely liquid"
+        },
+        {
+                  "en": "Lumpy",
+                  "es": "Lumpy",
+                  "de": "Lumpy",
+                  "nl": "Lumpy"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Properly cooked custard should be thick enough to coat the back of a spoon and hold a line when you draw your finger through it.",
+                  "es": "Properly cooked custard should be thick enough to coat the back of a spoon and hold a line when you draw your finger through it.",
+                  "de": "Properly cooked custard should be thick enough to coat the back of a spoon and hold a line when you draw your finger through it.",
+                  "nl": "Properly cooked custard should be thick enough to coat the back of a spoon and hold a line when you draw your finger through it."
+        }
+      },
+      {
+        question: {
+                  "en": "What is diplomat cream?",
+                  "es": "What is diplomat cream?",
+                  "de": "What is diplomat cream?",
+                  "nl": "What is diplomat cream?"
+        },
+        options: [
+        {
+                  "en": "Frozen custard",
+                  "es": "Frozen custard",
+                  "de": "Frozen custard",
+                  "nl": "Frozen custard"
+        },
+        {
+                  "en": "Chocolate custard",
+                  "es": "Chocolate custard",
+                  "de": "Chocolate custard",
+                  "nl": "Chocolate custard"
+        },
+        {
+                  "en": "Pastry cream lightened with whipped cream",
+                  "es": "Pastry cream lightened with whipped cream",
+                  "de": "Pastry cream lightened with whipped cream",
+                  "nl": "Pastry cream lightened with whipped cream"
+        },
+        {
+                  "en": "Custard with alcohol",
+                  "es": "Custard with alcohol",
+                  "de": "Custard with alcohol",
+                  "nl": "Custard with alcohol"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Diplomat cream is pastry cream folded with whipped cream, creating a lighter filling for pastries.",
+                  "es": "Diplomat cream is pastry cream folded with whipped cream, creating a lighter filling for pastries.",
+                  "de": "Diplomat cream is pastry cream folded with whipped cream, creating a lighter filling for pastries.",
+                  "nl": "Diplomat cream is pastry cream folded with whipped cream, creating a lighter filling for pastries."
+        }
+      },
+      {
+        question: {
+                  "en": "What is the French name for caramel custard?",
+                  "es": "What is the French name for caramel custard?",
+                  "de": "What is the French name for caramel custard?",
+                  "nl": "What is the French name for caramel custard?"
+        },
+        options: [
+        {
+                  "en": "Crème brûlée",
+                  "es": "Crème brûlée",
+                  "de": "Crème brûlée",
+                  "nl": "Crème brûlée"
+        },
+        {
+                  "en": "Pot de crème",
+                  "es": "Pot de crème",
+                  "de": "Pot de crème",
+                  "nl": "Pot de crème"
+        },
+        {
+                  "en": "Crème anglaise",
+                  "es": "Crème anglaise",
+                  "de": "Crème anglaise",
+                  "nl": "Crème anglaise"
+        },
+        {
+                  "en": "Crème caramel",
+                  "es": "Crème caramel",
+                  "de": "Crème caramel",
+                  "nl": "Crème caramel"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Crème caramel is the French term for custard with liquid caramel sauce, similar to flan.",
+                  "es": "Crème caramel is the French term for custard with liquid caramel sauce, similar to flan.",
+                  "de": "Crème caramel is the French term for custard with liquid caramel sauce, similar to flan.",
+                  "nl": "Crème caramel is the French term for custard with liquid caramel sauce, similar to flan."
+        }
+      },
+      {
+        question: {
+                  "en": "What is chiboust cream?",
+                  "es": "What is chiboust cream?",
+                  "de": "What is chiboust cream?",
+                  "nl": "What is chiboust cream?"
+        },
+        options: [
+        {
+                  "en": "Butter cream",
+                  "es": "Butter cream",
+                  "de": "Butter cream",
+                  "nl": "Butter cream"
+        },
+        {
+                  "en": "Whipped cream",
+                  "es": "Whipped cream",
+                  "de": "Whipped cream",
+                  "nl": "Whipped cream"
+        },
+        {
+                  "en": "Chocolate custard",
+                  "es": "Chocolate custard",
+                  "de": "Chocolate custard",
+                  "nl": "Chocolate custard"
+        },
+        {
+                  "en": "Pastry cream lightened with meringue",
+                  "es": "Pastry cream lightened with meringue",
+                  "de": "Pastry cream lightened with meringue",
+                  "nl": "Pastry cream lightened with meringue"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Chiboust cream is pastry cream lightened with Italian meringue, used in desserts like Saint-Honoré cake.",
+                  "es": "Chiboust cream is pastry cream lightened with Italian meringue, used in desserts like Saint-Honoré cake.",
+                  "de": "Chiboust cream is pastry cream lightened with Italian meringue, used in desserts like Saint-Honoré cake.",
+                  "nl": "Chiboust cream is pastry cream lightened with Italian meringue, used in desserts like Saint-Honoré cake."
+        }
+      },
+      {
+        question: {
+                  "en": "What milk fat percentage is best for rich custard?",
+                  "es": "What milk fat percentage is best for rich custard?",
+                  "de": "What milk fat percentage is best for rich custard?",
+                  "nl": "What milk fat percentage is best for rich custard?"
+        },
+        options: [
+        {
+                  "en": "Whole milk or cream (3.5%+)",
+                  "es": "Whole milk or cream (3.5%+)",
+                  "de": "Whole milk or cream (3.5%+)",
+                  "nl": "Whole milk or cream (3.5%+)"
+        },
+        {
+                  "en": "Skim milk",
+                  "es": "Skim milk",
+                  "de": "Skim milk",
+                  "nl": "Skim milk"
+        },
+        {
+                  "en": "1% milk",
+                  "es": "1% milk",
+                  "de": "1% milk",
+                  "nl": "1% milk"
+        },
+        {
+                  "en": "2% milk",
+                  "es": "2% milk",
+                  "de": "2% milk",
+                  "nl": "2% milk"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Whole milk (3.5% fat) or cream creates the richest, creamiest custard texture.",
+                  "es": "Whole milk (3.5% fat) or cream creates the richest, creamiest custard texture.",
+                  "de": "Whole milk (3.5% fat) or cream creates the richest, creamiest custard texture.",
+                  "nl": "Whole milk (3.5% fat) or cream creates the richest, creamiest custard texture."
+        }
+      },
+      {
+        question: {
+                  "en": "What is a stirred custard vs. baked custard?",
+                  "es": "What is a stirred custard vs. baked custard?",
+                  "de": "What is a stirred custard vs. baked custard?",
+                  "nl": "What is a stirred custard vs. baked custard?"
+        },
+        options: [
+        {
+                  "en": "Stirred is made on stovetop; baked in oven",
+                  "es": "Stirred is made on stovetop; baked in oven",
+                  "de": "Stirred is made on stovetop; baked in oven",
+                  "nl": "Stirred is made on stovetop; baked in oven"
+        },
+        {
+                  "en": "Stirred has more eggs",
+                  "es": "Stirred has more eggs",
+                  "de": "Stirred has more eggs",
+                  "nl": "Stirred has more eggs"
+        },
+        {
+                  "en": "No difference",
+                  "es": "No difference",
+                  "de": "No difference",
+                  "nl": "No difference"
+        },
+        {
+                  "en": "Baked uses starch",
+                  "es": "Baked uses starch",
+                  "de": "Baked uses starch",
+                  "nl": "Baked uses starch"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Stirred custard is cooked on the stovetop with constant stirring; baked custard is cooked in the oven without stirring.",
+                  "es": "Stirred custard is cooked on the stovetop with constant stirring; baked custard is cooked in the oven without stirring.",
+                  "de": "Stirred custard is cooked on the stovetop with constant stirring; baked custard is cooked in the oven without stirring.",
+                  "nl": "Stirred custard is cooked on the stovetop with constant stirring; baked custard is cooked in the oven without stirring."
+        }
+      },
+      {
+        question: {
+                  "en": "What is the purpose of straining custard?",
+                  "es": "What is the purpose of straining custard?",
+                  "de": "What is the purpose of straining custard?",
+                  "nl": "What is the purpose of straining custard?"
+        },
+        options: [
+        {
+                  "en": "Remove any cooked egg bits for smooth texture",
+                  "es": "Remove any cooked egg bits for smooth texture",
+                  "de": "Remove any cooked egg bits for smooth texture",
+                  "nl": "Remove any cooked egg bits for smooth texture"
+        },
+        {
+                  "en": "Add air",
+                  "es": "Add air",
+                  "de": "Add air",
+                  "nl": "Add air"
+        },
+        {
+                  "en": "Thicken it",
+                  "es": "Thicken it",
+                  "de": "Thicken it",
+                  "nl": "Thicken it"
+        },
+        {
+                  "en": "Cool it down",
+                  "es": "Cool it down",
+                  "de": "Cool it down",
+                  "nl": "Cool it down"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Straining custard removes any bits of cooked egg or other lumps, ensuring a perfectly smooth, silky texture.",
+                  "es": "Straining custard removes any bits of cooked egg or other lumps, ensuring a perfectly smooth, silky texture.",
+                  "de": "Straining custard removes any bits of cooked egg or other lumps, ensuring a perfectly smooth, silky texture.",
+                  "nl": "Straining custard removes any bits of cooked egg or other lumps, ensuring a perfectly smooth, silky texture."
+        }
+      },
+      {
+        question: {
+                  "en": "What is frozen custard?",
+                  "es": "What is frozen custard?",
+                  "de": "What is frozen custard?",
+                  "nl": "What is frozen custard?"
+        },
+        options: [
+        {
+                  "en": "Ice cream-like dessert with eggs",
+                  "es": "Ice cream-like dessert with eggs",
+                  "de": "Ice cream-like dessert with eggs",
+                  "nl": "Ice cream-like dessert with eggs"
+        },
+        {
+                  "en": "Ice cream without eggs",
+                  "es": "Ice cream without eggs",
+                  "de": "Ice cream without eggs",
+                  "nl": "Ice cream without eggs"
+        },
+        {
+                  "en": "Custard stored in freezer",
+                  "es": "Custard stored in freezer",
+                  "de": "Custard stored in freezer",
+                  "nl": "Custard stored in freezer"
+        },
+        {
+                  "en": "Frozen pudding",
+                  "es": "Frozen pudding",
+                  "de": "Frozen pudding",
+                  "nl": "Frozen pudding"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Frozen custard is similar to ice cream but contains egg yolks and is churned at a higher temperature, creating a denser, creamier texture.",
+                  "es": "Frozen custard is similar to ice cream but contains egg yolks and is churned at a higher temperature, creating a denser, creamier texture.",
+                  "de": "Frozen custard is similar to ice cream but contains egg yolks and is churned at a higher temperature, creating a denser, creamier texture.",
+                  "nl": "Frozen custard is similar to ice cream but contains egg yolks and is churned at a higher temperature, creating a denser, creamier texture."
+        }
       }
     ]
   };
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = level5;
-  } else {
-    window.custardsLevel5 = level5;
   }
 })();

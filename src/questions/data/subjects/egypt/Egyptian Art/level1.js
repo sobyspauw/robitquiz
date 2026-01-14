@@ -1,859 +1,1657 @@
-﻿// Egyptian Art Quiz - Level 1: Knowledge about Egyptian Art
+// Egyptian Art Quiz - Level 1
 (function() {
   const level1 = {
     name: {
-      en: "Egyptian Art Level 1",
-      es: "Arte Egipcio Nivel 1",
-      de: "Aegyptische Kunst Stufe 1",
-      nl: "Egyptische Kunst Level 1"
+          "en": "Egyptian Art Level 1",
+          "es": "Arte Egipcio Nivel 1",
+          "de": "Aegyptische Kunst Stufe 1",
+          "nl": "Egyptische Kunst Level 1"
     },
     questions: [
       {
         question: {
-          en: "What material did ancient Egyptians commonly use for painting?",
-          es: "Que material utilizaban comunmente los antiguos egipcios para pintar?",
-          de: "Welches Material verwendeten die alten Aegypter haeufig zum Malen?",
-          nl: "Welk materiaal gebruikten de oude Egyptenaren vaak voor schilderen?"
+                  "en": "What material did ancient Egyptians commonly use for painting?",
+                  "es": "Que material utilizaban comunmente los antiguos egipcios para pintar?",
+                  "de": "Welches Material verwendeten die alten Aegypter haeufig zum Malen?",
+                  "nl": "Welk materiaal gebruikten de oude Egyptenaren vaak voor schilderen?"
         },
         options: [
-          { en: "Natural pigments and minerals", es: "Pigmentos naturales y minerales", de: "Natuerliche Pigmente und Mineralien", nl: "Natuurlijke pigmenten en mineralen" },
-          { en: "Oil paints", es: "Pinturas al oleo", de: "Oelfarben", nl: "Olieverf" },
-          { en: "Acrylic paints", es: "Pinturas acrilicas", de: "Acrylfarben", nl: "Acrylverf" },
-          { en: "Watercolors", es: "Acuarelas", de: "Aquarellfarben", nl: "Aquarelverf" }
+        {
+                  "en": "Oil paints",
+                  "es": "Pinturas al oleo",
+                  "de": "Oelfarben",
+                  "nl": "Olieverf"
+        },
+        {
+                  "en": "Natural pigments and minerals",
+                  "es": "Pigmentos naturales y minerales",
+                  "de": "Natuerliche Pigmente und Mineralien",
+                  "nl": "Natuurlijke pigmenten en mineralen"
+        },
+        {
+                  "en": "Watercolors",
+                  "es": "Acuarelas",
+                  "de": "Aquarellfarben",
+                  "nl": "Aquarelverf"
+        },
+        {
+                  "en": "Acrylic paints",
+                  "es": "Pinturas acrilicas",
+                  "de": "Acrylfarben",
+                  "nl": "Acrylverf"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Ancient Egyptians used natural pigments from minerals like malachite green, azurite blue, and ochre red mixed with water and gum arabic.",
-          es: "Los antiguos egipcios usaban pigmentos naturales de minerales como malaquita verde, azurita azul y ocre rojo mezclados con agua y goma arabiga.",
-          de: "Die alten Aegypter verwendeten natuerliche Pigmente aus Mineralien wie Malachitgruen, Azuritblau und Ockerrot, gemischt mit Wasser und Gummi arabicum.",
-          nl: "De oude Egyptenaren gebruikten natuurlijke pigmenten van mineralen zoals malachietgroen, azurietblauw en okerrood gemengd met water en Arabische gom."
+                  "en": "Ancient Egyptians used natural pigments from minerals like malachite green, azurite blue, and ochre red mixed with water and gum arabic.",
+                  "es": "Los antiguos egipcios usaban pigmentos naturales de minerales como malaquita verde, azurita azul y ocre rojo mezclados con agua y goma arabiga.",
+                  "de": "Die alten Aegypter verwendeten natuerliche Pigmente aus Mineralien wie Malachitgruen, Azuritblau und Ockerrot, gemischt mit Wasser und Gummi arabicum.",
+                  "nl": "De oude Egyptenaren gebruikten natuurlijke pigmenten van mineralen zoals malachietgroen, azurietblauw en okerrood gemengd met water en Arabische gom."
         }
       },
       {
         question: {
-          en: "What is the name of the famous bust of an Egyptian queen?",
-          es: "Como se llama el famoso busto de una reina egipcia?",
-          de: "Wie heisst die beruehmte Bueste einer aegyptischen Koenigin?",
-          nl: "Wat is de naam van de beroemde buste van een Egyptische koningin?"
+                  "en": "What is the name of the famous bust of an Egyptian queen?",
+                  "es": "Como se llama el famoso busto de una reina egipcia?",
+                  "de": "Wie heisst die beruehmte Bueste einer aegyptischen Koenigin?",
+                  "nl": "Wat is de naam van de beroemde buste van een Egyptische koningin?"
         },
         options: [
-          { en: "Bust of Nefertiti", es: "Busto de Nefertiti", de: "Bueste der Nofretete", nl: "Buste van Nefertiti" },
-          { en: "Bust of Cleopatra", es: "Busto de Cleopatra", de: "Bueste der Kleopatra", nl: "Buste van Cleopatra" },
-          { en: "Bust of Hatshepsut", es: "Busto de Hatshepsut", de: "Bueste der Hatschepsut", nl: "Buste van Hatshepsut" },
-          { en: "Bust of Isis", es: "Busto de Isis", de: "Bueste der Isis", nl: "Buste van Isis" }
+        {
+                  "en": "Bust of Isis",
+                  "es": "Busto de Isis",
+                  "de": "Bueste der Isis",
+                  "nl": "Buste van Isis"
+        },
+        {
+                  "en": "Bust of Cleopatra",
+                  "es": "Busto de Cleopatra",
+                  "de": "Bueste der Kleopatra",
+                  "nl": "Buste van Cleopatra"
+        },
+        {
+                  "en": "Bust of Nefertiti",
+                  "es": "Busto de Nefertiti",
+                  "de": "Bueste der Nofretete",
+                  "nl": "Buste van Nefertiti"
+        },
+        {
+                  "en": "Bust of Hatshepsut",
+                  "es": "Busto de Hatshepsut",
+                  "de": "Bueste der Hatschepsut",
+                  "nl": "Buste van Hatshepsut"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "The Bust of Nefertiti is one of the most famous works of ancient Egyptian art, created around 1345 BCE.",
-          es: "El Busto de Nefertiti es una de las obras mas famosas del arte egipcio antiguo, creada alrededor de 1345 a.C.",
-          de: "Die Bueste der Nofretete ist eines der beruehmtesten Werke der altaegyptischen Kunst, entstanden um 1345 v. Chr.",
-          nl: "De Buste van Nefertiti is een van de beroemdste werken van oude Egyptische kunst, gemaakt rond 1345 v.Chr."
+                  "en": "The Bust of Nefertiti is one of the most famous works of ancient Egyptian art, created around 1345 BCE.",
+                  "es": "El Busto de Nefertiti es una de las obras mas famosas del arte egipcio antiguo, creada alrededor de 1345 a.C.",
+                  "de": "Die Bueste der Nofretete ist eines der beruehmtesten Werke der altaegyptischen Kunst, entstanden um 1345 v. Chr.",
+                  "nl": "De Buste van Nefertiti is een van de beroemdste werken van oude Egyptische kunst, gemaakt rond 1345 v.Chr."
         }
       },
       {
         question: {
-          en: "What color represented life and fertility in Egyptian art?",
-          es: "Que color representaba la vida y la fertilidad en el arte egipcio?",
-          de: "Welche Farbe repraesentierte Leben und Fruchtbarkeit in der aegyptischen Kunst?",
-          nl: "Welke kleur vertegenwoordigde leven en vruchtbaarheid in Egyptische kunst?"
+                  "en": "What color represented life and fertility in Egyptian art?",
+                  "es": "Que color representaba la vida y la fertilidad en el arte egipcio?",
+                  "de": "Welche Farbe repraesentierte Leben und Fruchtbarkeit in der aegyptischen Kunst?",
+                  "nl": "Welke kleur vertegenwoordigde leven en vruchtbaarheid in Egyptische kunst?"
         },
         options: [
-          { en: "Green", es: "Verde", de: "Gruen", nl: "Groen" },
-          { en: "Red", es: "Rojo", de: "Rot", nl: "Rood" },
-          { en: "Blue", es: "Azul", de: "Blau", nl: "Blauw" },
-          { en: "Yellow", es: "Amarillo", de: "Gelb", nl: "Geel" }
+        {
+                  "en": "Blue",
+                  "es": "Azul",
+                  "de": "Blau",
+                  "nl": "Blauw"
+        },
+        {
+                  "en": "Red",
+                  "es": "Rojo",
+                  "de": "Rot",
+                  "nl": "Rood"
+        },
+        {
+                  "en": "Green",
+                  "es": "Verde",
+                  "de": "Gruen",
+                  "nl": "Groen"
+        },
+        {
+                  "en": "Yellow",
+                  "es": "Amarillo",
+                  "de": "Gelb",
+                  "nl": "Geel"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Green symbolized life, fertility, and regeneration in Egyptian art, often associated with Osiris and vegetation.",
-          es: "El verde simbolizaba la vida, la fertilidad y la regeneracion en el arte egipcio, a menudo asociado con Osiris y la vegetacion.",
-          de: "Gruen symbolisierte Leben, Fruchtbarkeit und Regeneration in der aegyptischen Kunst, oft mit Osiris und Vegetation verbunden.",
-          nl: "Groen symboliseerde leven, vruchtbaarheid en regeneratie in Egyptische kunst, vaak geassocieerd met Osiris en vegetatie."
+                  "en": "Green symbolized life, fertility, and regeneration in Egyptian art, often associated with Osiris and vegetation.",
+                  "es": "El verde simbolizaba la vida, la fertilidad y la regeneracion en el arte egipcio, a menudo asociado con Osiris y la vegetacion.",
+                  "de": "Gruen symbolisierte Leben, Fruchtbarkeit und Regeneration in der aegyptischen Kunst, oft mit Osiris und Vegetation verbunden.",
+                  "nl": "Groen symboliseerde leven, vruchtbaarheid en regeneratie in Egyptische kunst, vaak geassocieerd met Osiris en vegetatie."
         }
       },
       {
         question: {
-          en: "What is papyrus used for in Egyptian art?",
-          es: "Para que se usaba el papiro en el arte egipcio?",
-          de: "Wofuer wurde Papyrus in der aegyptischen Kunst verwendet?",
-          nl: "Waarvoor werd papyrus gebruikt in Egyptische kunst?"
+                  "en": "What is papyrus used for in Egyptian art?",
+                  "es": "Para que se usaba el papiro en el arte egipcio?",
+                  "de": "Wofuer wurde Papyrus in der aegyptischen Kunst verwendet?",
+                  "nl": "Waarvoor werd papyrus gebruikt in Egyptische kunst?"
         },
         options: [
-          { en: "Writing and painting surface", es: "Superficie para escribir y pintar", de: "Schreib- und Maloberflaeche", nl: "Schrijf- en schilderoppervlak" },
-          { en: "Building material", es: "Material de construccion", de: "Baumaterial", nl: "Bouwmateriaal" },
-          { en: "Food source", es: "Fuente de alimento", de: "Nahrungsquelle", nl: "Voedselbron" },
-          { en: "Clothing fabric", es: "Tela para ropa", de: "Kleidungsstoff", nl: "Kledingstof" }
+        {
+                  "en": "Food source",
+                  "es": "Fuente de alimento",
+                  "de": "Nahrungsquelle",
+                  "nl": "Voedselbron"
+        },
+        {
+                  "en": "Writing and painting surface",
+                  "es": "Superficie para escribir y pintar",
+                  "de": "Schreib- und Maloberflaeche",
+                  "nl": "Schrijf- en schilderoppervlak"
+        },
+        {
+                  "en": "Building material",
+                  "es": "Material de construccion",
+                  "de": "Baumaterial",
+                  "nl": "Bouwmateriaal"
+        },
+        {
+                  "en": "Clothing fabric",
+                  "es": "Tela para ropa",
+                  "de": "Kleidungsstoff",
+                  "nl": "Kledingstof"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Papyrus was the primary writing and painting surface in ancient Egypt, made from the papyrus plant that grew along the Nile.",
-          es: "El papiro era la principal superficie de escritura y pintura en el antiguo Egipto, hecho de la planta de papiro que crecia a lo largo del Nilo.",
-          de: "Papyrus war die primaere Schreib- und Maloberflaeche im alten Aegypten, hergestellt aus der Papyruspflanze, die am Nil wuchs.",
-          nl: "Papyrus was het belangrijkste schrijf- en schilderoppervlak in het oude Egypte, gemaakt van de papyrusplant die langs de Nijl groeide."
+                  "en": "Papyrus was the primary writing and painting surface in ancient Egypt, made from the papyrus plant that grew along the Nile.",
+                  "es": "El papiro era la principal superficie de escritura y pintura en el antiguo Egipto, hecho de la planta de papiro que crecia a lo largo del Nilo.",
+                  "de": "Papyrus war die primaere Schreib- und Maloberflaeche im alten Aegypten, hergestellt aus der Papyruspflanze, die am Nil wuchs.",
+                  "nl": "Papyrus was het belangrijkste schrijf- en schilderoppervlak in het oude Egypte, gemaakt van de papyrusplant die langs de Nijl groeide."
         }
       },
       {
         question: {
-          en: "How were Egyptian figures typically depicted in art?",
-          es: "Como se representaban tipicamente las figuras egipcias en el arte?",
-          de: "Wie wurden aegyptische Figuren typischerweise in der Kunst dargestellt?",
-          nl: "Hoe werden Egyptische figuren meestal afgebeeld in kunst?"
+                  "en": "How were Egyptian figures typically depicted in art?",
+                  "es": "Como se representaban tipicamente las figuras egipcias en el arte?",
+                  "de": "Wie wurden aegyptische Figuren typischerweise in der Kunst dargestellt?",
+                  "nl": "Hoe werden Egyptische figuren meestal afgebeeld in kunst?"
         },
         options: [
-          { en: "In profile with forward-facing eyes", es: "De perfil con ojos mirando al frente", de: "Im Profil mit nach vorne gerichteten Augen", nl: "In profiel met naar voren gerichte ogen" },
-          { en: "Always in frontal view", es: "Siempre de frente", de: "Immer in Frontalansicht", nl: "Altijd frontaal" },
-          { en: "From behind", es: "Desde atras", de: "Von hinten", nl: "Van achteren" },
-          { en: "In three-quarter view", es: "En vista de tres cuartos", de: "In Dreiviertelansicht", nl: "In driekwart aanzicht" }
+        {
+                  "en": "From behind",
+                  "es": "Desde atras",
+                  "de": "Von hinten",
+                  "nl": "Van achteren"
+        },
+        {
+                  "en": "Always in frontal view",
+                  "es": "Siempre de frente",
+                  "de": "Immer in Frontalansicht",
+                  "nl": "Altijd frontaal"
+        },
+        {
+                  "en": "In profile with forward-facing eyes",
+                  "es": "De perfil con ojos mirando al frente",
+                  "de": "Im Profil mit nach vorne gerichteten Augen",
+                  "nl": "In profiel met naar voren gerichte ogen"
+        },
+        {
+                  "en": "In three-quarter view",
+                  "es": "En vista de tres cuartos",
+                  "de": "In Dreiviertelansicht",
+                  "nl": "In driekwart aanzicht"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Egyptian artists used a distinctive style showing figures in profile with the eye drawn as if viewed from the front, combining multiple perspectives.",
-          es: "Los artistas egipcios usaban un estilo distintivo mostrando figuras de perfil con el ojo dibujado como si se viera de frente, combinando multiples perspectivas.",
-          de: "Aegyptische Kuenstler verwendeten einen charakteristischen Stil, der Figuren im Profil mit frontal gezeichnetem Auge zeigte und mehrere Perspektiven kombinierte.",
-          nl: "Egyptische kunstenaars gebruikten een kenmerkende stijl waarbij figuren in profiel werden getoond met het oog getekend alsof het van voren werd gezien, waarbij meerdere perspectieven werden gecombineerd."
+                  "en": "Egyptian artists used a distinctive style showing figures in profile with the eye drawn as if viewed from the front, combining multiple perspectives.",
+                  "es": "Los artistas egipcios usaban un estilo distintivo mostrando figuras de perfil con el ojo dibujado como si se viera de frente, combinando multiples perspectivas.",
+                  "de": "Aegyptische Kuenstler verwendeten einen charakteristischen Stil, der Figuren im Profil mit frontal gezeichnetem Auge zeigte und mehrere Perspektiven kombinierte.",
+                  "nl": "Egyptische kunstenaars gebruikten een kenmerkende stijl waarbij figuren in profiel werden getoond met het oog getekend alsof het van voren werd gezien, waarbij meerdere perspectieven werden gecombineerd."
         }
       },
       {
         question: {
-          en: "What are scarabs in Egyptian art?",
-          es: "Que son los escarabajos en el arte egipcio?",
-          de: "Was sind Skarabaeus in der aegyptischen Kunst?",
-          nl: "Wat zijn scarabeeën in Egyptische kunst?"
+                  "en": "What are scarabs in Egyptian art?",
+                  "es": "Que son los escarabajos en el arte egipcio?",
+                  "de": "Was sind Skarabaeus in der aegyptischen Kunst?",
+                  "nl": "Wat zijn scarabeeën in Egyptische kunst?"
         },
         options: [
-          { en: "Beetle-shaped amulets or seals", es: "Amuletos o sellos con forma de escarabajo", de: "Kaeferfoermige Amulette oder Siegel", nl: "Keverachtige amuletten of zegels" },
-          { en: "Temple decorations", es: "Decoraciones de templos", de: "Tempeldekorationen", nl: "Tempelversieringen" },
-          { en: "Painting tools", es: "Herramientas de pintura", de: "Malwerkzeuge", nl: "Schildergereedschap" },
-          { en: "Crown ornaments", es: "Ornamentos de corona", de: "Kronenornamente", nl: "Kroonornamenten" }
+        {
+                  "en": "Painting tools",
+                  "es": "Herramientas de pintura",
+                  "de": "Malwerkzeuge",
+                  "nl": "Schildergereedschap"
+        },
+        {
+                  "en": "Temple decorations",
+                  "es": "Decoraciones de templos",
+                  "de": "Tempeldekorationen",
+                  "nl": "Tempelversieringen"
+        },
+        {
+                  "en": "Beetle-shaped amulets or seals",
+                  "es": "Amuletos o sellos con forma de escarabajo",
+                  "de": "Kaeferfoermige Amulette oder Siegel",
+                  "nl": "Keverachtige amuletten of zegels"
+        },
+        {
+                  "en": "Crown ornaments",
+                  "es": "Ornamentos de corona",
+                  "de": "Kronenornamente",
+                  "nl": "Kroonornamenten"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Scarabs were beetle-shaped amulets representing the dung beetle, symbolizing rebirth and transformation in Egyptian culture.",
-          es: "Los escarabajos eran amuletos con forma de escarabajo que representaban al escarabajo pelotero, simbolizando el renacimiento y la transformacion en la cultura egipcia.",
-          de: "Skarabaeus waren kaeferfoermige Amulette, die den Mistkaefer darstellten und Wiedergeburt und Transformation in der aegyptischen Kultur symbolisierten.",
-          nl: "Scarabeeën waren keverachtige amuletten die de mestkever vertegenwoordigden en wedergeboorte en transformatie in de Egyptische cultuur symboliseerden."
+                  "en": "Scarabs were beetle-shaped amulets representing the dung beetle, symbolizing rebirth and transformation in Egyptian culture.",
+                  "es": "Los escarabajos eran amuletos con forma de escarabajo que representaban al escarabajo pelotero, simbolizando el renacimiento y la transformacion en la cultura egipcia.",
+                  "de": "Skarabaeus waren kaeferfoermige Amulette, die den Mistkaefer darstellten und Wiedergeburt und Transformation in der aegyptischen Kultur symbolisierten.",
+                  "nl": "Scarabeeën waren keverachtige amuletten die de mestkever vertegenwoordigden en wedergeboorte en transformatie in de Egyptische cultuur symboliseerden."
         }
       },
       {
         question: {
-          en: "What type of columns were common in Egyptian architecture?",
-          es: "Que tipo de columnas eran comunes en la arquitectura egipcia?",
-          de: "Welche Art von Saeulen war in der aegyptischen Architektur ueblich?",
-          nl: "Welk type zuilen waren gebruikelijk in Egyptische architectuur?"
+                  "en": "What type of columns were common in Egyptian architecture?",
+                  "es": "Que tipo de columnas eran comunes en la arquitectura egipcia?",
+                  "de": "Welche Art von Saeulen war in der aegyptischen Architektur ueblich?",
+                  "nl": "Welk type zuilen waren gebruikelijk in Egyptische architectuur?"
         },
         options: [
-          { en: "Lotus and papyrus columns", es: "Columnas de loto y papiro", de: "Lotus- und Papyrussaeulen", nl: "Lotus- en papyruszuilen" },
-          { en: "Ionic columns", es: "Columnas ionicas", de: "Ionische Saeulen", nl: "Ionische zuilen" },
-          { en: "Doric columns", es: "Columnas doricas", de: "Dorische Saeulen", nl: "Dorische zuilen" },
-          { en: "Corinthian columns", es: "Columnas corintias", de: "Korinthische Saeulen", nl: "Corinthische zuilen" }
+        {
+                  "en": "Lotus and papyrus columns",
+                  "es": "Columnas de loto y papiro",
+                  "de": "Lotus- und Papyrussaeulen",
+                  "nl": "Lotus- en papyruszuilen"
+        },
+        {
+                  "en": "Doric columns",
+                  "es": "Columnas doricas",
+                  "de": "Dorische Saeulen",
+                  "nl": "Dorische zuilen"
+        },
+        {
+                  "en": "Ionic columns",
+                  "es": "Columnas ionicas",
+                  "de": "Ionische Saeulen",
+                  "nl": "Ionische zuilen"
+        },
+        {
+                  "en": "Corinthian columns",
+                  "es": "Columnas corintias",
+                  "de": "Korinthische Saeulen",
+                  "nl": "Corinthische zuilen"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Egyptian columns were often decorated to resemble lotus flowers and papyrus plants, reflecting the importance of these plants in Egyptian culture.",
-          es: "Las columnas egipcias a menudo se decoraban para parecerse a flores de loto y plantas de papiro, reflejando la importancia de estas plantas en la cultura egipcia.",
-          de: "Aegyptische Saeulen wurden oft dekoriert, um Lotusblumen und Papyruspflanzen zu aehneln, was die Bedeutung dieser Pflanzen in der aegyptischen Kultur widerspiegelt.",
-          nl: "Egyptische zuilen waren vaak versierd om op lotusbloemen en papyrusplanten te lijken, wat het belang van deze planten in de Egyptische cultuur weerspiegelt."
+                  "en": "Egyptian columns were often decorated to resemble lotus flowers and papyrus plants, reflecting the importance of these plants in Egyptian culture.",
+                  "es": "Las columnas egipcias a menudo se decoraban para parecerse a flores de loto y plantas de papiro, reflejando la importancia de estas plantas en la cultura egipcia.",
+                  "de": "Aegyptische Saeulen wurden oft dekoriert, um Lotusblumen und Papyruspflanzen zu aehneln, was die Bedeutung dieser Pflanzen in der aegyptischen Kultur widerspiegelt.",
+                  "nl": "Egyptische zuilen waren vaak versierd om op lotusbloemen en papyrusplanten te lijken, wat het belang van deze planten in de Egyptische cultuur weerspiegelt."
         }
       },
       {
         question: {
-          en: "What is a cartouche in Egyptian art?",
-          es: "Que es un cartucho en el arte egipcio?",
-          de: "Was ist eine Kartusche in der aegyptischen Kunst?",
-          nl: "Wat is een cartouche in Egyptische kunst?"
+                  "en": "What is a cartouche in Egyptian art?",
+                  "es": "Que es un cartucho en el arte egipcio?",
+                  "de": "Was ist eine Kartusche in der aegyptischen Kunst?",
+                  "nl": "Wat is een cartouche in Egyptische kunst?"
         },
         options: [
-          { en: "An oval enclosing royal names", es: "Un ovalo que encierra nombres reales", de: "Ein Oval, das koenigliche Namen umschliesst", nl: "Een ovaal die koninklijke namen omsluit" },
-          { en: "A type of crown", es: "Un tipo de corona", de: "Eine Art Krone", nl: "Een type kroon" },
-          { en: "A painting technique", es: "Una tecnica de pintura", de: "Eine Maltechnik", nl: "Een schildertechniek" },
-          { en: "A musical instrument", es: "Un instrumento musical", de: "Ein Musikinstrument", nl: "Een muziekinstrument" }
+        {
+                  "en": "A type of crown",
+                  "es": "Un tipo de corona",
+                  "de": "Eine Art Krone",
+                  "nl": "Een type kroon"
+        },
+        {
+                  "en": "An oval enclosing royal names",
+                  "es": "Un ovalo que encierra nombres reales",
+                  "de": "Ein Oval, das koenigliche Namen umschliesst",
+                  "nl": "Een ovaal die koninklijke namen omsluit"
+        },
+        {
+                  "en": "A musical instrument",
+                  "es": "Un instrumento musical",
+                  "de": "Ein Musikinstrument",
+                  "nl": "Een muziekinstrument"
+        },
+        {
+                  "en": "A painting technique",
+                  "es": "Una tecnica de pintura",
+                  "de": "Eine Maltechnik",
+                  "nl": "Een schildertechniek"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "A cartouche is an oval or oblong design containing hieroglyphic characters, typically used to enclose the names of pharaohs and other royal figures.",
-          es: "Un cartucho es un diseno oval u oblongo que contiene caracteres jeroglificos, tipicamente usado para encerrar los nombres de faraones y otras figuras reales.",
-          de: "Eine Kartusche ist ein ovales oder laengliches Design mit hieroglyphischen Zeichen, typischerweise verwendet, um die Namen von Pharaonen und anderen koeniglichen Figuren zu umschliessen.",
-          nl: "Een cartouche is een ovaal of langwerpig ontwerp met hieroglyfische tekens, typisch gebruikt om de namen van farao's en andere koninklijke figuren te omsluiten."
+                  "en": "A cartouche is an oval or oblong design containing hieroglyphic characters, typically used to enclose the names of pharaohs and other royal figures.",
+                  "es": "Un cartucho es un diseno oval u oblongo que contiene caracteres jeroglificos, tipicamente usado para encerrar los nombres de faraones y otras figuras reales.",
+                  "de": "Eine Kartusche ist ein ovales oder laengliches Design mit hieroglyphischen Zeichen, typischerweise verwendet, um die Namen von Pharaonen und anderen koeniglichen Figuren zu umschliessen.",
+                  "nl": "Een cartouche is een ovaal of langwerpig ontwerp met hieroglyfische tekens, typisch gebruikt om de namen van farao's en andere koninklijke figuren te omsluiten."
         }
       },
       {
         question: {
-          en: "What was the main purpose of Egyptian tomb art?",
-          es: "Cual era el proposito principal del arte de las tumbas egipcias?",
-          de: "Was war der Hauptzweck der aegyptischen Grabkunst?",
-          nl: "Wat was het hoofddoel van Egyptische grafkunst?"
+                  "en": "What was the main purpose of Egyptian tomb art?",
+                  "es": "Cual era el proposito principal del arte de las tumbas egipcias?",
+                  "de": "Was war der Hauptzweck der aegyptischen Grabkunst?",
+                  "nl": "Wat was het hoofddoel van Egyptische grafkunst?"
         },
         options: [
-          { en: "To help the deceased in the afterlife", es: "Para ayudar al difunto en la otra vida", de: "Um dem Verstorbenen im Jenseits zu helfen", nl: "Om de overledene te helpen in het hiernamaals" },
-          { en: "To display wealth", es: "Para mostrar riqueza", de: "Um Reichtum zu zeigen", nl: "Om rijkdom te tonen" },
-          { en: "For decoration only", es: "Solo para decoracion", de: "Nur zur Dekoration", nl: "Alleen voor decoratie" },
-          { en: "To frighten tomb robbers", es: "Para asustar a los ladrones de tumbas", de: "Um Grabräuber abzuschrecken", nl: "Om grafrovers af te schrikken" }
+        {
+                  "en": "For decoration only",
+                  "es": "Solo para decoracion",
+                  "de": "Nur zur Dekoration",
+                  "nl": "Alleen voor decoratie"
+        },
+        {
+                  "en": "To help the deceased in the afterlife",
+                  "es": "Para ayudar al difunto en la otra vida",
+                  "de": "Um dem Verstorbenen im Jenseits zu helfen",
+                  "nl": "Om de overledene te helpen in het hiernamaals"
+        },
+        {
+                  "en": "To frighten tomb robbers",
+                  "es": "Para asustar a los ladrones de tumbas",
+                  "de": "Um Grabräuber abzuschrecken",
+                  "nl": "Om grafrovers af te schrikken"
+        },
+        {
+                  "en": "To display wealth",
+                  "es": "Para mostrar riqueza",
+                  "de": "Um Reichtum zu zeigen",
+                  "nl": "Om rijkdom te tonen"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Egyptian tomb art served a magical and religious function, providing the deceased with everything they would need for their journey and existence in the afterlife.",
-          es: "El arte de las tumbas egipcias servia una funcion magica y religiosa, proporcionando al difunto todo lo que necesitaria para su viaje y existencia en la otra vida.",
-          de: "Aegyptische Grabkunst erfuellte eine magische und religioese Funktion und versorgte den Verstorbenen mit allem, was er fuer seine Reise und Existenz im Jenseits benoetigen wuerde.",
-          nl: "Egyptische grafkunst diende een magische en religieuze functie en voorzag de overledene van alles wat ze nodig zouden hebben voor hun reis en bestaan in het hiernamaals."
+                  "en": "Egyptian tomb art served a magical and religious function, providing the deceased with everything they would need for their journey and existence in the afterlife.",
+                  "es": "El arte de las tumbas egipcias servia una funcion magica y religiosa, proporcionando al difunto todo lo que necesitaria para su viaje y existencia en la otra vida.",
+                  "de": "Aegyptische Grabkunst erfuellte eine magische und religioese Funktion und versorgte den Verstorbenen mit allem, was er fuer seine Reise und Existenz im Jenseits benoetigen wuerde.",
+                  "nl": "Egyptische grafkunst diende een magische en religieuze functie en voorzag de overledene van alles wat ze nodig zouden hebben voor hun reis en bestaan in het hiernamaals."
         }
       },
       {
         question: {
-          en: "What is the Ankh symbol in Egyptian art?",
-          es: "Que es el simbolo Ankh en el arte egipcio?",
-          de: "Was ist das Ankh-Symbol in der aegyptischen Kunst?",
-          nl: "Wat is het Ankh-symbool in Egyptische kunst?"
+                  "en": "What is the Ankh symbol in Egyptian art?",
+                  "es": "Que es el simbolo Ankh en el arte egipcio?",
+                  "de": "Was ist das Ankh-Symbol in der aegyptischen Kunst?",
+                  "nl": "Wat is het Ankh-symbool in Egyptische kunst?"
         },
         options: [
-          { en: "Symbol of life", es: "Simbolo de la vida", de: "Symbol des Lebens", nl: "Symbool van het leven" },
-          { en: "Symbol of death", es: "Simbolo de la muerte", de: "Symbol des Todes", nl: "Symbool van de dood" },
-          { en: "Symbol of war", es: "Simbolo de la guerra", de: "Symbol des Krieges", nl: "Symbool van oorlog" },
-          { en: "Symbol of wealth", es: "Simbolo de la riqueza", de: "Symbol des Reichtums", nl: "Symbool van rijkdom" }
+        {
+                  "en": "Symbol of wealth",
+                  "es": "Simbolo de la riqueza",
+                  "de": "Symbol des Reichtums",
+                  "nl": "Symbool van rijkdom"
+        },
+        {
+                  "en": "Symbol of life",
+                  "es": "Simbolo de la vida",
+                  "de": "Symbol des Lebens",
+                  "nl": "Symbool van het leven"
+        },
+        {
+                  "en": "Symbol of war",
+                  "es": "Simbolo de la guerra",
+                  "de": "Symbol des Krieges",
+                  "nl": "Symbool van oorlog"
+        },
+        {
+                  "en": "Symbol of death",
+                  "es": "Simbolo de la muerte",
+                  "de": "Symbol des Todes",
+                  "nl": "Symbool van de dood"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "The Ankh is a cross with a loop at the top, representing eternal life and was one of the most important symbols in ancient Egyptian art.",
-          es: "El Ankh es una cruz con un bucle en la parte superior, que representa la vida eterna y fue uno de los simbolos mas importantes en el arte egipcio antiguo.",
-          de: "Das Ankh ist ein Kreuz mit einer Schleife an der Spitze, das ewiges Leben repraesentiert und eines der wichtigsten Symbole in der altaegyptischen Kunst war.",
-          nl: "De Ankh is een kruis met een lus aan de bovenkant, dat eeuwig leven vertegenwoordigt en een van de belangrijkste symbolen in oude Egyptische kunst was."
+                  "en": "The Ankh is a cross with a loop at the top, representing eternal life and was one of the most important symbols in ancient Egyptian art.",
+                  "es": "El Ankh es una cruz con un bucle en la parte superior, que representa la vida eterna y fue uno de los simbolos mas importantes en el arte egipcio antiguo.",
+                  "de": "Das Ankh ist ein Kreuz mit einer Schleife an der Spitze, das ewiges Leben repraesentiert und eines der wichtigsten Symbole in der altaegyptischen Kunst war.",
+                  "nl": "De Ankh is een kruis met een lus aan de bovenkant, dat eeuwig leven vertegenwoordigt en een van de belangrijkste symbolen in oude Egyptische kunst was."
         }
       },
       {
         question: {
-          en: "What animals were commonly depicted in Egyptian art?",
-          es: "Que animales se representaban comunmente en el arte egipcio?",
-          de: "Welche Tiere wurden haeufig in der aegyptischen Kunst dargestellt?",
-          nl: "Welke dieren werden vaak afgebeeld in Egyptische kunst?"
+                  "en": "What animals were commonly depicted in Egyptian art?",
+                  "es": "Que animales se representaban comunmente en el arte egipcio?",
+                  "de": "Welche Tiere wurden haeufig in der aegyptischen Kunst dargestellt?",
+                  "nl": "Welke dieren werden vaak afgebeeld in Egyptische kunst?"
         },
         options: [
-          { en: "Cats, birds, and crocodiles", es: "Gatos, pajaros y cocodrilos", de: "Katzen, Voegel und Krokodile", nl: "Katten, vogels en krokodillen" },
-          { en: "Dogs, horses, and sheep", es: "Perros, caballos y ovejas", de: "Hunde, Pferde und Schafe", nl: "Honden, paarden en schapen" },
-          { en: "Bears, wolves, and deer", es: "Osos, lobos y ciervos", de: "Baeren, Woelfe und Hirsche", nl: "Beren, wolven en herten" },
-          { en: "Elephants, tigers, and monkeys", es: "Elefantes, tigres y monos", de: "Elefanten, Tiger und Affen", nl: "Olifanten, tijgers en apen" }
+        {
+                  "en": "Elephants, tigers, and monkeys",
+                  "es": "Elefantes, tigres y monos",
+                  "de": "Elefanten, Tiger und Affen",
+                  "nl": "Olifanten, tijgers en apen"
+        },
+        {
+                  "en": "Cats, birds, and crocodiles",
+                  "es": "Gatos, pajaros y cocodrilos",
+                  "de": "Katzen, Voegel und Krokodile",
+                  "nl": "Katten, vogels en krokodillen"
+        },
+        {
+                  "en": "Bears, wolves, and deer",
+                  "es": "Osos, lobos y ciervos",
+                  "de": "Baeren, Woelfe und Hirsche",
+                  "nl": "Beren, wolven en herten"
+        },
+        {
+                  "en": "Dogs, horses, and sheep",
+                  "es": "Perros, caballos y ovejas",
+                  "de": "Hunde, Pferde und Schafe",
+                  "nl": "Honden, paarden en schapen"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Cats, birds like falcons and ibises, and crocodiles were sacred animals frequently depicted in Egyptian art, often associated with specific deities.",
-          es: "Los gatos, pajaros como halcones e ibis, y cocodrilos eran animales sagrados frecuentemente representados en el arte egipcio, a menudo asociados con deidades especificas.",
-          de: "Katzen, Voegel wie Falken und Ibisse und Krokodile waren heilige Tiere, die haeufig in der aegyptischen Kunst dargestellt wurden, oft mit bestimmten Gottheiten verbunden.",
-          nl: "Katten, vogels zoals valken en ibissen, en krokodillen waren heilige dieren die vaak werden afgebeeld in Egyptische kunst, vaak geassocieerd met specifieke godheden."
+                  "en": "Cats, birds like falcons and ibises, and crocodiles were sacred animals frequently depicted in Egyptian art, often associated with specific deities.",
+                  "es": "Los gatos, pajaros como halcones e ibis, y cocodrilos eran animales sagrados frecuentemente representados en el arte egipcio, a menudo asociados con deidades especificas.",
+                  "de": "Katzen, Voegel wie Falken und Ibisse und Krokodile waren heilige Tiere, die haeufig in der aegyptischen Kunst dargestellt wurden, oft mit bestimmten Gottheiten verbunden.",
+                  "nl": "Katten, vogels zoals valken en ibissen, en krokodillen waren heilige dieren die vaak werden afgebeeld in Egyptische kunst, vaak geassocieerd met specifieke godheden."
         }
       },
       {
         question: {
-          en: "What is relief carving in Egyptian art?",
-          es: "Que es el tallado en relieve en el arte egipcio?",
-          de: "Was ist Reliefschnitzerei in der aegyptischen Kunst?",
-          nl: "Wat is reliefsnijwerk in Egyptische kunst?"
+                  "en": "What is relief carving in Egyptian art?",
+                  "es": "Que es el tallado en relieve en el arte egipcio?",
+                  "de": "Was ist Reliefschnitzerei in der aegyptischen Kunst?",
+                  "nl": "Wat is reliefsnijwerk in Egyptische kunst?"
         },
         options: [
-          { en: "Images carved into stone surfaces", es: "Imagenes talladas en superficies de piedra", de: "Bilder in Steinoberflaechen geschnitzt", nl: "Afbeeldingen gesneden in stenen oppervlakken" },
-          { en: "Painted pottery", es: "Ceramica pintada", de: "Bemalte Toepferei", nl: "Beschilderd aardewerk" },
-          { en: "Woven textiles", es: "Textiles tejidos", de: "Gewebte Textilien", nl: "Geweven textiel" },
-          { en: "Metal sculptures", es: "Esculturas de metal", de: "Metallskulpturen", nl: "Metalen sculpturen" }
+        {
+                  "en": "Woven textiles",
+                  "es": "Textiles tejidos",
+                  "de": "Gewebte Textilien",
+                  "nl": "Geweven textiel"
+        },
+        {
+                  "en": "Metal sculptures",
+                  "es": "Esculturas de metal",
+                  "de": "Metallskulpturen",
+                  "nl": "Metalen sculpturen"
+        },
+        {
+                  "en": "Images carved into stone surfaces",
+                  "es": "Imagenes talladas en superficies de piedra",
+                  "de": "Bilder in Steinoberflaechen geschnitzt",
+                  "nl": "Afbeeldingen gesneden in stenen oppervlakken"
+        },
+        {
+                  "en": "Painted pottery",
+                  "es": "Ceramica pintada",
+                  "de": "Bemalte Toepferei",
+                  "nl": "Beschilderd aardewerk"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Relief carving involved carving images into stone walls and surfaces, either raised relief or sunken relief, common in temples and tombs.",
-          es: "El tallado en relieve implicaba tallar imagenes en paredes y superficies de piedra, ya sea relieve alzado o relieve hundido, comun en templos y tumbas.",
-          de: "Reliefschnitzerei beinhaltete das Schnitzen von Bildern in Steinwaende und Oberflaechen, entweder erhabenes Relief oder versenktes Relief, ueblich in Tempeln und Graebern.",
-          nl: "Reliefsnijwerk omvatte het snijden van afbeeldingen in stenen muren en oppervlakken, ofwel verhoogd relief of verzonken relief, gebruikelijk in tempels en graven."
+                  "en": "Relief carving involved carving images into stone walls and surfaces, either raised relief or sunken relief, common in temples and tombs.",
+                  "es": "El tallado en relieve implicaba tallar imagenes en paredes y superficies de piedra, ya sea relieve alzado o relieve hundido, comun en templos y tumbas.",
+                  "de": "Reliefschnitzerei beinhaltete das Schnitzen von Bildern in Steinwaende und Oberflaechen, entweder erhabenes Relief oder versenktes Relief, ueblich in Tempeln und Graebern.",
+                  "nl": "Reliefsnijwerk omvatte het snijden van afbeeldingen in stenen muren en oppervlakken, ofwel verhoogd relief of verzonken relief, gebruikelijk in tempels en graven."
         }
       },
       {
         question: {
-          en: "What material were most Egyptian sculptures made from?",
-          es: "De que material estaban hechas la mayoria de las esculturas egipcias?",
-          de: "Aus welchem Material wurden die meisten aegyptischen Skulpturen hergestellt?",
-          nl: "Van welk materiaal waren de meeste Egyptische sculpturen gemaakt?"
+                  "en": "What material were most Egyptian sculptures made from?",
+                  "es": "De que material estaban hechas la mayoria de las esculturas egipcias?",
+                  "de": "Aus welchem Material wurden die meisten aegyptischen Skulpturen hergestellt?",
+                  "nl": "Van welk materiaal waren de meeste Egyptische sculpturen gemaakt?"
         },
         options: [
-          { en: "Stone", es: "Piedra", de: "Stein", nl: "Steen" },
-          { en: "Clay", es: "Arcilla", de: "Ton", nl: "Klei" },
-          { en: "Wood only", es: "Solo madera", de: "Nur Holz", nl: "Alleen hout" },
-          { en: "Bronze", es: "Bronce", de: "Bronze", nl: "Brons" }
+        {
+                  "en": "Clay",
+                  "es": "Arcilla",
+                  "de": "Ton",
+                  "nl": "Klei"
+        },
+        {
+                  "en": "Bronze",
+                  "es": "Bronce",
+                  "de": "Bronze",
+                  "nl": "Brons"
+        },
+        {
+                  "en": "Stone",
+                  "es": "Piedra",
+                  "de": "Stein",
+                  "nl": "Steen"
+        },
+        {
+                  "en": "Wood only",
+                  "es": "Solo madera",
+                  "de": "Nur Holz",
+                  "nl": "Alleen hout"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Most Egyptian sculptures were carved from stone such as limestone, granite, and basalt, which were abundant in Egypt and ensured lasting monuments.",
-          es: "La mayoria de las esculturas egipcias se tallaban en piedra como caliza, granito y basalto, que abundaban en Egipto y aseguraban monumentos duraderos.",
-          de: "Die meisten aegyptischen Skulpturen wurden aus Stein wie Kalkstein, Granit und Basalt geschnitzt, die in Aegypten reichlich vorhanden waren und dauerhafte Monumente sicherstellten.",
-          nl: "De meeste Egyptische sculpturen waren gesneden uit steen zoals kalksteen, graniet en basalt, die overvloedig aanwezig waren in Egypte en blijvende monumenten garandeerden."
+                  "en": "Most Egyptian sculptures were carved from stone such as limestone, granite, and basalt, which were abundant in Egypt and ensured lasting monuments.",
+                  "es": "La mayoria de las esculturas egipcias se tallaban en piedra como caliza, granito y basalto, que abundaban en Egipto y aseguraban monumentos duraderos.",
+                  "de": "Die meisten aegyptischen Skulpturen wurden aus Stein wie Kalkstein, Granit und Basalt geschnitzt, die in Aegypten reichlich vorhanden waren und dauerhafte Monumente sicherstellten.",
+                  "nl": "De meeste Egyptische sculpturen waren gesneden uit steen zoals kalksteen, graniet en basalt, die overvloedig aanwezig waren in Egypte en blijvende monumenten garandeerden."
         }
       },
       {
         question: {
-          en: "What does the Eye of Horus represent in Egyptian art?",
-          es: "Que representa el Ojo de Horus en el arte egipcio?",
-          de: "Was repraesentiert das Auge des Horus in der aegyptischen Kunst?",
-          nl: "Wat vertegenwoordigt het Oog van Horus in Egyptische kunst?"
+                  "en": "What does the Eye of Horus represent in Egyptian art?",
+                  "es": "Que representa el Ojo de Horus en el arte egipcio?",
+                  "de": "Was repraesentiert das Auge des Horus in der aegyptischen Kunst?",
+                  "nl": "Wat vertegenwoordigt het Oog van Horus in Egyptische kunst?"
         },
         options: [
-          { en: "Protection and healing", es: "Proteccion y curacion", de: "Schutz und Heilung", nl: "Bescherming en genezing" },
-          { en: "War and conflict", es: "Guerra y conflicto", de: "Krieg und Konflikt", nl: "Oorlog en conflict" },
-          { en: "Harvest and agriculture", es: "Cosecha y agricultura", de: "Ernte und Landwirtschaft", nl: "Oogst en landbouw" },
-          { en: "Trade and commerce", es: "Comercio y negocios", de: "Handel und Gewerbe", nl: "Handel en commercie" }
+        {
+                  "en": "War and conflict",
+                  "es": "Guerra y conflicto",
+                  "de": "Krieg und Konflikt",
+                  "nl": "Oorlog en conflict"
+        },
+        {
+                  "en": "Trade and commerce",
+                  "es": "Comercio y negocios",
+                  "de": "Handel und Gewerbe",
+                  "nl": "Handel en commercie"
+        },
+        {
+                  "en": "Protection and healing",
+                  "es": "Proteccion y curacion",
+                  "de": "Schutz und Heilung",
+                  "nl": "Bescherming en genezing"
+        },
+        {
+                  "en": "Harvest and agriculture",
+                  "es": "Cosecha y agricultura",
+                  "de": "Ernte und Landwirtschaft",
+                  "nl": "Oogst en landbouw"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "The Eye of Horus, also called the Wadjet eye, was a powerful symbol of protection, royal power, and good health in Egyptian culture.",
-          es: "El Ojo de Horus, tambien llamado ojo Wadjet, era un poderoso simbolo de proteccion, poder real y buena salud en la cultura egipcia.",
-          de: "Das Auge des Horus, auch Wadjet-Auge genannt, war ein maechtiges Symbol fuer Schutz, koenigliche Macht und gute Gesundheit in der aegyptischen Kultur.",
-          nl: "Het Oog van Horus, ook wel het Wadjet-oog genoemd, was een krachtig symbool van bescherming, koninklijke macht en goede gezondheid in de Egyptische cultuur."
+                  "en": "The Eye of Horus, also called the Wadjet eye, was a powerful symbol of protection, royal power, and good health in Egyptian culture.",
+                  "es": "El Ojo de Horus, tambien llamado ojo Wadjet, era un poderoso simbolo de proteccion, poder real y buena salud en la cultura egipcia.",
+                  "de": "Das Auge des Horus, auch Wadjet-Auge genannt, war ein maechtiges Symbol fuer Schutz, koenigliche Macht und gute Gesundheit in der aegyptischen Kultur.",
+                  "nl": "Het Oog van Horus, ook wel het Wadjet-oog genoemd, was een krachtig symbool van bescherming, koninklijke macht en goede gezondheid in de Egyptische cultuur."
         }
       },
       {
         question: {
-          en: "What were canopic jars decorated with?",
-          es: "Con que se decoraban los vasos canopos?",
-          de: "Womit wurden Kanopenkruege dekoriert?",
-          nl: "Waarmee waren canopische kruiken versierd?"
+                  "en": "What were canopic jars decorated with?",
+                  "es": "Con que se decoraban los vasos canopos?",
+                  "de": "Womit wurden Kanopenkruege dekoriert?",
+                  "nl": "Waarmee waren canopische kruiken versierd?"
         },
         options: [
-          { en: "Heads of four sons of Horus", es: "Cabezas de los cuatro hijos de Horus", de: "Koepfe der vier Soehne des Horus", nl: "Hoofden van vier zonen van Horus" },
-          { en: "Pharaoh portraits", es: "Retratos de faraones", de: "Pharaonenportraets", nl: "Farao portretten" },
-          { en: "Flower patterns", es: "Patrones de flores", de: "Blumenmuster", nl: "Bloemenpatronen" },
-          { en: "Geometric shapes", es: "Formas geometricas", de: "Geometrische Formen", nl: "Geometrische vormen" }
+        {
+                  "en": "Pharaoh portraits",
+                  "es": "Retratos de faraones",
+                  "de": "Pharaonenportraets",
+                  "nl": "Farao portretten"
+        },
+        {
+                  "en": "Flower patterns",
+                  "es": "Patrones de flores",
+                  "de": "Blumenmuster",
+                  "nl": "Bloemenpatronen"
+        },
+        {
+                  "en": "Geometric shapes",
+                  "es": "Formas geometricas",
+                  "de": "Geometrische Formen",
+                  "nl": "Geometrische vormen"
+        },
+        {
+                  "en": "Heads of four sons of Horus",
+                  "es": "Cabezas de los cuatro hijos de Horus",
+                  "de": "Koepfe der vier Soehne des Horus",
+                  "nl": "Hoofden van vier zonen van Horus"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Canopic jars, used to store organs during mummification, were topped with lids shaped like the heads of Horus's four sons: human, baboon, falcon, and jackal.",
-          es: "Los vasos canopos, usados para almacenar organos durante la momificacion, tenian tapas con forma de cabezas de los cuatro hijos de Horus: humano, babuino, halcon y chacal.",
-          de: "Kanopenkruege, die zur Aufbewahrung von Organen waehrend der Mumifizierung verwendet wurden, hatten Deckel in Form der Koepfe der vier Soehne des Horus: Mensch, Pavian, Falke und Schakal.",
-          nl: "Canopische kruiken, gebruikt om organen op te slaan tijdens mummificatie, hadden deksels in de vorm van de hoofden van de vier zonen van Horus: mens, baviaan, valk en jakhals."
+                  "en": "Canopic jars, used to store organs during mummification, were topped with lids shaped like the heads of Horus's four sons: human, baboon, falcon, and jackal.",
+                  "es": "Los vasos canopos, usados para almacenar organos durante la momificacion, tenian tapas con forma de cabezas de los cuatro hijos de Horus: humano, babuino, halcon y chacal.",
+                  "de": "Kanopenkruege, die zur Aufbewahrung von Organen waehrend der Mumifizierung verwendet wurden, hatten Deckel in Form der Koepfe der vier Soehne des Horus: Mensch, Pavian, Falke und Schakal.",
+                  "nl": "Canopische kruiken, gebruikt om organen op te slaan tijdens mummificatie, hadden deksels in de vorm van de hoofden van de vier zonen van Horus: mens, baviaan, valk en jakhals."
         }
       },
       {
         question: {
-          en: "What was the typical pose of seated Egyptian statues?",
-          es: "Cual era la pose tipica de las estatuas egipcias sentadas?",
-          de: "Was war die typische Pose sitzender aegyptischer Statuen?",
-          nl: "Wat was de typische pose van zittende Egyptische beelden?"
+                  "en": "What was the typical pose of seated Egyptian statues?",
+                  "es": "Cual era la pose tipica de las estatuas egipcias sentadas?",
+                  "de": "Was war die typische Pose sitzender aegyptischer Statuen?",
+                  "nl": "Wat was de typische pose van zittende Egyptische beelden?"
         },
         options: [
-          { en: "Hands on knees, sitting upright", es: "Manos sobre las rodillas, sentado erguido", de: "Haende auf Knien, aufrecht sitzend", nl: "Handen op knieen, rechtop zittend" },
-          { en: "Crossed legs", es: "Piernas cruzadas", de: "Gekreuzte Beine", nl: "Gekruiste benen" },
-          { en: "Reclining position", es: "Posicion reclinada", de: "Liegende Position", nl: "Liggende positie" },
-          { en: "Standing pose only", es: "Solo pose de pie", de: "Nur stehende Pose", nl: "Alleen staande pose" }
+        {
+                  "en": "Reclining position",
+                  "es": "Posicion reclinada",
+                  "de": "Liegende Position",
+                  "nl": "Liggende positie"
+        },
+        {
+                  "en": "Standing pose only",
+                  "es": "Solo pose de pie",
+                  "de": "Nur stehende Pose",
+                  "nl": "Alleen staande pose"
+        },
+        {
+                  "en": "Crossed legs",
+                  "es": "Piernas cruzadas",
+                  "de": "Gekreuzte Beine",
+                  "nl": "Gekruiste benen"
+        },
+        {
+                  "en": "Hands on knees, sitting upright",
+                  "es": "Manos sobre las rodillas, sentado erguido",
+                  "de": "Haende auf Knien, aufrecht sitzend",
+                  "nl": "Handen op knieen, rechtop zittend"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Egyptian seated statues typically showed figures sitting upright with hands placed flat on their knees, symbolizing eternal stability and order.",
-          es: "Las estatuas egipcias sentadas tipicamente mostraban figuras sentadas erguidas con las manos planas sobre las rodillas, simbolizando estabilidad y orden eternos.",
-          de: "Aegyptische sitzende Statuen zeigten typischerweise aufrecht sitzende Figuren mit flach auf die Knie gelegten Haenden, was ewige Stabilitaet und Ordnung symbolisierte.",
-          nl: "Egyptische zittende beelden toonden typisch figuren die rechtop zaten met handen plat op hun knieen, wat eeuwige stabiliteit en orde symboliseerde."
+                  "en": "Egyptian seated statues typically showed figures sitting upright with hands placed flat on their knees, symbolizing eternal stability and order.",
+                  "es": "Las estatuas egipcias sentadas tipicamente mostraban figuras sentadas erguidas con las manos planas sobre las rodillas, simbolizando estabilidad y orden eternos.",
+                  "de": "Aegyptische sitzende Statuen zeigten typischerweise aufrecht sitzende Figuren mit flach auf die Knie gelegten Haenden, was ewige Stabilitaet und Ordnung symbolisierte.",
+                  "nl": "Egyptische zittende beelden toonden typisch figuren die rechtop zaten met handen plat op hun knieen, wat eeuwige stabiliteit en orde symboliseerde."
         }
       },
       {
         question: {
-          en: "What is faience in Egyptian art?",
-          es: "Que es la loza en el arte egipcio?",
-          de: "Was ist Fayence in der aegyptischen Kunst?",
-          nl: "Wat is faience in Egyptische kunst?"
+                  "en": "What is faience in Egyptian art?",
+                  "es": "Que es la loza en el arte egipcio?",
+                  "de": "Was ist Fayence in der aegyptischen Kunst?",
+                  "nl": "Wat is faience in Egyptische kunst?"
         },
         options: [
-          { en: "Blue-green glazed ceramic", es: "Ceramica vidriada azul-verde", de: "Blaugruene glasierte Keramik", nl: "Blauwgroene geglazuurde keramiek" },
-          { en: "Gold leaf decoration", es: "Decoracion de pan de oro", de: "Blattgold-Dekoration", nl: "Bladgoud decoratie" },
-          { en: "Carved ivory", es: "Marfil tallado", de: "Geschnitztes Elfenbein", nl: "Gesneden ivoor" },
-          { en: "Painted wood", es: "Madera pintada", de: "Bemaltes Holz", nl: "Beschilderd hout" }
+        {
+                  "en": "Painted wood",
+                  "es": "Madera pintada",
+                  "de": "Bemaltes Holz",
+                  "nl": "Beschilderd hout"
+        },
+        {
+                  "en": "Blue-green glazed ceramic",
+                  "es": "Ceramica vidriada azul-verde",
+                  "de": "Blaugruene glasierte Keramik",
+                  "nl": "Blauwgroene geglazuurde keramiek"
+        },
+        {
+                  "en": "Gold leaf decoration",
+                  "es": "Decoracion de pan de oro",
+                  "de": "Blattgold-Dekoration",
+                  "nl": "Bladgoud decoratie"
+        },
+        {
+                  "en": "Carved ivory",
+                  "es": "Marfil tallado",
+                  "de": "Geschnitztes Elfenbein",
+                  "nl": "Gesneden ivoor"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Faience was a glazed ceramic material in distinctive blue-green colors, widely used for jewelry, amulets, and decorative objects in ancient Egypt.",
-          es: "La loza era un material ceramico vidriado en colores azul-verde distintivos, ampliamente utilizado para joyeria, amuletos y objetos decorativos en el antiguo Egipto.",
-          de: "Fayence war ein glasiertes Keramikmaterial in charakteristischen blaugruenen Farben, weit verbreitet fuer Schmuck, Amulette und dekorative Objekte im alten Aegypten.",
-          nl: "Faience was een geglazuurd keramisch materiaal in kenmerkende blauwgroene kleuren, veel gebruikt voor sieraden, amuletten en decoratieve objecten in het oude Egypte."
+                  "en": "Faience was a glazed ceramic material in distinctive blue-green colors, widely used for jewelry, amulets, and decorative objects in ancient Egypt.",
+                  "es": "La loza era un material ceramico vidriado en colores azul-verde distintivos, ampliamente utilizado para joyeria, amuletos y objetos decorativos en el antiguo Egipto.",
+                  "de": "Fayence war ein glasiertes Keramikmaterial in charakteristischen blaugruenen Farben, weit verbreitet fuer Schmuck, Amulette und dekorative Objekte im alten Aegypten.",
+                  "nl": "Faience was een geglazuurd keramisch materiaal in kenmerkende blauwgroene kleuren, veel gebruikt voor sieraden, amuletten en decoratieve objecten in het oude Egypte."
         }
       },
       {
         question: {
-          en: "What is hieratic art style?",
-          es: "Que es el estilo de arte hieratico?",
-          de: "Was ist hieratischer Kunststil?",
-          nl: "Wat is hieratische kunststijl?"
+                  "en": "What is hieratic art style?",
+                  "es": "Que es el estilo de arte hieratico?",
+                  "de": "Was ist hieratischer Kunststil?",
+                  "nl": "Wat is hieratische kunststijl?"
         },
         options: [
-          { en: "Formal, rigid style for important figures", es: "Estilo formal y rigido para figuras importantes", de: "Formaler, starrer Stil fuer wichtige Figuren", nl: "Formele, stijve stijl voor belangrijke figuren" },
-          { en: "Realistic, natural style", es: "Estilo realista y natural", de: "Realistischer, natuerlicher Stil", nl: "Realistische, natuurlijke stijl" },
-          { en: "Abstract, modern style", es: "Estilo abstracto y moderno", de: "Abstrakter, moderner Stil", nl: "Abstracte, moderne stijl" },
-          { en: "Impressionistic style", es: "Estilo impresionista", de: "Impressionistischer Stil", nl: "Impressionistische stijl" }
+        {
+                  "en": "Formal, rigid style for important figures",
+                  "es": "Estilo formal y rigido para figuras importantes",
+                  "de": "Formaler, starrer Stil fuer wichtige Figuren",
+                  "nl": "Formele, stijve stijl voor belangrijke figuren"
+        },
+        {
+                  "en": "Abstract, modern style",
+                  "es": "Estilo abstracto y moderno",
+                  "de": "Abstrakter, moderner Stil",
+                  "nl": "Abstracte, moderne stijl"
+        },
+        {
+                  "en": "Realistic, natural style",
+                  "es": "Estilo realista y natural",
+                  "de": "Realistischer, natuerlicher Stil",
+                  "nl": "Realistische, natuurlijke stijl"
+        },
+        {
+                  "en": "Impressionistic style",
+                  "es": "Estilo impresionista",
+                  "de": "Impressionistischer Stil",
+                  "nl": "Impressionistische stijl"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Hieratic art style was the formal, rigid, and idealized style used for depicting pharaohs and gods, emphasizing their divine and eternal nature.",
-          es: "El estilo de arte hieratico era el estilo formal, rigido e idealizado usado para representar faraones y dioses, enfatizando su naturaleza divina y eterna.",
-          de: "Der hieratische Kunststil war der formale, starre und idealisierte Stil zur Darstellung von Pharaonen und Goettern, der ihre goettliche und ewige Natur betonte.",
-          nl: "Hieratische kunststijl was de formele, stijve en geidealiseerde stijl die werd gebruikt voor het afbeelden van farao's en goden, waarbij hun goddelijke en eeuwige aard werd benadrukt."
+                  "en": "Hieratic art style was the formal, rigid, and idealized style used for depicting pharaohs and gods, emphasizing their divine and eternal nature.",
+                  "es": "El estilo de arte hieratico era el estilo formal, rigido e idealizado usado para representar faraones y dioses, enfatizando su naturaleza divina y eterna.",
+                  "de": "Der hieratische Kunststil war der formale, starre und idealisierte Stil zur Darstellung von Pharaonen und Goettern, der ihre goettliche und ewige Natur betonte.",
+                  "nl": "Hieratische kunststijl was de formele, stijve en geidealiseerde stijl die werd gebruikt voor het afbeelden van farao's en goden, waarbij hun goddelijke en eeuwige aard werd benadrukt."
         }
       },
       {
         question: {
-          en: "What was the purpose of ushabti figures?",
-          es: "Cual era el proposito de las figuras ushabti?",
-          de: "Was war der Zweck von Uschebti-Figuren?",
-          nl: "Wat was het doel van ushabti figuren?"
+                  "en": "What was the purpose of ushabti figures?",
+                  "es": "Cual era el proposito de las figuras ushabti?",
+                  "de": "Was war der Zweck von Uschebti-Figuren?",
+                  "nl": "Wat was het doel van ushabti figuren?"
         },
         options: [
-          { en: "Servants in the afterlife", es: "Sirvientes en la otra vida", de: "Diener im Jenseits", nl: "Dienaren in het hiernamaals" },
-          { en: "Toys for children", es: "Juguetes para ninos", de: "Spielzeug fuer Kinder", nl: "Speelgoed voor kinderen" },
-          { en: "Temple offerings", es: "Ofrendas de templo", de: "Tempelopfer", nl: "Tempeloffers" },
-          { en: "Building decorations", es: "Decoraciones de edificios", de: "Gebaeudedekorationen", nl: "Gebouwversieringen" }
+        {
+                  "en": "Toys for children",
+                  "es": "Juguetes para ninos",
+                  "de": "Spielzeug fuer Kinder",
+                  "nl": "Speelgoed voor kinderen"
+        },
+        {
+                  "en": "Servants in the afterlife",
+                  "es": "Sirvientes en la otra vida",
+                  "de": "Diener im Jenseits",
+                  "nl": "Dienaren in het hiernamaals"
+        },
+        {
+                  "en": "Temple offerings",
+                  "es": "Ofrendas de templo",
+                  "de": "Tempelopfer",
+                  "nl": "Tempeloffers"
+        },
+        {
+                  "en": "Building decorations",
+                  "es": "Decoraciones de edificios",
+                  "de": "Gebaeudedekorationen",
+                  "nl": "Gebouwversieringen"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Ushabti figures were small servant statues placed in tombs to perform labor for the deceased in the afterlife when called upon.",
-          es: "Las figuras ushabti eran pequenas estatuas de sirvientes colocadas en tumbas para realizar trabajo para el difunto en la otra vida cuando fueran llamadas.",
-          de: "Uschebti-Figuren waren kleine Dienerfiguren, die in Graebern platziert wurden, um bei Bedarf Arbeit fuer den Verstorbenen im Jenseits zu verrichten.",
-          nl: "Ushabti figuren waren kleine dienaarbeelden die in graven werden geplaatst om werk te verrichten voor de overledene in het hiernamaals wanneer daarom werd gevraagd."
+                  "en": "Ushabti figures were small servant statues placed in tombs to perform labor for the deceased in the afterlife when called upon.",
+                  "es": "Las figuras ushabti eran pequenas estatuas de sirvientes colocadas en tumbas para realizar trabajo para el difunto en la otra vida cuando fueran llamadas.",
+                  "de": "Uschebti-Figuren waren kleine Dienerfiguren, die in Graebern platziert wurden, um bei Bedarf Arbeit fuer den Verstorbenen im Jenseits zu verrichten.",
+                  "nl": "Ushabti figuren waren kleine dienaarbeelden die in graven werden geplaatst om werk te verrichten voor de overledene in het hiernamaals wanneer daarom werd gevraagd."
         }
       },
       {
         question: {
-          en: "What metal was most valued in Egyptian jewelry?",
-          es: "Que metal era mas valorado en la joyeria egipcia?",
-          de: "Welches Metall war am meisten in aegyptischem Schmuck geschaetzt?",
-          nl: "Welk metaal was het meest gewaardeerd in Egyptische sieraden?"
+                  "en": "What metal was most valued in Egyptian jewelry?",
+                  "es": "Que metal era mas valorado en la joyeria egipcia?",
+                  "de": "Welches Metall war am meisten in aegyptischem Schmuck geschaetzt?",
+                  "nl": "Welk metaal was het meest gewaardeerd in Egyptische sieraden?"
         },
         options: [
-          { en: "Gold", es: "Oro", de: "Gold", nl: "Goud" },
-          { en: "Silver", es: "Plata", de: "Silber", nl: "Zilver" },
-          { en: "Iron", es: "Hierro", de: "Eisen", nl: "IJzer" },
-          { en: "Copper", es: "Cobre", de: "Kupfer", nl: "Koper" }
+        {
+                  "en": "Iron",
+                  "es": "Hierro",
+                  "de": "Eisen",
+                  "nl": "IJzer"
+        },
+        {
+                  "en": "Gold",
+                  "es": "Oro",
+                  "de": "Gold",
+                  "nl": "Goud"
+        },
+        {
+                  "en": "Silver",
+                  "es": "Plata",
+                  "de": "Silber",
+                  "nl": "Zilver"
+        },
+        {
+                  "en": "Copper",
+                  "es": "Cobre",
+                  "de": "Kupfer",
+                  "nl": "Koper"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Gold was the most prized metal in ancient Egypt, associated with the sun god Ra and believed to be the flesh of the gods.",
+                  "es": "El oro era el metal mas preciado en el antiguo Egipto, asociado con el dios sol Ra y se creia que era la carne de los dioses.",
+                  "de": "Gold war das wertvollste Metall im alten Aegypten, verbunden mit dem Sonnengott Ra und man glaubte, es sei das Fleisch der Goetter.",
+                  "nl": "Goud was het meest gewaardeerde metaal in het oude Egypte, geassocieerd met de zonnegod Ra en men geloofde dat het het vlees van de goden was."
+        }
+      },
+      {
+        question: {
+                  "en": "What is the Egyptian art style called where figures are shown from multiple viewpoints?",
+                  "es": "What is the Egyptian art style called where figures are shown from multiple viewpoints?",
+                  "de": "What is the Egyptian art style called where figures are shown from multiple viewpoints?",
+                  "nl": "What is the Egyptian art style called where figures are shown from multiple viewpoints?"
+        },
+        options: [
+        {
+                  "en": "Linear perspective",
+                  "es": "Linear perspective",
+                  "de": "Linear perspective",
+                  "nl": "Linear perspective"
+        },
+        {
+                  "en": "Composite view or twisted perspective",
+                  "es": "Composite view or twisted perspective",
+                  "de": "Composite view or twisted perspective",
+                  "nl": "Composite view or twisted perspective"
+        },
+        {
+                  "en": "3D perspective",
+                  "es": "3D perspective",
+                  "de": "3D perspective",
+                  "nl": "3D perspective"
+        },
+        {
+                  "en": "Foreshortening",
+                  "es": "Foreshortening",
+                  "de": "Foreshortening",
+                  "nl": "Foreshortening"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Egyptian art used composite view, showing head and legs in profile while torso and eyes face forward.",
+                  "es": "Egyptian art used composite view, showing head and legs in profile while torso and eyes face forward.",
+                  "de": "Egyptian art used composite view, showing head and legs in profile while torso and eyes face forward.",
+                  "nl": "Egyptian art used composite view, showing head and legs in profile while torso and eyes face forward."
+        }
+      },
+      {
+        question: {
+                  "en": "What material were most Egyptian statues carved from?",
+                  "es": "What material were most Egyptian statues carved from?",
+                  "de": "What material were most Egyptian statues carved from?",
+                  "nl": "What material were most Egyptian statues carved from?"
+        },
+        options: [
+        {
+                  "en": "Clay",
+                  "es": "Clay",
+                  "de": "Clay",
+                  "nl": "Clay"
+        },
+        {
+                  "en": "Stone (limestone, granite, sandstone)",
+                  "es": "Stone (limestone, granite, sandstone)",
+                  "de": "Stone (limestone, granite, sandstone)",
+                  "nl": "Stone (limestone, granite, sandstone)"
+        },
+        {
+                  "en": "Wood",
+                  "es": "Wood",
+                  "de": "Wood",
+                  "nl": "Wood"
+        },
+        {
+                  "en": "Bronze",
+                  "es": "Bronze",
+                  "de": "Bronze",
+                  "nl": "Bronze"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Most Egyptian statues were carved from stone, particularly limestone, granite, and sandstone.",
+                  "es": "Most Egyptian statues were carved from stone, particularly limestone, granite, and sandstone.",
+                  "de": "Most Egyptian statues were carved from stone, particularly limestone, granite, and sandstone.",
+                  "nl": "Most Egyptian statues were carved from stone, particularly limestone, granite, and sandstone."
+        }
+      },
+      {
+        question: {
+                  "en": "What does the size of figures in Egyptian art indicate?",
+                  "es": "What does the size of figures in Egyptian art indicate?",
+                  "de": "What does the size of figures in Egyptian art indicate?",
+                  "nl": "What does the size of figures in Egyptian art indicate?"
+        },
+        options: [
+        {
+                  "en": "Wealth only",
+                  "es": "Wealth only",
+                  "de": "Wealth only",
+                  "nl": "Wealth only"
+        },
+        {
+                  "en": "Age",
+                  "es": "Age",
+                  "de": "Age",
+                  "nl": "Age"
+        },
+        {
+                  "en": "Social importance and rank",
+                  "es": "Social importance and rank",
+                  "de": "Social importance and rank",
+                  "nl": "Social importance and rank"
+        },
+        {
+                  "en": "Actual physical size",
+                  "es": "Actual physical size",
+                  "de": "Actual physical size",
+                  "nl": "Actual physical size"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "In Egyptian art, the size of figures represented social hierarchy and importance, not physical dimensions.",
+                  "es": "In Egyptian art, the size of figures represented social hierarchy and importance, not physical dimensions.",
+                  "de": "In Egyptian art, the size of figures represented social hierarchy and importance, not physical dimensions.",
+                  "nl": "In Egyptian art, the size of figures represented social hierarchy and importance, not physical dimensions."
+        }
+      },
+      {
+        question: {
+                  "en": "What color represented life and rebirth in Egyptian art?",
+                  "es": "What color represented life and rebirth in Egyptian art?",
+                  "de": "What color represented life and rebirth in Egyptian art?",
+                  "nl": "What color represented life and rebirth in Egyptian art?"
+        },
+        options: [
+        {
+                  "en": "Green",
+                  "es": "Green",
+                  "de": "Green",
+                  "nl": "Green"
+        },
+        {
+                  "en": "Yellow",
+                  "es": "Yellow",
+                  "de": "Yellow",
+                  "nl": "Yellow"
+        },
+        {
+                  "en": "Red",
+                  "es": "Red",
+                  "de": "Red",
+                  "nl": "Red"
+        },
+        {
+                  "en": "Blue",
+                  "es": "Blue",
+                  "de": "Blue",
+                  "nl": "Blue"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Gold was the most prized metal in ancient Egypt, associated with the sun god Ra and believed to be the flesh of the gods.",
-          es: "El oro era el metal mas preciado en el antiguo Egipto, asociado con el dios sol Ra y se creia que era la carne de los dioses.",
-          de: "Gold war das wertvollste Metall im alten Aegypten, verbunden mit dem Sonnengott Ra und man glaubte, es sei das Fleisch der Goetter.",
-          nl: "Goud was het meest gewaardeerde metaal in het oude Egypte, geassocieerd met de zonnegod Ra en men geloofde dat het het vlees van de goden was."
-        }    },
-    {
-      question: {
-        en: "What is the Egyptian art style called where figures are shown from multiple viewpoints?",
-        es: "What is the Egyptian art style called where figures are shown from multiple viewpoints?",
-        de: "What is the Egyptian art style called where figures are shown from multiple viewpoints?",
-        nl: "What is the Egyptian art style called where figures are shown from multiple viewpoints?"
+                  "en": "Green symbolized life, rebirth, and vegetation in Egyptian art and religion.",
+                  "es": "Green symbolized life, rebirth, and vegetation in Egyptian art and religion.",
+                  "de": "Green symbolized life, rebirth, and vegetation in Egyptian art and religion.",
+                  "nl": "Green symbolized life, rebirth, and vegetation in Egyptian art and religion."
+        }
       },
-      options: [
-        { en: "Composite view or twisted perspective", es: "Composite view or twisted perspective", de: "Composite view or twisted perspective", nl: "Composite view or twisted perspective" },
-        { en: "3D perspective", es: "3D perspective", de: "3D perspective", nl: "3D perspective" },
-        { en: "Foreshortening", es: "Foreshortening", de: "Foreshortening", nl: "Foreshortening" },
-        { en: "Linear perspective", es: "Linear perspective", de: "Linear perspective", nl: "Linear perspective" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Egyptian art used composite view, showing head and legs in profile while torso and eyes face forward.",
-        es: "Egyptian art used composite view, showing head and legs in profile while torso and eyes face forward.",
-        de: "Egyptian art used composite view, showing head and legs in profile while torso and eyes face forward.",
-        nl: "Egyptian art used composite view, showing head and legs in profile while torso and eyes face forward."
-      }
-    },
-    {
-      question: {
-        en: "What material were most Egyptian statues carved from?",
-        es: "What material were most Egyptian statues carved from?",
-        de: "What material were most Egyptian statues carved from?",
-        nl: "What material were most Egyptian statues carved from?"
+      {
+        question: {
+                  "en": "What is a cartouche?",
+                  "es": "What is a cartouche?",
+                  "de": "What is a cartouche?",
+                  "nl": "What is a cartouche?"
+        },
+        options: [
+        {
+                  "en": "Type of crown",
+                  "es": "Type of crown",
+                  "de": "Type of crown",
+                  "nl": "Type of crown"
+        },
+        {
+                  "en": "Ceremonial weapon",
+                  "es": "Ceremonial weapon",
+                  "de": "Ceremonial weapon",
+                  "nl": "Ceremonial weapon"
+        },
+        {
+                  "en": "Oval frame containing royal names",
+                  "es": "Oval frame containing royal names",
+                  "de": "Oval frame containing royal names",
+                  "nl": "Oval frame containing royal names"
+        },
+        {
+                  "en": "Temple decoration",
+                  "es": "Temple decoration",
+                  "de": "Temple decoration",
+                  "nl": "Temple decoration"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "A cartouche is an oval or oblong shape containing hieroglyphs spelling out royal names.",
+                  "es": "A cartouche is an oval or oblong shape containing hieroglyphs spelling out royal names.",
+                  "de": "A cartouche is an oval or oblong shape containing hieroglyphs spelling out royal names.",
+                  "nl": "A cartouche is an oval or oblong shape containing hieroglyphs spelling out royal names."
+        }
       },
-      options: [
-        { en: "Stone (limestone, granite, sandstone)", es: "Stone (limestone, granite, sandstone)", de: "Stone (limestone, granite, sandstone)", nl: "Stone (limestone, granite, sandstone)" },
-        { en: "Wood", es: "Wood", de: "Wood", nl: "Wood" },
-        { en: "Bronze", es: "Bronze", de: "Bronze", nl: "Bronze" },
-        { en: "Clay", es: "Clay", de: "Clay", nl: "Clay" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Most Egyptian statues were carved from stone, particularly limestone, granite, and sandstone.",
-        es: "Most Egyptian statues were carved from stone, particularly limestone, granite, and sandstone.",
-        de: "Most Egyptian statues were carved from stone, particularly limestone, granite, and sandstone.",
-        nl: "Most Egyptian statues were carved from stone, particularly limestone, granite, and sandstone."
-      }
-    },
-    {
-      question: {
-        en: "What does the size of figures in Egyptian art indicate?",
-        es: "What does the size of figures in Egyptian art indicate?",
-        de: "What does the size of figures in Egyptian art indicate?",
-        nl: "What does the size of figures in Egyptian art indicate?"
+      {
+        question: {
+                  "en": "What pigment created the famous Egyptian blue color?",
+                  "es": "What pigment created the famous Egyptian blue color?",
+                  "de": "What pigment created the famous Egyptian blue color?",
+                  "nl": "What pigment created the famous Egyptian blue color?"
+        },
+        options: [
+        {
+                  "en": "Lapis lazuli",
+                  "es": "Lapis lazuli",
+                  "de": "Lapis lazuli",
+                  "nl": "Lapis lazuli"
+        },
+        {
+                  "en": "Azurite",
+                  "es": "Azurite",
+                  "de": "Azurite",
+                  "nl": "Azurite"
+        },
+        {
+                  "en": "Cobalt",
+                  "es": "Cobalt",
+                  "de": "Cobalt",
+                  "nl": "Cobalt"
+        },
+        {
+                  "en": "Copper calcium silicate",
+                  "es": "Copper calcium silicate",
+                  "de": "Copper calcium silicate",
+                  "nl": "Copper calcium silicate"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Egyptian blue was the first synthetic pigment, made from copper calcium silicate.",
+                  "es": "Egyptian blue was the first synthetic pigment, made from copper calcium silicate.",
+                  "de": "Egyptian blue was the first synthetic pigment, made from copper calcium silicate.",
+                  "nl": "Egyptian blue was the first synthetic pigment, made from copper calcium silicate."
+        }
       },
-      options: [
-        { en: "Social importance and rank", es: "Social importance and rank", de: "Social importance and rank", nl: "Social importance and rank" },
-        { en: "Actual physical size", es: "Actual physical size", de: "Actual physical size", nl: "Actual physical size" },
-        { en: "Age", es: "Age", de: "Age", nl: "Age" },
-        { en: "Wealth only", es: "Wealth only", de: "Wealth only", nl: "Wealth only" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "In Egyptian art, the size of figures represented social hierarchy and importance, not physical dimensions.",
-        es: "In Egyptian art, the size of figures represented social hierarchy and importance, not physical dimensions.",
-        de: "In Egyptian art, the size of figures represented social hierarchy and importance, not physical dimensions.",
-        nl: "In Egyptian art, the size of figures represented social hierarchy and importance, not physical dimensions."
-      }
-    },
-    {
-      question: {
-        en: "What color represented life and rebirth in Egyptian art?",
-        es: "What color represented life and rebirth in Egyptian art?",
-        de: "What color represented life and rebirth in Egyptian art?",
-        nl: "What color represented life and rebirth in Egyptian art?"
+      {
+        question: {
+                  "en": "What is the canon of proportions in Egyptian art?",
+                  "es": "What is the canon of proportions in Egyptian art?",
+                  "de": "What is the canon of proportions in Egyptian art?",
+                  "nl": "What is the canon of proportions in Egyptian art?"
+        },
+        options: [
+        {
+                  "en": "Grid system for depicting human figures",
+                  "es": "Grid system for depicting human figures",
+                  "de": "Grid system for depicting human figures",
+                  "nl": "Grid system for depicting human figures"
+        },
+        {
+                  "en": "Temple design rules",
+                  "es": "Temple design rules",
+                  "de": "Temple design rules",
+                  "nl": "Temple design rules"
+        },
+        {
+                  "en": "Sculpture size standards",
+                  "es": "Sculpture size standards",
+                  "de": "Sculpture size standards",
+                  "nl": "Sculpture size standards"
+        },
+        {
+                  "en": "Color mixing rules",
+                  "es": "Color mixing rules",
+                  "de": "Color mixing rules",
+                  "nl": "Color mixing rules"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "The canon of proportions was a grid system ensuring consistent proportions in depicting human figures.",
+                  "es": "The canon of proportions was a grid system ensuring consistent proportions in depicting human figures.",
+                  "de": "The canon of proportions was a grid system ensuring consistent proportions in depicting human figures.",
+                  "nl": "The canon of proportions was a grid system ensuring consistent proportions in depicting human figures."
+        }
       },
-      options: [
-        { en: "Green", es: "Green", de: "Green", nl: "Green" },
-        { en: "Red", es: "Red", de: "Red", nl: "Red" },
-        { en: "Blue", es: "Blue", de: "Blue", nl: "Blue" },
-        { en: "Yellow", es: "Yellow", de: "Yellow", nl: "Yellow" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Green symbolized life, rebirth, and vegetation in Egyptian art and religion.",
-        es: "Green symbolized life, rebirth, and vegetation in Egyptian art and religion.",
-        de: "Green symbolized life, rebirth, and vegetation in Egyptian art and religion.",
-        nl: "Green symbolized life, rebirth, and vegetation in Egyptian art and religion."
-      }
-    },
-    {
-      question: {
-        en: "What is a cartouche?",
-        es: "What is a cartouche?",
-        de: "What is a cartouche?",
-        nl: "What is a cartouche?"
+      {
+        question: {
+                  "en": "What material was used for Egyptian paintbrush bristles?",
+                  "es": "What material was used for Egyptian paintbrush bristles?",
+                  "de": "What material was used for Egyptian paintbrush bristles?",
+                  "nl": "What material was used for Egyptian paintbrush bristles?"
+        },
+        options: [
+        {
+                  "en": "Animal hair",
+                  "es": "Animal hair",
+                  "de": "Animal hair",
+                  "nl": "Animal hair"
+        },
+        {
+                  "en": "Cotton",
+                  "es": "Cotton",
+                  "de": "Cotton",
+                  "nl": "Cotton"
+        },
+        {
+                  "en": "Palm fibers or reeds",
+                  "es": "Palm fibers or reeds",
+                  "de": "Palm fibers or reeds",
+                  "nl": "Palm fibers or reeds"
+        },
+        {
+                  "en": "Feathers",
+                  "es": "Feathers",
+                  "de": "Feathers",
+                  "nl": "Feathers"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Egyptian brushes were made from palm fibers or chewed reed ends.",
+                  "es": "Egyptian brushes were made from palm fibers or chewed reed ends.",
+                  "de": "Egyptian brushes were made from palm fibers or chewed reed ends.",
+                  "nl": "Egyptian brushes were made from palm fibers or chewed reed ends."
+        }
       },
-      options: [
-        { en: "Oval frame containing royal names", es: "Oval frame containing royal names", de: "Oval frame containing royal names", nl: "Oval frame containing royal names" },
-        { en: "Type of crown", es: "Type of crown", de: "Type of crown", nl: "Type of crown" },
-        { en: "Ceremonial weapon", es: "Ceremonial weapon", de: "Ceremonial weapon", nl: "Ceremonial weapon" },
-        { en: "Temple decoration", es: "Temple decoration", de: "Temple decoration", nl: "Temple decoration" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A cartouche is an oval or oblong shape containing hieroglyphs spelling out royal names.",
-        es: "A cartouche is an oval or oblong shape containing hieroglyphs spelling out royal names.",
-        de: "A cartouche is an oval or oblong shape containing hieroglyphs spelling out royal names.",
-        nl: "A cartouche is an oval or oblong shape containing hieroglyphs spelling out royal names."
-      }
-    },
-    {
-      question: {
-        en: "What pigment created the famous Egyptian blue color?",
-        es: "What pigment created the famous Egyptian blue color?",
-        de: "What pigment created the famous Egyptian blue color?",
-        nl: "What pigment created the famous Egyptian blue color?"
+      {
+        question: {
+                  "en": "What is a funerary stele?",
+                  "es": "What is a funerary stele?",
+                  "de": "What is a funerary stele?",
+                  "nl": "What is a funerary stele?"
+        },
+        options: [
+        {
+                  "en": "Upright stone slab with inscriptions",
+                  "es": "Upright stone slab with inscriptions",
+                  "de": "Upright stone slab with inscriptions",
+                  "nl": "Upright stone slab with inscriptions"
+        },
+        {
+                  "en": "Tomb entrance",
+                  "es": "Tomb entrance",
+                  "de": "Tomb entrance",
+                  "nl": "Tomb entrance"
+        },
+        {
+                  "en": "Burial chamber",
+                  "es": "Burial chamber",
+                  "de": "Burial chamber",
+                  "nl": "Burial chamber"
+        },
+        {
+                  "en": "Mummy case",
+                  "es": "Mummy case",
+                  "de": "Mummy case",
+                  "nl": "Mummy case"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "A stele (or stela) is an upright stone slab inscribed with text and images, often funerary in purpose.",
+                  "es": "A stele (or stela) is an upright stone slab inscribed with text and images, often funerary in purpose.",
+                  "de": "A stele (or stela) is an upright stone slab inscribed with text and images, often funerary in purpose.",
+                  "nl": "A stele (or stela) is an upright stone slab inscribed with text and images, often funerary in purpose."
+        }
       },
-      options: [
-        { en: "Copper calcium silicate", es: "Copper calcium silicate", de: "Copper calcium silicate", nl: "Copper calcium silicate" },
-        { en: "Lapis lazuli", es: "Lapis lazuli", de: "Lapis lazuli", nl: "Lapis lazuli" },
-        { en: "Azurite", es: "Azurite", de: "Azurite", nl: "Azurite" },
-        { en: "Cobalt", es: "Cobalt", de: "Cobalt", nl: "Cobalt" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Egyptian blue was the first synthetic pigment, made from copper calcium silicate.",
-        es: "Egyptian blue was the first synthetic pigment, made from copper calcium silicate.",
-        de: "Egyptian blue was the first synthetic pigment, made from copper calcium silicate.",
-        nl: "Egyptian blue was the first synthetic pigment, made from copper calcium silicate."
-      }
-    },
-    {
-      question: {
-        en: "What is the canon of proportions in Egyptian art?",
-        es: "What is the canon of proportions in Egyptian art?",
-        de: "What is the canon of proportions in Egyptian art?",
-        nl: "What is the canon of proportions in Egyptian art?"
+      {
+        question: {
+                  "en": "What binding medium did Egyptians use for paint?",
+                  "es": "What binding medium did Egyptians use for paint?",
+                  "de": "What binding medium did Egyptians use for paint?",
+                  "nl": "What binding medium did Egyptians use for paint?"
+        },
+        options: [
+        {
+                  "en": "Wax",
+                  "es": "Wax",
+                  "de": "Wax",
+                  "nl": "Wax"
+        },
+        {
+                  "en": "Water only",
+                  "es": "Water only",
+                  "de": "Water only",
+                  "nl": "Water only"
+        },
+        {
+                  "en": "Oil",
+                  "es": "Oil",
+                  "de": "Oil",
+                  "nl": "Oil"
+        },
+        {
+                  "en": "Egg white or gum arabic",
+                  "es": "Egg white or gum arabic",
+                  "de": "Egg white or gum arabic",
+                  "nl": "Egg white or gum arabic"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Egyptians used egg white, gum arabic, or beeswax as binding media for their pigments.",
+                  "es": "Egyptians used egg white, gum arabic, or beeswax as binding media for their pigments.",
+                  "de": "Egyptians used egg white, gum arabic, or beeswax as binding media for their pigments.",
+                  "nl": "Egyptians used egg white, gum arabic, or beeswax as binding media for their pigments."
+        }
       },
-      options: [
-        { en: "Grid system for depicting human figures", es: "Grid system for depicting human figures", de: "Grid system for depicting human figures", nl: "Grid system for depicting human figures" },
-        { en: "Color mixing rules", es: "Color mixing rules", de: "Color mixing rules", nl: "Color mixing rules" },
-        { en: "Temple design rules", es: "Temple design rules", de: "Temple design rules", nl: "Temple design rules" },
-        { en: "Sculpture size standards", es: "Sculpture size standards", de: "Sculpture size standards", nl: "Sculpture size standards" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The canon of proportions was a grid system ensuring consistent proportions in depicting human figures.",
-        es: "The canon of proportions was a grid system ensuring consistent proportions in depicting human figures.",
-        de: "The canon of proportions was a grid system ensuring consistent proportions in depicting human figures.",
-        nl: "The canon of proportions was a grid system ensuring consistent proportions in depicting human figures."
-      }
-    },
-    {
-      question: {
-        en: "What material was used for Egyptian paintbrush bristles?",
-        es: "What material was used for Egyptian paintbrush bristles?",
-        de: "What material was used for Egyptian paintbrush bristles?",
-        nl: "What material was used for Egyptian paintbrush bristles?"
+      {
+        question: {
+                  "en": "What is faience in Egyptian art?",
+                  "es": "What is faience in Egyptian art?",
+                  "de": "What is faience in Egyptian art?",
+                  "nl": "What is faience in Egyptian art?"
+        },
+        options: [
+        {
+                  "en": "Type of paint",
+                  "es": "Type of paint",
+                  "de": "Type of paint",
+                  "nl": "Type of paint"
+        },
+        {
+                  "en": "Precious stone",
+                  "es": "Precious stone",
+                  "de": "Precious stone",
+                  "nl": "Precious stone"
+        },
+        {
+                  "en": "Glazed ceramic material",
+                  "es": "Glazed ceramic material",
+                  "de": "Glazed ceramic material",
+                  "nl": "Glazed ceramic material"
+        },
+        {
+                  "en": "Gold leaf",
+                  "es": "Gold leaf",
+                  "de": "Gold leaf",
+                  "nl": "Gold leaf"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Faience is a glazed non-clay ceramic material used for jewelry, amulets, and decorative objects.",
+                  "es": "Faience is a glazed non-clay ceramic material used for jewelry, amulets, and decorative objects.",
+                  "de": "Faience is a glazed non-clay ceramic material used for jewelry, amulets, and decorative objects.",
+                  "nl": "Faience is a glazed non-clay ceramic material used for jewelry, amulets, and decorative objects."
+        }
       },
-      options: [
-        { en: "Palm fibers or reeds", es: "Palm fibers or reeds", de: "Palm fibers or reeds", nl: "Palm fibers or reeds" },
-        { en: "Animal hair", es: "Animal hair", de: "Animal hair", nl: "Animal hair" },
-        { en: "Feathers", es: "Feathers", de: "Feathers", nl: "Feathers" },
-        { en: "Cotton", es: "Cotton", de: "Cotton", nl: "Cotton" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Egyptian brushes were made from palm fibers or chewed reed ends.",
-        es: "Egyptian brushes were made from palm fibers or chewed reed ends.",
-        de: "Egyptian brushes were made from palm fibers or chewed reed ends.",
-        nl: "Egyptian brushes were made from palm fibers or chewed reed ends."
-      }
-    },
-    {
-      question: {
-        en: "What is a funerary stele?",
-        es: "What is a funerary stele?",
-        de: "What is a funerary stele?",
-        nl: "What is a funerary stele?"
+      {
+        question: {
+                  "en": "What artistic convention showed the passage of time?",
+                  "es": "What artistic convention showed the passage of time?",
+                  "de": "What artistic convention showed the passage of time?",
+                  "nl": "What artistic convention showed the passage of time?"
+        },
+        options: [
+        {
+                  "en": "Registers or horizontal bands",
+                  "es": "Registers or horizontal bands",
+                  "de": "Registers or horizontal bands",
+                  "nl": "Registers or horizontal bands"
+        },
+        {
+                  "en": "Size variation",
+                  "es": "Size variation",
+                  "de": "Size variation",
+                  "nl": "Size variation"
+        },
+        {
+                  "en": "Perspective",
+                  "es": "Perspective",
+                  "de": "Perspective",
+                  "nl": "Perspective"
+        },
+        {
+                  "en": "Shading",
+                  "es": "Shading",
+                  "de": "Shading",
+                  "nl": "Shading"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Egyptian artists showed sequences of events in horizontal registers or bands, read from bottom to top.",
+                  "es": "Egyptian artists showed sequences of events in horizontal registers or bands, read from bottom to top.",
+                  "de": "Egyptian artists showed sequences of events in horizontal registers or bands, read from bottom to top.",
+                  "nl": "Egyptian artists showed sequences of events in horizontal registers or bands, read from bottom to top."
+        }
       },
-      options: [
-        { en: "Upright stone slab with inscriptions", es: "Upright stone slab with inscriptions", de: "Upright stone slab with inscriptions", nl: "Upright stone slab with inscriptions" },
-        { en: "Tomb entrance", es: "Tomb entrance", de: "Tomb entrance", nl: "Tomb entrance" },
-        { en: "Burial chamber", es: "Burial chamber", de: "Burial chamber", nl: "Burial chamber" },
-        { en: "Mummy case", es: "Mummy case", de: "Mummy case", nl: "Mummy case" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A stele (or stela) is an upright stone slab inscribed with text and images, often funerary in purpose.",
-        es: "A stele (or stela) is an upright stone slab inscribed with text and images, often funerary in purpose.",
-        de: "A stele (or stela) is an upright stone slab inscribed with text and images, often funerary in purpose.",
-        nl: "A stele (or stela) is an upright stone slab inscribed with text and images, often funerary in purpose."
-      }
-    },
-    {
-      question: {
-        en: "What binding medium did Egyptians use for paint?",
-        es: "What binding medium did Egyptians use for paint?",
-        de: "What binding medium did Egyptians use for paint?",
-        nl: "What binding medium did Egyptians use for paint?"
+      {
+        question: {
+                  "en": "What is the Palette of Narmer?",
+                  "es": "What is the Palette of Narmer?",
+                  "de": "What is the Palette of Narmer?",
+                  "nl": "What is the Palette of Narmer?"
+        },
+        options: [
+        {
+                  "en": "Color mixing guide",
+                  "es": "Color mixing guide",
+                  "de": "Color mixing guide",
+                  "nl": "Color mixing guide"
+        },
+        {
+                  "en": "Painting board",
+                  "es": "Painting board",
+                  "de": "Painting board",
+                  "nl": "Painting board"
+        },
+        {
+                  "en": "Ancient ceremonial cosmetic palette",
+                  "es": "Ancient ceremonial cosmetic palette",
+                  "de": "Ancient ceremonial cosmetic palette",
+                  "nl": "Ancient ceremonial cosmetic palette"
+        },
+        {
+                  "en": "Royal crown",
+                  "es": "Royal crown",
+                  "de": "Royal crown",
+                  "nl": "Royal crown"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "The Palette of Narmer is a significant ceremonial palette from c. 3100 BCE showing early Egyptian artistic conventions.",
+                  "es": "The Palette of Narmer is a significant ceremonial palette from c. 3100 BCE showing early Egyptian artistic conventions.",
+                  "de": "The Palette of Narmer is a significant ceremonial palette from c. 3100 BCE showing early Egyptian artistic conventions.",
+                  "nl": "The Palette of Narmer is a significant ceremonial palette from c. 3100 BCE showing early Egyptian artistic conventions."
+        }
       },
-      options: [
-        { en: "Egg white or gum arabic", es: "Egg white or gum arabic", de: "Egg white or gum arabic", nl: "Egg white or gum arabic" },
-        { en: "Oil", es: "Oil", de: "Oil", nl: "Oil" },
-        { en: "Wax", es: "Wax", de: "Wax", nl: "Wax" },
-        { en: "Water only", es: "Water only", de: "Water only", nl: "Water only" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Egyptians used egg white, gum arabic, or beeswax as binding media for their pigments.",
-        es: "Egyptians used egg white, gum arabic, or beeswax as binding media for their pigments.",
-        de: "Egyptians used egg white, gum arabic, or beeswax as binding media for their pigments.",
-        nl: "Egyptians used egg white, gum arabic, or beeswax as binding media for their pigments."
-      }
-    },
-    {
-      question: {
-        en: "What is faience in Egyptian art?",
-        es: "What is faience in Egyptian art?",
-        de: "What is faience in Egyptian art?",
-        nl: "What is faience in Egyptian art?"
+      {
+        question: {
+                  "en": "What material created black pigment?",
+                  "es": "What material created black pigment?",
+                  "de": "What material created black pigment?",
+                  "nl": "What material created black pigment?"
+        },
+        options: [
+        {
+                  "en": "Coal",
+                  "es": "Coal",
+                  "de": "Coal",
+                  "nl": "Coal"
+        },
+        {
+                  "en": "Obsidian powder",
+                  "es": "Obsidian powder",
+                  "de": "Obsidian powder",
+                  "nl": "Obsidian powder"
+        },
+        {
+                  "en": "Carbon or charcoal",
+                  "es": "Carbon or charcoal",
+                  "de": "Carbon or charcoal",
+                  "nl": "Carbon or charcoal"
+        },
+        {
+                  "en": "Tar",
+                  "es": "Tar",
+                  "de": "Tar",
+                  "nl": "Tar"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Black pigment was created from carbon or charcoal, often from burned organic material.",
+                  "es": "Black pigment was created from carbon or charcoal, often from burned organic material.",
+                  "de": "Black pigment was created from carbon or charcoal, often from burned organic material.",
+                  "nl": "Black pigment was created from carbon or charcoal, often from burned organic material."
+        }
       },
-      options: [
-        { en: "Glazed ceramic material", es: "Glazed ceramic material", de: "Glazed ceramic material", nl: "Glazed ceramic material" },
-        { en: "Gold leaf", es: "Gold leaf", de: "Gold leaf", nl: "Gold leaf" },
-        { en: "Precious stone", es: "Precious stone", de: "Precious stone", nl: "Precious stone" },
-        { en: "Type of paint", es: "Type of paint", de: "Type of paint", nl: "Type of paint" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Faience is a glazed non-clay ceramic material used for jewelry, amulets, and decorative objects.",
-        es: "Faience is a glazed non-clay ceramic material used for jewelry, amulets, and decorative objects.",
-        de: "Faience is a glazed non-clay ceramic material used for jewelry, amulets, and decorative objects.",
-        nl: "Faience is a glazed non-clay ceramic material used for jewelry, amulets, and decorative objects."
-      }
-    },
-    {
-      question: {
-        en: "What artistic convention showed the passage of time?",
-        es: "What artistic convention showed the passage of time?",
-        de: "What artistic convention showed the passage of time?",
-        nl: "What artistic convention showed the passage of time?"
+      {
+        question: {
+                  "en": "What is a ka statue?",
+                  "es": "What is a ka statue?",
+                  "de": "What is a ka statue?",
+                  "nl": "What is a ka statue?"
+        },
+        options: [
+        {
+                  "en": "Royal portrait",
+                  "es": "Royal portrait",
+                  "de": "Royal portrait",
+                  "nl": "Royal portrait"
+        },
+        {
+                  "en": "Statue housing the spirit of the deceased",
+                  "es": "Statue housing the spirit of the deceased",
+                  "de": "Statue housing the spirit of the deceased",
+                  "nl": "Statue housing the spirit of the deceased"
+        },
+        {
+                  "en": "God statue",
+                  "es": "God statue",
+                  "de": "God statue",
+                  "nl": "God statue"
+        },
+        {
+                  "en": "Servant figure",
+                  "es": "Servant figure",
+                  "de": "Servant figure",
+                  "nl": "Servant figure"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "A ka statue provided a resting place for the ka (life force/spirit) of the deceased.",
+                  "es": "A ka statue provided a resting place for the ka (life force/spirit) of the deceased.",
+                  "de": "A ka statue provided a resting place for the ka (life force/spirit) of the deceased.",
+                  "nl": "A ka statue provided a resting place for the ka (life force/spirit) of the deceased."
+        }
       },
-      options: [
-        { en: "Registers or horizontal bands", es: "Registers or horizontal bands", de: "Registers or horizontal bands", nl: "Registers or horizontal bands" },
-        { en: "Perspective", es: "Perspective", de: "Perspective", nl: "Perspective" },
-        { en: "Shading", es: "Shading", de: "Shading", nl: "Shading" },
-        { en: "Size variation", es: "Size variation", de: "Size variation", nl: "Size variation" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Egyptian artists showed sequences of events in horizontal registers or bands, read from bottom to top.",
-        es: "Egyptian artists showed sequences of events in horizontal registers or bands, read from bottom to top.",
-        de: "Egyptian artists showed sequences of events in horizontal registers or bands, read from bottom to top.",
-        nl: "Egyptian artists showed sequences of events in horizontal registers or bands, read from bottom to top."
-      }
-    },
-    {
-      question: {
-        en: "What is the Palette of Narmer?",
-        es: "What is the Palette of Narmer?",
-        de: "What is the Palette of Narmer?",
-        nl: "What is the Palette of Narmer?"
+      {
+        question: {
+                  "en": "What artistic period is the Bust of Nefertiti from?",
+                  "es": "What artistic period is the Bust of Nefertiti from?",
+                  "de": "What artistic period is the Bust of Nefertiti from?",
+                  "nl": "What artistic period is the Bust of Nefertiti from?"
+        },
+        options: [
+        {
+                  "en": "Late Period",
+                  "es": "Late Period",
+                  "de": "Late Period",
+                  "nl": "Late Period"
+        },
+        {
+                  "en": "Old Kingdom",
+                  "es": "Old Kingdom",
+                  "de": "Old Kingdom",
+                  "nl": "Old Kingdom"
+        },
+        {
+                  "en": "Amarna Period",
+                  "es": "Amarna Period",
+                  "de": "Amarna Period",
+                  "nl": "Amarna Period"
+        },
+        {
+                  "en": "Middle Kingdom",
+                  "es": "Middle Kingdom",
+                  "de": "Middle Kingdom",
+                  "nl": "Middle Kingdom"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "The famous Bust of Nefertiti is from the Amarna Period under Akhenaten's reign.",
+                  "es": "The famous Bust of Nefertiti is from the Amarna Period under Akhenaten's reign.",
+                  "de": "The famous Bust of Nefertiti is from the Amarna Period under Akhenaten's reign.",
+                  "nl": "The famous Bust of Nefertiti is from the Amarna Period under Akhenaten's reign."
+        }
       },
-      options: [
-        { en: "Ancient ceremonial cosmetic palette", es: "Ancient ceremonial cosmetic palette", de: "Ancient ceremonial cosmetic palette", nl: "Ancient ceremonial cosmetic palette" },
-        { en: "Painting board", es: "Painting board", de: "Painting board", nl: "Painting board" },
-        { en: "Color mixing guide", es: "Color mixing guide", de: "Color mixing guide", nl: "Color mixing guide" },
-        { en: "Royal crown", es: "Royal crown", de: "Royal crown", nl: "Royal crown" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The Palette of Narmer is a significant ceremonial palette from c. 3100 BCE showing early Egyptian artistic conventions.",
-        es: "The Palette of Narmer is a significant ceremonial palette from c. 3100 BCE showing early Egyptian artistic conventions.",
-        de: "The Palette of Narmer is a significant ceremonial palette from c. 3100 BCE showing early Egyptian artistic conventions.",
-        nl: "The Palette of Narmer is a significant ceremonial palette from c. 3100 BCE showing early Egyptian artistic conventions."
-      }
-    },
-    {
-      question: {
-        en: "What material created black pigment?",
-        es: "What material created black pigment?",
-        de: "What material created black pigment?",
-        nl: "What material created black pigment?"
+      {
+        question: {
+                  "en": "What is relief sculpture?",
+                  "es": "What is relief sculpture?",
+                  "de": "What is relief sculpture?",
+                  "nl": "What is relief sculpture?"
+        },
+        options: [
+        {
+                  "en": "Free-standing sculpture",
+                  "es": "Free-standing sculpture",
+                  "de": "Free-standing sculpture",
+                  "nl": "Free-standing sculpture"
+        },
+        {
+                  "en": "Sunken carving",
+                  "es": "Sunken carving",
+                  "de": "Sunken carving",
+                  "nl": "Sunken carving"
+        },
+        {
+                  "en": "Painted surface",
+                  "es": "Painted surface",
+                  "de": "Painted surface",
+                  "nl": "Painted surface"
+        },
+        {
+                  "en": "Carving projecting from background",
+                  "es": "Carving projecting from background",
+                  "de": "Carving projecting from background",
+                  "nl": "Carving projecting from background"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Relief sculpture has figures carved to project from a background surface.",
+                  "es": "Relief sculpture has figures carved to project from a background surface.",
+                  "de": "Relief sculpture has figures carved to project from a background surface.",
+                  "nl": "Relief sculpture has figures carved to project from a background surface."
+        }
       },
-      options: [
-        { en: "Carbon or charcoal", es: "Carbon or charcoal", de: "Carbon or charcoal", nl: "Carbon or charcoal" },
-        { en: "Coal", es: "Coal", de: "Coal", nl: "Coal" },
-        { en: "Obsidian powder", es: "Obsidian powder", de: "Obsidian powder", nl: "Obsidian powder" },
-        { en: "Tar", es: "Tar", de: "Tar", nl: "Tar" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Black pigment was created from carbon or charcoal, often from burned organic material.",
-        es: "Black pigment was created from carbon or charcoal, often from burned organic material.",
-        de: "Black pigment was created from carbon or charcoal, often from burned organic material.",
-        nl: "Black pigment was created from carbon or charcoal, often from burned organic material."
-      }
-    },
-    {
-      question: {
-        en: "What is a ka statue?",
-        es: "What is a ka statue?",
-        de: "What is a ka statue?",
-        nl: "What is a ka statue?"
+      {
+        question: {
+                  "en": "What is sunken relief?",
+                  "es": "What is sunken relief?",
+                  "de": "What is sunken relief?",
+                  "nl": "What is sunken relief?"
+        },
+        options: [
+        {
+                  "en": "Painted relief",
+                  "es": "Painted relief",
+                  "de": "Painted relief",
+                  "nl": "Painted relief"
+        },
+        {
+                  "en": "3D sculpture",
+                  "es": "3D sculpture",
+                  "de": "3D sculpture",
+                  "nl": "3D sculpture"
+        },
+        {
+                  "en": "Raised carving",
+                  "es": "Raised carving",
+                  "de": "Raised carving",
+                  "nl": "Raised carving"
+        },
+        {
+                  "en": "Carving recessed into surface",
+                  "es": "Carving recessed into surface",
+                  "de": "Carving recessed into surface",
+                  "nl": "Carving recessed into surface"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Sunken relief has figures carved into the surface, creating recessed images.",
+                  "es": "Sunken relief has figures carved into the surface, creating recessed images.",
+                  "de": "Sunken relief has figures carved into the surface, creating recessed images.",
+                  "nl": "Sunken relief has figures carved into the surface, creating recessed images."
+        }
       },
-      options: [
-        { en: "Statue housing the spirit of the deceased", es: "Statue housing the spirit of the deceased", de: "Statue housing the spirit of the deceased", nl: "Statue housing the spirit of the deceased" },
-        { en: "Royal portrait", es: "Royal portrait", de: "Royal portrait", nl: "Royal portrait" },
-        { en: "God statue", es: "God statue", de: "God statue", nl: "God statue" },
-        { en: "Servant figure", es: "Servant figure", de: "Servant figure", nl: "Servant figure" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "A ka statue provided a resting place for the ka (life force/spirit) of the deceased.",
-        es: "A ka statue provided a resting place for the ka (life force/spirit) of the deceased.",
-        de: "A ka statue provided a resting place for the ka (life force/spirit) of the deceased.",
-        nl: "A ka statue provided a resting place for the ka (life force/spirit) of the deceased."
-      }
-    },
-    {
-      question: {
-        en: "What artistic period is the Bust of Nefertiti from?",
-        es: "What artistic period is the Bust of Nefertiti from?",
-        de: "What artistic period is the Bust of Nefertiti from?",
-        nl: "What artistic period is the Bust of Nefertiti from?"
+      {
+        question: {
+                  "en": "What symbolized eternity in Egyptian art?",
+                  "es": "What symbolized eternity in Egyptian art?",
+                  "de": "What symbolized eternity in Egyptian art?",
+                  "nl": "What symbolized eternity in Egyptian art?"
+        },
+        options: [
+        {
+                  "en": "Djed pillar",
+                  "es": "Djed pillar",
+                  "de": "Djed pillar",
+                  "nl": "Djed pillar"
+        },
+        {
+                  "en": "Was scepter",
+                  "es": "Was scepter",
+                  "de": "Was scepter",
+                  "nl": "Was scepter"
+        },
+        {
+                  "en": "Shen ring (circular rope)",
+                  "es": "Shen ring (circular rope)",
+                  "de": "Shen ring (circular rope)",
+                  "nl": "Shen ring (circular rope)"
+        },
+        {
+                  "en": "Ankh",
+                  "es": "Ankh",
+                  "de": "Ankh",
+                  "nl": "Ankh"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "The shen ring, a circle of rope with no beginning or end, symbolized eternity and protection.",
+                  "es": "The shen ring, a circle of rope with no beginning or end, symbolized eternity and protection.",
+                  "de": "The shen ring, a circle of rope with no beginning or end, symbolized eternity and protection.",
+                  "nl": "The shen ring, a circle of rope with no beginning or end, symbolized eternity and protection."
+        }
       },
-      options: [
-        { en: "Amarna Period", es: "Amarna Period", de: "Amarna Period", nl: "Amarna Period" },
-        { en: "Old Kingdom", es: "Old Kingdom", de: "Old Kingdom", nl: "Old Kingdom" },
-        { en: "Middle Kingdom", es: "Middle Kingdom", de: "Middle Kingdom", nl: "Middle Kingdom" },
-        { en: "Late Period", es: "Late Period", de: "Late Period", nl: "Late Period" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The famous Bust of Nefertiti is from the Amarna Period under Akhenaten's reign.",
-        es: "The famous Bust of Nefertiti is from the Amarna Period under Akhenaten's reign.",
-        de: "The famous Bust of Nefertiti is from the Amarna Period under Akhenaten's reign.",
-        nl: "The famous Bust of Nefertiti is from the Amarna Period under Akhenaten's reign."
-      }
-    },
-    {
-      question: {
-        en: "What is relief sculpture?",
-        es: "What is relief sculpture?",
-        de: "What is relief sculpture?",
-        nl: "What is relief sculpture?"
-      },
-      options: [
-        { en: "Carving projecting from background", es: "Carving projecting from background", de: "Carving projecting from background", nl: "Carving projecting from background" },
-        { en: "Free-standing sculpture", es: "Free-standing sculpture", de: "Free-standing sculpture", nl: "Free-standing sculpture" },
-        { en: "Sunken carving", es: "Sunken carving", de: "Sunken carving", nl: "Sunken carving" },
-        { en: "Painted surface", es: "Painted surface", de: "Painted surface", nl: "Painted surface" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Relief sculpture has figures carved to project from a background surface.",
-        es: "Relief sculpture has figures carved to project from a background surface.",
-        de: "Relief sculpture has figures carved to project from a background surface.",
-        nl: "Relief sculpture has figures carved to project from a background surface."
-      }
-    },
-    {
-      question: {
-        en: "What is sunken relief?",
-        es: "What is sunken relief?",
-        de: "What is sunken relief?",
-        nl: "What is sunken relief?"
-      },
-      options: [
-        { en: "Carving recessed into surface", es: "Carving recessed into surface", de: "Carving recessed into surface", nl: "Carving recessed into surface" },
-        { en: "Raised carving", es: "Raised carving", de: "Raised carving", nl: "Raised carving" },
-        { en: "Painted relief", es: "Painted relief", de: "Painted relief", nl: "Painted relief" },
-        { en: "3D sculpture", es: "3D sculpture", de: "3D sculpture", nl: "3D sculpture" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Sunken relief has figures carved into the surface, creating recessed images.",
-        es: "Sunken relief has figures carved into the surface, creating recessed images.",
-        de: "Sunken relief has figures carved into the surface, creating recessed images.",
-        nl: "Sunken relief has figures carved into the surface, creating recessed images."
-      }
-    },
-    {
-      question: {
-        en: "What symbolized eternity in Egyptian art?",
-        es: "What symbolized eternity in Egyptian art?",
-        de: "What symbolized eternity in Egyptian art?",
-        nl: "What symbolized eternity in Egyptian art?"
-      },
-      options: [
-        { en: "Shen ring (circular rope)", es: "Shen ring (circular rope)", de: "Shen ring (circular rope)", nl: "Shen ring (circular rope)" },
-        { en: "Ankh", es: "Ankh", de: "Ankh", nl: "Ankh" },
-        { en: "Was scepter", es: "Was scepter", de: "Was scepter", nl: "Was scepter" },
-        { en: "Djed pillar", es: "Djed pillar", de: "Djed pillar", nl: "Djed pillar" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The shen ring, a circle of rope with no beginning or end, symbolized eternity and protection.",
-        es: "The shen ring, a circle of rope with no beginning or end, symbolized eternity and protection.",
-        de: "The shen ring, a circle of rope with no beginning or end, symbolized eternity and protection.",
-        nl: "The shen ring, a circle of rope with no beginning or end, symbolized eternity and protection."
-      }
-    },
-    {
-      question: {
-        en: "What is the Book of the Dead?",
-        es: "What is the Book of the Dead?",
-        de: "What is the Book of the Dead?",
-        nl: "What is the Book of the Dead?"
-      },
-      options: [
-        { en: "Funerary texts with illustrations", es: "Funerary texts with illustrations", de: "Funerary texts with illustrations", nl: "Funerary texts with illustrations" },
-        { en: "Historical chronicle", es: "Historical chronicle", de: "Historical chronicle", nl: "Historical chronicle" },
-        { en: "Religious law", es: "Religious law", de: "Religious law", nl: "Religious law" },
-        { en: "Medical text", es: "Medical text", de: "Medical text", nl: "Medical text" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The Book of the Dead is a collection of illustrated funerary texts meant to guide the deceased through the afterlife.",
-        es: "The Book of the Dead is a collection of illustrated funerary texts meant to guide the deceased through the afterlife.",
-        de: "The Book of the Dead is a collection of illustrated funerary texts meant to guide the deceased through the afterlife.",
-        nl: "The Book of the Dead is a collection of illustrated funerary texts meant to guide the deceased through the afterlife."
-      }
-
+      {
+        question: {
+                  "en": "What is the Book of the Dead?",
+                  "es": "What is the Book of the Dead?",
+                  "de": "What is the Book of the Dead?",
+                  "nl": "What is the Book of the Dead?"
+        },
+        options: [
+        {
+                  "en": "Religious law",
+                  "es": "Religious law",
+                  "de": "Religious law",
+                  "nl": "Religious law"
+        },
+        {
+                  "en": "Medical text",
+                  "es": "Medical text",
+                  "de": "Medical text",
+                  "nl": "Medical text"
+        },
+        {
+                  "en": "Historical chronicle",
+                  "es": "Historical chronicle",
+                  "de": "Historical chronicle",
+                  "nl": "Historical chronicle"
+        },
+        {
+                  "en": "Funerary texts with illustrations",
+                  "es": "Funerary texts with illustrations",
+                  "de": "Funerary texts with illustrations",
+                  "nl": "Funerary texts with illustrations"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "The Book of the Dead is a collection of illustrated funerary texts meant to guide the deceased through the afterlife.",
+                  "es": "The Book of the Dead is a collection of illustrated funerary texts meant to guide the deceased through the afterlife.",
+                  "de": "The Book of the Dead is a collection of illustrated funerary texts meant to guide the deceased through the afterlife.",
+                  "nl": "The Book of the Dead is a collection of illustrated funerary texts meant to guide the deceased through the afterlife."
+        }
       }
     ]
   };
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = level1;
-  } else if (typeof window !== 'undefined') {
-    window.level1 = level1;
   }
 })();

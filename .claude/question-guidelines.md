@@ -1,5 +1,72 @@
 # RobitQuiz Question Guidelines
 
+## 🎯 PROMPT: Vragen Aanvullen van 20 naar 40
+
+**Taak:** De meeste level bestanden in `src/questions/data/subjects/` hebben momenteel 20 vragen, maar moeten worden aangevuld naar **40 vragen per level**.
+
+**Instructies voor Claude:**
+
+1. **Analyseer het bestaande bestand:**
+   - Bekijk de huidige 20 vragen
+   - Identificeer het onderwerp en het difficulty level
+   - Begrijp de stijl en scope van de vragen
+
+2. **Genereer 20 nieuwe vragen die:**
+   - ✅ Passen bij het difficulty level (zie sectie "Difficulty Levels")
+   - ✅ Uniek zijn (geen duplicaten van bestaande vragen)
+   - ✅ Hetzelfde onderwerp/thema behandelen
+   - ✅ Dezelfde kwaliteitsstandaard hanteren
+   - ✅ Alle 4 talen bevatten (en, es, de, nl)
+   - ✅ Voldoen aan de character limits (zie hieronder)
+   - ✅ Correcte, verifieerbare informatie bevatten
+
+3. **Voeg de nieuwe vragen toe:**
+   - Append de 20 nieuwe vragen aan het `questions` array
+   - Behoud exact dezelfde structuur/formatting
+   - Zorg dat `correct:` index klopt (0-3 voor 4 opties)
+   - Controleer dat alle translations compleet zijn
+
+4. **Finale check:**
+   - Totaal aantal vragen = 40
+   - Geen syntax errors
+   - Alle vragen hebben question, options, correct, explanation
+   - Difficulty escaleert logisch binnen het level
+
+---
+
+## 📊 STATUS VOORTGANG (Laatst bijgewerkt: 2026-01-12 03:45)
+
+### ✅ VOLLEDIG AFGEROND (10 subjects, 920 files):
+- **ai**: 95 files ✓
+- **board-games**: 100 files ✓
+- **books**: 100 files ✓
+- **currencies**: 100 files ✓
+- **desserts**: 100 files ✓
+- **dinosaurs**: 100 files ✓
+- **drinks**: 80 files ✓
+- **egypt**: 98 files ✓
+- **f1**: 64 files ✓
+- **food**: 83 files ✓
+
+### ⚠️ IN UITVOERING (1 subject, 56 files):
+- **famous-people**: 16/56 files klaar (28.6%), **40 files nog te doen**
+  - ✅ KLAAR: Historical Figures (6/6), Actors and Actresses (10/10)
+  - ⏳ Gedeeltelijk: Artists (0/3 te doen), Authors (2/4 te doen), Entrepreneurs (2/5 te doen)
+  - ⏳ Nog starten: Musicians (0/8), Political Leaders (0/7), Scientists (0/7), Social Media Influencers (0/6), Sports Icons (0/7)
+
+### ⏳ NOG TE STARTEN (1 subject, 117 files):
+- **famous-buildings**: 0/117 files klaar, **117 files nog te doen**
+
+### 📈 Totaal voortgang:
+- **Klaar**: 936 files (85.6%)
+- **Te doen**: 157 files (14.4%)
+- **Totaal**: 1,093 files
+
+### 💡 Status:
+Excellent progress! Historical Figures en Actors and Actresses zijn compleet. De Task agents bereiken hun spending cap (reset 21:00), waardoor werk stopt. Resterende 157 files kunnen worden afgemaakt na spending cap reset of in volgende sessie.
+
+---
+
 ## Character Limits (Richtlijnen - niet strikt)
 
 ### Vragen + Antwoordopties

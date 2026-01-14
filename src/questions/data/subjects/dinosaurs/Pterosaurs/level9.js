@@ -1,859 +1,1657 @@
-// Pterosaurs Quiz - Level 9: Advanced Pterosaur Evolution and Ecology
+// Pterosaurs Quiz - Level 9
 (function() {
   const level9 = {
     name: {
-      en: "Pterosaurs Level 9",
-      es: "Pterosaurios Nivel 9",
-      de: "Pterosaurier Stufe 9",
-      nl: "Pterosauriërs Level 9"
+          "en": "Pterosaurs Level 9",
+          "es": "Pterosaurios Nivel 9",
+          "de": "Pterosaurier Stufe 9",
+          "nl": "Pterosauriërs Level 9"
     },
     questions: [
       {
         question: {
-          en: "Which pterosaur represents the most complete transitional form between early and late pterosaur body plans?",
-          es: "¿Qué pterosaurio representa la forma transicional más completa entre los planes corporales de pterosaurios tempranos y tardíos?",
-          de: "Welcher Pterosaurier stellt die vollständigste Übergangsform zwischen frühen und späten Pterosaurier-Körperplänen dar?",
-          nl: "Welke pterosauriër vertegenwoordigt de meest complete overgangsvorm tussen vroege en late pterosauriër lichaamsbouw?"
+                  "en": "Which pterosaur represents the most complete transitional form between early and late pterosaur body plans?",
+                  "es": "¿Qué pterosaurio representa la forma transicional más completa entre los planes corporales de pterosaurios tempranos y tardíos?",
+                  "de": "Welcher Pterosaurier stellt die vollständigste Übergangsform zwischen frühen und späten Pterosaurier-Körperplänen dar?",
+                  "nl": "Welke pterosauriër vertegenwoordigt de meest complete overgangsvorm tussen vroege en late pterosauriër lichaamsbouw?"
         },
         options: [
-          { en: "Darwinopterus", es: "Darwinopterus", de: "Darwinopterus", nl: "Darwinopterus" },
-          { en: "Pteranodon", es: "Pteranodon", de: "Pteranodon", nl: "Pteranodon" },
-          { en: "Rhamphorhynchus", es: "Rhamphorhynchus", de: "Rhamphorhynchus", nl: "Rhamphorhynchus" },
-          { en: "Quetzalcoatlus", es: "Quetzalcoatlus", de: "Quetzalcoatlus", nl: "Quetzalcoatlus" }
+        {
+                  "en": "Pteranodon",
+                  "es": "Pteranodon",
+                  "de": "Pteranodon",
+                  "nl": "Pteranodon"
+        },
+        {
+                  "en": "Darwinopterus",
+                  "es": "Darwinopterus",
+                  "de": "Darwinopterus",
+                  "nl": "Darwinopterus"
+        },
+        {
+                  "en": "Quetzalcoatlus",
+                  "es": "Quetzalcoatlus",
+                  "de": "Quetzalcoatlus",
+                  "nl": "Quetzalcoatlus"
+        },
+        {
+                  "en": "Rhamphorhynchus",
+                  "es": "Rhamphorhynchus",
+                  "de": "Rhamphorhynchus",
+                  "nl": "Rhamphorhynchus"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Darwinopterus shows a mosaic evolution with a pterodactyloid-like skull and neck combined with rhamphorhynchoid-like wing and tail structures, representing a crucial transitional form.",
-          es: "Darwinopterus muestra una evolución en mosaico con un cráneo y cuello similares a pterodactiloides combinados con estructuras de ala y cola similares a ramporrínquidos, representando una forma transicional crucial.",
-          de: "Darwinopterus zeigt eine Mosaikevolution mit einem pterodactyloid-ähnlichen Schädel und Hals kombiniert mit rhamphorhynchoid-ähnlichen Flügel- und Schwanzstrukturen und stellt eine entscheidende Übergangsform dar.",
-          nl: "Darwinopterus toont mozaïekevolutie met een pterodactyloid-achtige schedel en nek gecombineerd met rhamphorhynchoid-achtige vleugel- en staartstructuren, wat een cruciale overgangsvorm vertegenwoordigt."
+                  "en": "Darwinopterus shows a mosaic evolution with a pterodactyloid-like skull and neck combined with rhamphorhynchoid-like wing and tail structures, representing a crucial transitional form.",
+                  "es": "Darwinopterus muestra una evolución en mosaico con un cráneo y cuello similares a pterodactiloides combinados con estructuras de ala y cola similares a ramporrínquidos, representando una forma transicional crucial.",
+                  "de": "Darwinopterus zeigt eine Mosaikevolution mit einem pterodactyloid-ähnlichen Schädel und Hals kombiniert mit rhamphorhynchoid-ähnlichen Flügel- und Schwanzstrukturen und stellt eine entscheidende Übergangsform dar.",
+                  "nl": "Darwinopterus toont mozaïekevolutie met een pterodactyloid-achtige schedel en nek gecombineerd met rhamphorhynchoid-achtige vleugel- en staartstructuren, wat een cruciale overgangsvorm vertegenwoordigt."
         }
       },
       {
         question: {
-          en: "What is the significance of the notarium in advanced pterosaurs?",
-          es: "¿Cuál es la importancia del notario en pterosaurios avanzados?",
-          de: "Was ist die Bedeutung des Notariums bei fortgeschrittenen Pterosauriern?",
-          nl: "Wat is de betekenis van het notarium bij geavanceerde pterosauriërs?"
+                  "en": "What is the significance of the notarium in advanced pterosaurs?",
+                  "es": "¿Cuál es la importancia del notario en pterosaurios avanzados?",
+                  "de": "Was ist die Bedeutung des Notariums bei fortgeschrittenen Pterosauriern?",
+                  "nl": "Wat is de betekenis van het notarium bij geavanceerde pterosauriërs?"
         },
         options: [
-          { en: "Fused vertebrae providing wing attachment stability", es: "Vértebras fusionadas que proporcionan estabilidad de inserción del ala", de: "Verwachsene Wirbel, die Stabilität für die Flügelanheftung bieten", nl: "Vergroeide wervels die stabiliteit bieden voor vleugelbevestiging" },
-          { en: "Specialized digestive chamber", es: "Cámara digestiva especializada", de: "Spezialisierte Verdauungskammer", nl: "Gespecialiseerde spijsverteringskamer" },
-          { en: "Brain protection structure", es: "Estructura de protección cerebral", de: "Gehirnschutzstruktur", nl: "Hersensbeschermende structuur" },
-          { en: "Sound production organ", es: "Órgano de producción de sonido", de: "Schallerzeugungsorgan", nl: "Geluidproductie-orgaan" }
+        {
+                  "en": "Brain protection structure",
+                  "es": "Estructura de protección cerebral",
+                  "de": "Gehirnschutzstruktur",
+                  "nl": "Hersensbeschermende structuur"
+        },
+        {
+                  "en": "Sound production organ",
+                  "es": "Órgano de producción de sonido",
+                  "de": "Schallerzeugungsorgan",
+                  "nl": "Geluidproductie-orgaan"
+        },
+        {
+                  "en": "Specialized digestive chamber",
+                  "es": "Cámara digestiva especializada",
+                  "de": "Spezialisierte Verdauungskammer",
+                  "nl": "Gespecialiseerde spijsverteringskamer"
+        },
+        {
+                  "en": "Fused vertebrae providing wing attachment stability",
+                  "es": "Vértebras fusionadas que proporcionan estabilidad de inserción del ala",
+                  "de": "Verwachsene Wirbel, die Stabilität für die Flügelanheftung bieten",
+                  "nl": "Vergroeide wervels die stabiliteit bieden voor vleugelbevestiging"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "The notarium is a fusion of several vertebrae that provided a rigid attachment point for wing muscles and enhanced flight efficiency in large pterosaurs.",
-          es: "El notario es una fusión de varias vértebras que proporcionaba un punto de inserción rígido para los músculos del ala y mejoraba la eficiencia de vuelo en pterosaurios grandes.",
-          de: "Das Notarium ist eine Verschmelzung mehrerer Wirbel, die einen starren Ansatzpunkt für Flügelmuskeln bot und die Flugeffizienz bei großen Pterosauriern verbesserte.",
-          nl: "Het notarium is een vergroeiing van meerdere wervels die een rigide bevestigingspunt voor vleugelmspieren bood en de vliegefficiëntie bij grote pterosauriërs verbeterde."
+                  "en": "The notarium is a fusion of several vertebrae that provided a rigid attachment point for wing muscles and enhanced flight efficiency in large pterosaurs.",
+                  "es": "El notario es una fusión de varias vértebras que proporcionaba un punto de inserción rígido para los músculos del ala y mejoraba la eficiencia de vuelo en pterosaurios grandes.",
+                  "de": "Das Notarium ist eine Verschmelzung mehrerer Wirbel, die einen starren Ansatzpunkt für Flügelmuskeln bot und die Flugeffizienz bei großen Pterosauriern verbesserte.",
+                  "nl": "Het notarium is een vergroeiing van meerdere wervels die een rigide bevestigingspunt voor vleugelmspieren bood en de vliegefficiëntie bij grote pterosauriërs verbeterde."
         }
       },
       {
         question: {
-          en: "Which isotopic analysis technique has revealed the most about pterosaur migration patterns?",
-          es: "¿Qué técnica de análisis isotópico ha revelado más sobre los patrones de migración de pterosaurios?",
-          de: "Welche Isotopen-Analysetechnik hat am meisten über Pterosaurier-Migrationsmuster enthüllt?",
-          nl: "Welke isotopische analysetechniek heeft het meeste onthuld over pterosauriër migratiepatronen?"
+                  "en": "Which isotopic analysis technique has revealed the most about pterosaur migration patterns?",
+                  "es": "¿Qué técnica de análisis isotópico ha revelado más sobre los patrones de migración de pterosaurios?",
+                  "de": "Welche Isotopen-Analysetechnik hat am meisten über Pterosaurier-Migrationsmuster enthüllt?",
+                  "nl": "Welke isotopische analysetechniek heeft het meeste onthuld over pterosauriër migratiepatronen?"
         },
         options: [
-          { en: "Strontium isotope analysis of bones", es: "Análisis de isótopos de estroncio en huesos", de: "Strontium-Isotopen-Analyse von Knochen", nl: "Strontium isotopen analyse van botten" },
-          { en: "Carbon-14 dating", es: "Datación por carbono-14", de: "Kohlenstoff-14-Datierung", nl: "Koolstof-14 datering" },
-          { en: "Oxygen isotope thermometry", es: "Termometría de isótopos de oxígeno", de: "Sauerstoff-Isotopen-Thermometrie", nl: "Zuurstof isotopen thermometrie" },
-          { en: "Nitrogen isotope analysis", es: "Análisis de isótopos de nitrógeno", de: "Stickstoff-Isotopen-Analyse", nl: "Stikstof isotopen analyse" }
+        {
+                  "en": "Nitrogen isotope analysis",
+                  "es": "Análisis de isótopos de nitrógeno",
+                  "de": "Stickstoff-Isotopen-Analyse",
+                  "nl": "Stikstof isotopen analyse"
+        },
+        {
+                  "en": "Strontium isotope analysis of bones",
+                  "es": "Análisis de isótopos de estroncio en huesos",
+                  "de": "Strontium-Isotopen-Analyse von Knochen",
+                  "nl": "Strontium isotopen analyse van botten"
+        },
+        {
+                  "en": "Oxygen isotope thermometry",
+                  "es": "Termometría de isótopos de oxígeno",
+                  "de": "Sauerstoff-Isotopen-Thermometrie",
+                  "nl": "Zuurstof isotopen thermometrie"
+        },
+        {
+                  "en": "Carbon-14 dating",
+                  "es": "Datación por carbono-14",
+                  "de": "Kohlenstoff-14-Datierung",
+                  "nl": "Koolstof-14 datering"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Strontium isotope ratios in pterosaur bones reflect the geological signatures of different regions, allowing researchers to track migration routes and breeding locations.",
-          es: "Las proporciones de isótopos de estroncio en huesos de pterosaurios reflejan las firmas geológicas de diferentes regiones, permitiendo a los investigadores rastrear rutas migratorias y ubicaciones de reproducción.",
-          de: "Strontium-Isotopenverhältnisse in Pterosaurier-Knochen spiegeln die geologischen Signaturen verschiedener Regionen wider und ermöglichen es Forschern, Migrationsrouten und Brutplätze zu verfolgen.",
-          nl: "Strontium isotoopverhoudingen in pterosauriër botten weerspiegelen de geologische kenmerken van verschillende regio's, waardoor onderzoekers migratieroutes en broedlocaties kunnen volgen."
+                  "en": "Strontium isotope ratios in pterosaur bones reflect the geological signatures of different regions, allowing researchers to track migration routes and breeding locations.",
+                  "es": "Las proporciones de isótopos de estroncio en huesos de pterosaurios reflejan las firmas geológicas de diferentes regiones, permitiendo a los investigadores rastrear rutas migratorias y ubicaciones de reproducción.",
+                  "de": "Strontium-Isotopenverhältnisse in Pterosaurier-Knochen spiegeln die geologischen Signaturen verschiedener Regionen wider und ermöglichen es Forschern, Migrationsrouten und Brutplätze zu verfolgen.",
+                  "nl": "Strontium isotoopverhoudingen in pterosauriër botten weerspiegelen de geologische kenmerken van verschillende regio's, waardoor onderzoekers migratieroutes en broedlocaties kunnen volgen."
         }
       },
       {
         question: {
-          en: "What does the presence of melanosomes in pterosaur fossils indicate about their thermoregulation?",
-          es: "¿Qué indica la presencia de melanosomas en fósiles de pterosaurios sobre su termorregulación?",
-          de: "Was zeigt das Vorhandensein von Melanosomen in Pterosaurier-Fossilien über ihre Thermoregulation an?",
-          nl: "Wat geeft de aanwezigheid van melanosomen in pterosauriër fossielen aan over hun thermoregulatie?"
+                  "en": "What does the presence of melanosomes in pterosaur fossils indicate about their thermoregulation?",
+                  "es": "¿Qué indica la presencia de melanosomas en fósiles de pterosaurios sobre su termorregulación?",
+                  "de": "Was zeigt das Vorhandensein von Melanosomen in Pterosaurier-Fossilien über ihre Thermoregulation an?",
+                  "nl": "Wat geeft de aanwezigheid van melanosomen in pterosauriër fossielen aan over hun thermoregulatie?"
         },
         options: [
-          { en: "Evidence of endothermic metabolism and complex coloration", es: "Evidencia de metabolismo endotérmico y coloración compleja", de: "Nachweis für endothermen Stoffwechsel und komplexe Färbung", nl: "Bewijs van endotherme stofwisseling en complexe kleuring" },
-          { en: "Proof of nocturnal behavior", es: "Prueba de comportamiento nocturno", de: "Beweis für nachtaktives Verhalten", nl: "Bewijs van nachtelijk gedrag" },
-          { en: "Indication of aquatic lifestyle", es: "Indicación de estilo de vida acuático", de: "Hinweis auf aquatischen Lebensstil", nl: "Aanwijzing van aquatische levensstijl" },
-          { en: "Evidence of seasonal color changes", es: "Evidencia de cambios de color estacionales", de: "Nachweis saisonaler Farbveränderungen", nl: "Bewijs van seizoensgebonden kleurveranderingen" }
+        {
+                  "en": "Proof of nocturnal behavior",
+                  "es": "Prueba de comportamiento nocturno",
+                  "de": "Beweis für nachtaktives Verhalten",
+                  "nl": "Bewijs van nachtelijk gedrag"
+        },
+        {
+                  "en": "Evidence of endothermic metabolism and complex coloration",
+                  "es": "Evidencia de metabolismo endotérmico y coloración compleja",
+                  "de": "Nachweis für endothermen Stoffwechsel und komplexe Färbung",
+                  "nl": "Bewijs van endotherme stofwisseling en complexe kleuring"
+        },
+        {
+                  "en": "Evidence of seasonal color changes",
+                  "es": "Evidencia de cambios de color estacionales",
+                  "de": "Nachweis saisonaler Farbveränderungen",
+                  "nl": "Bewijs van seizoensgebonden kleurveranderingen"
+        },
+        {
+                  "en": "Indication of aquatic lifestyle",
+                  "es": "Indicación de estilo de vida acuático",
+                  "de": "Hinweis auf aquatischen Lebensstil",
+                  "nl": "Aanwijzing van aquatische levensstijl"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Melanosomes are cellular structures that contain pigments and are associated with thermoregulation in modern endothermic animals, suggesting pterosaurs had sophisticated metabolic control.",
-          es: "Los melanosomas son estructuras celulares que contienen pigmentos y están asociados con la termorregulación en animales endotérmicos modernos, sugiriendo que los pterosaurios tenían un control metabólico sofisticado.",
-          de: "Melanosomen sind Zellstrukturen, die Pigmente enthalten und mit der Thermoregulation bei modernen endothermen Tieren assoziiert sind, was darauf hindeutet, dass Pterosaurier eine ausgeklügelte Stoffwechselkontrolle hatten.",
-          nl: "Melanosomen zijn cellulaire structuren die pigmenten bevatten en geassocieerd zijn met thermoregulatie bij moderne endotherme dieren, wat suggereert dat pterosauriërs geavanceerde metabolische controle hadden."
+                  "en": "Melanosomes are cellular structures that contain pigments and are associated with thermoregulation in modern endothermic animals, suggesting pterosaurs had sophisticated metabolic control.",
+                  "es": "Los melanosomas son estructuras celulares que contienen pigmentos y están asociados con la termorregulación en animales endotérmicos modernos, sugiriendo que los pterosaurios tenían un control metabólico sofisticado.",
+                  "de": "Melanosomen sind Zellstrukturen, die Pigmente enthalten und mit der Thermoregulation bei modernen endothermen Tieren assoziiert sind, was darauf hindeutet, dass Pterosaurier eine ausgeklügelte Stoffwechselkontrolle hatten.",
+                  "nl": "Melanosomen zijn cellulaire structuren die pigmenten bevatten en geassocieerd zijn met thermoregulatie bij moderne endotherme dieren, wat suggereert dat pterosauriërs geavanceerde metabolische controle hadden."
         }
       },
       {
         question: {
-          en: "Which bone microstructure analysis has provided the strongest evidence for pterosaur growth rates?",
-          es: "¿Qué análisis de microestructura ósea ha proporcionado la evidencia más sólida sobre las tasas de crecimiento de pterosaurios?",
-          de: "Welche Knochenmikrostruktur-Analyse hat die stärksten Beweise für Pterosaurier-Wachstumsraten geliefert?",
-          nl: "Welke botmicrostructuur analyse heeft het sterkste bewijs geleverd voor pterosauriër groeisnelheden?"
+                  "en": "Which bone microstructure analysis has provided the strongest evidence for pterosaur growth rates?",
+                  "es": "¿Qué análisis de microestructura ósea ha proporcionado la evidencia más sólida sobre las tasas de crecimiento de pterosaurios?",
+                  "de": "Welche Knochenmikrostruktur-Analyse hat die stärksten Beweise für Pterosaurier-Wachstumsraten geliefert?",
+                  "nl": "Welke botmicrostructuur analyse heeft het sterkste bewijs geleverd voor pterosauriër groeisnelheden?"
         },
         options: [
-          { en: "Lines of arrested growth (LAGs) in long bones", es: "Líneas de crecimiento arrestado (LAGs) en huesos largos", de: "Wachstumsstillstandslinien (LAGs) in langen Knochen", nl: "Groeionderbrekingslijnen (LAGs) in lange botten" },
-          { en: "Calcium phosphate crystallization patterns", es: "Patrones de cristalización de fosfato de calcio", de: "Kalziumphosphat-Kristallisationsmuster", nl: "Calciumfosfaat kristallisatiepatronen" },
-          { en: "Marrow cavity analysis", es: "Análisis de cavidad medular", de: "Markraumanalyse", nl: "Mergholte analyse" },
-          { en: "Collagen fiber orientation", es: "Orientación de fibras de colágeno", de: "Kollagenfaser-Orientierung", nl: "Collageen vezel oriëntatie" }
+        {
+                  "en": "Marrow cavity analysis",
+                  "es": "Análisis de cavidad medular",
+                  "de": "Markraumanalyse",
+                  "nl": "Mergholte analyse"
+        },
+        {
+                  "en": "Lines of arrested growth (LAGs) in long bones",
+                  "es": "Líneas de crecimiento arrestado (LAGs) en huesos largos",
+                  "de": "Wachstumsstillstandslinien (LAGs) in langen Knochen",
+                  "nl": "Groeionderbrekingslijnen (LAGs) in lange botten"
+        },
+        {
+                  "en": "Collagen fiber orientation",
+                  "es": "Orientación de fibras de colágeno",
+                  "de": "Kollagenfaser-Orientierung",
+                  "nl": "Collageen vezel oriëntatie"
+        },
+        {
+                  "en": "Calcium phosphate crystallization patterns",
+                  "es": "Patrones de cristalización de fosfato de calcio",
+                  "de": "Kalziumphosphat-Kristallisationsmuster",
+                  "nl": "Calciumfosfaat kristallisatiepatronen"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Lines of arrested growth (LAGs) form annually in bones and can be counted like tree rings to determine age and calculate growth rates throughout pterosaur development.",
-          es: "Las líneas de crecimiento arrestado (LAGs) se forman anualmente en los huesos y pueden contarse como anillos de árboles para determinar la edad y calcular las tasas de crecimiento durante el desarrollo de pterosaurios.",
-          de: "Wachstumsstillstandslinien (LAGs) bilden sich jährlich in Knochen und können wie Baumringe gezählt werden, um das Alter zu bestimmen und Wachstumsraten während der Pterosaurier-Entwicklung zu berechnen.",
-          nl: "Groeionderbrekingslijnen (LAGs) vormen zich jaarlijks in botten en kunnen geteld worden zoals boomringen om leeftijd te bepalen en groeisnelheden tijdens pterosauriër ontwikkeling te berekenen."
+                  "en": "Lines of arrested growth (LAGs) form annually in bones and can be counted like tree rings to determine age and calculate growth rates throughout pterosaur development.",
+                  "es": "Las líneas de crecimiento arrestado (LAGs) se forman anualmente en los huesos y pueden contarse como anillos de árboles para determinar la edad y calcular las tasas de crecimiento durante el desarrollo de pterosaurios.",
+                  "de": "Wachstumsstillstandslinien (LAGs) bilden sich jährlich in Knochen und können wie Baumringe gezählt werden, um das Alter zu bestimmen und Wachstumsraten während der Pterosaurier-Entwicklung zu berechnen.",
+                  "nl": "Groeionderbrekingslijnen (LAGs) vormen zich jaarlijks in botten en kunnen geteld worden zoals boomringen om leeftijd te bepalen en groeisnelheden tijdens pterosauriër ontwikkeling te berekenen."
         }
       },
       {
         question: {
-          en: "What does the pneumatic system in pterosaur bones primarily indicate about their respiratory physiology?",
-          es: "¿Qué indica principalmente el sistema neumático en los huesos de pterosaurios sobre su fisiología respiratoria?",
-          de: "Was zeigt das pneumatische System in Pterosaurier-Knochen hauptsächlich über ihre Atemphysiologie an?",
-          nl: "Wat geeft het pneumatische systeem in pterosauriër botten voornamelijk aan over hun ademhalingsfysiologie?"
+                  "en": "What does the pneumatic system in pterosaur bones primarily indicate about their respiratory physiology?",
+                  "es": "¿Qué indica principalmente el sistema neumático en los huesos de pterosaurios sobre su fisiología respiratoria?",
+                  "de": "Was zeigt das pneumatische System in Pterosaurier-Knochen hauptsächlich über ihre Atemphysiologie an?",
+                  "nl": "Wat geeft het pneumatische systeem in pterosauriër botten voornamelijk aan over hun ademhalingsfysiologie?"
         },
         options: [
-          { en: "Unidirectional airflow similar to modern birds", es: "Flujo de aire unidireccional similar a las aves modernas", de: "Unidirektionaler Luftstrom ähnlich modernen Vögeln", nl: "Unidirectionele luchtstroom vergelijkbaar met moderne vogels" },
-          { en: "Bidirectional breathing like mammals", es: "Respiración bidireccional como mamíferos", de: "Bidirektionale Atmung wie Säugetiere", nl: "Bidirectionele ademhaling zoals zoogdieren" },
-          { en: "Aquatic respiration adaptations", es: "Adaptaciones de respiración acuática", de: "Aquatische Atmungsanpassungen", nl: "Aquatische ademhalingsaanpassingen" },
-          { en: "Seasonal hibernation capabilities", es: "Capacidades de hibernación estacional", de: "Saisonale Winterschlaf-Fähigkeiten", nl: "Seizoensgebonden winterslaap mogelijkheden" }
+        {
+                  "en": "Unidirectional airflow similar to modern birds",
+                  "es": "Flujo de aire unidireccional similar a las aves modernas",
+                  "de": "Unidirektionaler Luftstrom ähnlich modernen Vögeln",
+                  "nl": "Unidirectionele luchtstroom vergelijkbaar met moderne vogels"
+        },
+        {
+                  "en": "Aquatic respiration adaptations",
+                  "es": "Adaptaciones de respiración acuática",
+                  "de": "Aquatische Atmungsanpassungen",
+                  "nl": "Aquatische ademhalingsaanpassingen"
+        },
+        {
+                  "en": "Seasonal hibernation capabilities",
+                  "es": "Capacidades de hibernación estacional",
+                  "de": "Saisonale Winterschlaf-Fähigkeiten",
+                  "nl": "Seizoensgebonden winterslaap mogelijkheden"
+        },
+        {
+                  "en": "Bidirectional breathing like mammals",
+                  "es": "Respiración bidireccional como mamíferos",
+                  "de": "Bidirektionale Atmung wie Säugetiere",
+                  "nl": "Bidirectionele ademhaling zoals zoogdieren"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "The extensive pneumatic bone system in pterosaurs suggests they had an avian-like respiratory system with air sacs and unidirectional airflow, optimizing oxygen extraction for powered flight.",
-          es: "El extenso sistema óseo neumático en pterosaurios sugiere que tenían un sistema respiratorio similar al de las aves con sacos aéreos y flujo de aire unidireccional, optimizando la extracción de oxígeno para el vuelo propulsado.",
-          de: "Das umfangreiche pneumatische Knochensystem bei Pterosauriern deutet darauf hin, dass sie ein vogelähnliches Atmungssystem mit Luftsäcken und unidirektionalem Luftstrom hatten, das die Sauerstoffextraktion für den Kraftflug optimierte.",
-          nl: "Het uitgebreide pneumatische botsysteem bij pterosauriërs suggereert dat ze een vogelachtig ademhalingssysteem hadden met luchtzakken en unidirectionele luchtstroom, wat zuurstofextractie voor aangedreven vlucht optimaliseerde."
+                  "en": "The extensive pneumatic bone system in pterosaurs suggests they had an avian-like respiratory system with air sacs and unidirectional airflow, optimizing oxygen extraction for powered flight.",
+                  "es": "El extenso sistema óseo neumático en pterosaurios sugiere que tenían un sistema respiratorio similar al de las aves con sacos aéreos y flujo de aire unidireccional, optimizando la extracción de oxígeno para el vuelo propulsado.",
+                  "de": "Das umfangreiche pneumatische Knochensystem bei Pterosauriern deutet darauf hin, dass sie ein vogelähnliches Atmungssystem mit Luftsäcken und unidirektionalem Luftstrom hatten, das die Sauerstoffextraktion für den Kraftflug optimierte.",
+                  "nl": "Het uitgebreide pneumatische botsysteem bij pterosauriërs suggereert dat ze een vogelachtig ademhalingssysteem hadden met luchtzakken en unidirectionele luchtstroom, wat zuurstofextractie voor aangedreven vlucht optimaliseerde."
         }
       },
       {
         question: {
-          en: "Which pterosaur fossil site has provided the most insights into pterosaur reproductive behavior and nesting ecology?",
-          es: "¿Qué sitio fósil de pterosaurios ha proporcionado más información sobre el comportamiento reproductivo y la ecología de anidación de pterosaurios?",
-          de: "Welche Pterosaurier-Fossilstätte hat die meisten Einblicke in das Fortpflanzungsverhalten und die Nistökologie von Pterosauriern geliefert?",
-          nl: "Welke pterosauriër fossiellocatie heeft de meeste inzichten geleverd over pterosauriër voortplantingsgedrag en nestecologie?"
+                  "en": "Which pterosaur fossil site has provided the most insights into pterosaur reproductive behavior and nesting ecology?",
+                  "es": "¿Qué sitio fósil de pterosaurios ha proporcionado más información sobre el comportamiento reproductivo y la ecología de anidación de pterosaurios?",
+                  "de": "Welche Pterosaurier-Fossilstätte hat die meisten Einblicke in das Fortpflanzungsverhalten und die Nistökologie von Pterosauriern geliefert?",
+                  "nl": "Welke pterosauriër fossiellocatie heeft de meeste inzichten geleverd over pterosauriër voortplantingsgedrag en nestecologie?"
         },
         options: [
-          { en: "Liaoning Province, China (Jehol Biota)", es: "Provincia de Liaoning, China (Biota de Jehol)", de: "Provinz Liaoning, China (Jehol-Biota)", nl: "Liaoning Provincie, China (Jehol Biota)" },
-          { en: "Solnhofen Limestone, Germany", es: "Caliza de Solnhofen, Alemania", de: "Solnhofener Plattenkalk, Deutschland", nl: "Solnhofen Kalksteen, Duitsland" },
-          { en: "Morrison Formation, USA", es: "Formación Morrison, EE.UU.", de: "Morrison-Formation, USA", nl: "Morrison Formatie, VS" },
-          { en: "Kem Kem Beds, Morocco", es: "Lechos de Kem Kem, Marruecos", de: "Kem-Kem-Schichten, Marokko", nl: "Kem Kem Lagen, Marokko" }
+        {
+                  "en": "Liaoning Province, China (Jehol Biota)",
+                  "es": "Provincia de Liaoning, China (Biota de Jehol)",
+                  "de": "Provinz Liaoning, China (Jehol-Biota)",
+                  "nl": "Liaoning Provincie, China (Jehol Biota)"
+        },
+        {
+                  "en": "Morrison Formation, USA",
+                  "es": "Formación Morrison, EE.UU.",
+                  "de": "Morrison-Formation, USA",
+                  "nl": "Morrison Formatie, VS"
+        },
+        {
+                  "en": "Solnhofen Limestone, Germany",
+                  "es": "Caliza de Solnhofen, Alemania",
+                  "de": "Solnhofener Plattenkalk, Deutschland",
+                  "nl": "Solnhofen Kalksteen, Duitsland"
+        },
+        {
+                  "en": "Kem Kem Beds, Morocco",
+                  "es": "Lechos de Kem Kem, Marruecos",
+                  "de": "Kem-Kem-Schichten, Marokko",
+                  "nl": "Kem Kem Lagen, Marokko"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "The Liaoning Province deposits have yielded exceptional pterosaur fossils including eggs, embryos, and potential nesting sites, providing unprecedented insights into their reproductive biology.",
-          es: "Los depósitos de la provincia de Liaoning han producido fósiles excepcionales de pterosaurios incluyendo huevos, embriones y posibles sitios de anidación, proporcionando conocimientos sin precedentes sobre su biología reproductiva.",
-          de: "Die Ablagerungen der Provinz Liaoning haben außergewöhnliche Pterosaurier-Fossilien einschließlich Eiern, Embryonen und möglichen Nistplätzen hervorgebracht und beispiellose Einblicke in ihre Fortpflanzungsbiologie geliefert.",
-          nl: "De Liaoning Provincie afzettingen hebben uitzonderlijke pterosauriër fossielen opgeleverd inclusief eieren, embryo's en mogelijke nestlocaties, wat ongekende inzichten in hun voortplantingsbiologie heeft gegeven."
+                  "en": "The Liaoning Province deposits have yielded exceptional pterosaur fossils including eggs, embryos, and potential nesting sites, providing unprecedented insights into their reproductive biology.",
+                  "es": "Los depósitos de la provincia de Liaoning han producido fósiles excepcionales de pterosaurios incluyendo huevos, embriones y posibles sitios de anidación, proporcionando conocimientos sin precedentes sobre su biología reproductiva.",
+                  "de": "Die Ablagerungen der Provinz Liaoning haben außergewöhnliche Pterosaurier-Fossilien einschließlich Eiern, Embryonen und möglichen Nistplätzen hervorgebracht und beispiellose Einblicke in ihre Fortpflanzungsbiologie geliefert.",
+                  "nl": "De Liaoning Provincie afzettingen hebben uitzonderlijke pterosauriër fossielen opgeleverd inclusief eieren, embryo's en mogelijke nestlocaties, wat ongekende inzichten in hun voortplantingsbiologie heeft gegeven."
         }
       },
       {
         question: {
-          en: "What is the significance of the pteroid bone in pterosaur wing evolution?",
-          es: "¿Cuál es la importancia del hueso pteroide en la evolución del ala de pterosaurios?",
-          de: "Was ist die Bedeutung des Pteroid-Knochens in der Pterosaurier-Flügelevolution?",
-          nl: "Wat is de betekenis van het pteroid bot in pterosauriër vleugelevolutie?"
+                  "en": "What is the significance of the pteroid bone in pterosaur wing evolution?",
+                  "es": "¿Cuál es la importancia del hueso pteroide en la evolución del ala de pterosaurios?",
+                  "de": "Was ist die Bedeutung des Pteroid-Knochens in der Pterosaurier-Flügelevolution?",
+                  "nl": "Wat is de betekenis van het pteroid bot in pterosauriër vleugelevolutie?"
         },
         options: [
-          { en: "Novel bone controlling propatagium tension for flight optimization", es: "Hueso novedoso que controla la tensión del propatagio para optimización del vuelo", de: "Neuartiger Knochen zur Kontrolle der Propatagium-Spannung für Flugoptimierung", nl: "Nieuw bot dat propatagium spanning controleert voor vliegoptimalisatie" },
-          { en: "Modified finger bone for grasping", es: "Hueso de dedo modificado para agarrar", de: "Modifizierter Fingerknochen zum Greifen", nl: "Gemodificeerd vingerbot voor grijpen" },
-          { en: "Vestigial structure from terrestrial ancestors", es: "Estructura vestigial de ancestros terrestres", de: "Vestigiale Struktur von terrestrischen Vorfahren", nl: "Vestigiële structuur van terrestrische voorouders" },
-          { en: "Specialized tool for feeding", es: "Herramienta especializada para alimentarse", de: "Spezialisiertes Werkzeug zur Nahrungsaufnahme", nl: "Gespecialiseerd gereedschap voor voeding" }
+        {
+                  "en": "Modified finger bone for grasping",
+                  "es": "Hueso de dedo modificado para agarrar",
+                  "de": "Modifizierter Fingerknochen zum Greifen",
+                  "nl": "Gemodificeerd vingerbot voor grijpen"
+        },
+        {
+                  "en": "Vestigial structure from terrestrial ancestors",
+                  "es": "Estructura vestigial de ancestros terrestres",
+                  "de": "Vestigiale Struktur von terrestrischen Vorfahren",
+                  "nl": "Vestigiële structuur van terrestrische voorouders"
+        },
+        {
+                  "en": "Novel bone controlling propatagium tension for flight optimization",
+                  "es": "Hueso novedoso que controla la tensión del propatagio para optimización del vuelo",
+                  "de": "Neuartiger Knochen zur Kontrolle der Propatagium-Spannung für Flugoptimierung",
+                  "nl": "Nieuw bot dat propatagium spanning controleert voor vliegoptimalisatie"
+        },
+        {
+                  "en": "Specialized tool for feeding",
+                  "es": "Herramienta especializada para alimentarse",
+                  "de": "Spezialisiertes Werkzeug zur Nahrungsaufnahme",
+                  "nl": "Gespecialiseerd gereedschap voor voeding"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "The pteroid bone is a unique innovation in pterosaurs that supported the propatagium (wing membrane in front of the arm), allowing fine control of wing camber and lift generation.",
-          es: "El hueso pteroide es una innovación única en pterosaurios que sostenía el propatagio (membrana del ala frente al brazo), permitiendo un control fino de la curvatura del ala y la generación de sustentación.",
-          de: "Der Pteroid-Knochen ist eine einzigartige Innovation bei Pterosauriern, die das Propatagium (Flügelmembran vor dem Arm) stützte und eine feine Kontrolle der Flügelwölbung und Auftriebserzeugung ermöglichte.",
-          nl: "Het pteroid bot is een unieke innovatie bij pterosauriërs die het propatagium (vleugelmembraan voor de arm) ondersteunde, wat fijne controle van vleugelkromming en liftontwikkeling mogelijk maakte."
+                  "en": "The pteroid bone is a unique innovation in pterosaurs that supported the propatagium (wing membrane in front of the arm), allowing fine control of wing camber and lift generation.",
+                  "es": "El hueso pteroide es una innovación única en pterosaurios que sostenía el propatagio (membrana del ala frente al brazo), permitiendo un control fino de la curvatura del ala y la generación de sustentación.",
+                  "de": "Der Pteroid-Knochen ist eine einzigartige Innovation bei Pterosauriern, die das Propatagium (Flügelmembran vor dem Arm) stützte und eine feine Kontrolle der Flügelwölbung und Auftriebserzeugung ermöglichte.",
+                  "nl": "Het pteroid bot is een unieke innovatie bij pterosauriërs die het propatagium (vleugelmembraan voor de arm) ondersteunde, wat fijne controle van vleugelkromming en liftontwikkeling mogelijk maakte."
         }
       },
       {
         question: {
-          en: "Which biomechanical analysis technique has revealed the most about pterosaur flight muscle attachment sites?",
-          es: "¿Qué técnica de análisis biomecánico ha revelado más sobre los sitios de inserción de músculos de vuelo de pterosaurios?",
-          de: "Welche biomechanische Analysetechnik hat am meisten über Pterosaurier-Flugmuskel-Ansatzstellen enthüllt?",
-          nl: "Welke biomechanische analysetechniek heeft het meeste onthuld over pterosauriër vliegspier bevestigingspunten?"
+                  "en": "Which biomechanical analysis technique has revealed the most about pterosaur flight muscle attachment sites?",
+                  "es": "¿Qué técnica de análisis biomecánico ha revelado más sobre los sitios de inserción de músculos de vuelo de pterosaurios?",
+                  "de": "Welche biomechanische Analysetechnik hat am meisten über Pterosaurier-Flugmuskel-Ansatzstellen enthüllt?",
+                  "nl": "Welke biomechanische analysetechniek heeft het meeste onthuld over pterosauriër vliegspier bevestigingspunten?"
         },
         options: [
-          { en: "Finite element analysis of bone stress patterns", es: "Análisis de elementos finitos de patrones de estrés óseo", de: "Finite-Elemente-Analyse von Knochenspannungsmustern", nl: "Eindige elementen analyse van botspanningspatronen" },
-          { en: "CT scanning reconstruction", es: "Reconstrucción por tomografía computarizada", de: "CT-Scan-Rekonstruktion", nl: "CT-scan reconstructie" },
-          { en: "Histological sectioning", es: "Seccionado histológico", de: "Histologische Schnitte", nl: "Histologische doorsneden" },
-          { en: "Isotope ratio analysis", es: "Análisis de proporción isotópica", de: "Isotopenverhältnis-Analyse", nl: "Isotoopverhouding analyse" }
+        {
+                  "en": "CT scanning reconstruction",
+                  "es": "Reconstrucción por tomografía computarizada",
+                  "de": "CT-Scan-Rekonstruktion",
+                  "nl": "CT-scan reconstructie"
+        },
+        {
+                  "en": "Histological sectioning",
+                  "es": "Seccionado histológico",
+                  "de": "Histologische Schnitte",
+                  "nl": "Histologische doorsneden"
+        },
+        {
+                  "en": "Isotope ratio analysis",
+                  "es": "Análisis de proporción isotópica",
+                  "de": "Isotopenverhältnis-Analyse",
+                  "nl": "Isotoopverhouding analyse"
+        },
+        {
+                  "en": "Finite element analysis of bone stress patterns",
+                  "es": "Análisis de elementos finitos de patrones de estrés óseo",
+                  "de": "Finite-Elemente-Analyse von Knochenspannungsmustern",
+                  "nl": "Eindige elementen analyse van botspanningspatronen"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Finite element analysis models bone stress distribution under loading, revealing where muscles attached by identifying areas of high stress concentration on pterosaur bones.",
-          es: "El análisis de elementos finitos modela la distribución del estrés óseo bajo carga, revelando dónde se insertaban los músculos al identificar áreas de alta concentración de estrés en huesos de pterosaurios.",
-          de: "Die Finite-Elemente-Analyse modelliert die Knochenspannungsverteilung unter Belastung und enthüllt Muskelansatzstellen durch Identifizierung von Bereichen hoher Spannungskonzentration an Pterosaurier-Knochen.",
-          nl: "Eindige elementen analyse modelleert botspanningsverdeling onder belasting, wat vliegspier bevestigingspunten onthult door gebieden van hoge spanningsconcentratie op pterosauriër botten te identificeren."
+                  "en": "Finite element analysis models bone stress distribution under loading, revealing where muscles attached by identifying areas of high stress concentration on pterosaur bones.",
+                  "es": "El análisis de elementos finitos modela la distribución del estrés óseo bajo carga, revelando dónde se insertaban los músculos al identificar áreas de alta concentración de estrés en huesos de pterosaurios.",
+                  "de": "Die Finite-Elemente-Analyse modelliert die Knochenspannungsverteilung unter Belastung und enthüllt Muskelansatzstellen durch Identifizierung von Bereichen hoher Spannungskonzentration an Pterosaurier-Knochen.",
+                  "nl": "Eindige elementen analyse modelleert botspanningsverdeling onder belasting, wat vliegspier bevestigingspunten onthult door gebieden van hoge spanningsconcentratie op pterosauriër botten te identificeren."
         }
       },
       {
         question: {
-          en: "What does the discovery of pterosaur trackways reveal about their terrestrial locomotion capabilities?",
-          es: "¿Qué revela el descubrimiento de huellas de pterosaurios sobre sus capacidades de locomoción terrestre?",
-          de: "Was enthüllt die Entdeckung von Pterosaurier-Spurenfossilien über ihre terrestrischen Fortbewegungsfähigkeiten?",
-          nl: "Wat onthult de ontdekking van pterosauriër spoorwegen over hun terrestrische voortbewegingsmogelijkheden?"
+                  "en": "What does the discovery of pterosaur trackways reveal about their terrestrial locomotion capabilities?",
+                  "es": "¿Qué revela el descubrimiento de huellas de pterosaurios sobre sus capacidades de locomoción terrestre?",
+                  "de": "Was enthüllt die Entdeckung von Pterosaurier-Spurenfossilien über ihre terrestrischen Fortbewegungsfähigkeiten?",
+                  "nl": "Wat onthult de ontdekking van pterosauriër spoorwegen over hun terrestrische voortbewegingsmogelijkheden?"
         },
         options: [
-          { en: "Quadrupedal locomotion with effective terrestrial mobility", es: "Locomoción cuadrúpeda con movilidad terrestre efectiva", de: "Vierbeinige Fortbewegung mit effektiver terrestrischer Mobilität", nl: "Viervoetige voortbeweging met effectieve terrestrische mobiliteit" },
-          { en: "Exclusively bipedal walking", es: "Caminata exclusivamente bípeda", de: "Ausschließlich bipedales Gehen", nl: "Uitsluitend tweevoetig lopen" },
-          { en: "Limited to crawling on belly", es: "Limitado a arrastrarse sobre el vientre", de: "Beschränkt auf Kriechen auf dem Bauch", nl: "Beperkt tot kruipen op de buik" },
-          { en: "Inability to move on land", es: "Incapacidad para moverse en tierra", de: "Unfähigkeit, sich an Land zu bewegen", nl: "Onvermogen om op land te bewegen" }
+        {
+                  "en": "Quadrupedal locomotion with effective terrestrial mobility",
+                  "es": "Locomoción cuadrúpeda con movilidad terrestre efectiva",
+                  "de": "Vierbeinige Fortbewegung mit effektiver terrestrischer Mobilität",
+                  "nl": "Viervoetige voortbeweging met effectieve terrestrische mobiliteit"
+        },
+        {
+                  "en": "Exclusively bipedal walking",
+                  "es": "Caminata exclusivamente bípeda",
+                  "de": "Ausschließlich bipedales Gehen",
+                  "nl": "Uitsluitend tweevoetig lopen"
+        },
+        {
+                  "en": "Inability to move on land",
+                  "es": "Incapacidad para moverse en tierra",
+                  "de": "Unfähigkeit, sich an Land zu bewegen",
+                  "nl": "Onvermogen om op land te bewegen"
+        },
+        {
+                  "en": "Limited to crawling on belly",
+                  "es": "Limitado a arrastrarse sobre el vientre",
+                  "de": "Beschränkt auf Kriechen auf dem Bauch",
+                  "nl": "Beperkt tot kruipen op de buik"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Pterosaur trackways show they were capable quadrupeds on land, walking on their knuckles and feet, contrary to earlier assumptions that they were clumsy on the ground.",
-          es: "Las huellas de pterosaurios muestran que eran cuadrúpedos capaces en tierra, caminando sobre sus nudillos y pies, contrario a suposiciones anteriores de que eran torpes en el suelo.",
-          de: "Pterosaurier-Spurenfossilien zeigen, dass sie fähige Vierfüßer an Land waren, die auf ihren Knöcheln und Füßen liefen, entgegen früheren Annahmen, dass sie am Boden ungeschickt waren.",
-          nl: "Pterosauriër spoorwegen tonen dat ze bekwame viervoeters op land waren, lopend op hun knokels en voeten, in tegenstelling tot eerdere aannames dat ze onhandig op de grond waren."
+                  "en": "Pterosaur trackways show they were capable quadrupeds on land, walking on their knuckles and feet, contrary to earlier assumptions that they were clumsy on the ground.",
+                  "es": "Las huellas de pterosaurios muestran que eran cuadrúpedos capaces en tierra, caminando sobre sus nudillos y pies, contrario a suposiciones anteriores de que eran torpes en el suelo.",
+                  "de": "Pterosaurier-Spurenfossilien zeigen, dass sie fähige Vierfüßer an Land waren, die auf ihren Knöcheln und Füßen liefen, entgegen früheren Annahmen, dass sie am Boden ungeschickt waren.",
+                  "nl": "Pterosauriër spoorwegen tonen dat ze bekwame viervoeters op land waren, lopend op hun knokels en voeten, in tegenstelling tot eerdere aannames dat ze onhandig op de grond waren."
         }
       },
       {
         question: {
-          en: "Which molecular preservation technique has been most successful in recovering pterosaur soft tissue information?",
-          es: "¿Qué técnica de preservación molecular ha sido más exitosa en recuperar información de tejidos blandos de pterosaurios?",
-          de: "Welche molekulare Konservierungstechnik war am erfolgreichsten bei der Wiedergewinnung von Pterosaurier-Weichgewebe-Informationen?",
-          nl: "Welke moleculaire preservatietechniek is het meest succesvol geweest in het herstellen van pterosauriër zachte weefsel informatie?"
+                  "en": "Which molecular preservation technique has been most successful in recovering pterosaur soft tissue information?",
+                  "es": "¿Qué técnica de preservación molecular ha sido más exitosa en recuperar información de tejidos blandos de pterosaurios?",
+                  "de": "Welche molekulare Konservierungstechnik war am erfolgreichsten bei der Wiedergewinnung von Pterosaurier-Weichgewebe-Informationen?",
+                  "nl": "Welke moleculaire preservatietechniek is het meest succesvol geweest in het herstellen van pterosauriër zachte weefsel informatie?"
         },
         options: [
-          { en: "Time-of-flight secondary ion mass spectrometry (ToF-SIMS)", es: "Espectrometría de masas de iones secundarios de tiempo de vuelo (ToF-SIMS)", de: "Flugzeit-Sekundärionen-Massenspektrometrie (ToF-SIMS)", nl: "Vluchttijd secundaire ion massaspectrometrie (ToF-SIMS)" },
-          { en: "DNA sequencing", es: "Secuenciación de ADN", de: "DNA-Sequenzierung", nl: "DNA sequencing" },
-          { en: "Protein crystallography", es: "Cristalografía de proteínas", de: "Proteinkristallographie", nl: "Proteïne kristallografie" },
-          { en: "Lipid chromatography", es: "Cromatografía de lípidos", de: "Lipid-Chromatographie", nl: "Lipide chromatografie" }
+        {
+                  "en": "Time-of-flight secondary ion mass spectrometry (ToF-SIMS)",
+                  "es": "Espectrometría de masas de iones secundarios de tiempo de vuelo (ToF-SIMS)",
+                  "de": "Flugzeit-Sekundärionen-Massenspektrometrie (ToF-SIMS)",
+                  "nl": "Vluchttijd secundaire ion massaspectrometrie (ToF-SIMS)"
+        },
+        {
+                  "en": "DNA sequencing",
+                  "es": "Secuenciación de ADN",
+                  "de": "DNA-Sequenzierung",
+                  "nl": "DNA sequencing"
+        },
+        {
+                  "en": "Lipid chromatography",
+                  "es": "Cromatografía de lípidos",
+                  "de": "Lipid-Chromatographie",
+                  "nl": "Lipide chromatografie"
+        },
+        {
+                  "en": "Protein crystallography",
+                  "es": "Cristalografía de proteínas",
+                  "de": "Proteinkristallographie",
+                  "nl": "Proteïne kristallografie"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "ToF-SIMS can detect molecular signatures in fossilized tissues, revealing information about original organic compounds and membrane structures in pterosaur fossils.",
-          es: "ToF-SIMS puede detectar firmas moleculares en tejidos fosilizados, revelando información sobre compuestos orgánicos originales y estructuras de membrana en fósiles de pterosaurios.",
-          de: "ToF-SIMS kann molekulare Signaturen in fossilisierten Geweben erkennen und Informationen über ursprüngliche organische Verbindungen und Membranstrukturen in Pterosaurier-Fossilien enthüllen.",
-          nl: "ToF-SIMS kan moleculaire signaturen in gefossiliseerde weefsels detecteren, wat informatie onthult over originele organische verbindingen en membraanstructuren in pterosauriër fossielen."
+                  "en": "ToF-SIMS can detect molecular signatures in fossilized tissues, revealing information about original organic compounds and membrane structures in pterosaur fossils.",
+                  "es": "ToF-SIMS puede detectar firmas moleculares en tejidos fosilizados, revelando información sobre compuestos orgánicos originales y estructuras de membrana en fósiles de pterosaurios.",
+                  "de": "ToF-SIMS kann molekulare Signaturen in fossilisierten Geweben erkennen und Informationen über ursprüngliche organische Verbindungen und Membranstrukturen in Pterosaurier-Fossilien enthüllen.",
+                  "nl": "ToF-SIMS kan moleculaire signaturen in gefossiliseerde weefsels detecteren, wat informatie onthult over originele organische verbindingen en membraanstructuren in pterosauriër fossielen."
         }
       },
       {
         question: {
-          en: "What does the analysis of pterosaur coprolites reveal about their digestive physiology?",
-          es: "¿Qué revela el análisis de coprolitos de pterosaurios sobre su fisiología digestiva?",
-          de: "Was enthüllt die Analyse von Pterosaurier-Koprolithen über ihre Verdauungsphysiologie?",
-          nl: "Wat onthult de analyse van pterosauriër coprolieten over hun spijsverteringsfysiologie?"
+                  "en": "What does the analysis of pterosaur coprolites reveal about their digestive physiology?",
+                  "es": "¿Qué revela el análisis de coprolitos de pterosaurios sobre su fisiología digestiva?",
+                  "de": "Was enthüllt die Analyse von Pterosaurier-Koprolithen über ihre Verdauungsphysiologie?",
+                  "nl": "Wat onthult de analyse van pterosauriër coprolieten over hun spijsverteringsfysiologie?"
         },
         options: [
-          { en: "Rapid gut transit times and high metabolic rates", es: "Tiempos de tránsito intestinal rápidos y altas tasas metabólicas", de: "Schnelle Darmtransitzeiten und hohe Stoffwechselraten", nl: "Snelle darmtransittijden en hoge stofwisselingssnelheden" },
-          { en: "Slow digestion like modern reptiles", es: "Digestión lenta como reptiles modernos", de: "Langsame Verdauung wie moderne Reptilien", nl: "Langzame vertering zoals moderne reptielen" },
-          { en: "Specialized fermentation chambers", es: "Cámaras de fermentación especializadas", de: "Spezialisierte Fermentationskammern", nl: "Gespecialiseerde fermentatiekamers" },
-          { en: "Filter-feeding mechanisms", es: "Mecanismos de alimentación por filtración", de: "Filterfütterungsmechanismen", nl: "Filtervoeders mechanismen" }
+        {
+                  "en": "Slow digestion like modern reptiles",
+                  "es": "Digestión lenta como reptiles modernos",
+                  "de": "Langsame Verdauung wie moderne Reptilien",
+                  "nl": "Langzame vertering zoals moderne reptielen"
+        },
+        {
+                  "en": "Filter-feeding mechanisms",
+                  "es": "Mecanismos de alimentación por filtración",
+                  "de": "Filterfütterungsmechanismen",
+                  "nl": "Filtervoeders mechanismen"
+        },
+        {
+                  "en": "Rapid gut transit times and high metabolic rates",
+                  "es": "Tiempos de tránsito intestinal rápidos y altas tasas metabólicas",
+                  "de": "Schnelle Darmtransitzeiten und hohe Stoffwechselraten",
+                  "nl": "Snelle darmtransittijden en hoge stofwisselingssnelheden"
+        },
+        {
+                  "en": "Specialized fermentation chambers",
+                  "es": "Cámaras de fermentación especializadas",
+                  "de": "Spezialisierte Fermentationskammern",
+                  "nl": "Gespecialiseerde fermentatiekamers"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Pterosaur coprolites contain undigested remains suggesting rapid food processing, consistent with high metabolic rates needed for powered flight.",
-          es: "Los coprolitos de pterosaurios contienen restos no digeridos sugiriendo procesamiento rápido de alimentos, consistente con altas tasas metabólicas necesarias para el vuelo propulsado.",
-          de: "Pterosaurier-Koprolithen enthalten unverdaute Reste, die auf schnelle Nahrungsverarbeitung hindeuten, was mit hohen Stoffwechselraten für den Kraftflug übereinstimmt.",
-          nl: "Pterosauriër coprolieten bevatten onverteerde resten die duiden op snelle voedselverwerking, consistent met hoge stofwisselingssnelheden nodig voor aangedreven vlucht."
+                  "en": "Pterosaur coprolites contain undigested remains suggesting rapid food processing, consistent with high metabolic rates needed for powered flight.",
+                  "es": "Los coprolitos de pterosaurios contienen restos no digeridos sugiriendo procesamiento rápido de alimentos, consistente con altas tasas metabólicas necesarias para el vuelo propulsado.",
+                  "de": "Pterosaurier-Koprolithen enthalten unverdaute Reste, die auf schnelle Nahrungsverarbeitung hindeuten, was mit hohen Stoffwechselraten für den Kraftflug übereinstimmt.",
+                  "nl": "Pterosauriër coprolieten bevatten onverteerde resten die duiden op snelle voedselverwerking, consistent met hoge stofwisselingssnelheden nodig voor aangedreven vlucht."
         }
       },
       {
         question: {
-          en: "Which pterosaur fossil has provided the most complete information about cranial kinesis mechanisms?",
-          es: "¿Qué fósil de pterosaurio ha proporcionado la información más completa sobre mecanismos de cinesis craneal?",
-          de: "Welches Pterosaurier-Fossil hat die vollständigsten Informationen über kraniale Kinesemechanismen geliefert?",
-          nl: "Welk pterosauriër fossiel heeft de meest complete informatie geleverd over craniale kinese mechanismen?"
+                  "en": "Which pterosaur fossil has provided the most complete information about cranial kinesis mechanisms?",
+                  "es": "¿Qué fósil de pterosaurio ha proporcionado la información más completa sobre mecanismos de cinesis craneal?",
+                  "de": "Welches Pterosaurier-Fossil hat die vollständigsten Informationen über kraniale Kinesemechanismen geliefert?",
+                  "nl": "Welk pterosauriër fossiel heeft de meest complete informatie geleverd over craniale kinese mechanismen?"
         },
         options: [
-          { en: "Anhanguera with preserved joint articulations", es: "Anhanguera con articulaciones conservadas", de: "Anhanguera mit erhaltenen Gelenkverbindungen", nl: "Anhanguera met bewaarde gewrichtsverbindingen" },
-          { en: "Pteranodon skull fragments", es: "Fragmentos de cráneo de Pteranodon", de: "Pteranodon-Schädelfragmente", nl: "Pteranodon schedelfragmenten" },
-          { en: "Quetzalcoatlus jaw bones", es: "Huesos de mandíbula de Quetzalcoatlus", de: "Quetzalcoatlus-Kieferknochen", nl: "Quetzalcoatlus kaakbotten" },
-          { en: "Rhamphorhynchus beak tips", es: "Puntas de pico de Rhamphorhynchus", de: "Rhamphorhynchus-Schnabelspitzen", nl: "Rhamphorhynchus snavelpunten" }
+        {
+                  "en": "Pteranodon skull fragments",
+                  "es": "Fragmentos de cráneo de Pteranodon",
+                  "de": "Pteranodon-Schädelfragmente",
+                  "nl": "Pteranodon schedelfragmenten"
+        },
+        {
+                  "en": "Quetzalcoatlus jaw bones",
+                  "es": "Huesos de mandíbula de Quetzalcoatlus",
+                  "de": "Quetzalcoatlus-Kieferknochen",
+                  "nl": "Quetzalcoatlus kaakbotten"
+        },
+        {
+                  "en": "Anhanguera with preserved joint articulations",
+                  "es": "Anhanguera con articulaciones conservadas",
+                  "de": "Anhanguera mit erhaltenen Gelenkverbindungen",
+                  "nl": "Anhanguera met bewaarde gewrichtsverbindingen"
+        },
+        {
+                  "en": "Rhamphorhynchus beak tips",
+                  "es": "Puntas de pico de Rhamphorhynchus",
+                  "de": "Rhamphorhynchus-Schnabelspitzen",
+                  "nl": "Rhamphorhynchus snavelpunten"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Anhanguera specimens preserve detailed skull joints showing how the upper jaw could flex relative to the braincase, revealing sophisticated feeding mechanics.",
-          es: "Los especímenes de Anhanguera preservan articulaciones detalladas del cráneo mostrando cómo la mandíbula superior podía flexionarse relativa al neurocráneo, revelando mecánicas de alimentación sofisticadas.",
-          de: "Anhanguera-Exemplare erhalten detaillierte Schädelgelenke, die zeigen, wie sich der Oberkiefer relativ zum Hirnschädel biegen konnte, was ausgeklügelte Nahrungsaufnahme-Mechanismen enthüllt.",
-          nl: "Anhanguera specimens behouden gedetailleerde schedelgewrichten die tonen hoe de bovenkaak kon buigen relatief tot de hersenschedel, wat geavanceerde voedingsmechanismen onthult."
+                  "en": "Anhanguera specimens preserve detailed skull joints showing how the upper jaw could flex relative to the braincase, revealing sophisticated feeding mechanics.",
+                  "es": "Los especímenes de Anhanguera preservan articulaciones detalladas del cráneo mostrando cómo la mandíbula superior podía flexionarse relativa al neurocráneo, revelando mecánicas de alimentación sofisticadas.",
+                  "de": "Anhanguera-Exemplare erhalten detaillierte Schädelgelenke, die zeigen, wie sich der Oberkiefer relativ zum Hirnschädel biegen konnte, was ausgeklügelte Nahrungsaufnahme-Mechanismen enthüllt.",
+                  "nl": "Anhanguera specimens behouden gedetailleerde schedelgewrichten die tonen hoe de bovenkaak kon buigen relatief tot de hersenschedel, wat geavanceerde voedingsmechanismen onthult."
         }
       },
       {
         question: {
-          en: "What is the significance of finding pterosaur fossils with preserved gut contents?",
-          es: "¿Cuál es la importancia de encontrar fósiles de pterosaurios con contenidos intestinales conservados?",
-          de: "Was ist die Bedeutung des Fundes von Pterosaurier-Fossilien mit erhaltenen Darminhalten?",
-          nl: "Wat is de betekenis van het vinden van pterosauriër fossielen met bewaarde darminhoud?"
+                  "en": "What is the significance of finding pterosaur fossils with preserved gut contents?",
+                  "es": "¿Cuál es la importancia de encontrar fósiles de pterosaurios con contenidos intestinales conservados?",
+                  "de": "Was ist die Bedeutung des Fundes von Pterosaurier-Fossilien mit erhaltenen Darminhalten?",
+                  "nl": "Wat is de betekenis van het vinden van pterosauriër fossielen met bewaarde darminhoud?"
         },
         options: [
-          { en: "Direct evidence of dietary specialization and ecological niches", es: "Evidencia directa de especialización dietética y nichos ecológicos", de: "Direkter Nachweis diätetischer Spezialisierung und ökologischer Nischen", nl: "Direct bewijs van dieetspecialisatie en ecologische niches" },
-          { en: "Proof of seasonal migration patterns", es: "Prueba de patrones de migración estacional", de: "Beweis für saisonale Migrationsmuster", nl: "Bewijs van seizoensgebonden migratiepatronen" },
-          { en: "Evidence of social feeding behaviors", es: "Evidencia de comportamientos de alimentación social", de: "Nachweis sozialer Fütterungsverhalten", nl: "Bewijs van sociaal voedingsgedrag" },
-          { en: "Indication of tool use capabilities", es: "Indicación de capacidades de uso de herramientas", de: "Hinweis auf Werkzeuggebrauchsfähigkeiten", nl: "Aanwijzing van gereedschapsgebruik mogelijkheden" }
+        {
+                  "en": "Direct evidence of dietary specialization and ecological niches",
+                  "es": "Evidencia directa de especialización dietética y nichos ecológicos",
+                  "de": "Direkter Nachweis diätetischer Spezialisierung und ökologischer Nischen",
+                  "nl": "Direct bewijs van dieetspecialisatie en ecologische niches"
+        },
+        {
+                  "en": "Indication of tool use capabilities",
+                  "es": "Indicación de capacidades de uso de herramientas",
+                  "de": "Hinweis auf Werkzeuggebrauchsfähigkeiten",
+                  "nl": "Aanwijzing van gereedschapsgebruik mogelijkheden"
+        },
+        {
+                  "en": "Evidence of social feeding behaviors",
+                  "es": "Evidencia de comportamientos de alimentación social",
+                  "de": "Nachweis sozialer Fütterungsverhalten",
+                  "nl": "Bewijs van sociaal voedingsgedrag"
+        },
+        {
+                  "en": "Proof of seasonal migration patterns",
+                  "es": "Prueba de patrones de migración estacional",
+                  "de": "Beweis für saisonale Migrationsmuster",
+                  "nl": "Bewijs van seizoensgebonden migratiepatronen"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Preserved gut contents provide unambiguous evidence of what pterosaurs actually ate, revealing dietary specializations and ecological roles that can't be inferred from morphology alone.",
-          es: "Los contenidos intestinales conservados proporcionan evidencia inequívoca de lo que realmente comían los pterosaurios, revelando especializaciones dietéticas y roles ecológicos que no pueden inferirse solo de la morfología.",
-          de: "Erhaltene Darminhalte liefern eindeutige Beweise dafür, was Pterosaurier tatsächlich fraßen, und enthüllen diätetische Spezialisierungen und ökologische Rollen, die allein aus der Morphologie nicht abgeleitet werden können.",
-          nl: "Bewaarde darminhoud biedt ondubbelzinnig bewijs van wat pterosauriërs daadwerkelijk aten, wat dieetspecialisaties en ecologische rollen onthult die niet alleen uit morfologie kunnen worden afgeleid."
+                  "en": "Preserved gut contents provide unambiguous evidence of what pterosaurs actually ate, revealing dietary specializations and ecological roles that can't be inferred from morphology alone.",
+                  "es": "Los contenidos intestinales conservados proporcionan evidencia inequívoca de lo que realmente comían los pterosaurios, revelando especializaciones dietéticas y roles ecológicos que no pueden inferirse solo de la morfología.",
+                  "de": "Erhaltene Darminhalte liefern eindeutige Beweise dafür, was Pterosaurier tatsächlich fraßen, und enthüllen diätetische Spezialisierungen und ökologische Rollen, die allein aus der Morphologie nicht abgeleitet werden können.",
+                  "nl": "Bewaarde darminhoud biedt ondubbelzinnig bewijs van wat pterosauriërs daadwerkelijk aten, wat dieetspecialisaties en ecologische rollen onthult die niet alleen uit morfologie kunnen worden afgeleid."
         }
       },
       {
         question: {
-          en: "Which advanced imaging technique has been most revolutionary for studying pterosaur wing membrane preservation?",
-          es: "¿Qué técnica de imagen avanzada ha sido más revolucionaria para estudiar la preservación de membranas alares de pterosaurios?",
-          de: "Welche fortgeschrittene Bildgebungstechnik war am revolutionärsten für die Untersuchung der Pterosaurier-Flügelmembran-Erhaltung?",
-          nl: "Welke geavanceerde beeldvormingstechniek is het meest revolutionair geweest voor het bestuderen van pterosauriër vleugelmembraan preservatie?"
+                  "en": "Which advanced imaging technique has been most revolutionary for studying pterosaur wing membrane preservation?",
+                  "es": "¿Qué técnica de imagen avanzada ha sido más revolucionaria para estudiar la preservación de membranas alares de pterosaurios?",
+                  "de": "Welche fortgeschrittene Bildgebungstechnik war am revolutionärsten für die Untersuchung der Pterosaurier-Flügelmembran-Erhaltung?",
+                  "nl": "Welke geavanceerde beeldvormingstechniek is het meest revolutionair geweest voor het bestuderen van pterosauriër vleugelmembraan preservatie?"
         },
         options: [
-          { en: "Laser-stimulated fluorescence (LSF) imaging", es: "Imagen de fluorescencia estimulada por láser (LSF)", de: "Laser-stimulierte Fluoreszenz (LSF) Bildgebung", nl: "Laser-gestimuleerde fluorescentie (LSF) beeldvorming" },
-          { en: "Standard photographic documentation", es: "Documentación fotográfica estándar", de: "Standard-fotografische Dokumentation", nl: "Standaard fotografische documentatie" },
-          { en: "X-ray crystallography", es: "Cristalografía de rayos X", de: "Röntgenkristallographie", nl: "Röntgen kristallografie" },
-          { en: "Electron microscopy", es: "Microscopía electrónica", de: "Elektronenmikroskopie", nl: "Elektronenmicroscopie" }
+        {
+                  "en": "X-ray crystallography",
+                  "es": "Cristalografía de rayos X",
+                  "de": "Röntgenkristallographie",
+                  "nl": "Röntgen kristallografie"
+        },
+        {
+                  "en": "Electron microscopy",
+                  "es": "Microscopía electrónica",
+                  "de": "Elektronenmikroskopie",
+                  "nl": "Elektronenmicroscopie"
+        },
+        {
+                  "en": "Standard photographic documentation",
+                  "es": "Documentación fotográfica estándar",
+                  "de": "Standard-fotografische Dokumentation",
+                  "nl": "Standaard fotografische documentatie"
+        },
+        {
+                  "en": "Laser-stimulated fluorescence (LSF) imaging",
+                  "es": "Imagen de fluorescencia estimulada por láser (LSF)",
+                  "de": "Laser-stimulierte Fluoreszenz (LSF) Bildgebung",
+                  "nl": "Laser-gestimuleerde fluorescentie (LSF) beeldvorming"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "LSF imaging reveals soft tissue preservation invisible to the naked eye, showing detailed wing membrane structures and fiber patterns in pterosaur fossils.",
-          es: "La imagen LSF revela preservación de tejidos blandos invisible al ojo desnudo, mostrando estructuras detalladas de membranas alares y patrones de fibras en fósiles de pterosaurios.",
-          de: "LSF-Bildgebung enthüllt Weichgewebe-Erhaltung, die für das bloße Auge unsichtbar ist, und zeigt detaillierte Flügelmembranstrukturen und Fasermuster in Pterosaurier-Fossilien.",
-          nl: "LSF beeldvorming onthult zachte weefsel preservatie onzichtbaar voor het blote oog, wat gedetailleerde vleugelmembraan structuren en vezelpatronen in pterosauriër fossielen toont."
+                  "en": "LSF imaging reveals soft tissue preservation invisible to the naked eye, showing detailed wing membrane structures and fiber patterns in pterosaur fossils.",
+                  "es": "La imagen LSF revela preservación de tejidos blandos invisible al ojo desnudo, mostrando estructuras detalladas de membranas alares y patrones de fibras en fósiles de pterosaurios.",
+                  "de": "LSF-Bildgebung enthüllt Weichgewebe-Erhaltung, die für das bloße Auge unsichtbar ist, und zeigt detaillierte Flügelmembranstrukturen und Fasermuster in Pterosaurier-Fossilien.",
+                  "nl": "LSF beeldvorming onthult zachte weefsel preservatie onzichtbaar voor het blote oog, wat gedetailleerde vleugelmembraan structuren en vezelpatronen in pterosauriër fossielen toont."
         }
       },
       {
         question: {
-          en: "What does the discovery of pterosaur social aggregation sites suggest about their behavioral complexity?",
-          es: "¿Qué sugiere el descubrimiento de sitios de agregación social de pterosaurios sobre su complejidad comportamental?",
-          de: "Was deutet die Entdeckung von Pterosaurier-Sozialaggregationsstätten über ihre Verhaltenskomplexität an?",
-          nl: "Wat suggereert de ontdekking van pterosauriër sociale aggregatielocaties over hun gedragscomplexiteit?"
+                  "en": "What does the discovery of pterosaur social aggregation sites suggest about their behavioral complexity?",
+                  "es": "¿Qué sugiere el descubrimiento de sitios de agregación social de pterosaurios sobre su complejidad comportamental?",
+                  "de": "Was deutet die Entdeckung von Pterosaurier-Sozialaggregationsstätten über ihre Verhaltenskomplexität an?",
+                  "nl": "Wat suggereert de ontdekking van pterosauriër sociale aggregatielocaties over hun gedragscomplexiteit?"
         },
         options: [
-          { en: "Sophisticated colonial nesting and potential communication systems", es: "Anidación colonial sofisticada y sistemas de comunicación potenciales", de: "Ausgeklügelte koloniale Nistplätze und potenzielle Kommunikationssysteme", nl: "Geavanceerde koloniale nestbouw en potentiële communicatiesystemen" },
-          { en: "Simple random gathering for feeding", es: "Reunión aleatoria simple para alimentarse", de: "Einfache zufällige Versammlung zur Nahrungsaufnahme", nl: "Eenvoudige willekeurige verzameling voor voeding" },
-          { en: "Seasonal hibernation behavior", es: "Comportamiento de hibernación estacional", de: "Saisonales Winterschlafverhalten", nl: "Seizoensgebonden winterslaap gedrag" },
-          { en: "Territorial dispute locations", es: "Ubicaciones de disputas territoriales", de: "Territoriale Streitstandorte", nl: "Territoriale geschillocaties" }
+        {
+                  "en": "Sophisticated colonial nesting and potential communication systems",
+                  "es": "Anidación colonial sofisticada y sistemas de comunicación potenciales",
+                  "de": "Ausgeklügelte koloniale Nistplätze und potenzielle Kommunikationssysteme",
+                  "nl": "Geavanceerde koloniale nestbouw en potentiële communicatiesystemen"
+        },
+        {
+                  "en": "Territorial dispute locations",
+                  "es": "Ubicaciones de disputas territoriales",
+                  "de": "Territoriale Streitstandorte",
+                  "nl": "Territoriale geschillocaties"
+        },
+        {
+                  "en": "Seasonal hibernation behavior",
+                  "es": "Comportamiento de hibernación estacional",
+                  "de": "Saisonales Winterschlafverhalten",
+                  "nl": "Seizoensgebonden winterslaap gedrag"
+        },
+        {
+                  "en": "Simple random gathering for feeding",
+                  "es": "Reunión aleatoria simple para alimentarse",
+                  "de": "Einfache zufällige Versammlung zur Nahrungsaufnahme",
+                  "nl": "Eenvoudige willekeurige verzameling voor voeding"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Mass pterosaur fossil sites suggest they formed colonies for nesting and may have had complex social behaviors including communication and cooperative care of young.",
-          es: "Los sitios de fósiles masivos de pterosaurios sugieren que formaban colonias para anidar y pueden haber tenido comportamientos sociales complejos incluyendo comunicación y cuidado cooperativo de crías.",
-          de: "Massen-Pterosaurier-Fossilstätten deuten darauf hin, dass sie Kolonien zur Brut bildeten und möglicherweise komplexe Sozialverhalten einschließlich Kommunikation und kooperativer Jungenpflege hatten.",
-          nl: "Massa pterosauriër fossiellocaties suggereren dat ze kolonies vormden voor nestbouw en mogelijk complexe sociale gedragingen hadden inclusief communicatie en coöperatieve verzorging van jongen."
+                  "en": "Mass pterosaur fossil sites suggest they formed colonies for nesting and may have had complex social behaviors including communication and cooperative care of young.",
+                  "es": "Los sitios de fósiles masivos de pterosaurios sugieren que formaban colonias para anidar y pueden haber tenido comportamientos sociales complejos incluyendo comunicación y cuidado cooperativo de crías.",
+                  "de": "Massen-Pterosaurier-Fossilstätten deuten darauf hin, dass sie Kolonien zur Brut bildeten und möglicherweise komplexe Sozialverhalten einschließlich Kommunikation und kooperativer Jungenpflege hatten.",
+                  "nl": "Massa pterosauriër fossiellocaties suggereren dat ze kolonies vormden voor nestbouw en mogelijk complexe sociale gedragingen hadden inclusief communicatie en coöperatieve verzorging van jongen."
         }
       },
       {
         question: {
-          en: "Which geochemical analysis has provided the most accurate estimates of ancient atmospheric conditions during pterosaur evolution?",
-          es: "¿Qué análisis geoquímico ha proporcionado las estimaciones más precisas de las condiciones atmosféricas antiguas durante la evolución de pterosaurios?",
-          de: "Welche geochemische Analyse hat die genauesten Schätzungen der antiken atmosphärischen Bedingungen während der Pterosaurier-Evolution geliefert?",
-          nl: "Welke geochemische analyse heeft de meest nauwkeurige schattingen geleverd van oude atmosferische omstandigheden tijdens pterosauriër evolutie?"
+                  "en": "Which geochemical analysis has provided the most accurate estimates of ancient atmospheric conditions during pterosaur evolution?",
+                  "es": "¿Qué análisis geoquímico ha proporcionado las estimaciones más precisas de las condiciones atmosféricas antiguas durante la evolución de pterosaurios?",
+                  "de": "Welche geochemische Analyse hat die genauesten Schätzungen der antiken atmosphärischen Bedingungen während der Pterosaurier-Evolution geliefert?",
+                  "nl": "Welke geochemische analyse heeft de meest nauwkeurige schattingen geleverd van oude atmosferische omstandigheden tijdens pterosauriër evolutie?"
         },
         options: [
-          { en: "Stomatal density analysis in contemporaneous plant fossils", es: "Análisis de densidad estomática en fósiles de plantas contemporáneas", de: "Stomata-Dichte-Analyse in zeitgenössischen Pflanzenfossilien", nl: "Huidmondjes dichtheidsanalyse in gelijktijdige plantenfossielen" },
-          { en: "Carbon isotope ratios in pterosaur bones", es: "Proporciones de isótopos de carbono en huesos de pterosaurios", de: "Kohlenstoff-Isotopenverhältnisse in Pterosaurier-Knochen", nl: "Koolstof isotoopverhoudingen in pterosauriër botten" },
-          { en: "Mineral composition of fossilization matrix", es: "Composición mineral de la matriz de fosilización", de: "Mineralzusammensetzung der Fossilisationsmatrix", nl: "Mineraalsamenstelling van fossilisatiematrix" },
-          { en: "Trace element analysis of coprolites", es: "Análisis de elementos traza de coprolitos", de: "Spurenelementanalyse von Koprolithen", nl: "Spoorelement analyse van coprolieten" }
+        {
+                  "en": "Trace element analysis of coprolites",
+                  "es": "Análisis de elementos traza de coprolitos",
+                  "de": "Spurenelementanalyse von Koprolithen",
+                  "nl": "Spoorelement analyse van coprolieten"
+        },
+        {
+                  "en": "Stomatal density analysis in contemporaneous plant fossils",
+                  "es": "Análisis de densidad estomática en fósiles de plantas contemporáneas",
+                  "de": "Stomata-Dichte-Analyse in zeitgenössischen Pflanzenfossilien",
+                  "nl": "Huidmondjes dichtheidsanalyse in gelijktijdige plantenfossielen"
+        },
+        {
+                  "en": "Carbon isotope ratios in pterosaur bones",
+                  "es": "Proporciones de isótopos de carbono en huesos de pterosaurios",
+                  "de": "Kohlenstoff-Isotopenverhältnisse in Pterosaurier-Knochen",
+                  "nl": "Koolstof isotoopverhoudingen in pterosauriër botten"
+        },
+        {
+                  "en": "Mineral composition of fossilization matrix",
+                  "es": "Composición mineral de la matriz de fosilización",
+                  "de": "Mineralzusammensetzung der Fossilisationsmatrix",
+                  "nl": "Mineraalsamenstelling van fossilisatiematrix"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Stomatal density in fossil plants correlates with atmospheric CO2 levels, providing accurate estimates of ancient atmospheric conditions that influenced pterosaur flight capabilities.",
-          es: "La densidad estomática en plantas fósiles se correlaciona con los niveles de CO2 atmosférico, proporcionando estimaciones precisas de condiciones atmosféricas antiguas que influyeron en las capacidades de vuelo de pterosaurios.",
-          de: "Die Stomata-Dichte in fossilen Pflanzen korreliert mit atmosphärischen CO2-Werten und liefert genaue Schätzungen antiker atmosphärischer Bedingungen, die die Flugfähigkeiten von Pterosauriern beeinflussten.",
-          nl: "Huidmondjes dichtheid in fossiele planten correleert met atmosferische CO2 niveaus, wat nauwkeurige schattingen biedt van oude atmosferische omstandigheden die pterosauriër vliegmogelijkheden beïnvloedden."
+                  "en": "Stomatal density in fossil plants correlates with atmospheric CO2 levels, providing accurate estimates of ancient atmospheric conditions that influenced pterosaur flight capabilities.",
+                  "es": "La densidad estomática en plantas fósiles se correlaciona con los niveles de CO2 atmosférico, proporcionando estimaciones precisas de condiciones atmosféricas antiguas que influyeron en las capacidades de vuelo de pterosaurios.",
+                  "de": "Die Stomata-Dichte in fossilen Pflanzen korreliert mit atmosphärischen CO2-Werten und liefert genaue Schätzungen antiker atmosphärischer Bedingungen, die die Flugfähigkeiten von Pterosauriern beeinflussten.",
+                  "nl": "Huidmondjes dichtheid in fossiele planten correleert met atmosferische CO2 niveaus, wat nauwkeurige schattingen biedt van oude atmosferische omstandigheden die pterosauriër vliegmogelijkheden beïnvloedden."
         }
       },
       {
         question: {
-          en: "What is the most significant finding regarding pterosaur neural complexity based on endocast studies?",
-          es: "¿Cuál es el hallazgo más significativo sobre la complejidad neural de pterosaurios basado en estudios de endocasts?",
-          de: "Was ist der bedeutendste Befund bezüglich der neuralen Komplexität von Pterosauriern basierend auf Endocast-Studien?",
-          nl: "Wat is de meest significante bevinding betreffende pterosauriër neurale complexiteit gebaseerd op endocast studies?"
+                  "en": "What is the most significant finding regarding pterosaur neural complexity based on endocast studies?",
+                  "es": "¿Cuál es el hallazgo más significativo sobre la complejidad neural de pterosaurios basado en estudios de endocasts?",
+                  "de": "Was ist der bedeutendste Befund bezüglich der neuralen Komplexität von Pterosauriern basierend auf Endocast-Studien?",
+                  "nl": "Wat is de meest significante bevinding betreffende pterosauriër neurale complexiteit gebaseerd op endocast studies?"
         },
         options: [
-          { en: "Enlarged cerebellum indicating sophisticated flight control and spatial processing", es: "Cerebelo agrandado indicando control de vuelo sofisticado y procesamiento espacial", de: "Vergrößertes Kleinhirn, das auf ausgeklügelte Flugkontrolle und räumliche Verarbeitung hinweist", nl: "Vergroot cerebellum dat duidt op geavanceerde vliegcontrole en ruimtelijke verwerking" },
-          { en: "Reduced brain size compared to modern birds", es: "Tamaño cerebral reducido comparado con aves modernas", de: "Reduzierte Gehirngröße im Vergleich zu modernen Vögeln", nl: "Verminderde hersengrootte vergeleken met moderne vogels" },
-          { en: "Absence of specialized sensory regions", es: "Ausencia de regiones sensoriales especializadas", de: "Fehlen spezialisierter sensorischer Regionen", nl: "Afwezigheid van gespecialiseerde sensorische regio's" },
-          { en: "Simple reptilian brain organization", es: "Organización cerebral reptiliana simple", de: "Einfache reptilische Gehirnorganisation", nl: "Eenvoudige reptilische hersenorganisatie" }
+        {
+                  "en": "Reduced brain size compared to modern birds",
+                  "es": "Tamaño cerebral reducido comparado con aves modernas",
+                  "de": "Reduzierte Gehirngröße im Vergleich zu modernen Vögeln",
+                  "nl": "Verminderde hersengrootte vergeleken met moderne vogels"
+        },
+        {
+                  "en": "Enlarged cerebellum indicating sophisticated flight control and spatial processing",
+                  "es": "Cerebelo agrandado indicando control de vuelo sofisticado y procesamiento espacial",
+                  "de": "Vergrößertes Kleinhirn, das auf ausgeklügelte Flugkontrolle und räumliche Verarbeitung hinweist",
+                  "nl": "Vergroot cerebellum dat duidt op geavanceerde vliegcontrole en ruimtelijke verwerking"
+        },
+        {
+                  "en": "Absence of specialized sensory regions",
+                  "es": "Ausencia de regiones sensoriales especializadas",
+                  "de": "Fehlen spezialisierter sensorischer Regionen",
+                  "nl": "Afwezigheid van gespecialiseerde sensorische regio's"
+        },
+        {
+                  "en": "Simple reptilian brain organization",
+                  "es": "Organización cerebral reptiliana simple",
+                  "de": "Einfache reptilische Gehirnorganisation",
+                  "nl": "Eenvoudige reptilische hersenorganisatie"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Pterosaur endocasts show highly developed cerebellums, particularly the floccular lobes, indicating sophisticated three-dimensional flight control similar to modern flying vertebrates.",
-          es: "Los endocasts de pterosaurios muestran cerebelos altamente desarrollados, particularmente los lóbulos floculares, indicando control de vuelo tridimensional sofisticado similar a vertebrados voladores modernos.",
-          de: "Pterosaurier-Endocasts zeigen hochentwickelte Kleinhirne, besonders die Flokkuluslappen, was auf ausgeklügelte dreidimensionale Flugkontrolle ähnlich modernen fliegenden Wirbeltieren hinweist.",
-          nl: "Pterosauriër endocasts tonen hoog ontwikkelde cerebellums, vooral de flocculaire lobben, wat duidt op geavanceerde driedimensionale vliegcontrole vergelijkbaar met moderne vliegende gewervelden."
+                  "en": "Pterosaur endocasts show highly developed cerebellums, particularly the floccular lobes, indicating sophisticated three-dimensional flight control similar to modern flying vertebrates.",
+                  "es": "Los endocasts de pterosaurios muestran cerebelos altamente desarrollados, particularmente los lóbulos floculares, indicando control de vuelo tridimensional sofisticado similar a vertebrados voladores modernos.",
+                  "de": "Pterosaurier-Endocasts zeigen hochentwickelte Kleinhirne, besonders die Flokkuluslappen, was auf ausgeklügelte dreidimensionale Flugkontrolle ähnlich modernen fliegenden Wirbeltieren hinweist.",
+                  "nl": "Pterosauriër endocasts tonen hoog ontwikkelde cerebellums, vooral de flocculaire lobben, wat duidt op geavanceerde driedimensionale vliegcontrole vergelijkbaar met moderne vliegende gewervelden."
         }
       },
       {
         question: {
-          en: "Which pterosaur demonstrates the most advanced bioelectric sensory capabilities for prey detection?",
-          es: "¿Qué pterosaurio demuestra las capacidades sensoriales bioeléctricas más avanzadas para detección de presas?",
-          de: "Welcher Pterosaurier zeigt die fortschrittlichsten bioelektrischen sensorischen Fähigkeiten zur Beuteentdeckung?",
-          nl: "Welke pterosauriër toont de meest geavanceerde bio-elektrische sensorische mogelijkheden voor prooi detectie?"
+                  "en": "Which pterosaur demonstrates the most advanced bioelectric sensory capabilities for prey detection?",
+                  "es": "¿Qué pterosaurio demuestra las capacidades sensoriales bioeléctricas más avanzadas para detección de presas?",
+                  "de": "Welcher Pterosaurier zeigt die fortschrittlichsten bioelektrischen sensorischen Fähigkeiten zur Beuteentdeckung?",
+                  "nl": "Welke pterosauriër toont de meest geavanceerde bio-elektrische sensorische mogelijkheden voor prooi detectie?"
         },
         options: [
-          { en: "Tapejara with specialized electroreceptive rostral organs", es: "Tapejara con órganos rostrales electrorreceptivos especializados", de: "Tapejara mit spezialisierten elektrorezeptiven rostralen Organen", nl: "Tapejara met gespecialiseerde elektroreceptieve rostrale organen" },
-          { en: "Basic vision-only hunting", es: "Caza solo con visión básica", de: "Nur grundlegende Sichtjagd", nl: "Alleen basis visuele jacht" },
-          { en: "Simple olfactory detection", es: "Detección olfativa simple", de: "Einfache olfaktorische Detektion", nl: "Eenvoudige reukdetectie" },
-          { en: "No specialized sensory adaptations", es: "Sin adaptaciones sensoriales especializadas", de: "Keine spezialisierten sensorischen Anpassungen", nl: "Geen gespecialiseerde sensorische aanpassingen" }
+        {
+                  "en": "No specialized sensory adaptations",
+                  "es": "Sin adaptaciones sensoriales especializadas",
+                  "de": "Keine spezialisierten sensorischen Anpassungen",
+                  "nl": "Geen gespecialiseerde sensorische aanpassingen"
+        },
+        {
+                  "en": "Basic vision-only hunting",
+                  "es": "Caza solo con visión básica",
+                  "de": "Nur grundlegende Sichtjagd",
+                  "nl": "Alleen basis visuele jacht"
+        },
+        {
+                  "en": "Simple olfactory detection",
+                  "es": "Detección olfativa simple",
+                  "de": "Einfache olfaktorische Detektion",
+                  "nl": "Eenvoudige reukdetectie"
+        },
+        {
+                  "en": "Tapejara with specialized electroreceptive rostral organs",
+                  "es": "Tapejara con órganos rostrales electrorreceptivos especializados",
+                  "de": "Tapejara mit spezialisierten elektrorezeptiven rostralen Organen",
+                  "nl": "Tapejara met gespecialiseerde elektroreceptieve rostrale organen"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Tapejara possessed specialized electroreceptive organs in its rostral region that could detect bioelectric fields generated by prey animals, providing a significant hunting advantage in murky or dark environments.",
-          es: "Tapejara poseía órganos electrorreceptivos especializados en su región rostral que podían detectar campos bioeléctricos generados por animales presa, proporcionando una ventaja significativa de caza en ambientes turbios u oscuros.",
-          de: "Tapejara besaß spezialisierte elektrorezeptive Organe in seiner rostralen Region, die bioelektrische Felder von Beutetieren erkennen konnten und einen erheblichen Jagdvorteil in trüben oder dunklen Umgebungen boten.",
-          nl: "Tapejara bezat gespecialiseerde elektroreceptieve organen in zijn rostrale regio die bio-elektrische velden gegenereerd door prooidieren konden detecteren, wat een significant jachtvoordeel bood in troebele of donkere omgevingen."
+                  "en": "Tapejara possessed specialized electroreceptive organs in its rostral region that could detect bioelectric fields generated by prey animals, providing a significant hunting advantage in murky or dark environments.",
+                  "es": "Tapejara poseía órganos electrorreceptivos especializados en su región rostral que podían detectar campos bioeléctricos generados por animales presa, proporcionando una ventaja significativa de caza en ambientes turbios u oscuros.",
+                  "de": "Tapejara besaß spezialisierte elektrorezeptive Organe in seiner rostralen Region, die bioelektrische Felder von Beutetieren erkennen konnten und einen erheblichen Jagdvorteil in trüben oder dunklen Umgebungen boten.",
+                  "nl": "Tapejara bezat gespecialiseerde elektroreceptieve organen in zijn rostrale regio die bio-elektrische velden gegenereerd door prooidieren konden detecteren, wat een significant jachtvoordeel bood in troebele of donkere omgevingen."
         }
       },
       {
         question: {
-          en: "What represents the most sophisticated pterosaur adaptation for extreme altitude survival above stratospheric levels?",
-          es: "¿Qué representa la adaptación de pterosaurio más sofisticada para supervivencia en altitudes extremas por encima de niveles estratosféricos?",
-          de: "Was stellt die ausgefeilteste Pterosaurier-Anpassung für das Überleben in extremen Höhen über stratosphärischen Ebenen dar?",
-          nl: "Wat vertegenwoordigt de meest geavanceerde pterosauriër aanpassing voor extreme hoogte overleving boven stratosferische niveaus?"
+                  "en": "What represents the most sophisticated pterosaur adaptation for extreme altitude survival above stratospheric levels?",
+                  "es": "¿Qué representa la adaptación de pterosaurio más sofisticada para supervivencia en altitudes extremas por encima de niveles estratosféricos?",
+                  "de": "Was stellt die ausgefeilteste Pterosaurier-Anpassung für das Überleben in extremen Höhen über stratosphärischen Ebenen dar?",
+                  "nl": "Wat vertegenwoordigt de meest geavanceerde pterosauriër aanpassing voor extreme hoogte overleving boven stratosferische niveaus?"
         },
         options: [
-          { en: "Specialized hemoglobin variants with enhanced oxygen affinity and pressure resistance", es: "Variantes especializadas de hemoglobina con afinidad de oxígeno mejorada y resistencia a presión", de: "Spezialisierte Hämoglobin-Varianten mit erhöhter Sauerstoffaffinität und Druckresistenz", nl: "Gespecialiseerde hemoglobine varianten met verhoogde zuurstofaffiniteit en drukweerstand" },
-          { en: "Simple increased red blood cell count", es: "Simple aumento del conteo de glóbulos rojos", de: "Einfache erhöhte Anzahl roter Blutkörperchen", nl: "Eenvoudige verhoogde rode bloedcel telling" },
-          { en: "Thicker flight membranes for insulation", es: "Membranas de vuelo más gruesas para aislamiento", de: "Dickere Flugmembranen zur Isolierung", nl: "Dikkere vliegmembranen voor isolatie" },
-          { en: "No high-altitude specializations", es: "Sin especializaciones de gran altitud", de: "Keine Höhenanpassungen", nl: "Geen hoge-hoogte specialisaties" }
+        {
+                  "en": "No high-altitude specializations",
+                  "es": "Sin especializaciones de gran altitud",
+                  "de": "Keine Höhenanpassungen",
+                  "nl": "Geen hoge-hoogte specialisaties"
+        },
+        {
+                  "en": "Specialized hemoglobin variants with enhanced oxygen affinity and pressure resistance",
+                  "es": "Variantes especializadas de hemoglobina con afinidad de oxígeno mejorada y resistencia a presión",
+                  "de": "Spezialisierte Hämoglobin-Varianten mit erhöhter Sauerstoffaffinität und Druckresistenz",
+                  "nl": "Gespecialiseerde hemoglobine varianten met verhoogde zuurstofaffiniteit en drukweerstand"
+        },
+        {
+                  "en": "Simple increased red blood cell count",
+                  "es": "Simple aumento del conteo de glóbulos rojos",
+                  "de": "Einfache erhöhte Anzahl roter Blutkörperchen",
+                  "nl": "Eenvoudige verhoogde rode bloedcel telling"
+        },
+        {
+                  "en": "Thicker flight membranes for insulation",
+                  "es": "Membranas de vuelo más gruesas para aislamiento",
+                  "de": "Dickere Flugmembranen zur Isolierung",
+                  "nl": "Dikkere vliegmembranen voor isolatie"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Advanced pterosaurs evolved specialized hemoglobin variants with dramatically enhanced oxygen affinity and pressure resistance, enabling sustained flight at altitudes where atmospheric pressure drops to less than 5% of sea level values.",
+                  "es": "Los pterosaurios avanzados evolucionaron variantes especializadas de hemoglobina con afinidad de oxígeno dramáticamente mejorada y resistencia a presión, permitiendo vuelo sostenido en altitudes donde la presión atmosférica cae a menos del 5% de valores a nivel del mar.",
+                  "de": "Fortgeschrittene Pterosaurier entwickelten spezialisierte Hämoglobin-Varianten mit dramatisch erhöhter Sauerstoffaffinität und Druckresistenz, die anhaltenden Flug in Höhen ermöglichten, wo der atmosphärische Druck auf weniger als 5% der Meereshöhen-Werte fällt.",
+                  "nl": "Geavanceerde pterosauriërs evolueerden gespecialiseerde hemoglobine varianten met dramatisch verhoogde zuurstofaffiniteit en drukweerstand, wat aanhoudende vlucht mogelijk maakte op hoogtes waar atmosferische druk daalt tot minder dan 5% van zeeniveau waarden."
+        }
+      },
+      {
+        question: {
+                  "en": "Were pterosaurs dinosaurs?",
+                  "es": "Were pterosaurs dinosaurs?",
+                  "de": "Were pterosaurs dinosaurs?",
+                  "nl": "Were pterosaurs dinosaurs?"
+        },
+        options: [
+        {
+                  "en": "No, they were flying reptiles",
+                  "es": "No, they were flying reptiles",
+                  "de": "No, they were flying reptiles",
+                  "nl": "No, they were flying reptiles"
+        },
+        {
+                  "en": "Yes, ancient birds",
+                  "es": "Yes, ancient birds",
+                  "de": "Yes, ancient birds",
+                  "nl": "Yes, ancient birds"
+        },
+        {
+                  "en": "No, they were birds",
+                  "es": "No, they were birds",
+                  "de": "No, they were birds",
+                  "nl": "No, they were birds"
+        },
+        {
+                  "en": "Yes, flying dinosaurs",
+                  "es": "Yes, flying dinosaurs",
+                  "de": "Yes, flying dinosaurs",
+                  "nl": "Yes, flying dinosaurs"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Advanced pterosaurs evolved specialized hemoglobin variants with dramatically enhanced oxygen affinity and pressure resistance, enabling sustained flight at altitudes where atmospheric pressure drops to less than 5% of sea level values.",
-          es: "Los pterosaurios avanzados evolucionaron variantes especializadas de hemoglobina con afinidad de oxígeno dramáticamente mejorada y resistencia a presión, permitiendo vuelo sostenido en altitudes donde la presión atmosférica cae a menos del 5% de valores a nivel del mar.",
-          de: "Fortgeschrittene Pterosaurier entwickelten spezialisierte Hämoglobin-Varianten mit dramatisch erhöhter Sauerstoffaffinität und Druckresistenz, die anhaltenden Flug in Höhen ermöglichten, wo der atmosphärische Druck auf weniger als 5% der Meereshöhen-Werte fällt.",
-          nl: "Geavanceerde pterosauriërs evolueerden gespecialiseerde hemoglobine varianten met dramatisch verhoogde zuurstofaffiniteit en drukweerstand, wat aanhoudende vlucht mogelijk maakte op hoogtes waar atmosferische druk daalt tot minder dan 5% van zeeniveau waarden."
-        }    },
-    {
-      question: {
-        en: "Were pterosaurs dinosaurs?",
-        es: "Were pterosaurs dinosaurs?",
-        de: "Were pterosaurs dinosaurs?",
-        nl: "Were pterosaurs dinosaurs?"
+                  "en": "Pterosaurs were flying reptiles closely related to but distinct from dinosaurs.",
+                  "es": "Pterosaurs were flying reptiles closely related to but distinct from dinosaurs.",
+                  "de": "Pterosaurs were flying reptiles closely related to but distinct from dinosaurs.",
+                  "nl": "Pterosaurs were flying reptiles closely related to but distinct from dinosaurs."
+        }
       },
-      options: [
-        { en: "No, they were flying reptiles", es: "No, they were flying reptiles", de: "No, they were flying reptiles", nl: "No, they were flying reptiles" },
-        { en: "Yes, flying dinosaurs", es: "Yes, flying dinosaurs", de: "Yes, flying dinosaurs", nl: "Yes, flying dinosaurs" },
-        { en: "Yes, ancient birds", es: "Yes, ancient birds", de: "Yes, ancient birds", nl: "Yes, ancient birds" },
-        { en: "No, they were birds", es: "No, they were birds", de: "No, they were birds", nl: "No, they were birds" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pterosaurs were flying reptiles closely related to but distinct from dinosaurs.",
-        es: "Pterosaurs were flying reptiles closely related to but distinct from dinosaurs.",
-        de: "Pterosaurs were flying reptiles closely related to but distinct from dinosaurs.",
-        nl: "Pterosaurs were flying reptiles closely related to but distinct from dinosaurs."
-      }
-    },
-    {
-      question: {
-        en: "What does pterosaur mean?",
-        es: "What does pterosaur mean?",
-        de: "What does pterosaur mean?",
-        nl: "What does pterosaur mean?"
+      {
+        question: {
+                  "en": "What does pterosaur mean?",
+                  "es": "What does pterosaur mean?",
+                  "de": "What does pterosaur mean?",
+                  "nl": "What does pterosaur mean?"
+        },
+        options: [
+        {
+                  "en": "Flying dinosaur",
+                  "es": "Flying dinosaur",
+                  "de": "Flying dinosaur",
+                  "nl": "Flying dinosaur"
+        },
+        {
+                  "en": "Sky reptile",
+                  "es": "Sky reptile",
+                  "de": "Sky reptile",
+                  "nl": "Sky reptile"
+        },
+        {
+                  "en": "Winged lizard",
+                  "es": "Winged lizard",
+                  "de": "Winged lizard",
+                  "nl": "Winged lizard"
+        },
+        {
+                  "en": "Ancient bird",
+                  "es": "Ancient bird",
+                  "de": "Ancient bird",
+                  "nl": "Ancient bird"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Pterosaur comes from Greek meaning 'winged lizard' or 'winged reptile'.",
+                  "es": "Pterosaur comes from Greek meaning 'winged lizard' or 'winged reptile'.",
+                  "de": "Pterosaur comes from Greek meaning 'winged lizard' or 'winged reptile'.",
+                  "nl": "Pterosaur comes from Greek meaning 'winged lizard' or 'winged reptile'."
+        }
       },
-      options: [
-        { en: "Winged lizard", es: "Winged lizard", de: "Winged lizard", nl: "Winged lizard" },
-        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" },
-        { en: "Ancient bird", es: "Ancient bird", de: "Ancient bird", nl: "Ancient bird" },
-        { en: "Sky reptile", es: "Sky reptile", de: "Sky reptile", nl: "Sky reptile" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pterosaur comes from Greek meaning 'winged lizard' or 'winged reptile'.",
-        es: "Pterosaur comes from Greek meaning 'winged lizard' or 'winged reptile'.",
-        de: "Pterosaur comes from Greek meaning 'winged lizard' or 'winged reptile'.",
-        nl: "Pterosaur comes from Greek meaning 'winged lizard' or 'winged reptile'."
-      }
-    },
-    {
-      question: {
-        en: "How did pterosaurs fly?",
-        es: "How did pterosaurs fly?",
-        de: "How did pterosaurs fly?",
-        nl: "How did pterosaurs fly?"
+      {
+        question: {
+                  "en": "How did pterosaurs fly?",
+                  "es": "How did pterosaurs fly?",
+                  "de": "How did pterosaurs fly?",
+                  "nl": "How did pterosaurs fly?"
+        },
+        options: [
+        {
+                  "en": "Gliding only",
+                  "es": "Gliding only",
+                  "de": "Gliding only",
+                  "nl": "Gliding only"
+        },
+        {
+                  "en": "Wing membrane stretched from elongated finger",
+                  "es": "Wing membrane stretched from elongated finger",
+                  "de": "Wing membrane stretched from elongated finger",
+                  "nl": "Wing membrane stretched from elongated finger"
+        },
+        {
+                  "en": "Feathered wings like birds",
+                  "es": "Feathered wings like birds",
+                  "de": "Feathered wings like birds",
+                  "nl": "Feathered wings like birds"
+        },
+        {
+                  "en": "Flapping arms",
+                  "es": "Flapping arms",
+                  "de": "Flapping arms",
+                  "nl": "Flapping arms"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Pterosaurs had wings formed by a membrane of skin stretched from a hugely elongated fourth finger to their body.",
+                  "es": "Pterosaurs had wings formed by a membrane of skin stretched from a hugely elongated fourth finger to their body.",
+                  "de": "Pterosaurs had wings formed by a membrane of skin stretched from a hugely elongated fourth finger to their body.",
+                  "nl": "Pterosaurs had wings formed by a membrane of skin stretched from a hugely elongated fourth finger to their body."
+        }
       },
-      options: [
-        { en: "Wing membrane stretched from elongated finger", es: "Wing membrane stretched from elongated finger", de: "Wing membrane stretched from elongated finger", nl: "Wing membrane stretched from elongated finger" },
-        { en: "Feathered wings like birds", es: "Feathered wings like birds", de: "Feathered wings like birds", nl: "Feathered wings like birds" },
-        { en: "Flapping arms", es: "Flapping arms", de: "Flapping arms", nl: "Flapping arms" },
-        { en: "Gliding only", es: "Gliding only", de: "Gliding only", nl: "Gliding only" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pterosaurs had wings formed by a membrane of skin stretched from a hugely elongated fourth finger to their body.",
-        es: "Pterosaurs had wings formed by a membrane of skin stretched from a hugely elongated fourth finger to their body.",
-        de: "Pterosaurs had wings formed by a membrane of skin stretched from a hugely elongated fourth finger to their body.",
-        nl: "Pterosaurs had wings formed by a membrane of skin stretched from a hugely elongated fourth finger to their body."
-      }
-    },
-    {
-      question: {
-        en: "What is the largest pterosaur?",
-        es: "What is the largest pterosaur?",
-        de: "What is the largest pterosaur?",
-        nl: "What is the largest pterosaur?"
+      {
+        question: {
+                  "en": "What is the largest pterosaur?",
+                  "es": "What is the largest pterosaur?",
+                  "de": "What is the largest pterosaur?",
+                  "nl": "What is the largest pterosaur?"
+        },
+        options: [
+        {
+                  "en": "Pteranodon",
+                  "es": "Pteranodon",
+                  "de": "Pteranodon",
+                  "nl": "Pteranodon"
+        },
+        {
+                  "en": "Pterodactylus",
+                  "es": "Pterodactylus",
+                  "de": "Pterodactylus",
+                  "nl": "Pterodactylus"
+        },
+        {
+                  "en": "Quetzalcoatlus",
+                  "es": "Quetzalcoatlus",
+                  "de": "Quetzalcoatlus",
+                  "nl": "Quetzalcoatlus"
+        },
+        {
+                  "en": "Rhamphorhynchus",
+                  "es": "Rhamphorhynchus",
+                  "de": "Rhamphorhynchus",
+                  "nl": "Rhamphorhynchus"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Quetzalcoatlus was the largest known pterosaur with a wingspan up to 33-36 feet.",
+                  "es": "Quetzalcoatlus was the largest known pterosaur with a wingspan up to 33-36 feet.",
+                  "de": "Quetzalcoatlus was the largest known pterosaur with a wingspan up to 33-36 feet.",
+                  "nl": "Quetzalcoatlus was the largest known pterosaur with a wingspan up to 33-36 feet."
+        }
       },
-      options: [
-        { en: "Quetzalcoatlus", es: "Quetzalcoatlus", de: "Quetzalcoatlus", nl: "Quetzalcoatlus" },
-        { en: "Pteranodon", es: "Pteranodon", de: "Pteranodon", nl: "Pteranodon" },
-        { en: "Pterodactylus", es: "Pterodactylus", de: "Pterodactylus", nl: "Pterodactylus" },
-        { en: "Rhamphorhynchus", es: "Rhamphorhynchus", de: "Rhamphorhynchus", nl: "Rhamphorhynchus" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Quetzalcoatlus was the largest known pterosaur with a wingspan up to 33-36 feet.",
-        es: "Quetzalcoatlus was the largest known pterosaur with a wingspan up to 33-36 feet.",
-        de: "Quetzalcoatlus was the largest known pterosaur with a wingspan up to 33-36 feet.",
-        nl: "Quetzalcoatlus was the largest known pterosaur with a wingspan up to 33-36 feet."
-      }
-    },
-    {
-      question: {
-        en: "What is Pteranodon?",
-        es: "What is Pteranodon?",
-        de: "What is Pteranodon?",
-        nl: "What is Pteranodon?"
+      {
+        question: {
+                  "en": "What is Pteranodon?",
+                  "es": "What is Pteranodon?",
+                  "de": "What is Pteranodon?",
+                  "nl": "What is Pteranodon?"
+        },
+        options: [
+        {
+                  "en": "Large Cretaceous pterosaur with head crest",
+                  "es": "Large Cretaceous pterosaur with head crest",
+                  "de": "Large Cretaceous pterosaur with head crest",
+                  "nl": "Large Cretaceous pterosaur with head crest"
+        },
+        {
+                  "en": "Early pterosaur",
+                  "es": "Early pterosaur",
+                  "de": "Early pterosaur",
+                  "nl": "Early pterosaur"
+        },
+        {
+                  "en": "Feathered pterosaur",
+                  "es": "Feathered pterosaur",
+                  "de": "Feathered pterosaur",
+                  "nl": "Feathered pterosaur"
+        },
+        {
+                  "en": "Small pterosaur",
+                  "es": "Small pterosaur",
+                  "de": "Small pterosaur",
+                  "nl": "Small pterosaur"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Pteranodon was a large Late Cretaceous pterosaur with a distinctive backward-pointing head crest.",
+                  "es": "Pteranodon was a large Late Cretaceous pterosaur with a distinctive backward-pointing head crest.",
+                  "de": "Pteranodon was a large Late Cretaceous pterosaur with a distinctive backward-pointing head crest.",
+                  "nl": "Pteranodon was a large Late Cretaceous pterosaur with a distinctive backward-pointing head crest."
+        }
       },
-      options: [
-        { en: "Large Cretaceous pterosaur with head crest", es: "Large Cretaceous pterosaur with head crest", de: "Large Cretaceous pterosaur with head crest", nl: "Large Cretaceous pterosaur with head crest" },
-        { en: "Small pterosaur", es: "Small pterosaur", de: "Small pterosaur", nl: "Small pterosaur" },
-        { en: "Early pterosaur", es: "Early pterosaur", de: "Early pterosaur", nl: "Early pterosaur" },
-        { en: "Feathered pterosaur", es: "Feathered pterosaur", de: "Feathered pterosaur", nl: "Feathered pterosaur" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pteranodon was a large Late Cretaceous pterosaur with a distinctive backward-pointing head crest.",
-        es: "Pteranodon was a large Late Cretaceous pterosaur with a distinctive backward-pointing head crest.",
-        de: "Pteranodon was a large Late Cretaceous pterosaur with a distinctive backward-pointing head crest.",
-        nl: "Pteranodon was a large Late Cretaceous pterosaur with a distinctive backward-pointing head crest."
-      }
-    },
-    {
-      question: {
-        en: "Did pterosaurs have feathers?",
-        es: "Did pterosaurs have feathers?",
-        de: "Did pterosaurs have feathers?",
-        nl: "Did pterosaurs have feathers?"
+      {
+        question: {
+                  "en": "Did pterosaurs have feathers?",
+                  "es": "Did pterosaurs have feathers?",
+                  "de": "Did pterosaurs have feathers?",
+                  "nl": "Did pterosaurs have feathers?"
+        },
+        options: [
+        {
+                  "en": "No covering at all",
+                  "es": "No covering at all",
+                  "de": "No covering at all",
+                  "nl": "No covering at all"
+        },
+        {
+                  "en": "No, they had hair-like fibers called pycnofibers",
+                  "es": "No, they had hair-like fibers called pycnofibers",
+                  "de": "No, they had hair-like fibers called pycnofibers",
+                  "nl": "No, they had hair-like fibers called pycnofibers"
+        },
+        {
+                  "en": "Scales only",
+                  "es": "Scales only",
+                  "de": "Scales only",
+                  "nl": "Scales only"
+        },
+        {
+                  "en": "Yes, like birds",
+                  "es": "Yes, like birds",
+                  "de": "Yes, like birds",
+                  "nl": "Yes, like birds"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Pterosaurs had hair-like structures called pycnofibers covering their bodies, not true feathers.",
+                  "es": "Pterosaurs had hair-like structures called pycnofibers covering their bodies, not true feathers.",
+                  "de": "Pterosaurs had hair-like structures called pycnofibers covering their bodies, not true feathers.",
+                  "nl": "Pterosaurs had hair-like structures called pycnofibers covering their bodies, not true feathers."
+        }
       },
-      options: [
-        { en: "No, they had hair-like fibers called pycnofibers", es: "No, they had hair-like fibers called pycnofibers", de: "No, they had hair-like fibers called pycnofibers", nl: "No, they had hair-like fibers called pycnofibers" },
-        { en: "Yes, like birds", es: "Yes, like birds", de: "Yes, like birds", nl: "Yes, like birds" },
-        { en: "No covering at all", es: "No covering at all", de: "No covering at all", nl: "No covering at all" },
-        { en: "Scales only", es: "Scales only", de: "Scales only", nl: "Scales only" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pterosaurs had hair-like structures called pycnofibers covering their bodies, not true feathers.",
-        es: "Pterosaurs had hair-like structures called pycnofibers covering their bodies, not true feathers.",
-        de: "Pterosaurs had hair-like structures called pycnofibers covering their bodies, not true feathers.",
-        nl: "Pterosaurs had hair-like structures called pycnofibers covering their bodies, not true feathers."
-      }
-    },
-    {
-      question: {
-        en: "What did most pterosaurs eat?",
-        es: "What did most pterosaurs eat?",
-        de: "What did most pterosaurs eat?",
-        nl: "What did most pterosaurs eat?"
+      {
+        question: {
+                  "en": "What did most pterosaurs eat?",
+                  "es": "What did most pterosaurs eat?",
+                  "de": "What did most pterosaurs eat?",
+                  "nl": "What did most pterosaurs eat?"
+        },
+        options: [
+        {
+                  "en": "Large dinosaurs",
+                  "es": "Large dinosaurs",
+                  "de": "Large dinosaurs",
+                  "nl": "Large dinosaurs"
+        },
+        {
+                  "en": "Insects only",
+                  "es": "Insects only",
+                  "de": "Insects only",
+                  "nl": "Insects only"
+        },
+        {
+                  "en": "Plants",
+                  "es": "Plants",
+                  "de": "Plants",
+                  "nl": "Plants"
+        },
+        {
+                  "en": "Fish",
+                  "es": "Fish",
+                  "de": "Fish",
+                  "nl": "Fish"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Most pterosaurs were piscivores (fish-eaters), catching fish from oceans and lakes.",
+                  "es": "Most pterosaurs were piscivores (fish-eaters), catching fish from oceans and lakes.",
+                  "de": "Most pterosaurs were piscivores (fish-eaters), catching fish from oceans and lakes.",
+                  "nl": "Most pterosaurs were piscivores (fish-eaters), catching fish from oceans and lakes."
+        }
       },
-      options: [
-        { en: "Fish", es: "Fish", de: "Fish", nl: "Fish" },
-        { en: "Plants", es: "Plants", de: "Plants", nl: "Plants" },
-        { en: "Large dinosaurs", es: "Large dinosaurs", de: "Large dinosaurs", nl: "Large dinosaurs" },
-        { en: "Insects only", es: "Insects only", de: "Insects only", nl: "Insects only" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Most pterosaurs were piscivores (fish-eaters), catching fish from oceans and lakes.",
-        es: "Most pterosaurs were piscivores (fish-eaters), catching fish from oceans and lakes.",
-        de: "Most pterosaurs were piscivores (fish-eaters), catching fish from oceans and lakes.",
-        nl: "Most pterosaurs were piscivores (fish-eaters), catching fish from oceans and lakes."
-      }
-    },
-    {
-      question: {
-        en: "What is Pterodactylus?",
-        es: "What is Pterodactylus?",
-        de: "What is Pterodactylus?",
-        nl: "What is Pterodactylus?"
+      {
+        question: {
+                  "en": "What is Pterodactylus?",
+                  "es": "What is Pterodactylus?",
+                  "de": "What is Pterodactylus?",
+                  "nl": "What is Pterodactylus?"
+        },
+        options: [
+        {
+                  "en": "Flying dinosaur",
+                  "es": "Flying dinosaur",
+                  "de": "Flying dinosaur",
+                  "nl": "Flying dinosaur"
+        },
+        {
+                  "en": "Cretaceous pterosaur",
+                  "es": "Cretaceous pterosaur",
+                  "de": "Cretaceous pterosaur",
+                  "nl": "Cretaceous pterosaur"
+        },
+        {
+                  "en": "Largest pterosaur",
+                  "es": "Largest pterosaur",
+                  "de": "Largest pterosaur",
+                  "nl": "Largest pterosaur"
+        },
+        {
+                  "en": "Small Jurassic pterosaur",
+                  "es": "Small Jurassic pterosaur",
+                  "de": "Small Jurassic pterosaur",
+                  "nl": "Small Jurassic pterosaur"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Pterodactylus was a relatively small pterosaur from the Late Jurassic, with a wingspan around 3.5 feet.",
+                  "es": "Pterodactylus was a relatively small pterosaur from the Late Jurassic, with a wingspan around 3.5 feet.",
+                  "de": "Pterodactylus was a relatively small pterosaur from the Late Jurassic, with a wingspan around 3.5 feet.",
+                  "nl": "Pterodactylus was a relatively small pterosaur from the Late Jurassic, with a wingspan around 3.5 feet."
+        }
       },
-      options: [
-        { en: "Small Jurassic pterosaur", es: "Small Jurassic pterosaur", de: "Small Jurassic pterosaur", nl: "Small Jurassic pterosaur" },
-        { en: "Largest pterosaur", es: "Largest pterosaur", de: "Largest pterosaur", nl: "Largest pterosaur" },
-        { en: "Cretaceous pterosaur", es: "Cretaceous pterosaur", de: "Cretaceous pterosaur", nl: "Cretaceous pterosaur" },
-        { en: "Flying dinosaur", es: "Flying dinosaur", de: "Flying dinosaur", nl: "Flying dinosaur" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pterodactylus was a relatively small pterosaur from the Late Jurassic, with a wingspan around 3.5 feet.",
-        es: "Pterodactylus was a relatively small pterosaur from the Late Jurassic, with a wingspan around 3.5 feet.",
-        de: "Pterodactylus was a relatively small pterosaur from the Late Jurassic, with a wingspan around 3.5 feet.",
-        nl: "Pterodactylus was a relatively small pterosaur from the Late Jurassic, with a wingspan around 3.5 feet."
-      }
-    },
-    {
-      question: {
-        en: "When did pterosaurs first appear?",
-        es: "When did pterosaurs first appear?",
-        de: "When did pterosaurs first appear?",
-        nl: "When did pterosaurs first appear?"
+      {
+        question: {
+                  "en": "When did pterosaurs first appear?",
+                  "es": "When did pterosaurs first appear?",
+                  "de": "When did pterosaurs first appear?",
+                  "nl": "When did pterosaurs first appear?"
+        },
+        options: [
+        {
+                  "en": "Jurassic Period",
+                  "es": "Jurassic Period",
+                  "de": "Jurassic Period",
+                  "nl": "Jurassic Period"
+        },
+        {
+                  "en": "Cretaceous Period",
+                  "es": "Cretaceous Period",
+                  "de": "Cretaceous Period",
+                  "nl": "Cretaceous Period"
+        },
+        {
+                  "en": "Permian Period",
+                  "es": "Permian Period",
+                  "de": "Permian Period",
+                  "nl": "Permian Period"
+        },
+        {
+                  "en": "Late Triassic Period",
+                  "es": "Late Triassic Period",
+                  "de": "Late Triassic Period",
+                  "nl": "Late Triassic Period"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Pterosaurs first appeared in the Late Triassic Period, about 228 million years ago.",
+                  "es": "Pterosaurs first appeared in the Late Triassic Period, about 228 million years ago.",
+                  "de": "Pterosaurs first appeared in the Late Triassic Period, about 228 million years ago.",
+                  "nl": "Pterosaurs first appeared in the Late Triassic Period, about 228 million years ago."
+        }
       },
-      options: [
-        { en: "Late Triassic Period", es: "Late Triassic Period", de: "Late Triassic Period", nl: "Late Triassic Period" },
-        { en: "Jurassic Period", es: "Jurassic Period", de: "Jurassic Period", nl: "Jurassic Period" },
-        { en: "Cretaceous Period", es: "Cretaceous Period", de: "Cretaceous Period", nl: "Cretaceous Period" },
-        { en: "Permian Period", es: "Permian Period", de: "Permian Period", nl: "Permian Period" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pterosaurs first appeared in the Late Triassic Period, about 228 million years ago.",
-        es: "Pterosaurs first appeared in the Late Triassic Period, about 228 million years ago.",
-        de: "Pterosaurs first appeared in the Late Triassic Period, about 228 million years ago.",
-        nl: "Pterosaurs first appeared in the Late Triassic Period, about 228 million years ago."
-      }
-    },
-    {
-      question: {
-        en: "How did pterosaurs walk on land?",
-        es: "How did pterosaurs walk on land?",
-        de: "How did pterosaurs walk on land?",
-        nl: "How did pterosaurs walk on land?"
+      {
+        question: {
+                  "en": "How did pterosaurs walk on land?",
+                  "es": "How did pterosaurs walk on land?",
+                  "de": "How did pterosaurs walk on land?",
+                  "nl": "How did pterosaurs walk on land?"
+        },
+        options: [
+        {
+                  "en": "Hopping only",
+                  "es": "Hopping only",
+                  "de": "Hopping only",
+                  "nl": "Hopping only"
+        },
+        {
+                  "en": "Bipedally like birds",
+                  "es": "Bipedally like birds",
+                  "de": "Bipedally like birds",
+                  "nl": "Bipedally like birds"
+        },
+        {
+                  "en": "They couldn't walk",
+                  "es": "They couldn't walk",
+                  "de": "They couldn't walk",
+                  "nl": "They couldn't walk"
+        },
+        {
+                  "en": "Quadrupedally, using wings as front limbs",
+                  "es": "Quadrupedally, using wings as front limbs",
+                  "de": "Quadrupedally, using wings as front limbs",
+                  "nl": "Quadrupedally, using wings as front limbs"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Pterosaurs walked on all fours, using their folded wings as front limbs.",
+                  "es": "Pterosaurs walked on all fours, using their folded wings as front limbs.",
+                  "de": "Pterosaurs walked on all fours, using their folded wings as front limbs.",
+                  "nl": "Pterosaurs walked on all fours, using their folded wings as front limbs."
+        }
       },
-      options: [
-        { en: "Quadrupedally, using wings as front limbs", es: "Quadrupedally, using wings as front limbs", de: "Quadrupedally, using wings as front limbs", nl: "Quadrupedally, using wings as front limbs" },
-        { en: "Bipedally like birds", es: "Bipedally like birds", de: "Bipedally like birds", nl: "Bipedally like birds" },
-        { en: "They couldn't walk", es: "They couldn't walk", de: "They couldn't walk", nl: "They couldn't walk" },
-        { en: "Hopping only", es: "Hopping only", de: "Hopping only", nl: "Hopping only" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pterosaurs walked on all fours, using their folded wings as front limbs.",
-        es: "Pterosaurs walked on all fours, using their folded wings as front limbs.",
-        de: "Pterosaurs walked on all fours, using their folded wings as front limbs.",
-        nl: "Pterosaurs walked on all fours, using their folded wings as front limbs."
-      }
-    },
-    {
-      question: {
-        en: "What is the smallest pterosaur?",
-        es: "What is the smallest pterosaur?",
-        de: "What is the smallest pterosaur?",
-        nl: "What is the smallest pterosaur?"
+      {
+        question: {
+                  "en": "What is the smallest pterosaur?",
+                  "es": "What is the smallest pterosaur?",
+                  "de": "What is the smallest pterosaur?",
+                  "nl": "What is the smallest pterosaur?"
+        },
+        options: [
+        {
+                  "en": "Quetzalcoatlus",
+                  "es": "Quetzalcoatlus",
+                  "de": "Quetzalcoatlus",
+                  "nl": "Quetzalcoatlus"
+        },
+        {
+                  "en": "Pterodactylus",
+                  "es": "Pterodactylus",
+                  "de": "Pterodactylus",
+                  "nl": "Pterodactylus"
+        },
+        {
+                  "en": "Nemicolopterus or Anurognathus",
+                  "es": "Nemicolopterus or Anurognathus",
+                  "de": "Nemicolopterus or Anurognathus",
+                  "nl": "Nemicolopterus or Anurognathus"
+        },
+        {
+                  "en": "Pteranodon",
+                  "es": "Pteranodon",
+                  "de": "Pteranodon",
+                  "nl": "Pteranodon"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "The smallest pterosaurs like Nemicolopterus had wingspans of only about 10 inches.",
+                  "es": "The smallest pterosaurs like Nemicolopterus had wingspans of only about 10 inches.",
+                  "de": "The smallest pterosaurs like Nemicolopterus had wingspans of only about 10 inches.",
+                  "nl": "The smallest pterosaurs like Nemicolopterus had wingspans of only about 10 inches."
+        }
       },
-      options: [
-        { en: "Nemicolopterus or Anurognathus", es: "Nemicolopterus or Anurognathus", de: "Nemicolopterus or Anurognathus", nl: "Nemicolopterus or Anurognathus" },
-        { en: "Pteranodon", es: "Pteranodon", de: "Pteranodon", nl: "Pteranodon" },
-        { en: "Quetzalcoatlus", es: "Quetzalcoatlus", de: "Quetzalcoatlus", nl: "Quetzalcoatlus" },
-        { en: "Pterodactylus", es: "Pterodactylus", de: "Pterodactylus", nl: "Pterodactylus" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The smallest pterosaurs like Nemicolopterus had wingspans of only about 10 inches.",
-        es: "The smallest pterosaurs like Nemicolopterus had wingspans of only about 10 inches.",
-        de: "The smallest pterosaurs like Nemicolopterus had wingspans of only about 10 inches.",
-        nl: "The smallest pterosaurs like Nemicolopterus had wingspans of only about 10 inches."
-      }
-    },
-    {
-      question: {
-        en: "What is Rhamphorhynchus?",
-        es: "What is Rhamphorhynchus?",
-        de: "What is Rhamphorhynchus?",
-        nl: "What is Rhamphorhynchus?"
+      {
+        question: {
+                  "en": "What is Rhamphorhynchus?",
+                  "es": "What is Rhamphorhynchus?",
+                  "de": "What is Rhamphorhynchus?",
+                  "nl": "What is Rhamphorhynchus?"
+        },
+        options: [
+        {
+                  "en": "Largest pterosaur",
+                  "es": "Largest pterosaur",
+                  "de": "Largest pterosaur",
+                  "nl": "Largest pterosaur"
+        },
+        {
+                  "en": "Cretaceous pterosaur",
+                  "es": "Cretaceous pterosaur",
+                  "de": "Cretaceous pterosaur",
+                  "nl": "Cretaceous pterosaur"
+        },
+        {
+                  "en": "Long-tailed Jurassic pterosaur",
+                  "es": "Long-tailed Jurassic pterosaur",
+                  "de": "Long-tailed Jurassic pterosaur",
+                  "nl": "Long-tailed Jurassic pterosaur"
+        },
+        {
+                  "en": "Short-tailed pterosaur",
+                  "es": "Short-tailed pterosaur",
+                  "de": "Short-tailed pterosaur",
+                  "nl": "Short-tailed pterosaur"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Rhamphorhynchus was a long-tailed pterosaur from the Late Jurassic with a distinctive diamond-shaped tail vane.",
+                  "es": "Rhamphorhynchus was a long-tailed pterosaur from the Late Jurassic with a distinctive diamond-shaped tail vane.",
+                  "de": "Rhamphorhynchus was a long-tailed pterosaur from the Late Jurassic with a distinctive diamond-shaped tail vane.",
+                  "nl": "Rhamphorhynchus was a long-tailed pterosaur from the Late Jurassic with a distinctive diamond-shaped tail vane."
+        }
       },
-      options: [
-        { en: "Long-tailed Jurassic pterosaur", es: "Long-tailed Jurassic pterosaur", de: "Long-tailed Jurassic pterosaur", nl: "Long-tailed Jurassic pterosaur" },
-        { en: "Short-tailed pterosaur", es: "Short-tailed pterosaur", de: "Short-tailed pterosaur", nl: "Short-tailed pterosaur" },
-        { en: "Cretaceous pterosaur", es: "Cretaceous pterosaur", de: "Cretaceous pterosaur", nl: "Cretaceous pterosaur" },
-        { en: "Largest pterosaur", es: "Largest pterosaur", de: "Largest pterosaur", nl: "Largest pterosaur" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Rhamphorhynchus was a long-tailed pterosaur from the Late Jurassic with a distinctive diamond-shaped tail vane.",
-        es: "Rhamphorhynchus was a long-tailed pterosaur from the Late Jurassic with a distinctive diamond-shaped tail vane.",
-        de: "Rhamphorhynchus was a long-tailed pterosaur from the Late Jurassic with a distinctive diamond-shaped tail vane.",
-        nl: "Rhamphorhynchus was a long-tailed pterosaur from the Late Jurassic with a distinctive diamond-shaped tail vane."
-      }
-    },
-    {
-      question: {
-        en: "How are pterosaurs classified?",
-        es: "How are pterosaurs classified?",
-        de: "How are pterosaurs classified?",
-        nl: "How are pterosaurs classified?"
+      {
+        question: {
+                  "en": "How are pterosaurs classified?",
+                  "es": "How are pterosaurs classified?",
+                  "de": "How are pterosaurs classified?",
+                  "nl": "How are pterosaurs classified?"
+        },
+        options: [
+        {
+                  "en": "By diet only",
+                  "es": "By diet only",
+                  "de": "By diet only",
+                  "nl": "By diet only"
+        },
+        {
+                  "en": "By location only",
+                  "es": "By location only",
+                  "de": "By location only",
+                  "nl": "By location only"
+        },
+        {
+                  "en": "Into long-tailed and short-tailed groups",
+                  "es": "Into long-tailed and short-tailed groups",
+                  "de": "Into long-tailed and short-tailed groups",
+                  "nl": "Into long-tailed and short-tailed groups"
+        },
+        {
+                  "en": "By size only",
+                  "es": "By size only",
+                  "de": "By size only",
+                  "nl": "By size only"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Pterosaurs are broadly classified into long-tailed (rhamphorhynchoids) and short-tailed (pterodactyloids) groups.",
+                  "es": "Pterosaurs are broadly classified into long-tailed (rhamphorhynchoids) and short-tailed (pterodactyloids) groups.",
+                  "de": "Pterosaurs are broadly classified into long-tailed (rhamphorhynchoids) and short-tailed (pterodactyloids) groups.",
+                  "nl": "Pterosaurs are broadly classified into long-tailed (rhamphorhynchoids) and short-tailed (pterodactyloids) groups."
+        }
       },
-      options: [
-        { en: "Into long-tailed and short-tailed groups", es: "Into long-tailed and short-tailed groups", de: "Into long-tailed and short-tailed groups", nl: "Into long-tailed and short-tailed groups" },
-        { en: "By size only", es: "By size only", de: "By size only", nl: "By size only" },
-        { en: "By diet only", es: "By diet only", de: "By diet only", nl: "By diet only" },
-        { en: "By location only", es: "By location only", de: "By location only", nl: "By location only" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pterosaurs are broadly classified into long-tailed (rhamphorhynchoids) and short-tailed (pterodactyloids) groups.",
-        es: "Pterosaurs are broadly classified into long-tailed (rhamphorhynchoids) and short-tailed (pterodactyloids) groups.",
-        de: "Pterosaurs are broadly classified into long-tailed (rhamphorhynchoids) and short-tailed (pterodactyloids) groups.",
-        nl: "Pterosaurs are broadly classified into long-tailed (rhamphorhynchoids) and short-tailed (pterodactyloids) groups."
-      }
-    },
-    {
-      question: {
-        en: "What was the purpose of pterosaur crests?",
-        es: "What was the purpose of pterosaur crests?",
-        de: "What was the purpose of pterosaur crests?",
-        nl: "What was the purpose of pterosaur crests?"
+      {
+        question: {
+                  "en": "What was the purpose of pterosaur crests?",
+                  "es": "What was the purpose of pterosaur crests?",
+                  "de": "What was the purpose of pterosaur crests?",
+                  "nl": "What was the purpose of pterosaur crests?"
+        },
+        options: [
+        {
+                  "en": "Hearing",
+                  "es": "Hearing",
+                  "de": "Hearing",
+                  "nl": "Hearing"
+        },
+        {
+                  "en": "Display, species recognition, or aerodynamics",
+                  "es": "Display, species recognition, or aerodynamics",
+                  "de": "Display, species recognition, or aerodynamics",
+                  "nl": "Display, species recognition, or aerodynamics"
+        },
+        {
+                  "en": "Storing food",
+                  "es": "Storing food",
+                  "de": "Storing food",
+                  "nl": "Storing food"
+        },
+        {
+                  "en": "Weapons",
+                  "es": "Weapons",
+                  "de": "Weapons",
+                  "nl": "Weapons"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Crests likely served for visual display, species recognition, or possibly aerodynamic functions.",
+                  "es": "Crests likely served for visual display, species recognition, or possibly aerodynamic functions.",
+                  "de": "Crests likely served for visual display, species recognition, or possibly aerodynamic functions.",
+                  "nl": "Crests likely served for visual display, species recognition, or possibly aerodynamic functions."
+        }
       },
-      options: [
-        { en: "Display, species recognition, or aerodynamics", es: "Display, species recognition, or aerodynamics", de: "Display, species recognition, or aerodynamics", nl: "Display, species recognition, or aerodynamics" },
-        { en: "Weapons", es: "Weapons", de: "Weapons", nl: "Weapons" },
-        { en: "Storing food", es: "Storing food", de: "Storing food", nl: "Storing food" },
-        { en: "Hearing", es: "Hearing", de: "Hearing", nl: "Hearing" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Crests likely served for visual display, species recognition, or possibly aerodynamic functions.",
-        es: "Crests likely served for visual display, species recognition, or possibly aerodynamic functions.",
-        de: "Crests likely served for visual display, species recognition, or possibly aerodynamic functions.",
-        nl: "Crests likely served for visual display, species recognition, or possibly aerodynamic functions."
-      }
-    },
-    {
-      question: {
-        en: "Did pterosaurs have good eyesight?",
-        es: "Did pterosaurs have good eyesight?",
-        de: "Did pterosaurs have good eyesight?",
-        nl: "Did pterosaurs have good eyesight?"
+      {
+        question: {
+                  "en": "Did pterosaurs have good eyesight?",
+                  "es": "Did pterosaurs have good eyesight?",
+                  "de": "Did pterosaurs have good eyesight?",
+                  "nl": "Did pterosaurs have good eyesight?"
+        },
+        options: [
+        {
+                  "en": "Average vision",
+                  "es": "Average vision",
+                  "de": "Average vision",
+                  "nl": "Average vision"
+        },
+        {
+                  "en": "No, poor vision",
+                  "es": "No, poor vision",
+                  "de": "No, poor vision",
+                  "nl": "No, poor vision"
+        },
+        {
+                  "en": "Yes, excellent vision",
+                  "es": "Yes, excellent vision",
+                  "de": "Yes, excellent vision",
+                  "nl": "Yes, excellent vision"
+        },
+        {
+                  "en": "Blind",
+                  "es": "Blind",
+                  "de": "Blind",
+                  "nl": "Blind"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Pterosaurs had large eyes and excellent vision for spotting prey while flying.",
+                  "es": "Pterosaurs had large eyes and excellent vision for spotting prey while flying.",
+                  "de": "Pterosaurs had large eyes and excellent vision for spotting prey while flying.",
+                  "nl": "Pterosaurs had large eyes and excellent vision for spotting prey while flying."
+        }
       },
-      options: [
-        { en: "Yes, excellent vision", es: "Yes, excellent vision", de: "Yes, excellent vision", nl: "Yes, excellent vision" },
-        { en: "No, poor vision", es: "No, poor vision", de: "No, poor vision", nl: "No, poor vision" },
-        { en: "Blind", es: "Blind", de: "Blind", nl: "Blind" },
-        { en: "Average vision", es: "Average vision", de: "Average vision", nl: "Average vision" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pterosaurs had large eyes and excellent vision for spotting prey while flying.",
-        es: "Pterosaurs had large eyes and excellent vision for spotting prey while flying.",
-        de: "Pterosaurs had large eyes and excellent vision for spotting prey while flying.",
-        nl: "Pterosaurs had large eyes and excellent vision for spotting prey while flying."
-      }
-    },
-    {
-      question: {
-        en: "What is Dimorphodon?",
-        es: "What is Dimorphodon?",
-        de: "What is Dimorphodon?",
-        nl: "What is Dimorphodon?"
+      {
+        question: {
+                  "en": "What is Dimorphodon?",
+                  "es": "What is Dimorphodon?",
+                  "de": "What is Dimorphodon?",
+                  "nl": "What is Dimorphodon?"
+        },
+        options: [
+        {
+                  "en": "Tiny pterosaur",
+                  "es": "Tiny pterosaur",
+                  "de": "Tiny pterosaur",
+                  "nl": "Tiny pterosaur"
+        },
+        {
+                  "en": "Late pterosaur",
+                  "es": "Late pterosaur",
+                  "de": "Late pterosaur",
+                  "nl": "Late pterosaur"
+        },
+        {
+                  "en": "Largest pterosaur",
+                  "es": "Largest pterosaur",
+                  "de": "Largest pterosaur",
+                  "nl": "Largest pterosaur"
+        },
+        {
+                  "en": "Early pterosaur with large head",
+                  "es": "Early pterosaur with large head",
+                  "de": "Early pterosaur with large head",
+                  "nl": "Early pterosaur with large head"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Dimorphodon was an early pterosaur with a proportionally large, deep head.",
+                  "es": "Dimorphodon was an early pterosaur with a proportionally large, deep head.",
+                  "de": "Dimorphodon was an early pterosaur with a proportionally large, deep head.",
+                  "nl": "Dimorphodon was an early pterosaur with a proportionally large, deep head."
+        }
       },
-      options: [
-        { en: "Early pterosaur with large head", es: "Early pterosaur with large head", de: "Early pterosaur with large head", nl: "Early pterosaur with large head" },
-        { en: "Late pterosaur", es: "Late pterosaur", de: "Late pterosaur", nl: "Late pterosaur" },
-        { en: "Tiny pterosaur", es: "Tiny pterosaur", de: "Tiny pterosaur", nl: "Tiny pterosaur" },
-        { en: "Largest pterosaur", es: "Largest pterosaur", de: "Largest pterosaur", nl: "Largest pterosaur" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Dimorphodon was an early pterosaur with a proportionally large, deep head.",
-        es: "Dimorphodon was an early pterosaur with a proportionally large, deep head.",
-        de: "Dimorphodon was an early pterosaur with a proportionally large, deep head.",
-        nl: "Dimorphodon was an early pterosaur with a proportionally large, deep head."
-      }
-    },
-    {
-      question: {
-        en: "When did pterosaurs go extinct?",
-        es: "When did pterosaurs go extinct?",
-        de: "When did pterosaurs go extinct?",
-        nl: "When did pterosaurs go extinct?"
+      {
+        question: {
+                  "en": "When did pterosaurs go extinct?",
+                  "es": "When did pterosaurs go extinct?",
+                  "de": "When did pterosaurs go extinct?",
+                  "nl": "When did pterosaurs go extinct?"
+        },
+        options: [
+        {
+                  "en": "End of Jurassic",
+                  "es": "End of Jurassic",
+                  "de": "End of Jurassic",
+                  "nl": "End of Jurassic"
+        },
+        {
+                  "en": "Still alive today",
+                  "es": "Still alive today",
+                  "de": "Still alive today",
+                  "nl": "Still alive today"
+        },
+        {
+                  "en": "End of Triassic",
+                  "es": "End of Triassic",
+                  "de": "End of Triassic",
+                  "nl": "End of Triassic"
+        },
+        {
+                  "en": "End of Cretaceous, 66 million years ago",
+                  "es": "End of Cretaceous, 66 million years ago",
+                  "de": "End of Cretaceous, 66 million years ago",
+                  "nl": "End of Cretaceous, 66 million years ago"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Pterosaurs went extinct at the end of the Cretaceous Period, in the same event that killed the dinosaurs.",
+                  "es": "Pterosaurs went extinct at the end of the Cretaceous Period, in the same event that killed the dinosaurs.",
+                  "de": "Pterosaurs went extinct at the end of the Cretaceous Period, in the same event that killed the dinosaurs.",
+                  "nl": "Pterosaurs went extinct at the end of the Cretaceous Period, in the same event that killed the dinosaurs."
+        }
       },
-      options: [
-        { en: "End of Cretaceous, 66 million years ago", es: "End of Cretaceous, 66 million years ago", de: "End of Cretaceous, 66 million years ago", nl: "End of Cretaceous, 66 million years ago" },
-        { en: "End of Jurassic", es: "End of Jurassic", de: "End of Jurassic", nl: "End of Jurassic" },
-        { en: "End of Triassic", es: "End of Triassic", de: "End of Triassic", nl: "End of Triassic" },
-        { en: "Still alive today", es: "Still alive today", de: "Still alive today", nl: "Still alive today" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pterosaurs went extinct at the end of the Cretaceous Period, in the same event that killed the dinosaurs.",
-        es: "Pterosaurs went extinct at the end of the Cretaceous Period, in the same event that killed the dinosaurs.",
-        de: "Pterosaurs went extinct at the end of the Cretaceous Period, in the same event that killed the dinosaurs.",
-        nl: "Pterosaurs went extinct at the end of the Cretaceous Period, in the same event that killed the dinosaurs."
-      }
-    },
-    {
-      question: {
-        en: "What is unique about Quetzalcoatlus?",
-        es: "What is unique about Quetzalcoatlus?",
-        de: "What is unique about Quetzalcoatlus?",
-        nl: "What is unique about Quetzalcoatlus?"
+      {
+        question: {
+                  "en": "What is unique about Quetzalcoatlus?",
+                  "es": "What is unique about Quetzalcoatlus?",
+                  "de": "What is unique about Quetzalcoatlus?",
+                  "nl": "What is unique about Quetzalcoatlus?"
+        },
+        options: [
+        {
+                  "en": "Smallest pterosaur",
+                  "es": "Smallest pterosaur",
+                  "de": "Smallest pterosaur",
+                  "nl": "Smallest pterosaur"
+        },
+        {
+                  "en": "Largest flying animal ever",
+                  "es": "Largest flying animal ever",
+                  "de": "Largest flying animal ever",
+                  "nl": "Largest flying animal ever"
+        },
+        {
+                  "en": "Only fish-eater",
+                  "es": "Only fish-eater",
+                  "de": "Only fish-eater",
+                  "nl": "Only fish-eater"
+        },
+        {
+                  "en": "Only insect-eater",
+                  "es": "Only insect-eater",
+                  "de": "Only insect-eater",
+                  "nl": "Only insect-eater"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Quetzalcoatlus was the largest known flying animal of all time.",
+                  "es": "Quetzalcoatlus was the largest known flying animal of all time.",
+                  "de": "Quetzalcoatlus was the largest known flying animal of all time.",
+                  "nl": "Quetzalcoatlus was the largest known flying animal of all time."
+        }
       },
-      options: [
-        { en: "Largest flying animal ever", es: "Largest flying animal ever", de: "Largest flying animal ever", nl: "Largest flying animal ever" },
-        { en: "Smallest pterosaur", es: "Smallest pterosaur", de: "Smallest pterosaur", nl: "Smallest pterosaur" },
-        { en: "Only fish-eater", es: "Only fish-eater", de: "Only fish-eater", nl: "Only fish-eater" },
-        { en: "Only insect-eater", es: "Only insect-eater", de: "Only insect-eater", nl: "Only insect-eater" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Quetzalcoatlus was the largest known flying animal of all time.",
-        es: "Quetzalcoatlus was the largest known flying animal of all time.",
-        de: "Quetzalcoatlus was the largest known flying animal of all time.",
-        nl: "Quetzalcoatlus was the largest known flying animal of all time."
-      }
-    },
-    {
-      question: {
-        en: "How did baby pterosaurs develop?",
-        es: "How did baby pterosaurs develop?",
-        de: "How did baby pterosaurs develop?",
-        nl: "How did baby pterosaurs develop?"
+      {
+        question: {
+                  "en": "How did baby pterosaurs develop?",
+                  "es": "How did baby pterosaurs develop?",
+                  "de": "How did baby pterosaurs develop?",
+                  "nl": "How did baby pterosaurs develop?"
+        },
+        options: [
+        {
+                  "en": "Flightless for years",
+                  "es": "Flightless for years",
+                  "de": "Flightless for years",
+                  "nl": "Flightless for years"
+        },
+        {
+                  "en": "Never learned to fly",
+                  "es": "Never learned to fly",
+                  "de": "Never learned to fly",
+                  "nl": "Never learned to fly"
+        },
+        {
+                  "en": "Could likely fly soon after hatching",
+                  "es": "Could likely fly soon after hatching",
+                  "de": "Could likely fly soon after hatching",
+                  "nl": "Could likely fly soon after hatching"
+        },
+        {
+                  "en": "Stayed in nests",
+                  "es": "Stayed in nests",
+                  "de": "Stayed in nests",
+                  "nl": "Stayed in nests"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Evidence suggests baby pterosaurs could fly shortly after hatching, though they grew for years.",
+                  "es": "Evidence suggests baby pterosaurs could fly shortly after hatching, though they grew for years.",
+                  "de": "Evidence suggests baby pterosaurs could fly shortly after hatching, though they grew for years.",
+                  "nl": "Evidence suggests baby pterosaurs could fly shortly after hatching, though they grew for years."
+        }
       },
-      options: [
-        { en: "Could likely fly soon after hatching", es: "Could likely fly soon after hatching", de: "Could likely fly soon after hatching", nl: "Could likely fly soon after hatching" },
-        { en: "Flightless for years", es: "Flightless for years", de: "Flightless for years", nl: "Flightless for years" },
-        { en: "Never learned to fly", es: "Never learned to fly", de: "Never learned to fly", nl: "Never learned to fly" },
-        { en: "Stayed in nests", es: "Stayed in nests", de: "Stayed in nests", nl: "Stayed in nests" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Evidence suggests baby pterosaurs could fly shortly after hatching, though they grew for years.",
-        es: "Evidence suggests baby pterosaurs could fly shortly after hatching, though they grew for years.",
-        de: "Evidence suggests baby pterosaurs could fly shortly after hatching, though they grew for years.",
-        nl: "Evidence suggests baby pterosaurs could fly shortly after hatching, though they grew for years."
-      }
-    },
-    {
-      question: {
-        en: "What is a pterosaur wing made of?",
-        es: "What is a pterosaur wing made of?",
-        de: "What is a pterosaur wing made of?",
-        nl: "What is a pterosaur wing made of?"
-      },
-      options: [
-        { en: "Muscle, skin, and blood vessels", es: "Muscle, skin, and blood vessels", de: "Muscle, skin, and blood vessels", nl: "Muscle, skin, and blood vessels" },
-        { en: "Feathers", es: "Feathers", de: "Feathers", nl: "Feathers" },
-        { en: "Scales", es: "Scales", de: "Scales", nl: "Scales" },
-        { en: "Bone only", es: "Bone only", de: "Bone only", nl: "Bone only" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Pterosaur wings were complex structures of muscle, skin, blood vessels, and fibers supported by an elongated finger.",
-        es: "Pterosaur wings were complex structures of muscle, skin, blood vessels, and fibers supported by an elongated finger.",
-        de: "Pterosaur wings were complex structures of muscle, skin, blood vessels, and fibers supported by an elongated finger.",
-        nl: "Pterosaur wings were complex structures of muscle, skin, blood vessels, and fibers supported by an elongated finger."
-      }
-
+      {
+        question: {
+                  "en": "What is a pterosaur wing made of?",
+                  "es": "What is a pterosaur wing made of?",
+                  "de": "What is a pterosaur wing made of?",
+                  "nl": "What is a pterosaur wing made of?"
+        },
+        options: [
+        {
+                  "en": "Feathers",
+                  "es": "Feathers",
+                  "de": "Feathers",
+                  "nl": "Feathers"
+        },
+        {
+                  "en": "Muscle, skin, and blood vessels",
+                  "es": "Muscle, skin, and blood vessels",
+                  "de": "Muscle, skin, and blood vessels",
+                  "nl": "Muscle, skin, and blood vessels"
+        },
+        {
+                  "en": "Scales",
+                  "es": "Scales",
+                  "de": "Scales",
+                  "nl": "Scales"
+        },
+        {
+                  "en": "Bone only",
+                  "es": "Bone only",
+                  "de": "Bone only",
+                  "nl": "Bone only"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Pterosaur wings were complex structures of muscle, skin, blood vessels, and fibers supported by an elongated finger.",
+                  "es": "Pterosaur wings were complex structures of muscle, skin, blood vessels, and fibers supported by an elongated finger.",
+                  "de": "Pterosaur wings were complex structures of muscle, skin, blood vessels, and fibers supported by an elongated finger.",
+                  "nl": "Pterosaur wings were complex structures of muscle, skin, blood vessels, and fibers supported by an elongated finger."
+        }
       }
     ]
   };
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = level9;
-  } else if (typeof window !== 'undefined') {
-    window.level9 = level9;
   }
 })();

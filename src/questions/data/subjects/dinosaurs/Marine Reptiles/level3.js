@@ -1,859 +1,1657 @@
-﻿// Marine Reptiles Quiz - Level 3: Knowledge about Marine Reptiles
+// Marine Reptiles Quiz - Level 3
 (function() {
   const level3 = {
     name: {
-      en: "Marine Reptiles Level 3",
-      es: "Reptiles Marinos Nivel 3",
-      de: "Meeresreptilien Stufe 3",
-      nl: "Zeereptielen Level 3"
+          "en": "Marine Reptiles Level 3",
+          "es": "Reptiles Marinos Nivel 3",
+          "de": "Meeresreptilien Stufe 3",
+          "nl": "Zeereptielen Level 3"
     },
     questions: [
       {
         question: {
-          en: "What is hyperphalangy in marine reptiles?",
-          es: "¿Qué es la hiperfalangia en reptiles marinos?",
-          de: "Was ist Hyperphalangie bei Meeresreptilien?",
-          nl: "Wat is hyperphalangie bij zeereptielen?"
+                  "en": "What is hyperphalangy in marine reptiles?",
+                  "es": "¿Qué es la hiperfalangia en reptiles marinos?",
+                  "de": "Was ist Hyperphalangie bei Meeresreptilien?",
+                  "nl": "Wat is hyperphalangie bij zeereptielen?"
         },
         options: [
-          { en: "Increased number of finger bones in flippers", es: "Mayor número de huesos en los dedos de las aletas", de: "Erhöhte Anzahl von Fingerknochen in den Flossen", nl: "Verhoogd aantal vingerbeenderen in de vinnen" },
-          { en: "Enlarged skull bones", es: "Huesos del cráneo agrandados", de: "Vergrößerte Schädelknochen", nl: "Vergrote schedelbeenderen" },
-          { en: "Fusion of vertebrae", es: "Fusión de vértebras", de: "Verschmelzung von Wirbeln", nl: "Vergroeiing van wervels" },
-          { en: "Thicker limb bones", es: "Huesos de extremidades más gruesos", de: "Dickere Gliedmaßenknochen", nl: "Dikkere ledematen beenderen" }
+        {
+                  "en": "Enlarged skull bones",
+                  "es": "Huesos del cráneo agrandados",
+                  "de": "Vergrößerte Schädelknochen",
+                  "nl": "Vergrote schedelbeenderen"
+        },
+        {
+                  "en": "Fusion of vertebrae",
+                  "es": "Fusión de vértebras",
+                  "de": "Verschmelzung von Wirbeln",
+                  "nl": "Vergroeiing van wervels"
+        },
+        {
+                  "en": "Thicker limb bones",
+                  "es": "Huesos de extremidades más gruesos",
+                  "de": "Dickere Gliedmaßenknochen",
+                  "nl": "Dikkere ledematen beenderen"
+        },
+        {
+                  "en": "Increased number of finger bones in flippers",
+                  "es": "Mayor número de huesos en los dedos de las aletas",
+                  "de": "Erhöhte Anzahl von Fingerknochen in den Flossen",
+                  "nl": "Verhoogd aantal vingerbeenderen in de vinnen"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Hyperphalangy refers to the increase in the number of phalanges (finger bones) in marine reptile flippers, which enhanced their swimming efficiency.",
-          es: "La hiperfalangia se refiere al aumento en el número de falanges (huesos de los dedos) en las aletas de reptiles marinos, lo que mejoró su eficiencia de natación.",
-          de: "Hyperphalangie bezeichnet die Zunahme der Anzahl von Phalangen (Fingerknochen) in den Flossen der Meeresreptilien, was ihre Schwimmeffizienz verbesserte.",
-          nl: "Hyperphalangie verwijst naar de toename van het aantal vingerbeenderen in de vinnen van zeereptielen, wat hun zwemefficiëntie verbeterde."
+                  "en": "Hyperphalangy refers to the increase in the number of phalanges (finger bones) in marine reptile flippers, which enhanced their swimming efficiency.",
+                  "es": "La hiperfalangia se refiere al aumento en el número de falanges (huesos de los dedos) en las aletas de reptiles marinos, lo que mejoró su eficiencia de natación.",
+                  "de": "Hyperphalangie bezeichnet die Zunahme der Anzahl von Phalangen (Fingerknochen) in den Flossen der Meeresreptilien, was ihre Schwimmeffizienz verbesserte.",
+                  "nl": "Hyperphalangie verwijst naar de toename van het aantal vingerbeenderen in de vinnen van zeereptielen, wat hun zwemefficiëntie verbeterde."
         }
       },
       {
         question: {
-          en: "Which specialized eye adaptation allowed ichthyosaurs to see in deep, dark waters?",
-          es: "¿Qué adaptación ocular especializada permitió a los ictiosaurios ver en aguas profundas y oscuras?",
-          de: "Welche spezialisierte Augenanpassung ermöglichte es Ichthyosauriern, in tiefen, dunklen Gewässern zu sehen?",
-          nl: "Welke gespecialiseerde oogaanpassing stelde ichthyosauriërs in staat om in diepe, donkere wateren te zien?"
+                  "en": "Which specialized eye adaptation allowed ichthyosaurs to see in deep, dark waters?",
+                  "es": "¿Qué adaptación ocular especializada permitió a los ictiosaurios ver en aguas profundas y oscuras?",
+                  "de": "Welche spezialisierte Augenanpassung ermöglichte es Ichthyosauriern, in tiefen, dunklen Gewässern zu sehen?",
+                  "nl": "Welke gespecialiseerde oogaanpassing stelde ichthyosauriërs in staat om in diepe, donkere wateren te zien?"
         },
         options: [
-          { en: "Extremely large eye size", es: "Tamaño extremadamente grande de los ojos", de: "Extrem große Augengröße", nl: "Extreem grote ooggrootte" },
-          { en: "Third eyelid", es: "Tercer párpado", de: "Drittes Augenlid", nl: "Derde ooglid" },
-          { en: "Color vision enhancement", es: "Mejora de la visión en color", de: "Farbsehverbesserung", nl: "Kleurenzienverbetering" },
-          { en: "Multiple pupils", es: "Múltiples pupilas", de: "Mehrere Pupillen", nl: "Meerdere pupillen" }
+        {
+                  "en": "Extremely large eye size",
+                  "es": "Tamaño extremadamente grande de los ojos",
+                  "de": "Extrem große Augengröße",
+                  "nl": "Extreem grote ooggrootte"
+        },
+        {
+                  "en": "Multiple pupils",
+                  "es": "Múltiples pupilas",
+                  "de": "Mehrere Pupillen",
+                  "nl": "Meerdere pupillen"
+        },
+        {
+                  "en": "Third eyelid",
+                  "es": "Tercer párpado",
+                  "de": "Drittes Augenlid",
+                  "nl": "Derde ooglid"
+        },
+        {
+                  "en": "Color vision enhancement",
+                  "es": "Mejora de la visión en color",
+                  "de": "Farbsehverbesserung",
+                  "nl": "Kleurenzienverbetering"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Ichthyosaurs had the largest eyes relative to body size of any vertebrate, with some reaching 25cm diameter, allowing them to gather maximum light in deep waters.",
-          es: "Los ictiosaurios tenían los ojos más grandes en relación al tamaño corporal de cualquier vertebrado, algunos alcanzando 25cm de diámetro, permitiéndoles captar la máxima luz en aguas profundas.",
-          de: "Ichthyosaurier hatten die größten Augen im Verhältnis zur Körpergröße aller Wirbeltiere, manche erreichten 25cm Durchmesser und ermöglichten maximale Lichtsammlung in tiefen Gewässern.",
-          nl: "Ichthyosauriërs hadden de grootste ogen relatief tot lichaamsgrootte van alle gewervelde dieren, sommige bereikten 25cm diameter, waardoor ze maximaal licht konden verzamelen in diepe wateren."
+                  "en": "Ichthyosaurs had the largest eyes relative to body size of any vertebrate, with some reaching 25cm diameter, allowing them to gather maximum light in deep waters.",
+                  "es": "Los ictiosaurios tenían los ojos más grandes en relación al tamaño corporal de cualquier vertebrado, algunos alcanzando 25cm de diámetro, permitiéndoles captar la máxima luz en aguas profundas.",
+                  "de": "Ichthyosaurier hatten die größten Augen im Verhältnis zur Körpergröße aller Wirbeltiere, manche erreichten 25cm Durchmesser und ermöglichten maximale Lichtsammlung in tiefen Gewässern.",
+                  "nl": "Ichthyosauriërs hadden de grootste ogen relatief tot lichaamsgrootte van alle gewervelde dieren, sommige bereikten 25cm diameter, waardoor ze maximaal licht konden verzamelen in diepe wateren."
         }
       },
       {
         question: {
-          en: "What jaw mechanism allowed mosasaurs to swallow large prey?",
-          es: "¿Qué mecanismo mandibular permitió a los mosasaurios tragar presas grandes?",
-          de: "Welcher Kiefermechanismus ermöglichte es Mosasauriern, große Beute zu schlucken?",
-          nl: "Welk kaakechanisme stelde mosasauriërs in staat om grote prooien door te slikken?"
+                  "en": "What jaw mechanism allowed mosasaurs to swallow large prey?",
+                  "es": "¿Qué mecanismo mandibular permitió a los mosasaurios tragar presas grandes?",
+                  "de": "Welcher Kiefermechanismus ermöglichte es Mosasauriern, große Beute zu schlucken?",
+                  "nl": "Welk kaakechanisme stelde mosasauriërs in staat om grote prooien door te slikken?"
         },
         options: [
-          { en: "Kinetic skull with flexible jaw joints", es: "Cráneo cinético con articulaciones mandibulares flexibles", de: "Kinetischer Schädel mit flexiblen Kiefergelenken", nl: "Kinetische schedel met flexibele kaakgewrichten" },
-          { en: "Unhinged jaw like snakes", es: "Mandíbula desarticulada como las serpientes", de: "Ausgehängte Kiefer wie Schlangen", nl: "Loshangende kaak zoals slangen" },
-          { en: "Expandable throat pouch", es: "Bolsa gular expandible", de: "Erweiterbare Kehlsack", nl: "Uitbreidbare keelzak" },
-          { en: "Telescoping jaw bones", es: "Huesos mandibulares telescópicos", de: "Teleskopische Kieferknochen", nl: "Telescopische kaakbeenderen" }
+        {
+                  "en": "Kinetic skull with flexible jaw joints",
+                  "es": "Cráneo cinético con articulaciones mandibulares flexibles",
+                  "de": "Kinetischer Schädel mit flexiblen Kiefergelenken",
+                  "nl": "Kinetische schedel met flexibele kaakgewrichten"
+        },
+        {
+                  "en": "Expandable throat pouch",
+                  "es": "Bolsa gular expandible",
+                  "de": "Erweiterbare Kehlsack",
+                  "nl": "Uitbreidbare keelzak"
+        },
+        {
+                  "en": "Unhinged jaw like snakes",
+                  "es": "Mandíbula desarticulada como las serpientes",
+                  "de": "Ausgehängte Kiefer wie Schlangen",
+                  "nl": "Loshangende kaak zoals slangen"
+        },
+        {
+                  "en": "Telescoping jaw bones",
+                  "es": "Huesos mandibulares telescópicos",
+                  "de": "Teleskopische Kieferknochen",
+                  "nl": "Telescopische kaakbeenderen"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Mosasaurs had a kinetic skull with flexible joints that allowed the jaws to expand and accommodate large prey, similar to but less extreme than modern snakes.",
-          es: "Los mosasaurios tenían un cráneo cinético con articulaciones flexibles que permitían que las mandíbulas se expandieran para acomodar presas grandes, similar pero menos extremo que las serpientes modernas.",
-          de: "Mosasaurier hatten einen kinetischen Schädel mit flexiblen Gelenken, die es den Kiefern ermöglichten, sich zu erweitern und große Beute aufzunehmen, ähnlich aber weniger extrem als moderne Schlangen.",
-          nl: "Mosasauriërs hadden een kinetische schedel met flexibele gewrichten waardoor de kaken konden uitbreiden om grote prooien te kunnen opnemen, vergelijkbaar maar minder extreem dan moderne slangen."
+                  "en": "Mosasaurs had a kinetic skull with flexible joints that allowed the jaws to expand and accommodate large prey, similar to but less extreme than modern snakes.",
+                  "es": "Los mosasaurios tenían un cráneo cinético con articulaciones flexibles que permitían que las mandíbulas se expandieran para acomodar presas grandes, similar pero menos extremo que las serpientes modernas.",
+                  "de": "Mosasaurier hatten einen kinetischen Schädel mit flexiblen Gelenken, die es den Kiefern ermöglichten, sich zu erweitern und große Beute aufzunehmen, ähnlich aber weniger extrem als moderne Schlangen.",
+                  "nl": "Mosasauriërs hadden een kinetische schedel met flexibele gewrichten waardoor de kaken konden uitbreiden om grote prooien te kunnen opnemen, vergelijkbaar maar minder extreem dan moderne slangen."
         }
       },
       {
         question: {
-          en: "Which diving adaptation increased bone density in marine reptiles?",
-          es: "¿Qué adaptación de buceo aumentó la densidad ósea en reptiles marinos?",
-          de: "Welche Tauchanpassung erhöhte die Knochendichte bei Meeresreptilien?",
-          nl: "Welke duikanpassing verhoogde de botdichtheid bij zeereptielen?"
+                  "en": "Which diving adaptation increased bone density in marine reptiles?",
+                  "es": "¿Qué adaptación de buceo aumentó la densidad ósea en reptiles marinos?",
+                  "de": "Welche Tauchanpassung erhöhte die Knochendichte bei Meeresreptilien?",
+                  "nl": "Welke duikanpassing verhoogde de botdichtheid bij zeereptielen?"
         },
         options: [
-          { en: "Pachyostosis - bone thickening", es: "Paquiostosis - engrosamiento óseo", de: "Pachyostose - Knochenverdickung", nl: "Pachyostose - botverdikking" },
-          { en: "Osteoporosis - bone lightening", es: "Osteoporosis - aligeramiento óseo", de: "Osteoporose - Knochenerleichterung", nl: "Osteoporose - botverlichting" },
-          { en: "Calcification of cartilage", es: "Calcificación del cartílago", de: "Verkalkung von Knorpel", nl: "Verkalking van kraakbeen" },
-          { en: "Hollow bone structure", es: "Estructura ósea hueca", de: "Hohle Knochenstruktur", nl: "Holle botstructuur" }
+        {
+                  "en": "Pachyostosis - bone thickening",
+                  "es": "Paquiostosis - engrosamiento óseo",
+                  "de": "Pachyostose - Knochenverdickung",
+                  "nl": "Pachyostose - botverdikking"
+        },
+        {
+                  "en": "Calcification of cartilage",
+                  "es": "Calcificación del cartílago",
+                  "de": "Verkalkung von Knorpel",
+                  "nl": "Verkalking van kraakbeen"
+        },
+        {
+                  "en": "Hollow bone structure",
+                  "es": "Estructura ósea hueca",
+                  "de": "Hohle Knochenstruktur",
+                  "nl": "Holle botstructuur"
+        },
+        {
+                  "en": "Osteoporosis - bone lightening",
+                  "es": "Osteoporosis - aligeramiento óseo",
+                  "de": "Osteoporose - Knochenerleichterung",
+                  "nl": "Osteoporose - botverlichting"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Pachyostosis, the thickening of bones, helped marine reptiles achieve neutral buoyancy and dive more efficiently by increasing their density.",
-          es: "La paquiostosis, el engrosamiento de los huesos, ayudó a los reptiles marinos a lograr flotabilidad neutra y bucear más eficientemente aumentando su densidad.",
-          de: "Pachyostose, die Verdickung der Knochen, half Meeresreptilien, neutrale Auftriebskraft zu erreichen und effizienter zu tauchen, indem ihre Dichte erhöht wurde.",
-          nl: "Pachyostose, de verdikking van botten, hielp zeereptielen om neutrale drijfvermogen te bereiken en efficiënter te duiken door hun dichtheid te verhogen."
+                  "en": "Pachyostosis, the thickening of bones, helped marine reptiles achieve neutral buoyancy and dive more efficiently by increasing their density.",
+                  "es": "La paquiostosis, el engrosamiento de los huesos, ayudó a los reptiles marinos a lograr flotabilidad neutra y bucear más eficientemente aumentando su densidad.",
+                  "de": "Pachyostose, die Verdickung der Knochen, half Meeresreptilien, neutrale Auftriebskraft zu erreichen und effizienter zu tauchen, indem ihre Dichte erhöht wurde.",
+                  "nl": "Pachyostose, de verdikking van botten, hielp zeereptielen om neutrale drijfvermogen te bereiken en efficiënter te duiken door hun dichtheid te verhogen."
         }
       },
       {
         question: {
-          en: "What fossil preservation detail indicates marine reptiles were warm-blooded?",
-          es: "¿Qué detalle de preservación fósil indica que los reptiles marinos eran de sangre caliente?",
-          de: "Welches Fossil-Erhaltungsdetail zeigt an, dass Meeresreptilien warmblütig waren?",
-          nl: "Welk fossiele preservatiedetail geeft aan dat zeereptielen warmbloedig waren?"
+                  "en": "What fossil preservation detail indicates marine reptiles were warm-blooded?",
+                  "es": "¿Qué detalle de preservación fósil indica que los reptiles marinos eran de sangre caliente?",
+                  "de": "Welches Fossil-Erhaltungsdetail zeigt an, dass Meeresreptilien warmblütig waren?",
+                  "nl": "Welk fossiele preservatiedetail geeft aan dat zeereptielen warmbloedig waren?"
         },
         options: [
-          { en: "Bone histology showing rapid growth patterns", es: "Histología ósea mostrando patrones de crecimiento rápido", de: "Knochenhistologie zeigt schnelle Wachstumsmuster", nl: "Bothistologie die snelle groeipatronen toont" },
-          { en: "Preserved stomach contents", es: "Contenido estomacal preservado", de: "Erhaltene Mageninhalte", nl: "Bewaarde maaginhoud" },
-          { en: "Skin impressions", es: "Impresiones de piel", de: "Hautabdrücke", nl: "Huidafdrukken" },
-          { en: "Intact skeletal articulation", es: "Articulación esquelética intacta", de: "Intakte Skelettartikulation", nl: "Intacte skeletarticulatie" }
+        {
+                  "en": "Bone histology showing rapid growth patterns",
+                  "es": "Histología ósea mostrando patrones de crecimiento rápido",
+                  "de": "Knochenhistologie zeigt schnelle Wachstumsmuster",
+                  "nl": "Bothistologie die snelle groeipatronen toont"
+        },
+        {
+                  "en": "Preserved stomach contents",
+                  "es": "Contenido estomacal preservado",
+                  "de": "Erhaltene Mageninhalte",
+                  "nl": "Bewaarde maaginhoud"
+        },
+        {
+                  "en": "Skin impressions",
+                  "es": "Impresiones de piel",
+                  "de": "Hautabdrücke",
+                  "nl": "Huidafdrukken"
+        },
+        {
+                  "en": "Intact skeletal articulation",
+                  "es": "Articulación esquelética intacta",
+                  "de": "Intakte Skelettartikulation",
+                  "nl": "Intacte skeletarticulatie"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Bone histology studies reveal rapid, continuous growth patterns with well-vascularized bone tissue, indicating high metabolic rates consistent with warm-bloodedness.",
-          es: "Los estudios de histología ósea revelan patrones de crecimiento rápidos y continuos con tejido óseo bien vascularizado, indicando altas tasas metabólicas consistentes con sangre caliente.",
-          de: "Knochenhistologie-Studien zeigen schnelle, kontinuierliche Wachstumsmuster mit gut vaskularisiertem Knochengewebe, was auf hohe Stoffwechselraten hindeutet, die mit Warmblütigkeit übereinstimmen.",
-          nl: "Bothistologie studies tonen snelle, continue groeipatronen met goed gevasculariseerd botweefsel, wat wijst op hoge stofwisselingssnelheden consistent met warmbloedigheid."
+                  "en": "Bone histology studies reveal rapid, continuous growth patterns with well-vascularized bone tissue, indicating high metabolic rates consistent with warm-bloodedness.",
+                  "es": "Los estudios de histología ósea revelan patrones de crecimiento rápidos y continuos con tejido óseo bien vascularizado, indicando altas tasas metabólicas consistentes con sangre caliente.",
+                  "de": "Knochenhistologie-Studien zeigen schnelle, kontinuierliche Wachstumsmuster mit gut vaskularisiertem Knochengewebe, was auf hohe Stoffwechselraten hindeutet, die mit Warmblütigkeit übereinstimmen.",
+                  "nl": "Bothistologie studies tonen snelle, continue groeipatronen met goed gevasculariseerd botweefsel, wat wijst op hoge stofwisselingssnelheden consistent met warmbloedigheid."
         }
       },
       {
         question: {
-          en: "How did salt excretion work in marine reptiles?",
-          es: "¿Cómo funcionaba la excreción de sal en reptiles marinos?",
-          de: "Wie funktionierte die Salzausscheidung bei Meeresreptilien?",
-          nl: "Hoe werkte zoutuitscheiding bij zeereptielen?"
+                  "en": "How did salt excretion work in marine reptiles?",
+                  "es": "¿Cómo funcionaba la excreción de sal en reptiles marinos?",
+                  "de": "Wie funktionierte die Salzausscheidung bei Meeresreptilien?",
+                  "nl": "Hoe werkte zoutuitscheiding bij zeereptielen?"
         },
         options: [
-          { en: "Through specialized salt glands near the eyes", es: "A través de glándulas de sal especializadas cerca de los ojos", de: "Über spezialisierte Salzdrüsen in der Nähe der Augen", nl: "Via gespecialiseerde zoutklieren nabij de ogen" },
-          { en: "Through modified kidneys only", es: "Solo a través de riñones modificados", de: "Nur über modifizierte Nieren", nl: "Alleen via aangepaste nieren" },
-          { en: "Through gill-like structures", es: "A través de estructuras similares a branquias", de: "Über kiemenähnliche Strukturen", nl: "Via kieuwachtige structuren" },
-          { en: "Through specialized scales", es: "A través de escamas especializadas", de: "Über spezialisierte Schuppen", nl: "Via gespecialiseerde schubben" }
+        {
+                  "en": "Through modified kidneys only",
+                  "es": "Solo a través de riñones modificados",
+                  "de": "Nur über modifizierte Nieren",
+                  "nl": "Alleen via aangepaste nieren"
+        },
+        {
+                  "en": "Through specialized salt glands near the eyes",
+                  "es": "A través de glándulas de sal especializadas cerca de los ojos",
+                  "de": "Über spezialisierte Salzdrüsen in der Nähe der Augen",
+                  "nl": "Via gespecialiseerde zoutklieren nabij de ogen"
+        },
+        {
+                  "en": "Through specialized scales",
+                  "es": "A través de escamas especializadas",
+                  "de": "Über spezialisierte Schuppen",
+                  "nl": "Via gespecialiseerde schubben"
+        },
+        {
+                  "en": "Through gill-like structures",
+                  "es": "A través de estructuras similares a branquias",
+                  "de": "Über kiemenähnliche Strukturen",
+                  "nl": "Via kieuwachtige structuren"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Marine reptiles had salt glands, typically located near the eyes or nasal passages, that concentrated and expelled excess salt from seawater, similar to modern marine reptiles and birds.",
-          es: "Los reptiles marinos tenían glándulas de sal, típicamente ubicadas cerca de los ojos o pasajes nasales, que concentraban y expulsaban el exceso de sal del agua marina, similar a reptiles marinos y aves modernas.",
-          de: "Meeresreptilien hatten Salzdrüsen, typischerweise in der Nähe der Augen oder Nasengänge gelegen, die überschüssiges Salz aus Meerwasser konzentrierten und ausschieden, ähnlich wie moderne Meeresreptilien und Vögel.",
-          nl: "Zeereptielen hadden zoutklieren, meestal gelegen nabij de ogen of neusholtes, die overtollig zout uit zeewater concentreerden en uitscheiden, vergelijkbaar met moderne zeereptielen en vogels."
+                  "en": "Marine reptiles had salt glands, typically located near the eyes or nasal passages, that concentrated and expelled excess salt from seawater, similar to modern marine reptiles and birds.",
+                  "es": "Los reptiles marinos tenían glándulas de sal, típicamente ubicadas cerca de los ojos o pasajes nasales, que concentraban y expulsaban el exceso de sal del agua marina, similar a reptiles marinos y aves modernas.",
+                  "de": "Meeresreptilien hatten Salzdrüsen, typischerweise in der Nähe der Augen oder Nasengänge gelegen, die überschüssiges Salz aus Meerwasser konzentrierten und ausschieden, ähnlich wie moderne Meeresreptilien und Vögel.",
+                  "nl": "Zeereptielen hadden zoutklieren, meestal gelegen nabij de ogen of neusholtes, die overtollig zout uit zeewater concentreerden en uitscheiden, vergelijkbaar met moderne zeereptielen en vogels."
         }
       },
       {
         question: {
-          en: "What feeding specialization did filter-feeding plesiosaurs develop?",
-          es: "¿Qué especialización alimentaria desarrollaron los plesiosaurios filtradores?",
-          de: "Welche Nahrungsspezialisierung entwickelten filterfressende Plesiosarier?",
-          nl: "Welke voedingsspecialisatie ontwikkelden filtervoeende plesiosauriërs?"
+                  "en": "What feeding specialization did filter-feeding plesiosaurs develop?",
+                  "es": "¿Qué especialización alimentaria desarrollaron los plesiosaurios filtradores?",
+                  "de": "Welche Nahrungsspezialisierung entwickelten filterfressende Plesiosarier?",
+                  "nl": "Welke voedingsspecialisatie ontwikkelden filtervoeende plesiosauriërs?"
         },
         options: [
-          { en: "Dense arrays of fine teeth for straining small prey", es: "Matrices densas de dientes finos para filtrar presas pequeñas", de: "Dichte Anordnungen feiner Zähne zum Filtern kleiner Beute", nl: "Dichte rijen van fijne tanden voor het zeven van kleine prooien" },
-          { en: "Baleen-like plates", es: "Placas similares a barbas", de: "Baleenähnliche Platten", nl: "Baleinachtige platen" },
-          { en: "Expandable throat pouches", es: "Bolsas gulares expandibles", de: "Erweiterbare Kehlsäcke", nl: "Uitbreidbare keelzakken" },
-          { en: "Suction feeding apparatus", es: "Aparato de alimentación por succión", de: "Saugfütterungsapparat", nl: "Zuigvoedingsapparaat" }
+        {
+                  "en": "Suction feeding apparatus",
+                  "es": "Aparato de alimentación por succión",
+                  "de": "Saugfütterungsapparat",
+                  "nl": "Zuigvoedingsapparaat"
+        },
+        {
+                  "en": "Dense arrays of fine teeth for straining small prey",
+                  "es": "Matrices densas de dientes finos para filtrar presas pequeñas",
+                  "de": "Dichte Anordnungen feiner Zähne zum Filtern kleiner Beute",
+                  "nl": "Dichte rijen van fijne tanden voor het zeven van kleine prooien"
+        },
+        {
+                  "en": "Expandable throat pouches",
+                  "es": "Bolsas gulares expandibles",
+                  "de": "Erweiterbare Kehlsäcke",
+                  "nl": "Uitbreidbare keelzakken"
+        },
+        {
+                  "en": "Baleen-like plates",
+                  "es": "Placas similares a barbas",
+                  "de": "Baleenähnliche Platten",
+                  "nl": "Baleinachtige platen"
+        }
         ],
-        correct: 0,
+        correct: 1,
         explanation: {
-          en: "Some plesiosaurs developed numerous small, closely-packed teeth that functioned as a filter system to strain small fish and marine invertebrates from the water.",
-          es: "Algunos plesiosaurios desarrollaron numerosos dientes pequeños y densamente empacados que funcionaban como un sistema de filtro para colar peces pequeños e invertebrados marinos del agua.",
-          de: "Einige Plesiosarier entwickelten zahlreiche kleine, dicht gepackte Zähne, die als Filtersystem fungierten, um kleine Fische und marine Wirbellose aus dem Wasser zu sieben.",
-          nl: "Sommige plesiosauriërs ontwikkelden talrijke kleine, dicht opeengepakte tanden die fungeerden als filtersysteem om kleine vissen en mariene ongewervelden uit het water te zeven."
+                  "en": "Some plesiosaurs developed numerous small, closely-packed teeth that functioned as a filter system to strain small fish and marine invertebrates from the water.",
+                  "es": "Algunos plesiosaurios desarrollaron numerosos dientes pequeños y densamente empacados que funcionaban como un sistema de filtro para colar peces pequeños e invertebrados marinos del agua.",
+                  "de": "Einige Plesiosarier entwickelten zahlreiche kleine, dicht gepackte Zähne, die als Filtersystem fungierten, um kleine Fische und marine Wirbellose aus dem Wasser zu sieben.",
+                  "nl": "Sommige plesiosauriërs ontwikkelden talrijke kleine, dicht opeengepakte tanden die fungeerden als filtersysteem om kleine vissen en mariene ongewervelden uit het water te zeven."
         }
       },
       {
         question: {
-          en: "Which vertebral modification helped marine reptiles with buoyancy control?",
-          es: "¿Qué modificación vertebral ayudó a los reptiles marinos con el control de flotabilidad?",
-          de: "Welche Wirbelmodifikation half Meeresreptilien bei der Auftriebskontrolle?",
-          nl: "Welke wervelmodificatie hielp zeereptielen met drijfvermogencontrole?"
+                  "en": "Which vertebral modification helped marine reptiles with buoyancy control?",
+                  "es": "¿Qué modificación vertebral ayudó a los reptiles marinos con el control de flotabilidad?",
+                  "de": "Welche Wirbelmodifikation half Meeresreptilien bei der Auftriebskontrolle?",
+                  "nl": "Welke wervelmodificatie hielp zeereptielen met drijfvermogencontrole?"
         },
         options: [
-          { en: "Air-filled spaces in vertebral centra", es: "Espacios llenos de aire en los centros vertebrales", de: "Luftgefüllte Räume in Wirbelzentren", nl: "Luchtgevulde ruimtes in wervelcentra" },
-          { en: "Fused vertebrae for rigidity", es: "Vértebras fusionadas para rigidez", de: "Verschmolzene Wirbel für Steifigkeit", nl: "Versmolten wervels voor stijfheid" },
-          { en: "Extra vertebrae for flexibility", es: "Vértebras extra para flexibilidad", de: "Extra Wirbel für Flexibilität", nl: "Extra wervels voor flexibiliteit" },
-          { en: "Calcium carbonate deposits", es: "Depósitos de carbonato de calcio", de: "Calciumcarbonat-Ablagerungen", nl: "Calciumcarbonaatafzettingen" }
+        {
+                  "en": "Fused vertebrae for rigidity",
+                  "es": "Vértebras fusionadas para rigidez",
+                  "de": "Verschmolzene Wirbel für Steifigkeit",
+                  "nl": "Versmolten wervels voor stijfheid"
+        },
+        {
+                  "en": "Calcium carbonate deposits",
+                  "es": "Depósitos de carbonato de calcio",
+                  "de": "Calciumcarbonat-Ablagerungen",
+                  "nl": "Calciumcarbonaatafzettingen"
+        },
+        {
+                  "en": "Extra vertebrae for flexibility",
+                  "es": "Vértebras extra para flexibilidad",
+                  "de": "Extra Wirbel für Flexibilität",
+                  "nl": "Extra wervels voor flexibiliteit"
+        },
+        {
+                  "en": "Air-filled spaces in vertebral centra",
+                  "es": "Espacios llenos de aire en los centros vertebrales",
+                  "de": "Luftgefüllte Räume in Wirbelzentren",
+                  "nl": "Luchtgevulde ruimtes in wervelcentra"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Some ichthyosaurs had pneumatic vertebrae with air-filled spaces that reduced their overall density and helped with buoyancy control during diving.",
-          es: "Algunos ictiosaurios tenían vértebras neumáticas con espacios llenos de aire que reducían su densidad general y ayudaban con el control de flotabilidad durante el buceo.",
-          de: "Einige Ichthyosaurier hatten pneumatische Wirbel mit luftgefüllten Räumen, die ihre Gesamtdichte reduzierten und bei der Auftriebskontrolle während des Tauchens halfen.",
-          nl: "Sommige ichthyosauriërs hadden pneumatische wervels met luchtgevulde ruimtes die hun algemene dichtheid verminderden en hielpen bij drijfvermogencontrole tijdens het duiken."
+                  "en": "Some ichthyosaurs had pneumatic vertebrae with air-filled spaces that reduced their overall density and helped with buoyancy control during diving.",
+                  "es": "Algunos ictiosaurios tenían vértebras neumáticas con espacios llenos de aire que reducían su densidad general y ayudaban con el control de flotabilidad durante el buceo.",
+                  "de": "Einige Ichthyosaurier hatten pneumatische Wirbel mit luftgefüllten Räumen, die ihre Gesamtdichte reduzierten und bei der Auftriebskontrolle während des Tauchens halfen.",
+                  "nl": "Sommige ichthyosauriërs hadden pneumatische wervels met luchtgevulde ruimtes die hun algemene dichtheid verminderden en hielpen bij drijfvermogencontrole tijdens het duiken."
         }
       },
       {
         question: {
-          en: "What sensory adaptation helped marine reptiles detect electrical fields?",
-          es: "¿Qué adaptación sensorial ayudó a los reptiles marinos a detectar campos eléctricos?",
-          de: "Welche Sinnesanpassung half Meeresreptilien beim Erkennen elektrischer Felder?",
-          nl: "Welke zintuiglijke aanpassing hielp zeereptielen bij het detecteren van elektrische velden?"
+                  "en": "What sensory adaptation helped marine reptiles detect electrical fields?",
+                  "es": "¿Qué adaptación sensorial ayudó a los reptiles marinos a detectar campos eléctricos?",
+                  "de": "Welche Sinnesanpassung half Meeresreptilien beim Erkennen elektrischer Felder?",
+                  "nl": "Welke zintuiglijke aanpassing hielp zeereptielen bij het detecteren van elektrische velden?"
         },
         options: [
-          { en: "Ampullae-like organs in the snout", es: "Órganos similares a ampollas en el hocico", de: "Ampullen-ähnliche Organe in der Schnauze", nl: "Ampul-achtige organen in de snuit" },
-          { en: "Modified inner ear structures", es: "Estructuras del oído interno modificadas", de: "Modifizierte Innenohrstrukturen", nl: "Aangepaste binnenoorstructuren" },
-          { en: "Specialized scale receptors", es: "Receptores de escamas especializados", de: "Spezialisierte Schuppenrezeptoren", nl: "Gespecialiseerde schubreceptoren" },
-          { en: "Enhanced optic nerves", es: "Nervios ópticos mejorados", de: "Verbesserte Sehnerven", nl: "Verbeterde optische zenuwen" }
+        {
+                  "en": "Ampullae-like organs in the snout",
+                  "es": "Órganos similares a ampollas en el hocico",
+                  "de": "Ampullen-ähnliche Organe in der Schnauze",
+                  "nl": "Ampul-achtige organen in de snuit"
+        },
+        {
+                  "en": "Modified inner ear structures",
+                  "es": "Estructuras del oído interno modificadas",
+                  "de": "Modifizierte Innenohrstrukturen",
+                  "nl": "Aangepaste binnenoorstructuren"
+        },
+        {
+                  "en": "Specialized scale receptors",
+                  "es": "Receptores de escamas especializados",
+                  "de": "Spezialisierte Schuppenrezeptoren",
+                  "nl": "Gespecialiseerde schubreceptoren"
+        },
+        {
+                  "en": "Enhanced optic nerves",
+                  "es": "Nervios ópticos mejorados",
+                  "de": "Verbesserte Sehnerven",
+                  "nl": "Verbeterde optische zenuwen"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Evidence suggests some marine reptiles had electroreceptive organs similar to ampullae of Lorenzini in sharks, allowing them to detect bioelectric fields of prey.",
-          es: "La evidencia sugiere que algunos reptiles marinos tenían órganos electroreceptivos similares a las ampollas de Lorenzini en tiburones, permitiéndoles detectar campos bioeléctricos de presas.",
-          de: "Belege deuten darauf hin, dass einige Meeresreptilien elektrorezeptive Organe ähnlich den Lorenzinischen Ampullen bei Haien hatten, die es ihnen ermöglichten, bioelektrische Felder von Beute zu erkennen.",
-          nl: "Bewijs suggereert dat sommige zeereptielen elektroreceptieve organen hadden vergelijkbaar met Lorenzini ampullen bij haaien, waardoor ze bioelektrische velden van prooien konden detecteren."
+                  "en": "Evidence suggests some marine reptiles had electroreceptive organs similar to ampullae of Lorenzini in sharks, allowing them to detect bioelectric fields of prey.",
+                  "es": "La evidencia sugiere que algunos reptiles marinos tenían órganos electroreceptivos similares a las ampollas de Lorenzini en tiburones, permitiéndoles detectar campos bioeléctricos de presas.",
+                  "de": "Belege deuten darauf hin, dass einige Meeresreptilien elektrorezeptive Organe ähnlich den Lorenzinischen Ampullen bei Haien hatten, die es ihnen ermöglichten, bioelektrische Felder von Beute zu erkennen.",
+                  "nl": "Bewijs suggereert dat sommige zeereptielen elektroreceptieve organen hadden vergelijkbaar met Lorenzini ampullen bij haaien, waardoor ze bioelektrische velden van prooien konden detecteren."
         }
       },
       {
         question: {
-          en: "How did the sclerotic ring in ichthyosaur eyes function?",
-          es: "¿Cómo funcionaba el anillo esclerótico en los ojos de ictiosaurios?",
-          de: "Wie funktionierte der Skleralring in Ichthyosaurier-Augen?",
-          nl: "Hoe functioneerde de sclerale ring in ichthyosauriër ogen?"
+                  "en": "How did the sclerotic ring in ichthyosaur eyes function?",
+                  "es": "¿Cómo funcionaba el anillo esclerótico en los ojos de ictiosaurios?",
+                  "de": "Wie funktionierte der Skleralring in Ichthyosaurier-Augen?",
+                  "nl": "Hoe functioneerde de sclerale ring in ichthyosauriër ogen?"
         },
         options: [
-          { en: "Maintained eye shape under water pressure", es: "Mantenía la forma del ojo bajo presión del agua", de: "Erhielt die Augenform unter Wasserdruck", nl: "Behield oogvorm onder waterdruk" },
-          { en: "Protected against UV radiation", es: "Protegía contra la radiación UV", de: "Schützte vor UV-Strahlung", nl: "Beschermde tegen UV-straling" },
-          { en: "Enhanced color vision", es: "Mejoró la visión en color", de: "Verbesserte Farbsicht", nl: "Verbeterde kleurenzien" },
-          { en: "Regulated light entry", es: "Regulaba la entrada de luz", de: "Regulierte Lichteintritt", nl: "Regelde lichtinval" }
+        {
+                  "en": "Regulated light entry",
+                  "es": "Regulaba la entrada de luz",
+                  "de": "Regulierte Lichteintritt",
+                  "nl": "Regelde lichtinval"
+        },
+        {
+                  "en": "Enhanced color vision",
+                  "es": "Mejoró la visión en color",
+                  "de": "Verbesserte Farbsicht",
+                  "nl": "Verbeterde kleurenzien"
+        },
+        {
+                  "en": "Protected against UV radiation",
+                  "es": "Protegía contra la radiación UV",
+                  "de": "Schützte vor UV-Strahlung",
+                  "nl": "Beschermde tegen UV-straling"
+        },
+        {
+                  "en": "Maintained eye shape under water pressure",
+                  "es": "Mantenía la forma del ojo bajo presión del agua",
+                  "de": "Erhielt die Augenform unter Wasserdruck",
+                  "nl": "Behield oogvorm onder waterdruk"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "The sclerotic ring, composed of overlapping bony plates, reinforced the eye structure to prevent deformation under the intense water pressure at great depths.",
-          es: "El anillo esclerótico, compuesto de placas óseas superpuestas, reforzaba la estructura del ojo para prevenir deformación bajo la intensa presión del agua a grandes profundidades.",
-          de: "Der Skleralring, bestehend aus überlappenden Knochenplatten, verstärkte die Augenstruktur, um Verformung unter dem intensiven Wasserdruck in großen Tiefen zu verhindern.",
-          nl: "De sclerale ring, bestaande uit overlappende botplaten, versterkte de oogstructuur om vervorming onder de intense waterdruk op grote diepten te voorkomen."
+                  "en": "The sclerotic ring, composed of overlapping bony plates, reinforced the eye structure to prevent deformation under the intense water pressure at great depths.",
+                  "es": "El anillo esclerótico, compuesto de placas óseas superpuestas, reforzaba la estructura del ojo para prevenir deformación bajo la intensa presión del agua a grandes profundidades.",
+                  "de": "Der Skleralring, bestehend aus überlappenden Knochenplatten, verstärkte die Augenstruktur, um Verformung unter dem intensiven Wasserdruck in großen Tiefen zu verhindern.",
+                  "nl": "De sclerale ring, bestaande uit overlappende botplaten, versterkte de oogstructuur om vervorming onder de intense waterdruk op grote diepten te voorkomen."
         }
       },
       {
         question: {
-          en: "What anatomical feature indicates mosasaurs gave birth to live young?",
-          es: "¿Qué característica anatómica indica que los mosasaurios daban a luz crías vivas?",
-          de: "Welches anatomische Merkmal zeigt an, dass Mosasaurier lebende Junge zur Welt brachten?",
-          nl: "Welk anatomisch kenmerk geeft aan dat mosasauriërs levende jongen ter wereld brachten?"
+                  "en": "What anatomical feature indicates mosasaurs gave birth to live young?",
+                  "es": "¿Qué característica anatómica indica que los mosasaurios daban a luz crías vivas?",
+                  "de": "Welches anatomische Merkmal zeigt an, dass Mosasaurier lebende Junge zur Welt brachten?",
+                  "nl": "Welk anatomisch kenmerk geeft aan dat mosasauriërs levende jongen ter wereld brachten?"
         },
         options: [
-          { en: "Wide pelvic canal and modified vertebrae", es: "Canal pélvico ancho y vértebras modificadas", de: "Breiter Beckenkanal und modifizierte Wirbel", nl: "Breed bekkenkanaal en aangepaste wervels" },
-          { en: "Enlarged skull openings", es: "Aberturas craneales agrandadas", de: "Vergrößerte Schädelöffnungen", nl: "Vergrote schedelopeningen" },
-          { en: "Modified limb proportions", es: "Proporciones de extremidades modificadas", de: "Modifizierte Gliedmaßenproportionen", nl: "Aangepaste ledemaatproporties" },
-          { en: "Specialized stomach structure", es: "Estructura estomacal especializada", de: "Spezialisierte Magenstruktur", nl: "Gespecialiseerde maagstructuur" }
+        {
+                  "en": "Modified limb proportions",
+                  "es": "Proporciones de extremidades modificadas",
+                  "de": "Modifizierte Gliedmaßenproportionen",
+                  "nl": "Aangepaste ledemaatproporties"
+        },
+        {
+                  "en": "Specialized stomach structure",
+                  "es": "Estructura estomacal especializada",
+                  "de": "Spezialisierte Magenstruktur",
+                  "nl": "Gespecialiseerde maagstructuur"
+        },
+        {
+                  "en": "Wide pelvic canal and modified vertebrae",
+                  "es": "Canal pélvico ancho y vértebras modificadas",
+                  "de": "Breiter Beckenkanal und modifizierte Wirbel",
+                  "nl": "Breed bekkenkanaal en aangepaste wervels"
+        },
+        {
+                  "en": "Enlarged skull openings",
+                  "es": "Aberturas craneales agrandadas",
+                  "de": "Vergrößerte Schädelöffnungen",
+                  "nl": "Vergrote schedelopeningen"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Fossil evidence shows mosasaurs had wide pelvic canals and modified sacral vertebrae, adaptations necessary for giving birth to large offspring in an aquatic environment.",
-          es: "La evidencia fósil muestra que los mosasaurios tenían canales pélvicos anchos y vértebras sacras modificadas, adaptaciones necesarias para dar a luz crías grandes en un ambiente acuático.",
-          de: "Fossile Belege zeigen, dass Mosasaurier breite Beckenkanäle und modifizierte Sakralwirbel hatten, Anpassungen, die für die Geburt großer Nachkommen in aquatischer Umgebung notwendig waren.",
-          nl: "Fossiel bewijs toont dat mosasauriërs brede bekkenkanalen en aangepaste heiligbeenwervels hadden, aanpassingen die nodig waren voor het baren van grote nakomelingen in een aquatische omgeving."
+                  "en": "Fossil evidence shows mosasaurs had wide pelvic canals and modified sacral vertebrae, adaptations necessary for giving birth to large offspring in an aquatic environment.",
+                  "es": "La evidencia fósil muestra que los mosasaurios tenían canales pélvicos anchos y vértebras sacras modificadas, adaptaciones necesarias para dar a luz crías grandes en un ambiente acuático.",
+                  "de": "Fossile Belege zeigen, dass Mosasaurier breite Beckenkanäle und modifizierte Sakralwirbel hatten, Anpassungen, die für die Geburt großer Nachkommen in aquatischer Umgebung notwendig waren.",
+                  "nl": "Fossiel bewijs toont dat mosasauriërs brede bekkenkanalen en aangepaste heiligbeenwervels hadden, aanpassingen die nodig waren voor het baren van grote nakomelingen in een aquatische omgeving."
         }
       },
       {
         question: {
-          en: "Which bone density modification helped marine crocodiles dive deeper?",
-          es: "¿Qué modificación de densidad ósea ayudó a los cocodrilos marinos a bucear más profundo?",
-          de: "Welche Knochendichtemodifikation half Meereskrokodilen, tiefer zu tauchen?",
-          nl: "Welke botdichtheidsmodificatie hielp mariene krokodillen om dieper te duiken?"
+                  "en": "Which bone density modification helped marine crocodiles dive deeper?",
+                  "es": "¿Qué modificación de densidad ósea ayudó a los cocodrilos marinos a bucear más profundo?",
+                  "de": "Welche Knochendichtemodifikation half Meereskrokodilen, tiefer zu tauchen?",
+                  "nl": "Welke botdichtheidsmodificatie hielp mariene krokodillen om dieper te duiken?"
         },
         options: [
-          { en: "Osteosclerosis - increased bone density", es: "Osteoesclerosis - densidad ósea aumentada", de: "Osteosklerose - erhöhte Knochendichte", nl: "Osteosclerose - verhoogde botdichtheid" },
-          { en: "Bone marrow expansion", es: "Expansión de médula ósea", de: "Knochenmarkerweiterung", nl: "Beenmerguitbreiding" },
-          { en: "Cartilage replacement", es: "Reemplazo de cartílago", de: "Knorpelersatz", nl: "Kraakbeenvervanging" },
-          { en: "Air space formation", es: "Formación de espacios de aire", de: "Luftraumbildung", nl: "Luchtroomvorming" }
+        {
+                  "en": "Cartilage replacement",
+                  "es": "Reemplazo de cartílago",
+                  "de": "Knorpelersatz",
+                  "nl": "Kraakbeenvervanging"
+        },
+        {
+                  "en": "Bone marrow expansion",
+                  "es": "Expansión de médula ósea",
+                  "de": "Knochenmarkerweiterung",
+                  "nl": "Beenmerguitbreiding"
+        },
+        {
+                  "en": "Osteosclerosis - increased bone density",
+                  "es": "Osteoesclerosis - densidad ósea aumentada",
+                  "de": "Osteosklerose - erhöhte Knochendichte",
+                  "nl": "Osteosclerose - verhoogde botdichtheid"
+        },
+        {
+                  "en": "Air space formation",
+                  "es": "Formación de espacios de aire",
+                  "de": "Luftraumbildung",
+                  "nl": "Luchtroomvorming"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Osteosclerosis, the increase in bone density through reduced marrow spaces, helped marine crocodiles achieve negative buoyancy for efficient diving and bottom-dwelling behavior.",
-          es: "La osteoesclerosis, el aumento en densidad ósea a través de espacios de médula reducidos, ayudó a los cocodrilos marinos a lograr flotabilidad negativa para buceo eficiente y comportamiento bentónico.",
-          de: "Osteosklerose, die Zunahme der Knochendichte durch reduzierte Markräume, half Meereskrokodilen, negative Auftriebskraft für effizientes Tauchen und Bodenbewohnerverhalten zu erreichen.",
-          nl: "Osteosclerose, de toename van botdichtheid door verminderde mergholtes, hielp mariene krokodillen om negatief drijfvermogen te bereiken voor efficiënt duiken en bodemgerelateerd gedrag."
+                  "en": "Osteosclerosis, the increase in bone density through reduced marrow spaces, helped marine crocodiles achieve negative buoyancy for efficient diving and bottom-dwelling behavior.",
+                  "es": "La osteoesclerosis, el aumento en densidad ósea a través de espacios de médula reducidos, ayudó a los cocodrilos marinos a lograr flotabilidad negativa para buceo eficiente y comportamiento bentónico.",
+                  "de": "Osteosklerose, die Zunahme der Knochendichte durch reduzierte Markräume, half Meereskrokodilen, negative Auftriebskraft für effizientes Tauchen und Bodenbewohnerverhalten zu erreichen.",
+                  "nl": "Osteosclerose, de toename van botdichtheid door verminderde mergholtes, hielp mariene krokodillen om negatief drijfvermogen te bereiken voor efficiënt duiken en bodemgerelateerd gedrag."
         }
       },
       {
         question: {
-          en: "What jaw adaptation allowed plesiosaurs to process hard-shelled prey?",
-          es: "¿Qué adaptación mandibular permitió a los plesiosaurios procesar presas de caparazón duro?",
-          de: "Welche Kieferanpassung ermöglichte es Plesiosauriern, hartschalige Beute zu verarbeiten?",
-          nl: "Welke kaakaanpassing stelde plesiosauriërs in staat om hardgeschaalde prooien te verwerken?"
+                  "en": "What jaw adaptation allowed plesiosaurs to process hard-shelled prey?",
+                  "es": "¿Qué adaptación mandibular permitió a los plesiosaurios procesar presas de caparazón duro?",
+                  "de": "Welche Kieferanpassung ermöglichte es Plesiosauriern, hartschalige Beute zu verarbeiten?",
+                  "nl": "Welke kaakaanpassing stelde plesiosauriërs in staat om hardgeschaalde prooien te verwerken?"
         },
         options: [
-          { en: "Crushing teeth and reinforced jaw muscles", es: "Dientes trituradores y músculos mandibulares reforzados", de: "Zermalmende Zähne und verstärkte Kiefermuskeln", nl: "Kneustaranden en versterkte kaakspieren" },
-          { en: "Scissor-like tooth arrangement", es: "Disposición de dientes en forma de tijera", de: "Scherenartige Zahnanordnung", nl: "Schaarachtige tandschikking" },
-          { en: "Retractable tooth rows", es: "Filas de dientes retráctiles", de: "Einziehbare Zahnreihen", nl: "Intrekbare tandrijen" },
-          { en: "Flexible jaw joints", es: "Articulaciones mandibulares flexibles", de: "Flexible Kiefergelenke", nl: "Flexibele kaakgewrichten" }
+        {
+                  "en": "Retractable tooth rows",
+                  "es": "Filas de dientes retráctiles",
+                  "de": "Einziehbare Zahnreihen",
+                  "nl": "Intrekbare tandrijen"
+        },
+        {
+                  "en": "Scissor-like tooth arrangement",
+                  "es": "Disposición de dientes en forma de tijera",
+                  "de": "Scherenartige Zahnanordnung",
+                  "nl": "Schaarachtige tandschikking"
+        },
+        {
+                  "en": "Crushing teeth and reinforced jaw muscles",
+                  "es": "Dientes trituradores y músculos mandibulares reforzados",
+                  "de": "Zermalmende Zähne und verstärkte Kiefermuskeln",
+                  "nl": "Kneustaranden en versterkte kaakspieren"
+        },
+        {
+                  "en": "Flexible jaw joints",
+                  "es": "Articulaciones mandibulares flexibles",
+                  "de": "Flexible Kiefergelenke",
+                  "nl": "Flexibele kaakgewrichten"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Some plesiosaurs developed blunt, crushing teeth and enlarged jaw muscle attachment areas to crack open ammonites, belemnites, and other hard-shelled marine prey.",
-          es: "Algunos plesiosaurios desarrollaron dientes romos y trituradores y áreas de inserción muscular mandibular agrandadas para quebrar amonitas, belemnitas y otras presas marinas de caparazón duro.",
-          de: "Einige Plesiosarier entwickelten stumpfe, zermalmende Zähne und vergrößerte Kiefermuskel-Ansatzstellen, um Ammoniten, Belemniten und andere hartschalige Meeresbeute aufzubrechen.",
-          nl: "Sommige plesiosauriërs ontwikkelden stompe, kneustranden en vergrote kaakspierhechtkingsgebieden om ammonieten, belemnieten en andere hardgeschaalde mariene prooien open te breken."
+                  "en": "Some plesiosaurs developed blunt, crushing teeth and enlarged jaw muscle attachment areas to crack open ammonites, belemnites, and other hard-shelled marine prey.",
+                  "es": "Algunos plesiosaurios desarrollaron dientes romos y trituradores y áreas de inserción muscular mandibular agrandadas para quebrar amonitas, belemnitas y otras presas marinas de caparazón duro.",
+                  "de": "Einige Plesiosarier entwickelten stumpfe, zermalmende Zähne und vergrößerte Kiefermuskel-Ansatzstellen, um Ammoniten, Belemniten und andere hartschalige Meeresbeute aufzubrechen.",
+                  "nl": "Sommige plesiosauriërs ontwikkelden stompe, kneustranden en vergrote kaakspierhechtkingsgebieden om ammonieten, belemnieten en andere hardgeschaalde mariene prooien open te breken."
         }
       },
       {
         question: {
-          en: "How did marine reptiles' rib cages adapt for diving?",
-          es: "¿Cómo se adaptaron las cajas torácicas de los reptiles marinos para el buceo?",
-          de: "Wie passten sich die Brustkorbe der Meeresreptilien ans Tauchen an?",
-          nl: "Hoe pasten de ribbenkasten van zeereptielen zich aan voor het duiken?"
+                  "en": "How did marine reptiles' rib cages adapt for diving?",
+                  "es": "¿Cómo se adaptaron las cajas torácicas de los reptiles marinos para el buceo?",
+                  "de": "Wie passten sich die Brustkorbe der Meeresreptilien ans Tauchen an?",
+                  "nl": "Hoe pasten de ribbenkasten van zeereptielen zich aan voor het duiken?"
         },
         options: [
-          { en: "Flexible ribs allowing lung compression", es: "Costillas flexibles permitiendo compresión pulmonar", de: "Flexible Rippen ermöglichen Lungenkompression", nl: "Flexibele ribben die longcompressie toestaan" },
-          { en: "Fused ribs for rigidity", es: "Costillas fusionadas para rigidez", de: "Verschmolzene Rippen für Starrheit", nl: "Versmolten ribben voor stijfheid" },
-          { en: "Extra ribs for buoyancy", es: "Costillas extra para flotabilidad", de: "Extra Rippen für Auftrieb", nl: "Extra ribben voor drijfvermogen" },
-          { en: "Reduced rib number", es: "Número reducido de costillas", de: "Reduzierte Rippenzahl", nl: "Verminderd aantal ribben" }
+        {
+                  "en": "Flexible ribs allowing lung compression",
+                  "es": "Costillas flexibles permitiendo compresión pulmonar",
+                  "de": "Flexible Rippen ermöglichen Lungenkompression",
+                  "nl": "Flexibele ribben die longcompressie toestaan"
+        },
+        {
+                  "en": "Reduced rib number",
+                  "es": "Número reducido de costillas",
+                  "de": "Reduzierte Rippenzahl",
+                  "nl": "Verminderd aantal ribben"
+        },
+        {
+                  "en": "Extra ribs for buoyancy",
+                  "es": "Costillas extra para flotabilidad",
+                  "de": "Extra Rippen für Auftrieb",
+                  "nl": "Extra ribben voor drijfvermogen"
+        },
+        {
+                  "en": "Fused ribs for rigidity",
+                  "es": "Costillas fusionadas para rigidez",
+                  "de": "Verschmolzene Rippen für Starrheit",
+                  "nl": "Versmolten ribben voor stijfheid"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Marine reptiles evolved flexible rib cages that could compress under water pressure, allowing their lungs to collapse safely during deep dives without injury.",
-          es: "Los reptiles marinos evolucionaron cajas torácicas flexibles que podían comprimirse bajo presión del agua, permitiendo que sus pulmones colapsaran de manera segura durante buceos profundos sin lesión.",
-          de: "Meeresreptilien entwickelten flexible Brustkorbe, die sich unter Wasserdruck komprimieren konnten, sodass ihre Lungen während tiefer Tauchgänge sicher kollabieren konnten ohne Verletzung.",
-          nl: "Zeereptielen ontwikkelden flexibele ribbenkasten die konden comprimeren onder waterdruk, waardoor hun longen veilig konden inklappen tijdens diepe duiken zonder letsel."
+                  "en": "Marine reptiles evolved flexible rib cages that could compress under water pressure, allowing their lungs to collapse safely during deep dives without injury.",
+                  "es": "Los reptiles marinos evolucionaron cajas torácicas flexibles que podían comprimirse bajo presión del agua, permitiendo que sus pulmones colapsaran de manera segura durante buceos profundos sin lesión.",
+                  "de": "Meeresreptilien entwickelten flexible Brustkorbe, die sich unter Wasserdruck komprimieren konnten, sodass ihre Lungen während tiefer Tauchgänge sicher kollabieren konnten ohne Verletzung.",
+                  "nl": "Zeereptielen ontwikkelden flexibele ribbenkasten die konden comprimeren onder waterdruk, waardoor hun longen veilig konden inklappen tijdens diepe duiken zonder letsel."
         }
       },
       {
         question: {
-          en: "What specialized feeding adaptation did some ichthyosaurs develop for catching fast prey?",
-          es: "¿Qué adaptación alimentaria especializada desarrollaron algunos ictiosaurios para atrapar presas rápidas?",
-          de: "Welche spezialisierte Nahrungsanpassung entwickelten einige Ichthyosaurier zum Fangen schneller Beute?",
-          nl: "Welke gespecialiseerde voedingsaanpassing ontwikkelden sommige ichthyosauriërs voor het vangen van snelle prooien?"
+                  "en": "What specialized feeding adaptation did some ichthyosaurs develop for catching fast prey?",
+                  "es": "¿Qué adaptación alimentaria especializada desarrollaron algunos ictiosaurios para atrapar presas rápidas?",
+                  "de": "Welche spezialisierte Nahrungsanpassung entwickelten einige Ichthyosaurier zum Fangen schneller Beute?",
+                  "nl": "Welke gespecialiseerde voedingsaanpassing ontwikkelden sommige ichthyosauriërs voor het vangen van snelle prooien?"
         },
         options: [
-          { en: "Rapid jaw closure with spring-loaded mechanisms", es: "Cierre rápido de mandíbulas con mecanismos de resorte", de: "Schneller Kieferschluss mit federgeladenen Mechanismen", nl: "Snelle kaakafsluiting met veergeladen mechanismen" },
-          { en: "Suction feeding with expandable throat", es: "Alimentación por succión con garganta expandible", de: "Saugfütterung mit erweiterbarer Kehle", nl: "Zuigvoeding met uitbreidbare keel" },
-          { en: "Harpoon-like tongue projection", es: "Proyección de lengua como arpón", de: "Harpunenartige Zungenprojektion", nl: "Harpoenachtige tongprojectie" },
-          { en: "Adhesive mouth surfaces", es: "Superficies bucales adhesivas", de: "Adhäsive Mundoberflächen", nl: "Klevende mondoppervlakken" }
+        {
+                  "en": "Harpoon-like tongue projection",
+                  "es": "Proyección de lengua como arpón",
+                  "de": "Harpunenartige Zungenprojektion",
+                  "nl": "Harpoenachtige tongprojectie"
+        },
+        {
+                  "en": "Suction feeding with expandable throat",
+                  "es": "Alimentación por succión con garganta expandible",
+                  "de": "Saugfütterung mit erweiterbarer Kehle",
+                  "nl": "Zuigvoeding met uitbreidbare keel"
+        },
+        {
+                  "en": "Adhesive mouth surfaces",
+                  "es": "Superficies bucales adhesivas",
+                  "de": "Adhäsive Mundoberflächen",
+                  "nl": "Klevende mondoppervlakken"
+        },
+        {
+                  "en": "Rapid jaw closure with spring-loaded mechanisms",
+                  "es": "Cierre rápido de mandíbulas con mecanismos de resorte",
+                  "de": "Schneller Kieferschluss mit federgeladenen Mechanismen",
+                  "nl": "Snelle kaakafsluiting met veergeladen mechanismen"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Some ichthyosaurs evolved rapid jaw-closing mechanisms with elastic ligaments that stored energy, allowing lightning-fast strikes to capture quick-moving squid and fish.",
-          es: "Algunos ictiosaurios evolucionaron mecanismos de cierre mandibular rápido con ligamentos elásticos que almacenaban energía, permitiendo ataques ultrarrápidos para capturar calamares y peces veloces.",
-          de: "Einige Ichthyosaurier entwickelten schnelle Kieferschließmechanismen mit elastischen Bändern, die Energie speicherten und blitzschnelle Angriffe zum Fangen schnell beweglicher Tintenfische und Fische ermöglichten.",
-          nl: "Sommige ichthyosauriërs ontwikkelden snelle kaaksluitingsmechanismen met elastische ligamenten die energie opsloegen, waardoor bliksemsnelle aanvallen mogelijk waren om snelbewegende inktvissen en vissen te vangen."
+                  "en": "Some ichthyosaurs evolved rapid jaw-closing mechanisms with elastic ligaments that stored energy, allowing lightning-fast strikes to capture quick-moving squid and fish.",
+                  "es": "Algunos ictiosaurios evolucionaron mecanismos de cierre mandibular rápido con ligamentos elásticos que almacenaban energía, permitiendo ataques ultrarrápidos para capturar calamares y peces veloces.",
+                  "de": "Einige Ichthyosaurier entwickelten schnelle Kieferschließmechanismen mit elastischen Bändern, die Energie speicherten und blitzschnelle Angriffe zum Fangen schnell beweglicher Tintenfische und Fische ermöglichten.",
+                  "nl": "Sommige ichthyosauriërs ontwikkelden snelle kaaksluitingsmechanismen met elastische ligamenten die energie opsloegen, waardoor bliksemsnelle aanvallen mogelijk waren om snelbewegende inktvissen en vissen te vangen."
         }
       },
       {
         question: {
-          en: "Which respiratory adaptation helped marine reptiles hold their breath longer?",
-          es: "¿Qué adaptación respiratoria ayudó a los reptiles marinos a contener la respiración más tiempo?",
-          de: "Welche Atemanpassung half Meeresreptilien, länger den Atem anzuhalten?",
-          nl: "Welke ademhalingsaanpassing hielp zeereptielen om langer hun adem in te houden?"
+                  "en": "Which respiratory adaptation helped marine reptiles hold their breath longer?",
+                  "es": "¿Qué adaptación respiratoria ayudó a los reptiles marinos a contener la respiración más tiempo?",
+                  "de": "Welche Atemanpassung half Meeresreptilien, länger den Atem anzuhalten?",
+                  "nl": "Welke ademhalingsaanpassing hielp zeereptielen om langer hun adem in te houden?"
         },
         options: [
-          { en: "Increased blood oxygen capacity and myoglobin", es: "Mayor capacidad de oxígeno en sangre y mioglobina", de: "Erhöhte Blutsauerstoffkapazität und Myoglobin", nl: "Verhoogde bloedzuurstofcapaciteit en myoglobine" },
-          { en: "Additional lung chambers", es: "Cámaras pulmonares adicionales", de: "Zusätzliche Lungenkammern", nl: "Aanvullende longkamers" },
-          { en: "Gill-like structures", es: "Estructuras similares a branquias", de: "Kiemenähnliche Strukturen", nl: "Kieuwachtige structuren" },
-          { en: "Enlarged nasal passages", es: "Pasajes nasales agrandados", de: "Vergrößerte Nasengänge", nl: "Vergrote neusholtes" }
+        {
+                  "en": "Enlarged nasal passages",
+                  "es": "Pasajes nasales agrandados",
+                  "de": "Vergrößerte Nasengänge",
+                  "nl": "Vergrote neusholtes"
+        },
+        {
+                  "en": "Additional lung chambers",
+                  "es": "Cámaras pulmonares adicionales",
+                  "de": "Zusätzliche Lungenkammern",
+                  "nl": "Aanvullende longkamers"
+        },
+        {
+                  "en": "Gill-like structures",
+                  "es": "Estructuras similares a branquias",
+                  "de": "Kiemenähnliche Strukturen",
+                  "nl": "Kieuwachtige structuren"
+        },
+        {
+                  "en": "Increased blood oxygen capacity and myoglobin",
+                  "es": "Mayor capacidad de oxígeno en sangre y mioglobina",
+                  "de": "Erhöhte Blutsauerstoffkapazität und Myoglobin",
+                  "nl": "Verhoogde bloedzuurstofcapaciteit en myoglobine"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Marine reptiles evolved enhanced oxygen-carrying capacity through increased hemoglobin levels and muscle myoglobin, similar to modern diving mammals, extending their dive duration.",
-          es: "Los reptiles marinos evolucionaron capacidad mejorada de transporte de oxígeno a través de niveles aumentados de hemoglobina y mioglobina muscular, similar a mamíferos buceadores modernos, extendiendo su duración de buceo.",
-          de: "Meeresreptilien entwickelten verbesserte Sauerstofftransportkapazität durch erhöhte Hämoglobin- und Muskel-Myoglobinspiegel, ähnlich modernen tauchenden Säugetieren, was ihre Tauchdauer verlängerte.",
-          nl: "Zeereptielen ontwikkelden verbeterde zuurstoftransportcapaciteit door verhoogde hemoglobinegehaltes en spiermyoglobine, vergelijkbaar met moderne duikzoogdieren, waardoor hun duikduur werd verlengd."
+                  "en": "Marine reptiles evolved enhanced oxygen-carrying capacity through increased hemoglobin levels and muscle myoglobin, similar to modern diving mammals, extending their dive duration.",
+                  "es": "Los reptiles marinos evolucionaron capacidad mejorada de transporte de oxígeno a través de niveles aumentados de hemoglobina y mioglobina muscular, similar a mamíferos buceadores modernos, extendiendo su duración de buceo.",
+                  "de": "Meeresreptilien entwickelten verbesserte Sauerstofftransportkapazität durch erhöhte Hämoglobin- und Muskel-Myoglobinspiegel, ähnlich modernen tauchenden Säugetieren, was ihre Tauchdauer verlängerte.",
+                  "nl": "Zeereptielen ontwikkelden verbeterde zuurstoftransportcapaciteit door verhoogde hemoglobinegehaltes en spiermyoglobine, vergelijkbaar met moderne duikzoogdieren, waardoor hun duikduur werd verlengd."
         }
       },
       {
         question: {
-          en: "How did the inner ear structure of marine reptiles adapt for underwater hearing?",
-          es: "¿Cómo se adaptó la estructura del oído interno de los reptiles marinos para la audición subacuática?",
-          de: "Wie passte sich die Innenohrstruktur der Meeresreptilien an das Unterwasserhören an?",
-          nl: "Hoe paste de binnenoorstructuur van zeereptielen zich aan voor onderwaterhoren?"
+                  "en": "How did the inner ear structure of marine reptiles adapt for underwater hearing?",
+                  "es": "¿Cómo se adaptó la estructura del oído interno de los reptiles marinos para la audición subacuática?",
+                  "de": "Wie passte sich die Innenohrstruktur der Meeresreptilien an das Unterwasserhören an?",
+                  "nl": "Hoe paste de binnenoorstructuur van zeereptielen zich aan voor onderwaterhoren?"
         },
         options: [
-          { en: "Enhanced bone conduction pathways", es: "Vías de conducción ósea mejoradas", de: "Verbesserte Knochenleitungswege", nl: "Verbeterde botgeleidingspaden" },
-          { en: "Water-filled ear canals", es: "Canales auditivos llenos de agua", de: "Wassergefüllte Gehörgänge", nl: "Watergevulde gehoorkanalen" },
-          { en: "Enlarged ear drums", es: "Tímpanos agrandados", de: "Vergrößerte Trommelfelle", nl: "Vergrote trommelvliezen" },
-          { en: "Multiple ear openings", es: "Múltiples aberturas auditivas", de: "Mehrere Gehöröffnungen", nl: "Meerdere gehooropeningen" }
+        {
+                  "en": "Water-filled ear canals",
+                  "es": "Canales auditivos llenos de agua",
+                  "de": "Wassergefüllte Gehörgänge",
+                  "nl": "Watergevulde gehoorkanalen"
+        },
+        {
+                  "en": "Enlarged ear drums",
+                  "es": "Tímpanos agrandados",
+                  "de": "Vergrößerte Trommelfelle",
+                  "nl": "Vergrote trommelvliezen"
+        },
+        {
+                  "en": "Enhanced bone conduction pathways",
+                  "es": "Vías de conducción ósea mejoradas",
+                  "de": "Verbesserte Knochenleitungswege",
+                  "nl": "Verbeterde botgeleidingspaden"
+        },
+        {
+                  "en": "Multiple ear openings",
+                  "es": "Múltiples aberturas auditivas",
+                  "de": "Mehrere Gehöröffnungen",
+                  "nl": "Meerdere gehooropeningen"
+        }
         ],
-        correct: 0,
+        correct: 2,
         explanation: {
-          en: "Marine reptiles developed enhanced bone conduction hearing systems that could detect sound waves transmitted through water and their skull bones more effectively than air-based hearing.",
-          es: "Los reptiles marinos desarrollaron sistemas auditivos de conducción ósea mejorados que podían detectar ondas sonoras transmitidas a través del agua y sus huesos craneales más efectivamente que la audición basada en aire.",
-          de: "Meeresreptilien entwickelten verbesserte Knochenleitungshörsysteme, die Schallwellen, die durch Wasser und ihre Schädelknochen übertragen wurden, effektiver erkennen konnten als luftbasiertes Hören.",
-          nl: "Zeereptielen ontwikkelden verbeterde botgeleidingshoorsystemen die geluidsgolven die via water en hun schedelbeenderen werden overgedragen effectiever konden detecteren dan luchtgebaseerd horen."
+                  "en": "Marine reptiles developed enhanced bone conduction hearing systems that could detect sound waves transmitted through water and their skull bones more effectively than air-based hearing.",
+                  "es": "Los reptiles marinos desarrollaron sistemas auditivos de conducción ósea mejorados que podían detectar ondas sonoras transmitidas a través del agua y sus huesos craneales más efectivamente que la audición basada en aire.",
+                  "de": "Meeresreptilien entwickelten verbesserte Knochenleitungshörsysteme, die Schallwellen, die durch Wasser und ihre Schädelknochen übertragen wurden, effektiver erkennen konnten als luftbasiertes Hören.",
+                  "nl": "Zeereptielen ontwikkelden verbeterde botgeleidingshoorsystemen die geluidsgolven die via water en hun schedelbeenderen werden overgedragen effectiever konden detecteren dan luchtgebaseerd horen."
         }
       },
       {
         question: {
-          en: "What metabolic adaptation allowed marine reptiles to maintain activity in cold deep waters?",
-          es: "¿Qué adaptación metabólica permitió a los reptiles marinos mantener actividad en aguas profundas y frías?",
-          de: "Welche Stoffwechselanpassung ermöglichte es Meeresreptilien, in kalten Tiefwassern aktiv zu bleiben?",
-          nl: "Welke metabolische aanpassing stelde zeereptielen in staat om actief te blijven in koud diep water?"
+                  "en": "What metabolic adaptation allowed marine reptiles to maintain activity in cold deep waters?",
+                  "es": "¿Qué adaptación metabólica permitió a los reptiles marinos mantener actividad en aguas profundas y frías?",
+                  "de": "Welche Stoffwechselanpassung ermöglichte es Meeresreptilien, in kalten Tiefwassern aktiv zu bleiben?",
+                  "nl": "Welke metabolische aanpassing stelde zeereptielen in staat om actief te blijven in koud diep water?"
         },
         options: [
-          { en: "Regional endothermy with counter-current heat exchange", es: "Endotermia regional con intercambio de calor contracorriente", de: "Regionale Endothermie mit Gegenstrom-Wärmetausch", nl: "Regionale endothermie met tegenstroom warmtewisseling" },
-          { en: "Hibernation-like metabolic shutdown", es: "Apagado metabólico similar a hibernación", de: "Hibernationsähnliche Stoffwechselabschaltung", nl: "Hibernatie-achtige metabolische uitschakeling" },
-          { en: "Antifreeze proteins in blood", es: "Proteínas anticongelantes en sangre", de: "Frostschutzproteine im Blut", nl: "Antivries eiwitten in bloed" },
-          { en: "Solar energy absorption through skin", es: "Absorción de energía solar a través de la piel", de: "Solare Energieabsorption durch die Haut", nl: "Zonneenergie-absorptie via de huid" }
+        {
+                  "en": "Regional endothermy with counter-current heat exchange",
+                  "es": "Endotermia regional con intercambio de calor contracorriente",
+                  "de": "Regionale Endothermie mit Gegenstrom-Wärmetausch",
+                  "nl": "Regionale endothermie met tegenstroom warmtewisseling"
+        },
+        {
+                  "en": "Solar energy absorption through skin",
+                  "es": "Absorción de energía solar a través de la piel",
+                  "de": "Solare Energieabsorption durch die Haut",
+                  "nl": "Zonneenergie-absorptie via de huid"
+        },
+        {
+                  "en": "Antifreeze proteins in blood",
+                  "es": "Proteínas anticongelantes en sangre",
+                  "de": "Frostschutzproteine im Blut",
+                  "nl": "Antivries eiwitten in bloed"
+        },
+        {
+                  "en": "Hibernation-like metabolic shutdown",
+                  "es": "Apagado metabólico similar a hibernación",
+                  "de": "Hibernationsähnliche Stoffwechselabschaltung",
+                  "nl": "Hibernatie-achtige metabolische uitschakeling"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Some marine reptiles developed regional endothermy with counter-current heat exchange systems that maintained warm core temperatures and active muscles even in cold water.",
-          es: "Algunos reptiles marinos desarrollaron endotermia regional con sistemas de intercambio de calor contracorriente que mantenían temperaturas corporales centrales cálidas y músculos activos incluso en agua fría.",
-          de: "Einige Meeresreptilien entwickelten regionale Endothermie mit Gegenstrom-Wärmetauschsystemen, die warme Kerntemperaturen und aktive Muskeln auch in kaltem Wasser aufrechterhielten.",
-          nl: "Sommige zeereptielen ontwikkelden regionale endothermie met tegenstroom warmtewisselingssystemen die warme kerntemperaturen en actieve spieren zelfs in koud water handhaafden."
+                  "en": "Some marine reptiles developed regional endothermy with counter-current heat exchange systems that maintained warm core temperatures and active muscles even in cold water.",
+                  "es": "Algunos reptiles marinos desarrollaron endotermia regional con sistemas de intercambio de calor contracorriente que mantenían temperaturas corporales centrales cálidas y músculos activos incluso en agua fría.",
+                  "de": "Einige Meeresreptilien entwickelten regionale Endothermie mit Gegenstrom-Wärmetauschsystemen, die warme Kerntemperaturen und aktive Muskeln auch in kaltem Wasser aufrechterhielten.",
+                  "nl": "Sommige zeereptielen ontwikkelden regionale endothermie met tegenstroom warmtewisselingssystemen die warme kerntemperaturen en actieve spieren zelfs in koud water handhaafden."
         }
       },
       {
         question: {
-          en: "Which tooth replacement pattern was most efficient for marine predators?",
-          es: "¿Qué patrón de reemplazo dental fue más eficiente para depredadores marinos?",
-          de: "Welches Zahnersatzmuster war für Meeresräuber am effizientesten?",
-          nl: "Welk tandvervangingspatroon was het meest efficiënt voor mariene roofdieren?"
+                  "en": "Which tooth replacement pattern was most efficient for marine predators?",
+                  "es": "¿Qué patrón de reemplazo dental fue más eficiente para depredadores marinos?",
+                  "de": "Welches Zahnersatzmuster war für Meeresräuber am effizientesten?",
+                  "nl": "Welk tandvervangingspatroon was het meest efficiënt voor mariene roofdieren?"
         },
         options: [
-          { en: "Continuous polyphyodont tooth replacement", es: "Reemplazo dental polifidonto continuo", de: "Kontinuierlicher polyphyodonter Zahnersatz", nl: "Continue polyphyodonte tandvervanging" },
-          { en: "Seasonal tooth shedding", es: "Muda dental estacional", de: "Saisonaler Zahnwechsel", nl: "Seizoensgebonden tandwisseling" },
-          { en: "Single tooth replacement cycle", es: "Ciclo único de reemplazo dental", de: "Einmaliger Zahnersatzzyklus", nl: "Enkele tandvervangingscyclus" },
-          { en: "No tooth replacement", es: "Sin reemplazo dental", de: "Kein Zahnersatz", nl: "Geen tandvervanging" }
+        {
+                  "en": "Single tooth replacement cycle",
+                  "es": "Ciclo único de reemplazo dental",
+                  "de": "Einmaliger Zahnersatzzyklus",
+                  "nl": "Enkele tandvervangingscyclus"
+        },
+        {
+                  "en": "No tooth replacement",
+                  "es": "Sin reemplazo dental",
+                  "de": "Kein Zahnersatz",
+                  "nl": "Geen tandvervanging"
+        },
+        {
+                  "en": "Seasonal tooth shedding",
+                  "es": "Muda dental estacional",
+                  "de": "Saisonaler Zahnwechsel",
+                  "nl": "Seizoensgebonden tandwisseling"
+        },
+        {
+                  "en": "Continuous polyphyodont tooth replacement",
+                  "es": "Reemplazo dental polifidonto continuo",
+                  "de": "Kontinuierlicher polyphyodonter Zahnersatz",
+                  "nl": "Continue polyphyodonte tandvervanging"
+        }
         ],
-        correct: 0,
+        correct: 3,
         explanation: {
-          en: "Marine reptiles had continuous polyphyodont tooth replacement, constantly growing new teeth to replace worn or damaged ones, ensuring effective predation throughout their lives.",
-          es: "Los reptiles marinos tenían reemplazo dental polifidonto continuo, creciendo constantemente dientes nuevos para reemplazar los gastados o dañados, asegurando depredación efectiva durante sus vidas.",
-          de: "Meeresreptilien hatten kontinuierlichen polyphyodonten Zahnersatz, wuchsen ständig neue Zähne, um abgenutzte oder beschädigte zu ersetzen, und gewährleisteten effektive Räuberei ihr ganzes Leben lang.",
-          nl: "Zeereptielen hadden continue polyphyodonte tandvervanging, waarbij constant nieuwe tanden groeiden om versleten of beschadigde te vervangen, wat effectieve predatie gedurende hun hele leven verzekerde."
+                  "en": "Marine reptiles had continuous polyphyodont tooth replacement, constantly growing new teeth to replace worn or damaged ones, ensuring effective predation throughout their lives.",
+                  "es": "Los reptiles marinos tenían reemplazo dental polifidonto continuo, creciendo constantemente dientes nuevos para reemplazar los gastados o dañados, asegurando depredación efectiva durante sus vidas.",
+                  "de": "Meeresreptilien hatten kontinuierlichen polyphyodonten Zahnersatz, wuchsen ständig neue Zähne, um abgenutzte oder beschädigte zu ersetzen, und gewährleisteten effektive Räuberei ihr ganzes Leben lang.",
+                  "nl": "Zeereptielen hadden continue polyphyodonte tandvervanging, waarbij constant nieuwe tanden groeiden om versleten of beschadigde te vervangen, wat effectieve predatie gedurende hun hele leven verzekerde."
         }
       },
       {
         question: {
-          en: "What reproductive strategy did marine reptiles develop to protect offspring in aquatic environments?",
-          es: "¿Qué estrategia reproductiva desarrollaron los reptiles marinos para proteger a sus crías en ambientes acuáticos?",
-          de: "Welche Fortpflanzungsstrategie entwickelten Meeresreptilien zum Schutz ihrer Nachkommen in aquatischen Umgebungen?",
-          nl: "Welke voortplantingsstrategie ontwikkelden zeereptielen om nakomelingen te beschermen in aquatische omgevingen?"
+                  "en": "What reproductive strategy did marine reptiles develop to protect offspring in aquatic environments?",
+                  "es": "¿Qué estrategia reproductiva desarrollaron los reptiles marinos para proteger a sus crías en ambientes acuáticos?",
+                  "de": "Welche Fortpflanzungsstrategie entwickelten Meeresreptilien zum Schutz ihrer Nachkommen in aquatischen Umgebungen?",
+                  "nl": "Welke voortplantingsstrategie ontwikkelden zeereptielen om nakomelingen te beschermen in aquatische omgevingen?"
         },
         options: [
-          { en: "Ovoviviparity - retaining eggs internally until hatching", es: "Ovoviviparidad - retener huevos internamente hasta la eclosión", de: "Ovoviviparie - Eier intern bis zum Schlüpfen behalten", nl: "Ovovivipariteit - eieren intern houden tot uitkomen" },
-          { en: "Parental care and nest guarding", es: "Cuidado parental y vigilancia del nido", de: "Elterliche Fürsorge und Nestbewachung", nl: "Ouderlijke zorg en nestbewaking" },
-          { en: "Communal breeding colonies", es: "Colonias de reproducción comunales", de: "Gemeinschaftliche Brutkolonien", nl: "Gemeenschappelijke broedkolonies" },
-          { en: "Delayed egg development", es: "Desarrollo retrasado del huevo", de: "Verzögerte Eientwicklung", nl: "Vertraagde eiontwikkeling" }
+        {
+                  "en": "Communal breeding colonies",
+                  "es": "Colonias de reproducción comunales",
+                  "de": "Gemeinschaftliche Brutkolonien",
+                  "nl": "Gemeenschappelijke broedkolonies"
+        },
+        {
+                  "en": "Ovoviviparity - retaining eggs internally until hatching",
+                  "es": "Ovoviviparidad - retener huevos internamente hasta la eclosión",
+                  "de": "Ovoviviparie - Eier intern bis zum Schlüpfen behalten",
+                  "nl": "Ovovivipariteit - eieren intern houden tot uitkomen"
+        },
+        {
+                  "en": "Parental care and nest guarding",
+                  "es": "Cuidado parental y vigilancia del nido",
+                  "de": "Elterliche Fürsorge und Nestbewachung",
+                  "nl": "Ouderlijke zorg en nestbewaking"
+        },
+        {
+                  "en": "Delayed egg development",
+                  "es": "Desarrollo retrasado del huevo",
+                  "de": "Verzögerte Eientwicklung",
+                  "nl": "Vertraagde eiontwikkeling"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Many marine reptiles evolved ovoviviparity, where eggs develop internally and young are born live. This protected developing embryos from marine predators and environmental hazards that would threaten externally laid eggs.",
+                  "es": "Muchos reptiles marinos evolucionaron ovoviviparidad, donde los huevos se desarrollan internamente y las crías nacen vivas. Esto protegía a los embriones en desarrollo de depredadores marinos y peligros ambientales que amenazarían a huevos puestos externamente.",
+                  "de": "Viele Meeresreptilien entwickelten Ovoviviparie, bei der sich Eier intern entwickeln und Junge lebend geboren werden. Dies schützte sich entwickelnde Embryonen vor Meeresräubern und Umweltgefahren, die extern gelegte Eier bedroht hätten.",
+                  "nl": "Veel zeereptielen ontwikkelden ovovivipariteit, waarbij eieren intern ontwikkelen en jongen levend worden geboren. Dit beschermde zich ontwikkelende embryo's tegen mariene roofdieren en omgevingsgevaren die extern gelegde eieren zouden bedreigen."
+        }
+      },
+      {
+        question: {
+                  "en": "Were marine reptiles dinosaurs?",
+                  "es": "Were marine reptiles dinosaurs?",
+                  "de": "Were marine reptiles dinosaurs?",
+                  "nl": "Were marine reptiles dinosaurs?"
+        },
+        options: [
+        {
+                  "en": "Some were dinosaurs",
+                  "es": "Some were dinosaurs",
+                  "de": "Some were dinosaurs",
+                  "nl": "Some were dinosaurs"
+        },
+        {
+                  "en": "They were fish",
+                  "es": "They were fish",
+                  "de": "They were fish",
+                  "nl": "They were fish"
+        },
+        {
+                  "en": "Yes, all were dinosaurs",
+                  "es": "Yes, all were dinosaurs",
+                  "de": "Yes, all were dinosaurs",
+                  "nl": "Yes, all were dinosaurs"
+        },
+        {
+                  "en": "No, they were different reptiles",
+                  "es": "No, they were different reptiles",
+                  "de": "No, they were different reptiles",
+                  "nl": "No, they were different reptiles"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Marine reptiles like ichthyosaurs and plesiosaurs were not dinosaurs, but different groups of reptiles.",
+                  "es": "Marine reptiles like ichthyosaurs and plesiosaurs were not dinosaurs, but different groups of reptiles.",
+                  "de": "Marine reptiles like ichthyosaurs and plesiosaurs were not dinosaurs, but different groups of reptiles.",
+                  "nl": "Marine reptiles like ichthyosaurs and plesiosaurs were not dinosaurs, but different groups of reptiles."
+        }
+      },
+      {
+        question: {
+                  "en": "What is an Ichthyosaur?",
+                  "es": "What is an Ichthyosaur?",
+                  "de": "What is an Ichthyosaur?",
+                  "nl": "What is an Ichthyosaur?"
+        },
+        options: [
+        {
+                  "en": "Dolphin-like marine reptile",
+                  "es": "Dolphin-like marine reptile",
+                  "de": "Dolphin-like marine reptile",
+                  "nl": "Dolphin-like marine reptile"
+        },
+        {
+                  "en": "Shark",
+                  "es": "Shark",
+                  "de": "Shark",
+                  "nl": "Shark"
+        },
+        {
+                  "en": "Swimming dinosaur",
+                  "es": "Swimming dinosaur",
+                  "de": "Swimming dinosaur",
+                  "nl": "Swimming dinosaur"
+        },
+        {
+                  "en": "Fish",
+                  "es": "Fish",
+                  "de": "Fish",
+                  "nl": "Fish"
+        }
         ],
         correct: 0,
         explanation: {
-          en: "Many marine reptiles evolved ovoviviparity, where eggs develop internally and young are born live. This protected developing embryos from marine predators and environmental hazards that would threaten externally laid eggs.",
-          es: "Muchos reptiles marinos evolucionaron ovoviviparidad, donde los huevos se desarrollan internamente y las crías nacen vivas. Esto protegía a los embriones en desarrollo de depredadores marinos y peligros ambientales que amenazarían a huevos puestos externamente.",
-          de: "Viele Meeresreptilien entwickelten Ovoviviparie, bei der sich Eier intern entwickeln und Junge lebend geboren werden. Dies schützte sich entwickelnde Embryonen vor Meeresräubern und Umweltgefahren, die extern gelegte Eier bedroht hätten.",
-          nl: "Veel zeereptielen ontwikkelden ovovivipariteit, waarbij eieren intern ontwikkelen en jongen levend worden geboren. Dit beschermde zich ontwikkelende embryo's tegen mariene roofdieren en omgevingsgevaren die extern gelegde eieren zouden bedreigen."
-        }    },
-    {
-      question: {
-        en: "Were marine reptiles dinosaurs?",
-        es: "Were marine reptiles dinosaurs?",
-        de: "Were marine reptiles dinosaurs?",
-        nl: "Were marine reptiles dinosaurs?"
+                  "en": "Ichthyosaurs were dolphin-like marine reptiles that lived during the Mesozoic Era.",
+                  "es": "Ichthyosaurs were dolphin-like marine reptiles that lived during the Mesozoic Era.",
+                  "de": "Ichthyosaurs were dolphin-like marine reptiles that lived during the Mesozoic Era.",
+                  "nl": "Ichthyosaurs were dolphin-like marine reptiles that lived during the Mesozoic Era."
+        }
       },
-      options: [
-        { en: "No, they were different reptiles", es: "No, they were different reptiles", de: "No, they were different reptiles", nl: "No, they were different reptiles" },
-        { en: "Yes, all were dinosaurs", es: "Yes, all were dinosaurs", de: "Yes, all were dinosaurs", nl: "Yes, all were dinosaurs" },
-        { en: "Some were dinosaurs", es: "Some were dinosaurs", de: "Some were dinosaurs", nl: "Some were dinosaurs" },
-        { en: "They were fish", es: "They were fish", de: "They were fish", nl: "They were fish" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Marine reptiles like ichthyosaurs and plesiosaurs were not dinosaurs, but different groups of reptiles.",
-        es: "Marine reptiles like ichthyosaurs and plesiosaurs were not dinosaurs, but different groups of reptiles.",
-        de: "Marine reptiles like ichthyosaurs and plesiosaurs were not dinosaurs, but different groups of reptiles.",
-        nl: "Marine reptiles like ichthyosaurs and plesiosaurs were not dinosaurs, but different groups of reptiles."
-      }
-    },
-    {
-      question: {
-        en: "What is an Ichthyosaur?",
-        es: "What is an Ichthyosaur?",
-        de: "What is an Ichthyosaur?",
-        nl: "What is an Ichthyosaur?"
+      {
+        question: {
+                  "en": "What is a Plesiosaur?",
+                  "es": "What is a Plesiosaur?",
+                  "de": "What is a Plesiosaur?",
+                  "nl": "What is a Plesiosaur?"
+        },
+        options: [
+        {
+                  "en": "Fish",
+                  "es": "Fish",
+                  "de": "Fish",
+                  "nl": "Fish"
+        },
+        {
+                  "en": "Swimming dinosaur",
+                  "es": "Swimming dinosaur",
+                  "de": "Swimming dinosaur",
+                  "nl": "Swimming dinosaur"
+        },
+        {
+                  "en": "Marine reptile with long neck or large head",
+                  "es": "Marine reptile with long neck or large head",
+                  "de": "Marine reptile with long neck or large head",
+                  "nl": "Marine reptile with long neck or large head"
+        },
+        {
+                  "en": "Flying reptile",
+                  "es": "Flying reptile",
+                  "de": "Flying reptile",
+                  "nl": "Flying reptile"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Plesiosaurs were marine reptiles with either long necks and small heads, or short necks and large heads.",
+                  "es": "Plesiosaurs were marine reptiles with either long necks and small heads, or short necks and large heads.",
+                  "de": "Plesiosaurs were marine reptiles with either long necks and small heads, or short necks and large heads.",
+                  "nl": "Plesiosaurs were marine reptiles with either long necks and small heads, or short necks and large heads."
+        }
       },
-      options: [
-        { en: "Dolphin-like marine reptile", es: "Dolphin-like marine reptile", de: "Dolphin-like marine reptile", nl: "Dolphin-like marine reptile" },
-        { en: "Swimming dinosaur", es: "Swimming dinosaur", de: "Swimming dinosaur", nl: "Swimming dinosaur" },
-        { en: "Fish", es: "Fish", de: "Fish", nl: "Fish" },
-        { en: "Shark", es: "Shark", de: "Shark", nl: "Shark" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Ichthyosaurs were dolphin-like marine reptiles that lived during the Mesozoic Era.",
-        es: "Ichthyosaurs were dolphin-like marine reptiles that lived during the Mesozoic Era.",
-        de: "Ichthyosaurs were dolphin-like marine reptiles that lived during the Mesozoic Era.",
-        nl: "Ichthyosaurs were dolphin-like marine reptiles that lived during the Mesozoic Era."
-      }
-    },
-    {
-      question: {
-        en: "What is a Plesiosaur?",
-        es: "What is a Plesiosaur?",
-        de: "What is a Plesiosaur?",
-        nl: "What is a Plesiosaur?"
+      {
+        question: {
+                  "en": "What is a Mosasaur?",
+                  "es": "What is a Mosasaur?",
+                  "de": "What is a Mosasaur?",
+                  "nl": "What is a Mosasaur?"
+        },
+        options: [
+        {
+                  "en": "Shark",
+                  "es": "Shark",
+                  "de": "Shark",
+                  "nl": "Shark"
+        },
+        {
+                  "en": "Fish",
+                  "es": "Fish",
+                  "de": "Fish",
+                  "nl": "Fish"
+        },
+        {
+                  "en": "Large predatory marine reptile from Cretaceous",
+                  "es": "Large predatory marine reptile from Cretaceous",
+                  "de": "Large predatory marine reptile from Cretaceous",
+                  "nl": "Large predatory marine reptile from Cretaceous"
+        },
+        {
+                  "en": "Dinosaur",
+                  "es": "Dinosaur",
+                  "de": "Dinosaur",
+                  "nl": "Dinosaur"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Mosasaurs were large predatory marine reptiles that dominated Late Cretaceous seas.",
+                  "es": "Mosasaurs were large predatory marine reptiles that dominated Late Cretaceous seas.",
+                  "de": "Mosasaurs were large predatory marine reptiles that dominated Late Cretaceous seas.",
+                  "nl": "Mosasaurs were large predatory marine reptiles that dominated Late Cretaceous seas."
+        }
       },
-      options: [
-        { en: "Marine reptile with long neck or large head", es: "Marine reptile with long neck or large head", de: "Marine reptile with long neck or large head", nl: "Marine reptile with long neck or large head" },
-        { en: "Flying reptile", es: "Flying reptile", de: "Flying reptile", nl: "Flying reptile" },
-        { en: "Swimming dinosaur", es: "Swimming dinosaur", de: "Swimming dinosaur", nl: "Swimming dinosaur" },
-        { en: "Fish", es: "Fish", de: "Fish", nl: "Fish" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Plesiosaurs were marine reptiles with either long necks and small heads, or short necks and large heads.",
-        es: "Plesiosaurs were marine reptiles with either long necks and small heads, or short necks and large heads.",
-        de: "Plesiosaurs were marine reptiles with either long necks and small heads, or short necks and large heads.",
-        nl: "Plesiosaurs were marine reptiles with either long necks and small heads, or short necks and large heads."
-      }
-    },
-    {
-      question: {
-        en: "What is a Mosasaur?",
-        es: "What is a Mosasaur?",
-        de: "What is a Mosasaur?",
-        nl: "What is a Mosasaur?"
+      {
+        question: {
+                  "en": "Did marine reptiles lay eggs?",
+                  "es": "Did marine reptiles lay eggs?",
+                  "de": "Did marine reptiles lay eggs?",
+                  "nl": "Did marine reptiles lay eggs?"
+        },
+        options: [
+        {
+                  "en": "Some gave live birth; some laid eggs on land",
+                  "es": "Some gave live birth; some laid eggs on land",
+                  "de": "Some gave live birth; some laid eggs on land",
+                  "nl": "Some gave live birth; some laid eggs on land"
+        },
+        {
+                  "en": "Unknown",
+                  "es": "Unknown",
+                  "de": "Unknown",
+                  "nl": "Unknown"
+        },
+        {
+                  "en": "None laid eggs",
+                  "es": "None laid eggs",
+                  "de": "None laid eggs",
+                  "nl": "None laid eggs"
+        },
+        {
+                  "en": "All laid eggs",
+                  "es": "All laid eggs",
+                  "de": "All laid eggs",
+                  "nl": "All laid eggs"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Some marine reptiles like ichthyosaurs gave live birth, while others laid eggs on beaches like sea turtles.",
+                  "es": "Some marine reptiles like ichthyosaurs gave live birth, while others laid eggs on beaches like sea turtles.",
+                  "de": "Some marine reptiles like ichthyosaurs gave live birth, while others laid eggs on beaches like sea turtles.",
+                  "nl": "Some marine reptiles like ichthyosaurs gave live birth, while others laid eggs on beaches like sea turtles."
+        }
       },
-      options: [
-        { en: "Large predatory marine reptile from Cretaceous", es: "Large predatory marine reptile from Cretaceous", de: "Large predatory marine reptile from Cretaceous", nl: "Large predatory marine reptile from Cretaceous" },
-        { en: "Dinosaur", es: "Dinosaur", de: "Dinosaur", nl: "Dinosaur" },
-        { en: "Fish", es: "Fish", de: "Fish", nl: "Fish" },
-        { en: "Shark", es: "Shark", de: "Shark", nl: "Shark" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Mosasaurs were large predatory marine reptiles that dominated Late Cretaceous seas.",
-        es: "Mosasaurs were large predatory marine reptiles that dominated Late Cretaceous seas.",
-        de: "Mosasaurs were large predatory marine reptiles that dominated Late Cretaceous seas.",
-        nl: "Mosasaurs were large predatory marine reptiles that dominated Late Cretaceous seas."
-      }
-    },
-    {
-      question: {
-        en: "Did marine reptiles lay eggs?",
-        es: "Did marine reptiles lay eggs?",
-        de: "Did marine reptiles lay eggs?",
-        nl: "Did marine reptiles lay eggs?"
+      {
+        question: {
+                  "en": "What is the Loch Ness Monster legend based on?",
+                  "es": "What is the Loch Ness Monster legend based on?",
+                  "de": "What is the Loch Ness Monster legend based on?",
+                  "nl": "What is the Loch Ness Monster legend based on?"
+        },
+        options: [
+        {
+                  "en": "Mosasaur evidence",
+                  "es": "Mosasaur evidence",
+                  "de": "Mosasaur evidence",
+                  "nl": "Mosasaur evidence"
+        },
+        {
+                  "en": "Alleged plesiosaur survival",
+                  "es": "Alleged plesiosaur survival",
+                  "de": "Alleged plesiosaur survival",
+                  "nl": "Alleged plesiosaur survival"
+        },
+        {
+                  "en": "Fish migration",
+                  "es": "Fish migration",
+                  "de": "Fish migration",
+                  "nl": "Fish migration"
+        },
+        {
+                  "en": "Ichthyosaur sighting",
+                  "es": "Ichthyosaur sighting",
+                  "de": "Ichthyosaur sighting",
+                  "nl": "Ichthyosaur sighting"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "The Loch Ness Monster legend imagines a plesiosaur somehow surviving to modern times, though this is impossible.",
+                  "es": "The Loch Ness Monster legend imagines a plesiosaur somehow surviving to modern times, though this is impossible.",
+                  "de": "The Loch Ness Monster legend imagines a plesiosaur somehow surviving to modern times, though this is impossible.",
+                  "nl": "The Loch Ness Monster legend imagines a plesiosaur somehow surviving to modern times, though this is impossible."
+        }
       },
-      options: [
-        { en: "Some gave live birth; some laid eggs on land", es: "Some gave live birth; some laid eggs on land", de: "Some gave live birth; some laid eggs on land", nl: "Some gave live birth; some laid eggs on land" },
-        { en: "All laid eggs", es: "All laid eggs", de: "All laid eggs", nl: "All laid eggs" },
-        { en: "None laid eggs", es: "None laid eggs", de: "None laid eggs", nl: "None laid eggs" },
-        { en: "Unknown", es: "Unknown", de: "Unknown", nl: "Unknown" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Some marine reptiles like ichthyosaurs gave live birth, while others laid eggs on beaches like sea turtles.",
-        es: "Some marine reptiles like ichthyosaurs gave live birth, while others laid eggs on beaches like sea turtles.",
-        de: "Some marine reptiles like ichthyosaurs gave live birth, while others laid eggs on beaches like sea turtles.",
-        nl: "Some marine reptiles like ichthyosaurs gave live birth, while others laid eggs on beaches like sea turtles."
-      }
-    },
-    {
-      question: {
-        en: "What is the Loch Ness Monster legend based on?",
-        es: "What is the Loch Ness Monster legend based on?",
-        de: "What is the Loch Ness Monster legend based on?",
-        nl: "What is the Loch Ness Monster legend based on?"
+      {
+        question: {
+                  "en": "What is a Kronosaurus?",
+                  "es": "What is a Kronosaurus?",
+                  "de": "What is a Kronosaurus?",
+                  "nl": "What is a Kronosaurus?"
+        },
+        options: [
+        {
+                  "en": "Ichthyosaur",
+                  "es": "Ichthyosaur",
+                  "de": "Ichthyosaur",
+                  "nl": "Ichthyosaur"
+        },
+        {
+                  "en": "Giant short-necked plesiosaur",
+                  "es": "Giant short-necked plesiosaur",
+                  "de": "Giant short-necked plesiosaur",
+                  "nl": "Giant short-necked plesiosaur"
+        },
+        {
+                  "en": "Mosasaur",
+                  "es": "Mosasaur",
+                  "de": "Mosasaur",
+                  "nl": "Mosasaur"
+        },
+        {
+                  "en": "Long-necked plesiosaur",
+                  "es": "Long-necked plesiosaur",
+                  "de": "Long-necked plesiosaur",
+                  "nl": "Long-necked plesiosaur"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Kronosaurus was a massive short-necked plesiosaur (pliosaur) with a huge head and powerful jaws.",
+                  "es": "Kronosaurus was a massive short-necked plesiosaur (pliosaur) with a huge head and powerful jaws.",
+                  "de": "Kronosaurus was a massive short-necked plesiosaur (pliosaur) with a huge head and powerful jaws.",
+                  "nl": "Kronosaurus was a massive short-necked plesiosaur (pliosaur) with a huge head and powerful jaws."
+        }
       },
-      options: [
-        { en: "Alleged plesiosaur survival", es: "Alleged plesiosaur survival", de: "Alleged plesiosaur survival", nl: "Alleged plesiosaur survival" },
-        { en: "Ichthyosaur sighting", es: "Ichthyosaur sighting", de: "Ichthyosaur sighting", nl: "Ichthyosaur sighting" },
-        { en: "Mosasaur evidence", es: "Mosasaur evidence", de: "Mosasaur evidence", nl: "Mosasaur evidence" },
-        { en: "Fish migration", es: "Fish migration", de: "Fish migration", nl: "Fish migration" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "The Loch Ness Monster legend imagines a plesiosaur somehow surviving to modern times, though this is impossible.",
-        es: "The Loch Ness Monster legend imagines a plesiosaur somehow surviving to modern times, though this is impossible.",
-        de: "The Loch Ness Monster legend imagines a plesiosaur somehow surviving to modern times, though this is impossible.",
-        nl: "The Loch Ness Monster legend imagines a plesiosaur somehow surviving to modern times, though this is impossible."
-      }
-    },
-    {
-      question: {
-        en: "What is a Kronosaurus?",
-        es: "What is a Kronosaurus?",
-        de: "What is a Kronosaurus?",
-        nl: "What is a Kronosaurus?"
+      {
+        question: {
+                  "en": "How did ichthyosaurs breathe?",
+                  "es": "How did ichthyosaurs breathe?",
+                  "de": "How did ichthyosaurs breathe?",
+                  "nl": "How did ichthyosaurs breathe?"
+        },
+        options: [
+        {
+                  "en": "Didn't breathe",
+                  "es": "Didn't breathe",
+                  "de": "Didn't breathe",
+                  "nl": "Didn't breathe"
+        },
+        {
+                  "en": "Came to surface for air",
+                  "es": "Came to surface for air",
+                  "de": "Came to surface for air",
+                  "nl": "Came to surface for air"
+        },
+        {
+                  "en": "Through skin",
+                  "es": "Through skin",
+                  "de": "Through skin",
+                  "nl": "Through skin"
+        },
+        {
+                  "en": "Through gills",
+                  "es": "Through gills",
+                  "de": "Through gills",
+                  "nl": "Through gills"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Ichthyosaurs were air-breathing reptiles that had to surface regularly to breathe, like modern dolphins.",
+                  "es": "Ichthyosaurs were air-breathing reptiles that had to surface regularly to breathe, like modern dolphins.",
+                  "de": "Ichthyosaurs were air-breathing reptiles that had to surface regularly to breathe, like modern dolphins.",
+                  "nl": "Ichthyosaurs were air-breathing reptiles that had to surface regularly to breathe, like modern dolphins."
+        }
       },
-      options: [
-        { en: "Giant short-necked plesiosaur", es: "Giant short-necked plesiosaur", de: "Giant short-necked plesiosaur", nl: "Giant short-necked plesiosaur" },
-        { en: "Long-necked plesiosaur", es: "Long-necked plesiosaur", de: "Long-necked plesiosaur", nl: "Long-necked plesiosaur" },
-        { en: "Ichthyosaur", es: "Ichthyosaur", de: "Ichthyosaur", nl: "Ichthyosaur" },
-        { en: "Mosasaur", es: "Mosasaur", de: "Mosasaur", nl: "Mosasaur" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Kronosaurus was a massive short-necked plesiosaur (pliosaur) with a huge head and powerful jaws.",
-        es: "Kronosaurus was a massive short-necked plesiosaur (pliosaur) with a huge head and powerful jaws.",
-        de: "Kronosaurus was a massive short-necked plesiosaur (pliosaur) with a huge head and powerful jaws.",
-        nl: "Kronosaurus was a massive short-necked plesiosaur (pliosaur) with a huge head and powerful jaws."
-      }
-    },
-    {
-      question: {
-        en: "How did ichthyosaurs breathe?",
-        es: "How did ichthyosaurs breathe?",
-        de: "How did ichthyosaurs breathe?",
-        nl: "How did ichthyosaurs breathe?"
+      {
+        question: {
+                  "en": "What is a Nothosaur?",
+                  "es": "What is a Nothosaur?",
+                  "de": "What is a Nothosaur?",
+                  "nl": "What is a Nothosaur?"
+        },
+        options: [
+        {
+                  "en": "Dinosaur",
+                  "es": "Dinosaur",
+                  "de": "Dinosaur",
+                  "nl": "Dinosaur"
+        },
+        {
+                  "en": "Early marine reptile, plesiosaur relative",
+                  "es": "Early marine reptile, plesiosaur relative",
+                  "de": "Early marine reptile, plesiosaur relative",
+                  "nl": "Early marine reptile, plesiosaur relative"
+        },
+        {
+                  "en": "Flying reptile",
+                  "es": "Flying reptile",
+                  "de": "Flying reptile",
+                  "nl": "Flying reptile"
+        },
+        {
+                  "en": "Late marine reptile",
+                  "es": "Late marine reptile",
+                  "de": "Late marine reptile",
+                  "nl": "Late marine reptile"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Nothosaurs were early marine reptiles from the Triassic, related to but more primitive than plesiosaurs.",
+                  "es": "Nothosaurs were early marine reptiles from the Triassic, related to but more primitive than plesiosaurs.",
+                  "de": "Nothosaurs were early marine reptiles from the Triassic, related to but more primitive than plesiosaurs.",
+                  "nl": "Nothosaurs were early marine reptiles from the Triassic, related to but more primitive than plesiosaurs."
+        }
       },
-      options: [
-        { en: "Came to surface for air", es: "Came to surface for air", de: "Came to surface for air", nl: "Came to surface for air" },
-        { en: "Through gills", es: "Through gills", de: "Through gills", nl: "Through gills" },
-        { en: "Through skin", es: "Through skin", de: "Through skin", nl: "Through skin" },
-        { en: "Didn't breathe", es: "Didn't breathe", de: "Didn't breathe", nl: "Didn't breathe" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Ichthyosaurs were air-breathing reptiles that had to surface regularly to breathe, like modern dolphins.",
-        es: "Ichthyosaurs were air-breathing reptiles that had to surface regularly to breathe, like modern dolphins.",
-        de: "Ichthyosaurs were air-breathing reptiles that had to surface regularly to breathe, like modern dolphins.",
-        nl: "Ichthyosaurs were air-breathing reptiles that had to surface regularly to breathe, like modern dolphins."
-      }
-    },
-    {
-      question: {
-        en: "What is a Nothosaur?",
-        es: "What is a Nothosaur?",
-        de: "What is a Nothosaur?",
-        nl: "What is a Nothosaur?"
+      {
+        question: {
+                  "en": "What was the largest mosasaur?",
+                  "es": "What was the largest mosasaur?",
+                  "de": "What was the largest mosasaur?",
+                  "nl": "What was the largest mosasaur?"
+        },
+        options: [
+        {
+                  "en": "Plotosaurus",
+                  "es": "Plotosaurus",
+                  "de": "Plotosaurus",
+                  "nl": "Plotosaurus"
+        },
+        {
+                  "en": "Mosasaurus hoffmannii",
+                  "es": "Mosasaurus hoffmannii",
+                  "de": "Mosasaurus hoffmannii",
+                  "nl": "Mosasaurus hoffmannii"
+        },
+        {
+                  "en": "Hainosaurus",
+                  "es": "Hainosaurus",
+                  "de": "Hainosaurus",
+                  "nl": "Hainosaurus"
+        },
+        {
+                  "en": "Tylosaurus",
+                  "es": "Tylosaurus",
+                  "de": "Tylosaurus",
+                  "nl": "Tylosaurus"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Mosasaurus hoffmannii was one of the largest mosasaurs, reaching up to 56 feet in length.",
+                  "es": "Mosasaurus hoffmannii was one of the largest mosasaurs, reaching up to 56 feet in length.",
+                  "de": "Mosasaurus hoffmannii was one of the largest mosasaurs, reaching up to 56 feet in length.",
+                  "nl": "Mosasaurus hoffmannii was one of the largest mosasaurs, reaching up to 56 feet in length."
+        }
       },
-      options: [
-        { en: "Early marine reptile, plesiosaur relative", es: "Early marine reptile, plesiosaur relative", de: "Early marine reptile, plesiosaur relative", nl: "Early marine reptile, plesiosaur relative" },
-        { en: "Late marine reptile", es: "Late marine reptile", de: "Late marine reptile", nl: "Late marine reptile" },
-        { en: "Flying reptile", es: "Flying reptile", de: "Flying reptile", nl: "Flying reptile" },
-        { en: "Dinosaur", es: "Dinosaur", de: "Dinosaur", nl: "Dinosaur" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Nothosaurs were early marine reptiles from the Triassic, related to but more primitive than plesiosaurs.",
-        es: "Nothosaurs were early marine reptiles from the Triassic, related to but more primitive than plesiosaurs.",
-        de: "Nothosaurs were early marine reptiles from the Triassic, related to but more primitive than plesiosaurs.",
-        nl: "Nothosaurs were early marine reptiles from the Triassic, related to but more primitive than plesiosaurs."
-      }
-    },
-    {
-      question: {
-        en: "What was the largest mosasaur?",
-        es: "What was the largest mosasaur?",
-        de: "What was the largest mosasaur?",
-        nl: "What was the largest mosasaur?"
+      {
+        question: {
+                  "en": "What did plesiosaurs eat?",
+                  "es": "What did plesiosaurs eat?",
+                  "de": "What did plesiosaurs eat?",
+                  "nl": "What did plesiosaurs eat?"
+        },
+        options: [
+        {
+                  "en": "Plants",
+                  "es": "Plants",
+                  "de": "Plants",
+                  "nl": "Plants"
+        },
+        {
+                  "en": "Nothing",
+                  "es": "Nothing",
+                  "de": "Nothing",
+                  "nl": "Nothing"
+        },
+        {
+                  "en": "Plankton only",
+                  "es": "Plankton only",
+                  "de": "Plankton only",
+                  "nl": "Plankton only"
+        },
+        {
+                  "en": "Fish and other marine animals",
+                  "es": "Fish and other marine animals",
+                  "de": "Fish and other marine animals",
+                  "nl": "Fish and other marine animals"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Plesiosaurs were carnivores that fed on fish, squid, and other marine animals.",
+                  "es": "Plesiosaurs were carnivores that fed on fish, squid, and other marine animals.",
+                  "de": "Plesiosaurs were carnivores that fed on fish, squid, and other marine animals.",
+                  "nl": "Plesiosaurs were carnivores that fed on fish, squid, and other marine animals."
+        }
       },
-      options: [
-        { en: "Mosasaurus hoffmannii", es: "Mosasaurus hoffmannii", de: "Mosasaurus hoffmannii", nl: "Mosasaurus hoffmannii" },
-        { en: "Tylosaurus", es: "Tylosaurus", de: "Tylosaurus", nl: "Tylosaurus" },
-        { en: "Hainosaurus", es: "Hainosaurus", de: "Hainosaurus", nl: "Hainosaurus" },
-        { en: "Plotosaurus", es: "Plotosaurus", de: "Plotosaurus", nl: "Plotosaurus" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Mosasaurus hoffmannii was one of the largest mosasaurs, reaching up to 56 feet in length.",
-        es: "Mosasaurus hoffmannii was one of the largest mosasaurs, reaching up to 56 feet in length.",
-        de: "Mosasaurus hoffmannii was one of the largest mosasaurs, reaching up to 56 feet in length.",
-        nl: "Mosasaurus hoffmannii was one of the largest mosasaurs, reaching up to 56 feet in length."
-      }
-    },
-    {
-      question: {
-        en: "What did plesiosaurs eat?",
-        es: "What did plesiosaurs eat?",
-        de: "What did plesiosaurs eat?",
-        nl: "What did plesiosaurs eat?"
+      {
+        question: {
+                  "en": "What is the difference between plesiosaurs and pliosaurs?",
+                  "es": "What is the difference between plesiosaurs and pliosaurs?",
+                  "de": "What is the difference between plesiosaurs and pliosaurs?",
+                  "nl": "What is the difference between plesiosaurs and pliosaurs?"
+        },
+        options: [
+        {
+                  "en": "Different ocean habitats",
+                  "es": "Different ocean habitats",
+                  "de": "Different ocean habitats",
+                  "nl": "Different ocean habitats"
+        },
+        {
+                  "en": "Different time periods",
+                  "es": "Different time periods",
+                  "de": "Different time periods",
+                  "nl": "Different time periods"
+        },
+        {
+                  "en": "Plesiosaurs had long necks; pliosaurs had large heads",
+                  "es": "Plesiosaurs had long necks; pliosaurs had large heads",
+                  "de": "Plesiosaurs had long necks; pliosaurs had large heads",
+                  "nl": "Plesiosaurs had long necks; pliosaurs had large heads"
+        },
+        {
+                  "en": "No difference",
+                  "es": "No difference",
+                  "de": "No difference",
+                  "nl": "No difference"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Plesiosaurs had long necks and small heads, while pliosaurs had short necks and massive heads.",
+                  "es": "Plesiosaurs had long necks and small heads, while pliosaurs had short necks and massive heads.",
+                  "de": "Plesiosaurs had long necks and small heads, while pliosaurs had short necks and massive heads.",
+                  "nl": "Plesiosaurs had long necks and small heads, while pliosaurs had short necks and massive heads."
+        }
       },
-      options: [
-        { en: "Fish and other marine animals", es: "Fish and other marine animals", de: "Fish and other marine animals", nl: "Fish and other marine animals" },
-        { en: "Plankton only", es: "Plankton only", de: "Plankton only", nl: "Plankton only" },
-        { en: "Plants", es: "Plants", de: "Plants", nl: "Plants" },
-        { en: "Nothing", es: "Nothing", de: "Nothing", nl: "Nothing" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Plesiosaurs were carnivores that fed on fish, squid, and other marine animals.",
-        es: "Plesiosaurs were carnivores that fed on fish, squid, and other marine animals.",
-        de: "Plesiosaurs were carnivores that fed on fish, squid, and other marine animals.",
-        nl: "Plesiosaurs were carnivores that fed on fish, squid, and other marine animals."
-      }
-    },
-    {
-      question: {
-        en: "What is the difference between plesiosaurs and pliosaurs?",
-        es: "What is the difference between plesiosaurs and pliosaurs?",
-        de: "What is the difference between plesiosaurs and pliosaurs?",
-        nl: "What is the difference between plesiosaurs and pliosaurs?"
+      {
+        question: {
+                  "en": "How fast could ichthyosaurs swim?",
+                  "es": "How fast could ichthyosaurs swim?",
+                  "de": "How fast could ichthyosaurs swim?",
+                  "nl": "How fast could ichthyosaurs swim?"
+        },
+        options: [
+        {
+                  "en": "Moderate speed",
+                  "es": "Moderate speed",
+                  "de": "Moderate speed",
+                  "nl": "Moderate speed"
+        },
+        {
+                  "en": "Very fast, like modern dolphins",
+                  "es": "Very fast, like modern dolphins",
+                  "de": "Very fast, like modern dolphins",
+                  "nl": "Very fast, like modern dolphins"
+        },
+        {
+                  "en": "Couldn't swim",
+                  "es": "Couldn't swim",
+                  "de": "Couldn't swim",
+                  "nl": "Couldn't swim"
+        },
+        {
+                  "en": "Very slow",
+                  "es": "Very slow",
+                  "de": "Very slow",
+                  "nl": "Very slow"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Ichthyosaurs were fast swimmers, with streamlined bodies similar to modern dolphins.",
+                  "es": "Ichthyosaurs were fast swimmers, with streamlined bodies similar to modern dolphins.",
+                  "de": "Ichthyosaurs were fast swimmers, with streamlined bodies similar to modern dolphins.",
+                  "nl": "Ichthyosaurs were fast swimmers, with streamlined bodies similar to modern dolphins."
+        }
       },
-      options: [
-        { en: "Plesiosaurs had long necks; pliosaurs had large heads", es: "Plesiosaurs had long necks; pliosaurs had large heads", de: "Plesiosaurs had long necks; pliosaurs had large heads", nl: "Plesiosaurs had long necks; pliosaurs had large heads" },
-        { en: "No difference", es: "No difference", de: "No difference", nl: "No difference" },
-        { en: "Different time periods", es: "Different time periods", de: "Different time periods", nl: "Different time periods" },
-        { en: "Different ocean habitats", es: "Different ocean habitats", de: "Different ocean habitats", nl: "Different ocean habitats" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Plesiosaurs had long necks and small heads, while pliosaurs had short necks and massive heads.",
-        es: "Plesiosaurs had long necks and small heads, while pliosaurs had short necks and massive heads.",
-        de: "Plesiosaurs had long necks and small heads, while pliosaurs had short necks and massive heads.",
-        nl: "Plesiosaurs had long necks and small heads, while pliosaurs had short necks and massive heads."
-      }
-    },
-    {
-      question: {
-        en: "How fast could ichthyosaurs swim?",
-        es: "How fast could ichthyosaurs swim?",
-        de: "How fast could ichthyosaurs swim?",
-        nl: "How fast could ichthyosaurs swim?"
+      {
+        question: {
+                  "en": "What is Elasmosaurus?",
+                  "es": "What is Elasmosaurus?",
+                  "de": "What is Elasmosaurus?",
+                  "nl": "What is Elasmosaurus?"
+        },
+        options: [
+        {
+                  "en": "Plesiosaur with extremely long neck",
+                  "es": "Plesiosaur with extremely long neck",
+                  "de": "Plesiosaur with extremely long neck",
+                  "nl": "Plesiosaur with extremely long neck"
+        },
+        {
+                  "en": "Mosasaur",
+                  "es": "Mosasaur",
+                  "de": "Mosasaur",
+                  "nl": "Mosasaur"
+        },
+        {
+                  "en": "Ichthyosaur",
+                  "es": "Ichthyosaur",
+                  "de": "Ichthyosaur",
+                  "nl": "Ichthyosaur"
+        },
+        {
+                  "en": "Short-necked pliosaur",
+                  "es": "Short-necked pliosaur",
+                  "de": "Short-necked pliosaur",
+                  "nl": "Short-necked pliosaur"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Elasmosaurus had an extremely long neck with up to 72 vertebrae, making up more than half its body length.",
+                  "es": "Elasmosaurus had an extremely long neck with up to 72 vertebrae, making up more than half its body length.",
+                  "de": "Elasmosaurus had an extremely long neck with up to 72 vertebrae, making up more than half its body length.",
+                  "nl": "Elasmosaurus had an extremely long neck with up to 72 vertebrae, making up more than half its body length."
+        }
       },
-      options: [
-        { en: "Very fast, like modern dolphins", es: "Very fast, like modern dolphins", de: "Very fast, like modern dolphins", nl: "Very fast, like modern dolphins" },
-        { en: "Very slow", es: "Very slow", de: "Very slow", nl: "Very slow" },
-        { en: "Moderate speed", es: "Moderate speed", de: "Moderate speed", nl: "Moderate speed" },
-        { en: "Couldn't swim", es: "Couldn't swim", de: "Couldn't swim", nl: "Couldn't swim" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Ichthyosaurs were fast swimmers, with streamlined bodies similar to modern dolphins.",
-        es: "Ichthyosaurs were fast swimmers, with streamlined bodies similar to modern dolphins.",
-        de: "Ichthyosaurs were fast swimmers, with streamlined bodies similar to modern dolphins.",
-        nl: "Ichthyosaurs were fast swimmers, with streamlined bodies similar to modern dolphins."
-      }
-    },
-    {
-      question: {
-        en: "What is Elasmosaurus?",
-        es: "What is Elasmosaurus?",
-        de: "What is Elasmosaurus?",
-        nl: "What is Elasmosaurus?"
+      {
+        question: {
+                  "en": "Did marine reptiles go extinct with the dinosaurs?",
+                  "es": "Did marine reptiles go extinct with the dinosaurs?",
+                  "de": "Did marine reptiles go extinct with the dinosaurs?",
+                  "nl": "Did marine reptiles go extinct with the dinosaurs?"
+        },
+        options: [
+        {
+                  "en": "Some survived",
+                  "es": "Some survived",
+                  "de": "Some survived",
+                  "nl": "Some survived"
+        },
+        {
+                  "en": "Yes, in the same extinction event",
+                  "es": "Yes, in the same extinction event",
+                  "de": "Yes, in the same extinction event",
+                  "nl": "Yes, in the same extinction event"
+        },
+        {
+                  "en": "No, they survived",
+                  "es": "No, they survived",
+                  "de": "No, they survived",
+                  "nl": "No, they survived"
+        },
+        {
+                  "en": "They went extinct earlier",
+                  "es": "They went extinct earlier",
+                  "de": "They went extinct earlier",
+                  "nl": "They went extinct earlier"
+        }
+        ],
+        correct: 1,
+        explanation: {
+                  "en": "Most marine reptiles went extinct in the same extinction event that killed the dinosaurs 66 million years ago.",
+                  "es": "Most marine reptiles went extinct in the same extinction event that killed the dinosaurs 66 million years ago.",
+                  "de": "Most marine reptiles went extinct in the same extinction event that killed the dinosaurs 66 million years ago.",
+                  "nl": "Most marine reptiles went extinct in the same extinction event that killed the dinosaurs 66 million years ago."
+        }
       },
-      options: [
-        { en: "Plesiosaur with extremely long neck", es: "Plesiosaur with extremely long neck", de: "Plesiosaur with extremely long neck", nl: "Plesiosaur with extremely long neck" },
-        { en: "Short-necked pliosaur", es: "Short-necked pliosaur", de: "Short-necked pliosaur", nl: "Short-necked pliosaur" },
-        { en: "Ichthyosaur", es: "Ichthyosaur", de: "Ichthyosaur", nl: "Ichthyosaur" },
-        { en: "Mosasaur", es: "Mosasaur", de: "Mosasaur", nl: "Mosasaur" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Elasmosaurus had an extremely long neck with up to 72 vertebrae, making up more than half its body length.",
-        es: "Elasmosaurus had an extremely long neck with up to 72 vertebrae, making up more than half its body length.",
-        de: "Elasmosaurus had an extremely long neck with up to 72 vertebrae, making up more than half its body length.",
-        nl: "Elasmosaurus had an extremely long neck with up to 72 vertebrae, making up more than half its body length."
-      }
-    },
-    {
-      question: {
-        en: "Did marine reptiles go extinct with the dinosaurs?",
-        es: "Did marine reptiles go extinct with the dinosaurs?",
-        de: "Did marine reptiles go extinct with the dinosaurs?",
-        nl: "Did marine reptiles go extinct with the dinosaurs?"
+      {
+        question: {
+                  "en": "What is unique about ichthyosaur eyes?",
+                  "es": "What is unique about ichthyosaur eyes?",
+                  "de": "What is unique about ichthyosaur eyes?",
+                  "nl": "What is unique about ichthyosaur eyes?"
+        },
+        options: [
+        {
+                  "en": "Some had the largest eyes of any vertebrate",
+                  "es": "Some had the largest eyes of any vertebrate",
+                  "de": "Some had the largest eyes of any vertebrate",
+                  "nl": "Some had the largest eyes of any vertebrate"
+        },
+        {
+                  "en": "No eyes",
+                  "es": "No eyes",
+                  "de": "No eyes",
+                  "nl": "No eyes"
+        },
+        {
+                  "en": "Eyes on top of head",
+                  "es": "Eyes on top of head",
+                  "de": "Eyes on top of head",
+                  "nl": "Eyes on top of head"
+        },
+        {
+                  "en": "Smallest eyes",
+                  "es": "Smallest eyes",
+                  "de": "Smallest eyes",
+                  "nl": "Smallest eyes"
+        }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Some ichthyosaurs had enormous eyes, the largest of any known vertebrate, for hunting in deep water.",
+                  "es": "Some ichthyosaurs had enormous eyes, the largest of any known vertebrate, for hunting in deep water.",
+                  "de": "Some ichthyosaurs had enormous eyes, the largest of any known vertebrate, for hunting in deep water.",
+                  "nl": "Some ichthyosaurs had enormous eyes, the largest of any known vertebrate, for hunting in deep water."
+        }
       },
-      options: [
-        { en: "Yes, in the same extinction event", es: "Yes, in the same extinction event", de: "Yes, in the same extinction event", nl: "Yes, in the same extinction event" },
-        { en: "No, they survived", es: "No, they survived", de: "No, they survived", nl: "No, they survived" },
-        { en: "Some survived", es: "Some survived", de: "Some survived", nl: "Some survived" },
-        { en: "They went extinct earlier", es: "They went extinct earlier", de: "They went extinct earlier", nl: "They went extinct earlier" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Most marine reptiles went extinct in the same extinction event that killed the dinosaurs 66 million years ago.",
-        es: "Most marine reptiles went extinct in the same extinction event that killed the dinosaurs 66 million years ago.",
-        de: "Most marine reptiles went extinct in the same extinction event that killed the dinosaurs 66 million years ago.",
-        nl: "Most marine reptiles went extinct in the same extinction event that killed the dinosaurs 66 million years ago."
-      }
-    },
-    {
-      question: {
-        en: "What is unique about ichthyosaur eyes?",
-        es: "What is unique about ichthyosaur eyes?",
-        de: "What is unique about ichthyosaur eyes?",
-        nl: "What is unique about ichthyosaur eyes?"
+      {
+        question: {
+                  "en": "What is a Tylosaurus?",
+                  "es": "What is a Tylosaurus?",
+                  "de": "What is a Tylosaurus?",
+                  "nl": "What is a Tylosaurus?"
+        },
+        options: [
+        {
+                  "en": "Dinosaur",
+                  "es": "Dinosaur",
+                  "de": "Dinosaur",
+                  "nl": "Dinosaur"
+        },
+        {
+                  "en": "Ichthyosaur",
+                  "es": "Ichthyosaur",
+                  "de": "Ichthyosaur",
+                  "nl": "Ichthyosaur"
+        },
+        {
+                  "en": "Plesiosaur",
+                  "es": "Plesiosaur",
+                  "de": "Plesiosaur",
+                  "nl": "Plesiosaur"
+        },
+        {
+                  "en": "Type of large mosasaur",
+                  "es": "Type of large mosasaur",
+                  "de": "Type of large mosasaur",
+                  "nl": "Type of large mosasaur"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Tylosaurus was a large mosasaur from the Late Cretaceous, up to 45 feet long.",
+                  "es": "Tylosaurus was a large mosasaur from the Late Cretaceous, up to 45 feet long.",
+                  "de": "Tylosaurus was a large mosasaur from the Late Cretaceous, up to 45 feet long.",
+                  "nl": "Tylosaurus was a large mosasaur from the Late Cretaceous, up to 45 feet long."
+        }
       },
-      options: [
-        { en: "Some had the largest eyes of any vertebrate", es: "Some had the largest eyes of any vertebrate", de: "Some had the largest eyes of any vertebrate", nl: "Some had the largest eyes of any vertebrate" },
-        { en: "Smallest eyes", es: "Smallest eyes", de: "Smallest eyes", nl: "Smallest eyes" },
-        { en: "No eyes", es: "No eyes", de: "No eyes", nl: "No eyes" },
-        { en: "Eyes on top of head", es: "Eyes on top of head", de: "Eyes on top of head", nl: "Eyes on top of head" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Some ichthyosaurs had enormous eyes, the largest of any known vertebrate, for hunting in deep water.",
-        es: "Some ichthyosaurs had enormous eyes, the largest of any known vertebrate, for hunting in deep water.",
-        de: "Some ichthyosaurs had enormous eyes, the largest of any known vertebrate, for hunting in deep water.",
-        nl: "Some ichthyosaurs had enormous eyes, the largest of any known vertebrate, for hunting in deep water."
-      }
-    },
-    {
-      question: {
-        en: "What is a Tylosaurus?",
-        es: "What is a Tylosaurus?",
-        de: "What is a Tylosaurus?",
-        nl: "What is a Tylosaurus?"
+      {
+        question: {
+                  "en": "How are marine reptiles related to modern animals?",
+                  "es": "How are marine reptiles related to modern animals?",
+                  "de": "How are marine reptiles related to modern animals?",
+                  "nl": "How are marine reptiles related to modern animals?"
+        },
+        options: [
+        {
+                  "en": "No living relatives",
+                  "es": "No living relatives",
+                  "de": "No living relatives",
+                  "nl": "No living relatives"
+        },
+        {
+                  "en": "Ancestors of fish",
+                  "es": "Ancestors of fish",
+                  "de": "Ancestors of fish",
+                  "nl": "Ancestors of fish"
+        },
+        {
+                  "en": "Ancestors of dolphins",
+                  "es": "Ancestors of dolphins",
+                  "de": "Ancestors of dolphins",
+                  "nl": "Ancestors of dolphins"
+        },
+        {
+                  "en": "Distant relatives of modern reptiles",
+                  "es": "Distant relatives of modern reptiles",
+                  "de": "Distant relatives of modern reptiles",
+                  "nl": "Distant relatives of modern reptiles"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Marine reptiles were reptiles, distantly related to modern lizards, snakes, and crocodiles, but with no direct living descendants.",
+                  "es": "Marine reptiles were reptiles, distantly related to modern lizards, snakes, and crocodiles, but with no direct living descendants.",
+                  "de": "Marine reptiles were reptiles, distantly related to modern lizards, snakes, and crocodiles, but with no direct living descendants.",
+                  "nl": "Marine reptiles were reptiles, distantly related to modern lizards, snakes, and crocodiles, but with no direct living descendants."
+        }
       },
-      options: [
-        { en: "Type of large mosasaur", es: "Type of large mosasaur", de: "Type of large mosasaur", nl: "Type of large mosasaur" },
-        { en: "Plesiosaur", es: "Plesiosaur", de: "Plesiosaur", nl: "Plesiosaur" },
-        { en: "Ichthyosaur", es: "Ichthyosaur", de: "Ichthyosaur", nl: "Ichthyosaur" },
-        { en: "Dinosaur", es: "Dinosaur", de: "Dinosaur", nl: "Dinosaur" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Tylosaurus was a large mosasaur from the Late Cretaceous, up to 45 feet long.",
-        es: "Tylosaurus was a large mosasaur from the Late Cretaceous, up to 45 feet long.",
-        de: "Tylosaurus was a large mosasaur from the Late Cretaceous, up to 45 feet long.",
-        nl: "Tylosaurus was a large mosasaur from the Late Cretaceous, up to 45 feet long."
-      }
-    },
-    {
-      question: {
-        en: "How are marine reptiles related to modern animals?",
-        es: "How are marine reptiles related to modern animals?",
-        de: "How are marine reptiles related to modern animals?",
-        nl: "How are marine reptiles related to modern animals?"
+      {
+        question: {
+                  "en": "What did mosasaurs evolve from?",
+                  "es": "What did mosasaurs evolve from?",
+                  "de": "What did mosasaurs evolve from?",
+                  "nl": "What did mosasaurs evolve from?"
+        },
+        options: [
+        {
+                  "en": "Dinosaurs",
+                  "es": "Dinosaurs",
+                  "de": "Dinosaurs",
+                  "nl": "Dinosaurs"
+        },
+        {
+                  "en": "Plesiosaurs",
+                  "es": "Plesiosaurs",
+                  "de": "Plesiosaurs",
+                  "nl": "Plesiosaurs"
+        },
+        {
+                  "en": "Fish",
+                  "es": "Fish",
+                  "de": "Fish",
+                  "nl": "Fish"
+        },
+        {
+                  "en": "Land-dwelling lizards",
+                  "es": "Land-dwelling lizards",
+                  "de": "Land-dwelling lizards",
+                  "nl": "Land-dwelling lizards"
+        }
+        ],
+        correct: 3,
+        explanation: {
+                  "en": "Mosasaurs evolved from land-dwelling lizards that returned to the sea.",
+                  "es": "Mosasaurs evolved from land-dwelling lizards that returned to the sea.",
+                  "de": "Mosasaurs evolved from land-dwelling lizards that returned to the sea.",
+                  "nl": "Mosasaurs evolved from land-dwelling lizards that returned to the sea."
+        }
       },
-      options: [
-        { en: "Distant relatives of modern reptiles", es: "Distant relatives of modern reptiles", de: "Distant relatives of modern reptiles", nl: "Distant relatives of modern reptiles" },
-        { en: "Ancestors of dolphins", es: "Ancestors of dolphins", de: "Ancestors of dolphins", nl: "Ancestors of dolphins" },
-        { en: "Ancestors of fish", es: "Ancestors of fish", de: "Ancestors of fish", nl: "Ancestors of fish" },
-        { en: "No living relatives", es: "No living relatives", de: "No living relatives", nl: "No living relatives" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Marine reptiles were reptiles, distantly related to modern lizards, snakes, and crocodiles, but with no direct living descendants.",
-        es: "Marine reptiles were reptiles, distantly related to modern lizards, snakes, and crocodiles, but with no direct living descendants.",
-        de: "Marine reptiles were reptiles, distantly related to modern lizards, snakes, and crocodiles, but with no direct living descendants.",
-        nl: "Marine reptiles were reptiles, distantly related to modern lizards, snakes, and crocodiles, but with no direct living descendants."
-      }
-    },
-    {
-      question: {
-        en: "What did mosasaurs evolve from?",
-        es: "What did mosasaurs evolve from?",
-        de: "What did mosasaurs evolve from?",
-        nl: "What did mosasaurs evolve from?"
-      },
-      options: [
-        { en: "Land-dwelling lizards", es: "Land-dwelling lizards", de: "Land-dwelling lizards", nl: "Land-dwelling lizards" },
-        { en: "Dinosaurs", es: "Dinosaurs", de: "Dinosaurs", nl: "Dinosaurs" },
-        { en: "Fish", es: "Fish", de: "Fish", nl: "Fish" },
-        { en: "Plesiosaurs", es: "Plesiosaurs", de: "Plesiosaurs", nl: "Plesiosaurs" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Mosasaurs evolved from land-dwelling lizards that returned to the sea.",
-        es: "Mosasaurs evolved from land-dwelling lizards that returned to the sea.",
-        de: "Mosasaurs evolved from land-dwelling lizards that returned to the sea.",
-        nl: "Mosasaurs evolved from land-dwelling lizards that returned to the sea."
-      }
-    },
-    {
-      question: {
-        en: "What is a Shonisaurus?",
-        es: "What is a Shonisaurus?",
-        de: "What is a Shonisaurus?",
-        nl: "What is a Shonisaurus?"
-      },
-      options: [
-        { en: "Giant Triassic ichthyosaur", es: "Giant Triassic ichthyosaur", de: "Giant Triassic ichthyosaur", nl: "Giant Triassic ichthyosaur" },
-        { en: "Jurassic plesiosaur", es: "Jurassic plesiosaur", de: "Jurassic plesiosaur", nl: "Jurassic plesiosaur" },
-        { en: "Cretaceous mosasaur", es: "Cretaceous mosasaur", de: "Cretaceous mosasaur", nl: "Cretaceous mosasaur" },
-        { en: "Dinosaur", es: "Dinosaur", de: "Dinosaur", nl: "Dinosaur" }
-      ],
-      correct: 0,
-      explanation: {
-        en: "Shonisaurus was one of the largest ichthyosaurs, from the Late Triassic, up to 50 feet long.",
-        es: "Shonisaurus was one of the largest ichthyosaurs, from the Late Triassic, up to 50 feet long.",
-        de: "Shonisaurus was one of the largest ichthyosaurs, from the Late Triassic, up to 50 feet long.",
-        nl: "Shonisaurus was one of the largest ichthyosaurs, from the Late Triassic, up to 50 feet long."
-      }
-
+      {
+        question: {
+                  "en": "What is a Shonisaurus?",
+                  "es": "What is a Shonisaurus?",
+                  "de": "What is a Shonisaurus?",
+                  "nl": "What is a Shonisaurus?"
+        },
+        options: [
+        {
+                  "en": "Cretaceous mosasaur",
+                  "es": "Cretaceous mosasaur",
+                  "de": "Cretaceous mosasaur",
+                  "nl": "Cretaceous mosasaur"
+        },
+        {
+                  "en": "Dinosaur",
+                  "es": "Dinosaur",
+                  "de": "Dinosaur",
+                  "nl": "Dinosaur"
+        },
+        {
+                  "en": "Giant Triassic ichthyosaur",
+                  "es": "Giant Triassic ichthyosaur",
+                  "de": "Giant Triassic ichthyosaur",
+                  "nl": "Giant Triassic ichthyosaur"
+        },
+        {
+                  "en": "Jurassic plesiosaur",
+                  "es": "Jurassic plesiosaur",
+                  "de": "Jurassic plesiosaur",
+                  "nl": "Jurassic plesiosaur"
+        }
+        ],
+        correct: 2,
+        explanation: {
+                  "en": "Shonisaurus was one of the largest ichthyosaurs, from the Late Triassic, up to 50 feet long.",
+                  "es": "Shonisaurus was one of the largest ichthyosaurs, from the Late Triassic, up to 50 feet long.",
+                  "de": "Shonisaurus was one of the largest ichthyosaurs, from the Late Triassic, up to 50 feet long.",
+                  "nl": "Shonisaurus was one of the largest ichthyosaurs, from the Late Triassic, up to 50 feet long."
+        }
       }
     ]
   };
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = level3;
-  } else if (typeof window !== 'undefined') {
-    window.level3 = level3;
   }
 })();

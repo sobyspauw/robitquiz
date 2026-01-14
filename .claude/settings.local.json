@@ -300,7 +300,9 @@
       "Bash(else echo \"✓ OK\")",
       "Bash(then echo -n \"L$i: \")",
       "Bash(git fetch:*)",
-      "Bash(lsof:*)"
+      "Bash(lsof:*)",
+      "Bash(tail:*)",
+      "Bash(else echo \"Level $i: File not found\")"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
