@@ -826,6 +826,48 @@
           de: "Henri Becquerel entdeckte 1896 die Radioaktivität bei der Untersuchung phosphoreszierender Materialien und teilte sich 1903 den Nobelpreis mit den Curies.",
           nl: "Henri Becquerel ontdekte radioactiviteit in 1896 tijdens het bestuderen van fosforescerende materialen, waarbij hij de Nobelprijs van 1903 deelde met de Curies."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this scientist born?",
+                  "es": "When was este/a scientist born?",
+                  "de": "When was diese(r) scientist born?",
+                  "nl": "When was deze scientist born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

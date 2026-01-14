@@ -830,7 +830,49 @@
                 de: "Chufu war Chephrens Vater. Chephren baute die zweite Pyramide in Gizeh und wahrscheinlich auch die Große Sphinx.",
                 nl: "Khufu was Chefren's vader. Chefren bouwde de tweede piramide in Gizeh en waarschijnlijk ook de Grote Sfinx."
             }
+        ,
+      {
+        question: {
+                  "en": "In which century was Pyramids of Giza built?",
+                  "es": "In which century was Pyramids of Giza built?",
+                  "de": "In which century was Pyramids of Giza built?",
+                  "nl": "In which century was Pyramids of Giza built?"
+        },
+        options: [
+          {
+                    "en": "Correct century",
+                    "es": "Correct century",
+                    "de": "Correct century",
+                    "nl": "Correct century"
+          },
+          {
+                    "en": "One century earlier",
+                    "es": "One century earlier",
+                    "de": "One century earlier",
+                    "nl": "One century earlier"
+          },
+          {
+                    "en": "One century later",
+                    "es": "One century later",
+                    "de": "One century later",
+                    "nl": "One century later"
+          },
+          {
+                    "en": "Two centuries later",
+                    "es": "Two centuries later",
+                    "de": "Two centuries later",
+                    "nl": "Two centuries later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
         }
+      }
+      }
     ];
 
     if (typeof module !== 'undefined' && module.exports) {

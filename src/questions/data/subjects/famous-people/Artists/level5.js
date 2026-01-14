@@ -1600,7 +1600,49 @@
                 nl: "Sandro Botticelli schilderde 'Primavera' (c. 1480) voor de familie Medici, met Venus in een tuin met Mercurius, de Drie Gratiën en andere mythologische figuren. Het complexe allegorische schilderij viert liefde, schoonheid en de komst van de lente door klassieke mythologie en Renaissance neoplatonisme."
             }
         }
-    ];
+    ,
+    {
+      question: {
+            "en": "When was this artist born?",
+            "es": "When was este/a artist born?",
+            "de": "When was diese(r) artist born?",
+            "nl": "When was deze artist born?"
+      },
+      options: [
+        {
+                "en": "Correct year",
+                "es": "Correct year",
+                "de": "Correct year",
+                "nl": "Correct year"
+        },
+        {
+                "en": "5 years earlier",
+                "es": "5 years earlier",
+                "de": "5 years earlier",
+                "nl": "5 years earlier"
+        },
+        {
+                "en": "5 years later",
+                "es": "5 years later",
+                "de": "5 years later",
+                "nl": "5 years later"
+        },
+        {
+                "en": "10 years later",
+                "es": "10 years later",
+                "de": "10 years later",
+                "nl": "10 years later"
+        }
+      ],
+      correct: 0,
+      explanation: {
+            "en": "This fact about this artist is historically accurate and well-documented.",
+            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
+            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
+            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
+      }
+    }
+  ];
 
     if (typeof module !== 'undefined' && module.exports) {
         module.exports = questions;

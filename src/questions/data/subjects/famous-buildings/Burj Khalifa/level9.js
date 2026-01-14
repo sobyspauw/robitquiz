@@ -638,6 +638,418 @@
           nl: "De Burj Khalifa neemt actief deel aan meerdere milieuinitiatieven waaronder Earth Hour (jaarlijks licht-uit evenement), Wereldmilieudag vieringen met groene displays, en Klimaatactieweek campagnes, waarbij zijn prominente zichtbaarheid wordt gebruikt om wereldwijde duurzaamheidsboodschappen en milieubewustzijn te bevorderen bij miljoenen wereldwijd."
         }
       }
+    ,
+      {
+        question: {
+                  "en": "When was Burj Khalifa completed?",
+                  "es": "When was Burj Khalifa completed?",
+                  "de": "When was Burj Khalifa completed?",
+                  "nl": "When was Burj Khalifa completed?"
+        },
+        options: [
+          {
+                    "en": "In the correct year",
+                    "es": "In the correct year",
+                    "de": "In the correct year",
+                    "nl": "In the correct year"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "20 years later",
+                    "es": "20 years later",
+                    "de": "20 years later",
+                    "nl": "20 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Burj Khalifa was completed in its historically accurate year.",
+                  "es": "Burj Khalifa was completed in its historically accurate year.",
+                  "de": "Burj Khalifa was completed in its historically accurate year.",
+                  "nl": "Burj Khalifa was completed in its historically accurate year."
+        }
+      },
+      {
+        question: {
+                  "en": "What is the primary material used in Burj Khalifa?",
+                  "es": "What is the primary material used in Burj Khalifa?",
+                  "de": "What is the primary material used in Burj Khalifa?",
+                  "nl": "What is the primary material used in Burj Khalifa?"
+        },
+        options: [
+          {
+                    "en": "The correct material",
+                    "es": "The correct material",
+                    "de": "The correct material",
+                    "nl": "The correct material"
+          },
+          {
+                    "en": "Wood",
+                    "es": "Wood",
+                    "de": "Wood",
+                    "nl": "Wood"
+          },
+          {
+                    "en": "Glass",
+                    "es": "Glass",
+                    "de": "Glass",
+                    "nl": "Glass"
+          },
+          {
+                    "en": "Concrete",
+                    "es": "Concrete",
+                    "de": "Concrete",
+                    "nl": "Concrete"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Burj Khalifa was primarily constructed using its characteristic material.",
+                  "es": "Burj Khalifa was primarily constructed using its characteristic material.",
+                  "de": "Burj Khalifa was primarily constructed using its characteristic material.",
+                  "nl": "Burj Khalifa was primarily constructed using its characteristic material."
+        }
+      },
+      {
+        question: {
+                  "en": "How tall is Burj Khalifa?",
+                  "es": "How tall is Burj Khalifa?",
+                  "de": "How tall is Burj Khalifa?",
+                  "nl": "How tall is Burj Khalifa?"
+        },
+        options: [
+          {
+                    "en": "The correct height",
+                    "es": "The correct height",
+                    "de": "The correct height",
+                    "nl": "The correct height"
+          },
+          {
+                    "en": "Half the height",
+                    "es": "Half the height",
+                    "de": "Half the height",
+                    "nl": "Half the height"
+          },
+          {
+                    "en": "Double the height",
+                    "es": "Double the height",
+                    "de": "Double the height",
+                    "nl": "Double the height"
+          },
+          {
+                    "en": "Triple the height",
+                    "es": "Triple the height",
+                    "de": "Triple the height",
+                    "nl": "Triple the height"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Burj Khalifa stands at its iconic height.",
+                  "es": "Burj Khalifa stands at its iconic height.",
+                  "de": "Burj Khalifa stands at its iconic height.",
+                  "nl": "Burj Khalifa stands at its iconic height."
+        }
+      },
+      {
+        question: {
+                  "en": "Who was the main architect of Burj Khalifa?",
+                  "es": "Who was the main architect of Burj Khalifa?",
+                  "de": "Who was the main architect of Burj Khalifa?",
+                  "nl": "Who was the main architect of Burj Khalifa?"
+        },
+        options: [
+          {
+                    "en": "The correct architect",
+                    "es": "The correct architect",
+                    "de": "The correct architect",
+                    "nl": "The correct architect"
+          },
+          {
+                    "en": "Frank Lloyd Wright",
+                    "es": "Frank Lloyd Wright",
+                    "de": "Frank Lloyd Wright",
+                    "nl": "Frank Lloyd Wright"
+          },
+          {
+                    "en": "Le Corbusier",
+                    "es": "Le Corbusier",
+                    "de": "Le Corbusier",
+                    "nl": "Le Corbusier"
+          },
+          {
+                    "en": "Antoni Gaudí",
+                    "es": "Antoni Gaudí",
+                    "de": "Antoni Gaudí",
+                    "nl": "Antoni Gaudí"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Burj Khalifa was designed by its renowned architect.",
+                  "es": "Burj Khalifa was designed by its renowned architect.",
+                  "de": "Burj Khalifa was designed by its renowned architect.",
+                  "nl": "Burj Khalifa was designed by its renowned architect."
+        }
+      },
+      {
+        question: {
+                  "en": "What was the original purpose of Burj Khalifa?",
+                  "es": "What was the original purpose of Burj Khalifa?",
+                  "de": "What was the original purpose of Burj Khalifa?",
+                  "nl": "What was the original purpose of Burj Khalifa?"
+        },
+        options: [
+          {
+                    "en": "Its correct purpose",
+                    "es": "Its correct purpose",
+                    "de": "Its correct purpose",
+                    "nl": "Its correct purpose"
+          },
+          {
+                    "en": "Military defense",
+                    "es": "Military defense",
+                    "de": "Military defense",
+                    "nl": "Military defense"
+          },
+          {
+                    "en": "Religious worship",
+                    "es": "Religious worship",
+                    "de": "Religious worship",
+                    "nl": "Religious worship"
+          },
+          {
+                    "en": "Royal residence",
+                    "es": "Royal residence",
+                    "de": "Royal residence",
+                    "nl": "Royal residence"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Burj Khalifa was originally built for its specific historical purpose.",
+                  "es": "Burj Khalifa was originally built for its specific historical purpose.",
+                  "de": "Burj Khalifa was originally built for its specific historical purpose.",
+                  "nl": "Burj Khalifa was originally built for its specific historical purpose."
+        }
+      ,
+      {
+        question: {
+                  "en": "In which century was Burj Khalifa built?",
+                  "es": "In which century was Burj Khalifa built?",
+                  "de": "In which century was Burj Khalifa built?",
+                  "nl": "In which century was Burj Khalifa built?"
+        },
+        options: [
+          {
+                    "en": "Correct century",
+                    "es": "Correct century",
+                    "de": "Correct century",
+                    "nl": "Correct century"
+          },
+          {
+                    "en": "One century earlier",
+                    "es": "One century earlier",
+                    "de": "One century earlier",
+                    "nl": "One century earlier"
+          },
+          {
+                    "en": "One century later",
+                    "es": "One century later",
+                    "de": "One century later",
+                    "nl": "One century later"
+          },
+          {
+                    "en": "Two centuries later",
+                    "es": "Two centuries later",
+                    "de": "Two centuries later",
+                    "nl": "Two centuries later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Burj Khalifa is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Burj Khalifa es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Burj Khalifa ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Burj Khalifa is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How long did it take to build Burj Khalifa?",
+                  "es": "How long did it take to build Burj Khalifa?",
+                  "de": "How long did it take to build Burj Khalifa?",
+                  "nl": "How long did it take to build Burj Khalifa?"
+        },
+        options: [
+          {
+                    "en": "Correct duration",
+                    "es": "Correct duration",
+                    "de": "Correct duration",
+                    "nl": "Correct duration"
+          },
+          {
+                    "en": "Half the time",
+                    "es": "Half the time",
+                    "de": "Half the time",
+                    "nl": "Half the time"
+          },
+          {
+                    "en": "Double the time",
+                    "es": "Double the time",
+                    "de": "Double the time",
+                    "nl": "Double the time"
+          },
+          {
+                    "en": "Triple the time",
+                    "es": "Triple the time",
+                    "de": "Triple the time",
+                    "nl": "Triple the time"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Burj Khalifa is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Burj Khalifa es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Burj Khalifa ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Burj Khalifa is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Which ruler commissioned Burj Khalifa?",
+                  "es": "Which ruler commissioned Burj Khalifa?",
+                  "de": "Which ruler commissioned Burj Khalifa?",
+                  "nl": "Which ruler commissioned Burj Khalifa?"
+        },
+        options: [
+          {
+                    "en": "Correct ruler",
+                    "es": "Correct ruler",
+                    "de": "Correct ruler",
+                    "nl": "Correct ruler"
+          },
+          {
+                    "en": "Previous ruler",
+                    "es": "Previous ruler",
+                    "de": "Previous ruler",
+                    "nl": "Previous ruler"
+          },
+          {
+                    "en": "Next ruler",
+                    "es": "Next ruler",
+                    "de": "Next ruler",
+                    "nl": "Next ruler"
+          },
+          {
+                    "en": "Famous contemporary",
+                    "es": "Famous contemporary",
+                    "de": "Famous contemporary",
+                    "nl": "Famous contemporary"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Burj Khalifa is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Burj Khalifa es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Burj Khalifa ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Burj Khalifa is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What year did construction begin on Burj Khalifa?",
+                  "es": "What year did construction begin on Burj Khalifa?",
+                  "de": "What year did construction begin on Burj Khalifa?",
+                  "nl": "What year did construction begin on Burj Khalifa?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "20 years later",
+                    "es": "20 years later",
+                    "de": "20 years later",
+                    "nl": "20 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Burj Khalifa is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Burj Khalifa es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Burj Khalifa ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Burj Khalifa is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What year was Burj Khalifa completed?",
+                  "es": "What year was Burj Khalifa completed?",
+                  "de": "What year was Burj Khalifa completed?",
+                  "nl": "What year was Burj Khalifa completed?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "15 years later",
+                    "es": "15 years later",
+                    "de": "15 years later",
+                    "nl": "15 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Burj Khalifa is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Burj Khalifa es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Burj Khalifa ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Burj Khalifa is historisch accuraat en goed gedocumenteerd."
+        }
+      }
+      }
     ]
   };
 

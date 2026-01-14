@@ -658,6 +658,376 @@
           de: "Leif Eriksson (970-1020) segelte von Grönland aus und gründete um 1000 n.Chr. eine Siedlung in Vinland (wahrscheinlich Neufundland, Kanada), wurde der erste bekannte Europäer, der Nordamerika erreichte, 500 Jahre vor Kolumbus.",
           nl: "Leif Erikson (970-1020) zeilde vanuit Groenland en vestigde rond 1000 n.Chr. een nederzetting in Vinland (waarschijnlijk Newfoundland, Canada), werd de eerste bekende Europeaan die Noord-Amerika bereikte, 500 jaar vóór Columbus."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this historical figure born?",
+                  "es": "When was este/a historical figure born?",
+                  "de": "When was diese(r) historical figure born?",
+                  "nl": "When was deze historical figure born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this historical figure is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Where was this historical figure born?",
+                  "es": "Where was este/a historical figure born?",
+                  "de": "Where was diese(r) historical figure born?",
+                  "nl": "Where was deze historical figure born?"
+        },
+        options: [
+          {
+                    "en": "Correct location",
+                    "es": "Correct location",
+                    "de": "Correct location",
+                    "nl": "Correct location"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          },
+          {
+                    "en": "Capital city",
+                    "es": "Capital city",
+                    "de": "Capital city",
+                    "nl": "Capital city"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this historical figure is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this historical figure's full name?",
+                  "es": "What was este/a historical figure's full name?",
+                  "de": "What was diese(r) historical figure's full name?",
+                  "nl": "What was deze historical figure's full name?"
+        },
+        options: [
+          {
+                    "en": "Correct name",
+                    "es": "Correct name",
+                    "de": "Correct name",
+                    "nl": "Correct name"
+          },
+          {
+                    "en": "Similar name",
+                    "es": "Similar name",
+                    "de": "Similar name",
+                    "nl": "Similar name"
+          },
+          {
+                    "en": "Common name",
+                    "es": "Common name",
+                    "de": "Common name",
+                    "nl": "Common name"
+          },
+          {
+                    "en": "Stage name only",
+                    "es": "Stage name only",
+                    "de": "Stage name only",
+                    "nl": "Stage name only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this historical figure is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "When did this historical figure pass away?",
+                  "es": "When did este/a historical figure pass away?",
+                  "de": "When did diese(r) historical figure pass away?",
+                  "nl": "When did deze historical figure pass away?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "Still alive",
+                    "es": "Still alive",
+                    "de": "Still alive",
+                    "nl": "Still alive"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this historical figure is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How old was this historical figure when they died?",
+                  "es": "How old was este/a historical figure when they died?",
+                  "de": "How old was diese(r) historical figure when they died?",
+                  "nl": "How old was deze historical figure when they died?"
+        },
+        options: [
+          {
+                    "en": "Correct age",
+                    "es": "Correct age",
+                    "de": "Correct age",
+                    "nl": "Correct age"
+          },
+          {
+                    "en": "10 years younger",
+                    "es": "10 years younger",
+                    "de": "10 years younger",
+                    "nl": "10 years younger"
+          },
+          {
+                    "en": "10 years older",
+                    "es": "10 years older",
+                    "de": "10 years older",
+                    "nl": "10 years older"
+          },
+          {
+                    "en": "Different age",
+                    "es": "Different age",
+                    "de": "Different age",
+                    "nl": "Different age"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this historical figure is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this historical figure's nationality?",
+                  "es": "What was este/a historical figure's nationality?",
+                  "de": "What was diese(r) historical figure's nationality?",
+                  "nl": "What was deze historical figure's nationality?"
+        },
+        options: [
+          {
+                    "en": "Correct nationality",
+                    "es": "Correct nationality",
+                    "de": "Correct nationality",
+                    "nl": "Correct nationality"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Colonial power",
+                    "es": "Colonial power",
+                    "de": "Colonial power",
+                    "nl": "Colonial power"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this historical figure is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this historical figure's education?",
+                  "es": "What was este/a historical figure's education?",
+                  "de": "What was diese(r) historical figure's education?",
+                  "nl": "What was deze historical figure's education?"
+        },
+        options: [
+          {
+                    "en": "Correct education",
+                    "es": "Correct education",
+                    "de": "Correct education",
+                    "nl": "Correct education"
+          },
+          {
+                    "en": "No formal education",
+                    "es": "No formal education",
+                    "de": "No formal education",
+                    "nl": "No formal education"
+          },
+          {
+                    "en": "Different field",
+                    "es": "Different field",
+                    "de": "Different field",
+                    "nl": "Different field"
+          },
+          {
+                    "en": "PhD only",
+                    "es": "PhD only",
+                    "de": "PhD only",
+                    "nl": "PhD only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this historical figure is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Who were this historical figure's parents?",
+                  "es": "Who were este/a historical figure's parents?",
+                  "de": "Who were diese(r) historical figure's parents?",
+                  "nl": "Who were deze historical figure's parents?"
+        },
+        options: [
+          {
+                    "en": "Correct parents",
+                    "es": "Correct parents",
+                    "de": "Correct parents",
+                    "nl": "Correct parents"
+          },
+          {
+                    "en": "Famous contemporaries",
+                    "es": "Famous contemporaries",
+                    "de": "Famous contemporaries",
+                    "nl": "Famous contemporaries"
+          },
+          {
+                    "en": "Unknown",
+                    "es": "Unknown",
+                    "de": "Unknown",
+                    "nl": "Unknown"
+          },
+          {
+                    "en": "Royalty",
+                    "es": "Royalty",
+                    "de": "Royalty",
+                    "nl": "Royalty"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this historical figure is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this historical figure's primary profession?",
+                  "es": "What was este/a historical figure's primary profession?",
+                  "de": "What was diese(r) historical figure's primary profession?",
+                  "nl": "What was deze historical figure's primary profession?"
+        },
+        options: [
+          {
+                    "en": "Correct profession",
+                    "es": "Correct profession",
+                    "de": "Correct profession",
+                    "nl": "Correct profession"
+          },
+          {
+                    "en": "Related field",
+                    "es": "Related field",
+                    "de": "Related field",
+                    "nl": "Related field"
+          },
+          {
+                    "en": "Different field",
+                    "es": "Different field",
+                    "de": "Different field",
+                    "nl": "Different field"
+          },
+          {
+                    "en": "Multiple professions",
+                    "es": "Multiple professions",
+                    "de": "Multiple professions",
+                    "nl": "Multiple professions"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this historical figure is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

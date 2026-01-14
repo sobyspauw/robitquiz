@@ -511,6 +511,663 @@
           de: "Haruki Murakami schrieb 'Die Chroniken des Aufziehvogels' (1994-1995), einen surrealen Roman der häusliches Mysterium mit historischem Trauma aus dem Zweiten Weltkrieg verbindet. Der Roman folgt Toru Okada während seine scheinbar einfache Suche nach seiner vermissten Katze ihn in zunehmend seltsame und traumhafte Begegnungen führt.",
           nl: "Haruki Murakami schreef 'The Wind-Up Bird Chronicle' (1994-1995), een surrealistische roman die huiselijk mysterie mengt met historisch trauma van de Tweede Wereldoorlog. De roman volgt Toru Okada terwijl zijn ogenschijnlijk eenvoudige zoektocht naar zijn vermiste kat hem leidt naar steeds vreemdere en droomachtige ontmoetingen."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this authors and writer born?",
+                  "es": "When was este/a authors and writer born?",
+                  "de": "When was diese(r) authors and writer born?",
+                  "nl": "When was deze authors and writer born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Where was this authors and writer born?",
+                  "es": "Where was este/a authors and writer born?",
+                  "de": "Where was diese(r) authors and writer born?",
+                  "nl": "Where was deze authors and writer born?"
+        },
+        options: [
+          {
+                    "en": "Correct location",
+                    "es": "Correct location",
+                    "de": "Correct location",
+                    "nl": "Correct location"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          },
+          {
+                    "en": "Capital city",
+                    "es": "Capital city",
+                    "de": "Capital city",
+                    "nl": "Capital city"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this authors and writer's full name?",
+                  "es": "What was este/a authors and writer's full name?",
+                  "de": "What was diese(r) authors and writer's full name?",
+                  "nl": "What was deze authors and writer's full name?"
+        },
+        options: [
+          {
+                    "en": "Correct name",
+                    "es": "Correct name",
+                    "de": "Correct name",
+                    "nl": "Correct name"
+          },
+          {
+                    "en": "Similar name",
+                    "es": "Similar name",
+                    "de": "Similar name",
+                    "nl": "Similar name"
+          },
+          {
+                    "en": "Common name",
+                    "es": "Common name",
+                    "de": "Common name",
+                    "nl": "Common name"
+          },
+          {
+                    "en": "Stage name only",
+                    "es": "Stage name only",
+                    "de": "Stage name only",
+                    "nl": "Stage name only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "When did this authors and writer pass away?",
+                  "es": "When did este/a authors and writer pass away?",
+                  "de": "When did diese(r) authors and writer pass away?",
+                  "nl": "When did deze authors and writer pass away?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "Still alive",
+                    "es": "Still alive",
+                    "de": "Still alive",
+                    "nl": "Still alive"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How old was this authors and writer when they died?",
+                  "es": "How old was este/a authors and writer when they died?",
+                  "de": "How old was diese(r) authors and writer when they died?",
+                  "nl": "How old was deze authors and writer when they died?"
+        },
+        options: [
+          {
+                    "en": "Correct age",
+                    "es": "Correct age",
+                    "de": "Correct age",
+                    "nl": "Correct age"
+          },
+          {
+                    "en": "10 years younger",
+                    "es": "10 years younger",
+                    "de": "10 years younger",
+                    "nl": "10 years younger"
+          },
+          {
+                    "en": "10 years older",
+                    "es": "10 years older",
+                    "de": "10 years older",
+                    "nl": "10 years older"
+          },
+          {
+                    "en": "Different age",
+                    "es": "Different age",
+                    "de": "Different age",
+                    "nl": "Different age"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this authors and writer's nationality?",
+                  "es": "What was este/a authors and writer's nationality?",
+                  "de": "What was diese(r) authors and writer's nationality?",
+                  "nl": "What was deze authors and writer's nationality?"
+        },
+        options: [
+          {
+                    "en": "Correct nationality",
+                    "es": "Correct nationality",
+                    "de": "Correct nationality",
+                    "nl": "Correct nationality"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Colonial power",
+                    "es": "Colonial power",
+                    "de": "Colonial power",
+                    "nl": "Colonial power"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this authors and writer's education?",
+                  "es": "What was este/a authors and writer's education?",
+                  "de": "What was diese(r) authors and writer's education?",
+                  "nl": "What was deze authors and writer's education?"
+        },
+        options: [
+          {
+                    "en": "Correct education",
+                    "es": "Correct education",
+                    "de": "Correct education",
+                    "nl": "Correct education"
+          },
+          {
+                    "en": "No formal education",
+                    "es": "No formal education",
+                    "de": "No formal education",
+                    "nl": "No formal education"
+          },
+          {
+                    "en": "Different field",
+                    "es": "Different field",
+                    "de": "Different field",
+                    "nl": "Different field"
+          },
+          {
+                    "en": "PhD only",
+                    "es": "PhD only",
+                    "de": "PhD only",
+                    "nl": "PhD only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Who were this authors and writer's parents?",
+                  "es": "Who were este/a authors and writer's parents?",
+                  "de": "Who were diese(r) authors and writer's parents?",
+                  "nl": "Who were deze authors and writer's parents?"
+        },
+        options: [
+          {
+                    "en": "Correct parents",
+                    "es": "Correct parents",
+                    "de": "Correct parents",
+                    "nl": "Correct parents"
+          },
+          {
+                    "en": "Famous contemporaries",
+                    "es": "Famous contemporaries",
+                    "de": "Famous contemporaries",
+                    "nl": "Famous contemporaries"
+          },
+          {
+                    "en": "Unknown",
+                    "es": "Unknown",
+                    "de": "Unknown",
+                    "nl": "Unknown"
+          },
+          {
+                    "en": "Royalty",
+                    "es": "Royalty",
+                    "de": "Royalty",
+                    "nl": "Royalty"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this authors and writer's primary profession?",
+                  "es": "What was este/a authors and writer's primary profession?",
+                  "de": "What was diese(r) authors and writer's primary profession?",
+                  "nl": "What was deze authors and writer's primary profession?"
+        },
+        options: [
+          {
+                    "en": "Correct profession",
+                    "es": "Correct profession",
+                    "de": "Correct profession",
+                    "nl": "Correct profession"
+          },
+          {
+                    "en": "Related field",
+                    "es": "Related field",
+                    "de": "Related field",
+                    "nl": "Related field"
+          },
+          {
+                    "en": "Different field",
+                    "es": "Different field",
+                    "de": "Different field",
+                    "nl": "Different field"
+          },
+          {
+                    "en": "Multiple professions",
+                    "es": "Multiple professions",
+                    "de": "Multiple professions",
+                    "nl": "Multiple professions"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "When did this authors and writer start their career?",
+                  "es": "When did este/a authors and writer start their career?",
+                  "de": "When did diese(r) authors and writer start their career?",
+                  "nl": "When did deze authors and writer start their career?"
+        },
+        options: [
+          {
+                    "en": "Correct period",
+                    "es": "Correct period",
+                    "de": "Correct period",
+                    "nl": "Correct period"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "Child prodigy",
+                    "es": "Child prodigy",
+                    "de": "Child prodigy",
+                    "nl": "Child prodigy"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this authors and writer's breakthrough moment?",
+                  "es": "What was este/a authors and writer's breakthrough moment?",
+                  "de": "What was diese(r) authors and writer's breakthrough moment?",
+                  "nl": "What was deze authors and writer's breakthrough moment?"
+        },
+        options: [
+          {
+                    "en": "Correct achievement",
+                    "es": "Correct achievement",
+                    "de": "Correct achievement",
+                    "nl": "Correct achievement"
+          },
+          {
+                    "en": "Different achievement",
+                    "es": "Different achievement",
+                    "de": "Different achievement",
+                    "nl": "Different achievement"
+          },
+          {
+                    "en": "Later work",
+                    "es": "Later work",
+                    "de": "Later work",
+                    "nl": "Later work"
+          },
+          {
+                    "en": "First work",
+                    "es": "First work",
+                    "de": "First work",
+                    "nl": "First work"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Who was this authors and writer's mentor?",
+                  "es": "Who was este/a authors and writer's mentor?",
+                  "de": "Who was diese(r) authors and writer's mentor?",
+                  "nl": "Who was deze authors and writer's mentor?"
+        },
+        options: [
+          {
+                    "en": "Correct mentor",
+                    "es": "Correct mentor",
+                    "de": "Correct mentor",
+                    "nl": "Correct mentor"
+          },
+          {
+                    "en": "Contemporary",
+                    "es": "Contemporary",
+                    "de": "Contemporary",
+                    "nl": "Contemporary"
+          },
+          {
+                    "en": "Self-taught",
+                    "es": "Self-taught",
+                    "de": "Self-taught",
+                    "nl": "Self-taught"
+          },
+          {
+                    "en": "Family member",
+                    "es": "Family member",
+                    "de": "Family member",
+                    "nl": "Family member"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What organization did this authors and writer found?",
+                  "es": "What organization did este/a authors and writer found?",
+                  "de": "What organization did diese(r) authors and writer found?",
+                  "nl": "What organization did deze authors and writer found?"
+        },
+        options: [
+          {
+                    "en": "Correct organization",
+                    "es": "Correct organization",
+                    "de": "Correct organization",
+                    "nl": "Correct organization"
+          },
+          {
+                    "en": "Different group",
+                    "es": "Different group",
+                    "de": "Different group",
+                    "nl": "Different group"
+          },
+          {
+                    "en": "Nothing",
+                    "es": "Nothing",
+                    "de": "Nothing",
+                    "nl": "Nothing"
+          },
+          {
+                    "en": "Multiple organizations",
+                    "es": "Multiple organizations",
+                    "de": "Multiple organizations",
+                    "nl": "Multiple organizations"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What position did this authors and writer hold?",
+                  "es": "What position did este/a authors and writer hold?",
+                  "de": "What position did diese(r) authors and writer hold?",
+                  "nl": "What position did deze authors and writer hold?"
+        },
+        options: [
+          {
+                    "en": "Correct position",
+                    "es": "Correct position",
+                    "de": "Correct position",
+                    "nl": "Correct position"
+          },
+          {
+                    "en": "Lower position",
+                    "es": "Lower position",
+                    "de": "Lower position",
+                    "nl": "Lower position"
+          },
+          {
+                    "en": "Higher position",
+                    "es": "Higher position",
+                    "de": "Higher position",
+                    "nl": "Higher position"
+          },
+          {
+                    "en": "No position",
+                    "es": "No position",
+                    "de": "No position",
+                    "nl": "No position"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How long was this authors and writer's career?",
+                  "es": "How long was este/a authors and writer's career?",
+                  "de": "How long was diese(r) authors and writer's career?",
+                  "nl": "How long was deze authors and writer's career?"
+        },
+        options: [
+          {
+                    "en": "Correct duration",
+                    "es": "Correct duration",
+                    "de": "Correct duration",
+                    "nl": "Correct duration"
+          },
+          {
+                    "en": "Half the time",
+                    "es": "Half the time",
+                    "de": "Half the time",
+                    "nl": "Half the time"
+          },
+          {
+                    "en": "Double the time",
+                    "es": "Double the time",
+                    "de": "Double the time",
+                    "nl": "Double the time"
+          },
+          {
+                    "en": "Entire life",
+                    "es": "Entire life",
+                    "de": "Entire life",
+                    "nl": "Entire life"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Where did this authors and writer work primarily?",
+                  "es": "Where did este/a authors and writer work primarily?",
+                  "de": "Where did diese(r) authors and writer work primarily?",
+                  "nl": "Where did deze authors and writer work primarily?"
+        },
+        options: [
+          {
+                    "en": "Correct location",
+                    "es": "Correct location",
+                    "de": "Correct location",
+                    "nl": "Correct location"
+          },
+          {
+                    "en": "Different city",
+                    "es": "Different city",
+                    "de": "Different city",
+                    "nl": "Different city"
+          },
+          {
+                    "en": "Multiple locations",
+                    "es": "Multiple locations",
+                    "de": "Multiple locations",
+                    "nl": "Multiple locations"
+          },
+          {
+                    "en": "Remote only",
+                    "es": "Remote only",
+                    "de": "Remote only",
+                    "nl": "Remote only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

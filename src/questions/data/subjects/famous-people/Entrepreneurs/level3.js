@@ -721,6 +721,253 @@
           de: "Bernard Arnault erwarb und fusionierte Unternehmen zur Gründung von LVMH (Louis Vuitton Moët Hennessy) 1987 und baute ein Imperium von Luxusmarken auf, darunter Dior, Fendi und Tiffany & Co., was ihn zu einem der reichsten Menschen der Welt machte.",
           nl: "Bernard Arnault verwierf en fuseerde bedrijven om LVMH (Louis Vuitton Moët Hennessy) te creëren in 1987, hij bouwde een imperium van luxemerken op inclusief Dior, Fendi en Tiffany & Co., waardoor hij een van 's werelds rijkste mensen werd."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this entrepreneur born?",
+                  "es": "When was este/a entrepreneur born?",
+                  "de": "When was diese(r) entrepreneur born?",
+                  "nl": "When was deze entrepreneur born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this entrepreneur is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this entrepreneur es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this entrepreneur ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this entrepreneur is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Where was this entrepreneur born?",
+                  "es": "Where was este/a entrepreneur born?",
+                  "de": "Where was diese(r) entrepreneur born?",
+                  "nl": "Where was deze entrepreneur born?"
+        },
+        options: [
+          {
+                    "en": "Correct location",
+                    "es": "Correct location",
+                    "de": "Correct location",
+                    "nl": "Correct location"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          },
+          {
+                    "en": "Capital city",
+                    "es": "Capital city",
+                    "de": "Capital city",
+                    "nl": "Capital city"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this entrepreneur is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this entrepreneur es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this entrepreneur ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this entrepreneur is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this entrepreneur's full name?",
+                  "es": "What was este/a entrepreneur's full name?",
+                  "de": "What was diese(r) entrepreneur's full name?",
+                  "nl": "What was deze entrepreneur's full name?"
+        },
+        options: [
+          {
+                    "en": "Correct name",
+                    "es": "Correct name",
+                    "de": "Correct name",
+                    "nl": "Correct name"
+          },
+          {
+                    "en": "Similar name",
+                    "es": "Similar name",
+                    "de": "Similar name",
+                    "nl": "Similar name"
+          },
+          {
+                    "en": "Common name",
+                    "es": "Common name",
+                    "de": "Common name",
+                    "nl": "Common name"
+          },
+          {
+                    "en": "Stage name only",
+                    "es": "Stage name only",
+                    "de": "Stage name only",
+                    "nl": "Stage name only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this entrepreneur is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this entrepreneur es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this entrepreneur ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this entrepreneur is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "When did this entrepreneur pass away?",
+                  "es": "When did este/a entrepreneur pass away?",
+                  "de": "When did diese(r) entrepreneur pass away?",
+                  "nl": "When did deze entrepreneur pass away?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "Still alive",
+                    "es": "Still alive",
+                    "de": "Still alive",
+                    "nl": "Still alive"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this entrepreneur is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this entrepreneur es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this entrepreneur ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this entrepreneur is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How old was this entrepreneur when they died?",
+                  "es": "How old was este/a entrepreneur when they died?",
+                  "de": "How old was diese(r) entrepreneur when they died?",
+                  "nl": "How old was deze entrepreneur when they died?"
+        },
+        options: [
+          {
+                    "en": "Correct age",
+                    "es": "Correct age",
+                    "de": "Correct age",
+                    "nl": "Correct age"
+          },
+          {
+                    "en": "10 years younger",
+                    "es": "10 years younger",
+                    "de": "10 years younger",
+                    "nl": "10 years younger"
+          },
+          {
+                    "en": "10 years older",
+                    "es": "10 years older",
+                    "de": "10 years older",
+                    "nl": "10 years older"
+          },
+          {
+                    "en": "Different age",
+                    "es": "Different age",
+                    "de": "Different age",
+                    "nl": "Different age"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this entrepreneur is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this entrepreneur es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this entrepreneur ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this entrepreneur is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this entrepreneur's nationality?",
+                  "es": "What was este/a entrepreneur's nationality?",
+                  "de": "What was diese(r) entrepreneur's nationality?",
+                  "nl": "What was deze entrepreneur's nationality?"
+        },
+        options: [
+          {
+                    "en": "Correct nationality",
+                    "es": "Correct nationality",
+                    "de": "Correct nationality",
+                    "nl": "Correct nationality"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Colonial power",
+                    "es": "Colonial power",
+                    "de": "Colonial power",
+                    "nl": "Colonial power"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this entrepreneur is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this entrepreneur es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this entrepreneur ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this entrepreneur is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

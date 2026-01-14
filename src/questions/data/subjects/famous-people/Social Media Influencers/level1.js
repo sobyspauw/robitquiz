@@ -678,6 +678,335 @@
           de: "Social-Media-Algorithmen verwenden komplexe Formeln, um zu bestimmen, welche Inhalte in den Feeds der Benutzer erscheinen, basierend auf Faktoren wie Engagement, Relevanz, Aktualität und Benutzerverhaltensmuster.",
           nl: "Social media algoritmes gebruiken complexe formules om te bepalen welke content in gebruikersfeeds verschijnt, gebaseerd op factoren zoals betrokkenheid, relevantie, tijdigheid en gebruikersgedragspatronen."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this social media influencer born?",
+                  "es": "When was este/a social media influencer born?",
+                  "de": "When was diese(r) social media influencer born?",
+                  "nl": "When was deze social media influencer born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Where was this social media influencer born?",
+                  "es": "Where was este/a social media influencer born?",
+                  "de": "Where was diese(r) social media influencer born?",
+                  "nl": "Where was deze social media influencer born?"
+        },
+        options: [
+          {
+                    "en": "Correct location",
+                    "es": "Correct location",
+                    "de": "Correct location",
+                    "nl": "Correct location"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          },
+          {
+                    "en": "Capital city",
+                    "es": "Capital city",
+                    "de": "Capital city",
+                    "nl": "Capital city"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this social media influencer's full name?",
+                  "es": "What was este/a social media influencer's full name?",
+                  "de": "What was diese(r) social media influencer's full name?",
+                  "nl": "What was deze social media influencer's full name?"
+        },
+        options: [
+          {
+                    "en": "Correct name",
+                    "es": "Correct name",
+                    "de": "Correct name",
+                    "nl": "Correct name"
+          },
+          {
+                    "en": "Similar name",
+                    "es": "Similar name",
+                    "de": "Similar name",
+                    "nl": "Similar name"
+          },
+          {
+                    "en": "Common name",
+                    "es": "Common name",
+                    "de": "Common name",
+                    "nl": "Common name"
+          },
+          {
+                    "en": "Stage name only",
+                    "es": "Stage name only",
+                    "de": "Stage name only",
+                    "nl": "Stage name only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "When did this social media influencer pass away?",
+                  "es": "When did este/a social media influencer pass away?",
+                  "de": "When did diese(r) social media influencer pass away?",
+                  "nl": "When did deze social media influencer pass away?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "Still alive",
+                    "es": "Still alive",
+                    "de": "Still alive",
+                    "nl": "Still alive"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How old was this social media influencer when they died?",
+                  "es": "How old was este/a social media influencer when they died?",
+                  "de": "How old was diese(r) social media influencer when they died?",
+                  "nl": "How old was deze social media influencer when they died?"
+        },
+        options: [
+          {
+                    "en": "Correct age",
+                    "es": "Correct age",
+                    "de": "Correct age",
+                    "nl": "Correct age"
+          },
+          {
+                    "en": "10 years younger",
+                    "es": "10 years younger",
+                    "de": "10 years younger",
+                    "nl": "10 years younger"
+          },
+          {
+                    "en": "10 years older",
+                    "es": "10 years older",
+                    "de": "10 years older",
+                    "nl": "10 years older"
+          },
+          {
+                    "en": "Different age",
+                    "es": "Different age",
+                    "de": "Different age",
+                    "nl": "Different age"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this social media influencer's nationality?",
+                  "es": "What was este/a social media influencer's nationality?",
+                  "de": "What was diese(r) social media influencer's nationality?",
+                  "nl": "What was deze social media influencer's nationality?"
+        },
+        options: [
+          {
+                    "en": "Correct nationality",
+                    "es": "Correct nationality",
+                    "de": "Correct nationality",
+                    "nl": "Correct nationality"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Colonial power",
+                    "es": "Colonial power",
+                    "de": "Colonial power",
+                    "nl": "Colonial power"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this social media influencer's education?",
+                  "es": "What was este/a social media influencer's education?",
+                  "de": "What was diese(r) social media influencer's education?",
+                  "nl": "What was deze social media influencer's education?"
+        },
+        options: [
+          {
+                    "en": "Correct education",
+                    "es": "Correct education",
+                    "de": "Correct education",
+                    "nl": "Correct education"
+          },
+          {
+                    "en": "No formal education",
+                    "es": "No formal education",
+                    "de": "No formal education",
+                    "nl": "No formal education"
+          },
+          {
+                    "en": "Different field",
+                    "es": "Different field",
+                    "de": "Different field",
+                    "nl": "Different field"
+          },
+          {
+                    "en": "PhD only",
+                    "es": "PhD only",
+                    "de": "PhD only",
+                    "nl": "PhD only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Who were this social media influencer's parents?",
+                  "es": "Who were este/a social media influencer's parents?",
+                  "de": "Who were diese(r) social media influencer's parents?",
+                  "nl": "Who were deze social media influencer's parents?"
+        },
+        options: [
+          {
+                    "en": "Correct parents",
+                    "es": "Correct parents",
+                    "de": "Correct parents",
+                    "nl": "Correct parents"
+          },
+          {
+                    "en": "Famous contemporaries",
+                    "es": "Famous contemporaries",
+                    "de": "Famous contemporaries",
+                    "nl": "Famous contemporaries"
+          },
+          {
+                    "en": "Unknown",
+                    "es": "Unknown",
+                    "de": "Unknown",
+                    "nl": "Unknown"
+          },
+          {
+                    "en": "Royalty",
+                    "es": "Royalty",
+                    "de": "Royalty",
+                    "nl": "Royalty"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this social media influencer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this social media influencer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this social media influencer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this social media influencer is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

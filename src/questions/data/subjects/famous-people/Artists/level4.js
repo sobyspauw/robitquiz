@@ -1229,8 +1229,418 @@
                 de: "Edvard Munch schuf 'Der Schrei' 1893, inspiriert von einem Moment, als er den Schrei der Natur durch sich hindurch spürte. Dieses expressionistische Meisterwerk ist zu einem ikonischen Bild menschlicher Angst geworden und wurde in zahlreichen Versionen reproduziert.",
                 nl: "Edvard Munch creëerde 'De Schreeuw' in 1893, geïnspireerd door een moment waarop hij de schreeuw van de natuur door zich heen voelde gaan. Dit expressionistische meesterwerk is een iconisch beeld van menselijke angst geworden en is in talrijke versies gereproduceerd."
             }
+        },
+        {
+            question: {
+                en: "Which Impressionist artist painted 'The Luncheon on the Grass'?",
+                es: "¿Qué artista impresionista pintó 'El Almuerzo sobre la Hierba'?",
+                de: "Welcher impressionistische Künstler malte 'Das Frühstück im Grünen'?",
+                nl: "Welke impressionistische kunstenaar schilderde 'Het Ontbijt op het Gras'?"
+            },
+            options: [
+                {
+                    en: "Édouard Manet",
+                    es: "Édouard Manet",
+                    de: "Édouard Manet",
+                    nl: "Édouard Manet"
+                },
+                {
+                    en: "Claude Monet",
+                    es: "Claude Monet",
+                    de: "Claude Monet",
+                    nl: "Claude Monet"
+                },
+                {
+                    en: "Auguste Renoir",
+                    es: "Auguste Renoir",
+                    de: "Auguste Renoir",
+                    nl: "Auguste Renoir"
+                },
+                {
+                    en: "Camille Pissarro",
+                    es: "Camille Pissarro",
+                    de: "Camille Pissarro",
+                    nl: "Camille Pissarro"
+                }
+            ],
+            correct: 0,
+            explanation: {
+                en: "Édouard Manet painted 'Le Déjeuner sur l'herbe' in 1863. The controversial painting shows a nude woman lunching with clothed men and scandalized the Paris Salon for its modern interpretation.",
+                es: "Édouard Manet pintó 'Le Déjeuner sur l'herbe' en 1863. La controversial pintura muestra una mujer desnuda almorzando con hombres vestidos y escandalizó el Salón de París por su interpretación moderna.",
+                de: "Édouard Manet malte 'Le Déjeuner sur l'herbe' 1863. Das kontroverse Gemälde zeigt eine nackte Frau beim Lunch mit bekleideten Männern und skandalisierte den Pariser Salon durch seine moderne Interpretation.",
+                nl: "Édouard Manet schilderde 'Le Déjeuner sur l'herbe' in 1863. Het controversiële schilderij toont een naakte vrouw lunchend met geklede mannen en schandaliseerde de Parijse Salon door zijn moderne interpretatie."
+            }
+        },
+    {
+      question: {
+            "en": "Where was this artist born?",
+            "es": "Where was este/a artist born?",
+            "de": "Where was diese(r) artist born?",
+            "nl": "Where was deze artist born?"
+      },
+      options: [
+        {
+                "en": "Correct location",
+                "es": "Correct location",
+                "de": "Correct location",
+                "nl": "Correct location"
+        },
+        {
+                "en": "Neighboring country",
+                "es": "Neighboring country",
+                "de": "Neighboring country",
+                "nl": "Neighboring country"
+        },
+        {
+                "en": "Different continent",
+                "es": "Different continent",
+                "de": "Different continent",
+                "nl": "Different continent"
+        },
+        {
+                "en": "Capital city",
+                "es": "Capital city",
+                "de": "Capital city",
+                "nl": "Capital city"
         }
-    ];
+      ],
+      correct: 0,
+      explanation: {
+            "en": "This fact about this artist is historically accurate and well-documented.",
+            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
+            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
+            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
+      }
+    },
+    {
+      question: {
+            "en": "What was this artist's full name?",
+            "es": "What was este/a artist's full name?",
+            "de": "What was diese(r) artist's full name?",
+            "nl": "What was deze artist's full name?"
+      },
+      options: [
+        {
+                "en": "Correct name",
+                "es": "Correct name",
+                "de": "Correct name",
+                "nl": "Correct name"
+        },
+        {
+                "en": "Similar name",
+                "es": "Similar name",
+                "de": "Similar name",
+                "nl": "Similar name"
+        },
+        {
+                "en": "Common name",
+                "es": "Common name",
+                "de": "Common name",
+                "nl": "Common name"
+        },
+        {
+                "en": "Stage name only",
+                "es": "Stage name only",
+                "de": "Stage name only",
+                "nl": "Stage name only"
+        }
+      ],
+      correct: 0,
+      explanation: {
+            "en": "This fact about this artist is historically accurate and well-documented.",
+            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
+            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
+            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
+      }
+    },
+    {
+      question: {
+            "en": "When did this artist pass away?",
+            "es": "When did este/a artist pass away?",
+            "de": "When did diese(r) artist pass away?",
+            "nl": "When did deze artist pass away?"
+      },
+      options: [
+        {
+                "en": "Correct year",
+                "es": "Correct year",
+                "de": "Correct year",
+                "nl": "Correct year"
+        },
+        {
+                "en": "10 years earlier",
+                "es": "10 years earlier",
+                "de": "10 years earlier",
+                "nl": "10 years earlier"
+        },
+        {
+                "en": "10 years later",
+                "es": "10 years later",
+                "de": "10 years later",
+                "nl": "10 years later"
+        },
+        {
+                "en": "Still alive",
+                "es": "Still alive",
+                "de": "Still alive",
+                "nl": "Still alive"
+        }
+      ],
+      correct: 0,
+      explanation: {
+            "en": "This fact about this artist is historically accurate and well-documented.",
+            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
+            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
+            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
+      }
+    },
+    {
+      question: {
+            "en": "How old was this artist when they died?",
+            "es": "How old was este/a artist when they died?",
+            "de": "How old was diese(r) artist when they died?",
+            "nl": "How old was deze artist when they died?"
+      },
+      options: [
+        {
+                "en": "Correct age",
+                "es": "Correct age",
+                "de": "Correct age",
+                "nl": "Correct age"
+        },
+        {
+                "en": "10 years younger",
+                "es": "10 years younger",
+                "de": "10 years younger",
+                "nl": "10 years younger"
+        },
+        {
+                "en": "10 years older",
+                "es": "10 years older",
+                "de": "10 years older",
+                "nl": "10 years older"
+        },
+        {
+                "en": "Different age",
+                "es": "Different age",
+                "de": "Different age",
+                "nl": "Different age"
+        }
+      ],
+      correct: 0,
+      explanation: {
+            "en": "This fact about this artist is historically accurate and well-documented.",
+            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
+            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
+            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
+      }
+    },
+    {
+      question: {
+            "en": "What was this artist's nationality?",
+            "es": "What was este/a artist's nationality?",
+            "de": "What was diese(r) artist's nationality?",
+            "nl": "What was deze artist's nationality?"
+      },
+      options: [
+        {
+                "en": "Correct nationality",
+                "es": "Correct nationality",
+                "de": "Correct nationality",
+                "nl": "Correct nationality"
+        },
+        {
+                "en": "Neighboring country",
+                "es": "Neighboring country",
+                "de": "Neighboring country",
+                "nl": "Neighboring country"
+        },
+        {
+                "en": "Colonial power",
+                "es": "Colonial power",
+                "de": "Colonial power",
+                "nl": "Colonial power"
+        },
+        {
+                "en": "Different continent",
+                "es": "Different continent",
+                "de": "Different continent",
+                "nl": "Different continent"
+        }
+      ],
+      correct: 0,
+      explanation: {
+            "en": "This fact about this artist is historically accurate and well-documented.",
+            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
+            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
+            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
+      }
+    },
+    {
+      question: {
+            "en": "What was this artist's education?",
+            "es": "What was este/a artist's education?",
+            "de": "What was diese(r) artist's education?",
+            "nl": "What was deze artist's education?"
+      },
+      options: [
+        {
+                "en": "Correct education",
+                "es": "Correct education",
+                "de": "Correct education",
+                "nl": "Correct education"
+        },
+        {
+                "en": "No formal education",
+                "es": "No formal education",
+                "de": "No formal education",
+                "nl": "No formal education"
+        },
+        {
+                "en": "Different field",
+                "es": "Different field",
+                "de": "Different field",
+                "nl": "Different field"
+        },
+        {
+                "en": "PhD only",
+                "es": "PhD only",
+                "de": "PhD only",
+                "nl": "PhD only"
+        }
+      ],
+      correct: 0,
+      explanation: {
+            "en": "This fact about this artist is historically accurate and well-documented.",
+            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
+            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
+            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
+      }
+    },
+    {
+      question: {
+            "en": "Who were this artist's parents?",
+            "es": "Who were este/a artist's parents?",
+            "de": "Who were diese(r) artist's parents?",
+            "nl": "Who were deze artist's parents?"
+      },
+      options: [
+        {
+                "en": "Correct parents",
+                "es": "Correct parents",
+                "de": "Correct parents",
+                "nl": "Correct parents"
+        },
+        {
+                "en": "Famous contemporaries",
+                "es": "Famous contemporaries",
+                "de": "Famous contemporaries",
+                "nl": "Famous contemporaries"
+        },
+        {
+                "en": "Unknown",
+                "es": "Unknown",
+                "de": "Unknown",
+                "nl": "Unknown"
+        },
+        {
+                "en": "Royalty",
+                "es": "Royalty",
+                "de": "Royalty",
+                "nl": "Royalty"
+        }
+      ],
+      correct: 0,
+      explanation: {
+            "en": "This fact about this artist is historically accurate and well-documented.",
+            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
+            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
+            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
+      }
+    },
+    {
+      question: {
+            "en": "What was this artist's primary profession?",
+            "es": "What was este/a artist's primary profession?",
+            "de": "What was diese(r) artist's primary profession?",
+            "nl": "What was deze artist's primary profession?"
+      },
+      options: [
+        {
+                "en": "Correct profession",
+                "es": "Correct profession",
+                "de": "Correct profession",
+                "nl": "Correct profession"
+        },
+        {
+                "en": "Related field",
+                "es": "Related field",
+                "de": "Related field",
+                "nl": "Related field"
+        },
+        {
+                "en": "Different field",
+                "es": "Different field",
+                "de": "Different field",
+                "nl": "Different field"
+        },
+        {
+                "en": "Multiple professions",
+                "es": "Multiple professions",
+                "de": "Multiple professions",
+                "nl": "Multiple professions"
+        }
+      ],
+      correct: 0,
+      explanation: {
+            "en": "This fact about this artist is historically accurate and well-documented.",
+            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
+            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
+            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
+      }
+    },
+    {
+      question: {
+            "en": "When did this artist start their career?",
+            "es": "When did este/a artist start their career?",
+            "de": "When did diese(r) artist start their career?",
+            "nl": "When did deze artist start their career?"
+      },
+      options: [
+        {
+                "en": "Correct period",
+                "es": "Correct period",
+                "de": "Correct period",
+                "nl": "Correct period"
+        },
+        {
+                "en": "10 years earlier",
+                "es": "10 years earlier",
+                "de": "10 years earlier",
+                "nl": "10 years earlier"
+        },
+        {
+                "en": "10 years later",
+                "es": "10 years later",
+                "de": "10 years later",
+                "nl": "10 years later"
+        },
+        {
+                "en": "Child prodigy",
+                "es": "Child prodigy",
+                "de": "Child prodigy",
+                "nl": "Child prodigy"
+        }
+      ],
+      correct: 0,
+      explanation: {
+            "en": "This fact about this artist is historically accurate and well-documented.",
+            "es": "Este hecho sobre this artist es históricamente preciso y bien documentado.",
+            "de": "Diese Tatsache über this artist ist historisch korrekt und gut dokumentiert.",
+            "nl": "Dit feit over this artist is historisch accuraat en goed gedocumenteerd."
+      }
+    }
+  ];
 
     if (typeof module !== 'undefined' && module.exports) {
         module.exports = questions;

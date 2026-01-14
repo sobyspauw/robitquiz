@@ -427,6 +427,827 @@
           de: "F.W. de Klerk wurde 1989 Südafrikas letzter Apartheid-Präsident. Er ließ Nelson Mandela frei, legalisierte den ANC und verhandelte das Ende der Apartheid. Er und Mandela teilten sich 1993 den Friedensnobelpreis für ihren friedlichen Übergang zur Demokratie.",
           nl: "F.W. de Klerk werd in 1989 Zuid-Afrika's laatste apartheidspresident. Hij liet Nelson Mandela vrij, legaliseerde het ANC en onderhandelde het einde van de apartheid. Hij en Mandela deelden de Nobelprijs voor de Vrede van 1993 voor hun vreedzame overgang naar democratie."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this political leader born?",
+                  "es": "When was este/a political leader born?",
+                  "de": "When was diese(r) political leader born?",
+                  "nl": "When was deze political leader born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Where was this political leader born?",
+                  "es": "Where was este/a political leader born?",
+                  "de": "Where was diese(r) political leader born?",
+                  "nl": "Where was deze political leader born?"
+        },
+        options: [
+          {
+                    "en": "Correct location",
+                    "es": "Correct location",
+                    "de": "Correct location",
+                    "nl": "Correct location"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          },
+          {
+                    "en": "Capital city",
+                    "es": "Capital city",
+                    "de": "Capital city",
+                    "nl": "Capital city"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this political leader's full name?",
+                  "es": "What was este/a political leader's full name?",
+                  "de": "What was diese(r) political leader's full name?",
+                  "nl": "What was deze political leader's full name?"
+        },
+        options: [
+          {
+                    "en": "Correct name",
+                    "es": "Correct name",
+                    "de": "Correct name",
+                    "nl": "Correct name"
+          },
+          {
+                    "en": "Similar name",
+                    "es": "Similar name",
+                    "de": "Similar name",
+                    "nl": "Similar name"
+          },
+          {
+                    "en": "Common name",
+                    "es": "Common name",
+                    "de": "Common name",
+                    "nl": "Common name"
+          },
+          {
+                    "en": "Stage name only",
+                    "es": "Stage name only",
+                    "de": "Stage name only",
+                    "nl": "Stage name only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "When did this political leader pass away?",
+                  "es": "When did este/a political leader pass away?",
+                  "de": "When did diese(r) political leader pass away?",
+                  "nl": "When did deze political leader pass away?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "Still alive",
+                    "es": "Still alive",
+                    "de": "Still alive",
+                    "nl": "Still alive"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How old was this political leader when they died?",
+                  "es": "How old was este/a political leader when they died?",
+                  "de": "How old was diese(r) political leader when they died?",
+                  "nl": "How old was deze political leader when they died?"
+        },
+        options: [
+          {
+                    "en": "Correct age",
+                    "es": "Correct age",
+                    "de": "Correct age",
+                    "nl": "Correct age"
+          },
+          {
+                    "en": "10 years younger",
+                    "es": "10 years younger",
+                    "de": "10 years younger",
+                    "nl": "10 years younger"
+          },
+          {
+                    "en": "10 years older",
+                    "es": "10 years older",
+                    "de": "10 years older",
+                    "nl": "10 years older"
+          },
+          {
+                    "en": "Different age",
+                    "es": "Different age",
+                    "de": "Different age",
+                    "nl": "Different age"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this political leader's nationality?",
+                  "es": "What was este/a political leader's nationality?",
+                  "de": "What was diese(r) political leader's nationality?",
+                  "nl": "What was deze political leader's nationality?"
+        },
+        options: [
+          {
+                    "en": "Correct nationality",
+                    "es": "Correct nationality",
+                    "de": "Correct nationality",
+                    "nl": "Correct nationality"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Colonial power",
+                    "es": "Colonial power",
+                    "de": "Colonial power",
+                    "nl": "Colonial power"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this political leader's education?",
+                  "es": "What was este/a political leader's education?",
+                  "de": "What was diese(r) political leader's education?",
+                  "nl": "What was deze political leader's education?"
+        },
+        options: [
+          {
+                    "en": "Correct education",
+                    "es": "Correct education",
+                    "de": "Correct education",
+                    "nl": "Correct education"
+          },
+          {
+                    "en": "No formal education",
+                    "es": "No formal education",
+                    "de": "No formal education",
+                    "nl": "No formal education"
+          },
+          {
+                    "en": "Different field",
+                    "es": "Different field",
+                    "de": "Different field",
+                    "nl": "Different field"
+          },
+          {
+                    "en": "PhD only",
+                    "es": "PhD only",
+                    "de": "PhD only",
+                    "nl": "PhD only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Who were this political leader's parents?",
+                  "es": "Who were este/a political leader's parents?",
+                  "de": "Who were diese(r) political leader's parents?",
+                  "nl": "Who were deze political leader's parents?"
+        },
+        options: [
+          {
+                    "en": "Correct parents",
+                    "es": "Correct parents",
+                    "de": "Correct parents",
+                    "nl": "Correct parents"
+          },
+          {
+                    "en": "Famous contemporaries",
+                    "es": "Famous contemporaries",
+                    "de": "Famous contemporaries",
+                    "nl": "Famous contemporaries"
+          },
+          {
+                    "en": "Unknown",
+                    "es": "Unknown",
+                    "de": "Unknown",
+                    "nl": "Unknown"
+          },
+          {
+                    "en": "Royalty",
+                    "es": "Royalty",
+                    "de": "Royalty",
+                    "nl": "Royalty"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this political leader's primary profession?",
+                  "es": "What was este/a political leader's primary profession?",
+                  "de": "What was diese(r) political leader's primary profession?",
+                  "nl": "What was deze political leader's primary profession?"
+        },
+        options: [
+          {
+                    "en": "Correct profession",
+                    "es": "Correct profession",
+                    "de": "Correct profession",
+                    "nl": "Correct profession"
+          },
+          {
+                    "en": "Related field",
+                    "es": "Related field",
+                    "de": "Related field",
+                    "nl": "Related field"
+          },
+          {
+                    "en": "Different field",
+                    "es": "Different field",
+                    "de": "Different field",
+                    "nl": "Different field"
+          },
+          {
+                    "en": "Multiple professions",
+                    "es": "Multiple professions",
+                    "de": "Multiple professions",
+                    "nl": "Multiple professions"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "When did this political leader start their career?",
+                  "es": "When did este/a political leader start their career?",
+                  "de": "When did diese(r) political leader start their career?",
+                  "nl": "When did deze political leader start their career?"
+        },
+        options: [
+          {
+                    "en": "Correct period",
+                    "es": "Correct period",
+                    "de": "Correct period",
+                    "nl": "Correct period"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "Child prodigy",
+                    "es": "Child prodigy",
+                    "de": "Child prodigy",
+                    "nl": "Child prodigy"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this political leader's breakthrough moment?",
+                  "es": "What was este/a political leader's breakthrough moment?",
+                  "de": "What was diese(r) political leader's breakthrough moment?",
+                  "nl": "What was deze political leader's breakthrough moment?"
+        },
+        options: [
+          {
+                    "en": "Correct achievement",
+                    "es": "Correct achievement",
+                    "de": "Correct achievement",
+                    "nl": "Correct achievement"
+          },
+          {
+                    "en": "Different achievement",
+                    "es": "Different achievement",
+                    "de": "Different achievement",
+                    "nl": "Different achievement"
+          },
+          {
+                    "en": "Later work",
+                    "es": "Later work",
+                    "de": "Later work",
+                    "nl": "Later work"
+          },
+          {
+                    "en": "First work",
+                    "es": "First work",
+                    "de": "First work",
+                    "nl": "First work"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Who was this political leader's mentor?",
+                  "es": "Who was este/a political leader's mentor?",
+                  "de": "Who was diese(r) political leader's mentor?",
+                  "nl": "Who was deze political leader's mentor?"
+        },
+        options: [
+          {
+                    "en": "Correct mentor",
+                    "es": "Correct mentor",
+                    "de": "Correct mentor",
+                    "nl": "Correct mentor"
+          },
+          {
+                    "en": "Contemporary",
+                    "es": "Contemporary",
+                    "de": "Contemporary",
+                    "nl": "Contemporary"
+          },
+          {
+                    "en": "Self-taught",
+                    "es": "Self-taught",
+                    "de": "Self-taught",
+                    "nl": "Self-taught"
+          },
+          {
+                    "en": "Family member",
+                    "es": "Family member",
+                    "de": "Family member",
+                    "nl": "Family member"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What organization did this political leader found?",
+                  "es": "What organization did este/a political leader found?",
+                  "de": "What organization did diese(r) political leader found?",
+                  "nl": "What organization did deze political leader found?"
+        },
+        options: [
+          {
+                    "en": "Correct organization",
+                    "es": "Correct organization",
+                    "de": "Correct organization",
+                    "nl": "Correct organization"
+          },
+          {
+                    "en": "Different group",
+                    "es": "Different group",
+                    "de": "Different group",
+                    "nl": "Different group"
+          },
+          {
+                    "en": "Nothing",
+                    "es": "Nothing",
+                    "de": "Nothing",
+                    "nl": "Nothing"
+          },
+          {
+                    "en": "Multiple organizations",
+                    "es": "Multiple organizations",
+                    "de": "Multiple organizations",
+                    "nl": "Multiple organizations"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What position did this political leader hold?",
+                  "es": "What position did este/a political leader hold?",
+                  "de": "What position did diese(r) political leader hold?",
+                  "nl": "What position did deze political leader hold?"
+        },
+        options: [
+          {
+                    "en": "Correct position",
+                    "es": "Correct position",
+                    "de": "Correct position",
+                    "nl": "Correct position"
+          },
+          {
+                    "en": "Lower position",
+                    "es": "Lower position",
+                    "de": "Lower position",
+                    "nl": "Lower position"
+          },
+          {
+                    "en": "Higher position",
+                    "es": "Higher position",
+                    "de": "Higher position",
+                    "nl": "Higher position"
+          },
+          {
+                    "en": "No position",
+                    "es": "No position",
+                    "de": "No position",
+                    "nl": "No position"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How long was this political leader's career?",
+                  "es": "How long was este/a political leader's career?",
+                  "de": "How long was diese(r) political leader's career?",
+                  "nl": "How long was deze political leader's career?"
+        },
+        options: [
+          {
+                    "en": "Correct duration",
+                    "es": "Correct duration",
+                    "de": "Correct duration",
+                    "nl": "Correct duration"
+          },
+          {
+                    "en": "Half the time",
+                    "es": "Half the time",
+                    "de": "Half the time",
+                    "nl": "Half the time"
+          },
+          {
+                    "en": "Double the time",
+                    "es": "Double the time",
+                    "de": "Double the time",
+                    "nl": "Double the time"
+          },
+          {
+                    "en": "Entire life",
+                    "es": "Entire life",
+                    "de": "Entire life",
+                    "nl": "Entire life"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Where did this political leader work primarily?",
+                  "es": "Where did este/a political leader work primarily?",
+                  "de": "Where did diese(r) political leader work primarily?",
+                  "nl": "Where did deze political leader work primarily?"
+        },
+        options: [
+          {
+                    "en": "Correct location",
+                    "es": "Correct location",
+                    "de": "Correct location",
+                    "nl": "Correct location"
+          },
+          {
+                    "en": "Different city",
+                    "es": "Different city",
+                    "de": "Different city",
+                    "nl": "Different city"
+          },
+          {
+                    "en": "Multiple locations",
+                    "es": "Multiple locations",
+                    "de": "Multiple locations",
+                    "nl": "Multiple locations"
+          },
+          {
+                    "en": "Remote only",
+                    "es": "Remote only",
+                    "de": "Remote only",
+                    "nl": "Remote only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What is this political leader best known for?",
+                  "es": "What is este/a political leader best known for?",
+                  "de": "What is diese(r) political leader best known for?",
+                  "nl": "What is deze political leader best known for?"
+        },
+        options: [
+          {
+                    "en": "Main achievement",
+                    "es": "Main achievement",
+                    "de": "Main achievement",
+                    "nl": "Main achievement"
+          },
+          {
+                    "en": "Minor work",
+                    "es": "Minor work",
+                    "de": "Minor work",
+                    "nl": "Minor work"
+          },
+          {
+                    "en": "Different person's work",
+                    "es": "Different person's work",
+                    "de": "Different person's work",
+                    "nl": "Different person's work"
+          },
+          {
+                    "en": "Controversy",
+                    "es": "Controversy",
+                    "de": "Controversy",
+                    "nl": "Controversy"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What award did this political leader receive?",
+                  "es": "What award did este/a political leader receive?",
+                  "de": "What award did diese(r) political leader receive?",
+                  "nl": "What award did deze political leader receive?"
+        },
+        options: [
+          {
+                    "en": "Correct award",
+                    "es": "Correct award",
+                    "de": "Correct award",
+                    "nl": "Correct award"
+          },
+          {
+                    "en": "Different award",
+                    "es": "Different award",
+                    "de": "Different award",
+                    "nl": "Different award"
+          },
+          {
+                    "en": "No awards",
+                    "es": "No awards",
+                    "de": "No awards",
+                    "nl": "No awards"
+          },
+          {
+                    "en": "Posthumous only",
+                    "es": "Posthumous only",
+                    "de": "Posthumous only",
+                    "nl": "Posthumous only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How many times was this political leader nominated?",
+                  "es": "How many times was este/a political leader nominated?",
+                  "de": "How many times was diese(r) political leader nominated?",
+                  "nl": "How many times was deze political leader nominated?"
+        },
+        options: [
+          {
+                    "en": "Correct number",
+                    "es": "Correct number",
+                    "de": "Correct number",
+                    "nl": "Correct number"
+          },
+          {
+                    "en": "Never",
+                    "es": "Never",
+                    "de": "Never",
+                    "nl": "Never"
+          },
+          {
+                    "en": "Once",
+                    "es": "Once",
+                    "de": "Once",
+                    "nl": "Once"
+          },
+          {
+                    "en": "Every year",
+                    "es": "Every year",
+                    "de": "Every year",
+                    "nl": "Every year"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What record does this political leader hold?",
+                  "es": "What record does este/a political leader hold?",
+                  "de": "What record does diese(r) political leader hold?",
+                  "nl": "What record does deze political leader hold?"
+        },
+        options: [
+          {
+                    "en": "Correct record",
+                    "es": "Correct record",
+                    "de": "Correct record",
+                    "nl": "Correct record"
+          },
+          {
+                    "en": "Different record",
+                    "es": "Different record",
+                    "de": "Different record",
+                    "nl": "Different record"
+          },
+          {
+                    "en": "No records",
+                    "es": "No records",
+                    "de": "No records",
+                    "nl": "No records"
+          },
+          {
+                    "en": "Shared record",
+                    "es": "Shared record",
+                    "de": "Shared record",
+                    "nl": "Shared record"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this political leader is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this political leader es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this political leader ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this political leader is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

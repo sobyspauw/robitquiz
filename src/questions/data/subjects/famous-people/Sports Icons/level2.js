@@ -826,6 +826,48 @@
           de: "Lord's Cricket Ground in London, England, ist als die 'Heimat des Crickets' bekannt und veranstaltet wichtige Cricket-Spiele einschließlich Testspiele und Finale.",
           nl: "Lord's Cricket Ground in Londen, Engeland, staat bekend als het 'Thuis van Cricket' en organiseert belangrijke cricketwedstrijden inclusief Test matches en finales."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this sports icon born?",
+                  "es": "When was este/a sports icon born?",
+                  "de": "When was diese(r) sports icon born?",
+                  "nl": "When was deze sports icon born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this sports icon is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this sports icon es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this sports icon ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this sports icon is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

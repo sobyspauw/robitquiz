@@ -805,6 +805,89 @@
           de: "Oasis, mit Noel Gallagher als Hauptsongwriter, definierte die Britpop-Bewegung der 1990er Jahre. 'Wonderwall' wurde zu einem der ikonischsten Songs des Jahrzehnts.",
           nl: "Oasis, met Noel Gallagher als hoofdsongwriter, definieerde de Britpop-beweging van de jaren 1990. 'Wonderwall' werd een van de meest iconische nummers van het decennium."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this musician born?",
+                  "es": "When was este/a musician born?",
+                  "de": "When was diese(r) musician born?",
+                  "nl": "When was deze musician born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Where was this musician born?",
+                  "es": "Where was este/a musician born?",
+                  "de": "Where was diese(r) musician born?",
+                  "nl": "Where was deze musician born?"
+        },
+        options: [
+          {
+                    "en": "Correct location",
+                    "es": "Correct location",
+                    "de": "Correct location",
+                    "nl": "Correct location"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          },
+          {
+                    "en": "Capital city",
+                    "es": "Capital city",
+                    "de": "Capital city",
+                    "nl": "Capital city"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

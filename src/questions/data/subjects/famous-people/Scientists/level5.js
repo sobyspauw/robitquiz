@@ -427,6 +427,827 @@
           de: "Claude Shannon begründete 1948 die Informationstheorie mit seiner Arbeit 'Eine mathematische Theorie der Kommunikation'. Er definierte das Bit als grundlegende Informationseinheit und entwickelte Konzepte wie Entropie und Kanalkapazität. Seine Arbeit legte den Grundstein für digitale Kommunikation, Datenkompression und Kryptographie. Shannon arbeitete auch an künstlicher Intelligenz, jonglierenden Robotern und der mathematischen Lösung des Rubik-Würfels.",
           nl: "Claude Shannon richtte in 1948 de informatietheorie op met zijn paper 'A Mathematical Theory of Communication'. Hij definieerde de bit als de fundamentele eenheid van informatie en ontwikkelde concepten zoals entropie en kanaalcapaciteit. Zijn werk legde de basis voor digitale communicatie, datacompressie en cryptografie. Shannon werkte ook aan kunstmatige intelligentie, jonglerende robots en het wiskundig oplossen van de Rubik's kubus."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this scientist born?",
+                  "es": "When was este/a scientist born?",
+                  "de": "When was diese(r) scientist born?",
+                  "nl": "When was deze scientist born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Where was this scientist born?",
+                  "es": "Where was este/a scientist born?",
+                  "de": "Where was diese(r) scientist born?",
+                  "nl": "Where was deze scientist born?"
+        },
+        options: [
+          {
+                    "en": "Correct location",
+                    "es": "Correct location",
+                    "de": "Correct location",
+                    "nl": "Correct location"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          },
+          {
+                    "en": "Capital city",
+                    "es": "Capital city",
+                    "de": "Capital city",
+                    "nl": "Capital city"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this scientist's full name?",
+                  "es": "What was este/a scientist's full name?",
+                  "de": "What was diese(r) scientist's full name?",
+                  "nl": "What was deze scientist's full name?"
+        },
+        options: [
+          {
+                    "en": "Correct name",
+                    "es": "Correct name",
+                    "de": "Correct name",
+                    "nl": "Correct name"
+          },
+          {
+                    "en": "Similar name",
+                    "es": "Similar name",
+                    "de": "Similar name",
+                    "nl": "Similar name"
+          },
+          {
+                    "en": "Common name",
+                    "es": "Common name",
+                    "de": "Common name",
+                    "nl": "Common name"
+          },
+          {
+                    "en": "Stage name only",
+                    "es": "Stage name only",
+                    "de": "Stage name only",
+                    "nl": "Stage name only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "When did this scientist pass away?",
+                  "es": "When did este/a scientist pass away?",
+                  "de": "When did diese(r) scientist pass away?",
+                  "nl": "When did deze scientist pass away?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "Still alive",
+                    "es": "Still alive",
+                    "de": "Still alive",
+                    "nl": "Still alive"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How old was this scientist when they died?",
+                  "es": "How old was este/a scientist when they died?",
+                  "de": "How old was diese(r) scientist when they died?",
+                  "nl": "How old was deze scientist when they died?"
+        },
+        options: [
+          {
+                    "en": "Correct age",
+                    "es": "Correct age",
+                    "de": "Correct age",
+                    "nl": "Correct age"
+          },
+          {
+                    "en": "10 years younger",
+                    "es": "10 years younger",
+                    "de": "10 years younger",
+                    "nl": "10 years younger"
+          },
+          {
+                    "en": "10 years older",
+                    "es": "10 years older",
+                    "de": "10 years older",
+                    "nl": "10 years older"
+          },
+          {
+                    "en": "Different age",
+                    "es": "Different age",
+                    "de": "Different age",
+                    "nl": "Different age"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this scientist's nationality?",
+                  "es": "What was este/a scientist's nationality?",
+                  "de": "What was diese(r) scientist's nationality?",
+                  "nl": "What was deze scientist's nationality?"
+        },
+        options: [
+          {
+                    "en": "Correct nationality",
+                    "es": "Correct nationality",
+                    "de": "Correct nationality",
+                    "nl": "Correct nationality"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Colonial power",
+                    "es": "Colonial power",
+                    "de": "Colonial power",
+                    "nl": "Colonial power"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this scientist's education?",
+                  "es": "What was este/a scientist's education?",
+                  "de": "What was diese(r) scientist's education?",
+                  "nl": "What was deze scientist's education?"
+        },
+        options: [
+          {
+                    "en": "Correct education",
+                    "es": "Correct education",
+                    "de": "Correct education",
+                    "nl": "Correct education"
+          },
+          {
+                    "en": "No formal education",
+                    "es": "No formal education",
+                    "de": "No formal education",
+                    "nl": "No formal education"
+          },
+          {
+                    "en": "Different field",
+                    "es": "Different field",
+                    "de": "Different field",
+                    "nl": "Different field"
+          },
+          {
+                    "en": "PhD only",
+                    "es": "PhD only",
+                    "de": "PhD only",
+                    "nl": "PhD only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Who were this scientist's parents?",
+                  "es": "Who were este/a scientist's parents?",
+                  "de": "Who were diese(r) scientist's parents?",
+                  "nl": "Who were deze scientist's parents?"
+        },
+        options: [
+          {
+                    "en": "Correct parents",
+                    "es": "Correct parents",
+                    "de": "Correct parents",
+                    "nl": "Correct parents"
+          },
+          {
+                    "en": "Famous contemporaries",
+                    "es": "Famous contemporaries",
+                    "de": "Famous contemporaries",
+                    "nl": "Famous contemporaries"
+          },
+          {
+                    "en": "Unknown",
+                    "es": "Unknown",
+                    "de": "Unknown",
+                    "nl": "Unknown"
+          },
+          {
+                    "en": "Royalty",
+                    "es": "Royalty",
+                    "de": "Royalty",
+                    "nl": "Royalty"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this scientist's primary profession?",
+                  "es": "What was este/a scientist's primary profession?",
+                  "de": "What was diese(r) scientist's primary profession?",
+                  "nl": "What was deze scientist's primary profession?"
+        },
+        options: [
+          {
+                    "en": "Correct profession",
+                    "es": "Correct profession",
+                    "de": "Correct profession",
+                    "nl": "Correct profession"
+          },
+          {
+                    "en": "Related field",
+                    "es": "Related field",
+                    "de": "Related field",
+                    "nl": "Related field"
+          },
+          {
+                    "en": "Different field",
+                    "es": "Different field",
+                    "de": "Different field",
+                    "nl": "Different field"
+          },
+          {
+                    "en": "Multiple professions",
+                    "es": "Multiple professions",
+                    "de": "Multiple professions",
+                    "nl": "Multiple professions"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "When did this scientist start their career?",
+                  "es": "When did este/a scientist start their career?",
+                  "de": "When did diese(r) scientist start their career?",
+                  "nl": "When did deze scientist start their career?"
+        },
+        options: [
+          {
+                    "en": "Correct period",
+                    "es": "Correct period",
+                    "de": "Correct period",
+                    "nl": "Correct period"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "Child prodigy",
+                    "es": "Child prodigy",
+                    "de": "Child prodigy",
+                    "nl": "Child prodigy"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this scientist's breakthrough moment?",
+                  "es": "What was este/a scientist's breakthrough moment?",
+                  "de": "What was diese(r) scientist's breakthrough moment?",
+                  "nl": "What was deze scientist's breakthrough moment?"
+        },
+        options: [
+          {
+                    "en": "Correct achievement",
+                    "es": "Correct achievement",
+                    "de": "Correct achievement",
+                    "nl": "Correct achievement"
+          },
+          {
+                    "en": "Different achievement",
+                    "es": "Different achievement",
+                    "de": "Different achievement",
+                    "nl": "Different achievement"
+          },
+          {
+                    "en": "Later work",
+                    "es": "Later work",
+                    "de": "Later work",
+                    "nl": "Later work"
+          },
+          {
+                    "en": "First work",
+                    "es": "First work",
+                    "de": "First work",
+                    "nl": "First work"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Who was this scientist's mentor?",
+                  "es": "Who was este/a scientist's mentor?",
+                  "de": "Who was diese(r) scientist's mentor?",
+                  "nl": "Who was deze scientist's mentor?"
+        },
+        options: [
+          {
+                    "en": "Correct mentor",
+                    "es": "Correct mentor",
+                    "de": "Correct mentor",
+                    "nl": "Correct mentor"
+          },
+          {
+                    "en": "Contemporary",
+                    "es": "Contemporary",
+                    "de": "Contemporary",
+                    "nl": "Contemporary"
+          },
+          {
+                    "en": "Self-taught",
+                    "es": "Self-taught",
+                    "de": "Self-taught",
+                    "nl": "Self-taught"
+          },
+          {
+                    "en": "Family member",
+                    "es": "Family member",
+                    "de": "Family member",
+                    "nl": "Family member"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What organization did this scientist found?",
+                  "es": "What organization did este/a scientist found?",
+                  "de": "What organization did diese(r) scientist found?",
+                  "nl": "What organization did deze scientist found?"
+        },
+        options: [
+          {
+                    "en": "Correct organization",
+                    "es": "Correct organization",
+                    "de": "Correct organization",
+                    "nl": "Correct organization"
+          },
+          {
+                    "en": "Different group",
+                    "es": "Different group",
+                    "de": "Different group",
+                    "nl": "Different group"
+          },
+          {
+                    "en": "Nothing",
+                    "es": "Nothing",
+                    "de": "Nothing",
+                    "nl": "Nothing"
+          },
+          {
+                    "en": "Multiple organizations",
+                    "es": "Multiple organizations",
+                    "de": "Multiple organizations",
+                    "nl": "Multiple organizations"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What position did this scientist hold?",
+                  "es": "What position did este/a scientist hold?",
+                  "de": "What position did diese(r) scientist hold?",
+                  "nl": "What position did deze scientist hold?"
+        },
+        options: [
+          {
+                    "en": "Correct position",
+                    "es": "Correct position",
+                    "de": "Correct position",
+                    "nl": "Correct position"
+          },
+          {
+                    "en": "Lower position",
+                    "es": "Lower position",
+                    "de": "Lower position",
+                    "nl": "Lower position"
+          },
+          {
+                    "en": "Higher position",
+                    "es": "Higher position",
+                    "de": "Higher position",
+                    "nl": "Higher position"
+          },
+          {
+                    "en": "No position",
+                    "es": "No position",
+                    "de": "No position",
+                    "nl": "No position"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How long was this scientist's career?",
+                  "es": "How long was este/a scientist's career?",
+                  "de": "How long was diese(r) scientist's career?",
+                  "nl": "How long was deze scientist's career?"
+        },
+        options: [
+          {
+                    "en": "Correct duration",
+                    "es": "Correct duration",
+                    "de": "Correct duration",
+                    "nl": "Correct duration"
+          },
+          {
+                    "en": "Half the time",
+                    "es": "Half the time",
+                    "de": "Half the time",
+                    "nl": "Half the time"
+          },
+          {
+                    "en": "Double the time",
+                    "es": "Double the time",
+                    "de": "Double the time",
+                    "nl": "Double the time"
+          },
+          {
+                    "en": "Entire life",
+                    "es": "Entire life",
+                    "de": "Entire life",
+                    "nl": "Entire life"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Where did this scientist work primarily?",
+                  "es": "Where did este/a scientist work primarily?",
+                  "de": "Where did diese(r) scientist work primarily?",
+                  "nl": "Where did deze scientist work primarily?"
+        },
+        options: [
+          {
+                    "en": "Correct location",
+                    "es": "Correct location",
+                    "de": "Correct location",
+                    "nl": "Correct location"
+          },
+          {
+                    "en": "Different city",
+                    "es": "Different city",
+                    "de": "Different city",
+                    "nl": "Different city"
+          },
+          {
+                    "en": "Multiple locations",
+                    "es": "Multiple locations",
+                    "de": "Multiple locations",
+                    "nl": "Multiple locations"
+          },
+          {
+                    "en": "Remote only",
+                    "es": "Remote only",
+                    "de": "Remote only",
+                    "nl": "Remote only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What is this scientist best known for?",
+                  "es": "What is este/a scientist best known for?",
+                  "de": "What is diese(r) scientist best known for?",
+                  "nl": "What is deze scientist best known for?"
+        },
+        options: [
+          {
+                    "en": "Main achievement",
+                    "es": "Main achievement",
+                    "de": "Main achievement",
+                    "nl": "Main achievement"
+          },
+          {
+                    "en": "Minor work",
+                    "es": "Minor work",
+                    "de": "Minor work",
+                    "nl": "Minor work"
+          },
+          {
+                    "en": "Different person's work",
+                    "es": "Different person's work",
+                    "de": "Different person's work",
+                    "nl": "Different person's work"
+          },
+          {
+                    "en": "Controversy",
+                    "es": "Controversy",
+                    "de": "Controversy",
+                    "nl": "Controversy"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What award did this scientist receive?",
+                  "es": "What award did este/a scientist receive?",
+                  "de": "What award did diese(r) scientist receive?",
+                  "nl": "What award did deze scientist receive?"
+        },
+        options: [
+          {
+                    "en": "Correct award",
+                    "es": "Correct award",
+                    "de": "Correct award",
+                    "nl": "Correct award"
+          },
+          {
+                    "en": "Different award",
+                    "es": "Different award",
+                    "de": "Different award",
+                    "nl": "Different award"
+          },
+          {
+                    "en": "No awards",
+                    "es": "No awards",
+                    "de": "No awards",
+                    "nl": "No awards"
+          },
+          {
+                    "en": "Posthumous only",
+                    "es": "Posthumous only",
+                    "de": "Posthumous only",
+                    "nl": "Posthumous only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How many times was this scientist nominated?",
+                  "es": "How many times was este/a scientist nominated?",
+                  "de": "How many times was diese(r) scientist nominated?",
+                  "nl": "How many times was deze scientist nominated?"
+        },
+        options: [
+          {
+                    "en": "Correct number",
+                    "es": "Correct number",
+                    "de": "Correct number",
+                    "nl": "Correct number"
+          },
+          {
+                    "en": "Never",
+                    "es": "Never",
+                    "de": "Never",
+                    "nl": "Never"
+          },
+          {
+                    "en": "Once",
+                    "es": "Once",
+                    "de": "Once",
+                    "nl": "Once"
+          },
+          {
+                    "en": "Every year",
+                    "es": "Every year",
+                    "de": "Every year",
+                    "nl": "Every year"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What record does this scientist hold?",
+                  "es": "What record does este/a scientist hold?",
+                  "de": "What record does diese(r) scientist hold?",
+                  "nl": "What record does deze scientist hold?"
+        },
+        options: [
+          {
+                    "en": "Correct record",
+                    "es": "Correct record",
+                    "de": "Correct record",
+                    "nl": "Correct record"
+          },
+          {
+                    "en": "Different record",
+                    "es": "Different record",
+                    "de": "Different record",
+                    "nl": "Different record"
+          },
+          {
+                    "en": "No records",
+                    "es": "No records",
+                    "de": "No records",
+                    "nl": "No records"
+          },
+          {
+                    "en": "Shared record",
+                    "es": "Shared record",
+                    "de": "Shared record",
+                    "nl": "Shared record"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

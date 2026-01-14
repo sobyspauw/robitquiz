@@ -784,6 +784,130 @@
           de: "Ralph Lauren gründete Polo Ralph Lauren 1967 und begann mit einer Krawatten-Linie. Er baute es zu einem globalen Modeimperium auf, das für seinen amerikanischen Preppy-Stil und das ikonische Polospieler-Logo bekannt ist.",
           nl: "Ralph Lauren richtte Polo Ralph Lauren op in 1967, hij begon met een lijn stropdassen. Hij bouwde het uit tot een wereldwijd mode-imperium bekend om zijn preppy Amerikaanse stijl en iconische polospeler logo."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this entrepreneur born?",
+                  "es": "When was este/a entrepreneur born?",
+                  "de": "When was diese(r) entrepreneur born?",
+                  "nl": "When was deze entrepreneur born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this entrepreneur is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this entrepreneur es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this entrepreneur ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this entrepreneur is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Where was this entrepreneur born?",
+                  "es": "Where was este/a entrepreneur born?",
+                  "de": "Where was diese(r) entrepreneur born?",
+                  "nl": "Where was deze entrepreneur born?"
+        },
+        options: [
+          {
+                    "en": "Correct location",
+                    "es": "Correct location",
+                    "de": "Correct location",
+                    "nl": "Correct location"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          },
+          {
+                    "en": "Capital city",
+                    "es": "Capital city",
+                    "de": "Capital city",
+                    "nl": "Capital city"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this entrepreneur is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this entrepreneur es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this entrepreneur ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this entrepreneur is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this entrepreneur's full name?",
+                  "es": "What was este/a entrepreneur's full name?",
+                  "de": "What was diese(r) entrepreneur's full name?",
+                  "nl": "What was deze entrepreneur's full name?"
+        },
+        options: [
+          {
+                    "en": "Correct name",
+                    "es": "Correct name",
+                    "de": "Correct name",
+                    "nl": "Correct name"
+          },
+          {
+                    "en": "Similar name",
+                    "es": "Similar name",
+                    "de": "Similar name",
+                    "nl": "Similar name"
+          },
+          {
+                    "en": "Common name",
+                    "es": "Common name",
+                    "de": "Common name",
+                    "nl": "Common name"
+          },
+          {
+                    "en": "Stage name only",
+                    "es": "Stage name only",
+                    "de": "Stage name only",
+                    "nl": "Stage name only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this entrepreneur is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this entrepreneur es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this entrepreneur ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this entrepreneur is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

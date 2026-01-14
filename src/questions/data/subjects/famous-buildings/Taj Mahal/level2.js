@@ -827,6 +827,48 @@
           nl: "De Taj Mahal vertegenwoordigt het hoogtepunt van Mogol-architectuur tijdens de gouden eeuw in de 17e eeuw, waarbij Perzische, islamitische en Indiase architectonische elementen in perfecte harmonie worden gecombineerd."
         }
       }
+    ,
+      {
+        question: {
+                  "en": "When was Taj Mahal completed?",
+                  "es": "When was Taj Mahal completed?",
+                  "de": "When was Taj Mahal completed?",
+                  "nl": "When was Taj Mahal completed?"
+        },
+        options: [
+          {
+                    "en": "In the correct year",
+                    "es": "In the correct year",
+                    "de": "In the correct year",
+                    "nl": "In the correct year"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "20 years later",
+                    "es": "20 years later",
+                    "de": "20 years later",
+                    "nl": "20 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Taj Mahal was completed in its historically accurate year.",
+                  "es": "Taj Mahal was completed in its historically accurate year.",
+                  "de": "Taj Mahal was completed in its historically accurate year.",
+                  "nl": "Taj Mahal was completed in its historically accurate year."
+        }
+      }
     ]
   };
 

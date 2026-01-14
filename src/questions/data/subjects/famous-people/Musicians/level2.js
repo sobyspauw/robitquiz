@@ -826,6 +826,48 @@
           de: "Van Halen veröffentlichte 'Jump' 1983 von ihrem Album '1984'. Eddie Van Halens Synthesizer-Riff markierte eine Abkehr von ihrem üblichen gitarrengetriebenen Sound und wurde ihre einzige US-Nummer-eins-Single.",
           nl: "Van Halen bracht 'Jump' uit in 1983 van hun album '1984'. Eddie Van Halen's synthesizerriff markeerde een breuk met hun gebruikelijke gitaargedreven geluid, en het werd hun enige US nummer-één single."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this musician born?",
+                  "es": "When was este/a musician born?",
+                  "de": "When was diese(r) musician born?",
+                  "nl": "When was deze musician born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

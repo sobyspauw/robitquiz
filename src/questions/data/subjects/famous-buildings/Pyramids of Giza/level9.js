@@ -419,7 +419,828 @@
                 de: "Die fünf Entlastungskammern enthalten etwa 3.000 Tonnen Granitbalken und -blöcke, die dazu dienen, das enorme Gewicht darüber zu verteilen und die Königskammer vor dem Einsturz zu schützen.",
                 nl: "De vijf ontlastingskamers bevatten ongeveer 3.000 ton granieten balken en blokken, ontworpen om het enorme gewicht erboven te verdelen en de Koningskamer te beschermen tegen instorting."
             }
+        ,
+      {
+        question: {
+                  "en": "In which century was Pyramids of Giza built?",
+                  "es": "In which century was Pyramids of Giza built?",
+                  "de": "In which century was Pyramids of Giza built?",
+                  "nl": "In which century was Pyramids of Giza built?"
+        },
+        options: [
+          {
+                    "en": "Correct century",
+                    "es": "Correct century",
+                    "de": "Correct century",
+                    "nl": "Correct century"
+          },
+          {
+                    "en": "One century earlier",
+                    "es": "One century earlier",
+                    "de": "One century earlier",
+                    "nl": "One century earlier"
+          },
+          {
+                    "en": "One century later",
+                    "es": "One century later",
+                    "de": "One century later",
+                    "nl": "One century later"
+          },
+          {
+                    "en": "Two centuries later",
+                    "es": "Two centuries later",
+                    "de": "Two centuries later",
+                    "nl": "Two centuries later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
         }
+      },
+      {
+        question: {
+                  "en": "How long did it take to build Pyramids of Giza?",
+                  "es": "How long did it take to build Pyramids of Giza?",
+                  "de": "How long did it take to build Pyramids of Giza?",
+                  "nl": "How long did it take to build Pyramids of Giza?"
+        },
+        options: [
+          {
+                    "en": "Correct duration",
+                    "es": "Correct duration",
+                    "de": "Correct duration",
+                    "nl": "Correct duration"
+          },
+          {
+                    "en": "Half the time",
+                    "es": "Half the time",
+                    "de": "Half the time",
+                    "nl": "Half the time"
+          },
+          {
+                    "en": "Double the time",
+                    "es": "Double the time",
+                    "de": "Double the time",
+                    "nl": "Double the time"
+          },
+          {
+                    "en": "Triple the time",
+                    "es": "Triple the time",
+                    "de": "Triple the time",
+                    "nl": "Triple the time"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Which ruler commissioned Pyramids of Giza?",
+                  "es": "Which ruler commissioned Pyramids of Giza?",
+                  "de": "Which ruler commissioned Pyramids of Giza?",
+                  "nl": "Which ruler commissioned Pyramids of Giza?"
+        },
+        options: [
+          {
+                    "en": "Correct ruler",
+                    "es": "Correct ruler",
+                    "de": "Correct ruler",
+                    "nl": "Correct ruler"
+          },
+          {
+                    "en": "Previous ruler",
+                    "es": "Previous ruler",
+                    "de": "Previous ruler",
+                    "nl": "Previous ruler"
+          },
+          {
+                    "en": "Next ruler",
+                    "es": "Next ruler",
+                    "de": "Next ruler",
+                    "nl": "Next ruler"
+          },
+          {
+                    "en": "Famous contemporary",
+                    "es": "Famous contemporary",
+                    "de": "Famous contemporary",
+                    "nl": "Famous contemporary"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What year did construction begin on Pyramids of Giza?",
+                  "es": "What year did construction begin on Pyramids of Giza?",
+                  "de": "What year did construction begin on Pyramids of Giza?",
+                  "nl": "What year did construction begin on Pyramids of Giza?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "20 years later",
+                    "es": "20 years later",
+                    "de": "20 years later",
+                    "nl": "20 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What year was Pyramids of Giza completed?",
+                  "es": "What year was Pyramids of Giza completed?",
+                  "de": "What year was Pyramids of Giza completed?",
+                  "nl": "What year was Pyramids of Giza completed?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "15 years later",
+                    "es": "15 years later",
+                    "de": "15 years later",
+                    "nl": "15 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "During which historical period was Pyramids of Giza constructed?",
+                  "es": "During which historical period was Pyramids of Giza constructed?",
+                  "de": "During which historical period was Pyramids of Giza constructed?",
+                  "nl": "During which historical period was Pyramids of Giza constructed?"
+        },
+        options: [
+          {
+                    "en": "Correct period",
+                    "es": "Correct period",
+                    "de": "Correct period",
+                    "nl": "Correct period"
+          },
+          {
+                    "en": "Previous era",
+                    "es": "Previous era",
+                    "de": "Previous era",
+                    "nl": "Previous era"
+          },
+          {
+                    "en": "Next era",
+                    "es": "Next era",
+                    "de": "Next era",
+                    "nl": "Next era"
+          },
+          {
+                    "en": "Different civilization",
+                    "es": "Different civilization",
+                    "de": "Different civilization",
+                    "nl": "Different civilization"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What major event occurred at Pyramids of Giza?",
+                  "es": "What major event occurred at Pyramids of Giza?",
+                  "de": "What major event occurred at Pyramids of Giza?",
+                  "nl": "What major event occurred at Pyramids of Giza?"
+        },
+        options: [
+          {
+                    "en": "Correct event",
+                    "es": "Correct event",
+                    "de": "Correct event",
+                    "nl": "Correct event"
+          },
+          {
+                    "en": "Different event",
+                    "es": "Different event",
+                    "de": "Different event",
+                    "nl": "Different event"
+          },
+          {
+                    "en": "Later event",
+                    "es": "Later event",
+                    "de": "Later event",
+                    "nl": "Later event"
+          },
+          {
+                    "en": "Unrelated event",
+                    "es": "Unrelated event",
+                    "de": "Unrelated event",
+                    "nl": "Unrelated event"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Who was the original patron of Pyramids of Giza?",
+                  "es": "Who was the original patron of Pyramids of Giza?",
+                  "de": "Who was the original patron of Pyramids of Giza?",
+                  "nl": "Who was the original patron of Pyramids of Giza?"
+        },
+        options: [
+          {
+                    "en": "Correct patron",
+                    "es": "Correct patron",
+                    "de": "Correct patron",
+                    "nl": "Correct patron"
+          },
+          {
+                    "en": "Different noble",
+                    "es": "Different noble",
+                    "de": "Different noble",
+                    "nl": "Different noble"
+          },
+          {
+                    "en": "Merchant",
+                    "es": "Merchant",
+                    "de": "Merchant",
+                    "nl": "Merchant"
+          },
+          {
+                    "en": "Religious figure",
+                    "es": "Religious figure",
+                    "de": "Religious figure",
+                    "nl": "Religious figure"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What architectural style is Pyramids of Giza?",
+                  "es": "What architectural style is Pyramids of Giza?",
+                  "de": "What architectural style is Pyramids of Giza?",
+                  "nl": "What architectural style is Pyramids of Giza?"
+        },
+        options: [
+          {
+                    "en": "Correct style",
+                    "es": "Correct style",
+                    "de": "Correct style",
+                    "nl": "Correct style"
+          },
+          {
+                    "en": "Gothic",
+                    "es": "Gothic",
+                    "de": "Gothic",
+                    "nl": "Gothic"
+          },
+          {
+                    "en": "Baroque",
+                    "es": "Baroque",
+                    "de": "Baroque",
+                    "nl": "Baroque"
+          },
+          {
+                    "en": "Modern",
+                    "es": "Modern",
+                    "de": "Modern",
+                    "nl": "Modern"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Who was the chief architect of Pyramids of Giza?",
+                  "es": "Who was the chief architect of Pyramids of Giza?",
+                  "de": "Who was the chief architect of Pyramids of Giza?",
+                  "nl": "Who was the chief architect of Pyramids of Giza?"
+        },
+        options: [
+          {
+                    "en": "Correct architect",
+                    "es": "Correct architect",
+                    "de": "Correct architect",
+                    "nl": "Correct architect"
+          },
+          {
+                    "en": "Contemporary architect",
+                    "es": "Contemporary architect",
+                    "de": "Contemporary architect",
+                    "nl": "Contemporary architect"
+          },
+          {
+                    "en": "Famous architect",
+                    "es": "Famous architect",
+                    "de": "Famous architect",
+                    "nl": "Famous architect"
+          },
+          {
+                    "en": "Unknown",
+                    "es": "Unknown",
+                    "de": "Unknown",
+                    "nl": "Unknown"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What is the primary building material of Pyramids of Giza?",
+                  "es": "What is the primary building material of Pyramids of Giza?",
+                  "de": "What is the primary building material of Pyramids of Giza?",
+                  "nl": "What is the primary building material of Pyramids of Giza?"
+        },
+        options: [
+          {
+                    "en": "Correct material",
+                    "es": "Correct material",
+                    "de": "Correct material",
+                    "nl": "Correct material"
+          },
+          {
+                    "en": "Stone",
+                    "es": "Stone",
+                    "de": "Stone",
+                    "nl": "Stone"
+          },
+          {
+                    "en": "Wood",
+                    "es": "Wood",
+                    "de": "Wood",
+                    "nl": "Wood"
+          },
+          {
+                    "en": "Concrete",
+                    "es": "Concrete",
+                    "de": "Concrete",
+                    "nl": "Concrete"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How tall is Pyramids of Giza?",
+                  "es": "How tall is Pyramids of Giza?",
+                  "de": "How tall is Pyramids of Giza?",
+                  "nl": "How tall is Pyramids of Giza?"
+        },
+        options: [
+          {
+                    "en": "Correct height",
+                    "es": "Correct height",
+                    "de": "Correct height",
+                    "nl": "Correct height"
+          },
+          {
+                    "en": "25% less",
+                    "es": "25% less",
+                    "de": "25% less",
+                    "nl": "25% less"
+          },
+          {
+                    "en": "25% more",
+                    "es": "25% more",
+                    "de": "25% more",
+                    "nl": "25% more"
+          },
+          {
+                    "en": "Double",
+                    "es": "Double",
+                    "de": "Double",
+                    "nl": "Double"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How many floors does Pyramids of Giza have?",
+                  "es": "How many floors does Pyramids of Giza have?",
+                  "de": "How many floors does Pyramids of Giza have?",
+                  "nl": "How many floors does Pyramids of Giza have?"
+        },
+        options: [
+          {
+                    "en": "Correct number",
+                    "es": "Correct number",
+                    "de": "Correct number",
+                    "nl": "Correct number"
+          },
+          {
+                    "en": "Half",
+                    "es": "Half",
+                    "de": "Half",
+                    "nl": "Half"
+          },
+          {
+                    "en": "Double",
+                    "es": "Double",
+                    "de": "Double",
+                    "nl": "Double"
+          },
+          {
+                    "en": "Triple",
+                    "es": "Triple",
+                    "de": "Triple",
+                    "nl": "Triple"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What is the total area of Pyramids of Giza?",
+                  "es": "What is the total area of Pyramids of Giza?",
+                  "de": "What is the total area of Pyramids of Giza?",
+                  "nl": "What is the total area of Pyramids of Giza?"
+        },
+        options: [
+          {
+                    "en": "Correct area",
+                    "es": "Correct area",
+                    "de": "Correct area",
+                    "nl": "Correct area"
+          },
+          {
+                    "en": "Half the area",
+                    "es": "Half the area",
+                    "de": "Half the area",
+                    "nl": "Half the area"
+          },
+          {
+                    "en": "Double the area",
+                    "es": "Double the area",
+                    "de": "Double the area",
+                    "nl": "Double the area"
+          },
+          {
+                    "en": "Ten times larger",
+                    "es": "Ten times larger",
+                    "de": "Ten times larger",
+                    "nl": "Ten times larger"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What innovative technique was used in Pyramids of Giza?",
+                  "es": "What innovative technique was used in Pyramids of Giza?",
+                  "de": "What innovative technique was used in Pyramids of Giza?",
+                  "nl": "What innovative technique was used in Pyramids of Giza?"
+        },
+        options: [
+          {
+                    "en": "Correct technique",
+                    "es": "Correct technique",
+                    "de": "Correct technique",
+                    "nl": "Correct technique"
+          },
+          {
+                    "en": "Different method",
+                    "es": "Different method",
+                    "de": "Different method",
+                    "nl": "Different method"
+          },
+          {
+                    "en": "Modern method",
+                    "es": "Modern method",
+                    "de": "Modern method",
+                    "nl": "Modern method"
+          },
+          {
+                    "en": "Ancient method",
+                    "es": "Ancient method",
+                    "de": "Ancient method",
+                    "nl": "Ancient method"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What structural feature is unique to Pyramids of Giza?",
+                  "es": "What structural feature is unique to Pyramids of Giza?",
+                  "de": "What structural feature is unique to Pyramids of Giza?",
+                  "nl": "What structural feature is unique to Pyramids of Giza?"
+        },
+        options: [
+          {
+                    "en": "Correct feature",
+                    "es": "Correct feature",
+                    "de": "Correct feature",
+                    "nl": "Correct feature"
+          },
+          {
+                    "en": "Common feature",
+                    "es": "Common feature",
+                    "de": "Common feature",
+                    "nl": "Common feature"
+          },
+          {
+                    "en": "Modern addition",
+                    "es": "Modern addition",
+                    "de": "Modern addition",
+                    "nl": "Modern addition"
+          },
+          {
+                    "en": "Different building's feature",
+                    "es": "Different building's feature",
+                    "de": "Different building's feature",
+                    "nl": "Different building's feature"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What is Pyramids of Giza primarily used for today?",
+                  "es": "What is Pyramids of Giza primarily used for today?",
+                  "de": "What is Pyramids of Giza primarily used for today?",
+                  "nl": "What is Pyramids of Giza primarily used for today?"
+        },
+        options: [
+          {
+                    "en": "Current use",
+                    "es": "Current use",
+                    "de": "Current use",
+                    "nl": "Current use"
+          },
+          {
+                    "en": "Museum only",
+                    "es": "Museum only",
+                    "de": "Museum only",
+                    "nl": "Museum only"
+          },
+          {
+                    "en": "Abandoned",
+                    "es": "Abandoned",
+                    "de": "Abandoned",
+                    "nl": "Abandoned"
+          },
+          {
+                    "en": "Government building",
+                    "es": "Government building",
+                    "de": "Government building",
+                    "nl": "Government building"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How many visitors does Pyramids of Giza receive annually?",
+                  "es": "How many visitors does Pyramids of Giza receive annually?",
+                  "de": "How many visitors does Pyramids of Giza receive annually?",
+                  "nl": "How many visitors does Pyramids of Giza receive annually?"
+        },
+        options: [
+          {
+                    "en": "Correct number",
+                    "es": "Correct number",
+                    "de": "Correct number",
+                    "nl": "Correct number"
+          },
+          {
+                    "en": "Half",
+                    "es": "Half",
+                    "de": "Half",
+                    "nl": "Half"
+          },
+          {
+                    "en": "Double",
+                    "es": "Double",
+                    "de": "Double",
+                    "nl": "Double"
+          },
+          {
+                    "en": "Ten times more",
+                    "es": "Ten times more",
+                    "de": "Ten times more",
+                    "nl": "Ten times more"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "In which UNESCO list is Pyramids of Giza included?",
+                  "es": "In which UNESCO list is Pyramids of Giza included?",
+                  "de": "In which UNESCO list is Pyramids of Giza included?",
+                  "nl": "In which UNESCO list is Pyramids of Giza included?"
+        },
+        options: [
+          {
+                    "en": "World Heritage Sites",
+                    "es": "World Heritage Sites",
+                    "de": "World Heritage Sites",
+                    "nl": "World Heritage Sites"
+          },
+          {
+                    "en": "Tentative List",
+                    "es": "Tentative List",
+                    "de": "Tentative List",
+                    "nl": "Tentative List"
+          },
+          {
+                    "en": "Not listed",
+                    "es": "Not listed",
+                    "de": "Not listed",
+                    "nl": "Not listed"
+          },
+          {
+                    "en": "Endangered Sites",
+                    "es": "Endangered Sites",
+                    "de": "Endangered Sites",
+                    "nl": "Endangered Sites"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What cultural significance does Pyramids of Giza have?",
+                  "es": "What cultural significance does Pyramids of Giza have?",
+                  "de": "What cultural significance does Pyramids of Giza have?",
+                  "nl": "What cultural significance does Pyramids of Giza have?"
+        },
+        options: [
+          {
+                    "en": "Correct significance",
+                    "es": "Correct significance",
+                    "de": "Correct significance",
+                    "nl": "Correct significance"
+          },
+          {
+                    "en": "Religious only",
+                    "es": "Religious only",
+                    "de": "Religious only",
+                    "nl": "Religious only"
+          },
+          {
+                    "en": "Military only",
+                    "es": "Military only",
+                    "de": "Military only",
+                    "nl": "Military only"
+          },
+          {
+                    "en": "No significance",
+                    "es": "No significance",
+                    "de": "No significance",
+                    "nl": "No significance"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about Pyramids of Giza is historically accurate and well-documented.",
+                  "es": "Este hecho sobre Pyramids of Giza es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über Pyramids of Giza ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over Pyramids of Giza is historisch accuraat en goed gedocumenteerd."
+        }
+      }
+      }
     ];
 
     if (typeof module !== 'undefined' && module.exports) {

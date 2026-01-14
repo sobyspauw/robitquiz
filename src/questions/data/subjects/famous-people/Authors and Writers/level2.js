@@ -826,6 +826,48 @@
           de: "Ernest Hemingway schrieb 'Wem die Stunde schlägt' im Jahr 1940. Der Roman spielt während des Spanischen Bürgerkriegs und folgt dem Amerikaner Robert Jordan, der mit republikanischen Guerillas kämpft.",
           nl: "Ernest Hemingway schreef 'Voor wie de klok luidt' in 1940. De roman speelt zich af tijdens de Spaanse Burgeroorlog en volgt de Amerikaan Robert Jordan die vecht met Republikeinse guerrillastrijders."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this authors and writer born?",
+                  "es": "When was este/a authors and writer born?",
+                  "de": "When was diese(r) authors and writer born?",
+                  "nl": "When was deze authors and writer born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

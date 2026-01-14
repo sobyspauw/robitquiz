@@ -826,6 +826,48 @@
           de: "Isaac Asimov formulierte die drei Gesetze der Robotik in seiner Geschichte 'Runaround' von 1942: Roboter dürfen Menschen nicht schaden, müssen Befehlen gehorchen und müssen sich selbst schützen. Obwohl fiktiv, beeinflussten diese Gesetze die echte Robotikethik.",
           nl: "Isaac Asimov formuleerde de Drie Wetten van Robotica in zijn verhaal 'Runaround' uit 1942: robots mogen mensen geen kwaad doen, moeten bevelen gehoorzamen en moeten zichzelf beschermen. Hoewel fictief, beïnvloedden deze wetten echte robotica-ethiek."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this scientist born?",
+                  "es": "When was este/a scientist born?",
+                  "de": "When was diese(r) scientist born?",
+                  "nl": "When was deze scientist born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

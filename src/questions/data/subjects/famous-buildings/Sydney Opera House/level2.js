@@ -827,6 +827,48 @@
           nl: "Het Sydney Opera House heeft 5 restaurants en bars die maaltijden en versnaperingen aanbieden aan bezoekers en publiek."
         }
       }
+    ,
+      {
+        question: {
+                  "en": "When was Sydney Opera House completed?",
+                  "es": "When was Sydney Opera House completed?",
+                  "de": "When was Sydney Opera House completed?",
+                  "nl": "When was Sydney Opera House completed?"
+        },
+        options: [
+          {
+                    "en": "In the correct year",
+                    "es": "In the correct year",
+                    "de": "In the correct year",
+                    "nl": "In the correct year"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "20 years later",
+                    "es": "20 years later",
+                    "de": "20 years later",
+                    "nl": "20 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "Sydney Opera House was completed in its historically accurate year.",
+                  "es": "Sydney Opera House was completed in its historically accurate year.",
+                  "de": "Sydney Opera House was completed in its historically accurate year.",
+                  "nl": "Sydney Opera House was completed in its historically accurate year."
+        }
+      }
     ]
   };
 

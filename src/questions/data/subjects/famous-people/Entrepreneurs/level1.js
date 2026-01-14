@@ -805,6 +805,89 @@
           de: "Conrad Hilton gründete Hilton Hotels 1919 und baute ein globales Gastgewerbe-Imperium auf, das zu einer der größten und bekanntesten Hotelketten der Welt wurde.",
           nl: "Conrad Hilton richtte Hilton Hotels op in 1919, hij bouwde een wereldwijd horeca-imperium op dat een van 's werelds grootste en meest erkende hotelketens werd."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this entrepreneur born?",
+                  "es": "When was este/a entrepreneur born?",
+                  "de": "When was diese(r) entrepreneur born?",
+                  "nl": "When was deze entrepreneur born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this entrepreneur is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this entrepreneur es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this entrepreneur ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this entrepreneur is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Where was this entrepreneur born?",
+                  "es": "Where was este/a entrepreneur born?",
+                  "de": "Where was diese(r) entrepreneur born?",
+                  "nl": "Where was deze entrepreneur born?"
+        },
+        options: [
+          {
+                    "en": "Correct location",
+                    "es": "Correct location",
+                    "de": "Correct location",
+                    "nl": "Correct location"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          },
+          {
+                    "en": "Capital city",
+                    "es": "Capital city",
+                    "de": "Capital city",
+                    "nl": "Capital city"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this entrepreneur is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this entrepreneur es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this entrepreneur ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this entrepreneur is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

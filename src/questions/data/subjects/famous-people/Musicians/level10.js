@@ -427,6 +427,827 @@
           de: "Bach verwendete den numerischen Wert seines Namens: B(2) + A(1) + C(3) + H(8) = 14. Diese Zahl erscheint durchgehend in 'Die Kunst der Fuge' in Taktzahlen, Notenmustern und strukturellen Gliederungen, was Bachs raffinierte Verwendung mathematischer Symbolik in der Komposition demonstriert.",
           nl: "Bach gebruikte de numerieke waarde van zijn naam: B(2) + A(1) + C(3) + H(8) = 14. Dit getal verschijnt door 'De Kunst van de Fuga' in maattellingen, nootpatronen en structurele indelingen, wat Bach's verfijnde gebruik van wiskundige symboliek in compositie toont."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this musician born?",
+                  "es": "When was este/a musician born?",
+                  "de": "When was diese(r) musician born?",
+                  "nl": "When was deze musician born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Where was this musician born?",
+                  "es": "Where was este/a musician born?",
+                  "de": "Where was diese(r) musician born?",
+                  "nl": "Where was deze musician born?"
+        },
+        options: [
+          {
+                    "en": "Correct location",
+                    "es": "Correct location",
+                    "de": "Correct location",
+                    "nl": "Correct location"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          },
+          {
+                    "en": "Capital city",
+                    "es": "Capital city",
+                    "de": "Capital city",
+                    "nl": "Capital city"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this musician's full name?",
+                  "es": "What was este/a musician's full name?",
+                  "de": "What was diese(r) musician's full name?",
+                  "nl": "What was deze musician's full name?"
+        },
+        options: [
+          {
+                    "en": "Correct name",
+                    "es": "Correct name",
+                    "de": "Correct name",
+                    "nl": "Correct name"
+          },
+          {
+                    "en": "Similar name",
+                    "es": "Similar name",
+                    "de": "Similar name",
+                    "nl": "Similar name"
+          },
+          {
+                    "en": "Common name",
+                    "es": "Common name",
+                    "de": "Common name",
+                    "nl": "Common name"
+          },
+          {
+                    "en": "Stage name only",
+                    "es": "Stage name only",
+                    "de": "Stage name only",
+                    "nl": "Stage name only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "When did this musician pass away?",
+                  "es": "When did este/a musician pass away?",
+                  "de": "When did diese(r) musician pass away?",
+                  "nl": "When did deze musician pass away?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "Still alive",
+                    "es": "Still alive",
+                    "de": "Still alive",
+                    "nl": "Still alive"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How old was this musician when they died?",
+                  "es": "How old was este/a musician when they died?",
+                  "de": "How old was diese(r) musician when they died?",
+                  "nl": "How old was deze musician when they died?"
+        },
+        options: [
+          {
+                    "en": "Correct age",
+                    "es": "Correct age",
+                    "de": "Correct age",
+                    "nl": "Correct age"
+          },
+          {
+                    "en": "10 years younger",
+                    "es": "10 years younger",
+                    "de": "10 years younger",
+                    "nl": "10 years younger"
+          },
+          {
+                    "en": "10 years older",
+                    "es": "10 years older",
+                    "de": "10 years older",
+                    "nl": "10 years older"
+          },
+          {
+                    "en": "Different age",
+                    "es": "Different age",
+                    "de": "Different age",
+                    "nl": "Different age"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this musician's nationality?",
+                  "es": "What was este/a musician's nationality?",
+                  "de": "What was diese(r) musician's nationality?",
+                  "nl": "What was deze musician's nationality?"
+        },
+        options: [
+          {
+                    "en": "Correct nationality",
+                    "es": "Correct nationality",
+                    "de": "Correct nationality",
+                    "nl": "Correct nationality"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Colonial power",
+                    "es": "Colonial power",
+                    "de": "Colonial power",
+                    "nl": "Colonial power"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this musician's education?",
+                  "es": "What was este/a musician's education?",
+                  "de": "What was diese(r) musician's education?",
+                  "nl": "What was deze musician's education?"
+        },
+        options: [
+          {
+                    "en": "Correct education",
+                    "es": "Correct education",
+                    "de": "Correct education",
+                    "nl": "Correct education"
+          },
+          {
+                    "en": "No formal education",
+                    "es": "No formal education",
+                    "de": "No formal education",
+                    "nl": "No formal education"
+          },
+          {
+                    "en": "Different field",
+                    "es": "Different field",
+                    "de": "Different field",
+                    "nl": "Different field"
+          },
+          {
+                    "en": "PhD only",
+                    "es": "PhD only",
+                    "de": "PhD only",
+                    "nl": "PhD only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Who were this musician's parents?",
+                  "es": "Who were este/a musician's parents?",
+                  "de": "Who were diese(r) musician's parents?",
+                  "nl": "Who were deze musician's parents?"
+        },
+        options: [
+          {
+                    "en": "Correct parents",
+                    "es": "Correct parents",
+                    "de": "Correct parents",
+                    "nl": "Correct parents"
+          },
+          {
+                    "en": "Famous contemporaries",
+                    "es": "Famous contemporaries",
+                    "de": "Famous contemporaries",
+                    "nl": "Famous contemporaries"
+          },
+          {
+                    "en": "Unknown",
+                    "es": "Unknown",
+                    "de": "Unknown",
+                    "nl": "Unknown"
+          },
+          {
+                    "en": "Royalty",
+                    "es": "Royalty",
+                    "de": "Royalty",
+                    "nl": "Royalty"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this musician's primary profession?",
+                  "es": "What was este/a musician's primary profession?",
+                  "de": "What was diese(r) musician's primary profession?",
+                  "nl": "What was deze musician's primary profession?"
+        },
+        options: [
+          {
+                    "en": "Correct profession",
+                    "es": "Correct profession",
+                    "de": "Correct profession",
+                    "nl": "Correct profession"
+          },
+          {
+                    "en": "Related field",
+                    "es": "Related field",
+                    "de": "Related field",
+                    "nl": "Related field"
+          },
+          {
+                    "en": "Different field",
+                    "es": "Different field",
+                    "de": "Different field",
+                    "nl": "Different field"
+          },
+          {
+                    "en": "Multiple professions",
+                    "es": "Multiple professions",
+                    "de": "Multiple professions",
+                    "nl": "Multiple professions"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "When did this musician start their career?",
+                  "es": "When did este/a musician start their career?",
+                  "de": "When did diese(r) musician start their career?",
+                  "nl": "When did deze musician start their career?"
+        },
+        options: [
+          {
+                    "en": "Correct period",
+                    "es": "Correct period",
+                    "de": "Correct period",
+                    "nl": "Correct period"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "Child prodigy",
+                    "es": "Child prodigy",
+                    "de": "Child prodigy",
+                    "nl": "Child prodigy"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this musician's breakthrough moment?",
+                  "es": "What was este/a musician's breakthrough moment?",
+                  "de": "What was diese(r) musician's breakthrough moment?",
+                  "nl": "What was deze musician's breakthrough moment?"
+        },
+        options: [
+          {
+                    "en": "Correct achievement",
+                    "es": "Correct achievement",
+                    "de": "Correct achievement",
+                    "nl": "Correct achievement"
+          },
+          {
+                    "en": "Different achievement",
+                    "es": "Different achievement",
+                    "de": "Different achievement",
+                    "nl": "Different achievement"
+          },
+          {
+                    "en": "Later work",
+                    "es": "Later work",
+                    "de": "Later work",
+                    "nl": "Later work"
+          },
+          {
+                    "en": "First work",
+                    "es": "First work",
+                    "de": "First work",
+                    "nl": "First work"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Who was this musician's mentor?",
+                  "es": "Who was este/a musician's mentor?",
+                  "de": "Who was diese(r) musician's mentor?",
+                  "nl": "Who was deze musician's mentor?"
+        },
+        options: [
+          {
+                    "en": "Correct mentor",
+                    "es": "Correct mentor",
+                    "de": "Correct mentor",
+                    "nl": "Correct mentor"
+          },
+          {
+                    "en": "Contemporary",
+                    "es": "Contemporary",
+                    "de": "Contemporary",
+                    "nl": "Contemporary"
+          },
+          {
+                    "en": "Self-taught",
+                    "es": "Self-taught",
+                    "de": "Self-taught",
+                    "nl": "Self-taught"
+          },
+          {
+                    "en": "Family member",
+                    "es": "Family member",
+                    "de": "Family member",
+                    "nl": "Family member"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What organization did this musician found?",
+                  "es": "What organization did este/a musician found?",
+                  "de": "What organization did diese(r) musician found?",
+                  "nl": "What organization did deze musician found?"
+        },
+        options: [
+          {
+                    "en": "Correct organization",
+                    "es": "Correct organization",
+                    "de": "Correct organization",
+                    "nl": "Correct organization"
+          },
+          {
+                    "en": "Different group",
+                    "es": "Different group",
+                    "de": "Different group",
+                    "nl": "Different group"
+          },
+          {
+                    "en": "Nothing",
+                    "es": "Nothing",
+                    "de": "Nothing",
+                    "nl": "Nothing"
+          },
+          {
+                    "en": "Multiple organizations",
+                    "es": "Multiple organizations",
+                    "de": "Multiple organizations",
+                    "nl": "Multiple organizations"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What position did this musician hold?",
+                  "es": "What position did este/a musician hold?",
+                  "de": "What position did diese(r) musician hold?",
+                  "nl": "What position did deze musician hold?"
+        },
+        options: [
+          {
+                    "en": "Correct position",
+                    "es": "Correct position",
+                    "de": "Correct position",
+                    "nl": "Correct position"
+          },
+          {
+                    "en": "Lower position",
+                    "es": "Lower position",
+                    "de": "Lower position",
+                    "nl": "Lower position"
+          },
+          {
+                    "en": "Higher position",
+                    "es": "Higher position",
+                    "de": "Higher position",
+                    "nl": "Higher position"
+          },
+          {
+                    "en": "No position",
+                    "es": "No position",
+                    "de": "No position",
+                    "nl": "No position"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How long was this musician's career?",
+                  "es": "How long was este/a musician's career?",
+                  "de": "How long was diese(r) musician's career?",
+                  "nl": "How long was deze musician's career?"
+        },
+        options: [
+          {
+                    "en": "Correct duration",
+                    "es": "Correct duration",
+                    "de": "Correct duration",
+                    "nl": "Correct duration"
+          },
+          {
+                    "en": "Half the time",
+                    "es": "Half the time",
+                    "de": "Half the time",
+                    "nl": "Half the time"
+          },
+          {
+                    "en": "Double the time",
+                    "es": "Double the time",
+                    "de": "Double the time",
+                    "nl": "Double the time"
+          },
+          {
+                    "en": "Entire life",
+                    "es": "Entire life",
+                    "de": "Entire life",
+                    "nl": "Entire life"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Where did this musician work primarily?",
+                  "es": "Where did este/a musician work primarily?",
+                  "de": "Where did diese(r) musician work primarily?",
+                  "nl": "Where did deze musician work primarily?"
+        },
+        options: [
+          {
+                    "en": "Correct location",
+                    "es": "Correct location",
+                    "de": "Correct location",
+                    "nl": "Correct location"
+          },
+          {
+                    "en": "Different city",
+                    "es": "Different city",
+                    "de": "Different city",
+                    "nl": "Different city"
+          },
+          {
+                    "en": "Multiple locations",
+                    "es": "Multiple locations",
+                    "de": "Multiple locations",
+                    "nl": "Multiple locations"
+          },
+          {
+                    "en": "Remote only",
+                    "es": "Remote only",
+                    "de": "Remote only",
+                    "nl": "Remote only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What is this musician best known for?",
+                  "es": "What is este/a musician best known for?",
+                  "de": "What is diese(r) musician best known for?",
+                  "nl": "What is deze musician best known for?"
+        },
+        options: [
+          {
+                    "en": "Main achievement",
+                    "es": "Main achievement",
+                    "de": "Main achievement",
+                    "nl": "Main achievement"
+          },
+          {
+                    "en": "Minor work",
+                    "es": "Minor work",
+                    "de": "Minor work",
+                    "nl": "Minor work"
+          },
+          {
+                    "en": "Different person's work",
+                    "es": "Different person's work",
+                    "de": "Different person's work",
+                    "nl": "Different person's work"
+          },
+          {
+                    "en": "Controversy",
+                    "es": "Controversy",
+                    "de": "Controversy",
+                    "nl": "Controversy"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What award did this musician receive?",
+                  "es": "What award did este/a musician receive?",
+                  "de": "What award did diese(r) musician receive?",
+                  "nl": "What award did deze musician receive?"
+        },
+        options: [
+          {
+                    "en": "Correct award",
+                    "es": "Correct award",
+                    "de": "Correct award",
+                    "nl": "Correct award"
+          },
+          {
+                    "en": "Different award",
+                    "es": "Different award",
+                    "de": "Different award",
+                    "nl": "Different award"
+          },
+          {
+                    "en": "No awards",
+                    "es": "No awards",
+                    "de": "No awards",
+                    "nl": "No awards"
+          },
+          {
+                    "en": "Posthumous only",
+                    "es": "Posthumous only",
+                    "de": "Posthumous only",
+                    "nl": "Posthumous only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How many times was this musician nominated?",
+                  "es": "How many times was este/a musician nominated?",
+                  "de": "How many times was diese(r) musician nominated?",
+                  "nl": "How many times was deze musician nominated?"
+        },
+        options: [
+          {
+                    "en": "Correct number",
+                    "es": "Correct number",
+                    "de": "Correct number",
+                    "nl": "Correct number"
+          },
+          {
+                    "en": "Never",
+                    "es": "Never",
+                    "de": "Never",
+                    "nl": "Never"
+          },
+          {
+                    "en": "Once",
+                    "es": "Once",
+                    "de": "Once",
+                    "nl": "Once"
+          },
+          {
+                    "en": "Every year",
+                    "es": "Every year",
+                    "de": "Every year",
+                    "nl": "Every year"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What record does this musician hold?",
+                  "es": "What record does este/a musician hold?",
+                  "de": "What record does diese(r) musician hold?",
+                  "nl": "What record does deze musician hold?"
+        },
+        options: [
+          {
+                    "en": "Correct record",
+                    "es": "Correct record",
+                    "de": "Correct record",
+                    "nl": "Correct record"
+          },
+          {
+                    "en": "Different record",
+                    "es": "Different record",
+                    "de": "Different record",
+                    "nl": "Different record"
+          },
+          {
+                    "en": "No records",
+                    "es": "No records",
+                    "de": "No records",
+                    "nl": "No records"
+          },
+          {
+                    "en": "Shared record",
+                    "es": "Shared record",
+                    "de": "Shared record",
+                    "nl": "Shared record"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this musician is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this musician es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this musician ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this musician is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

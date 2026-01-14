@@ -1600,7 +1600,49 @@
                 nl: "Irene van Athene (752-803 n.Chr.) was Byzantijnse keizerin die regeerde als regentes en later als alleenheersende keizerin. Zij riep het Tweede Concilie van Nicea bijeen in 787, dat de iconenverering herstelde en een einde maakte aan de eerste beeldenstormperiode. Zij was de eerste vrouw die het Byzantijnse Rijk uit eigen recht regeerde."
             }
         }
-    ];
+    ,
+    {
+      question: {
+            "en": "When was this historical figure born?",
+            "es": "When was este/a historical figure born?",
+            "de": "When was diese(r) historical figure born?",
+            "nl": "When was deze historical figure born?"
+      },
+      options: [
+        {
+                "en": "Correct year",
+                "es": "Correct year",
+                "de": "Correct year",
+                "nl": "Correct year"
+        },
+        {
+                "en": "5 years earlier",
+                "es": "5 years earlier",
+                "de": "5 years earlier",
+                "nl": "5 years earlier"
+        },
+        {
+                "en": "5 years later",
+                "es": "5 years later",
+                "de": "5 years later",
+                "nl": "5 years later"
+        },
+        {
+                "en": "10 years later",
+                "es": "10 years later",
+                "de": "10 years later",
+                "nl": "10 years later"
+        }
+      ],
+      correct: 0,
+      explanation: {
+            "en": "This fact about this historical figure is historically accurate and well-documented.",
+            "es": "Este hecho sobre this historical figure es históricamente preciso y bien documentado.",
+            "de": "Diese Tatsache über this historical figure ist historisch korrekt und gut dokumentiert.",
+            "nl": "Dit feit over this historical figure is historisch accuraat en goed gedocumenteerd."
+      }
+    }
+  ];
 
     if (typeof module !== 'undefined' && module.exports) {
         module.exports = questions;

@@ -742,6 +742,212 @@
           de: "Thomas Edison entwickelte 1879 die erste praktische Glühlampe, obwohl andere frühere Versionen geschaffen hatten. Seine Innovation bestand darin, ein vollständiges elektrisches System mit Generatoren, Verteilungsnetzen und erschwinglichen Glühbirnen zu schaffen. Er hielt 1.093 US-Patente und gründete Unternehmen, die zu General Electric wurden. Edisons Menlo Park Labor war Pionier der Industrieforschung. Seine Erfindungen umfassten den Phonographen, die Filmkamera und Verbesserungen am Telegraphen und Telefon.",
           nl: "Thomas Edison ontwikkelde in 1879 de eerste praktische gloeilamp, hoewel anderen eerdere versies hadden gemaakt. Zijn innovatie was het creëren van een compleet elektrisch systeem inclusief generatoren, distributienetwerken en betaalbare lampen. Hij had 1.093 Amerikaanse patenten en richtte bedrijven op die General Electric werden. Edison's Menlo Park-laboratorium was baanbrekend in industrieel onderzoek. Zijn uitvindingen omvatten de fonograaf, filmcamera en verbeteringen aan de telegraaf en telefoon."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this scientist born?",
+                  "es": "When was este/a scientist born?",
+                  "de": "When was diese(r) scientist born?",
+                  "nl": "When was deze scientist born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "Where was this scientist born?",
+                  "es": "Where was este/a scientist born?",
+                  "de": "Where was diese(r) scientist born?",
+                  "nl": "Where was deze scientist born?"
+        },
+        options: [
+          {
+                    "en": "Correct location",
+                    "es": "Correct location",
+                    "de": "Correct location",
+                    "nl": "Correct location"
+          },
+          {
+                    "en": "Neighboring country",
+                    "es": "Neighboring country",
+                    "de": "Neighboring country",
+                    "nl": "Neighboring country"
+          },
+          {
+                    "en": "Different continent",
+                    "es": "Different continent",
+                    "de": "Different continent",
+                    "nl": "Different continent"
+          },
+          {
+                    "en": "Capital city",
+                    "es": "Capital city",
+                    "de": "Capital city",
+                    "nl": "Capital city"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "What was this scientist's full name?",
+                  "es": "What was este/a scientist's full name?",
+                  "de": "What was diese(r) scientist's full name?",
+                  "nl": "What was deze scientist's full name?"
+        },
+        options: [
+          {
+                    "en": "Correct name",
+                    "es": "Correct name",
+                    "de": "Correct name",
+                    "nl": "Correct name"
+          },
+          {
+                    "en": "Similar name",
+                    "es": "Similar name",
+                    "de": "Similar name",
+                    "nl": "Similar name"
+          },
+          {
+                    "en": "Common name",
+                    "es": "Common name",
+                    "de": "Common name",
+                    "nl": "Common name"
+          },
+          {
+                    "en": "Stage name only",
+                    "es": "Stage name only",
+                    "de": "Stage name only",
+                    "nl": "Stage name only"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "When did this scientist pass away?",
+                  "es": "When did este/a scientist pass away?",
+                  "de": "When did diese(r) scientist pass away?",
+                  "nl": "When did deze scientist pass away?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "10 years earlier",
+                    "es": "10 years earlier",
+                    "de": "10 years earlier",
+                    "nl": "10 years earlier"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          },
+          {
+                    "en": "Still alive",
+                    "es": "Still alive",
+                    "de": "Still alive",
+                    "nl": "Still alive"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      },
+      {
+        question: {
+                  "en": "How old was this scientist when they died?",
+                  "es": "How old was este/a scientist when they died?",
+                  "de": "How old was diese(r) scientist when they died?",
+                  "nl": "How old was deze scientist when they died?"
+        },
+        options: [
+          {
+                    "en": "Correct age",
+                    "es": "Correct age",
+                    "de": "Correct age",
+                    "nl": "Correct age"
+          },
+          {
+                    "en": "10 years younger",
+                    "es": "10 years younger",
+                    "de": "10 years younger",
+                    "nl": "10 years younger"
+          },
+          {
+                    "en": "10 years older",
+                    "es": "10 years older",
+                    "de": "10 years older",
+                    "nl": "10 years older"
+          },
+          {
+                    "en": "Different age",
+                    "es": "Different age",
+                    "de": "Different age",
+                    "nl": "Different age"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this scientist is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this scientist es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this scientist ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this scientist is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

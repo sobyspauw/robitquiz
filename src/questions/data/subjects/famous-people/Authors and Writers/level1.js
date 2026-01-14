@@ -826,6 +826,48 @@
           de: "Charles Dickens schrieb 'Eine Geschichte zweier Städte' im Jahr 1859. Der während der Französischen Revolution spielende Roman beginnt mit der berühmten Zeile 'Es war die beste Zeit, es war die schlimmste Zeit'.",
           nl: "Charles Dickens schreef 'Een verhaal van twee steden' in 1859. Het speelt zich af tijdens de Franse Revolutie en begint met de beroemde regel 'Het was de beste tijd, het was de slechtste tijd'."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this authors and writer born?",
+                  "es": "When was este/a authors and writer born?",
+                  "de": "When was diese(r) authors and writer born?",
+                  "nl": "When was deze authors and writer born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };

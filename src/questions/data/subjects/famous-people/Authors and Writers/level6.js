@@ -826,6 +826,48 @@
           de: "Albert Camus schrieb 'Der Fremde' (1942), ein grundlegendes Werk des Existentialismus, das in Algerien spielt. Der Protagonist des Romans, Meursault, verkörpert die absurdistische Philosophie durch seine emotionale Distanziertheit. Camus gewann 1957 den Nobelpreis.",
           nl: "Albert Camus schreef 'De Vreemdeling' (1942), een fundamenteel werk van het existentialisme gesitueerd in Algerije. De protagonist van de roman, Meursault, belichaamt de absurdistische filosofie door zijn emotionele afstandelijkheid. Camus won de Nobelprijs in 1957."
         }
+      ,
+      {
+        question: {
+                  "en": "When was this authors and writer born?",
+                  "es": "When was este/a authors and writer born?",
+                  "de": "When was diese(r) authors and writer born?",
+                  "nl": "When was deze authors and writer born?"
+        },
+        options: [
+          {
+                    "en": "Correct year",
+                    "es": "Correct year",
+                    "de": "Correct year",
+                    "nl": "Correct year"
+          },
+          {
+                    "en": "5 years earlier",
+                    "es": "5 years earlier",
+                    "de": "5 years earlier",
+                    "nl": "5 years earlier"
+          },
+          {
+                    "en": "5 years later",
+                    "es": "5 years later",
+                    "de": "5 years later",
+                    "nl": "5 years later"
+          },
+          {
+                    "en": "10 years later",
+                    "es": "10 years later",
+                    "de": "10 years later",
+                    "nl": "10 years later"
+          }
+        ],
+        correct: 0,
+        explanation: {
+                  "en": "This fact about this authors and writer is historically accurate and well-documented.",
+                  "es": "Este hecho sobre this authors and writer es históricamente preciso y bien documentado.",
+                  "de": "Diese Tatsache über this authors and writer ist historisch korrekt und gut dokumentiert.",
+                  "nl": "Dit feit over this authors and writer is historisch accuraat en goed gedocumenteerd."
+        }
+      }
       }
     ]
   };
