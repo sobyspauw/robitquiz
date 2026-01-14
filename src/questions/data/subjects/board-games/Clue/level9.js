@@ -1649,9 +1649,8 @@
             nl: "Perfect deduction means logically eliminating all but one possibility in each category without making accusations."
           }
         }
-        }
-      ]
-};
+    ]
+  };
 
   // Export for use in the quiz application
   if (typeof module !== 'undefined' && module.exports) {

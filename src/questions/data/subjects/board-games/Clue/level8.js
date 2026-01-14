@@ -1649,9 +1649,8 @@
             nl: "By rapidly closing in on solution, you can pressure opponents to make premature accusations, eliminating competition."
           }
         }
-        }
-      ]
-};
+    ]
+  };
 
   // Export for use in the quiz application
   if (typeof module !== 'undefined' && module.exports) {

@@ -846,7 +846,6 @@
           nl: "Edmond Dantes is wrongfully imprisoned in the Chateau dIf fortress for 14 years."
         }
       }
-      }
     ]
   };
 

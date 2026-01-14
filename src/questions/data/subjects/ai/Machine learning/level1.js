@@ -847,8 +847,8 @@
           de: "KI-Voreingenommenheit tritt auf wenn ein Modell für verschiedene Gruppen unterschiedlich funktioniert, oft weil die Trainingsdaten nicht alle Gruppen gleich repräsentieren oder historische Vorurteile enthalten.",
           nl: "AI bias treedt op wanneer een model anders presteert voor verschillende groepen, vaak omdat de trainingsdata niet alle groepen gelijk vertegenwoordigt of historische vooroordelen bevat."
         }
-      },
       }
+    ]
   };
 
   // Export for use in the quiz application

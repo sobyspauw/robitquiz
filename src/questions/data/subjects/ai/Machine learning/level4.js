@@ -806,6 +806,7 @@
           nl: "Active learning vraagt intelligent om labels voor de meest informatieve voorbeelden, vermindert labelkosten door menselijke inspanning te richten op data die het model maximaal verbetert, bijzonder nuttig wanneer labelen duur is."
         }
       },
+      {
         question: {
           en: "What is the difference between shallow and deep learning?",
           es: "¿Cuál es la diferencia entre aprendizaje superficial y profundo?",
